@@ -1,0 +1,29 @@
+name: ovbot
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron:  '1 1 * * 0'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+
+    steps:
+
+      - uses: actions/checkout@v2
+        with:
+          ref: 'master'
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '2.7'
+
+      - name: Fetch files
+        run: |
+          sudo apt-get -q update
+          sudo apt-get install dos2unix rename
+          ./CI/build.sh
