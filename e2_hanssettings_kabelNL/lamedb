@@ -150,6 +150,9 @@ ffff0000:0c81:0600
 ffff0000:0c82:0600
 	c 266000:6900000:2:5:0:0:0
 /
+ffff0000:0caa:0600
+	c 266000:6900000:2:5:0:0:0
+/
 ffff0000:0cac:0600
 	c 266000:6900000:2:5:0:0:0
 /
@@ -401,9 +404,6 @@ ffff0000:0906:2210
 /
 ffff0000:0908:2210
 	c 6660000:0:2:3:0:0:0
-/
-ffff0000:0caa:0600
-	c 266000:6900000:2:5:0:0:0
 /
 eeee0000:0906:2210
 	t 570000000:0:5:5:3:2:4:4:2:0:0:0
@@ -2504,6 +2504,33 @@ p:Ziggo,c:050001
 1aff:ffff0000:0c82:0600:25:0
 Roerstreek OR6
 p:Ziggo,c:050001
+1f4a:ffff0000:0caa:0600:1:0
+RTV Slingeland
+p:Ziggo
+1f4c:ffff0000:0caa:0600:1:0
+Studio Rheden TV
+p:Ziggo
+1f4d:ffff0000:0caa:0600:1:0
+REGIO8 TV
+p:Ziggo
+1f4f:ffff0000:0caa:0600:1:0
+Samen1 TV
+p:Ziggo
+1f50:ffff0000:0caa:0600:1:0
+RTV Rijnstreek
+p:Ziggo
+1f51:ffff0000:0caa:0600:1:0
+EDE TV
+p:Ziggo
+1f52:ffff0000:0caa:0600:1:0
+Ideaal TV
+p:Ziggo
+1f4b:ffff0000:0caa:0600:22:0
+RTV Connect
+p:Ziggo,c:050001
+1f53:ffff0000:0caa:0600:22:0
+794 Voorst Veluwezoom
+p:Ziggo,c:050001
 1400:ffff0000:0cac:0600:2:0
 VOS FM
 p:Ziggo
@@ -4559,33 +4586,6 @@ p:KPN,c:050007
 00dc:ffff0000:0908:2210:31:0
 ESPN2 / CartoonNetwork / AT5
 p:Digitenne
-1f53:ffff0000:0caa:0600:22:0
-794 Voorst Veluwezoom
-p:Ziggo,c:050001
-1f51:ffff0000:0caa:0600:1:1
-EDE TV
-p:Ziggo
-1f52:ffff0000:0caa:0600:1:2
-Ideaal TV
-p:Ziggo
-1f4d:ffff0000:0caa:0600:1:3
-REGIO8 TV
-p:Ziggo
-1f4b:ffff0000:0caa:0600:22:4
-RTV Connect
-p:Ziggo,c:050001
-1f50:ffff0000:0caa:0600:1:5
-RTV Rijnstreek
-p:Ziggo
-1f4a:ffff0000:0caa:0600:1:6
-RTV Slingeland
-p:Ziggo
-1f4f:ffff0000:0caa:0600:1:7
-Samen1 TV
-p:Ziggo
-1f4c:ffff0000:0caa:0600:1:8
-Studio Rheden TV
-p:Ziggo
 1c02:eeee0000:0906:2210:2:0
 Omroep Brabant
 p:KPN

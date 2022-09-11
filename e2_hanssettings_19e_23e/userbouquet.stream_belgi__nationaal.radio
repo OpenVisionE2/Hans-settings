@@ -1,5 +1,5 @@
 #NAME Stream België nationaal (BE)
-#SERVICE 1:64:418:0:0:0:0:0:0:0:
+#SERVICE 1:64:41b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - VRT++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1-high.mp3:VRT Radio 1
 #DESCRIPTION VRT Radio 1
@@ -39,7 +39,7 @@
 #DESCRIPTION VRT MNM R&Beats
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/mnm_90s00s-high.mp3:VRT MNM Throwback
 #DESCRIPTION VRT MNM Throwback
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//progressive-audio.lwc.vrtcdn.be/content/fixed/11_11niws-snip_hi.mp3 :VRT NWS
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//progressive-audio.vrtcdn.be/content/fixed/11_11niws-snip_hi.mp3:VRT NWS
 #DESCRIPTION VRT NWS
 #SERVICE 4097:0:2:52db:c96:3:eb0000:0:0:0:http%3a//icecast.vrtcdn.be/stubru-high.mp3 :VRT Studio Brussel
 #DESCRIPTION VRT Studio Brussel
@@ -53,7 +53,7 @@
 #DESCRIPTION VRT Studio Brussel UNTZ
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_tgs-high.mp3:VRT Studio Brussel Vuurland
 #DESCRIPTION VRT Studio Brussel Vuurland
-#SERVICE 1:64:419:0:0:0:0:0:0:0:
+#SERVICE 1:64:41c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - overig nationaal++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//3755.cloudrad.io%3a8008/live:21Bis (België)
 #DESCRIPTION 21Bis (België)
@@ -67,12 +67,10 @@
 #DESCRIPTION A.I.R. De Nachtegaal (BE)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//hazel.torontocast.com%3a1780:A.I.R. Radio Freestyle Slow (Brugge - BE)
 #DESCRIPTION A.I.R. Radio Freestyle Slow (Brugge - BE)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//91.196.171.99/ajoinmusic:Ajoin Music (België)
-#DESCRIPTION Ajoin Music (België)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//play.ajoinmusic.be/ajoinmusic.mp3:Ajoin Music
+#DESCRIPTION Ajoin Music
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-10.pmteurope.com%3a8048/stream:Belgian Dance Radio
 #DESCRIPTION Belgian Dance Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//46.17.3.52%3a8398/dj4:Bhotradio (België)
-#DESCRIPTION Bhotradio (België)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiohuis.com/BNL:BNL (België)
 #DESCRIPTION BNL (België)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//powerradio.level27.be/stream:Bruce
@@ -223,8 +221,8 @@
 #DESCRIPTION NRJ Vlaanderen (België)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/NRJNONSTOP.mp3:NRJ Non Stop (België)
 #DESCRIPTION NRJ Non Stop (België)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL_ADP.aac:One World Radio - Tomorrowland (BE)
-#DESCRIPTION One World Radio - Tomorrowland (BE)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL.mp3 :One World Radio - Tomorrowland
+#DESCRIPTION One World Radio - Tomorrowland
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.radio.co/s5709ea2c0/listen?1557867171459:Only90sradio (Brussel - BE)
 #DESCRIPTION Only90sradio (Brussel - BE)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//91.121.86.78%3a8038/stream:ParkinsonRadioParkies ​Belgium.BE-NL (BE)
@@ -321,8 +319,8 @@
 #DESCRIPTION Radio Roem - studenten (vrij 10-14.00 live)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radiototaal.be/radiototaal-high.mp3:Radio Totaal
 #DESCRIPTION Radio Totaal
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//149.202.22.75%3a8132/;:Radiofunvlaanderen (België)
-#DESCRIPTION Radiofunvlaanderen (België)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiofunvlaanderen.stream.laut.fm/radiofunvlaanderen:Radiofunvlaanderen
+#DESCRIPTION Radiofunvlaanderen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hazel.torontocast.com%3a3065/stream:RadioZilla
 #DESCRIPTION RadioZilla
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.shoutcastsolutions.com%3a8769/stream:ROL Radio
@@ -407,7 +405,7 @@
 #DESCRIPTION ZZOldies
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//axtran.radioca.st/stream:ZZROCK
 #DESCRIPTION ZZROCK
-#SERVICE 1:64:41a:0:0:0:0:0:0:0:
+#SERVICE 1:64:41d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bruxelles et Wallonie++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rcf.streamakaci.com/rcfbe.mp3:1RCF (Wallonië - BE)
 #DESCRIPTION 1RCF (Wallonië - BE)
@@ -475,10 +473,6 @@
 #DESCRIPTION Bel RTL Comédie
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//deci-belrtl.ice.infomaniak.ch/deci-belrtl-192.mp3:Bel RTL Musique 
 #DESCRIPTION Bel RTL Musique 
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//dhradio.ice.infomaniak.ch%3a80/dhradio-192:DH Radio (België)
-#DESCRIPTION DH Radio (België)
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//dhradio-belgium.ice.infomaniak.ch/dhradio-belgium-96.aac:DH Radio - Belgium (België)
-#DESCRIPTION DH Radio - Belgium (België)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/256192/stream/300799#.mp3:DivRadio
 #DESCRIPTION DivRadio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//streaming.radionomy.com/gooradioo-:Electrique Radio (België)
@@ -493,10 +487,32 @@
 #DESCRIPTION Harmony Radio (België)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//lecentrefm.ice.infomaniak.ch/lecentrefm.mp3:Le Centre FM
 #DESCRIPTION Le Centre FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mradio2.ice.infomaniak.ch/mradio.mp3:M Radio
-#DESCRIPTION M Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//audiostream.rtl.be/mint:Mint
 #DESCRIPTION Mint
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.rcs.revma.com/07fumytrgzzuv:LN Radio Belgium 
+#DESCRIPTION LN Radio Belgium 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.rcs.revma.com/nq9kn8akhzzuv:LN Radio 80 
+#DESCRIPTION LN Radio 80 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rcs.revma.com/a0df5k2qtzzuv:LN Radio 90
+#DESCRIPTION LN Radio 90
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rcs.revma.com/hxqn51trgzzuv:LN Radio 2000 
+#DESCRIPTION LN Radio 2000 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rcs.revma.com/uu0gchbkhzzuv/hls.m3u8:LN Radio live URL
+#DESCRIPTION LN Radio live URL
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-eu-a.rcs.revma.com/gvhq52bkhzzuv:LN Radio live URL
+#DESCRIPTION LN Radio live URL
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//www.lnradio.be/lnradio-player/lnradio-metal/:LN Radio Metal
+#DESCRIPTION LN Radio Metal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-eu-a.rcs.revma.com/anew1ctrgzzuv:LN Radio News
+#DESCRIPTION LN Radio News
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rcs.revma.com/rr7meptrgzzuv:LN Radio Relax 
+#DESCRIPTION LN Radio Relax 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//www.lnradio.be/lnradio-player/lnradio-rap:LN Radio Rap
+#DESCRIPTION LN Radio Rap
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rcs.revma.com/uu0gchbkhzzuv:LN Radio Running 
+#DESCRIPTION LN Radio Running 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mradio2.ice.infomaniak.ch/mradio.mp3:M Radio
+#DESCRIPTION M Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamingp.shoutcast.com/NostalgiePremium  :Nostalgie
 #DESCRIPTION Nostalgie
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//streamingp.shoutcast.com/nostaplus-mp3:Nostalgie+
@@ -687,7 +703,7 @@
 #DESCRIPTION TradCan
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//thewordradio.out.airtime.pro/thewordradio_a:The Word Radio (Brussels)
 #DESCRIPTION The Word Radio (Brussels)
-#SERVICE 1:64:41b:0:0:0:0:0:0:0:
+#SERVICE 1:64:41e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostkantons (Duitstalig)++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.brf.be%3a80/brf1-high.mp3:BRF1
 #DESCRIPTION BRF1
@@ -699,11 +715,11 @@
 #DESCRIPTION Paradise FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamserver.funkhaus.info%3a80/:Radio700
 #DESCRIPTION Radio700
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio-contact.dh-media.net%3a7000:Radio Contact Ostbelgien
-#DESCRIPTION Radio Contact Ostbelgien
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio-contact.dh-media.net%3a7000:Radio Contact Ostbelgien NOW
+#DESCRIPTION Radio Contact Ostbelgien NOW
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamlive.syndicationradio.fr%3a8158/stream:Radio Sunshine
 #DESCRIPTION Radio Sunshine
-#SERVICE 1:64:41c:0:0:0:0:0:0:0:
+#SERVICE 1:64:41f:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//46.17.3.52%3a10000/stream/1/:Dance Tunes Radio
 #DESCRIPTION Dance Tunes Radio
