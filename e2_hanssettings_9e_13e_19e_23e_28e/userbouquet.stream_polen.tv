@@ -1,158 +1,224 @@
 #NAME Stream Polen (PL)
-#SERVICE 1:64:3df:0:0:0:0:0:0:0:
+#SERVICE 1:64:3ef:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders TVP++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//37.152.128.74%3a8086/play/a003:TVP HD
-#DESCRIPTION TVP HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strims.top/tv/tvp1.m3u8:TVP 1 HD
-#DESCRIPTION TVP 1 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strims.top/tv/tvp2.m3u8:TVP 2 HD
-#DESCRIPTION TVP 2 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbbtvlive.v3.tvp.pl/hbbtvlive/livestream.php?app_id=tvpwarszawa:TVP 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73738:TVP 1
+#DESCRIPTION TVP 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73739:TVP 2
+#DESCRIPTION TVP 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73740:TVP 3
 #DESCRIPTION TVP 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a043:TVP ABC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73811:TVP ABC
 #DESCRIPTION TVP ABC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a048:TVP Historia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73741:TVP HD
+#DESCRIPTION TVP HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73742:TVP Historia
 #DESCRIPTION TVP Historia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//37.152.128.74%3a8086/play/a018:TVP Info
-#DESCRIPTION TVP Info
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a040:TVP Kultura
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73743:TVP Info 
+#DESCRIPTION TVP Info 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73744:TVP Kultura
 #DESCRIPTION TVP Kultura
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//85.0.32.106%3a8000/play/TVPPolonia:TVP Polonia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73745:TVP Polonia
 #DESCRIPTION TVP Polonia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a0a7:TVP Rozrywka
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73746:TVP Rozrywka
 #DESCRIPTION TVP Rozrywka
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a042:TVP Seriale
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73747:TVP Seriale
 #DESCRIPTION TVP Seriale
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a04q:TVP Sport HD
-#DESCRIPTION TVP Sport HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73748:TVP Sport
+#DESCRIPTION TVP Sport
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.129.193.20/tsstreamer/TVP_SD.ts:TVP World
 #DESCRIPTION TVP World
-#SERVICE 1:64:3e0:0:0:0:0:0:0:0:
+#SERVICE 1:64:3f0:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.200%3a8001/play/a029:Polonia 1
-#DESCRIPTION Polonia 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a07d:Polsat HD
-#DESCRIPTION Polsat HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a07k:Polsat 2 HD
-#DESCRIPTION Polsat 2 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a07h:Polsat Cafe HD
-#DESCRIPTION Polsat Cafe HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a0ac:Polsat Music HD
-#DESCRIPTION Polsat Music HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a07j:Polsat News HD
-#DESCRIPTION Polsat News HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a07c:Polsat News 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73713:Polsat 
+#DESCRIPTION Polsat 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73710:Polsat 2
+#DESCRIPTION Polsat 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73712:Polsat Cafe 
+#DESCRIPTION Polsat Cafe 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73797:PL%3a Polsat Doku 
+#DESCRIPTION PL: Polsat Doku 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73714:Polsat Film
+#DESCRIPTION Polsat Film
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73715:Polsat Games 
+#DESCRIPTION Polsat Games 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73716:Polsat JimJam
+#DESCRIPTION Polsat JimJam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73717:Polsat Music
+#DESCRIPTION Polsat Music
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73718:Polsat News
+#DESCRIPTION Polsat News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73799:Polsat News 2
 #DESCRIPTION Polsat News 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a06y:Polsat Sport HD
-#DESCRIPTION Polsat Sport HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a073:Polsat Sport Extra HD
-#DESCRIPTION Polsat Sport Extra HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a0cg:Polsat Sport Premium 1
-#DESCRIPTION Polsat Sport Premium 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a0ch:Polsat Sport Premium 2
-#DESCRIPTION Polsat Sport Premium 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a07f:TV4 HD
-#DESCRIPTION TV4 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a07g:TV6
-#DESCRIPTION TV6
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a010:TVS Polska
-#DESCRIPTION TVS Polska
-#SERVICE 1:64:3e1:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73711:Polsat Play
+#DESCRIPTION Polsat Play
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73719:Polsat Rodzina 
+#DESCRIPTION Polsat Rodzina 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73801:Polsat Sport
+#DESCRIPTION Polsat Sport
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73721:Polsat Sport Premium 1 
+#DESCRIPTION Polsat Sport Premium 1 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73722:Polsat Sport Premium 2 
+#DESCRIPTION Polsat Sport Premium 2 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73724:Polsat Viasat History
+#DESCRIPTION Polsat Viasat History
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73725:Polsat Viasat Nature
+#DESCRIPTION Polsat Viasat Nature
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73805:Super Polsat
+#DESCRIPTION Super Polsat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73731:TV 4 
+#DESCRIPTION TV 4 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73732:TV 6 
+#DESCRIPTION TV 6 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73807:TNT
+#DESCRIPTION TNT
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73728:TTV 
+#DESCRIPTION TTV 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73730:TV Puls 
+#DESCRIPTION TV Puls 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73729:TV Puls 2
+#DESCRIPTION TV Puls 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73735:TVN 
+#DESCRIPTION TVN 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/112680:TVN 7
+#DESCRIPTION TVN 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73733:TVN 24 
+#DESCRIPTION TVN 24 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73734:TVN Fabuła 
+#DESCRIPTION TVN Fabuła 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73736:TVN Style 
+#DESCRIPTION TVN Style 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73737:TVN Turbo
+#DESCRIPTION TVN Turbo
+#SERVICE 1:64:3f1:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a03k:4 Fun Dance
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73643:4 Fun Dance
 #DESCRIPTION 4 Fun Dance
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.206%3a7003/play/a03j:4 Fun Kids
-#DESCRIPTION 4 Fun Kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73644:4 Fun Gold Hits
+#DESCRIPTION 4 Fun Gold Hits
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.4fun.tv%3a8888/hls/4f_high/index.m3u8:4 Fun TV
 #DESCRIPTION 4 Fun TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0d5:Comedy Central Polska HD
-#DESCRIPTION Comedy Central Polska HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a042:Da Vinci Polska
-#DESCRIPTION Da Vinci Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73647:AMC Polska
+#DESCRIPTION AMC Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73649:Animal Planet
+#DESCRIPTION Animal Planet
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73657:BBC
+#DESCRIPTION BBC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73759:BBC Brit 
+#DESCRIPTION BBC Brit 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73656:BBC Earth 
+#DESCRIPTION BBC Earth 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73762:BBC First
+#DESCRIPTION BBC First
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73763:BBC Lifestyle Polska 
+#DESCRIPTION BBC Lifestyle Polska 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73658:Boomerang
+#DESCRIPTION Boomerang
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73665:Cartoon Network 
+#DESCRIPTION Cartoon Network 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73666:CBS Europa 
+#DESCRIPTION CBS Europa 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73669:Cinemax
+#DESCRIPTION Cinemax
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73668:Cinemax 2 
+#DESCRIPTION Cinemax 2 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73767:Comedy Central
+#DESCRIPTION Comedy Central
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73671:Comedy Central Family Polska 
+#DESCRIPTION Comedy Central Family Polska 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73672:Da Vinci Learning
+#DESCRIPTION Da Vinci Learning
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.246.128.53%3a1935/tv/dlaCiebieTv/playlist.m3u8:DlaCiebie.tv
 #DESCRIPTION DlaCiebie.tv
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0e0:Disney Channel HD Polska
-#DESCRIPTION Disney Channel HD Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0fb:Disney Junior Polska
-#DESCRIPTION Disney Junior Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0dt:Disney XD Polska
-#DESCRIPTION Disney XD Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0do:Disco Polo Music
-#DESCRIPTION Disco Polo Music
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0bi:Discovery Polska
-#DESCRIPTION Discovery Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a06m:Discovery Historia
-#DESCRIPTION Discovery Historia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a098:Discovery Life
-#DESCRIPTION Discovery Life
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0f8:Discovery Science
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73673:Discovery Channel 
+#DESCRIPTION Discovery Channel 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73674:Discovery Life 
+#DESCRIPTION Discovery Life 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73675:Discovery Science
 #DESCRIPTION Discovery Science
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0br:E! Entertainment
-#DESCRIPTION E! Entertainment
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a03h:Eleven Sports 4
-#DESCRIPTION Eleven Sports 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a04k:Eska TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73676:Discovery Turbo Xtra HD
+#DESCRIPTION Discovery Turbo Xtra HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73677:Disney Channel 
+#DESCRIPTION Disney Channel 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73678:Disney Junior
+#DESCRIPTION Disney Junior
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73679:Disney XD
+#DESCRIPTION Disney XD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73772:E! Entertainment 
+#DESCRIPTION E! Entertainment 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73681:Eleven Sports 1 
+#DESCRIPTION Eleven Sports 1 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/95833:Eleven Sports 2
+#DESCRIPTION Eleven Sports 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73682:Eleven Sports 3 
+#DESCRIPTION Eleven Sports 3 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73683:Eleven Sports 4 
+#DESCRIPTION Eleven Sports 4 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12426.ts:Eska TV
 #DESCRIPTION Eska TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a04j:Eska TV Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12424.ts:Eska TV Extra
 #DESCRIPTION Eska TV Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a05z:FilmBox Action Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12433.ts:FilmBox Action Polska
 #DESCRIPTION FilmBox Action Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a047:FilmBox Arthouse
-#DESCRIPTION FilmBox Arthouse
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a061:FilmBox Extra Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73688:Filmbox Arthouse
+#DESCRIPTION Filmbox Arthouse
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12435.ts:FilmBox Extra Polska
 #DESCRIPTION FilmBox Extra Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a05y:FilmBox Family
-#DESCRIPTION FilmBox Family
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a05w:FilmBox Premium Polska HD
-#DESCRIPTION FilmBox Premium Polska HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a04l:Fokus TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73690:Filmbox Family
+#DESCRIPTION Filmbox Family
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12437.ts:FilmBox Premium Polska
+#DESCRIPTION FilmBox Premium Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12438.ts:Fokus TV
 #DESCRIPTION Fokus TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0ej:Fox Comedy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12440.ts:Fox
+#DESCRIPTION Fox
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12441.ts:Fox Comedy
 #DESCRIPTION Fox Comedy
-#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0bv:Golf Channel Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12442.ts:Golf Channel Polska
 #DESCRIPTION Golf Channel Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0f3:HBO
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73696:HBO
 #DESCRIPTION HBO
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a06w:HBO 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73694:HBO 2
 #DESCRIPTION HBO 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a06x:HBO 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73695:HBO 3
 #DESCRIPTION HBO 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0eq:History
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12448.ts:History
 #DESCRIPTION History
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0bu:History 2
-#DESCRIPTION History 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0bj:ID Polska HD
-#DESCRIPTION ID Polska HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a05x:Kino Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12449.ts:Kino Polska
 #DESCRIPTION Kino Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a03m:MiniMini+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73701:Kino Polska Muzyka
+#DESCRIPTION Kino Polska Muzyka
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73785:Metro
+#DESCRIPTION Metro
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12455.ts:MiniMini+
 #DESCRIPTION MiniMini+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.206.253.157%3a16200/motowizja:Motowizja HD
-#DESCRIPTION Motowizja HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0d3:MTV Live HD Polska
-#DESCRIPTION MTV Live HD Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0d1:MTV Polska HD
-#DESCRIPTION MTV Polska HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a06c:Muisc Box Polska
-#DESCRIPTION Muisc Box Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a03v:National Geographic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12456.ts:Motowizja
+#DESCRIPTION Motowizja
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12459.ts:MTV Live Polska
+#DESCRIPTION MTV Live Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12457.ts:MTV Polska
+#DESCRIPTION MTV Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73705:National Geographic
 #DESCRIPTION National Geographic
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0ew:Nat Geo People
-#DESCRIPTION Nat Geo People
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0cv:Nick Jr. Polska
-#DESCRIPTION Nick Jr. Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0cx:Nickelodeon Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73706:National Geographic People 
+#DESCRIPTION National Geographic People 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73707:National Geographic Wild HD
+#DESCRIPTION National Geographic Wild HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12465.ts:Nickelodeon Polska
 #DESCRIPTION Nickelodeon Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12464.ts:Nick Jr. Polska
+#DESCRIPTION Nick Jr. Polska
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//5.254.16.186/NutaTV/index.m3u8:NUTA TV
 #DESCRIPTION NUTA TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a04i:Polo TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73709:Paramount Channel 
+#DESCRIPTION Paramount Channel 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12472.ts:Polo TV
 #DESCRIPTION Polo TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8:Radio Czworka
 #DESCRIPTION Radio Czworka
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.249.49.78%3a8000/play/a0c3:Sci Fi Polska
-#DESCRIPTION Sci Fi Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//54.39.17.6%3a8080/tele5/playlist.m3u8:Tele 5
-#DESCRIPTION Tele 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73803:SciFi Universal 
+#DESCRIPTION SciFi Universal 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73804:Stars TV
+#DESCRIPTION Stars TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.tvkujawy.pl%3a8080/live/broadcast.m3u8:TV K Kujawy
 #DESCRIPTION TV K Kujawy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvreg.klemit.net/regionalna/stream/index.m3u8:TV Regionalna
@@ -161,5 +227,11 @@
 #DESCRIPTION TV Republika
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//217.173.176.107%3a1935/live/tvk.stream/playlist.m3u8:TV Toruń
 #DESCRIPTION TV Toruń
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//trwamtv.live.e59-po.insyscd.net/cl01/out/u/trwam_3.m3u8:TV Trwam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movi2.xyz%3a8080/live/Bilo80/jKWNsCkpnI/12507.ts:TV Trwam
 #DESCRIPTION TV Trwam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73749:Universal
+#DESCRIPTION Universal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73704:Vox Music TV
+#DESCRIPTION Vox Music TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congariptv.com%3a80/kLbWNZDHm3/CGcttIYsyXE/73817:Zoom TV
+#DESCRIPTION Zoom TV
