@@ -1,5 +1,5 @@
 #NAME Stream Servie (RS)
-#SERVICE 1:64:34b:0:0:0:0:0:0:0:
+#SERVICE 1:64:33c:0:0:0:0:0:0:0:
 #DESCRIPTION ++RTS-hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//14.202.204.202%3a8000/play/a01l/index.m3u8:RTS 1
 #DESCRIPTION RTS 1
@@ -27,7 +27,7 @@
 #DESCRIPTION RTS Zivot
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//14.202.204.202%3a8000/play/a01r/index.m3u8:RTRS
 #DESCRIPTION RTRS
-#SERVICE 1:64:34c:0:0:0:0:0:0:0:
+#SERVICE 1:64:33d:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/286764:K1
 #DESCRIPTION K1
@@ -49,6 +49,8 @@
 #DESCRIPTION N1 RS
 #SERVICE 4097:0:1:b456:6c83:ec:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1srp&u=n1info&p=n1Sh4redSecre7iNf0:N1 SRB
 #DESCRIPTION N1 SRB
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3413:Pink
+#DESCRIPTION Pink
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.rednet.rs/providus/redtv_multi.m3u8:Red TV
 #DESCRIPTION Red TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/4216:RTV 1
@@ -77,36 +79,12 @@
 #DESCRIPTION TV 1000
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3415:Vesti
 #DESCRIPTION Vesti
-#SERVICE 1:64:34d:0:0:0:0:0:0:0:
+#SERVICE 1:64:33e:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/192048:24 Kitchen
-#DESCRIPTION 24 Kitchen
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-hls-web-ajb.getaj.net/AJB/index.m3u8:Al Jazeera Balkans
 #DESCRIPTION Al Jazeera Balkans
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/195877:AMC
-#DESCRIPTION AMC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/60225:Arena Sport 1
-#DESCRIPTION Arena Sport 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3462:Arena Sport 2
-#DESCRIPTION Arena Sport 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3463:Arena Sport 3
-#DESCRIPTION Arena Sport 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/59873:Cinemania
-#DESCRIPTION Cinemania
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/197432:Cinemax
-#DESCRIPTION Cinemax
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/195881:Cinemax 2
-#DESCRIPTION Cinemax 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/282257:CineStar TV 1
-#DESCRIPTION CineStar TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/4140:CineStar TV Action
-#DESCRIPTION CineStar TV Action
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/192041:Discovery World
-#DESCRIPTION Discovery World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/195878:Diva
 #DESCRIPTION Diva
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/10685:Filmbox Extra
-#DESCRIPTION Filmbox Extra
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/4051:First Channel
 #DESCRIPTION First Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3441:Ha Ha
@@ -125,8 +103,6 @@
 #DESCRIPTION Kurir TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3440:Lol
 #DESCRIPTION Lol
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/4176:Minimax
-#DESCRIPTION Minimax
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-8/playlist.m3u8:Muzzik Flashback
 #DESCRIPTION Muzzik Flashback
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-4/playlist.m3u8:Muzzik Jeka
@@ -155,106 +131,16 @@
 #DESCRIPTION Nova Sport
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/13448:Parovi
 #DESCRIPTION Parovi
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3413:Pink
-#DESCRIPTION Pink
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3429:Pink Action
-#DESCRIPTION Pink Action
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3416:Pink BH
-#DESCRIPTION Pink BH
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3431:Pink Classic
-#DESCRIPTION Pink Classic
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3430:Pink Comedy
-#DESCRIPTION Pink Comedy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3434:Pink Crime&Mystery
-#DESCRIPTION Pink Crime&Mystery
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3433:Pink Extra
-#DESCRIPTION Pink Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3432:Pink Family
-#DESCRIPTION Pink Family
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/36562:Pink Fashion
-#DESCRIPTION Pink Fashion
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3428:Pink Film
-#DESCRIPTION Pink Film
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3444:Pink Folk 1
-#DESCRIPTION Pink Folk 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3445:Pink Folk 2
-#DESCRIPTION Pink Folk 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/20246:Pink Hits
-#DESCRIPTION Pink Hits
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3439:Pink Hits 2
-#DESCRIPTION Pink Hits 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3437:Pink Horror
-#DESCRIPTION Pink Horror
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3438:Pink Kids
-#DESCRIPTION Pink Kids
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/4183:Pink Koncert
-#DESCRIPTION Pink Koncert
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3436:Pink Kuvar
-#DESCRIPTION Pink Kuvar
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/10725:Pink M
-#DESCRIPTION Pink M
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3349:Pink Movies
-#DESCRIPTION Pink Movies
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3442:Pink Music
-#DESCRIPTION Pink Music
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3443:Pink Music 2
-#DESCRIPTION Pink Music 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/20247:Pink n Roll
-#DESCRIPTION Pink n Roll
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3435:Pink Pedia
-#DESCRIPTION Pink Pedia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3425:Pink Plus
-#DESCRIPTION Pink Plus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3427:Pink Premium
-#DESCRIPTION Pink Premium
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3424:Pink Reality
-#DESCRIPTION Pink Reality
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/4185:Pink Romance
-#DESCRIPTION Pink Romance
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/285557:Pink S!
-#DESCRIPTION Pink S!
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3423:Pink Sci-Fi&Fantasy
-#DESCRIPTION Pink Sci-Fi&Fantasy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3422:Pink Serije
-#DESCRIPTION Pink Serije
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3421:Pink Show
-#DESCRIPTION Pink Show
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3420:Pink Soap
-#DESCRIPTION Pink Soap
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/36863:Pink Style
-#DESCRIPTION Pink Style
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/20250:Pink Super Kids
-#DESCRIPTION Pink Super Kids
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3419:Pink Thriller
-#DESCRIPTION Pink Thriller
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3418:Pink Western
-#DESCRIPTION Pink Western
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/4188:Pink World
 #DESCRIPTION Pink World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3417:Pink World Cinema
 #DESCRIPTION Pink World Cinema
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/4189:Pink Zabava
-#DESCRIPTION Pink Zabava
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/157351:Prva Files
-#DESCRIPTION Prva Files
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/20254:Prva Kick
-#DESCRIPTION Prva Kick
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/267170:Prva Life
-#DESCRIPTION Prva Life
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/10730:Prva Max
-#DESCRIPTION Prva Max
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3452:Prva Plus
-#DESCRIPTION Prva Plus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3451:Prva Srpska TV
-#DESCRIPTION Prva Srpska TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5562:Prva World
 #DESCRIPTION Prva World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/3414:Red TV
 #DESCRIPTION Red TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vod1.laki.eu/sandzak/video.m3u8:Sandzak TV
 #DESCRIPTION Sandzak TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/4199:Sci-Fi
-#DESCRIPTION Sci-Fi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ip2.xxlservices.com%3a8081/seharatv/live/chunks.m3u8:Sehara TV
 #DESCRIPTION Sehara TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/27418:Superstar TV

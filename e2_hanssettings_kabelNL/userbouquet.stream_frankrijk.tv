@@ -1,5 +1,5 @@
 #NAME Stream Frankrijk (FR)
-#SERVICE 1:64:247:0:0:0:0:0:0:0:
+#SERVICE 1:64:233:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:2460:440:1:c00000:0:0:0:http%3a//livetv.ktv.zone/3/play.m3u8:TF1
 #DESCRIPTION TF1
@@ -17,10 +17,14 @@
 #DESCRIPTION France 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/57/play.m3u8:France 24 English
 #DESCRIPTION France 24 English
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg.m3u8:France 24 English -2-
+#DESCRIPTION France 24 English -2-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.94.196.204/tsstreamer/France24_HD.ts:France 24 French
 #DESCRIPTION France 24 French
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//5.254.16.186%3a80/France24/mono.m3u8:France 24 French -2-
 #DESCRIPTION France 24 French -2-
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCCCPCZNChQdGa9EkATeye4g.m3u8:France 24 French -3-
+#DESCRIPTION France 24 French -3-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/29/play.m3u8:France Info
 #DESCRIPTION France Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-m6-france-prod-dub.shahid.net/out/v1/c8a9f6e000cd4ebaa4d2fc7d18c15988/index.m3u8:M6
@@ -39,7 +43,7 @@
 #DESCRIPTION RTL 9
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/11/play.m3u8:W9
 #DESCRIPTION W9
-#SERVICE 1:64:248:0:0:0:0:0:0:0:
+#SERVICE 1:64:234:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END:BFM TV
 #DESCRIPTION BFM TV
@@ -53,6 +57,8 @@
 #DESCRIPTION BFM Littoral
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/27/play.m3u8:Chérie 25
 #DESCRIPTION Chérie 25
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cherie25.nrjaudio.fm/hls/live/2038375/c25/FHD.m3u8:Chérie 25 -2-
+#DESCRIPTION Chérie 25 -2-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls-m010.live-lv3.canalplus-cdn.net/live/disk/cnews-clair-hd/ios-v3-hd-clair/cnews-clair-hd-audio_20000=96000-video=3400000.m3u8:CNews
 #DESCRIPTION CNews
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/18/play.m3u8:CNews -2-
@@ -61,6 +67,10 @@
 #DESCRIPTION CStar
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/19/play.m3u8:CStar -2-
 #DESCRIPTION CStar -2-
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.creacast.com/d5tv/smil%3ad5tv.smil/playlist.m3u8:D5tv
+#DESCRIPTION D5tv
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//euronews-euronews-french-3-us.plex.wurl.tv/playlist.m3u8:Euronews Français
+#DESCRIPTION Euronews Français
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a02t/index.m3u8:I24 News France
 #DESCRIPTION I24 News France
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/23/play.m3u8:L'Equipe
@@ -81,34 +91,22 @@
 #DESCRIPTION MTV France
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/14/play.m3u8:NRJ 12
 #DESCRIPTION NRJ 12
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/FHD.m3u8:NRJ 12 -2-
+#DESCRIPTION NRJ 12 -2-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a02o/index.m3u8:NRJ Hits
 #DESCRIPTION NRJ Hits
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a02n/index.m3u8:RFM TV
 #DESCRIPTION RFM TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/26/play.m3u8:RMC Decouverte
-#DESCRIPTION RMC Decouverte
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8005/play/a00z/index.m3u8:RMC Sport 1
-#DESCRIPTION RMC Sport 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a01e/index.m3u8:RMC Sport 2
-#DESCRIPTION RMC Sport 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a01d/index.m3u8:RMC Sport 3
-#DESCRIPTION RMC Sport 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/25/play.m3u8:RMC Story
-#DESCRIPTION RMC Story
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a01f/index.m3u8:TCM Cinema
-#DESCRIPTION TCM Cinema
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/12/play.m3u8:TMC
 #DESCRIPTION TMC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/61/play.m3u8:TV5 Monde Europe
 #DESCRIPTION TV5 Monde Europe
-#SERVICE 1:64:249:0:0:0:0:0:0:0:
+#SERVICE 1:64:235:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3abn-live.akamaized.net/hls/live/2010546-b/French/master.m3u8:3ABN French
 #DESCRIPTION 3ABN French
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.youtb.workers.dev/channel/UCdFv_ZWQ3Xk_NfRiaK-ryGg.m3u8:7A Limoges
 #DESCRIPTION 7A Limoges
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a01h/index.m3u8:13eme Rue
-#DESCRIPTION 13eme Rue
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.vedge.infomaniak.com/livecast/ik%3aadhtv/chunklist.m3u8:Alpe d’Huez TV
 #DESCRIPTION Alpe d’Huez TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a02g/index.m3u8:Altice Studio
@@ -131,8 +129,8 @@
 #DESCRIPTION DBM TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//katapy.hs.llnwd.net/dieutvwza1/DIEUTVLIVE/smil%3adieutv.smil/playlist.m3u8:Dieu TV
 #DESCRIPTION Dieu TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//euronews-euronews-french-3-us.plex.wurl.tv/playlist.m3u8:Euronews Français
-#DESCRIPTION Euronews Français
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mn-nl.mncdn.com/awraastv/awraastv_hd.smil/playlist.m3u8:Ère TV
+#DESCRIPTION Ère TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fashiontv-fashiontv-1-eu.rakuten.wurl.com/manifest/playlist.m3u8:Fashion TV
 #DESCRIPTION Fashion TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fash2043.cloudycdn.services//slive/_definst_/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8:Fashion TV UHD
@@ -159,6 +157,8 @@
 #DESCRIPTION Generations TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/20/play.m3u8:Gulli Prime
 #DESCRIPTION Gulli Prime
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.creacast.com/iltv/smil%3ailtv.smil/playlist.m3u8:ILTV
+#DESCRIPTION ILTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//37.235.38.139%3a4000/play/a00n:Infosport+
 #DESCRIPTION Infosport+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//service-stitcher.clusters.pluto.tv/stitch/hls/channel/60afa1508284e60007163c08/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fcc6e0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a8b6a6bb-4f8c-438e-a638-d4cfa72ae69a:Juste Pour Rire
@@ -193,8 +193,6 @@
 #DESCRIPTION Qwest TV Jazz & Beyond
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.vedge.infomaniak.com/livecast/ik%3aevent/playlist.m3u8:Rouge TV
 #DESCRIPTION Rouge TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a01k/index.m3u8:Serie Club
-#DESCRIPTION Serie Club
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sofytv-samsungfr.amagi.tv/playlist.m3u8:Sofy TV
 #DESCRIPTION Sofy TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.onairport.live/sophiatv-fr-live/smil%3asophia-tv-fr.smil/HasBahCa.m3u8:Sophia TV
@@ -203,10 +201,10 @@
 #DESCRIPTION Sport En France
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stormcast-telenovelatv-1-fr.samsung.wurl.tv/playlist.m3u8:Stormcast Novelas TV
 #DESCRIPTION Stormcast Novelas TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-11.ix7.dailymotion.com/sec(RiWEtJG0nU_F5iuiUOWAlyVBqLdYJrItjZx9ap3fR3JXIaFHhj-hfUo3S1geqiED)/dm/3/x7wrxqb/s/live-3.m3u8#cell=lcore:Telesud
-#DESCRIPTION Telesud
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//37.235.38.139%3a4000/play/a00w:Tiji
-#DESCRIPTION Tiji
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//start-1.direct.live/hls/tebeo.m3u8:Tébéo TV
+#DESCRIPTION Tébéo TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//start-2.direct.live/hls/tebesud.m3u8:TébéSud
+#DESCRIPTION TébéSud
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.tmacaraibes.com/live/index.m3u8:TMA Caraibes
 #DESCRIPTION TMA Caraibes
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tntv-samsung-fr.amagi.tv/playlist.m3u8:TNTV
@@ -227,6 +225,8 @@
 #DESCRIPTION TVM 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamtv.cdn.dvmr.fr/TVR/ngrp%3atvr.stream_all/master.m3u8:TVR Bretagne
 #DESCRIPTION TVR Bretagne
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8:Vià Ma Télé
+#DESCRIPTION Vià Ma Télé
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer01.myvideoplace.tv/streamer02/hls/MDS_VIA_PAD_301117_medium/index.m3u8:Vià Occitanie
 #DESCRIPTION Vià Occitanie
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdnamd-hls-globecast.akamaized.net/live/ramdisk/vision4/hls_video/index.m3u8:Vision 4

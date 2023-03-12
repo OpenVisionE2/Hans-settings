@@ -1,9 +1,9 @@
 #NAME Stream Spanje (ES)
-#SERVICE 1:64:386:0:0:0:0:0:0:0:
+#SERVICE 1:64:378:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.9.92.182%3a49000/play/a00s:TVE 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.36.81%3a18000/LA_1/hls/playlist.m3u8:TVE 1
 #DESCRIPTION TVE 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/segments/la1/la1_main.m3u8:TVE 1 -2- (deels geoblocking)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/la1/la1_main_720.m3u8:TVE 1 -2- (deels geoblocking)
 #DESCRIPTION TVE 1 -2- (deels geoblocking)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/can/la1_can_main_720.m3u8:TVE 1 Canarias (deels geoblocking)
 #DESCRIPTION TVE 1 Canarias (deels geoblocking)
@@ -11,9 +11,9 @@
 #DESCRIPTION TVE 1 Catalunya
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/cat/la1_cat_main_720.m3u8:TVE 1 Catalunya -2- (deels geoblocking)
 #DESCRIPTION TVE 1 Catalunya -2- (deels geoblocking)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//revteam4.offshorerev.cc%3a80/_ms50hh/76s6VYcAuV/105223:TVE 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.36.81%3a18000/LA_2/hls/playlist.m3u8:TVE 2
 #DESCRIPTION TVE 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/segments/la2/la2_main.m3u8:TVE 2 -2- (deels geoblocking)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream-clnx.rtve.es/rtvesec/la2/la2_main_1080.m3u8:TVE 2 -2- (deels geoblocking)
 #DESCRIPTION TVE 2 -2- (deels geoblocking)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/can/la2_can_main_720.m3u8:TVE 2 Canarias (deels geoblocking)
 #DESCRIPTION TVE 2 Canarias (deels geoblocking)
@@ -23,6 +23,8 @@
 #DESCRIPTION TVE 2 Catalunya (deels geoblocking)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/cat/la2_cat_main_dvr.m3u8:TVE 2 Catalunya (deels geoblocking) -2-
 #DESCRIPTION TVE 2 Catalunya (deels geoblocking) -2-
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ztnr.rtve.es/ztnr/3987218.m3u8:TVE 2 Catalunya (deels geoblocking) -3-
+#DESCRIPTION TVE 2 Catalunya (deels geoblocking) -3-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//200.24.132.99%3a8000/play/a01p:TVE Internacional America
 #DESCRIPTION TVE Internacional America
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//210.210.155.37/uq2663/h/h158/index2.m3u8:TVE Internacional Asia-Oceania
@@ -41,31 +43,35 @@
 #DESCRIPTION Clan TVE
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/2774:TVE Teledeporte
 #DESCRIPTION TVE Teledeporte
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvehlslivestream.akamaized.net/hls/live/2041583/IRTVE01_AKA_HLS_GL0/bitrate_2.m3u8:RTVE Play 1
-#DESCRIPTION RTVE Play 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvehlslivestream.akamaized.net/hls/live/2041585/IRTVE02_AKA_HLS_GL0/bitrate_2.m3u8:RTVE Play 2
-#DESCRIPTION RTVE Play 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvehlslivestream.akamaized.net/hls/live/2041586/IRTVE03_AKA_HLS_GL0/bitrate_2.m3u8:RTVE Play 3
-#DESCRIPTION RTVE Play 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvehlslivestream.akamaized.net/hls/live/2041587/IRTVE04_AKA_HLS_GL0/bitrate_2.m3u8:RTVE Play 4
-#DESCRIPTION RTVE Play 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.9.92.182%3a49000/play/a005:Antena 3
-#DESCRIPTION Antena 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.9.92.182%3a49000/play/a006:Cuatro
-#DESCRIPTION Cuatro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.9.92.182%3a49000/play/a00b:Telecinco
-#DESCRIPTION Telecinco
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.9.92.182%3a49000/play/a008:La Sexta
-#DESCRIPTION La Sexta
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/oca/irtve01_main_1080.m3u8:RTVE Play 1 HD
+#DESCRIPTION RTVE Play 1 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/oca/irtve02_main_1080.m3u8:RTVE Play 2 HD
+#DESCRIPTION RTVE Play 2 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/oca/irtve03_main_1080.m3u8:RTVE Play 3 HD
+#DESCRIPTION RTVE Play 3 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/oca/irtve04_main_1080.m3u8:RTVE Play 4 HD
+#DESCRIPTION RTVE Play 4 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.36.81%3a18000/Antena_3/hls/playlist.m3u8:Antena 3 
+#DESCRIPTION Antena 3 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.36.81%3a18000/TV3/hls/playlist.m3u8:TV3 
+#DESCRIPTION TV3 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.36.81%3a18000/TV3_Cat/hls/playlist.m3u8:TV3 Cat 
+#DESCRIPTION TV3 Cat 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.36.81%3a18000/Cuatro/hls/playlist.m3u8:Cuatro 
+#DESCRIPTION Cuatro 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.36.81%3a18000/Telecinco/hls/playlist.m3u8:Telecinco 
+#DESCRIPTION Telecinco 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.36.81%3a18000/La_Sexta/hls/playlist.m3u8:La Sexta 
+#DESCRIPTION La Sexta 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dxf45ob769xpw.cloudfront.net/out/v1/90ce358337e14be3bb82b6566b50a8b1/index.m3u8:7 Noticias
 #DESCRIPTION 7 Noticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnlive.shooowit.net/la7live/smil%3achannel1.smil/chunklist_b2200000.m3u8:La 7
 #DESCRIPTION La 7
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//congresodirecto-f.akamaihd.net%3a80/i/congreso6_1@54665/master.m3u8:Canal Parlamento
 #DESCRIPTION Canal Parlamento
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.youtb.workers.dev/channel/UCUdOoVWuWmgo1wByzcsyKDQ.m3u8:France 24 Español
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCUdOoVWuWmgo1wByzcsyKDQ.m3u8:France 24 Español
 #DESCRIPTION France 24 Español
-#SERVICE 1:64:387:0:0:0:0:0:0:0:
+#SERVICE 1:64:379:0:0:0:0:0:0:0:
 #DESCRIPTION ++regionaal++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//directes-tv-int.ccma.cat/live-origin/canal324-hls/bitrate_7.m3u8:3/24
 #DESCRIPTION 3/24
@@ -117,6 +123,8 @@
 #DESCRIPTION Canal Sur Andalucía
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnlive.codev8.net/rtvalive/smil%3achannel22.smil/playlist.m3u8:Canal Sur Andalucía 2
 #DESCRIPTION Canal Sur Andalucía 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ingest1-video.streaming-pro.com/videostream/ctvic/playlist.m3u8:Canal Taronja Osona i Moianés
+#DESCRIPTION Canal Taronja Osona i Moianés
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamserver3.seneca.tv/cval_live/cdn_enc_3/master.m3u8:Corts Valencianes
 #DESCRIPTION Corts Valencianes
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//elche7tv.gestec-video.com/hls/canal2.m3u8:Elche 7 TV
@@ -127,7 +135,7 @@
 #DESCRIPTION ETB 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8:ETB Basque
 #DESCRIPTION ETB Basque
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.youtb.workers.dev/channel/UCff_CBVJDTHP4wOHPjP5BMg.m3u8:IB3 Global
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCff_CBVJDTHP4wOHPjP5BMg.m3u8:IB3 Global
 #DESCRIPTION IB3 Global
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ibgrtv.streaming-pro.com/hls/ibgrlive.m3u8:Ibiza Global TV
 #DESCRIPTION Ibiza Global TV
@@ -165,7 +173,7 @@
 #DESCRIPTION Onda Algeciras TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//adc-hls.flumotion.com/playlist.m3u8:Onda Cádiz
 #DESCRIPTION Onda Cádiz
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//telemadridhls2-live-hls.secure2.footprint.net/egress/chandler/telemadrid/ondamadrid_1/index.m3u8:Onda Madrid
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//telemadridhls2-live-hls.secure2.footprint.net/egress/chandler/telemadrid/tvradio_1/index.m3u8:Onda Madrid
 #DESCRIPTION Onda Madrid
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud.streamingconnect.tv%3a455/mezquita/mezquita.m3u8:Onda Mezquita 7 TV
 #DESCRIPTION Onda Mezquita 7 TV
@@ -225,7 +233,7 @@
 #DESCRIPTION TeleVigo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//free.fullspeed.tv/iptv-query?streaming-ip=https%3a//twitch.tv/televisiodecastello:Televisió de Castelló
 #DESCRIPTION Televisió de Castelló
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.youtb.workers.dev/channel/UCoFs7RGrmWQkqU5KNNGvCjA.m3u8:Televisió Sant Cugat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCoFs7RGrmWQkqU5KNNGvCjA.m3u8:Televisió Sant Cugat
 #DESCRIPTION Televisió Sant Cugat
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud.streamingconnect.tv/hls/telearanda/telearanda.m3u8:Televisión Aranda
 #DESCRIPTION Televisión Aranda
@@ -241,11 +249,13 @@
 #DESCRIPTION Trece TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//directes-tv-int.ccma.cat/live-origin/tvi-hls/bitrate_7.m3u8:TV 3 Catalunya
 #DESCRIPTION TV 3 Catalunya
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.fullsport.es/hls/tvalmassora.m3u8:TV Almassora
+#DESCRIPTION TV Almassora
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming007.gestec-video.com/hls/artequatreTVA.m3u8:TV Artequatre
 #DESCRIPTION TV Artequatre
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud.streamingconnect.tv/hls/tvbenavente/tvbenavente.m3u8:TV Benavente
 #DESCRIPTION TV Benavente
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.youtb.workers.dev/channel/UCTQrUTmzCWIfG6h4EVCdOCQ.m3u8:TV Canaria
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCTQrUTmzCWIfG6h4EVCdOCQ.m3u8:TV Canaria
 #DESCRIPTION TV Canaria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//directo.tvferrol.es/tv.m3u8:TV Ferrol
 #DESCRIPTION TV Ferrol
@@ -279,7 +289,7 @@
 #DESCRIPTION TVO San Vicente
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//secure3.todostreaming.es/live/visionseis-livestream.m3u8:Visión 6 TV
 #DESCRIPTION Visión 6 TV
-#SERVICE 1:64:388:0:0:0:0:0:0:0:
+#SERVICE 1:64:37a:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/469e448f034b4d46afa4bcac53297d60/eu-central-1/6057955885001/profile_0/chunklist_dvr.m3u8:A Punt TV
 #DESCRIPTION A Punt TV
@@ -325,6 +335,8 @@
 #DESCRIPTION Ciudades Del Ocio TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdnapi.kaltura.com/p/2288691/sp/39582391/playManifest/entryId/0_xs45iy5i/format/applehttp/.m3u8:CMM TV
 #DESCRIPTION CMM TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5d8d85cf2c308.streamlock.net%3a1936/Condavision/endirecto/playlist.m3u8:Condavisión
+#DESCRIPTION Condavisión
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//congresodirecto-f.akamaihd.net/i/congreso1_1@71529/master.m3u8:Congreso de los Diputados 1
 #DESCRIPTION Congreso de los Diputados 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//congresodirecto-f.akamaihd.net/i/congreso2_1@72033/master.m3u8:Congreso de los Diputados 2
@@ -343,8 +355,8 @@
 #DESCRIPTION Cristiana TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//limited09.todostreaming.es/live/tarson-livestream.m3u8:Cuatro 4 TV Vall Uxa
 #DESCRIPTION Cuatro 4 TV Vall Uxa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.youtb.workers.dev/channel/UChMCkc02GVSi89TrvhbRasA.m3u8:Déjate de Historias TV (1080p)
-#DESCRIPTION Déjate de Historias TV (1080p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UChMCkc02GVSi89TrvhbRasA.m3u8:Déjate de Historias TV
+#DESCRIPTION Déjate de Historias TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn01.yowi.tv/KQRSDA7GDB/master.m3u8:Distrito TV Madrid
 #DESCRIPTION Distrito TV Madrid
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.yowi.tv/002c3bb235962b8f1b16/master.m3u8:Durangaldeko Telebista
@@ -483,6 +495,8 @@
 #DESCRIPTION Urola Telebista
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ventdelnord.tv%3a8080/hls/directe.m3u8:Ventdelnord TV
 #DESCRIPTION Ventdelnord TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vinx.radiocast.es%3a5443/LiveApp/streams/vinxtv.m3u8:Vinx TV
+#DESCRIPTION Vinx TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//app.viloud.tv/hls/channel/c0d91440f0b445407e7b7a4e414f64ca.m3u8:Viva TV
 #DESCRIPTION Viva TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5d8d85cf2c308.streamlock.net%3a1936/AlcalaTV/endirecto/playlist.m3u8:Vivamóvil
