@@ -1,5 +1,5 @@
 #NAME Stream Frankrijk (FR)
-#SERVICE 1:64:2e6:0:0:0:0:0:0:0:
+#SERVICE 1:64:2ed:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:2460:440:1:c00000:0:0:0:http%3a//livetv.ktv.zone/3/play.m3u8:TF1
 #DESCRIPTION TF1
@@ -21,12 +21,14 @@
 #DESCRIPTION France 24 English -2-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//81.94.196.204/tsstreamer/France24_HD.ts:France 24 French
 #DESCRIPTION France 24 French
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//5.254.16.186%3a80/France24/mono.m3u8:France 24 French -2-
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCCCPCZNChQdGa9EkATeye4g.m3u8:France 24 French -2-
 #DESCRIPTION France 24 French -2-
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCCCPCZNChQdGa9EkATeye4g.m3u8:France 24 French -3-
-#DESCRIPTION France 24 French -3-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/29/play.m3u8:France Info
 #DESCRIPTION France Info
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCJldRgT_D7Am-ErRHQZ90uw.m3u8:France Inter
+#DESCRIPTION France Inter
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5421175365ea3.streamlock.net/live/smil%3aswitch.smil/chunklist_w658967140_b2000000_t64NzIwcA==.m3u8:Francophonie 24
+#DESCRIPTION Francophonie 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-m6-france-prod-dub.shahid.net/out/v1/c8a9f6e000cd4ebaa4d2fc7d18c15988/index.m3u8:M6
 #DESCRIPTION M6
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/8/play.m3u8:M6 -2-
@@ -37,13 +39,13 @@
 #DESCRIPTION 6ter
 #SERVICE 4097:0:1:2334:442:1:c00000:0:0:0:http%3a//callofliberty.fr/stream/C8/master.m3u8:C8
 #DESCRIPTION C8
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/10/play.m3u8:C8 -2-
+#SERVICE 4097:0:1:2334:442:1:c00000:0:0:0:http%3a//livetv.ktv.zone/10/play.m3u8:C8 -2-
 #DESCRIPTION C8 -2-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a01g/index.m3u8:RTL 9
 #DESCRIPTION RTL 9
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/11/play.m3u8:W9
 #DESCRIPTION W9
-#SERVICE 1:64:2e7:0:0:0:0:0:0:0:
+#SERVICE 1:64:2ee:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END:BFM TV
 #DESCRIPTION BFM TV
@@ -97,11 +99,11 @@
 #DESCRIPTION NRJ Hits
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.158.62.119%3a8006/play/a02n/index.m3u8:RFM TV
 #DESCRIPTION RFM TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/12/play.m3u8:TMC
+#SERVICE 4097:0:1:2015:430:1:c00000:0:0:0:http%3a//livetv.ktv.zone/12/play.m3u8:TMC
 #DESCRIPTION TMC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/61/play.m3u8:TV5 Monde Europe
 #DESCRIPTION TV5 Monde Europe
-#SERVICE 1:64:2e8:0:0:0:0:0:0:0:
+#SERVICE 1:64:2ef:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3abn-live.akamaized.net/hls/live/2010546-b/French/master.m3u8:3ABN French
 #DESCRIPTION 3ABN French
@@ -151,10 +153,8 @@
 #DESCRIPTION Fashion TV Tsjechië/Slowakije
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_pg13_zw9_27065_ftv_pg13_196_hls.smil/playlist.m3u8:Fashion TV Tokyo
 #DESCRIPTION Fashion TV Tokyo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.jwplayer.com/manifests/akBcOPFb.m3u8:Figaro TV
-#DESCRIPTION Figaro TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5421175365ea3.streamlock.net/live/smil%3aswitch.smil/chunklist_w658967140_b2000000_t64NzIwcA==.m3u8:Francophonie 24
-#DESCRIPTION Francophonie 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livevideo.infomaniak.com/streaming/livecast/funradiovisionhd/playlist.m3u8:Fun Radio
+#DESCRIPTION Fun Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.vedge.infomaniak.com/livecast/ik%3ageneration-tv/manifest.m3u8:Generations TV
 #DESCRIPTION Generations TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/20/play.m3u8:Gulli Prime
