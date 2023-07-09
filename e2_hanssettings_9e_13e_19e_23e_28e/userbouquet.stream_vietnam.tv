@@ -1,18 +1,36 @@
 #NAME Stream Vietnam (VN)
-#SERVICE 1:64:40c:0:0:0:0:0:0:0:
-#DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fjp7rl09suliv.vcdn.cloud/channel/antv/channel/antv_1080p/chunks.m3u8:ANTV
+#SERVICE 1:64:44d:0:0:0:0:0:0:0:
+#DESCRIPTION ++VTC / VTV-hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7134:VTC 2 / VietNews
+#DESCRIPTION VTC 2 / VietNews
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7125:VTC 4 / Phim 2
+#DESCRIPTION VTC 4 / Phim 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7109:VTC 6 / VTV cab 11
+#DESCRIPTION VTC 6 / VTV cab 11
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7139:VTC 9
+#DESCRIPTION VTC 9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7142:VTV 1
+#DESCRIPTION VTV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7143:VTV 1 (#)
+#DESCRIPTION VTV 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7145:VTV 6
+#DESCRIPTION VTV 6
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7146:VTV 7
+#DESCRIPTION VTV 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7147:VTV 8
+#DESCRIPTION VTV 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7148:VTV 9
+#DESCRIPTION VTV 9
+#SERVICE 1:64:44e:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7114:ANTV
 #DESCRIPTION ANTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.bacgiangtv.vn/bgtvlive/tv1live.m3u8:BG.TV
-#DESCRIPTION BG.TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.thbl.vn/live/tv/tv.m3u8:BLTV
-#DESCRIPTION BLTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//113.163.216.23%3a1935/live/tv2.stream_480p/chunklist.m3u8:BRT HD 
 #DESCRIPTION BRT HD 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//118.107.85.4%3a1935/live/smil%3aBTV.smil/chunklist_w1080586255_b584000.m3u8:BTV
 #DESCRIPTION BTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.ctvcamau.vn/live/tv/tv.m3u8:CTV Camau
-#DESCRIPTION CTV Camau
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//118.107.85.4%3a1935/live/smil%3aCRTV.smil/playlist.m3u8:CRTV
+#DESCRIPTION CRTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//drtdnglive.e49a7c38.cdnviet.com/livedrt1/chunklist.m3u8:Da Nang TV 1
 #DESCRIPTION Da Nang TV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//drtdnglive.e49a7c38.cdnviet.com/livestream/chunklist.m3u8:Da Nang TV 2
@@ -21,116 +39,118 @@
 #DESCRIPTION DN 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//118.107.85.4%3a1935/live/smil%3aDNTV2.smil/playlist.m3u8:DN 2
 #DESCRIPTION DN 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//truyenhinh.vnptvas.vn/live.m3u8?c=vstv362&q=high&type=tv&token=LX-ibJYRUq9pflRtYAxfYQ&time=1586395820&gcId=1532&userId=&deviceId=&deviceType=&location=NA&requestTime=1586309420781&pkg=pkg11.hni:DTV
+#DESCRIPTION DTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/gooditv.sdp/playlist.m3u8:GTV
 #DESCRIPTION GTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cecex9g5cpliv.vcdn.cloud/capture/smil%3aHN1.smil/chunklist_b3128000_slen.m3u8:Ha Noi TV 1
 #DESCRIPTION Ha Noi TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hbtvlive.3ssoft.vn/hoabinhtv/chunklist.m3u8:HBTV HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/145013:HBTV HD
 #DESCRIPTION HBTV HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//60acee235f4d5.streamlock.net/HGTV/d1/chunklist_.m3u8:HGTV
-#DESCRIPTION HGTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wse.hatinhtv.net/live/httv1/chunklist_.m3u8:HTTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//60acee235f4d5.streamlock.net/HGTV/d1/playlist.m3u8:HGTV HD
+#DESCRIPTION HGTV HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wse.hatinhtv.net/live/httv1/playlist.m3u8:HTTV
 #DESCRIPTION HTTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/172014:HTV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7119:HTV 2
 #DESCRIPTION HTV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/172015:HTV 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7118:HTV 3
 #DESCRIPTION HTV 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/172011:HTV 9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7128:HTV 7 HD
+#DESCRIPTION HTV 7 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/172011:HTV 9
 #DESCRIPTION HTV 9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/ichannel.sdp/playlist.m3u8:ISTV
-#DESCRIPTION ISTV
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//60acee235f4d5.streamlock.net/live/mystream/chunklist_.m3u8:NTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7124:LA 34
+#DESCRIPTION LA 34
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//118.107.85.5%3a1935/live/smil%3aLTV.smil/playlist.m3u8:LTV HD
+#DESCRIPTION LTV HD
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//60acee235f4d5.streamlock.net/live/mystream/playlist.m3u8:NTV
 #DESCRIPTION NTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ngvauezm51liv.vcdn.cloud/live/smil%3adaknong.smil/chunklist_b3128000_sleng.m3u8:PTD HD
 #DESCRIPTION PTD HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//113.161.4.48%3a8080/phuyen/tv/index.m3u8:PTP
-#DESCRIPTION PTP
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//27.76.137.122%3a1935/standard/smil%3astandard.smil/chunklist_b596000_sleng.m3u8:QPVN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//118.107.85.5%3a1935/live/smil%3aPTQ.smil/playlist.m3u8:PTQ
+#DESCRIPTION PTQ
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//27.76.137.122%3a1935/standard/smil%3astandard.smil/playlist.m3u8:QPVN
 #DESCRIPTION QPVN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//113.161.6.157%3a8081/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8:QRT HD
 #DESCRIPTION QRT HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/266888:Quang Nam TV
-#DESCRIPTION Quang Nam TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/266883:Star World
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/266883:Star World
 #DESCRIPTION Star World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//113.163.189.104%3a8135/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8:STV 1
 #DESCRIPTION STV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//113.163.189.104%3a8135/hls-live/livepkgr/_definst_/liveevent/livestreamstv2.m3u8:STV 2
 #DESCRIPTION STV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//123.31.36.68/live.m3u8?c=vstv360&q=high&type=tv&token=LX-ibJYRUq9pflRtYAxfYQ&time=1586395820&gcId=1532&userId=&deviceId=&deviceType=&location=NA&requestTime=1586309420781&pkg=pkg11.hni:TBK
+#DESCRIPTION TBK
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//618b88f69e53b.streamlock.net/THDT/thdttv/playlist.m3u8:THDT 1 HD
+#DESCRIPTION THDT 1 HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//113.161.25.3%3a8134/hls/gialaitv/gialaitv.m3u8:THGL
 #DESCRIPTION THGL
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.hanamtv.vn/thhnlive/tv1live.m3u8:THHN
-#DESCRIPTION THHN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/145017:THGL (#)
+#DESCRIPTION THGL (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.thhp.vn/thp/index.m3u8:THP HD
+#DESCRIPTION THP HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//123.25.238.45%3a1935/live/thtg/chunklist_.m3u8:THTG
 #DESCRIPTION THTG
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.canthotv.vn/live/tv_web/chunklist_.m3u8:THTPCT HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.tchgroup.vn/live/tv_web/playlist.m3u8:THTPCT HD
 #DESCRIPTION THTPCT HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//60acee235f4d5.streamlock.net/THTV/travinhtv/chunklist_.m3u8:THTV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//60acee235f4d5.streamlock.net/THTV/travinhtv/playlist.m3u8:THTV 1
 #DESCRIPTION THTV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//618b88f69e53b.streamlock.net/THTV2/travinhtv2/chunklist_.m3u8:THTV 2
-#DESCRIPTION THTV 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.thainguyentv.vn/hls/livestream.m3u8:TN 1
 #DESCRIPTION TN 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.trt.com.vn/TRT-Online/chunklist.m3u8:TRT
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.trt.com.vn/TRT-Online/playlist.m3u8:TRT
 #DESCRIPTION TRT
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.tuyenquangtv.vn/hls/ttv.m3u8:TTV
-#DESCRIPTION TTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/7117:Tru Visions
+#DESCRIPTION Tru Visions
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//uni6rtmp.tulix.tv%3a1935/vbstv/vbsabr.smil/chunklist_w189527979_b1228800.m3u8:VBS 
 #DESCRIPTION VBS 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lms-public-ingest.swiftfederation.com/vovlive/tv1live.m3u8?:VOV TV
 #DESCRIPTION VOV TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vinhphuctv.vn%3a8090/vinhphuclive/web.stream_360p/chunklist_.m3u8:VP TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vinhphuctv.vn%3a8090/vinhphuclive/web.stream/playlist.m3u8:VP TV
 #DESCRIPTION VP TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/172072:VTC 3
-#DESCRIPTION VTC 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/144993:VTV 1
-#DESCRIPTION VTV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s4live.tv1asia.com%3a21585/vtv4/tracks-v1a1/mono.m3u8:VTV 4
-#DESCRIPTION VTV 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/172023:VTV 6
-#DESCRIPTION VTV 6
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/172010:VTV 7
-#DESCRIPTION VTV 7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/172039:VTV 8
-#DESCRIPTION VTV 8
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/172013:VTV 9
-#DESCRIPTION VTV 9
-#SERVICE 1:64:40d:0:0:0:0:0:0:0:
+#SERVICE 1:64:44f:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/airtv.sdp/playlist.m3u8:Air Lao TV
 #DESCRIPTION Air Lao TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/266884:Ba Ria Vung Tau TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/145002:An Ninh TV
+#DESCRIPTION An Ninh TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/266884:Ba Ria Vung Tau TV
 #DESCRIPTION Ba Ria Vung Tau TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//118.107.85.4%3a1935/live/smil%3aBTV.smil/chunklist_w1080586255_b584000.m3u8:Bac Ninh TV
-#DESCRIPTION Bac Ninh TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.43.109.144%3a1935/thbttv/bttv/playlist.m3u8:Binh Thuan TV
+#DESCRIPTION Binh Thuan TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/briantv.sdp/playlist.m3u8:Brian TV
 #DESCRIPTION Brian TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/khaomwungmai.sdp/playlist.m3u8:Dao Lane Xang
 #DESCRIPTION Dao Lane Xang
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/dhammasapha.stream/playlist.m3u8:Dhammasapha TV
 #DESCRIPTION Dhammasapha TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/284699:Good Idea TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/284699:Good Idea TV
 #DESCRIPTION Good Idea TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5bf6ea205fe60.streamlock.net/dn/_definst_/htvmuasam.stream/playlist.m3u8:GS Shop
+#DESCRIPTION GS Shop
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/hmongstartv.sdp/playlist.m3u8:Hmong Star TV
 #DESCRIPTION Hmong Star TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/cvabroadcasting.stream/playlist.m3u8:Hmong TV Network
 #DESCRIPTION Hmong TV Network
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/145013:Hoa Binh TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/284703:Hmong USA TV
+#DESCRIPTION Hmong USA TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/145013:Hoa Binh TV
 #DESCRIPTION Hoa Binh TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/houngfa.sdp/playlist.m3u8:Houng Fa
 #DESCRIPTION Houng Fa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.hungyentv.vn/hytvlive/radio.m3u8:Hung Yen TV
-#DESCRIPTION Hung Yen TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d39900ebfb8.streamlock.net/8478/8478/playlist.m3u8:International Vietnamese Television
 #DESCRIPTION International Vietnamese Television
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/284705:ISTV
-#DESCRIPTION ISTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/khmertv2020.stream/playlist.m3u8:Khmer TV
 #DESCRIPTION Khmer TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/lstv2.sdp/playlist.m3u8:Khomsanh TV
 #DESCRIPTION Khomsanh TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/145019:Kien Giang
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/145019:Kien Giang
 #DESCRIPTION Kien Giang
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/284712:Lao Champa TV 1
+#DESCRIPTION Lao Champa TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/284713:Lao Champa TV 2
+#DESCRIPTION Lao Champa TV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/284714:Lao Champa TV 3
+#DESCRIPTION Lao Champa TV 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/laoheritagetv.sdp/playlist.m3u8:Lao Heritage Foundation TV
 #DESCRIPTION Lao Heritage Foundation TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/laonet.sdp/playlist.m3u8:Lao Net TV
@@ -141,15 +161,13 @@
 #DESCRIPTION Lao SV TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8:Lao-Thai US TV
 #DESCRIPTION Lao-Thai US TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/284710:Long An 34 TV
-#DESCRIPTION Long An 34 TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8:Look Thoong TV
 #DESCRIPTION Look Thoong TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/laostv.sdp/playlist.m3u8:LS TV
-#DESCRIPTION LS TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/284721:NAT TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.streambrothers.com%3a1936/8228/8228/playlist.m3u8:LSTV
+#DESCRIPTION LSTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/284721:NAT TV
 #DESCRIPTION NAT TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.nhandan.thienvietjsc.net/live/nhandan720/chunklist_.m3u8:Nhan Dan TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.nhandan.thienvietjsc.net/live/nhandan720/playlist.m3u8:Nhan Dan TV
 #DESCRIPTION Nhan Dan TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/ningtv.sdp/playlist.m3u8:Ning TV
 #DESCRIPTION Ning TV
@@ -157,31 +175,21 @@
 #DESCRIPTION Ninh Binh TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/ohmuanglao.stream/playlist.m3u8:Oh Muang Lao TV
 #DESCRIPTION Oh Muang Lao TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/284724:Oy Lao TV
-#DESCRIPTION Oy Lao TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/pntv.sdp/playlist.m3u8:PNTV
 #DESCRIPTION PNTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//113.164.225.140%3a1935/live/quochoitvlive.stream_720p/playlist.m3u8:Quốc Hội
 #DESCRIPTION Quốc Hội
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5dcab9aed5331.streamlock.net/SET1/livestream/chunklist_.m3u8:SET 57.4 TV
 #DESCRIPTION SET 57.4 TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.sonlatv.vn/sltvlive/tv1live-transmux.m3u8:Son La TV
-#DESCRIPTION Son La TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5dcab9aed5331.streamlock.net/SET1/livestream/playlist.m3u8:SET TV 1
+#DESCRIPTION SET TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5dcabf026b188.streamlock.net/SET22/livestream/playlist.m3u8:SET TV 2
+#DESCRIPTION SET TV 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8:Tea TV
 #DESCRIPTION Tea TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8:Tea TV 2
 #DESCRIPTION Tea TV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/266880:True Visions
-#DESCRIPTION True Visions
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/284730:Uniquely Thai
-#DESCRIPTION Uniquely Thai
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/vanphenhtv.sdp/playlist.m3u8:Vanphenh TV
 #DESCRIPTION Vanphenh TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8:Vati Lao TV
 #DESCRIPTION Vati Lao TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/166145:VGS Shop
-#DESCRIPTION VGS Shop
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/172093:Viet Global TV
-#DESCRIPTION Viet Global TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//premiumiptvmk.com%3a8080/Streamteam5723/90ac349e/145088:Yen Bai TV
-#DESCRIPTION Yen Bai TV

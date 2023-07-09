@@ -1,7 +1,13 @@
 #NAME Stream Tanzania (TZ)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dacastmmd.mmdlive.lldns.net/dacastmmd/0f5cd45bb20c4c2db122ac583d37a071/chunklist_b4628000.m3u8:Channel Ten
-#DESCRIPTION Channel Ten
+#SERVICE 1:64:2cb:0:0:0:0:0:0:0:
+#DESCRIPTION ++hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//134630.global.ssl.fastly.net/5fe35eae8c53540cab83659a/live_5ffe3dc07b8f11ec89fd476d1ed4a755/index.m3u8:TBC 1
+#DESCRIPTION TBC 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//134630.global.ssl.fastly.net/5fe35eae8c53540cab83659a/live_36e8f510dfee11ec9dc2d5b207a2c04f/index.m3u8:TBC 2
+#DESCRIPTION TBC 2
+#SERVICE 1:64:2cc:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//origin3.afxp.telemedia.co.za/PremiumFree/bongotv/playlist.m3u8:Bongo TV
+#DESCRIPTION Bongo TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//68.183.41.209%3a8080/live/5d9a537c64b9c/index.m3u8:IBN TV Africa
 #DESCRIPTION IBN TV Africa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//134630.global.ssl.fastly.net/5fe35eae8c53540cab83659a/live_0a6ef900ad0511ed8f65a940024f638d/tracks-v1a1/mono.m3u8:Tanzania Safari Channel
-#DESCRIPTION Tanzania Safari Channel
