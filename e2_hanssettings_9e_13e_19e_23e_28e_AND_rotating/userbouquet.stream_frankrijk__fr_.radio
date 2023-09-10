@@ -49,6 +49,8 @@
 #DESCRIPTION BFM Radio (nieuws - Parijs, FR)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//relay2.bide-et-musique.com%3a9100:Bide et Musique
 #DESCRIPTION Bide et Musique
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//bretagne5.streamakaci.com/bretagne5.mp3:Bretagne 5
+#DESCRIPTION Bretagne 5
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/radiobruaysis-32.aac:bruaysis fm 99.2 AAC+ 32
 #DESCRIPTION bruaysis fm 99.2 AAC+ 32
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/radiobruaysis-128.mp3:bruaysis fm 99.2
@@ -339,8 +341,16 @@
 #DESCRIPTION Fun Radio Electro
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/funlatino/130/index.m3u8:Fun Radio Latino
 #DESCRIPTION Fun Radio Latino
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/freshfun/130/audio-64000/index.m3u8:Fun Radio Nouveautes
+#DESCRIPTION Fun Radio Nouveautes
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/funtomorrowland/130/index.m3u8:Fun Radio One World Radio
 #DESCRIPTION Fun Radio One World Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//daiconnect.com/live/hls/rtl/webpHJPXnXrN7B6J7Q8mcqmxP-partyfun-130/.m3u8 :Fun Radio Party Fun
+#DESCRIPTION Fun Radio Party Fun
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.daiconnect.com/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/funpopdance/130/index.m3u8:Fun Radio Pop Dance
+#DESCRIPTION Fun Radio Pop Dance
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/funsummer2023/130/audio-64000/index.m3u8:Fun Radio Summer
+#DESCRIPTION Fun Radio Summer
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/groupfun/national/long/index.m3u8:FUN Radio
 #DESCRIPTION FUN Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/funalpes.mp3:FunAlpes Radio
@@ -951,6 +961,8 @@
 #DESCRIPTION Rhone FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//185.52.127.173/fr/30401/aac_64.mp3:Rire & Chansons (Frankrijk)
 #DESCRIPTION Rire & Chansons (Frankrijk)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rivieraradio.ice.infomaniak.ch/rivieraradio-high.mp3:Riviera Radio
+#DESCRIPTION Riviera Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rkb.online.radiobreizh.bzh/live.mp3:RKB - Radio Kreiz Breizh (Sant-Nigouden, Bretagne)
 #DESCRIPTION RKB - Radio Kreiz Breizh (Sant-Nigouden, Bretagne)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//chai5she.cdn.dvmr.fr/rmcinfo:RMC - Info Talk Sport (Monaco)
@@ -967,18 +979,28 @@
 #DESCRIPTION Rouge Live Music France
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-madeinfrance.ice.infomaniak.ch/rouge-madeinfrance-128.mp3:Rouge Made in France
 #DESCRIPTION Rouge Made in France
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl100pc80/130/audio-64000/index.m3u8:RTL 100%25 80
+#DESCRIPTION RTL 100% 80
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl/203/index.m3u8:RTL 100%25 France
 #DESCRIPTION RTL 100% France
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl/202/index.m3u8:RTL 100%25 Grosses Têtes
 #DESCRIPTION RTL 100% Grosses Têtes
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl/201/index.m3u8:RTL 100%25 Hits
 #DESCRIPTION RTL 100% Hits
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/legrandstudiortl/130/audio-64000/index.m3u8:RTL Le Grand Studio RTL
+#DESCRIPTION RTL Le Grand Studio RTL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rtlreunion.ice.infomaniak.ch%3a80/rtlreunion-64.aac:RTL Reunion
 #DESCRIPTION RTL Reunion
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/grouprtl/national/long/index.m3u8:RTL
 #DESCRIPTION RTL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2/201/index.m3u8:RTL2 Acoustique
 #DESCRIPTION RTL2 Acoustique
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2legendesdurock/130/audio-64000/index.m3u8:RTL2 Legendes du Rock
+#DESCRIPTION RTL2 Legendes du Rock
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2madeinfrance/130/audio-64000/index.m3u8:RTL2 Made in France
+#DESCRIPTION RTL2 Made in France
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2poprockparty/130/audio-64000/index.m3u8:RTL2 Pop Rock Party
+#DESCRIPTION RTL2 Pop Rock Party
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2/202/index.m3u8:RTL2 Sur la route
 #DESCRIPTION RTL2 Sur la route
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/grouprtl2/national/long/index.m3u8:RTL2
