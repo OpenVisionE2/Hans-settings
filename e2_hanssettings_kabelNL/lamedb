@@ -66,9 +66,6 @@ ffff0000:000a:10ef
 ffff0000:081a:0600
 	c 466000:6900000:2:5:0:0:0
 /
-ffff0000:080f:0000
-	c 378000:6900000:2:5:0:0:0
-/
 ffff0000:000d:25a8
 	c 394000:6875000:2:5:0:0:0
 /
@@ -1208,9 +1205,6 @@ p:CAIW Media,c:050001
 ac26:ffff0000:0090:08c9:25:0
 RTL Z HD
 p:CAIW Media,c:050001
-abf4:ffff0000:0090:08c9:25:0
-Desire TV
-p:CAIW Media,c:050001
 2713:ffff0000:000a:10ef:1:0
 NPO Politiek en Nieuws
 p:Delta
@@ -1262,15 +1256,6 @@ p:Ziggo
 44fe:ffff0000:081a:0600:193:0
 MH_System_Data_Service
 p:Ziggo
-4b15:ffff0000:080f:0000:1:0
-378 SID 0x4b15
-p:
-4b16:ffff0000:080f:0000:1:0
-378 SID 0x4b16
-p:
-4b1a:ffff0000:080f:0000:1:0
-378 SID 0x4b1a
-p:
 0516:ffff0000:000d:25a8:1:0
 Kabelkrant SD
 p:SKV
@@ -1311,7 +1296,7 @@ p:CAIW Media
 3SAT
 p:CAIW Media
 2756:ffff0000:006e:08c9:1:0
-RTBF La Deux
+Tipik
 p:CAIW Media
 2760:ffff0000:006e:08c9:1:0
 ARTE
@@ -2181,7 +2166,7 @@ p:Ziggo
 Yoga Flow
 p:Ziggo
 2782:ffff0000:0805:0600:2:0
-NPO Soul & Jazz
+NPO Radio 2 Soul & Jazz
 p:Ziggo
 2784:ffff0000:0805:0600:2:0
 Radio 538
@@ -2245,9 +2230,6 @@ MTV Live HD
 p:CAIW Media,f:8
 a032:ffff0000:008d:08c9:25:0
 24 Kitchen HD
-p:CAIW Media,c:050001
-a06e:ffff0000:008d:08c9:25:0
-Love Nature
 p:CAIW Media,c:050001
 0644:ffff0000:0010:25a8:1:0
 Nicktoons
@@ -3647,6 +3629,9 @@ p:CAIW Media
 90ba:ffff0000:0089:08c9:1:0
 TV Oost
 p:CAIW Media
+90c4:ffff0000:0089:08c9:1:0
+Insight TV HD
+p:CAIW Media
 90ce:ffff0000:0089:08c9:1:0
 Shorts TV
 p:CAIW Media
@@ -3662,9 +3647,6 @@ p:CAIW Media
 909c:ffff0000:0089:08c9:25:0
 Eurosport 2 HD
 p:CAIW Media,c:050001
-90c4:ffff0000:0089:08c9:25:0
-INPLUS
-p:CAIW Media
 36b1:ffff0000:000e:10ef:1:0
 Nick Jr.
 p:Delta
@@ -4643,6 +4625,9 @@ p:Ziggo
 1fab:ffff0000:0cac:0600:22:0
 SIRIS-tv
 p:Ziggo,c:050001
+1fad:ffff0000:0cac:0600:22:0
+Omroep Meierij
+p:Ziggo,c:050001
 1fb0:ffff0000:0cac:0600:22:0
 eentv
 p:Ziggo,c:050001
@@ -4660,7 +4645,7 @@ DitisHelmond TV
 p:Ziggo,c:050001
 1fad:ffff0000:0cac:0600:25:0
 Omroep Meierij
-p:Ziggo,c:050001
+p:Ziggo
 1fae:ffff0000:0cac:0600:25:0
 Omroep Veldhoven
 p:Ziggo,c:050001
@@ -5481,8 +5466,8 @@ p:Ziggo,c:050001
 Discovery
 p:Ziggo,c:050001,c:098800
 4b1a:ffff0000:080f:0600:25:0
-VRT CANVAS
-p:Ziggo,c:050001,c:098800,f:8
+Canvas
+p:Ziggo,c:050001,c:098800
 1519:ffff0000:0036:25a8:25:0
 Babes TV HD
 p:SKV

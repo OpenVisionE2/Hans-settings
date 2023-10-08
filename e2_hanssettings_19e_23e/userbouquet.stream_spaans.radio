@@ -1,5 +1,5 @@
 #NAME Stream Spaans (ES)
-#SERVICE 1:64:54c:0:0:0:0:0:0:0:
+#SERVICE 1:64:53c:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rne1/main/mp3/high:RNE Radio Nacional
 #DESCRIPTION RNE Radio Nacional
@@ -13,19 +13,19 @@
 #DESCRIPTION RNE Radio Clásica
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rneree/main/mp3/high:RNE Exterior
 #DESCRIPTION RNE Exterior
-#SERVICE 1:64:54d:0:0:0:0:0:0:0:
+#SERVICE 1:64:53d:0:0:0:0:0:0:0:
 #DESCRIPTION --- Spanje - Canarische Eilanden ---
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//panel.amediastream.eu%3a8500/live:Holland FM
 #DESCRIPTION Holland FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mooiradio.live-streams.nl/live:Mooi Radio
 #DESCRIPTION Mooi Radio
-#SERVICE 1:64:54e:0:0:0:0:0:0:0:
+#SERVICE 1:64:53e:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.10.10.225/zaragoza/live-web/chunklist_b128000.m3u8?GKID=dc544ece277711e9809800163e914f69:Aragón Radio
 #DESCRIPTION Aragón Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//antares.dribbcast.com/proxy/ondasanlucar?mp=/stream:Bahio sur Radio (Sanlúcar de Barrameda)
 #DESCRIPTION Bahio sur Radio (Sanlúcar de Barrameda)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//flucast-b05-01.flumotion.com/cope/cadena100-high.mp3:Cadena 100
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//cadena100-streamers-mp3-low.flumotion.com/cope/cadena100-low.mp3:Cadena 100
 #DESCRIPTION Cadena 100
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//20423.live.streamtheworld.com/CADENADIAL_SC:Cadena Dial
 #DESCRIPTION Cadena Dial
@@ -59,10 +59,8 @@
 #DESCRIPTION Costa Hit Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.elfarodigital.es%3a8000/copeceuta?:Cope Ceuta (Ceiuta, Spanje, noord-Afrika)
 #DESCRIPTION Cope Ceuta (Ceiuta, Spanje, noord-Afrika)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//flucast-b02-05.flumotion.com/cope/net2.mp3:COPE Nacional
-#DESCRIPTION COPE Nacional
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wecast17-h-cloud.flumotion.com/copesedes/barcelona.mp3:COPE Barcelona
-#DESCRIPTION COPE Barcelona
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//flucast-m01-06.flumotion.com/cope/madrid.mp3:Cope FM
+#DESCRIPTION Cope FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.costahitradio.com%3a8134/stream:Costa Hit Radio (Nederlandstalig)
 #DESCRIPTION Costa Hit Radio (Nederlandstalig)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//c3.auracast.net%3a8020/stream/1/:Dance Radio
@@ -125,8 +123,6 @@
 #DESCRIPTION Melodia FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//20073.live.streamtheworld.com/MAXIMAFMAAC.aac?csegid=2000&tdsdk=js-2.9&pname=TDSdk&pversion=2.9&banners=300x250&sbmid=ce486fb5-b5d2-4669-fe7b-c64550744bf9:Máxima FM
 #DESCRIPTION Máxima FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//flucast-b05-05.flumotion.com/cope/megastar.mp3:Megastar FM
-#DESCRIPTION Megastar FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//opsinjoor2.live-streams.nl/:Mooi Radio Tenerife
 #DESCRIPTION Mooi Radio Tenerife
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live-audio.ondacero.es/radio/ondacero/master.m3u8:Onda Cero
