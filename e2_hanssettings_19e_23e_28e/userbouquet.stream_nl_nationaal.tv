@@ -1,53 +1,81 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:182:0:0:0:0:0:0:0:
+#SERVICE 1:64:191:0:0:0:0:0:0:0:
 #DESCRIPTION ++NPO - werkt niet in iedere ontvanger!++
-#SERVICE 4097:0:19:5225:c99:3:eb0000:0:0:0:http%3a//46.244.63.133%3a4423/udp/239.3.4.17%3a2000:NPO 1
+#SERVICE 4097:0:19:5225:c99:3:eb0000:0:0:0:http%3a//92.68.158.181%3a55510/play/3656/index.m3u8:NPO 1
 #DESCRIPTION NPO 1
-#SERVICE 4097:0:19:17c0:c82:3:eb0000:0:0:0:http%3a//46.244.63.133%3a4423/udp/239.3.4.103%3a2000:NPO 2
+#SERVICE 4097:0:19:5225:c99:3:eb0000:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/2481:NPO 1 (#)
+#DESCRIPTION NPO 1 (#)
+#SERVICE 4097:0:19:17c0:c82:3:eb0000:0:0:0:http%3a//92.68.158.181%3a55510/play/3657/index.m3u8:NPO 2
 #DESCRIPTION NPO 2
-#SERVICE 4097:0:19:5230:c99:3:eb0000:0:0:0:http%3a//46.244.63.133%3a4423/udp/239.3.4.104%3a2000:NPO 3
+#SERVICE 4097:0:19:17c0:c82:3:eb0000:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/852:NPO 2 (#)
+#DESCRIPTION NPO 2 (#)
+#SERVICE 4097:0:19:5230:c99:3:eb0000:0:0:0:http%3a//92.68.158.181%3a55510/play/3658/index.m3u8:NPO 3
 #DESCRIPTION NPO 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.244.63.133%3a4423/udp/239.3.4.115%3a2000:NPO 1 Extra
+#SERVICE 4097:0:19:5230:c99:3:eb0000:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/193474:NPO 3 (#)
+#DESCRIPTION NPO 3 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.68.158.181%3a55510/play/3660/index.m3u8:NPO 1 Extra
 #DESCRIPTION NPO 1 Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.244.63.133%3a4423/udp/239.3.4.116%3a2000:NPO 2 Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/37541:NPO 1 Extra (#)
+#DESCRIPTION NPO 1 Extra (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.68.158.181%3a55510/play/3661/index.m3u8:NPO 2 Extra
 #DESCRIPTION NPO 2 Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//es.xipi3.xyz%3a2052/tofiqmixxxxx/znk896576272728282822828228282828/96027:NPO Politiek en Nieuws
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/65701:NPO 2 Extra (#)
+#DESCRIPTION NPO 2 Extra (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.68.158.181%3a55510/play/3659/index.m3u8:NPO Politiek en Nieuws
 #DESCRIPTION NPO Politiek en Nieuws
-#SERVICE 4097:0:16:1645:42c:1:c00000:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/5634:BVN 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/5314:NPO Politiek en Nieuws (#)
+#DESCRIPTION NPO Politiek en Nieuws (#)
+#SERVICE 4097:0:16:1645:42c:1:c00000:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/151670:BVN 
 #DESCRIPTION BVN 
-#SERVICE 1:64:183:0:0:0:0:0:0:0:
+#SERVICE 1:64:192:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:4ed1:c99:3:eb0000:0:0:0:https%3a//bnr-cache-cdp.triple-it.nl/studio/1648910007-fast-1280-720-800000-index.m3u8:BNR Nieuwsradio
+#SERVICE 4097:0:1:4ed1:c99:3:eb0000:0:0:0:https%3a//bnr-cache-cdp.triple-it.nl/studio/index.m3u8:BNR Nieuwsradio
 #DESCRIPTION BNR Nieuwsradio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eu-nl-012.worldcast.tv/dancetelevisionfour/2/dancetelevisionfour.m3u8:Dance Television Tech House
-#DESCRIPTION Dance Television Tech House
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dpp-aldag-ochtendshow.akamaized.net/streamx/DeOchtendshow_540p.m3u8:De Ochtendshow - werkdagen
-#DESCRIPTION De Ochtendshow - werkdagen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/5357:Dance Television
+#DESCRIPTION Dance Television
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8:Dance TV Channel 1
+#DESCRIPTION Dance TV Channel 1
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//mbit1.worldcast.tv/dancetelevisiontwo/stream_0.m3u8:Dance TV Channel 2
+#DESCRIPTION Dance TV Channel 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//m2b2.worldcast.tv%3a7443/dancetelevisionthree/2/dancetelevisionthree.m3u8:Dance TV Channel 3
+#DESCRIPTION Dance TV Channel 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//m2b2.worldcast.tv%3a7443/dancetelevisionfour/2/dancetelevisionfour.m3u8:Dance TV Channel 4
+#DESCRIPTION Dance TV Channel 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//m2b2.worldcast.tv%3a7443/dancetelevisionfive/2/dancetelevisionfive.m3u8:Dance TV Channel 5
+#DESCRIPTION Dance TV Channel 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbit1.worldcast.tv/dancetelevisionsix/stream_0.m3u8:Dance TV Channel 6
+#DESCRIPTION Dance TV Channel 6
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbit1.worldcast.tv/dancetelevisionseven/stream_0.m3u8:Dance TV Channel 7
+#DESCRIPTION Dance TV Channel 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbit1.worldcast.tv/dancetelevisioneight/stream_0.m3u8:Dance TV Channel 8
+#DESCRIPTION Dance TV Channel 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbit1.worldcast.tv/dancetelevisionnine/stream_0.m3u8:Dance TV Channel 9
+#DESCRIPTION Dance TV Channel 9
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8:Qmusic
 #DESCRIPTION Qmusic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//radio10.prd1.talpatvcdn.nl/2b725bc7c93f477eaf0e43955ea8a6c1/index_1.m3u8:Radio 10
 #DESCRIPTION Radio 10
 #SERVICE 4097:0:1:5260:c99:3:eb0000:0:0:0:https%3a//radio538.prd1.talpatvcdn.nl/22e9bbf9616547d7bc162c993009c533/index_1.m3u8:Radio 538
 #DESCRIPTION Radio 538
-#SERVICE 4097:0:1:33d:c35a:9e:5a0000:0:0:0:https%3a//streaming05.stream.delivery/radiocontinu/live/playlist.m3u8:Radio Continu (Tweede Exloermond, NL met soms epg)
-#DESCRIPTION Radio Continu (Tweede Exloermond, NL met soms epg)
-#SERVICE 4097:0:1:2b28:803:600:ffff0000:0:0:0:http%3a//5f1b356656745.streamlock.net/radiocontinu/live/chunklist.m3u8:Radio Continu (Tweede Exloermond, NL met soms epg)
-#DESCRIPTION Radio Continu (Tweede Exloermond, NL met soms epg)
+#SERVICE 4097:0:1:33d:c35a:9e:5a0000:0:0:0:https%3a//streaming05.stream.delivery/radiocontinu/live/playlist.m3u8:Radio Continu
+#DESCRIPTION Radio Continu
+#SERVICE 4097:0:1:2b28:803:600:ffff0000:0:0:0:http%3a//5f1b356656745.streamlock.net/radiocontinu/live/chunklist.m3u8:Radio Continu (#)
+#DESCRIPTION Radio Continu (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.radionl.tv/radionltv/radionltv/chunklist_.m3u8:Radio NL
 #DESCRIPTION Radio NL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//radioveronica.prd1.talpatvcdn.nl/a1115cc610fd42418e2f6d7e29a01c3c/index_1.m3u8:Radio Veronica
 #DESCRIPTION Radio Veronica
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dhclzcsxsio1e.cloudfront.net/9e844cd7-2b72-4f1a-bfb3-413e8bbdba14/hls_15.m3u8:Rechtspraak NL 
 #DESCRIPTION Rechtspraak NL 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//93.190.140.42%3a8081/SilenceTV/live/playlist.m3u8:Silence TV
-#DESCRIPTION Silence TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ms2.mx-cd.net/tv/Tommy_Teleshopping.smil/playlist.m3u8 :Tommy TV - teleshopping 
-#DESCRIPTION Tommy TV - teleshopping 
-#SERVICE 4097:0:1:4b8e:816:600:ffff0000:0:0:0:http%3a//ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8:Tommy TV (met epg via Ziggo)
-#DESCRIPTION Tommy TV (met epg via Ziggo)
-#SERVICE 4097:0:1:4cfc:81c:600:ffff0000:0:0:0:http%3a//ms2.mx-cd.net/tv/XITE_NL.smil/playlist.m3u8 :XITE HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sbs6classics.prd1.talpatvcdn.nl/kijk/Tcv51XUtMmi/v1/manifest/8ada1ed2ae3b9c3db6fc5e604cfa78fc7d2d745e/sbs6classics/38885126-24fc-4e4c-acff-e56fc9d4d246/0.m3u8:SBS6 Classics
+#DESCRIPTION SBS6 Classics
+#SERVICE 4097:0:1:4b8e:816:600:ffff0000:0:0:0:http%3a//ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8:Tommy TV
+#DESCRIPTION Tommy TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/5363:TV Oranje
+#DESCRIPTION TV Oranje
+#SERVICE 4097:0:1:4cfc:81c:600:ffff0000:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/5366:XITE HD
 #DESCRIPTION XITE HD
-#SERVICE 1:64:184:0:0:0:0:0:0:0:
+#SERVICE 1:64:193:0:0:0:0:0:0:0:
 #DESCRIPTION +++Radio Toppers+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-67.stream-server.nl%3a1936/RadioToppers/RadioToppers/playlist.m3u8:Radio Toppers
 #DESCRIPTION Radio Toppers
@@ -57,7 +85,7 @@
 #DESCRIPTION Poesjes TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-23.stream-server.nl%3a1936/WinkRadio/WinkRadio/playlist.m3u8:Wink Radio
 #DESCRIPTION Wink Radio
-#SERVICE 1:64:185:0:0:0:0:0:0:0:
+#SERVICE 1:64:194:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL amateur-tv++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//stream.pi6atv.com%3a8081/scoop/pi6atv-hd/playlist.m3u8  :PI6atv (NL amateur tv)
 #DESCRIPTION PI6atv (NL amateur tv)
