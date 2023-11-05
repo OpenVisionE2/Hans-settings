@@ -1,5 +1,5 @@
 #NAME Stream USA (US)
-#SERVICE 1:64:418:0:0:0:0:0:0:0:
+#SERVICE 1:64:43c:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders networks++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//1tv41.icu%3a8080/4qUDXt/560526/120857:ABC 7 Los Angeles
 #DESCRIPTION ABC 7 Los Angeles
@@ -87,7 +87,7 @@
 #DESCRIPTION VoA TV Africa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8:VoA TV Persian
 #DESCRIPTION VoA TV Persian
-#SERVICE 1:64:419:0:0:0:0:0:0:0:
+#SERVICE 1:64:43d:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//1tv41.icu%3a8080/4qUDXt/560526/59056:A&E
 #DESCRIPTION A&E
@@ -259,7 +259,7 @@
 #DESCRIPTION USA Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2do1g43aq7264.cloudfront.net/playlist.m3u8:Vice East
 #DESCRIPTION Vice East
-#SERVICE 1:64:41a:0:0:0:0:0:0:0:
+#SERVICE 1:64:43e:0:0:0:0:0:0:0:
 #DESCRIPTION ++landelijke nieuwszenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/2734:ABC News
 #DESCRIPTION ABC News
@@ -341,7 +341,7 @@
 #DESCRIPTION WeatherSpy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/282290:Yahoo! Finance
 #DESCRIPTION Yahoo! Finance
-#SERVICE 1:64:41b:0:0:0:0:0:0:0:
+#SERVICE 1:64:43f:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders sport++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/59945:AT&T Sportsnet
 #DESCRIPTION AT&T Sportsnet
@@ -415,7 +415,7 @@
 #DESCRIPTION WWE Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//aanax.com%3a8080/cipo/TAd9YX7VLaxhjxXt/5519:Yes Network
 #DESCRIPTION Yes Network
-#SERVICE 1:64:41c:0:0:0:0:0:0:0:
+#SERVICE 1:64:440:0:0:0:0:0:0:0:
 #DESCRIPTION ++nieuwsfeeds++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8:ABC News 1
 #DESCRIPTION ABC News 1
@@ -477,7 +477,7 @@
 #DESCRIPTION NBC News Now Event 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wsjlivehls-lh.akamaihd.net/i/events1_1@174990/master.m3u8:WSJ Live 
 #DESCRIPTION WSJ Live 
-#SERVICE 1:64:41d:0:0:0:0:0:0:0:
+#SERVICE 1:64:441:0:0:0:0:0:0:0:
 #DESCRIPTION ++regionale informatieve uitzendingen++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil%3awbrz-live.smil/chunklist.m3u8:ABC 2 Baton Rouge
 #DESCRIPTION ABC 2 Baton Rouge
@@ -685,16 +685,24 @@
 #DESCRIPTION NBC 26 Green Bay
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dai2-playlistserver.aws.syncbak.com/cpl/20980038/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDk4MDAzOCIsImNpZCI6MjE5MDMsInNpZCI6MTU4LCJtZDUiOiIwN2QxMmRjNjAwOTM2MGI0MmY3NjNkNTRiMWIwZjI1NCIsImlhdCI6MTY2MDkxMzU2MCwiZXhwIjoxNjkyNDQ5NTYwLCJpc3MiOiJTeW5jYmFrIChURykifQ.JrWVgwzIn_RcNuWhkzIjr1i4qjXU1v4n0KFrSzoTQvQ:WDAM Detroit
 #DESCRIPTION WDAM Detroit
-#SERVICE 1:64:41e:0:0:0:0:0:0:0:
+#SERVICE 1:64:442:0:0:0:0:0:0:0:
 #DESCRIPTION ++lokale uitzendingen++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcsecurelivehls-i.akamaihd.net/hls/live/598046/4744899807001_1/livestream/master.m3u8:7 News Boston
 #DESCRIPTION 7 News Boston
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vbfast-c.viebit.com/810fe13b-a9ac-46b3-a523-5a7e90ddfd25/playlist.m3u8:Access La Porte Country Channel 97 Michigan City IN
+#DESCRIPTION Access La Porte Country Channel 97 Michigan City IN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ampmedia.secure.footprint.net/egress/bhandler/ampmedia/streama/manifest.m3u8:Access Media Productions Community (AMP) 1 (Monterey CA)
 #DESCRIPTION Access Media Productions Community (AMP) 1 (Monterey CA)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ampmedia.secure.footprint.net/egress/bhandler/ampmedia/streamb/manifest.m3u8:Access Media Productions Community (AMP) 2 (Monterey CA)
 #DESCRIPTION Access Media Productions Community (AMP) 2 (Monterey CA)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.telvue.com/nashuanh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8:Access Nashua NH
+#DESCRIPTION Access Nashua NH
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.youtb.workers.dev/channel/UCMeyWH1vyb1TT6Vimp4MqLA.m3u8:Access Sarasota
 #DESCRIPTION Access Sarasota
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8:Access Vision Channel 16 Battle Creek MI
+#DESCRIPTION Access Vision Channel 16 Battle Creek MI
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8:Access Vision Channel 17 Battle Creek MI
+#DESCRIPTION Access Vision Channel 17 Battle Creek MI
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn3.wowza.com/5/ODB6NmF5K3l4T1h5/persis/6361162879_AZ-247.stream_247/chunklist.m3u8:ACTV Phoenix AZ
 #DESCRIPTION ACTV Phoenix AZ
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch1/video.m3u8:Akaku 53 Hawaii
@@ -1303,7 +1311,7 @@
 #DESCRIPTION WTGL-TV Good Life 45
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls-cdn.tvstartup16.net/tvstartup16-channel/live/mp4%3ajimbobklynedge/playlist.m3u8:WWON TV CH 48
 #DESCRIPTION WWON TV CH 48
-#SERVICE 1:64:41f:0:0:0:0:0:0:0:
+#SERVICE 1:64:443:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//moiptvhls-i.akamaihd.net/hls/live/652042/secure/HQs/chunklist.m3u8:3ABN
 #DESCRIPTION 3ABN
@@ -1333,7 +1341,7 @@
 #DESCRIPTION 90s Throwback
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-us-east-1.getpublica.com/playlist.m3u8?network_id=4152:911 Network
 #DESCRIPTION 911 Network
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.youtb.workers.dev/channel/UCMeyWH1vyb1TT6Vimp4MqLA.m3u8:AACTV America's Auction Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythlsgo.onrender.com/channel/UCMeyWH1vyb1TT6Vimp4MqLA.m3u8:AACTV America's Auction Channel
 #DESCRIPTION AACTV America's Auction Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amc-absolutereality-1.imdbtv.wurl.com/manifest/playlist.m3u8:Absolute Reality
 #DESCRIPTION Absolute Reality
@@ -2457,6 +2465,8 @@
 #DESCRIPTION The Retro Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a.jsrdn.com/broadcast/e6bdcb5ae9/+0000/c.m3u8:The Titanic Channel
 #DESCRIPTION The Titanic Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//app.viloud.tv/hls/channel/0694b92d093cc2bd5438ff9bbccaf1a2.m3u8:The Ultimate Music Channel
+#DESCRIPTION The Ultimate Music Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fuel-streaming-prod01.fuelmedia.io/v1/sem/de2afd24-9c52-4ef2-9a9a-b6c426885cc4.m3u8?did=ngIZ23:The Wildlife World
 #DESCRIPTION The Wildlife World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//thisoldhouse-samsung-us.samsung.wurl.tv/playlist.m3u8:This Old House
@@ -2481,6 +2491,8 @@
 #DESCRIPTION Toonami Aftermath West
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a.jsrdn.com/broadcast/18b42f9aef/+0000/c.m3u8:Tranquil Thunderstorms
 #DESCRIPTION Tranquil Thunderstorms
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//app.viloud.tv/hls/channel/0d984388834adac967a4ec4e69bc8271.m3u8:Travel Adventures with Jeff Swan
+#DESCRIPTION Travel Adventures with Jeff Swan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fuel-streaming-prod01.fuelmedia.io/v1/sem/37163a43-9415-4c31-99cd-8430fac7d656.m3u8?did=ngIZ23:Travel Escape
 #DESCRIPTION Travel Escape
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp1.abnsat.com/hls/trinity.m3u8:Trinity Channel

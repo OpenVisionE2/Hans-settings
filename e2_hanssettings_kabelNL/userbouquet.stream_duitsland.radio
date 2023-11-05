@@ -125,6 +125,8 @@
 #DESCRIPTION Acid Jazz Radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//service.pop-stream.de%3a4000/;:AGF-Radio
 #DESCRIPTION AGF-Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s37.derstream.net/ahoy-radio.mp3:Ahoy Radio Hamburg
+#DESCRIPTION Ahoy Radio Hamburg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//server3.streamserver-unlimited.de%3a8689/stream2:Ahrtalradio
 #DESCRIPTION Ahrtalradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge02.streamonkey.net/aidaradio-meergefuehl:AIDAradio
@@ -365,6 +367,8 @@
 #DESCRIPTION BB Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//beatdownx.stream.laut.fm/beatdownx?t302=2017-12-02_23-00-21&uuid=b42fd430-7410-4f0c-adfa-0f45bc2e425f:beatdownx
 #DESCRIPTION beatdownx
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//klassikr.streamabc.net/klr-beatsnational-mp3-192-9584635:Beats Radio
+#DESCRIPTION Beats Radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.berliner-rundfunk.de/brf/mp3-128/internetradio/:Berliner Rundfunk
 #DESCRIPTION Berliner Rundfunk
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//streaming.fueralle.org%3a8000/bermudafunk.ogg:bermudafunk
@@ -677,8 +681,8 @@
 #DESCRIPTION DnB Radio All-Flavors (Duitsland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//source.dnbradio.com%3a13128/dnbradio_darkstep:DnB Radio Darkstep (Duitsland)
 #DESCRIPTION DnB Radio Darkstep (Duitsland)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//domradio-mp3-l.akacast.akamaistream.net/7/809/237368/v1/gnl.akacast.akamaistream.net/domradio-mp3-l:Domradio  (Duitsland)
-#DESCRIPTION Domradio  (Duitsland)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//f141.rndfnk.com/domradio/domradio/1000/mp3/128/stream.mp3?aggregator=mediau&cid=01FG9CQ1NCE94EG12W43YR2RG6&sid=2XenyWoWL4LeCmf7b5U73C0A9rP&token=dDNDNSN0j1Fv8y6G4vGpuRHAZaKIxfBi-MKO0aekt_M&tvf=RSCSd-4hlBdmMTQxLnJuZGZuay5jb20:Domradio
+#DESCRIPTION Domradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mp3.donau3fm.c.nmdn.net/donau3fm/live.mp3:Donau-3 (Duitsland)
 #DESCRIPTION Donau-3 (Duitsland)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dradio_mp3_dwissen_m.akacast.akamaistream.net/7/728/142684/v1/gnl.akacast.akamaistream.net/dradio_mp3_dwissen_m:DRadio
@@ -1103,6 +1107,10 @@
 #DESCRIPTION Hitradio Ohr Spezial
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.hitradio-ohr.de/hitradio_ohr:Hitradio Ohr
 #DESCRIPTION Hitradio Ohr
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//frontend.streamonkey.net/rt1-ch02/stream/mp3:Hitradio RT1 Neuburg-Schrobenhausen
+#DESCRIPTION Hitradio RT1 Neuburg-Schrobenhausen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge14.streamonkey.net/rt1-ch01/stream/mp3:Hitradio RT1
+#DESCRIPTION Hitradio RT1
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.hitradio-rtl.de/hitradio-rtl_100maxis_192k_mp3:Hitradio RTL 100%25 Maxis
 #DESCRIPTION Hitradio RTL 100% Maxis
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.hitradio-rtl.de/hitradio-rtl_2000er_192k_mp3:Hitradio RTL 2000s
@@ -1147,12 +1155,8 @@
 #DESCRIPTION Hitradio-4-you
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//str0.creacast.com/hitradio_ohr:Hitradio-Ohr
 #DESCRIPTION Hitradio-Ohr
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge14.streamonkey.net/rt1-ch01/stream/mp3:Hitradio RT1
-#DESCRIPTION Hitradio RT1
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//frontend.streamonkey.net/rt1-ch01/stream/mp3:Hitradio-RT1 Augsburg
 #DESCRIPTION Hitradio-RT1 Augsburg
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//frontend.streamonkey.net/rt1-ch02/stream/mp3:Hitradio RT1 Neuburg-Schrobenhausen
-#DESCRIPTION Hitradio RT1 Neuburg-Schrobenhausen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//frontend.streamonkey.net/rt1-ch03/stream/mp3:Hitradio-RT1 Nordschwaben
 #DESCRIPTION Hitradio-RT1 Nordschwaben
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//frontend.streamonkey.net/rt1-ch04/stream/mp3:Hitradio-RT1 Südschwaben
@@ -2495,6 +2499,8 @@
 #DESCRIPTION Radio Galaxy - Oberfranken
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rgo-ais-edge-3002-fra-eco-cdn.cast.addradio.de/rgo/live/mp3/high:Radio Germany One
 #DESCRIPTION Radio Germany One
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiogong--di--nacs-ais-lgc--01--cdn.cast.addradio.de/radiogong/live/mp3/high:Radio Gong 96,3
+#DESCRIPTION Radio Gong 96,3
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiogong-channel08.cast.addradio.de/radiogong/channel08/mp3/high:Radio Gong Akustik Covers
 #DESCRIPTION Radio Gong Akustik Covers
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiogong-channel09.cast.addradio.de/radiogong/channel09/mp3/high:Radio Gong Kids
@@ -2521,6 +2527,8 @@
 #DESCRIPTION Radio Gütersloh (Duitsland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mp3.radiohagen.c.nmdn.net/radiohagen/livestream.mp3:Radio Hagen (Duitsland)
 #DESCRIPTION Radio Hagen (Duitsland)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.emisorasmusicales.net/listen/hallo_fm/hallofm.mp3:Radio Hallo (voor Duitsers in Spanje)
+#DESCRIPTION Radio Hallo (voor Duitsers in Spanje)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//radiohamburg.hoerradar.de/radiohamburg-live-mp3-128?sABC=59q02n50%25230%2523s58q219o90642456or95s6ns726669n1%2523yvfgrayvir&amsparams=playerid%3alistenlive;skey%3a1506814544:Radio Hamburg
 #DESCRIPTION Radio Hamburg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio-hannover.divicon-stream.net/rhann_livestrea_zqu6-mp3-128:Radio Hannover - 1000
@@ -2941,6 +2949,8 @@
 #DESCRIPTION Radio Welle Niederrhein
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.blpn.de%3a8443/r3we_128:Radio Welle West Wetterau
 #DESCRIPTION Radio Welle West Wetterau
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radio-wellenrausch.de/rwrlive/mp3-192/stream.radio-wellenrausch.de/:Radio Wellenrausch
+#DESCRIPTION Radio Wellenrausch
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiowesterwald.de%3a8000/live:Radio Westerwald 
 #DESCRIPTION Radio Westerwald 
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//mp3.l.nmdn.net%3a80/ps-radiowestfalica/livestream.mp3:Radio Westfalica
@@ -3959,6 +3969,8 @@
 #DESCRIPTION teutoRADIO (Duitsland)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//radio.radiohelgoland.de%3a8000/live:The Rock Radio Helgoland
 #DESCRIPTION The Rock Radio Helgoland
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio21.streamabc.net/radio21-radio21dabns-mp3-256-5529609:The Wolf
+#DESCRIPTION The Wolf
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//rtlberlin.hoerradar.de/thewave-mp3-128?sABC=5n38p4nq%25230%2523rnoopr590o2qqrp5qsq2s8p24q12pp2n%2523enqvb-oebjfre.vasb&amsparams=playerid%3aradio-browser.info;skey%3a1513669805:the-wave---relaxing-radio
 #DESCRIPTION the-wave---relaxing-radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.theradio.cc%3a8000/trcc-stream.mp3:TheRadioCC-MP3
