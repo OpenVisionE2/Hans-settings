@@ -1,5 +1,5 @@
 #NAME Stream Iran (IR)
-#SERVICE 1:64:27e:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b8:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//simaytv.akamaized.net/hls/live/2043550/simayhls/index.m3u8:Iran International TV
 #DESCRIPTION Iran International TV
@@ -119,7 +119,7 @@
 #DESCRIPTION IRIB Sabz
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/285274:IRIB Sabalan
 #DESCRIPTION IRIB Sabalan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/56823:IRIB Salamat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.aionet.ir/hls/salamat/salamat.m3u8:IRIB Salamat
 #DESCRIPTION IRIB Salamat
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/64953:IRIB Semnan
 #DESCRIPTION IRIB Semnan
@@ -133,13 +133,17 @@
 #DESCRIPTION IRIB Tabarestan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnw.telewebion.com/hdtest/live/playlist.m3u8:IRIB Tamasha
 #DESCRIPTION IRIB Tamasha
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.aionet.ir/hls/varzesh/varzesh.m3u8:IRIB Varzesh
+#DESCRIPTION IRIB Varzesh
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnw.telewebion.com/taban/live/playlist.m3u8:IRIB Yazd
 #DESCRIPTION IRIB Yazd
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/296457:IRIB Zagros
 #DESCRIPTION IRIB Zagros
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.aionet.ir/hls/irinn/irinn.m3u8:IRINN
+#DESCRIPTION IRINN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//itnhls.wns.live/hls/stream.m3u8:ITN
 #DESCRIPTION ITN
-#SERVICE 1:64:27f:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b9:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.210.199.28/hls/stream.m3u8:4 Kurd
 #DESCRIPTION 4 Kurd
@@ -167,7 +171,7 @@
 #DESCRIPTION Al Zahra TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nl.livekadeh.com/hls2/AMG_src.m3u8:AMG TV
 #DESCRIPTION AMG TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.asil.tv/live/asil.m3u8:Asil TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.asil.tv/asiltv/index.m3u8:Asil TV
 #DESCRIPTION Asil TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/assiratvlive/assirat/playlist.m3u8:Assirat TV
 #DESCRIPTION Assirat TV
@@ -201,59 +205,31 @@
 #DESCRIPTION FX TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//topfi.ios.internapcdn.net/topfi/live_1/Test/chunklist.m3u8:Ganje Hozoor
 #DESCRIPTION Ganje Hozoor
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/166809:GEM 24B
-#DESCRIPTION GEM 24B
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/56815:GEM Arabic
-#DESCRIPTION GEM Arabic
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/64976:GEM AZ
-#DESCRIPTION GEM AZ
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5481:GEM Bollywood
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemacademy/playlist.m3u8:GEM Academy
+#DESCRIPTION GEM Academy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemboll/playlist.m3u8:GEM Bollywood
 #DESCRIPTION GEM Bollywood
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5476:GEM Classic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemclass/playlist.m3u8:GEM Classic
 #DESCRIPTION GEM Classic
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5418:GEM Comedy
-#DESCRIPTION GEM Comedy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/296371:GEM Crypto
-#DESCRIPTION GEM Crypto
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/283194:GEM Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemdrama/playlist.m3u8:GEM Drama
 #DESCRIPTION GEM Drama
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/166815:GEM Film
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemfilm/playlist.m3u8:GEM Film
 #DESCRIPTION GEM Film
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/166807:GEM FIT
-#DESCRIPTION GEM FIT
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/283193:GEM Food
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemfit/playlist.m3u8:GEM Fit
+#DESCRIPTION GEM Fit
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemfood/playlist.m3u8:GEM Food
 #DESCRIPTION GEM Food
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5474:GEM Junior
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemjunior/playlist.m3u8:GEM Junior
 #DESCRIPTION GEM Junior
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5473:GEM Kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemkids/playlist.m3u8:GEM Kids
 #DESCRIPTION GEM Kids
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/166810:GEM Latino
-#DESCRIPTION GEM Latino
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5441:GEM Life
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemlife/playlist.m3u8:GEM Life
 #DESCRIPTION GEM Life
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5442:GEM Maxx
-#DESCRIPTION GEM Maxx
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/279645:GEM Mifa+
-#DESCRIPTION GEM Mifa+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/166821:GEM Nature
-#DESCRIPTION GEM Nature
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5467:GEM Onyx
-#DESCRIPTION GEM Onyx
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/276033:GEM Property
-#DESCRIPTION GEM Property
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5471:GEM River
-#DESCRIPTION GEM River
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/56803:GEM Rubix
-#DESCRIPTION GEM Rubix
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5463:GEM Rubix+
-#DESCRIPTION GEM Rubix+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/56816:GEM Series
-#DESCRIPTION GEM Series
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5462:GEM Series+
-#DESCRIPTION GEM Series+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/64972:GEM Travel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gg.hls2.xyz/live/IR%2520-%2520GEM%2520Series%2520Plus/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xMy8yMDIzIDk6MzI6MDMgQU0maGFzaF92YWx1ZT1WUFZ6aWNjU00zS2NuSjFMWTdEaWVRPT0mdmFsaWRtaW51dGVzPTU=:GEM Series +
+#DESCRIPTION GEM Series +
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemtravel/playlist.m3u8:GEM Travel
 #DESCRIPTION GEM Travel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/5459:GEM TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hd.90minlive.online/live/gemtv/playlist.m3u8:GEM TV
 #DESCRIPTION GEM TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn1.live.irib.ir%3a1935/epg-live/smil%3agolestan/playlist.m3u8:Golestan
 #DESCRIPTION Golestan
@@ -327,6 +303,8 @@
 #DESCRIPTION Marjaeyat TV English
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_1.m3u8:MBC Persia
 #DESCRIPTION MBC Persia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//metafilmhls.wns.live/hls/stream.m3u8:Meta Film TV
+#DESCRIPTION Meta Film TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.mihantv.com/mihantv/playlist.m3u8:Mihan TV
 #DESCRIPTION Mihan TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//204.11.235.251%3a1935/live_transcoder/ngrp%3amohabat.stream_all/chunklist.m3u8:Mohabat TV
@@ -369,6 +347,10 @@
 #DESCRIPTION Persian TV One
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//persiana-hd.icdndhcp.com/hls/stream.m3u8:Persiana HD
 #DESCRIPTION Persiana HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//persiana-one.icdndhcp.com/hls/stream.m3u8:Persiana 1
+#DESCRIPTION Persiana 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//twohls.persiana.live/hls/stream.m3u8:Persiana 2
+#DESCRIPTION Persiana 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//168.119.248.171/hls/stream.m3u8:Persiana Cinema
 #DESCRIPTION Persiana Cinema
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.210.199.27/hls/stream.m3u8:Persiana Comedy
@@ -381,12 +363,12 @@
 #DESCRIPTION Persiana Junior
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.210.199.14/hls/stream.m3u8:Persiana Korea
 #DESCRIPTION Persiana Korea
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//latinohls.persiana.live/hls/stream.m3u8:Persiana Latino
+#DESCRIPTION Persiana Latino
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.210.199.24/hls/stream.m3u8:Persiana Music
 #DESCRIPTION Persiana Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.210.199.20/hls/stream.m3u8:Persiana Nostalgia
 #DESCRIPTION Persiana Nostalgia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//persiana-one.icdndhcp.com/hls/stream.m3u8:Persiana One
-#DESCRIPTION Persiana One
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.210.199.21/hls/stream.m3u8:Persiana Plus
 #DESCRIPTION Persiana Plus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//persiana-rap.icdndhcp.com/hls/stream.m3u8:Persiana Rap
@@ -411,6 +393,8 @@
 #DESCRIPTION Prima TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.rjtv.tv/live/smil%3arjtv.smil/chunklist.m3u8:Radio Javan
 #DESCRIPTION Radio Javan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//190439-castr.akamaized.net/6349a927e11665c18a981dbf/live_8c0bffc04fcd11edb492a53f5f99705a/index.m3u8:Royal Time Television
+#DESCRIPTION Royal Time Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/64954:Sahand TV
 #DESCRIPTION Sahand TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/287791:Sahar Balkan
@@ -431,12 +415,16 @@
 #DESCRIPTION SL 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.snn.ir/hls/snn/index.m3u8:SNN TV
 #DESCRIPTION SNN TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//af.ayassport.ir/hls2/ssc1.m3u8:SSC 1
+#DESCRIPTION SSC 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptv.tapesh.tv/tapesh/playlist_src/index.m3u8:Tapesh TV
 #DESCRIPTION Tapesh TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//kuchini.site%3a8080/tomstme300/tomasarenatelegramme300/287474:Tapesh 2
 #DESCRIPTION Tapesh 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bozztv.com/1gbw5/tintv/tintv/playlist.m3u8:Tin TV
 #DESCRIPTION Tin TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.tmtv.live/hls/stream.m3u8:TM TV
+#DESCRIPTION TM TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//todayhls.wns.live/hls/stream.m3u8:Today TV
 #DESCRIPTION Today TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.210.227.134/hls/stream.m3u8:Toonix
@@ -449,3 +437,5 @@
 #DESCRIPTION VOX 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.yourtime.live/hls/stream.m3u8:Your Time
 #DESCRIPTION Your Time
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gg.hls2.xyz/live/IR%2520-%2520GEM%2520TV%2520Plus/playlist.m3u8:GEM TV + (720p)
+#DESCRIPTION GEM TV + (720p)

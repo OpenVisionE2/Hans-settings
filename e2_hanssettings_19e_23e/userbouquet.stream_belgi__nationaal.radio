@@ -1,12 +1,10 @@
 #NAME Stream België nationaal (BE)
-#SERVICE 1:64:4c2:0:0:0:0:0:0:0:
+#SERVICE 1:64:4f6:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - VRT++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1-high.mp3:VRT Radio 1
 #DESCRIPTION VRT Radio 1
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1_classics_high.mp3:VRT Radio 1 Classics
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1_classics-high.mp3:VRT Radio 1 Classics
 #DESCRIPTION VRT Radio 1 Classics
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1_lagelanden-high.mp3:VRT Radio 1  De LageLandenLijst
-#DESCRIPTION VRT Radio 1  De LageLandenLijst
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio2_benebene-high.mp3:VRT Radio 2 Bene Bene
 #DESCRIPTION VRT Radio 2 Bene Bene
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio2_unwind-high.mp3:VRT Radio 2 Unwind
@@ -39,17 +37,19 @@
 #DESCRIPTION VRT NWS
 #SERVICE 4097:0:2:52db:c96:3:eb0000:0:0:0:http%3a//icecast.vrtcdn.be/stubru-high.mp3 :VRT Studio Brussel
 #DESCRIPTION VRT Studio Brussel
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_bruut-high.mp3:VRT Studio Brussel - Bruut
-#DESCRIPTION VRT Studio Brussel - Bruut
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_hiphophooray-high.mp3:VRT Studio Brussel - Hooray
-#DESCRIPTION VRT Studio Brussel - Hooray
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_tijdloze-high.mp3:VRT Studio Brussel - De Tijdloze
-#DESCRIPTION VRT Studio Brussel - De Tijdloze
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_tijdloze-high.mp3:VRT Studio Brussel De Tijdloze
+#DESCRIPTION VRT Studio Brussel De Tijdloze
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_untz-high.mp3:VRT Studio Brussel UNTZ
 #DESCRIPTION VRT Studio Brussel UNTZ
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_tgs-high.mp3:VRT Studio Brussel Vuurland
 #DESCRIPTION VRT Studio Brussel Vuurland
-#SERVICE 1:64:4c3:0:0:0:0:0:0:0:
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_bruut-high.mp3:VRT Studio Brussel Zware Gitaren
+#DESCRIPTION VRT Studio Brussel Zware Gitaren
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1_lagelanden-high.mp3:VRT voorheen de  De LageLandenLijst
+#DESCRIPTION VRT voorheen de  De LageLandenLijst
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_hiphophooray-high.mp3:VRT voorheen Hooray
+#DESCRIPTION VRT voorheen Hooray
+#SERVICE 1:64:4f7:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - overig nationaal++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//3755.cloudrad.io%3a8008/live:21Bis (België)
 #DESCRIPTION 21Bis (België)
@@ -75,10 +75,8 @@
 #DESCRIPTION Bruce
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice.cr2.streamzilla.xlcdn.com%3a8000/sz=fmbrussel=fmb988.mp3:BRUZZ
 #DESCRIPTION BRUZZ
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.medianation.be/bamaac:Business AM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.medianation.be/bam:Business AM
 #DESCRIPTION Business AM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.medianation.be/bam:Business AM via Radioplayer BE
-#DESCRIPTION Business AM via Radioplayer BE
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//streams.movemedia.eu%3a8000/c-dance:C-Dance (BE)
 #DESCRIPTION C-Dance (BE)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.crooze.eu/proxy/cecret/stream:Cecret
@@ -175,23 +173,25 @@
 #DESCRIPTION Joe 60's & 70's
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/joe_80s_90s.mp3:Joe 80's & 90s
 #DESCRIPTION Joe 80's & 90s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dpgmedia.streamtheuniverse.com/joe-christmas.aac:Joe Christmas
+#DESCRIPTION Joe Christmas
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/joe_easy.mp3:Joe Easy
 #DESCRIPTION Joe Easy
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/joe_lage_landen.mp3:Joe Lage Landen
 #DESCRIPTION Joe Lage Landen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/joe_top2000.mp3:Joe Top 2000
 #DESCRIPTION Joe Top 2000
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jouwradio.live-streams.nl/:Jouwradio (België)
-#DESCRIPTION Jouwradio (België)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jouwradio.live-streams.nl/:Jouwradio
+#DESCRIPTION Jouwradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.movemedia.eu%3a8010/:Kerstkanaal BE
 #DESCRIPTION Kerstkanaal BE
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s19.myradiostream.com/18068/listen.mp3:KL85 (De Zeezendertijd)
 #DESCRIPTION KL85 (De Zeezendertijd)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.radionomy.com/JamendoLounge:Made With Magic Radio (Muziek rond de Disney Studio's - BE)
 #DESCRIPTION Made With Magic Radio (Muziek rond de Disney Studio's - BE)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//149.202.22.75%3a8598/live:Maeva (België)
-#DESCRIPTION Maeva (België)
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:rtmp%3a//54.77.134.165%3a1935/live/myStream:Ment Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//149.202.22.75%3a8598/live:Maeva
+#DESCRIPTION Maeva
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s44.myradiostream.com/%3a8030/listen.mp3:Ment Radio
 #DESCRIPTION Ment Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//maggie.torontocast.com%3a8038/musicbox:Musicbox4Friends
 #DESCRIPTION Musicbox4Friends
@@ -213,21 +213,23 @@
 #DESCRIPTION Play Nostalgie
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22733.live.streamtheworld.com/NOSTALGIEPLUS.mp3:Nostalgie+
 #DESCRIPTION Nostalgie+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIEWAF90.mp3:Play Nostalgie 90s & 00s
-#DESCRIPTION Play Nostalgie 90s & 00s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22193.live.streamtheworld.com/NOSTALGIEWAFNL.mp3:Play Nostalgie Benepop
-#DESCRIPTION Play Nostalgie Benepop
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIEWAF80.mp3:Play Nostalgie 80s
 #DESCRIPTION Play Nostalgie 80s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIEWAF90.mp3:Play Nostalgie 90s & 00s
+#DESCRIPTION Play Nostalgie 90s & 00s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIEWAFNL.mp3:Play Nostalgie Benepop
+#DESCRIPTION Play Nostalgie Benepop
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIEWAFRELAX.mp3:Play Nostalgie Relax
 #DESCRIPTION Play Nostalgie Relax
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIEWAFROCKS.mp3:Play Nostalgie Rock
 #DESCRIPTION Play Nostalgie Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22673.live.streamtheworld.com/NOSTALGIEWAFEXTRA.mp3:Play Nostalgie Top 3000
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIEWAFEXTRA.mp3:Play Nostalgie Top 3000
 #DESCRIPTION Play Nostalgie Top 3000
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIEWAFPARTY.mp3:Play Nostalgie XMAS
+#DESCRIPTION Play Nostalgie XMAS
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sonic.magicdragon.nl%3a7029/;:PopCorn Radop
 #DESCRIPTION PopCorn Radop
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.potz.be/omnia:POTZ
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/POTZ.mp3:POTZ
 #DESCRIPTION POTZ
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.movemedia.eu%3a8330/:POWER
 #DESCRIPTION POWER
@@ -401,7 +403,7 @@
 #DESCRIPTION ZZOldies
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//axtran.radioca.st/stream:ZZROCK
 #DESCRIPTION ZZROCK
-#SERVICE 1:64:4c4:0:0:0:0:0:0:0:
+#SERVICE 1:64:4f8:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bruxelles et Wallonie++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rcf.streamakaci.com/rcfbe.mp3:1RCF (Wallonië - BE)
 #DESCRIPTION 1RCF (Wallonië - BE)
@@ -723,7 +725,7 @@
 #DESCRIPTION TradCan
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//thewordradio.out.airtime.pro/thewordradio_a:The Word Radio (Brussels)
 #DESCRIPTION The Word Radio (Brussels)
-#SERVICE 1:64:4c5:0:0:0:0:0:0:0:
+#SERVICE 1:64:4f9:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostkantons (Duitstalig)++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.brf.be%3a80/brf1-high.mp3:BRF1
 #DESCRIPTION BRF1
@@ -741,7 +743,7 @@
 #DESCRIPTION Radio Contact Ostbelgien NOW
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamlive.syndicationradio.fr%3a8158/stream:Radio Sunshine
 #DESCRIPTION Radio Sunshine
-#SERVICE 1:64:4c6:0:0:0:0:0:0:0:
+#SERVICE 1:64:4fa:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//46.17.3.52%3a10000/stream/1/:Dance Tunes Radio
 #DESCRIPTION Dance Tunes Radio

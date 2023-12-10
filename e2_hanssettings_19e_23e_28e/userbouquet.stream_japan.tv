@@ -1,8 +1,6 @@
 #NAME Stream Japan (JP)
-#SERVICE 1:64:37a:0:0:0:0:0:0:0:
+#SERVICE 1:64:3ab:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//redlabmcdn.s.llnwi.net/nv02/bs08hd/index.m3u8:BS 12
-#DESCRIPTION BS 12
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a29108:BS Asahi
 #DESCRIPTION BS Asahi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a22101:BS Fuji TV
@@ -15,16 +13,16 @@
 #DESCRIPTION BS TV Tokyo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cgntvliveweb-998.acs.wecandeo.com/ms/2850/998/index.m3u8:CGN
 #DESCRIPTION CGN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cgntvliveweb-944.acs.wecandeo.com/ms/2850/944/index.m3u8:CGNTV Japan
+#DESCRIPTION CGNTV Japan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a15094:Fuji TV Tokyo
 #DESCRIPTION Fuji TV Tokyo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCCTpf5c_9HDo_OSu3aX8uFQ.m3u8:HBC Hokkaido News 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UCCTpf5c_9HDo_OSu3aX8uFQ.m3u8:HBC Hokkaido News 24
 #DESCRIPTION HBC Hokkaido News 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a20099:NHK BS1
 #DESCRIPTION NHK BS1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a25104:NHK BSP
 #DESCRIPTION NHK BSP
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.60.106.14%3a8080/1302/playlist.m3u8:NHK E
-#DESCRIPTION NHK E
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a12091:NHK G
 #DESCRIPTION NHK G
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nhk4.mov3.co/hls/nhk.m3u8:NHK G Kanto
@@ -43,71 +41,39 @@
 #DESCRIPTION Nippon TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n24-cdn-live.ntv.co.jp/ch01/index.m3u8:NTV News 24
 #DESCRIPTION NTV News 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n24-cdn-live.ntv.co.jp/ch02/index.m3u8:NTV News 24 Live
+#DESCRIPTION NTV News 24 Live
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythlsgo.onrender.com/channel/UCOZv-6MiXqJdLpmYtR431Ow.m3u8:STV News Hokkaido
 #DESCRIPTION STV News Hokkaido
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tbs3.mov3.co/hls/tbs.m3u8:TBS
 #DESCRIPTION TBS
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a18097:TBS (#)
-#DESCRIPTION TBS (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UC6AG81pAkf6Lbi_1VC5NmPA.m3u8:TBS News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a18097:TBS News
 #DESCRIPTION TBS News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UChx_y6aLWNkifSDUt2TVAzg.m3u8:TOS News
+#DESCRIPTION TOS News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a17097:TV Asahi
 #DESCRIPTION TV Asahi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a19098:TV Tokyo
 #DESCRIPTION TV Tokyo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movie.mcas.jp/mcas/wn1_2/master.m3u8:Weathernews
-#DESCRIPTION Weathernews
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.60.106.14%3a8080/214/playlist.m3u8:YTN
-#DESCRIPTION YTN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythlsgo.onrender.com/channel/UCDww6ExpwQS0TzmREIOo40Q.m3u8:YTN 2
 #DESCRIPTION YTN 2
-#SERVICE 1:64:37b:0:0:0:0:0:0:0:
+#SERVICE 1:64:3ac:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.60.106.14%3a8080/1344/playlist.m3u8:Disney Channel Japan
-#DESCRIPTION Disney Channel Japan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.60.106.14%3a8080/1338/playlist.m3u8:Disney Junior Japan
-#DESCRIPTION Disney Junior Japan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UC8Sv6O3Ux8ePVqorx8aOBMg.m3u8:Edaily TV
-#DESCRIPTION Edaily TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hamada.gaki-no-tsukai.stream/hls/test.m3u8:Gaki no Tsukai
 #DESCRIPTION Gaki no Tsukai
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.60.106.14%3a8080/1335/playlist.m3u8:Golf Network
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a28107:Golf Network
 #DESCRIPTION Golf Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//etv.publichs.com/live5.stream/playlist.m3u8:Gongyoung Shopping
 #DESCRIPTION Gongyoung Shopping
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movie.mcas.jp/switcher/smil%3amcas8.smil/master.m3u8:Gunma TV
-#DESCRIPTION Gunma TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8:Home & Shopping
 #DESCRIPTION Home & Shopping
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//redlabmcdn.s.llnwi.net/nv02/bs15hd/index.m3u8:J Sports 1
-#DESCRIPTION J Sports 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//redlabmcdn.s.llnwi.net/nv02/bs11hd/index.m3u8:J Sports 2
-#DESCRIPTION J Sports 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//redlabmcdn.s.llnwi.net/nv02/bs12hd/index.m3u8:J Sports 3
-#DESCRIPTION J Sports 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8:Lotte Home Shopping
 #DESCRIPTION Lotte Home Shopping
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythlsgo.onrender.com/channel/UCnfwIKyFYRuqZzzKBDt6JOA.m3u8:Maeil Business TV
 #DESCRIPTION Maeil Business TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//movie.mcas.jp/mcas/mx_live_2/master.m3u8:MX Live
-#DESCRIPTION MX Live
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.60.106.14%3a8080/207/playlist.m3u8:OCN
-#DESCRIPTION OCN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-live1.qvc.jp/iPhone/1501/1501.m3u8:QVC Japan
 #DESCRIPTION QVC Japan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream3.shopch.jp/HLS/master.m3u8:Shop Channel
 #DESCRIPTION Shop Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//redlabmcdn.s.llnwi.net/nv02/bs09hd/index.m3u8:Star 1
-#DESCRIPTION Star 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//redlabmcdn.s.llnwi.net/nv02/bs10hd/index.m3u8:Star 2
-#DESCRIPTION Star 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//redlabmcdn.s.llnwi.net/nv02/ryowa8hd/index.m3u8:Tokyo MX 1
-#DESCRIPTION Tokyo MX 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythlsgo.onrender.com/channel/UCTWatTAOnFVB0vwIetZCTHw.m3u8:TV-U Yamagata
-#DESCRIPTION TV-U Yamagata
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.60.106.14%3a8080/1502/playlist.m3u8:WOWOW Cinema
-#DESCRIPTION WOWOW Cinema
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.60.106.14%3a8080/1503/playlist.m3u8:WOWOW Live
-#DESCRIPTION WOWOW Live
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.60.106.14%3a8080/1501/playlist.m3u8:WOWOW Prime
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a27106:WOWOW Prime
 #DESCRIPTION WOWOW Prime

@@ -35,12 +35,16 @@
 #DESCRIPTION Country Radio
 #SERVICE 4097:0:2:206:0:0:0:0:0:0:http%3a//icecast4.play.cz%3a8000/country128.mp3:Country radio
 #DESCRIPTION Country radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/ddur.mp3:D-dur
+#DESCRIPTION D-dur
 #SERVICE 4097:0:2:74:0:0:0:0:0:0:http%3a//icecast6.play.cz/dance-radio192.mp3:Dance Radio
 #DESCRIPTION Dance Radio
 #SERVICE 4097:0:2:366:0:0:0:0:0:0:http%3a//icecast2.play.cz%3a8000/dance-radio128.mp3:Dance
 #DESCRIPTION Dance
 #SERVICE 4097:0:2:432:0:0:0:0:0:0:http%3a//mp3stream4.abradio.cz/domino128.mp3:Domino
 #DESCRIPTION Domino
+#SERVICE 4097:0:2:366:0:0:0:0:0:0:http%3a//rozhlas.stream/dvojka.mp3:Dvojka
+#DESCRIPTION Dvojka
 #SERVICE 4097:0:2:198:0:0:0:0:0:0:http%3a//pool.cdn.lagardere.cz%3a80/web-e2-flashback:E2-Flashback
 #DESCRIPTION E2-Flashback
 #SERVICE 4097:0:2:202:0:0:0:0:0:0:http%3a//pool.cdn.lagardere.cz%3a80/web-e2-hot:E2-Hot
@@ -235,6 +239,8 @@
 #DESCRIPTION Piggi písničky z pohádek
 #SERVICE 4097:0:2:426:0:0:0:0:0:0:http%3a//pool.cdn.lagardere.cz/web-pg-pohadky:Piggi
 #DESCRIPTION Piggi
+#SERVICE 4097:0:2:426:0:0:0:0:0:0:http%3a//rozhlas.stream/plus.mp3:Plus
+#DESCRIPTION Plus
 #SERVICE 4097:0:2:424:0:0:0:0:0:0:http%3a//ice3.abradio.cz/pohadka128.mp3:Pohádka
 #DESCRIPTION Pohádka
 #SERVICE 4097:0:2:280:0:0:0:0:0:0:http%3a//ice.abradio.cz/hitpoprock128.mp3:Poprock
@@ -255,12 +261,16 @@
 #DESCRIPTION Radio Dechovka
 #SERVICE 4097:0:2:384:0:0:0:0:0:0:http%3a//radior.video.muni.cz%3a8000/FSS_mp3-128.mp3:Radio R
 #DESCRIPTION Radio R
+#SERVICE 4097:0:2:118:0:0:0:0:0:0:http%3a//rozhlas.stream/radio_wave.mp3:Radio Wave
+#DESCRIPTION Radio Wave
 #SERVICE 4097:0:2:168:0:0:0:0:0:0:http%3a//pool.cdn.lagardere.cz/fm-zet:Radio Zet/BBC World
 #DESCRIPTION Radio Zet/BBC World
 #SERVICE 4097:0:2:118:0:0:0:0:0:0:http%3a//icecast6.play.cz/cesky-impuls.mp3:Radio Český Impuls
 #DESCRIPTION Radio Český Impuls
-#SERVICE 4097:0:2:168:0:0:0:0:0:0:https%3a//rozhlas3.stream/sport_aac_128.aac:Radiožurnál Sport
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/radiozurnal_sport.mp3:Radiožurnál Sport
 #DESCRIPTION Radiožurnál Sport
+#SERVICE 4097:0:2:168:0:0:0:0:0:0:http%3a//rozhlas.stream/radiozurnal.mp3:Radiožurnál
+#DESCRIPTION Radiožurnál
 #SERVICE 4097:0:2:392:0:0:0:0:0:0:http%3a//ice.abradio.cz/radnice128.mp3:Radnice
 #DESCRIPTION Radnice
 #SERVICE 4097:0:2:252:0:0:0:0:0:0:http%3a//mp3stream3.abradio.cz/relax128.mp3:Relax
@@ -285,8 +295,14 @@
 #DESCRIPTION Route 66
 #SERVICE 4097:0:2:254:0:0:0:0:0:0:http%3a//icecast8.play.cz/radiorubi128.mp3:Rubi
 #DESCRIPTION Rubi
+#SERVICE 4097:0:2:414:0:0:0:0:0:0:http%3a//rozhlas.stream/radio_junior_pisnicky.mp3:Rádio Junior Pisnicky
+#DESCRIPTION Rádio Junior Pisnicky
+#SERVICE 4097:0:2:414:0:0:0:0:0:0:http%3a//rozhlas.stream/radio_junior.mp3:Rádio Junior
+#DESCRIPTION Rádio Junior
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast8.play.cz/sazava128.mp3:Rádio Sázava
 #DESCRIPTION Rádio Sázava
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//uk.radia.cz/uk128.aac:Rádio Ukrajina
+#DESCRIPTION Rádio Ukrajina
 #SERVICE 4097:0:2:208:0:0:0:0:0:0:http%3a//icecast8.play.cz/samsonfm128.mp3:Samson
 #DESCRIPTION Samson
 #SERVICE 4097:0:2:372:0:0:0:0:0:0:http%3a//live.seejay.cz/seejay128.mp3:Seejay
@@ -303,6 +319,8 @@
 #DESCRIPTION Sázava
 #SERVICE 4097:0:2:398:0:0:0:0:0:0:http%3a//ice.abradio.cz/tloskov128.mp3:Tloskov
 #DESCRIPTION Tloskov
+#SERVICE 4097:0:2:398:0:0:0:0:0:0:http%3a//rozhlas.stream/vltava.mp3:Vltava
+#DESCRIPTION Vltava
 #SERVICE 4097:0:2:268:0:0:0:0:0:0:http%3a//212.111.2.151%3a8000/radiozlin_ballads_128.mp3:Zlín Ballads
 #DESCRIPTION Zlín Ballads
 #SERVICE 4097:0:2:266:0:0:0:0:0:0:http%3a//212.111.2.151%3a8000/radiozlin_blue_128.mp3:Zlín Blue
@@ -349,6 +367,8 @@
 #DESCRIPTION ČRo Karlovy Vary
 #SERVICE 4097:0:2:48:0:0:0:0:0:0:http%3a//icecast2.play.cz/croliberec128.mp3:ČRo Liberec
 #DESCRIPTION ČRo Liberec
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/liberec.mp3:ČRo Liberec
+#DESCRIPTION ČRo Liberec
 #SERVICE 4097:0:2:32:0:0:0:0:0:0:http%3a//icecast2.play.cz/crool128.mp3:ČRo Olomouc
 #DESCRIPTION ČRo Olomouc
 #SERVICE 4097:0:2:34:0:0:0:0:0:0:http%3a//icecast2.play.cz/croov128.mp3:ČRo Ostrava
@@ -359,33 +379,31 @@
 #DESCRIPTION ČRo Plus
 #SERVICE 4097:0:2:38:0:0:0:0:0:0:http%3a//icecast2.play.cz/croplzen128.mp3:ČRo Plzeň
 #DESCRIPTION ČRo Plzeň
-#SERVICE 4097:0:2:126:0:0:0:0:0:0:http%3a//icecast2.play.cz/cro7-128.mp3:ČRo Radio Praha
+#SERVICE 4097:0:2:38:0:0:0:0:0:0:http%3a//rozhlas.stream/pohoda.mp3:ČRo Pohoda
+#DESCRIPTION ČRo Pohoda
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/radio_dab_praha.mp3:ČRo Radio Praha
 #DESCRIPTION ČRo Radio Praha
 #SERVICE 4097:0:2:20:0:0:0:0:0:0:http%3a//icecast7.play.cz/croretro128.mp3:ČRo Radio Retro
 #DESCRIPTION ČRo Radio Retro
-#SERVICE 4097:0:2:10:0:0:0:0:0:0:http%3a//icecast3.play.cz/crowave-256.mp3:ČRo Radio Wave
-#DESCRIPTION ČRo Radio Wave
-#SERVICE 4097:0:2:134:0:0:0:0:0:0:http%3a//icecast5.play.cz%3a8000/crowave-128.mp3:ČRo Radio Wave
-#DESCRIPTION ČRo Radio Wave
 #SERVICE 4097:0:2:2:0:0:0:0:0:0:http%3a//icecast8.play.cz/cro1-128.mp3:ČRo Radiožurnál
 #DESCRIPTION ČRo Radiožurnál
 #SERVICE 4097:0:2:120:0:0:0:0:0:0:http%3a//icecast7.play.cz%3a8000/cro1-128.mp3:ČRo Radiožurnál
 #DESCRIPTION ČRo Radiožurnál
 #SERVICE 4097:0:2:42:0:0:0:0:0:0:http%3a//icecast2.play.cz/croregina128.mp3:ČRo Regina
 #DESCRIPTION ČRo Regina
-#SERVICE 4097:0:2:148:0:0:0:0:0:0:http%3a//icecast2.play.cz%3a8000/crobrno128.mp3:ČRo Region Brno
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/brno.mp3:ČRo Region Brno
 #DESCRIPTION ČRo Region Brno
 #SERVICE 4097:0:2:152:0:0:0:0:0:0:http%3a//icecast2.play.cz%3a8000/crohk128.mp3:ČRo Region Hradec Králové
 #DESCRIPTION ČRo Region Hradec Králové
-#SERVICE 4097:0:2:158:0:0:0:0:0:0:http%3a//icecast2.play.cz/crool128.mp3:ČRo Region Olomouc
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast2.play.cz/crool128.mp3:ČRo Region Olomouc
 #DESCRIPTION ČRo Region Olomouc
-#SERVICE 4097:0:2:160:0:0:0:0:0:0:http%3a//icecast2.play.cz/croov128.mp3:ČRo Region Ostrava
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/ostrava.mp3:ČRo Region Ostrava
 #DESCRIPTION ČRo Region Ostrava
-#SERVICE 4097:0:2:162:0:0:0:0:0:0:http%3a//icecast2.play.cz/cropardubice128.mp3:ČRo Region Pardubice
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/pardubice.mp3:ČRo Region Pardubice
 #DESCRIPTION ČRo Region Pardubice
 #SERVICE 4097:0:2:154:0:0:0:0:0:0:http%3a//icecast2.play.cz/crokv128.mp3:ČRo Region Plzeň studio Karlovy Vary
 #DESCRIPTION ČRo Region Plzeň studio Karlovy Vary
-#SERVICE 4097:0:2:164:0:0:0:0:0:0:http%3a//icecast2.play.cz%3a8000/croplzen128.mp3:ČRo Region Plzeň
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/plzen.mp3:ČRo Region Plzeň
 #DESCRIPTION ČRo Region Plzeň
 #SERVICE 4097:0:2:156:0:0:0:0:0:0:http%3a//icecast2.play.cz/croliberec128.mp3:ČRo Region Sever studio Liberec
 #DESCRIPTION ČRo Region Sever studio Liberec
@@ -393,10 +411,12 @@
 #DESCRIPTION ČRo Region Sever
 #SERVICE 4097:0:2:146:0:0:0:0:0:0:http%3a//icecast2.play.cz%3a8000/croregion128.mp3:ČRo Region Střední Čechy
 #DESCRIPTION ČRo Region Střední Čechy
-#SERVICE 4097:0:2:46:0:0:0:0:0:0:http%3a//icecast2.play.cz/crovysocina128.mp3:ČRo Region Vysočina
+#SERVICE 4097:0:2:46:0:0:0:0:0:0:http%3a//icecast6.play.cz/cro2-128.mp3:ČRo Region Vysočina
 #DESCRIPTION ČRo Region Vysočina
 #SERVICE 4097:0:2:150:0:0:0:0:0:0:http%3a//icecast2.play.cz%3a8000/crocb128.mp3:ČRo Region České Budějovice
 #DESCRIPTION ČRo Region České Budějovice
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/region.mp3:ČRo Region
+#DESCRIPTION ČRo Region
 #SERVICE 4097:0:2:140:0:0:0:0:0:0:http%3a//icecast7.play.cz/croretro128.mp3:ČRo Retro
 #DESCRIPTION ČRo Retro
 #SERVICE 4097:0:2:18:0:0:0:0:0:0:http%3a//icecast7.play.cz/crojuniormini128.mp3:ČRo Rádio Junior Písničky
@@ -407,5 +427,7 @@
 #DESCRIPTION ČRo Sever
 #SERVICE 4097:0:2:6:0:0:0:0:0:0:http%3a//icecast5.play.cz/cro3-128.mp3:ČRo Vltava
 #DESCRIPTION ČRo Vltava
-#SERVICE 4097:0:2:28:0:0:0:0:0:0:http%3a//icecast2.play.cz/crocb128.mp3:ČRo České Budějovice
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/zlin.mp3:ČRo Zlín
+#DESCRIPTION ČRo Zlín
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rozhlas.stream/ceske_budejovice.mp3:ČRo České Budějovice
 #DESCRIPTION ČRo České Budějovice
