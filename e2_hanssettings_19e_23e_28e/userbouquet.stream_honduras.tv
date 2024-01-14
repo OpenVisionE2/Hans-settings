@@ -1,12 +1,44 @@
 #NAME Stream Honduras (HN)
+#SERVICE 1:64:343:0:0:0:0:0:0:0:
+#DESCRIPTION ++hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/talangatv/playlist.m3u8:Canal 7 Talanga Visión
+#DESCRIPTION Canal 7 Talanga Visión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//62418d5684c12.streamlock.net/TENHD/TENLive.smil/playlist.m3u8:TEN Canal 10
+#DESCRIPTION TEN Canal 10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.grupoabchn.com%3a1935/TENHD/TENLive.smil/playlist.m3u8:TEN Canal 10 (#)
+#DESCRIPTION TEN Canal 10 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viewhn.com/telemas/live/playlist.m3u8:Telemás Canal 13
+#DESCRIPTION Telemás Canal 13
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud2.streaminglivehd.com%3a1936/8032/8032/playlist.m3u8:TV Centro 27.1 HD
+#DESCRIPTION TV Centro 27.1 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud2.streaminglivehd.com%3a1936/8004/8004/playlist.m3u8:TV Centro 27.2
+#DESCRIPTION TV Centro 27.2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediacp.us%3a8081/alsaciastv/index.m3u8:ATV Canal 28
+#DESCRIPTION ATV Canal 28
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s.emisoras.tv%3a8081/stocanal32hn/playlist.m3u8:Canal 32 STO
+#DESCRIPTION Canal 32 STO
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.amixtv.com%3a8081/mntvh/index.m3u8:Más Noticias Televisión 39
+#DESCRIPTION Más Noticias Televisión 39
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/Tv39Talanga/playlist.m3u8:Talanga TV Canal 39
+#DESCRIPTION Talanga TV Canal 39
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediacp.us%3a8081/8034/index.m3u8:Television Comayagua Canal 40
+#DESCRIPTION Television Comayagua Canal 40
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lencatelevision.com/hls/stream.m3u8:Lenca Television Canal 40
+#DESCRIPTION Lenca Television Canal 40
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.alojamientowebgt.com%3a3656/live/tv45live.m3u8:45 TV
 #DESCRIPTION 45 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvcn51.com/hls/cn51480.m3u8:Canal 51
+#DESCRIPTION Canal 51
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediacp.us%3a8081/504tvhn/index.m3u8:504 TV
+#DESCRIPTION 504 TV
+#SERVICE 1:64:344:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv1.zcasthn.com.br/azatvhd/azatvhd/playlist.m3u8:AZA TV HD
 #DESCRIPTION AZA TV HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5e85d90130e77.streamlock.net/6052/6052/playlist.m3u8:Campus TV
 #DESCRIPTION Campus TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvcn51.com/hls/cn51480.m3u8:Canal 51
-#DESCRIPTION Canal 51
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.playcloud.us/cci/srtin3.stream/playlist.m3u8:CCI Channel
+#DESCRIPTION CCI Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.streambrothers.com%3a1936/8054/8054/playlist.m3u8:CHTV
 #DESCRIPTION CHTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediacp.us%3a8081/ctvhn/index.m3u8:CTV Internacional
@@ -19,8 +51,12 @@
 #DESCRIPTION Girasol TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//panel.dattalive.com/8122/8122/playlist.m3u8:Globo TV
 #DESCRIPTION Globo TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediacp.us%3a8081/jbntv/index.m3u8:JBN
+#DESCRIPTION JBN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5e85d90130e77.streamlock.net/6022/6022/chunklist_.m3u8:LTV
 #DESCRIPTION LTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cp.panelchs.com%3a1936/8162/8162/playlist.m3u8:NSTV
+#DESCRIPTION NSTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5e85d90130e77.streamlock.net/6024/6024/playlist.m3u8:Q'hubo TV
 #DESCRIPTION Q'hubo TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.idealfm104-7.com/hls/0/stream.m3u8:Radio Ideal 104.7 FM La Esperanza
@@ -33,18 +69,14 @@
 #DESCRIPTION Sula TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8230/index.m3u8:TDtv
 #DESCRIPTION TDtv
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/TierraDeValientes/playlist.m3u8:TDtv (#)
+#DESCRIPTION TDtv (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//emisoras.hn%3a8081/telerayo/index.m3u8:Telerayo
 #DESCRIPTION Telerayo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediacp.us%3a8081/8034/index.m3u8:Television Comayagua Canal 40
-#DESCRIPTION Television Comayagua Canal 40
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//62418d5684c12.streamlock.net/TENHD/TENLive.smil/playlist.m3u8:TEN Canal 10
-#DESCRIPTION TEN Canal 10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/telaVision/playlist.m3u8:Telavisión
+#DESCRIPTION Telavisión
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mdstrm.com/live-stream-playlist/6287fdc9303e3008289ab711.m3u8:TSi
 #DESCRIPTION TSi
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud2.streaminglivehd.com%3a1936/8032/8032/playlist.m3u8:TV Centro HD
-#DESCRIPTION TV Centro HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud2.streaminglivehd.com%3a1936/8004/8004/playlist.m3u8:TV Centro 27.2
-#DESCRIPTION TV Centro 27.2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-utv.unah.edu.hn/web/salida.m3u8:UNAH UTV
 #DESCRIPTION UNAH UTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1af06j591gh9u.cloudfront.net/VTVHN/e395935fa39597e3997b916a295f23e4.sdp/playlist.m3u8:VTV

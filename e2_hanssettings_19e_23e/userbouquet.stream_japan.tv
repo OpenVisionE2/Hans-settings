@@ -1,15 +1,17 @@
 #NAME Stream Japan (JP)
-#SERVICE 1:64:377:0:0:0:0:0:0:0:
+#SERVICE 1:64:324:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a29108:BS Asahi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx02:ABC
+#DESCRIPTION ABC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs03:BS Asahi
 #DESCRIPTION BS Asahi
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a22101:BS Fuji TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs06:BS Fuji TV
 #DESCRIPTION BS Fuji TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a24103:BS Nippon TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs02:BS Nippon TV
 #DESCRIPTION BS Nippon TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a26105:BS TBS
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs04:BS TBS
 #DESCRIPTION BS TBS
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a23102:BS TV Tokyo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs05:BS TV Tokyo
 #DESCRIPTION BS TV Tokyo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cgntvliveweb-998.acs.wecandeo.com/ms/2850/998/index.m3u8:CGN
 #DESCRIPTION CGN
@@ -17,16 +19,28 @@
 #DESCRIPTION CGNTV Japan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a15094:Fuji TV Tokyo
 #DESCRIPTION Fuji TV Tokyo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs26:Fuji TV Next
+#DESCRIPTION Fuji TV Next
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UCCTpf5c_9HDo_OSu3aX8uFQ.m3u8:HBC Hokkaido News 24
 #DESCRIPTION HBC Hokkaido News 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx01:MBS
+#DESCRIPTION MBS
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a20099:NHK BS1
 #DESCRIPTION NHK BS1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs01&isp=10&bind=0&uin=159413&playseek=0:NHK BSP4K
+#DESCRIPTION NHK BSP4K
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs01:NHK BSP4K (#)
+#DESCRIPTION NHK BSP4K (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a25104:NHK BSP
 #DESCRIPTION NHK BSP
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd02:NHK E Tokyo
+#DESCRIPTION NHK E Tokyo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a12091:NHK G
 #DESCRIPTION NHK G
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nhk4.mov3.co/hls/nhk.m3u8:NHK G Kanto
 #DESCRIPTION NHK G Kanto
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx06:NHK G Osaka
+#DESCRIPTION NHK G Osaka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a14093:NHK G Tokyo
 #DESCRIPTION NHK G Tokyo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8:NHK World Japan
@@ -47,33 +61,113 @@
 #DESCRIPTION STV News Hokkaido
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tbs3.mov3.co/hls/tbs.m3u8:TBS
 #DESCRIPTION TBS
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tbs4.mov3.co/hls/tbs.m3u8:TBS (#)
+#DESCRIPTION TBS (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a18097:TBS News
 #DESCRIPTION TBS News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UChx_y6aLWNkifSDUt2TVAzg.m3u8:TOS News
 #DESCRIPTION TOS News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a17097:TV Asahi
 #DESCRIPTION TV Asahi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx05:TV Osaka
+#DESCRIPTION TV Osaka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a19098:TV Tokyo
 #DESCRIPTION TV Tokyo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythlsgo.onrender.com/channel/UCDww6ExpwQS0TzmREIOo40Q.m3u8:YTN 2
 #DESCRIPTION YTN 2
-#SERVICE 1:64:378:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx04:YTV
+#DESCRIPTION YTV
+#SERVICE 1:64:325:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs15:Animax
+#DESCRIPTION Animax
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs25:Cartoon Network Japan
+#DESCRIPTION Cartoon Network Japan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs29:Channel Ginga
+#DESCRIPTION Channel Ginga
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs24:Disney Channel Japan
+#DESCRIPTION Disney Channel Japan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs23:Disney Junior
+#DESCRIPTION Disney Junior
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs22:Eisei Gekijo
+#DESCRIPTION Eisei Gekijo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs20:Family Gekijo
+#DESCRIPTION Family Gekijo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs25:Fishing Vision
+#DESCRIPTION Fishing Vision
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hamada.gaki-no-tsukai.stream/hls/test.m3u8:Gaki no Tsukai
 #DESCRIPTION Gaki no Tsukai
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a28107:Golf Network
 #DESCRIPTION Golf Network
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs17:Gaora Sports
+#DESCRIPTION Gaora Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//etv.publichs.com/live5.stream/playlist.m3u8:Gongyoung Shopping
 #DESCRIPTION Gongyoung Shopping
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs14:Green Channel
+#DESCRIPTION Green Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8:Home & Shopping
 #DESCRIPTION Home & Shopping
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs05:Home Drama Channel
+#DESCRIPTION Home Drama Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs18:J Sports 1
+#DESCRIPTION J Sports 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs19:J Sports 2
+#DESCRIPTION J Sports 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs21:J Sports 3
+#DESCRIPTION J Sports 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs22:J Sports 4
+#DESCRIPTION J Sports 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs04:Jidaigeki Senmon
+#DESCRIPTION Jidaigeki Senmon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx03:Kansai TV
+#DESCRIPTION Kansai TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs13:Kayo Pops
+#DESCRIPTION Kayo Pops
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs07:Kids Station
+#DESCRIPTION Kids Station
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs19:LaLa TV
+#DESCRIPTION LaLa TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8:Lotte Home Shopping
 #DESCRIPTION Lotte Home Shopping
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythlsgo.onrender.com/channel/UCnfwIKyFYRuqZzzKBDt6JOA.m3u8:Maeil Business TV
 #DESCRIPTION Maeil Business TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs21:Mondo TV
+#DESCRIPTION Mondo TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs14:Movie Plus
+#DESCRIPTION Movie Plus
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//asia.vthanhtivi.pw/MTV/index.m3u8:MTV Japan
+#DESCRIPTION MTV Japan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs06:Music Japan TV
+#DESCRIPTION Music Japan TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs23:Nihon Eiga Senmon
+#DESCRIPTION Nihon Eiga Senmon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs02:Nittele G Plus
+#DESCRIPTION Nittele G Plus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-live1.qvc.jp/iPhone/1501/1501.m3u8:QVC Japan
 #DESCRIPTION QVC Japan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream3.shopch.jp/HLS/master.m3u8:Shop Channel
 #DESCRIPTION Shop Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs01:Sky A
+#DESCRIPTION Sky A
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs26:Space Shower TV
+#DESCRIPTION Space Shower TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs08:Star 1
+#DESCRIPTION Star 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs27:Star 2
+#DESCRIPTION Star 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs28:Star 3
+#DESCRIPTION Star 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx07:Sun TV
+#DESCRIPTION Sun TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs12:Tabi Channel
+#DESCRIPTION Tabi Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs28:Takarazuka Sky Stage
+#DESCRIPTION Takarazuka Sky Stage
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs27:Toei Channel
+#DESCRIPTION Toei Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs07:WOWOW Cinema
+#DESCRIPTION WOWOW Cinema
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs20:WOWOW Live
+#DESCRIPTION WOWOW Live
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a27106:WOWOW Prime
 #DESCRIPTION WOWOW Prime
