@@ -1,5 +1,5 @@
 #NAME Stream Italië (IT)
-#SERVICE 1:64:514:0:0:0:0:0:0:0:
+#SERVICE 1:64:4fb:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rai++
 #SERVICE 4097:0:2:5:0:0:0:0:0:0:http%3a//icestreaming.rai.it/1.mp3:Rai Radio 1
 #DESCRIPTION Rai Radio 1
@@ -41,7 +41,7 @@
 #DESCRIPTION Radio Serie A con RDS
 #SERVICE 4097:0:2:355:0:0:0:0:0:0:https%3a//stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index_14.m3u8:Radio TV Serie A
 #DESCRIPTION Radio TV Serie A
-#SERVICE 1:64:515:0:0:0:0:0:0:0:
+#SERVICE 1:64:4fc:0:0:0:0:0:0:0:
 #DESCRIPTION ++festival San Remo, themazenders++
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icecast.unitedradio.it/um049.mp3:Music Radio Festival Le Canzoni Vincitrici
 #DESCRIPTION Music Radio Festival Le Canzoni Vincitrici
@@ -51,7 +51,7 @@
 #DESCRIPTION United Music Radio Festival 1951-1999
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icecast.unitedradio.it/um112.mp3:United Music Radio Festival 2000-2021
 #DESCRIPTION United Music Radio Festival 2000-2021
-#SERVICE 1:64:516:0:0:0:0:0:0:0:
+#SERVICE 1:64:4fd:0:0:0:0:0:0:0:
 #DESCRIPTION ++overig Italiaans++
 #SERVICE 4097:0:2:273:0:0:0:0:0:0:http%3a//icy.unitedradio.it/105_522.mp3:105 BSMNT
 #DESCRIPTION 105 BSMNT
@@ -385,6 +385,8 @@
 #DESCRIPTION RADIO MALVISI NETWORK
 #SERVICE 4097:0:2:255:0:0:0:0:0:0:http%3a//stream1.mambo.it%3a8062/;stream.nsv:RADIO MAMBO
 #DESCRIPTION RADIO MAMBO
+#SERVICE 4097:0:2:255:0:0:0:0:0:0:https%3a//bay1.streamfm.it%3a8040/aacp:Radio Manà Manà Sport
+#DESCRIPTION Radio Manà Manà Sport
 #SERVICE 4097:0:2:357:0:0:0:0:0:0:http%3a//stream15.top-ix.org%3a80/radiomanila:RADIO MANILA
 #DESCRIPTION RADIO MANILA
 #SERVICE 4097:0:2:341:0:0:0:0:0:0:https%3a//stream5.xdevel.com/audio0s975929-659/stream/icecast.audio:RADIO MARGHERITA

@@ -1,25 +1,39 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:a0:0:0:0:0:0:0:0:
+#SERVICE 1:64:85:0:0:0:0:0:0:0:
 #DESCRIPTION ++NPO - werkt niet in iedere ontvanger!++
-#SERVICE 4097:0:19:5225:c99:3:eb0000:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/2481:NPO 1
+#SERVICE 4097:0:19:5225:c99:3:eb0000:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/2481:NPO 1
 #DESCRIPTION NPO 1
-#SERVICE 4097:0:19:17c0:c82:3:eb0000:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/852:NPO 2
+#SERVICE 4097:0:19:5225:c99:3:eb0000:0:0:0:http%3a//iptvaruba.com%3a8080/e13fb1cb/2b8a63e0a7/2481:NPO 1 (#)
+#DESCRIPTION NPO 1 (#)
+#SERVICE 4097:0:19:17c0:c82:3:eb0000:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/852:NPO 2
 #DESCRIPTION NPO 2
-#SERVICE 4097:0:19:5230:c99:3:eb0000:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/280398:NPO 3
+#SERVICE 4097:0:19:17c0:c82:3:eb0000:0:0:0:http%3a//iptvaruba.com%3a8080/e13fb1cb/2b8a63e0a7/852:NPO 2 (#)
+#DESCRIPTION NPO 2 (#)
+#SERVICE 4097:0:19:5230:c99:3:eb0000:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/280398:NPO 3
 #DESCRIPTION NPO 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/37541:NPO 1 Extra
+#SERVICE 4097:0:19:5230:c99:3:eb0000:0:0:0:http%3a//iptvaruba.com%3a8080/e13fb1cb/2b8a63e0a7/280398:NPO 3 (#)
+#DESCRIPTION NPO 3 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/37541:NPO 1 Extra
 #DESCRIPTION NPO 1 Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/65701:NPO 2 Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvaruba.com%3a8080/e13fb1cb/2b8a63e0a7/37541:NPO 1 Extra (#)
+#DESCRIPTION NPO 1 Extra (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/65701:NPO 2 Extra
 #DESCRIPTION NPO 2 Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/5314:NPO Politiek en Nieuws
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvaruba.com%3a8080/e13fb1cb/2b8a63e0a7/65701:NPO 2 Extra (#)
+#DESCRIPTION NPO 2 Extra (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/5314:NPO Politiek en Nieuws
 #DESCRIPTION NPO Politiek en Nieuws
-#SERVICE 4097:0:16:1645:42c:1:c00000:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/151670:BVN 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvaruba.com%3a8080/e13fb1cb/2b8a63e0a7/5314:NPO Politiek en Nieuws (#)
+#DESCRIPTION NPO Politiek en Nieuws (#)
+#SERVICE 4097:0:16:1645:42c:1:c00000:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/151670:BVN 
 #DESCRIPTION BVN 
-#SERVICE 1:64:a1:0:0:0:0:0:0:0:
+#SERVICE 4097:0:16:1645:42c:1:c00000:0:0:0:http%3a//iptvaruba.com%3a8080/e13fb1cb/2b8a63e0a7/151670:BVN (#)
+#DESCRIPTION BVN (#)
+#SERVICE 1:64:86:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:4ed1:c99:3:eb0000:0:0:0:https%3a//bnr-cache-cdp.triple-it.nl/studio/index.m3u8:BNR Nieuwsradio
 #DESCRIPTION BNR Nieuwsradio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/5357:Dance Television
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/5357:Dance Television
 #DESCRIPTION Dance Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8:Dance TV Channel 1
 #DESCRIPTION Dance TV Channel 1
@@ -59,11 +73,13 @@
 #DESCRIPTION SBS6 Classics
 #SERVICE 4097:0:1:4b8e:816:600:ffff0000:0:0:0:http%3a//ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8:Tommy TV
 #DESCRIPTION Tommy TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/5363:TV Oranje
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/5363:TV Oranje
 #DESCRIPTION TV Oranje
-#SERVICE 4097:0:1:4cfc:81c:600:ffff0000:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/5366:Xite
+#SERVICE 4097:0:1:4cfc:81c:600:ffff0000:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/5366:Xite
 #DESCRIPTION Xite
-#SERVICE 1:64:a2:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.audiostreamen.nl%3a3837/stream/play.m3u8:XXX Radio TV
+#DESCRIPTION XXX Radio TV
+#SERVICE 1:64:87:0:0:0:0:0:0:0:
 #DESCRIPTION +++Radio Toppers+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-67.stream-server.nl%3a1936/RadioToppers/RadioToppers/playlist.m3u8:Radio Toppers
 #DESCRIPTION Radio Toppers
@@ -73,7 +89,7 @@
 #DESCRIPTION Poesjes TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-23.stream-server.nl%3a1936/WinkRadio/WinkRadio/playlist.m3u8:Wink Radio
 #DESCRIPTION Wink Radio
-#SERVICE 1:64:a3:0:0:0:0:0:0:0:
+#SERVICE 1:64:88:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL amateur-tv++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//stream.pi6atv.com%3a8081/scoop/pi6atv-hd/playlist.m3u8  :PI6atv (NL amateur tv)
 #DESCRIPTION PI6atv (NL amateur tv)
