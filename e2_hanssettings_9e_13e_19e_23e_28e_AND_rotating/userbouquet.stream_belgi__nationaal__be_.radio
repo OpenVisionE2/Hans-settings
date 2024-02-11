@@ -1,5 +1,5 @@
 #NAME Stream België nationaal (BE)
-#SERVICE 1:64:1979:0:0:0:0:0:0:0:
+#SERVICE 1:64:19b9:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - VRT++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1-high.mp3:VRT Radio 1
 #DESCRIPTION VRT Radio 1
@@ -37,6 +37,8 @@
 #DESCRIPTION VRT NWS
 #SERVICE 4097:0:2:52db:c96:3:eb0000:0:0:0:http%3a//icecast.vrtcdn.be/stubru-high.mp3 :VRT Studio Brussel
 #DESCRIPTION VRT Studio Brussel
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.vrtcdn.be/stubru_dejarennul-high.mp3:VRT Studio Brussel De Jaren Nul
+#DESCRIPTION VRT Studio Brussel De Jaren Nul
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_tijdloze-high.mp3:VRT Studio Brussel De Tijdloze
 #DESCRIPTION VRT Studio Brussel De Tijdloze
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_untz-high.mp3:VRT Studio Brussel UNTZ
@@ -45,11 +47,7 @@
 #DESCRIPTION VRT Studio Brussel Vuurland
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_bruut-high.mp3:VRT Studio Brussel Zware Gitaren
 #DESCRIPTION VRT Studio Brussel Zware Gitaren
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1_lagelanden-high.mp3:VRT voorheen de  De LageLandenLijst
-#DESCRIPTION VRT voorheen de  De LageLandenLijst
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_hiphophooray-high.mp3:VRT voorheen Hooray
-#DESCRIPTION VRT voorheen Hooray
-#SERVICE 1:64:197a:0:0:0:0:0:0:0:
+#SERVICE 1:64:19ba:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - overig nationaal++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//3755.cloudrad.io%3a8008/live:21Bis (België)
 #DESCRIPTION 21Bis (België)
@@ -241,22 +239,8 @@
 #DESCRIPTION Q-Allstars
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/q-foute-radio.mp3:Q-Foute Radio
 #DESCRIPTION Q-Foute Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/q-ilt90s.mp3:Q-I Love The 90's
-#DESCRIPTION Q-I Love The 90's
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/q-maximum-hits.mp3:Q-Maximum Hits
-#DESCRIPTION Q-Maximum Hits
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/q-summer.mp3:Q-Maximum Summer
-#DESCRIPTION Q-Maximum Summer
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/q-party.mp3:Q-Party
-#DESCRIPTION Q-Party
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/QSHUTUP_DANCE.mp3:Q-Shut Up And Dance
-#DESCRIPTION Q-Shut Up And Dance
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/q-top40.mp3:Q-Top 40
-#DESCRIPTION Q-Top 40
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/Q_TOP_1000.mp3:Q-Top 1000
-#DESCRIPTION Q-Top 1000
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicbe-cdp.triple-it.nl/q-workout.mp3:Q Workout
-#DESCRIPTION Q Workout
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast-qmusicbe-cdp.triple-it.nl/q-moosebar.mp3:Q-Moose Bar
+#DESCRIPTION Q-Moose Bar
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//audiostream.radio19.fm%3a8200:Radio 19
 #DESCRIPTION Radio 19
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s1.voscast.com%3a10584/stream:Radio 7 Costa Blanca
@@ -405,7 +389,7 @@
 #DESCRIPTION ZZOldies
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//axtran.radioca.st/stream:ZZROCK
 #DESCRIPTION ZZROCK
-#SERVICE 1:64:197b:0:0:0:0:0:0:0:
+#SERVICE 1:64:19bb:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bruxelles et Wallonie++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rcf.streamakaci.com/rcfbe.mp3:1RCF (Wallonië - BE)
 #DESCRIPTION 1RCF (Wallonië - BE)
@@ -727,7 +711,7 @@
 #DESCRIPTION TradCan
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//thewordradio.out.airtime.pro/thewordradio_a:The Word Radio (Brussels)
 #DESCRIPTION The Word Radio (Brussels)
-#SERVICE 1:64:197c:0:0:0:0:0:0:0:
+#SERVICE 1:64:19bc:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostkantons (Duitstalig)++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.brf.be%3a80/brf1-high.mp3:BRF1
 #DESCRIPTION BRF1
@@ -745,7 +729,7 @@
 #DESCRIPTION Radio Contact Ostbelgien NOW
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamlive.syndicationradio.fr%3a8158/stream:Radio Sunshine
 #DESCRIPTION Radio Sunshine
-#SERVICE 1:64:197d:0:0:0:0:0:0:0:
+#SERVICE 1:64:19bd:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//46.17.3.52%3a10000/stream/1/:Dance Tunes Radio
 #DESCRIPTION Dance Tunes Radio

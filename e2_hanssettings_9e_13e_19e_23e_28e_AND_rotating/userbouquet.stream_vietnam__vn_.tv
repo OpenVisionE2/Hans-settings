@@ -1,10 +1,34 @@
 #NAME Stream Vietnam (VN)
-#SERVICE 1:64:17c7:0:0:0:0:0:0:0:
-#DESCRIPTION ++VTC / VTV-hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/172072:VTC 3
+#SERVICE 1:64:17fc:0:0:0:0:0:0:0:
+#DESCRIPTION ++VTC/VTV-hoofdzenders, soms even geduld++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC1/chunks.m3u8:VTC 1
+#DESCRIPTION VTC 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC2/chunks.m3u8:VTC 2
+#DESCRIPTION VTC 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC3/chunks.m3u8:VTC 3
 #DESCRIPTION VTC 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/296651:VTC 9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC4/chunks.m3u8:VTC 4
+#DESCRIPTION VTC 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC5/chunks.m3u8:VTC 5
+#DESCRIPTION VTC 5
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC6/chunks.m3u8:VTC 6
+#DESCRIPTION VTC 6
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC7/chunks.m3u8:VTC 7
+#DESCRIPTION VTC 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC8/chunks.m3u8:VTC 8
+#DESCRIPTION VTC 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC9/chunks.m3u8:VTC 9
 #DESCRIPTION VTC 9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC10/chunks.m3u8:VTC 10
+#DESCRIPTION VTC 10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC11/chunks.m3u8:VTC 11
+#DESCRIPTION VTC 11
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC12/chunks.m3u8:VTC 12
+#DESCRIPTION VTC 12
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC13/chunks.m3u8:VTC 13
+#DESCRIPTION VTC 13
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1117141481.vnns.net/VTC14/chunks.m3u8:VTC 14
+#DESCRIPTION VTC 14
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh12.vtvcab.vn/hls/ONVTV5_CL/04.m3u8:VTV 5
 #DESCRIPTION VTV 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh12.vtvcab.vn/hls/ONVTV5TNB_CL/04.m3u8:VTV 5 Tây Nam Bộ
@@ -17,7 +41,7 @@
 #DESCRIPTION VTV 8
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/172013:VTV 9
 #DESCRIPTION VTV 9
-#SERVICE 1:64:17c8:0:0:0:0:0:0:0:
+#SERVICE 1:64:17fd:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8:ANTV
 #DESCRIPTION ANTV
@@ -97,7 +121,7 @@
 #DESCRIPTION VOV TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vinhphuctv.vn%3a8090/vinhphuclive/web.stream/playlist.m3u8:VP TV
 #DESCRIPTION VP TV
-#SERVICE 1:64:17c9:0:0:0:0:0:0:0:
+#SERVICE 1:64:17fe:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/airtv.sdp/playlist.m3u8:Air Lao TV
 #DESCRIPTION Air Lao TV
