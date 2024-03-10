@@ -1,8 +1,10 @@
 #NAME Stream Mexico (MX)
-#SERVICE 1:64:402:0:0:0:0:0:0:0:
+#SERVICE 1:64:3fc:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn87.theus6tv.tk/locals/SanDiego/xhjk-tdt.m3u8:Azteca 1
 #DESCRIPTION Azteca 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ch1-tva.duin.dev/hls/stream.m3u8:Azteca Guate
+#DESCRIPTION Azteca Guate
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//azt-mun.otteravision.com/azt/mun/mun.m3u8:Azteca Internacional
 #DESCRIPTION Azteca Internacional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/encoder203/playlist.m3u8:Canal 4 de Matehuala
@@ -105,6 +107,8 @@
 #DESCRIPTION Canal 13 Yucatán
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.livestreaminggroup.info%3a3052/live/catorcetvlive.m3u8:Canal 14
 #DESCRIPTION Canal 14
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.mycloudstream.io/hls/live/broadcast/uqgv4lg6/index.m3u8:Canal 14 (#)
+#DESCRIPTION Canal 14 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.gvstream.live/telesistemas/15tv.stream/playlist.m3u8:15 TV Sabinas
 #DESCRIPTION 15 TV Sabinas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//icsbaldeastd.aldeasolutions.mx/EVLiveCan15ABR/mp4%3a12G27TMY/playlist.m3u8:Canal 15 ILCE Summa Sabres
@@ -167,13 +171,15 @@
 #DESCRIPTION Canal 47 TV Puerto Escondido
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCgu4v4HAioB0N5K6aq_H-WQ.m3u8:Canal 66 Mexicali
 #DESCRIPTION Canal 66 Mexicali
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-061/playlist.m3u8:CNN Mexico
+#DESCRIPTION CNN Mexico
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//free.fullspeed.tv/iptv-query?streaming-ip=https%3a//conceptoweb-studio.com/radio/video/canal66/:XHILA Canal 66
 #DESCRIPTION XHILA Canal 66
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/radarTV/playlist.m3u8:Radar TV 71
 #DESCRIPTION Radar TV 71
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59e88b197fb16.streamlock.net%3a4443/live/canal24/playlist.m3u8:NRT México Internacional
 #DESCRIPTION NRT México Internacional
-#SERVICE 1:64:403:0:0:0:0:0:0:0:
+#SERVICE 1:64:3fd:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud01.mipaneltv.xyz/asondesalsa/asondesalsa/playlist.m3u8:A Son de Salsa
 #DESCRIPTION A Son de Salsa
@@ -181,6 +187,8 @@
 #DESCRIPTION A+ TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=1153:Accion Mexicana
 #DESCRIPTION Accion Mexicana
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-348.frequency.stream/mt/studio/348/hls/master/playlist.m3u8:Afizzionados
+#DESCRIPTION Afizzionados
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//217.182.77.27/live/alcarriatv-livestream.m3u8:Alcarria TV
 #DESCRIPTION Alcarria TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//azxtv.com/hls/stream.m3u8:Anime Zone TVLA
@@ -189,6 +197,10 @@
 #DESCRIPTION Así Sucede Guanajuato
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8064/index.m3u8:Bacán Te Veo
 #DESCRIPTION Bacán Te Veo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-400.frequency.stream/mt/studio/400/hls/master/playlist.m3u8:Bandamax
+#DESCRIPTION Bandamax
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-401.frequency.stream/mt/studio/401/hls/master/playlist.m3u8:bitMe
+#DESCRIPTION bitMe
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.131.11.9%3a1080/play/a032:Canal de Las Estrellas
 #DESCRIPTION Canal de Las Estrellas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.canaldelcongreso.gob.mx/live_sd1/smil%3acanal-sd1.smil/playlist.m3u8:Canal del Congreso 45.1
@@ -229,22 +241,32 @@
 #DESCRIPTION Chill Latino
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=656:Cine Romantico
 #DESCRIPTION Cine Romantico
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-016/playlist.m3u8:Cinecanal
+#DESCRIPTION Cinecanal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.179.140.242%3a8000/play/a0ht:Claro Sports
 #DESCRIPTION Claro Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/cnrtelevision/playlist.m3u8:CNR Televisión
 #DESCRIPTION CNR Televisión
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=960:Combate Global
 #DESCRIPTION Combate Global
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.mexiserver.com%3a1936/conectatv/conectatv/playlist.m3u8:Conecta TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.mexiserver.com%3a19360/conectatvx/conectatvx.m3u8:Conecta TV
 #DESCRIPTION Conecta TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/encoder29/playlist.m3u8:Cor TV
 #DESCRIPTION Cor TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-354.frequency.stream/mt/studio/354/hls/master/playlist.m3u8:De Película
+#DESCRIPTION De Película
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-404.frequency.stream/mt/studio/404/hls/master/playlist.m3u8:De Película Plus
+#DESCRIPTION De Película Plus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/dD10sT3V3/playlist.m3u8:Dios Te Ve
 #DESCRIPTION Dios Te Ve
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/dD10sT3V3K1dS/playlist.m3u8:Dios Te Ve Kids
 #DESCRIPTION Dios Te Ve Kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-405.frequency.stream/mt/studio/405/hls/master/playlist.m3u8:Distrito Comedia
+#DESCRIPTION Distrito Comedia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv.panelcast.net/dreamforcebtl/dreamforcebtl/playlist.m3u8:Dreamforce Btl
 #DESCRIPTION Dreamforce Btl
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-099/playlist.m3u8:DreamWorks
+#DESCRIPTION DreamWorks
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5caf24a595d94.streamlock.net%3a1937/djkuxtvfah/djkuxtvfah/playlist.m3u8:Eclipse TV
 #DESCRIPTION Eclipse TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//186.0.233.76%3a1935/Garage/smil%3agarage.smil/master.m3u8:El Garage TV
@@ -253,24 +275,60 @@
 #DESCRIPTION El Rey
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=1079:El Talisman
 #DESCRIPTION El Talisman
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-067/playlist.m3u8:ENI
+#DESCRIPTION ENI
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-145/playlist.m3u8:Enlace
+#DESCRIPTION Enlace
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-124/playlist.m3u8:ESNE
+#DESCRIPTION ESNE
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//unlimited1-us.dps.live/estaciontv/estaciontv.smil/playlist.m3u8:Estación TV
 #DESCRIPTION Estación TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-012/playlist.m3u8:EWTN
+#DESCRIPTION EWTN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UClqo4ZAAZ01HQdCTlovCgkA.m3u8:Excélsior TV
 #DESCRIPTION Excélsior TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channel02-notusa.akamaized.net/hls/live/2023914/event01/index.m3u8:Foro TV
 #DESCRIPTION Foro TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-010/playlist.m3u8:Fox Sports
+#DESCRIPTION Fox Sports
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-031/playlist.m3u8:Fox Sports 2
+#DESCRIPTION Fox Sports 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-108/playlist.m3u8:Fox Sports 3
+#DESCRIPTION Fox Sports 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-104/playlist.m3u8:Fox Deportes
+#DESCRIPTION Fox Deportes
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/gardeniasTv/playlist.m3u8:Gardenias TV
 #DESCRIPTION Gardenias TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.streamhispanatv.net%3a3126/live/genesistvlive.m3u8:Génesis TV
+#DESCRIPTION Génesis TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-407.frequency.stream/mt/studio/407/hls/master/playlist.m3u8:Golden Edge Panregional
+#DESCRIPTION Golden Edge Panregional
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-409.frequency.stream/mt/studio/409/hls/master/playlist.m3u8:Golden Multiplex
+#DESCRIPTION Golden Multiplex
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-410.frequency.stream/dist/vix/410/hls/master/playlist.m3u8:Golden Plus
 #DESCRIPTION Golden Plus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-411.frequency.stream/dist/vix/411/hls/master/playlist.m3u8:Golden Premier
 #DESCRIPTION Golden Premier
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-107/playlist.m3u8:H&H
+#DESCRIPTION H&H
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4310:Haz Clic!
 #DESCRIPTION Haz Clic!
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-015/playlist.m3u8:HBO
+#DESCRIPTION HBO
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-094/playlist.m3u8:HBO2
+#DESCRIPTION HBO2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wms.tecnoxia.com%3a1935/8158/8158/playlist.m3u8:Hipódromo de las Américas
 #DESCRIPTION Hipódromo de las Américas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live1.presstv.ir/live/hispan.m3u8:Hispan TV
 #DESCRIPTION Hispan TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-147/playlist.m3u8:Hispan TV (#)
+#DESCRIPTION Hispan TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-058/playlist.m3u8:History
+#DESCRIPTION History
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-157/playlist.m3u8:History 2
+#DESCRIPTION History 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-013/playlist.m3u8:Hola TV
+#DESCRIPTION Hola TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//free.fullspeed.tv/iptv-query?streaming-ip=https%3a//www.youtube.com/channel/UClqo4ZAAZ01HQdCTlovCgkA/live:Imagen Multicast
 #DESCRIPTION Imagen Multicast
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//free.fullspeed.tv/iptv-query?streaming-ip=https%3a//www.youtube.com/channel/UCB0BUmdBOrH9mYU2ebs1eWA/live:Imagen Radio
@@ -281,10 +339,14 @@
 #DESCRIPTION Innova TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cp.panelchs.com%3a1936/8108/8108/playlist.m3u8:INPO TV
 #DESCRIPTION INPO TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=3010:ITV Deportes
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//thm-it-roku.otteravision.com/thm/it/it.m3u8:ITV Deportes
 #DESCRIPTION ITV Deportes
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-153/playlist.m3u8:IVC
+#DESCRIPTION IVC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5fa5de1a545ae.streamlock.net/sisjalisciense/sisjalisciense/playlist.m3u8:Jalisco TV
 #DESCRIPTION Jalisco TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-097/playlist.m3u8:Kanal D Drama
+#DESCRIPTION Kanal D Drama
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/encoder82/playlist.m3u8:La Imagen de Tierra Caliente
 #DESCRIPTION La Imagen de Tierra Caliente
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/radio/luperrongdgzman/playlist.m3u8:La Luperrona Ciudad Guzmán
@@ -297,6 +359,8 @@
 #DESCRIPTION La Ranchera de Cuauhtémoc 89.7 FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8128/index.m3u8:La Voz Grupera TV
 #DESCRIPTION La Voz Grupera TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-413.frequency.stream/mt/studio/413/hls/master/playlist.m3u8:Las Estrellas
+#DESCRIPTION Las Estrellas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-414.frequency.stream/mt/studio/414/hls/master/playlist.m3u8:Las Estrellas +1
 #DESCRIPTION Las Estrellas +1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-415.frequency.stream/mt/studio/415/hls/master/playlist.m3u8:Las Estrellas +2
@@ -305,6 +369,8 @@
 #DESCRIPTION Latino Kids
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lencatelevision.com/hls/stream.m3u8:Lenca Television Canal 40
 #DESCRIPTION Lenca Television Canal 40
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-154/playlist.m3u8:Lifetime
+#DESCRIPTION Lifetime
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8:Lobo TV
 #DESCRIPTION Lobo TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/encoder1/playlist.m3u8:Los Altos Televisión
@@ -317,8 +383,12 @@
 #DESCRIPTION María Visión Mexico
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eu1.servers10.com%3a8081/8028/index.m3u8:Mario Pinto TV
 #DESCRIPTION Mario Pinto TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-146/playlist.m3u8:Más Chic
+#DESCRIPTION Más Chic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vod2live.univtec.com/manifest/89290956-94ab-4950-accb-a54bbd7e176f.m3u8:Mas Talk
 #DESCRIPTION Mas Talk
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-044/playlist.m3u8:MC
+#DESCRIPTION MC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pctv-meganoticias-1-mx.tcl.wurl.tv/playlist.m3u8:Meganoticias
 #DESCRIPTION Meganoticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8:Metropolitana del Cuzco
@@ -331,8 +401,12 @@
 #DESCRIPTION Miami TV Mexico
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mdstrm.com/live-stream-playlist/610178c7db32a4112d994650.m3u8:Milenio Televisión Noroeste
 #DESCRIPTION Milenio Televisión Noroeste
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-140/playlist.m3u8:Modo Cine
+#DESCRIPTION Modo Cine
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dai2.xumo.com/amagi_hls_data_xumo1212A-rokumoovimex/CDN/playlist.m3u8:Moovimex
 #DESCRIPTION Moovimex
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-063/playlist.m3u8:MTV
+#DESCRIPTION MTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=3366:Mundo Pequeño
 #DESCRIPTION Mundo Pequeño
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//177.53.152.186%3a8000/play/a00g/index.m3u8:MX Old
@@ -343,6 +417,14 @@
 #DESCRIPTION N+ Bajío
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channel07-notusa.akamaized.net/hls/live/2036971-b/event01/index.m3u8:N+ Media-Televisa News México
 #DESCRIPTION N+ Media-Televisa News México
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-091/playlist.m3u8:National Geographic
+#DESCRIPTION National Geographic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-112/playlist.m3u8:Nickelodeon
+#DESCRIPTION Nickelodeon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-011/playlist.m3u8:Nick Jr
+#DESCRIPTION Nick Jr
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-039/playlist.m3u8:Nick Music
+#DESCRIPTION Nick Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channel07-notusa.akamaized.net/hls/live/2036971/event01/index.m3u8:NMás
 #DESCRIPTION NMás
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channel04-notusa.akamaized.net/hls/live/2029754-b/event01/index.m3u8:NMás Media
@@ -365,6 +447,10 @@
 #DESCRIPTION Onza Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/paralelo20/playlist.m3u8:Paralelo 20 650 AM
 #DESCRIPTION Paralelo 20 650 AM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-004/playlist.m3u8:Paramount Network
+#DESCRIPTION Paramount Network
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-014/playlist.m3u8:Pasiones HD
+#DESCRIPTION Pasiones HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCgR0st4ZLABi-LQcWNu3wnQ.m3u8:PBO Digital
 #DESCRIPTION PBO Digital
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4311:Planeta de Aventuras
@@ -399,14 +485,26 @@
 #DESCRIPTION Flow Caribe
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5e50264bd6766.streamlock.net/rtg/videortg/playlist.m3u8:RTG
 #DESCRIPTION RTG
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8:RTQ Queretaro
+#DESCRIPTION RTQ Queretaro
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/azgaresncf/strm2hls/main/streams/sintesis_tv.m3u8:Sintesis TV
 #DESCRIPTION Sintesis TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//60ed5b6d0df78.streamlock.net%3a1936/enlinea/enlinea/playlist.m3u8:Sistema Michoacano de TV
 #DESCRIPTION Sistema Michoacano de TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv2.fastcast4u.com%3a3728/live/soniderostvlive.m3u8:Sonideros TV
 #DESCRIPTION Sonideros TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-035/playlist.m3u8:Sony Channel
+#DESCRIPTION Sony Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-034/playlist.m3u8:Sony Movies
+#DESCRIPTION Sony Movies
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-003/playlist.m3u8:Space
+#DESCRIPTION Space
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streamingcws20.com%3a1935/sqcs/videosqcs/playlist.m3u8:SQCS Chetumal
 #DESCRIPTION SQCS Chetumal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-057/playlist.m3u8:Star Channel
+#DESCRIPTION Star Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-026/playlist.m3u8:Studio Universal
+#DESCRIPTION Studio Universal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mdstrm.com/live-stream-playlist/62f2c855f7981b5a5a2d8763.m3u8:TeleFórmula
 #DESCRIPTION TeleFórmula
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-417.frequency.stream/mt/studio/417/hls/master/playlist.m3u8:Telehit
@@ -417,10 +515,14 @@
 #DESCRIPTION Telemar Campeche
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live-edge01.telecentro.net.ar/live/smil%3atlx.smil/master.m3u8:Telemax
 #DESCRIPTION Telemax
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-152/playlist.m3u8:Telemundo Internacional
+#DESCRIPTION Telemundo Internacional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//teleplay.mediaflix.istream.mx/livestream/teleplay/livehd/playlist.m3u8:Teleplay Sureste
 #DESCRIPTION Teleplay Sureste
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8:Teleritmo
 #DESCRIPTION Teleritmo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-116/playlist.m3u8:Telesur
+#DESCRIPTION Telesur
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//free.fullspeed.tv/iptv-query?streaming-ip=https%3a//www.youtube.com/channel/UCot4t8PVKz8TT5xVM8Eb00w/live:Televisa Ciudad Juarez
 #DESCRIPTION Televisa Ciudad Juarez
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCQ08tNTPiBn44c975S81ftg.m3u8:Televisa Del Golfo
@@ -455,16 +557,28 @@
 #DESCRIPTION Televisa Zacatecas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=1080:Tierra De Amor Y Venganza
 #DESCRIPTION Tierra De Amor Y Venganza
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-421.frequency.stream/mt/studio/421/hls/master/playlist.m3u8:Tlnovelas
+#DESCRIPTION Tlnovelas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vid.mega00.com%3a5443/LiveApp/streams/928111829917388844551988/928111829917388844551988.m3u8?token=null:Tlaxcala Televisión
 #DESCRIPTION Tlaxcala Televisión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-074/playlist.m3u8:TNT
+#DESCRIPTION TNT
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-046/playlist.m3u8:TNT Series
+#DESCRIPTION TNT Series
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-143/playlist.m3u8:TNT Sports
+#DESCRIPTION TNT Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=771:Toon Goggles en Espanol
 #DESCRIPTION Toon Goggles en Espanol
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-002/playlist.m3u8:Tooncast
+#DESCRIPTION Tooncast
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streamingcws20.com%3a1935/tmtv/videotmtv/chunklist_w1798696550.m3u8:Transmedia TV Morelia
 #DESCRIPTION Transmedia TV Morelia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5fa5de1a545ae.streamlock.net/8030/8030/.m3u8:Turistik TV
-#DESCRIPTION Turistik TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=1086:Tu Pop Favorito
 #DESCRIPTION Tu Pop Favorito
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-109/playlist.m3u8:Turbo
+#DESCRIPTION Turbo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5fa5de1a545ae.streamlock.net/8030/8030/.m3u8:Turistik TV
+#DESCRIPTION Turistik TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.info7.mx/info7/stream.m3u8:TV Azteca Noroeste
 #DESCRIPTION TV Azteca Noroeste
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.oursnetworktv.com/latin/encoder55/playlist.m3u8:TV Guanajuato
@@ -475,7 +589,7 @@
 #DESCRIPTION TV Libertad
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ca9af4645e15.streamlock.net/lobodurango/videolobodurango/playlist.m3u8:TV Lobo
 #DESCRIPTION TV Lobo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ca9af4645e15.streamlock.net/rtv/videortv/playlist.m3u8:TV Más
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s1.tvdatta.com%3a3991/live/tvmashdlive.m3u8:TV Más
 #DESCRIPTION TV Más
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ca3e84a76d30.streamlock.net/mexiquense/videomexiquense/chunklist.m3u8:TV Méxiquence
 #DESCRIPTION TV Méxiquence
@@ -497,8 +611,18 @@
 #DESCRIPTION Ultra TV Puebla
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/playlist.m3u8:UMTV
 #DESCRIPTION UMTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-423.frequency.stream/mt/studio/423/hls/master/playlist.m3u8:Unicable
+#DESCRIPTION Unicable
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-064/playlist.m3u8:Universal TV
+#DESCRIPTION Universal TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-065/playlist.m3u8:Universo
+#DESCRIPTION Universo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-424.frequency.stream/mt/studio/424/hls/master/playlist.m3u8:Univision Panregional (576p)
+#DESCRIPTION Univision Panregional (576p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ooyalahd2-f.akamaihd.net/i/UnoTV01_delivery@122640/master.m3u8:Uno TV
 #DESCRIPTION Uno TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-059/playlist.m3u8:USA TV Español
+#DESCRIPTION USA TV Español
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59a564764e2b6.streamlock.net/vallenato/Vallenato2/playlist.m3u8:Vallenato Internacional
 #DESCRIPTION Vallenato Internacional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//190.103.183.24%3a1935/Vallevision/ValleHD/playlist.m3u8:Vallevision
@@ -511,9 +635,15 @@
 #DESCRIPTION Videa Plataforma
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8016/index.m3u8:Visión Televisión
 #DESCRIPTION Visión Televisión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-045/playlist.m3u8:ViX Español
+#DESCRIPTION ViX Español
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-030/playlist.m3u8:Warner TV
+#DESCRIPTION Warner TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.mexiserver.com%3a1936/xtinetwork/xtinetwork/playlist.m3u8:Xti Network
 #DESCRIPTION Xti Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4312:Zona de Acción
 #DESCRIPTION Zona de Acción
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-069/playlist.m3u8:Zoo Moo
+#DESCRIPTION Zoo Moo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb00zdigital.streamprolive.com/mnt/hls/live.m3u8:ZTV
 #DESCRIPTION ZTV

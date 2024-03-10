@@ -1,9 +1,9 @@
 #NAME Stream Spanje (ES)
-#SERVICE 1:64:2c4:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b2:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/la1/la1_main_dvr.m3u8:TVE 1
 #DESCRIPTION TVE 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/1151:TVE 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//136.243.53.59%3a18000/LA_1/hls/playlist.m3u8:TVE 1 (#)
 #DESCRIPTION TVE 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream-clnx.rtve.es/rtvesec/can/la1_can_main_720.m3u8:TVE 1 Canarias
 #DESCRIPTION TVE 1 Canarias
@@ -11,29 +11,31 @@
 #DESCRIPTION TVE 1 Catalunya
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream-clnx.rtve.es/rtvesec/la2/la2_main_dvr.m3u8:TVE 2
 #DESCRIPTION TVE 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/1150:TVE 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//136.243.53.59%3a18000/LA_2/hls/playlist.m3u8:TVE 2 (#)
 #DESCRIPTION TVE 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream-clnx.rtve.es/rtvesec/can/la2_can_main_720.m3u8:TVE 2 Canarias
 #DESCRIPTION TVE 2 Canarias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream-clnx.rtve.es/rtvesec/cat/la2_cat_main_720.m3u8:TVE 2 Catalunya
 #DESCRIPTION TVE 2 Catalunya
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/49480:TVE Internacional América 1
-#DESCRIPTION TVE Internacional América 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/5943:TVE Internacional Europa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-128/playlist.m3u8:TVE Internacional América
+#DESCRIPTION TVE Internacional América
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_dvr_1080.m3u8:TVE Internacional Europa
 #DESCRIPTION TVE Internacional Europa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream-clnx.rtve.es/rtvesec/24h/24h_main_dvr.m3u8:TVE Canal 24 Horas
 #DESCRIPTION TVE Canal 24 Horas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ztnr.rtve.es/ztnr/1694255.m3u8:TVE Canal 24 Horas (#)
 #DESCRIPTION TVE Canal 24 Horas (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-100/playlist.m3u8:TVE Canal 24 Horas (#)
+#DESCRIPTION TVE Canal 24 Horas (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/can/24h_can_main_dvr.m3u8:TVE Canal 24 Horas Canarias
 #DESCRIPTION TVE Canal 24 Horas Canarias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/cat/24h_cat_main_dvr.m3u8:TVE Canal 24 Horas Catalunya
 #DESCRIPTION TVE Canal 24 Horas Catalunya
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/2214:Clan TVE
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//136.243.53.59%3a18000/Clan_TVE/hls/playlist.m3u8:Clan TVE
 #DESCRIPTION Clan TVE
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/31779:TVE Star
-#DESCRIPTION TVE Star
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/2774:TVE Teledeporte
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-129/playlist.m3u8:Star TVE
+#DESCRIPTION Star TVE
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//136.243.53.59%3a18000/Teledeporte/hls/playlist.m3u8:TVE Teledeporte
 #DESCRIPTION TVE Teledeporte
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/oca/irtve01_main_1080.m3u8:RTVE Play 1 HD
 #DESCRIPTION RTVE Play 1 HD
@@ -43,51 +45,61 @@
 #DESCRIPTION RTVE Play 3 HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/oca/irtve04_main_1080.m3u8:RTVE Play 4 HD
 #DESCRIPTION RTVE Play 4 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/1173:Antena 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.119.66.30%3a8000/play/a05e/index.m3u8:Antena 3
 #DESCRIPTION Antena 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/7445:Esport 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.119.66.30%3a8000/play/a05e/index.m3u8:Antena 3 Internacional
+#DESCRIPTION Antena 3 Internacional
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-008/playlist.m3u8:Antena 3 Internacional (#)
+#DESCRIPTION Antena 3 Internacional (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-028/playlist.m3u8:A3 Cine
+#DESCRIPTION A3 Cine
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-047/playlist.m3u8:A3 Series
+#DESCRIPTION A3 Series
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ff3934600d4c7000733ff49/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%257BTARGETOPT%257D&deviceId=%257BPSID%257D&advertisingId=%257BPSID%257D&us_privacy=1YNY&samsung_app_domain=%257BAPP_DOMAIN%257D&samsung_app_name=%257BAPP_NAME%257D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus:Esport 3
 #DESCRIPTION Esport 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/1163:Cuatro
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//136.243.53.59%3a18000/Cuatro/hls/playlist.m3u8:Cuatro
 #DESCRIPTION Cuatro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/1133:Telecinco
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//136.243.53.59%3a18000/Telecinco/hls/playlist.m3u8:Telecinco
 #DESCRIPTION Telecinco
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/1152:La Sexta
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//136.243.53.59%3a18000/La_Sexta/hls/playlist.m3u8:La Sexta
 #DESCRIPTION La Sexta
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/285768:La 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/285768:La 7
 #DESCRIPTION La 7
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8:Tele 7
 #DESCRIPTION Tele 7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/5306:Ten
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/5306:Ten
 #DESCRIPTION Ten
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-046/playlist.m3u8:TNT Series
+#DESCRIPTION TNT Series
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/469e448f034b4d46afa4bcac53297d60/eu-central-1/6057955885001/profile_0/chunklist_dvr.m3u8:A Punt TV
 #DESCRIPTION A Punt TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/1167:Canal Cocina
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//136.243.53.59%3a18000/Canal_Cocina/hls/playlist.m3u8:Canal Cocina
 #DESCRIPTION Canal Cocina
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/298736:Canal Extremadura Sat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/298736:Canal Extremadura Sat
 #DESCRIPTION Canal Extremadura Sat
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/31762:CNN en Espanol
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/31762:CNN en Espanol
 #DESCRIPTION CNN en Espanol
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/2215:Cosmopolitan TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/2215:Cosmopolitan TV
 #DESCRIPTION Cosmopolitan TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/282292:Euronews en Español
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/282292:Euronews en Español
 #DESCRIPTION Euronews en Español
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/1158:Fox
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/1158:Fox
 #DESCRIPTION Fox
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/295164:Fox Life
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/295164:Fox Life
 #DESCRIPTION Fox Life
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/145616:La Otra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/145616:La Otra
 #DESCRIPTION La Otra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/2208:Neox
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/2208:Neox
 #DESCRIPTION Neox
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/2189:Nova
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/2189:Nova
 #DESCRIPTION Nova
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamtv2.elitecomunicacion.cloud%3a3144/live/verbenatvlive.m3u8:Verbena TV
 #DESCRIPTION Verbena TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/2148:#Vamos
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/2148:#Vamos
 #DESCRIPTION #Vamos
-#SERVICE 1:64:2c5:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b3:0:0:0:0:0:0:0:
 #DESCRIPTION ++regionaal++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/165149:3/24 Cat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//directes-tv-int.ccma.cat/live-content/canal324-hls/master.m3u8:3/24 Cat
 #DESCRIPTION 3/24 Cat
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8:7 TeleValencia
 #DESCRIPTION 7 TeleValencia
@@ -295,9 +307,13 @@
 #DESCRIPTION TVO
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8:VOTV
 #DESCRIPTION VOTV
-#SERVICE 1:64:2c6:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b4:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamtv.mediasector.es/hls/activatv/.m3u8:Activa TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-158/playlist.m3u8:A&E
+#DESCRIPTION A&E
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-079/playlist.m3u8:AMC Español
+#DESCRIPTION AMC Español
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/mbcrtzxnxd/mbcrtzxnxd.m3u8:Activa TV
 #DESCRIPTION Activa TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8108/index.m3u8:Afortunadas TV
 #DESCRIPTION Afortunadas TV
@@ -305,6 +321,18 @@
 #DESCRIPTION Alacanti TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//217.182.77.27/live/alcarriatv-livestream.m3u8:Alcarria TV
 #DESCRIPTION Alcarria TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lnc-anger-management-espanol.tubi.video/playlist.m3u8:Anger Management en Espanol
+#DESCRIPTION Anger Management en Espanol
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-048/playlist.m3u8:AXN
+#DESCRIPTION AXN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-120/playlist.m3u8:AZ Cinema
+#DESCRIPTION AZ Cinema
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-119/playlist.m3u8:AZ Clic
+#DESCRIPTION AZ Clic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-118/playlist.m3u8:AZ Corazon
+#DESCRIPTION AZ Corazon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-117/playlist.m3u8:Azteca Internacional
+#DESCRIPTION Azteca Internacional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cpd.bailen.tv%3a8080/Playlist_CANAL_24H/playlist.m3u8:Bailén TV
 #DESCRIPTION Bailén TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/format/applehttp/protocol/https/uiConfId/42816492/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0&playSessionId=381edbc5-f6df-0566-8c73-b767fb340d6:Beteve
@@ -319,6 +347,10 @@
 #DESCRIPTION Canal Diocesano
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.140.229.5/hls1/cancionero.m3u8:Cancionero TV
 #DESCRIPTION Cancionero TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-029/playlist.m3u8:Cartoon Network Español
+#DESCRIPTION Cartoon Network Español
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-055/playlist.m3u8:Cartoonito
+#DESCRIPTION Cartoonito
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8:Cetelmón TV
 #DESCRIPTION Cetelmón TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8024/index.m3u8:Ciudades Del Ocio TV
@@ -359,16 +391,22 @@
 #DESCRIPTION Este Canal TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8022/index.m3u8:Estepona Televisión
 #DESCRIPTION Estepona Televisión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-142/playlist.m3u8:Film & Arts
+#DESCRIPTION Film & Arts
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.mywifisocial.es/live.m3u8:Fitel TV
 #DESCRIPTION Fitel TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5c0956165db0b.streamlock.net/ftv/directo/.m3u8:Fuerteventura TV
 #DESCRIPTION Fuerteventura TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-123/playlist.m3u8:FX Español
+#DESCRIPTION FX Español
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/285760:GCM TV
 #DESCRIPTION GCM TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zuzenean.goienamedia.eus/goiena-telebista.m3u8:Goiena Eus
 #DESCRIPTION Goiena Eus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5940924978228.streamlock.net/8155/8155/playlist.m3u8:Goierri Irrati Telebista
 #DESCRIPTION Goierri Irrati Telebista
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-141/playlist.m3u8:Golden
+#DESCRIPTION Golden
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud.streamingconnect.tv%3a455/guadatv/guadatv.m3u8:Guada TV
 #DESCRIPTION Guada TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/3061:Hola TV
@@ -449,12 +487,18 @@
 #DESCRIPTION TBN España
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvdirecto.teleelx.es/stream/teleelx.m3u8:Tele Elx
 #DESCRIPTION Tele Elx
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.portalexpress.es%3a3182/hybrid/play.m3u8:Teledigital
+#DESCRIPTION Teledigital
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video1.lhdserver.es/teleribera/live.m3u8:TeleRibera
+#DESCRIPTION TeleRibera
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn318.fractalmedia.es/318/live/hls/tvc/master.m3u8:Televisión Consciente
 #DESCRIPTION Televisión Consciente
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//api.new.livestream.com/accounts/2614936/events/10365077/live.m3u8:Torrevisión
 #DESCRIPTION Torrevisión
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudusa.streamingconnect.com/tvfamiliatvbox/tvfamiliaweb.m3u8:TV Familia
 #DESCRIPTION TV Familia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eu1.servers10.com%3a8081/8166/index.m3u8:TV Reus
+#DESCRIPTION TV Reus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamingtvi.gestec-video.com/hls/unesd.m3u8:Une Vinalopó
 #DESCRIPTION Une Vinalopó
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud2.streaminglivehd.com%3a1936/universfaller/universfaller/playlist.m3u8:Univers TV
@@ -465,6 +509,8 @@
 #DESCRIPTION Vale TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ventdelnord.tv%3a8080/hls/directe.m3u8:Ventdelnord TV
 #DESCRIPTION Ventdelnord TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eu1.servers10.com%3a8081/vidanuevatv/index.m3u8:Vida Nueva TV
+#DESCRIPTION Vida Nueva TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.radiocast.es%3a5443/vinxtv/streams/vinxtvlive.m3u8:Vinx TV
 #DESCRIPTION Vinx TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5d8d85cf2c308.streamlock.net%3a1936/AlcalaTV/endirecto/playlist.m3u8:Vivamóvil

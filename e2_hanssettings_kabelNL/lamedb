@@ -66,9 +66,6 @@ ffff0000:000a:10ef
 ffff0000:081a:0600
 	c 466000:6900000:2:5:0:0:0
 /
-ffff0000:080f:0000
-	c 378000:6900000:2:5:0:0:0
-/
 ffff0000:000d:25a8
 	c 394000:6875000:2:5:0:0:0
 /
@@ -501,11 +498,11 @@ ffff0000:083b:0600
 ffff0000:0018:25a8
 	c 330000:6875000:2:3:0:0:0
 /
-ffff0000:083a:0600
-	c 314000:6900000:2:5:0:0:0
-/
 ffff0000:002a:25a8
 	c 570000:6875000:2:5:0:0:0
+/
+ffff0000:083a:0600
+	c 314000:6900000:2:5:0:0:0
 /
 ffff0000:0815:0600
 	c 338000:6900000:2:5:0:0:0
@@ -534,11 +531,11 @@ ffff0000:0817:0600
 ffff0000:0023:25a8
 	c 514000:6875000:2:3:0:0:0
 /
-ffff0000:0831:0600
-	c 434000:6900000:2:5:0:0:0
-/
 ffff0000:0035:25a8
 	c 202000:6875000:2:5:0:0:0
+/
+ffff0000:0831:0600
+	c 434000:6900000:2:5:0:0:0
 /
 ffff0000:0030:25a8
 	c 386000:6875000:2:5:0:0:0
@@ -1187,9 +1184,6 @@ p:Ziggo
 451b:ffff0000:081b:0600:25:0
 PSV TV
 p:Ziggo
-4ce1:ffff0000:081b:0600:25:0
-Ziggo Live Events
-p:Ziggo,c:050001
 4ce2:ffff0000:081b:0600:25:0
 Dagpas gestopt
 p:Ziggo
@@ -1253,9 +1247,6 @@ p:Ziggo,c:050001
 4ccd:ffff0000:081a:0600:25:0
 Ziggo Sport
 p:Ziggo,c:050001
-4cd6:ffff0000:081a:0600:25:0
-Ziggo Live Events
-p:Ziggo,c:050001
 4cd7:ffff0000:081a:0600:25:0
 SBS9
 p:Ziggo,c:050001,c:090202
@@ -1265,15 +1256,6 @@ p:Ziggo
 44fe:ffff0000:081a:0600:193:0
 MH_System_Data_Service
 p:Ziggo
-4b15:ffff0000:080f:0000:1:0
-378 SID 0x4b15
-p:
-4b16:ffff0000:080f:0000:1:0
-378 SID 0x4b16
-p:
-4b1a:ffff0000:080f:0000:1:0
-378 SID 0x4b1a
-p:
 0516:ffff0000:000d:25a8:1:0
 Kabelkrant SD
 p:SKV
@@ -1373,9 +1355,21 @@ p:Ziggo
 5369:ffff0000:0816:0600:25:0
 TRT Türk
 p:Ziggo,c:050001
+4b8d:ffff0000:0816:0600:25:0
+Dagpas gestopt
+p:Ziggo
+4b8e:ffff0000:0816:0600:25:0
+Ondemand gestopt
+p:Ziggo
+4b8f:ffff0000:0816:0600:25:0
+Dagpas gestopt
+p:Ziggo
+4b90:ffff0000:0816:0600:25:0
+Ondemand gestopt
+p:Ziggo
 4b92:ffff0000:0816:0600:25:0
 Ziggo Live Events
-p:Ziggo,c:050001
+p:Ziggo
 4b94:ffff0000:0816:0600:25:0
 Ziggo Zenderoverzicht HD
 p:Ziggo,c:050001
@@ -1625,9 +1619,6 @@ p:CAIW Media
 a438:ffff0000:008e:08c9:25:0
 BBC First
 p:CAIW Media,c:050001
-a456:ffff0000:008e:08c9:25:0
-Viaplay Xtra
-p:Caiw Media,c:050001
 4d25:ffff0000:0012:0600:1:0
 BBC First
 p:Ziggo
@@ -1985,9 +1976,6 @@ p:Delta
 013a:ffff0000:0003:10ef:25:0
 Film1 Family
 p:Delta
-013b:ffff0000:0003:10ef:25:0
-Viaplay Xtra
-p:Delta
 3f36:ffff0000:0839:0600:1:0
 Radio Actual
 p:Ziggo
@@ -2006,9 +1994,6 @@ p:Ziggo
 3f43:ffff0000:0839:0600:1:0
 Welcome Application
 p:Ziggo
-3f45:ffff0000:0839:0600:1:0
-Ziggo Live Events
-p:Ziggo
 3f46:ffff0000:0839:0600:1:0
 Standby Application
 p:Ziggo
@@ -2023,9 +2008,6 @@ MGM ON Demand
 p:Ziggo
 3f35:ffff0000:0839:0600:22:0
 Testbeeld
-p:Ziggo,c:050001
-3f45:ffff0000:0839:0600:25:0
-Ziggo Live Events
 p:Ziggo,c:050001
 0837:ffff0000:0015:25a8:1:0
 Ziggo Sport Select
@@ -2365,7 +2347,7 @@ Mediaset Italia
 p:Ziggo,c:050001
 4e49:ffff0000:0803:0600:25:0
 Dreamworks
-p:Ziggo
+p:Ziggo,c:050001
 4e4a:ffff0000:0803:0600:25:0
 Nickelodeon Ukraine
 p:Ziggo
@@ -4954,7 +4936,7 @@ Nickelodeon
 p:Ziggo,c:050001,c:090202
 4a68:ffff0000:0807:0600:25:0
 Viaplay Xtra
-p:Ziggo,c:050001
+p:Ziggo
 058d:ffff0000:000e:0001:2:0
 France Musique
 p:Telenet
@@ -5381,9 +5363,6 @@ p:Ziggo,c:050001,c:090202
 4bf7:ffff0000:0834:0600:25:0
 CNN
 p:Ziggo,c:050001
-7700:ffff0000:0835:0600:25:0
-Ziggo Live Events ESPN
-p:Ziggo,c:050001
 4c05:ffff0000:0835:0600:25:0
 RTL 4
 p:Ziggo,c:050001,c:098800
@@ -5471,9 +5450,6 @@ p:SKV
 0e15:ffff0000:0024:25a8:25:0
 France 24 HD
 p:SKV
-7613:ffff0000:080f:0600:25:0
-Ziggo Live Events ESPN
-p:Ziggo,c:050001
 4b15:ffff0000:080f:0600:25:0
 National Geographic
 p:Ziggo,c:050001
@@ -5518,9 +5494,6 @@ Videoland
 p:Ziggo,c:050001
 4c34:ffff0000:0837:0600:25:0
 Viaplay
-p:Ziggo,c:050001
-4c35:ffff0000:0837:0600:25:0
-Ziggo Live Events ESPN
 p:Ziggo,c:050001
 4c36:ffff0000:0837:0600:25:0
 HBO Max
@@ -5618,12 +5591,15 @@ p:SKV
 0962:ffff0000:0018:25a8:25:0
 NPO 3 HD
 p:SKV
-7761:ffff0000:083a:0600:25:0
-Ziggo Live Events ESPN
-p:Ziggo,c:050001,c:098800
-7762:ffff0000:083a:0600:25:0
-Ziggo Live Events ESPN
-p:Ziggo,c:050001
+1069:ffff0000:002a:25a8:25:0
+NASA TV HD
+p:SKV
+106a:ffff0000:002a:25a8:25:0
+24Kitchen HD
+p:SKV
+106b:ffff0000:002a:25a8:25:0
+National Geographic HD
+p:SKV
 4c69:ffff0000:083a:0600:25:0
 ESPN 2
 p:Ziggo,c:050001,c:098800
@@ -5636,15 +5612,6 @@ p:Ziggo,c:050001
 4c6e:ffff0000:083a:0600:25:0
 TLC
 p:Ziggo,c:050001
-1069:ffff0000:002a:25a8:25:0
-NASA TV HD
-p:SKV
-106a:ffff0000:002a:25a8:25:0
-24Kitchen HD
-p:SKV
-106b:ffff0000:002a:25a8:25:0
-National Geographic HD
-p:SKV
 4b79:ffff0000:0815:0600:25:0
 Ziggo Sport Select
 p:Ziggo,c:050001
@@ -5756,9 +5723,9 @@ p:SKV
 0db2:ffff0000:0023:25a8:25:0
 France 24 HD Engels
 p:SKV
-76b1:ffff0000:0831:0600:25:0
-Ziggo Live Events ESPN
-p:Ziggo
+14b5:ffff0000:0035:25a8:25:0
+ESPN 3 HD
+p:SKV
 4bb5:ffff0000:0831:0600:25:0
 ID
 p:Ziggo,c:050001
@@ -5768,9 +5735,6 @@ p:Ziggo,c:050001
 4bbc:ffff0000:0831:0600:25:0
 Paramount Network
 p:Ziggo,c:050001
-14b5:ffff0000:0035:25a8:25:0
-ESPN 3 HD
-p:SKV
 12c1:ffff0000:0030:25a8:25:0
 InUltra 4K
 p:SKV

@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:5ec:0:0:0:0:0:0:0:
+#SERVICE 1:64:5f2:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -43,7 +43,7 @@
 #DESCRIPTION FunX Utrecht
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//149.210.222.13%3a8030/:Spreekbuis Radio
 #DESCRIPTION Spreekbuis Radio
-#SERVICE 1:64:5ed:0:0:0:0:0:0:0:
+#SERVICE 1:64:5f3:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -525,6 +525,8 @@
 #DESCRIPTION Tomorrow One World Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.hofhosting.nl/proxy/traffic_main?mp=/stream:Traffic Radio
 #DESCRIPTION Traffic Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tukkerfm.nl/tukkerfm:Tukker FM
+#DESCRIPTION Tukker FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mscp2.live-streams.nl%3a8182/radio:Unique Classic Rock
 #DESCRIPTION Unique Classic Rock
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mscp3.live-streams.nl%3a8212/live:Unique Gold
@@ -545,7 +547,7 @@
 #DESCRIPTION Willem II Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:5ee:0:0:0:0:0:0:0:
+#SERVICE 1:64:5f4:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -585,16 +587,20 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:5ef:0:0:0:0:0:0:0:
+#SERVICE 1:64:5f5:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:5f0:0:0:0:0:0:0:0:
+#SERVICE 1:64:5f6:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits (NL Nationaal)
 #DESCRIPTION 18Hits (NL Nationaal)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.80sa.live/80s-alive.mp3:80s Alive
+#DESCRIPTION 80s Alive
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.90sa.live/90s-alive.mp3:90s Alive
+#DESCRIPTION 90s Alive
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s22.myradiostream.com/7728/listen.mp3:80s Hitradio (NL Nationaal)
 #DESCRIPTION 80s Hitradio (NL Nationaal)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chill.100radios.net:100 Chill Radio
@@ -775,8 +781,12 @@
 #DESCRIPTION Hi On Line Radio - World
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//fayalobi.beheerstream.nl/8018/stream:Hitradio 038
 #DESCRIPTION Hitradio 038
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//103.214.4.11%3a8100/stream:Hitradio Centraal FM (NL nationaal, overig)
-#DESCRIPTION Hitradio Centraal FM (NL nationaal, overig)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//103.214.4.11%3a8100/stream:Hitradio Centraal FM
+#DESCRIPTION Hitradio Centraal FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.hostbee.nl%3a1200/stream:HitRadio WestenWind
+#DESCRIPTION HitRadio WestenWind
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.hostbee.nl%3a1330/stream:HitRadio WestenWind Nonstop
+#DESCRIPTION HitRadio WestenWind Nonstop
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//daniel.torontocast.com%3a2295/stream:Hits4All That's Music
 #DESCRIPTION Hits4All That's Music
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//fred.torontocast.com%3a1950/stream:Hits4U Radio
@@ -955,6 +965,8 @@
 #DESCRIPTION Radio Boxerteam (NL)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.radio.co/s0d77dbc70/listen:Radio Caliente
 #DESCRIPTION Radio Caliente
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//caster05.streampakket.com/proxy/8868/stream:Radio Calypso
+#DESCRIPTION Radio Calypso
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.rcgoldserver.eu%3a8253:Radio Caroline 259 Gold (NL)
 #DESCRIPTION Radio Caroline 259 Gold (NL)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.rcgoldserver.eu%3a8313:Radio Caroline 319 Gold / Radio Monique 963 Gold
@@ -1071,6 +1083,8 @@
 #DESCRIPTION Rozo Radio 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cc6.beheerstream.com/8615/stream:RVM Radio (NL nationaal)
 #DESCRIPTION RVM Radio (NL nationaal)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls1.eu.peppermindmedia.com/samibiza/audio/playlist-128000.m3u8:SAM Ibiza
+#DESCRIPTION SAM Ibiza
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//caster05.streampakket.com/proxy/9320/stream:Shine Radio 
 #DESCRIPTION Shine Radio 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.stream.delivery/simonefm:Simone FM - Hits & Classics

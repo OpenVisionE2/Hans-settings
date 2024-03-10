@@ -525,8 +525,6 @@
 #DESCRIPTION ClubTimeFM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.fueralle.org/coloradio_160.mp3:coloRadio (Dresden)
 #DESCRIPTION coloRadio (Dresden)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//studio.coloradio.org%3a8000/coloradio-a.mp3:coloRadio+Zett
-#DESCRIPTION coloRadio+Zett
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//streaming.radionomy.com/Coolradio-Jazz:Coolradio Jazz
 #DESCRIPTION Coolradio Jazz
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//listen.radionomy.com/coolradioclassicrock:Coolradio
@@ -579,6 +577,8 @@
 #DESCRIPTION Das Inselradio Chillout (Duitsland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.inselradio.com/high.inselradio.mp3:Das Inselradio Mallorca (Duitsland)
 #DESCRIPTION Das Inselradio Mallorca (Duitsland)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//inselradio--di--nacs-ais-lgc--01--cdn.cast.addradio.de/inselradio/live/mp3/high:Das Inselradio Mallorca
+#DESCRIPTION Das Inselradio Mallorca
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.inselradio.com/high.sommerhits.mp3:Das Inselradio Sommerhits (Duitsland)
 #DESCRIPTION Das Inselradio Sommerhits (Duitsland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamplus52.leonex.de%3a11216/;:Das Radio der von Neil Young Getteten (Duitsland)
@@ -921,6 +921,8 @@
 #DESCRIPTION FFN - Tannenbaum
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//player.ffn.de/ffnstream.mp3:FFN
 #DESCRIPTION FFN
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n31a-eu.rcs.revma.com/8actzfn0742vv.mp3:FG Chic
+#DESCRIPTION FG Chic
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//213.238.33.199%3a8000/theflavormixHIGH:FlavorMix
 #DESCRIPTION FlavorMix
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fluxfm.hoerradar.de/fluxfmberlin-live-mp3-hq:FluxFM
@@ -977,16 +979,18 @@
 #DESCRIPTION FluxFM---XRadio--90s-Channel
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mp3stream1.apasf.apa.at%3a8000/:FM4 (Duitsland)
 #DESCRIPTION FM4 (Duitsland)
-#SERVICE 5002:0:2:0:0:0:0:0:0:0:http%3a//88.99.63.244%3a8000/;stream.mp3:Freies Radio Wiesenthal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s3.fairprice-streams.de%3a9148/stream:Freies Radio Freudenstadt
+#DESCRIPTION Freies Radio Freudenstadt
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.freiesradio.org%3a8000/live.mp3:Freies Radio Kassel
+#DESCRIPTION Freies Radio Kassel
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.fueralle.org%3a8000/frn:Freies Radio Neumünster
+#DESCRIPTION Freies Radio Neumünster
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.fueralle.org%3a8000/frs-hi.mp3:Freies Radio Stuttgart
+#DESCRIPTION Freies Radio Stuttgart
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//88.99.63.244%3a8000/;stream.mp3:Freies Radio Wiesenthal
 #DESCRIPTION Freies Radio Wiesenthal
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//livestream.wueste-welle.de%3a8000/ogg.m3u:Freies Radio Wüstenwelle Thüringen
 #DESCRIPTION Freies Radio Wüstenwelle Thüringen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.fueralle.org%3a8000/frs-hi.mp3:Freies-Radio-fr-Stuttgart
-#DESCRIPTION Freies-Radio-fr-Stuttgart
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//85.25.176.186%3a9140/:Freies-Radio-Freudenstadt
-#DESCRIPTION Freies-Radio-Freudenstadt
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//85.214.67.121%3a8000/:Freies-Radio-Kassel
-#DESCRIPTION Freies-Radio-Kassel
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.fsk-hh.org%3a8000/fsk.mp3:Freies-Sender-Kombinat
 #DESCRIPTION Freies-Sender-Kombinat
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rbb-fritz-live.cast.addradio.de/rbb/fritz/live/mp3/128/stream.mp3:Fritz-RBB
@@ -2067,6 +2071,8 @@
 #DESCRIPTION Powerradio4u
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.pride1.de%3a8000/;stream.mp3:PRIDE1
 #DESCRIPTION PRIDE1
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//main.stream.primal.fm/:PRIMAL.FM
+#DESCRIPTION PRIMAL.FM
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//air.chillout.zone%3a8020/radio:Psy-Chill-Zone
 #DESCRIPTION Psy-Chill-Zone
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.psychoradio.org%3a8000/;:PsychoRadioorg

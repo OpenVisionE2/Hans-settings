@@ -1,5 +1,5 @@
 #NAME Stream Spaans (ES)
-#SERVICE 1:64:6ac:0:0:0:0:0:0:0:
+#SERVICE 1:64:6b2:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rne1/main/mp3/high:RNE Radio Nacional
 #DESCRIPTION RNE Radio Nacional
@@ -25,13 +25,13 @@
 #DESCRIPTION RNE Exterior
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_re_main.m3u8:RNE Exterior
 #DESCRIPTION RNE Exterior
-#SERVICE 1:64:6ad:0:0:0:0:0:0:0:
+#SERVICE 1:64:6b3:0:0:0:0:0:0:0:
 #DESCRIPTION --- Spanje - Canarische Eilanden ---
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//panel.amediastream.eu%3a8500/live:Holland FM
 #DESCRIPTION Holland FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mooiradio.live-streams.nl/live:Mooi Radio
 #DESCRIPTION Mooi Radio
-#SERVICE 1:64:6ae:0:0:0:0:0:0:0:
+#SERVICE 1:64:6b4:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.10.10.225/zaragoza/live-web/chunklist_b128000.m3u8?GKID=dc544ece277711e9809800163e914f69:Aragón Radio
 #DESCRIPTION Aragón Radio
@@ -77,6 +77,8 @@
 #DESCRIPTION Costa Hit Radio (Nederlandstalig)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//c3.auracast.net%3a8020/stream/1/:Dance Radio
 #DESCRIPTION Dance Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//inselradio--di--nacs-ais-lgc--01--cdn.cast.addradio.de/inselradio/live/mp3/high:Das Inselradio Mallorca
+#DESCRIPTION Das Inselradio Mallorca
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//livestreaming.esradio.fm/stream64.mp3:EsRadio
 #DESCRIPTION EsRadio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast-streaming.nice264.com/europafmback:Europa FM
@@ -87,7 +89,7 @@
 #DESCRIPTION Flaixbac Andorra
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.10.10.206/rtva/canalflamenco.mp3:Flamenco Radio
 #DESCRIPTION Flamenco Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ex52.voordeligstreamen.nl/8050/stream:FM Goud Tenerife
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast5.asurahosting.com/proxy/fmgoudmi/live:FM Goud Tenerife
 #DESCRIPTION FM Goud Tenerife
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ukwesta.streaming.broadcast.radio/heatmallorca:Heat Mallorca (voor Engelsen daar)
 #DESCRIPTION Heat Mallorca (voor Engelsen daar)
@@ -109,8 +111,6 @@
 #DESCRIPTION Ibiza Sound Radio (Spanje)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str2b.openstream.co/588?aw_0_1st.stationid=3138&aw_0_1st.publisherId=612&aw_0_1st.serverId=str2b:Ibiza Sound Radio (Spanje)
 #DESCRIPTION Ibiza Sound Radio (Spanje)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.isla106.com/isla106.aac:ISLA 106 Ibiza
-#DESCRIPTION ISLA 106 Ibiza
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//kissfm.kissfmradio.cires21.com/kissfm.mp3:Kiss FM
 #DESCRIPTION Kiss FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//usa7.fastcast4u.com%3a5230/stream:KW Rock 
@@ -137,6 +137,8 @@
 #DESCRIPTION Mallora E1NS
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream2.inselradio.com/high.sunshine.mp3:Mallorca Sunshine Radio (Engelstalig)
 #DESCRIPTION Mallorca Sunshine Radio (Engelstalig)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mallorcasunshine--di--nacs-ais-lgc--05--cdn.cast.addradio.de/mallorcasunshine/live/mp3/high:Mallorca Sunshine Radio 
+#DESCRIPTION Mallorca Sunshine Radio 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livefastly-webs.melodia-fm.com/melodiafm/audio/master.m3u8:Melodia FM
 #DESCRIPTION Melodia FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//20073.live.streamtheworld.com/MAXIMAFMAAC.aac?csegid=2000&tdsdk=js-2.9&pname=TDSdk&pversion=2.9&banners=300x250&sbmid=ce486fb5-b5d2-4669-fe7b-c64550744bf9:Máxima FM
@@ -203,6 +205,8 @@
 #DESCRIPTION Rock FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.internetgirona.com%3a8008/onair:Ràdio Platja d'Aro
 #DESCRIPTION Ràdio Platja d'Aro
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls1.eu.peppermindmedia.com/samibiza/audio/playlist-128000.m3u8:SAM Ibiza
+#DESCRIPTION SAM Ibiza
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stm1.emiteonline.com%3a8008/spektrafm:Spektra FM
 #DESCRIPTION Spektra FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//eu8.fastcast4u.com/proxy/almeria2:Spectrum FM (Almeria, Engels)
