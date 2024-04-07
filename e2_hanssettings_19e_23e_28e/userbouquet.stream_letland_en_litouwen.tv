@@ -1,8 +1,10 @@
 #NAME Stream Letland (LV) en Litouwen (LT)
-#SERVICE 1:64:36a:0:0:0:0:0:0:0:
+#SERVICE 1:64:371:0:0:0:0:0:0:0:
 #DESCRIPTION ++Letland++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.254.128.5%3a22280/8tv_hd/index.m3u8:8TV
-#DESCRIPTION 8TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//void.greenhosting.ru/Multimania_Mpeg4/index.m3u8:Multimania
+#DESCRIPTION Multimania
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//void.greenhosting.ru/PingviinEE_Mpeg4/index.m3u8:Pingviin
+#DESCRIPTION Pingviin
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//retv2132.cloudycdn.services/slive/_definst_/retv_retv_channel_5k7_42787_default_891_hls.smil/chunklist_b4692000_t64MTA4MHA=.m3u8:Re TV
 #DESCRIPTION Re TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//air.star.lv/TV_Jurmala_multistream/index.m3u8:TV Jūrmala
@@ -11,25 +13,25 @@
 #DESCRIPTION TV Rain
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//straume.vdtv.lv/vdtv2/index.m3u8:Vidusdaugavas Televīzija
 #DESCRIPTION Vidusdaugavas Televīzija
-#SERVICE 1:64:36b:0:0:0:0:0:0:0:
+#SERVICE 1:64:372:0:0:0:0:0:0:0:
 #DESCRIPTION ++Litouwen++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.216.83.245/lrt/index.m3u8:LRT TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-secure.lrt.lt/lrt_hd/stream03/streamPlaylist.m3u8?N4vrvPYlScFGibBu2M8zwXFeAm8sTZ90um99YexD1nKrnGHrxxp9uUjkf1oG1gNIkRgZkks5NFfzgB6KFBXdRHkZAr4NfQEpUCp9fYgzilKr2EzSnUJQJM2AOifk:LRT TV
 #DESCRIPTION LRT TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lrt-vod-8.s.cdn.balt.net/mediateka/VIDEO/Block/tikLT.mp4/chunklist-v1.m3u8:LRT Plus
-#DESCRIPTION LRT Plus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-live.lrt.lt/lituanica/stream04/streamPlaylist.m3u8:LRT Lituanica
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-secure.lrt.lt/plius/stream03/streamPlaylist.m3u8?Nb_GuMFnc2iIRVr_JT83gtxK_q_Z3BmXTf9jXbl_9wx_e9r-auA37-jML1XkMZpOagIdMfY00nXukNFbxggaAB3wU93k9X_OyXYONA7iRs61cyj3OQ0Q2DFco6Y:LRT Plius
+#DESCRIPTION LRT Plius
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-live.lrt.lt/lituanica/stream03/streamPlaylist.m3u8:LRT Lituanica
 #DESCRIPTION LRT Lituanica
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//radijas.lrt.lt/klasika/master.m3u8:LRT Klasika
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-live.lrt.lt/lituanica/stream03/streamPlaylist.m3u8:LRT Lituanica (#)
+#DESCRIPTION LRT Lituanica (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-live.lrt.lt/klasika/stream03/streamPlaylist.m3u8:LRT Klasika
 #DESCRIPTION LRT Klasika
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//radijas.lrt.lt/opus/master.m3u8:LRT Opus
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-live.lrt.lt/opus/stream03/streamPlaylist.m3u8:LRT Opus
 #DESCRIPTION LRT Opus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//radijas.lrt.lt/radijas/master.m3u8:LRT Radijas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-live.lrt.lt/radijas/stream03/streamPlaylist.m3u8:LRT Radijas
 #DESCRIPTION LRT Radijas
-#SERVICE 1:64:36c:0:0:0:0:0:0:0:
+#SERVICE 1:64:373:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//m-1.data.lt/m-1/smil%3am-1.smil/playlist.m3u8:M-1 Visual Radio
 #DESCRIPTION M-1 Visual Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//baltlive.tv3.lt/studija/smil%3astudija.smil/playlist.m3u8:Power Hit Radio
 #DESCRIPTION Power Hit Radio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1527562093.rsc.cdn77.org/transcode/ngrp%3ases_all/chunklist_b4692000.m3u8:TV Rain
-#DESCRIPTION TV Rain

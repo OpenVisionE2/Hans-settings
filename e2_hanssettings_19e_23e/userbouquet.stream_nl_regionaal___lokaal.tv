@@ -51,6 +51,8 @@
 #DESCRIPTION RTV Drenthe HD
 #SERVICE 4097:0:1:5457:83b:600:ffff0000:0:0:0:https%3a//cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8:RTV Drenthe (epg Ziggo)
 #DESCRIPTION RTV Drenthe (epg Ziggo)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.rtvdrenthe.nl/live/rtvdrenthe/evenement/index.m3u8:RTV Drenthe - Dreuge worst TV
+#DESCRIPTION RTV Drenthe - Dreuge worst TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//icecast.interip.nl%3a8000/lohvideo.webm:Lokale Omroep Hoogeveen
 #DESCRIPTION Lokale Omroep Hoogeveen
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//takeoff.jetstre.am/?account=OmroepAssen&file=OmroepAssenTV%252Fplaylist.m3u8&type=live&service=webdav&protocol=https&output=playlist.m3u8:Omroep Assen
@@ -71,10 +73,10 @@
 #DESCRIPTION ZO!34 (Coevorden/Emmen)
 #SERVICE 1:64:15e:0:0:0:0:0:0:0:
 #DESCRIPTION +++Overijssel+++
-#SERVICE 4097:0:1:5252:c99:3:eb0000:0:0:0:https%3a//mediacdn.rtvoost.nl/live/rtvoost/tv/index.m3u8:RTV Oost HD
-#DESCRIPTION RTV Oost HD
-#SERVICE 5002:0:1:5458:83b:600:ffff0000:0:0:0:https%3a//mediacdn.rtvoost.nl/live/rtvoost/tv/index.m3u8:RTV Oost (epg Ziggo)
-#DESCRIPTION RTV Oost (epg Ziggo)
+#SERVICE 4097:0:1:5252:c99:3:eb0000:0:0:0:https%3a//mediacdn.rtvoost.nl/live/rtvoost/tv/index.m3u8:Oost
+#DESCRIPTION Oost
+#SERVICE 5002:0:1:5458:83b:600:ffff0000:0:0:0:https%3a//mediacdn.rtvoost.nl/live/rtvoost/tv/index.m3u8:Oost (epg Ziggo)
+#DESCRIPTION Oost (epg Ziggo)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ms2.mx-cd.net/dtv-10/198-989148/1Twente_TV.smil/playlist.m3u8:1 Twente
 #DESCRIPTION 1 Twente
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1wgur45ikj8gz.cloudfront.net/nlpo/clr-nlpo/aavisietv/index.m3u8:AAVISIE  (Almelo)
@@ -101,6 +103,8 @@
 #DESCRIPTION Salland 1 (Deventer/Olst/Raalte/Wijhe)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.radio350.nl/hls/radio350.m3u8:TV 350 (Rijssen - Overijssel)
 #DESCRIPTION TV 350 (Rijssen - Overijssel)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.tukker.tv/tukkertv/tukkertv/playlist.m3u8:Tukker TV
+#DESCRIPTION Tukker TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ms7.mx-cd.net/dtv-02/284-3006078/Twente_HD_TV.smil/playlist.m3u8:TwenteTV
 #DESCRIPTION TwenteTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8:Vechtdal Leeft (Dalfsen/Ommen)
@@ -309,8 +313,8 @@
 #DESCRIPTION Sleutelstad TV (Leiden)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//olon.ctl.cdn.ebsd.ericsson.net/L8B/5080c284/f0bd7608.isml/master.m3u8:Studio Alphen aan den Rijn (Zuid-Holland)
 #DESCRIPTION Studio Alphen aan den Rijn (Zuid-Holland)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2n2i1jp4j20kw.cloudfront.net/nlpo/clr-nlpo/schietv/index.mpd:Twee
-#DESCRIPTION Twee
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2n2i1jp4j20kw.cloudfront.net/nlpo/clr-nlpo/schietv/index.m3u8:TWEE
+#DESCRIPTION TWEE
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ms7.mx-cd.net/tv/230-3056712/Unity_Leiden_HD_TV.smil/playlist.m3u8:Unity.NU
 #DESCRIPTION Unity.NU
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ms2.mx-cd.net/tv/99-660295/WOS.smil/playlist.m3u8:WOS TV ('s-Gravenzande)

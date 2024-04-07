@@ -1,50 +1,80 @@
 #NAME Stream China (CN)
-#SERVICE 1:64:3b0:0:0:0:0:0:0:0:
+#SERVICE 1:64:3ad:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//42.176.185.28%3a9901/tsfile/live/1022_1.m3u8:CCTV-1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//node1.olelive.com%3a6443/live/CCTV1HD/hls.m3u8:CCTV-1
 #DESCRIPTION CCTV-1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//42.176.185.28%3a9901/tsfile/live/1022_1.m3u8:CCTV-1 (#)
+#DESCRIPTION CCTV-1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8:CCTV-1 (#)
 #DESCRIPTION CCTV-1 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8:CCTV-2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//node1.olelive.com%3a6443/live/CCTV2HD/hls.m3u8:CCTV-2
 #DESCRIPTION CCTV-2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8:CCTV-2 (#)
+#DESCRIPTION CCTV-2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/75/index.m3u8:CCTV-3
 #DESCRIPTION CCTV-3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226191/index.m3u8:CCTV-4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.119.66.30%3a8000/play/CCTV/index.m3u8:CCTV-4
 #DESCRIPTION CCTV-4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226191/index.m3u8:CCTV-4 (#)
+#DESCRIPTION CCTV-4 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226191/index.m3u8:CCTV-4 (#)
 #DESCRIPTION CCTV-4 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8:CCTV-4 America
 #DESCRIPTION CCTV-4 America
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//1.85.0.62%3a808/hls/503/index.m3u8:CCTV-5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//210.210.155.37/qwr9ew/s/s19/index.m3u8:CCTV 4-Asia
+#DESCRIPTION CCTV 4-Asia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//node1.olelive.com%3a6443/live/CCTV5HD/hls.m3u8:CCTV-5
 #DESCRIPTION CCTV-5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//1.85.0.62%3a808/hls/503/index.m3u8:CCTV-5 (#)
+#DESCRIPTION CCTV-5 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8:CCTV-5 (#)
 #DESCRIPTION CCTV-5 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225761/index.m3u8:CCTV-5+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//node1.olelive.com%3a6443/live/CCTV5PHD/hls.m3u8:CCTV-5+
 #DESCRIPTION CCTV-5+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225761/index.m3u8:CCTV-5+ (#)
+#DESCRIPTION CCTV-5+ (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.goodiptv.club/api/cqyx.php?id=cctv5SportHD:CCTV-5+ (#)
+#DESCRIPTION CCTV-5+ (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//1.85.0.62%3a808/hls/6/index.m3u8:CCTV-6
 #DESCRIPTION CCTV-6
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8:CCTV-7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//node1.olelive.com%3a6443/live/CCTV7HD/hls.m3u8:CCTV-7
 #DESCRIPTION CCTV-7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226012/index.m3u8:CCTV-8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8:CCTV-7 (#)
+#DESCRIPTION CCTV-7 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//node1.olelive.com%3a6443/live/CCTV8HD/hls.m3u8:CCTV-8
 #DESCRIPTION CCTV-8
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8:CCTV-9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226012/index.m3u8:CCTV-8 (#)
+#DESCRIPTION CCTV-8 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//node1.olelive.com%3a6443/live/CCTV9HD/hls.m3u8:CCTV-9
 #DESCRIPTION CCTV-9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8:CCTV-10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8:CCTV-9 (#)
+#DESCRIPTION CCTV-9 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//node1.olelive.com%3a6443/live/CCTV10HD/hls.m3u8:CCTV-10
 #DESCRIPTION CCTV-10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226189/index.m3u8:CCTV-10 (#)
+#DESCRIPTION CCTV-10 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/11/index.m3u8:CCTV-11
 #DESCRIPTION CCTV-11
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/12/index.m3u8:CCTV-12
 #DESCRIPTION CCTV-12
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8:CCTV-13
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8:CCTV-13
 #DESCRIPTION CCTV-13
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8:CCTV-13 (#)
+#DESCRIPTION CCTV-13 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226193/index.m3u8:CCTV-14
 #DESCRIPTION CCTV-14
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ctrl.laotv.la/live/CCTV14/index.m3u8:CCTV-14 (#)
+#DESCRIPTION CCTV-14 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225785/index.m3u8:CCTV-15
 #DESCRIPTION CCTV-15
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8:CCTV-16
 #DESCRIPTION CCTV-16
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.goodiptv.club/api/cqyx.php?id=CCTV16_4K:CCTV-16 (#)
 #DESCRIPTION CCTV-16 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//node1.olelive.com%3a6443/live/CCTV17HD/hls.m3u8:CCTV-17
+#DESCRIPTION CCTV-17
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/93/index.m3u8:CCTV-17 (#)
+#DESCRIPTION CCTV-17 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.207.248.71/gitv/live1/G_CETV-1/G_CETV-1:CETV 1
 #DESCRIPTION CETV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.207.248.71/gitv/live1/G_CETV-2/G_CETV-2:CETV 2
@@ -61,29 +91,7 @@
 #DESCRIPTION CGTN Francais
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.premiumiptvmk.com%3a8080/myhdosama/cjydA4ncmMqx55pf/295428:CGTN Russkij
 #DESCRIPTION CGTN Russkij
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/2/index.m3u8:CCTV-2
-#DESCRIPTION CCTV-2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//210.210.155.37/qwr9ew/s/s19/index.m3u8:CCTV 4-Asia
-#DESCRIPTION CCTV 4-Asia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.goodiptv.club/api/cqyx.php?id=cctv5SportHD:CCTV-5+
-#DESCRIPTION CCTV-5+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/7/index.m3u8:CCTV-7
-#DESCRIPTION CCTV-7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/77/index.m3u8:CCTV-8
-#DESCRIPTION CCTV-8
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/9/index.m3u8:CCTV-9
-#DESCRIPTION CCTV-9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/10/index.m3u8:CCTV-10
-#DESCRIPTION CCTV-10
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/13/index.m3u8:CCTV-13
-#DESCRIPTION CCTV-13
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/14/index.m3u8:CCTV-14
-#DESCRIPTION CCTV-14
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/15/index.m3u8:CCTV-15
-#DESCRIPTION CCTV-15
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//183.196.25.171%3a808/hls/93/index.m3u8:CCTV-17
-#DESCRIPTION CCTV-17
-#SERVICE 1:64:3b1:0:0:0:0:0:0:0:
+#SERVICE 1:64:3ae:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp2.abnvideos.com/hls/abnchina.m3u8:ABN China
 #DESCRIPTION ABN China
@@ -123,6 +131,8 @@
 #DESCRIPTION Dragon TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//r.jdshipin.com/62WM7:Fěicuì Tái
 #DESCRIPTION Fěicuì Tái
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream8.jlntv.cn/fs/sd/live.m3u8:Fusung News TV
+#DESCRIPTION Fusung News TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225633/index.m3u8:Gansu Satellite TV
 #DESCRIPTION Gansu Satellite TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225653/index.m3u8:Golden Eagle Cartoon
@@ -131,6 +141,12 @@
 #DESCRIPTION Guǎngdōng‖ Qīngxīn Zònghé Tái 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livelyws.chinamcache.com/lyws/zb01.m3u8?auth_key=1593241343-0-0-90b80e74457c94b2015f9428a1cb9b0e:Hǎinán Wèishì
 #DESCRIPTION Hǎinán Wèishì
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8:Hándān Gōnggòng
+#DESCRIPTION Hándān Gōnggòng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8:Hándān Kējiào
+#DESCRIPTION Hándān Kējiào
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwliveqxzb.hebyun.com.cn/hdxwzh/hdxwzh.m3u8:Hándān Xīnwén
+#DESCRIPTION Hándān Xīnwén
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbfc.chinashadt.com%3a2036/live/6.stream/playlist.m3u8:Héběi Jīngjì
 #DESCRIPTION Héběi Jīngjì
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pili-live-hls.hebitv.com/hebi/hebi.m3u8:Hèbì Xīnwén Zònghé
@@ -185,6 +201,8 @@
 #DESCRIPTION Jusha Global Selection
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8:Kaku Kids
 #DESCRIPTION Kaku Kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.182.45.198%3a20088/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0:Lasa TV
+#DESCRIPTION Lasa TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.lyg1.com/zhpd/sd/live.m3u8:Lianyungang Comprehensive
 #DESCRIPTION Lianyungang Comprehensive
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.lyg1.com/ggpd/sd/live.m3u8:Lianyungang Public
@@ -271,6 +289,8 @@
 #DESCRIPTION Qinghai TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/qg/sd/live.m3u8:Qián Guō Zònghé 1
 #DESCRIPTION Qián Guō Zònghé 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwcdnqx.hebyun.com.cn/live/rqtv2/1500k/tzwj_video.m3u8:Rèn Qiū Wényú
+#DESCRIPTION Rèn Qiū Wényú
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8:RTHK TV 31
 #DESCRIPTION RTHK TV 31
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_1080_av-b.m3u8:RTHK TV 32
@@ -293,12 +313,28 @@
 #DESCRIPTION Shàngyú 3 Xin Shāngdū
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8:Shàngyú Jīngjì Wénhuà
 #DESCRIPTION Shàngyú Jīngjì Wénhuà
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/54/live.m3u8:Shānxī Fǎzhì
+#DESCRIPTION Shānxī Fǎzhì
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/52/live.m3u8:Shānxī Jīngjì
+#DESCRIPTION Shānxī Jīngjì
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/55/live.m3u8:Shānxī Wéntǐ
+#DESCRIPTION Shānxī Wéntǐ
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/53/live.m3u8:Shānxī Yǐngshì
+#DESCRIPTION Shānxī Yǐngshì
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8:Shèngzhōu Zònghé
 #DESCRIPTION Shèngzhōu Zònghé
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbsz.chinashadt.com%3a2036/live/stream%3asztv.stream/playlist.m3u8:Shēngzhōu Zònghé Píndào
 #DESCRIPTION Shēngzhōu Zònghé Píndào
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pluslive1.sjzntv.cn/dushi/playlist.m3u8:Shíjiāzhuāng Dūshì
+#DESCRIPTION Shíjiāzhuāng Dūshì
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pluslive1.sjzntv.cn/shenghuo/playlist.m3u8:Shíjiāzhuāng Shēnghuó
+#DESCRIPTION Shíjiāzhuāng Shēnghuó
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pluslive1.sjzntv.cn/yule/playlist.m3u8:Shíjiāzhuāng Yúlè
+#DESCRIPTION Shíjiāzhuāng Yúlè
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.sjsrm.com/bjsjs/sd/live.m3u8:Shíjǐngshān Diànshìtái
 #DESCRIPTION Shíjǐngshān Diànshìtái
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.182.45.198%3a20088/tsfile/live/0134_1.m3u8?key=txiptv&playlive=1&authid=0:Sichuan Kangba Tibetan TV
+#DESCRIPTION Sichuan Kangba Tibetan TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.smntv.cn/smtv1/sd/live.m3u8:SMTV 1
 #DESCRIPTION SMTV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.smntv.cn/smtv2/sd/live.m3u8:SMTV 2
@@ -337,6 +373,12 @@
 #DESCRIPTION Xiāoshān Xīnwén Zònghé 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//210.210.155.37/x6bnqe/s/s94/index2.m3u8:Xing Kong International (360p)
 #DESCRIPTION Xing Kong International (360p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8:Xīnglóng Zònghé
+#DESCRIPTION Xīnglóng Zònghé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//222.223.119.21%3a8888/newlive/live/hls/55/live.m3u8:Xíngtái Chéng Shēng
+#DESCRIPTION Xíngtái Chéng Shēng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//222.223.119.21%3a8888/newlive/live/hls/54/live.m3u8:Xíngtái Zònghé
+#DESCRIPTION Xíngtái Zònghé
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.ybtvyun.com/video/s10006-04819ee234a7/index.m3u8:Yanbian TV 2
 #DESCRIPTION Yanbian TV 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/jlyb/sd/live.m3u8:Yánbiān Xīnwén Zònghé
@@ -359,41 +401,15 @@
 #DESCRIPTION Yúyáo Xīnwén Zònghé
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//31182.hlsplay.aodianyun.com/lms_31182/tv_channel_175.m3u8:Zhangpu News
 #DESCRIPTION Zhangpu News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8:Zhèjiāng 2 Qián Jiāng
-#DESCRIPTION Zhèjiāng 2 Qián Jiāng
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8:Zhèjiāng 3 Jīngjì Shēnghuó
-#DESCRIPTION Zhèjiāng 3 Jīngjì Shēnghuó
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel04/720p.m3u8:Zhèjiāng 4 Ⅰ Zhèjiāng Jiàoyù
-#DESCRIPTION Zhèjiāng 4 Ⅰ Zhèjiāng Jiàoyù
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8:Zhèjiāng 4 Jiàokē Yǐngshì 
-#DESCRIPTION Zhèjiāng 4 Jiàokē Yǐngshì 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel05/720p.m3u8:Zhèjiāng 5 Yǐngshì
-#DESCRIPTION Zhèjiāng 5 Yǐngshì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8:Zhèjiāng 6 Mínshēng Xiūxián
-#DESCRIPTION Zhèjiāng 6 Mínshēng Xiūxián
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel06/1080p.m3u8:Zhèjiāng 6 Tào 
-#DESCRIPTION Zhèjiāng 6 Tào 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8:Zhèjiāng 7 Gōnggòng
-#DESCRIPTION Zhèjiāng 7 Gōnggòng
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel03/720p.m3u8:Zhèjiāng 7 Ⅰ Zhèjiāng Jīngjì 
-#DESCRIPTION Zhèjiāng 7 Ⅰ Zhèjiāng Jīngjì 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel07/720p.m3u8:Zhèjiāng 7 Ⅰ Zhèjiāng Xinwén 
-#DESCRIPTION Zhèjiāng 7 Ⅰ Zhèjiāng Xinwén 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel08/720p.m3u8:Zhèjiāng 8 Ⅰ Zhèjiāng Shào'ér 
-#DESCRIPTION Zhèjiāng 8 Ⅰ Zhèjiāng Shào'ér 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8:Zhèjiāng 8 Shào'ér
-#DESCRIPTION Zhèjiāng 8 Shào'ér
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel09/1080p.m3u8:Zhèjiāng 9 Ⅰ Zhèjiāng Liúxué
-#DESCRIPTION Zhèjiāng 9 Ⅰ Zhèjiāng Liúxué
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8:Zhèjiāng 10 Guójì 
-#DESCRIPTION Zhèjiāng 10 Guójì 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel10/720p.m3u8:Zhèjiāng 10 Ⅰ Zhèjiāng Guójì 
-#DESCRIPTION Zhèjiāng 10 Ⅰ Zhèjiāng Guójì 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel11/720p.m3u8:Zhèjiāng 11 Ⅰ Zhèjiāng Yì Gòu
-#DESCRIPTION Zhèjiāng 11 Ⅰ Zhèjiāng Yì Gòu
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8:Zhèjiāng 12 Shùmǎ Shídài
-#DESCRIPTION Zhèjiāng 12 Shùmǎ Shídài
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8:Zhèjiāng Satellite TV
-#DESCRIPTION Zhèjiāng Satellite TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hw-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8:Zhejiang TV International
-#DESCRIPTION Zhejiang TV International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8:Zhèjiāng Guójì
+#DESCRIPTION Zhèjiāng Guójì
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8:Zhèjiāng Jīngjì
+#DESCRIPTION Zhèjiāng Jīngjì
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8:Zhèjiāng Mínshēng
+#DESCRIPTION Zhèjiāng Mínshēng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8:Zhèjiāng Qián Jiāng
+#DESCRIPTION Zhèjiāng Qián Jiāng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8:Zhèjiāng Shào'ér
+#DESCRIPTION Zhèjiāng Shào'ér
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8:Zhī Jiāng Jìlù
+#DESCRIPTION Zhī Jiāng Jìlù

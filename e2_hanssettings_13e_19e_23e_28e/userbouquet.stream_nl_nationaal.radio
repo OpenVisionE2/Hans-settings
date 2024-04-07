@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:5d8:0:0:0:0:0:0:0:
+#SERVICE 1:64:5db:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -43,7 +43,7 @@
 #DESCRIPTION FunX Utrecht
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//149.210.222.13%3a8030/:Spreekbuis Radio
 #DESCRIPTION Spreekbuis Radio
-#SERVICE 1:64:5d9:0:0:0:0:0:0:0:
+#SERVICE 1:64:5dc:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -113,14 +113,14 @@
 #DESCRIPTION C-Dance RETRO
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/CANDLELIGHT_SC:Candlelight
 #DESCRIPTION Candlelight
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//classic.nl/streams/?s=main:Classic NL
-#DESCRIPTION Classic NL
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//classic.nl/streams/?s=mindradio:Classic NL Mindradio
-#DESCRIPTION Classic NL Mindradio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//classic.nl/streams/?s=opera:Classic NL Opera
-#DESCRIPTION Classic NL Opera
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//classic.nl/streams/?s=soundtracks:Classic NL Soundtracks
-#DESCRIPTION Classic NL Soundtracks
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//classic.nl/streams/?s=main:Classicnl
+#DESCRIPTION Classicnl
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//classic.nl/streams/?s=mindradio:Classicnl Mindradio
+#DESCRIPTION Classicnl Mindradio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//classic.nl/streams/?s=opera:Classicnl Opera
+#DESCRIPTION Classicnl Opera
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//classic.nl/streams/?s=soundtracks:Classicnl Soundtracks
+#DESCRIPTION Classicnl Soundtracks
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//gooischstream.hofstreaming.nl/proxy/gooisch_main?mp=/stream:Classy Radio
 #DESCRIPTION Classy Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.greenhost.nl%3a8006/live:Concertzender
@@ -547,7 +547,7 @@
 #DESCRIPTION Willem II Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:5da:0:0:0:0:0:0:0:
+#SERVICE 1:64:5dd:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -587,13 +587,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:5db:0:0:0:0:0:0:0:
+#SERVICE 1:64:5de:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:5dc:0:0:0:0:0:0:0:
+#SERVICE 1:64:5df:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits (NL Nationaal)
 #DESCRIPTION 18Hits (NL Nationaal)
@@ -755,6 +755,8 @@
 #DESCRIPTION Gerjan Op Dreef
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rcast.net/200075:Golden Music Stream 
 #DESCRIPTION Golden Music Stream 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mediacp.audiostreamen.nl%3a8150/stream:Happy Hits
+#DESCRIPTION Happy Hits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//shoutcast2.hardcoreradio.nl:Hardcore Radio
 #DESCRIPTION Hardcore Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//cc5.beheerstream.com%3a8428/stream:HardcorePower Radio
@@ -955,8 +957,6 @@
 #DESCRIPTION Radio 227
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio.40up.nl/40up1:Radio 40UP
 #DESCRIPTION Radio 40UP
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s3.free-shoutcast.com/stream/18096:Radio 558
-#DESCRIPTION Radio 558
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//jenny.torontocast.com%3a8034/stream:Radio 854 (NL, voor NL/BE in Canada)
 #DESCRIPTION Radio 854 (NL, voor NL/BE in Canada)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//daniel.torontocast.com%3a1435/stream:Radio 854 Gold (uit Canada voor luisteraars BE en NL)
@@ -1057,6 +1057,8 @@
 #DESCRIPTION Radio Twilight
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server-21.stream-server.nl%3a8382/:Radio Ultiem (NL nationaal, overig)
 #DESCRIPTION Radio Ultiem (NL nationaal, overig)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-42.zeno.fm/q55g823bna0uv:RadioSounds
+#DESCRIPTION RadioSounds
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server2.inetcast.nl%3a1680:Radioveronique
 #DESCRIPTION Radioveronique
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.radio.co%3a80/s1add38d12/listen:Radio Weleer (NL)

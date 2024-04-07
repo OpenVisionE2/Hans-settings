@@ -1,23 +1,29 @@
 #NAME Stream Cambodja (KH)
-#SERVICE 1:64:17b2:0:0:0:0:0:0:0:
+#SERVICE 1:64:17ba:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/tvk.stream/chunklist.m3u8:TVK 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8:TVK 1
 #DESCRIPTION TVK 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/tvk2.stream/chunklist.m3u8:TVK 2
 #DESCRIPTION TVK 2
-#SERVICE 1:64:17b3:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/tv5.stream/playlist.m3u8:TV 5 Cambodia
+#DESCRIPTION TV 5 Cambodia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.ams.com.kh/app/stream/playlist.m3u8:Apsara TV 11
+#DESCRIPTION Apsara TV 11
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming.freshnewsasia.com%3a1935/live/myStream/playlist.m3u8:News 24
+#DESCRIPTION News 24
+#SERVICE 1:64:17bb:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.176.130.123%3a8989/live/bayontv_480k.stream/chunklist_.m3u8:Bayon TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/bayonhd.stream/playlist.m3u8:Bayon TV
 #DESCRIPTION Bayon TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.176.130.123%3a8989/live/bayontv1_480k.stream/chunklist_.m3u8:BTV News
-#DESCRIPTION BTV News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//124.248.165.18%3a1935/live/myStream.smil/chunklist_.m3u8:MSJ TV
-#DESCRIPTION MSJ TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.176.130.123%3a8989/live/pnn_480k.stream/playlist.m3u8:PNN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/pnntvhd.stream/playlist.m3u8:PNN
 #DESCRIPTION PNN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//clive.malisresidences.com%3a1935/rhm_hdtv/_definst_/smil%3aRHMHDTV.smil/playlist.m3u8:Rasmey Hang Meas HDTV
+#DESCRIPTION Rasmey Hang Meas HDTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//seatv.netlinkbroadcaster.com/hls/test.m3u8:Sea TV
 #DESCRIPTION Sea TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fmseatv.netlinkbroadcaster.com/hls/test.m3u8:Sea TV-Radio
 #DESCRIPTION Sea TV-Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8:Tea TV
 #DESCRIPTION Tea TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/towntv.stream/playlist.m3u8:Town TV HDTV
+#DESCRIPTION Town TV HDTV

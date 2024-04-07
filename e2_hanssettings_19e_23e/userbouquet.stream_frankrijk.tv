@@ -1,5 +1,5 @@
 #NAME Stream Frankrijk (FR)
-#SERVICE 1:64:307:0:0:0:0:0:0:0:
+#SERVICE 1:64:30c:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:2460:440:1:c00000:0:0:0:http%3a//livetv.ktv.zone/3/play.m3u8:TF1
 #DESCRIPTION TF1
@@ -9,7 +9,7 @@
 #DESCRIPTION TFX
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/4/play.m3u8:France 2
 #DESCRIPTION France 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/105/play.m3u8:France 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/5/play.m3u8:France 3
 #DESCRIPTION France 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/210/play.m3u8:France 3 Alpes
 #DESCRIPTION France 3 Alpes
@@ -69,7 +69,11 @@
 #DESCRIPTION NRJ Hits
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/868:Paris Premiere
 #DESCRIPTION Paris Premiere
-#SERVICE 1:64:308:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/27/play.m3u8:Chérie 25
+#DESCRIPTION Chérie 25
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cherie25.nrjaudio.fm/hls/live/2038375/c25/FHD.m3u8:Chérie 25 (#)
+#DESCRIPTION Chérie 25 (#)
+#SERVICE 1:64:30d:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/165:AB 1
 #DESCRIPTION AB 1
@@ -79,9 +83,11 @@
 #DESCRIPTION AB Xplore
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rakuten-africanews-2-be.samsung.wurl.tv/manifest/playlist.m3u8:AfricaNews Français
 #DESCRIPTION AfricaNews Français
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END:BFM TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/17/play.m3u8:BFM TV
 #DESCRIPTION BFM TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/1919:BFM Business
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END:BFM TV (#)
+#DESCRIPTION BFM TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/166/play.m3u8:BFM Business
 #DESCRIPTION BFM Business
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/286499:BFM Grand Littoral
 #DESCRIPTION BFM Grand Littoral
@@ -91,8 +97,6 @@
 #DESCRIPTION BFM Lyon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/167:BFM Paris
 #DESCRIPTION BFM Paris
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cherie25.nrjaudio.fm/hls/live/2038375/c25/FHD.m3u8:Chérie 25
-#DESCRIPTION Chérie 25
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/18/play.m3u8:CNews
 #DESCRIPTION CNews
 #SERVICE 4097:0:1:2335:442:1:c00000:0:0:0:http%3a//livetv.ktv.zone/19/play.m3u8:CStar
@@ -101,16 +105,22 @@
 #DESCRIPTION Euronews Français
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-ak.akamaized.net/out/v1/302a3ad418214d3f94460738a805b930/index.m3u8:Euronews Français (#)
 #DESCRIPTION Euronews Français (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/20/play.m3u8:Gulli
+#DESCRIPTION Gulli
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/280291:I24 News France
 #DESCRIPTION I24 News France
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/236/play.m3u8:KTO
+#DESCRIPTION KTO
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/23/play.m3u8:L'Equipe
 #DESCRIPTION L'Equipe
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/eqpe/equipe.m3u8:L'Equipe (#)
+#DESCRIPTION L'Equipe (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3awaj0f2u3w26.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gy7euubgydp20-ssai-prd/8fd3efae-4468-4ca0-9486-c6cdcb7b65d7/2.m3u8:L'Équipe Live 1
 #DESCRIPTION L'Équipe Live 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2l55nvfkhk4sg.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jg7go1lqzgpny-ssai-prd/435d04a5-ab47-47c5-a2c1-bae01ae6d0c1/2.m3u8:L'Équipe Live 2
 #DESCRIPTION L'Équipe Live 2
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/168914:La Chaine Meteo
-#DESCRIPTION La Chaine Meteo
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/15/play.m3u8:La Chaine Parlementaire
+#DESCRIPTION La Chaine Parlementaire
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/28/play.m3u8:LCI
 #DESCRIPTION LCI
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/4342:LCI (#)
@@ -149,7 +159,7 @@
 #DESCRIPTION TV5 Monde Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strhlslb01.streamakaci.tv/str_tvfinance_tvfinance/str_tvfinance_multi/playlist.m3u8:TV Finance
 #DESCRIPTION TV Finance
-#SERVICE 1:64:309:0:0:0:0:0:0:0:
+#SERVICE 1:64:30e:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3abn-live.akamaized.net/hls/live/2010546-b/French/master.m3u8:3ABN French
 #DESCRIPTION 3ABN French
@@ -159,7 +169,7 @@
 #DESCRIPTION Alpe d’Huez TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/13364:Altice Studio
 #DESCRIPTION Altice Studio
-#SERVICE 4097:0:1:133:3e1c:13f:820000:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/163:ARTE Francais
+#SERVICE 4097:0:1:133:3e1c:13f:820000:0:0:0:http%3a//livetv.ktv.zone/9/play.m3u8:ARTE Francais
 #DESCRIPTION ARTE Francais
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/299701:BBC Drama France
 #DESCRIPTION BBC Drama France
@@ -169,6 +179,8 @@
 #DESCRIPTION BIP TV 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/212:Canal J
 #DESCRIPTION Canal J
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.254.199.122%3a8080/cdirectTV/index.m3u8:CDirect
+#DESCRIPTION CDirect
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strhlslb01.streamakaci.tv/cen/cen-multi/playlist.m3u8:CEN
 #DESCRIPTION CEN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livefr.cgtn.com/1000f/prog_index.m3u8:CGTN France
@@ -207,8 +219,6 @@
 #DESCRIPTION Fun Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.vedge.infomaniak.com/livecast/ik%3ageneration-tv/manifest.m3u8:Generations TV
 #DESCRIPTION Generations TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/216:Gulli
-#DESCRIPTION Gulli
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv.webtvmanager.fr%3a3697/stream/play.m3u8:Handicap TV France
 #DESCRIPTION Handicap TV France
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/1190:Infosport+
@@ -235,6 +245,8 @@
 #DESCRIPTION Monaco Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.creacast.com/mirabelletv/smil%3amirabelletv.smil/chunklist.m3u8:Moselle TV
 #DESCRIPTION Moselle TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rakutenaa-fastmedia-motuslachaine-rakuten-547u3.amagi.tv/playlist/rakutenAA-fastmedia-motuslachaine-rakuten/playlist.m3u8:Motus La Chaîne
+#DESCRIPTION Motus La Chaîne
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.creacast.com/museum-france/smil%3amuseum-france.smil/master.m3u8:Museum TV
 #DESCRIPTION Museum TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/16731:My Cuisine
@@ -269,7 +281,7 @@
 #DESCRIPTION Télé Gohelle
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/28444:Telesud
 #DESCRIPTION Telesud
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-tiji-tv-prod-dub.shahid.net/out/v1/98f46736bd8c4404b67e4b7a38cc8976/index.m3u8:Tiji
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/175/play.m3u8:Tiji
 #DESCRIPTION Tiji
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.tmacaraibes.com/live/index.m3u8:TMA Caraibes
 #DESCRIPTION TMA Caraibes
@@ -323,3 +335,5 @@
 #DESCRIPTION Vision 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8:Vosges TV
 #DESCRIPTION Vosges TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/235/play.m3u8:Vosges TV (#)
+#DESCRIPTION Vosges TV (#)

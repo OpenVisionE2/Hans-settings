@@ -1,6 +1,6 @@
 #NAME Stream USA: Bee, Redbox, Rolu en Xumo (US)
-#SERVICE 1:64:43b:0:0:0:0:0:0:0:
-#DESCRIPTION ++USA BEE TV++
+#SERVICE 1:64:43a:0:0:0:0:0:0:0:
+#DESCRIPTION ++Bee TV++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stitcheraws.unreel.me/wse-node02.powr.com/live/5c9529aa932c837b493972cb/playlist.m3u8:BeeTV | Delicious TV
 #DESCRIPTION BeeTV | Delicious TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stitcheraws.unreel.me/wse-node02.powr.com/live/5af61f59d5eeee7af3d1db8f/playlist.m3u8:BeeTV | Taste It
@@ -117,8 +117,8 @@
 #DESCRIPTION BeeTV | External Ottera
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stitcheraws.unreel.me/wse-node02.powr.com/live/5f10f6c04a9f7c7c27570dd3/playlist.m3u8:BeeTV | Education
 #DESCRIPTION BeeTV | Education
-#SERVICE 1:64:43c:0:0:0:0:0:0:0:
-#DESCRIPTION ++USA REDBOX++
+#SERVICE 1:64:43b:0:0:0:0:0:0:0:
+#DESCRIPTION ++Redbox++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//od.lk/s/MF8yMTY4NzI4MTlf/RedboxLiveTV_YouCantBeatFree_TVSpots.mp4?Movies:** Redbox | Movies **
 #DESCRIPTION ** Redbox | Movies **
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//spotlight-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-spotlight/CDN/playlist.m3u8?p=redbox&deviceid=&is_lat=&subp=RedboxdesktopWebWindows:Redbox | Redbox 1
@@ -305,8 +305,8 @@
 #DESCRIPTION Redbox | Hit List
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingraysoulstorm/CDN/playlist.m3u8?p=redbox&subp=&is_lat=&device_id=&subp=RedboxdesktopWebWindows:Redbox | Soul Storm
 #DESCRIPTION Redbox | Soul Storm
-#SERVICE 1:64:43d:0:0:0:0:0:0:0:
-#DESCRIPTION ++USA ROKU++
+#SERVICE 1:64:43c:0:0:0:0:0:0:0:
+#DESCRIPTION ++Roku++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//od.lk/s/MF8yMjE2NTkzNDVf/Roku_Boot-Animation_2017.mp4?News:** News **
 #DESCRIPTION ** News **
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//abcnewslive.akamaized.net/amagi_hls_data_roku-host-abc/CDN/playlist.m3u8:Roku | ABC News
@@ -475,8 +475,56 @@
 #DESCRIPTION Roku | Love Nature
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1212A-rokuweatherspy/CDN/playlist.m3u8:Roku | WeatherSpy
 #DESCRIPTION Roku | WeatherSpy
+#SERVICE 1:64:43d:0:0:0:0:0:0:0:
+#DESCRIPTION ++Stingray++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8:Stingray Classic Rock
+#DESCRIPTION Stingray Classic Rock
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8:Stingray Classica
+#DESCRIPTION Stingray Classica
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8:Stingray CMusic
+#DESCRIPTION Stingray CMusic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8:Stingray DJazz
+#DESCRIPTION Stingray DJazz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8:Stingray Easy Listening
+#DESCRIPTION Stingray Easy Listening
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8:Stingray Flashback '70s
+#DESCRIPTION Stingray Flashback '70s
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8:Stingray Hit List
+#DESCRIPTION Stingray Hit List
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8:Stingray Holiday Hits
+#DESCRIPTION Stingray Holiday Hits
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//i.mjh.nz/Plex/5e20b730f2f8d5003d739db7-654eb862dde2222e8ba551f1.m3u8:Stingray Holidayscapes
+#DESCRIPTION Stingray Holidayscapes
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8:Stingray Hot Country
+#DESCRIPTION Stingray Hot Country
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8:Stingray Karaoke
+#DESCRIPTION Stingray Karaoke
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8:Stingray Naturescape
+#DESCRIPTION Stingray Naturescape
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8:Stingray Nothin' But '90s
+#DESCRIPTION Stingray Nothin' But '90s
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8:Stingray Pop Adult
+#DESCRIPTION Stingray Pop Adult
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8:Stingray Remember the '80s
+#DESCRIPTION Stingray Remember the '80s
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-102ads-montreal/samsungtvplus/master.m3u8:Stingray Rock Alternative
+#DESCRIPTION Stingray Rock Alternative
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-202ads-montreal/samsungtvplus/master.m3u8:Stingray Romance Latino
+#DESCRIPTION Stingray Romance Latino
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8:Stingray Smooth Jazz
+#DESCRIPTION Stingray Smooth Jazz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8:Stingray Soul Storm
+#DESCRIPTION Stingray Soul Storm
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8:Stingray The Spa
+#DESCRIPTION Stingray The Spa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8:Stingray Today's K-Pop
+#DESCRIPTION Stingray Today's K-Pop
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8:Stingray Today's Latin Pop
+#DESCRIPTION Stingray Today's Latin Pop
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8:Stingray Urban Beat
+#DESCRIPTION Stingray Urban Beat
 #SERVICE 1:64:43e:0:0:0:0:0:0:0:
-#DESCRIPTION ++USA XUMO++
+#DESCRIPTION ++Xumo++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dai2.xumo.com/amagi_hls_data_xumo1212A-xumo-nbcnewsnow/CDN/master.m3u8:Xumo | 123 NBC News Now
 #DESCRIPTION Xumo | 123 NBC News Now
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dai2.xumo.com/amagi_hls_data_xumo1212A-abcnews/CDN/master.m3u8:Xumo | 124 ABC News
