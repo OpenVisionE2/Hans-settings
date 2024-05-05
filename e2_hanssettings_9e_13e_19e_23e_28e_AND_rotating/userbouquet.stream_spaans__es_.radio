@@ -1,5 +1,5 @@
 #NAME Stream Spaans (ES)
-#SERVICE 1:64:1aea:0:0:0:0:0:0:0:
+#SERVICE 1:64:1ad1:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rne1/main/mp3/high:RNE Radio Nacional
 #DESCRIPTION RNE Radio Nacional
@@ -25,13 +25,13 @@
 #DESCRIPTION RNE Exterior
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_re_main.m3u8:RNE Exterior
 #DESCRIPTION RNE Exterior
-#SERVICE 1:64:1aeb:0:0:0:0:0:0:0:
+#SERVICE 1:64:1ad2:0:0:0:0:0:0:0:
 #DESCRIPTION --- Spanje - Canarische Eilanden ---
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//panel.amediastream.eu%3a8500/live:Holland FM
 #DESCRIPTION Holland FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mooiradio.live-streams.nl/live:Mooi Radio
 #DESCRIPTION Mooi Radio
-#SERVICE 1:64:1aec:0:0:0:0:0:0:0:
+#SERVICE 1:64:1ad3:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.10.10.225/zaragoza/live-web/chunklist_b128000.m3u8?GKID=dc544ece277711e9809800163e914f69:Aragón Radio
 #DESCRIPTION Aragón Radio
@@ -103,6 +103,8 @@
 #DESCRIPTION Holland FM (Gran Canaria)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radioserver1.us%3a7088/;:I Love FM
 #DESCRIPTION I Love FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nodo05-cloud01.streaming-pro.com%3a8025/ibizaglobalradio.mp3:Ibiza Global Radio
+#DESCRIPTION Ibiza Global Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listenssl.ibizaglobalradio.com%3a8024/stream:Ibiza Global Radio
 #DESCRIPTION Ibiza Global Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s1.sonicabroadcast.com%3a7005/stream/1/:Ibiza Sonica

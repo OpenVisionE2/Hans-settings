@@ -1,5 +1,5 @@
 #NAME Stream Oostenrijk (AT)
-#SERVICE 1:64:3ea:0:0:0:0:0:0:0:
+#SERVICE 1:64:3f8:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:132f:3ef:1:c00000:0:0:0:http%3a//154.58.202.194%3a8000/play/a0bi/index.m3u8:ORF 1
 #DESCRIPTION ORF 1
@@ -7,11 +7,11 @@
 #DESCRIPTION ORF 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.194%3a8000/play/a0dx/index.m3u8:ORF 2 Europe
 #DESCRIPTION ORF 2 Europe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.194%3a8000/play/a0b6/index.m3u8:ORF 3
+#SERVICE 4097:0:1:33fc:3ed:1:c00000:0:0:0:http%3a//154.58.202.194%3a8000/play/a0b6/index.m3u8:ORF 3
 #DESCRIPTION ORF 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.194%3a8000/play/a0b7/index.m3u8:ORF Sport+
+#SERVICE 4097:0:1:33fd:3ed:1:c00000:0:0:0:http%3a//154.58.202.194%3a8000/play/a0b7/index.m3u8:ORF Sport+
 #DESCRIPTION ORF Sport+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.194%3a8000/play/a0bb/index.m3u8:OE24
+#SERVICE 4097:0:1:3402:3ed:1:c00000:0:0:0:http%3a//154.58.202.194%3a8000/play/a0bb/index.m3u8:OE24
 #DESCRIPTION OE24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.194%3a8000/play/a0an/index.m3u8:ATV
 #DESCRIPTION ATV
@@ -21,11 +21,13 @@
 #DESCRIPTION Puls 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.194%3a8000/play/a0cu/index.m3u8:Sixx Austria
 #DESCRIPTION Sixx Austria
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.194%3a8000/play/a0b9/index.m3u8:R9
-#DESCRIPTION R9
+#SERVICE 4097:0:1:3400:3ed:1:c00000:0:0:0:http%3a//154.58.202.194%3a8000/play/a0b9/index.m3u8:R9 Oesterreich
+#DESCRIPTION R9 Oesterreich
 #SERVICE 4097:0:1:1331:3ef:1:c00000:0:0:0:http%3a//154.58.202.194%3a8000/play/a0bk/index.m3u8:Servus TV Österreich
 #DESCRIPTION Servus TV Österreich
-#SERVICE 1:64:3eb:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rbmn-live.akamaized.net/hls/live/665268/Wetterpanorama/master_6692.m3u8:Servus TV Wetter panorama
+#DESCRIPTION Servus TV Wetter panorama
+#SERVICE 1:64:3f9:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channel.streams.ovh%3a1936/balkanradiosalzburgtv/balkanradiosalzburgtv/playlist.m3u8:Balkan Radio Salzburg
 #DESCRIPTION Balkan Radio Salzburg
@@ -45,7 +47,7 @@
 #DESCRIPTION Kabel 1 Doku
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8:Krone HIT
 #DESCRIPTION Krone HIT
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.194%3a8000/play/a0ba/index.m3u8:Krone TV
+#SERVICE 4097:0:1:3401:3ed:1:c00000:0:0:0:http%3a//154.58.202.194%3a8000/play/a0ba/index.m3u8:Krone TV
 #DESCRIPTION Krone TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:ttps%3a//schautv.mdn.ors.at/live/eds/kuriertv_hd/hls_nodrm/kuriertv_hd-avc1_3400000=10003.m3u8:Kurier TV
 #DESCRIPTION Kurier TV
@@ -57,6 +59,12 @@
 #DESCRIPTION Melodie TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn3.wowza.com/1/MHFtazJReW5rOFhP/N2NWNDZ2/hls/live/playlist.m3u8:Okto
 #DESCRIPTION Okto
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.peer.biz/live/peertv-it.m3u8:Peer TV Alto Adige
+#DESCRIPTION Peer TV Alto Adige
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.peer.biz/live/peertv-en.m3u8:Peer TV South Tyrol
+#DESCRIPTION Peer TV South Tyrol
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.peer.biz/live/peertv.m3u8:Peer TV Südtirol
+#DESCRIPTION Peer TV Südtirol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?944623300051.m3u8:Red Bull TV
 #DESCRIPTION Red Bull TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.194%3a8000/play/a0mg/index.m3u8:RTL Austria

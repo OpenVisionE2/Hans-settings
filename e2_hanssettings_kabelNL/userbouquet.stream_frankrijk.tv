@@ -1,15 +1,17 @@
 #NAME Stream Frankrijk (FR)
-#SERVICE 1:64:256:0:0:0:0:0:0:0:
+#SERVICE 1:64:25c:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:2460:440:1:c00000:0:0:0:http%3a//livetv.ktv.zone/3/play.m3u8:TF1
-#DESCRIPTION TF1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/22/play.m3u8:TF1 Series Films
-#DESCRIPTION TF1 Series Films
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/13/play.m3u8:TFX
+#SERVICE 4097:0:1:2460:440:1:c00000:0:0:0:http%3a//45.153.35.210%3a8000/play/FR_tf1_HD/index.m3u8:TF 1
+#DESCRIPTION TF 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/22/play.m3u8:TF 1 Series Films
+#DESCRIPTION TF 1 Series Films
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/schumijo/iptv/main/playlists/mytf1/tf1sf.m3u8:TF 1 Series Films (#)
+#DESCRIPTION TF 1 Series Films (#)
+#SERVICE 4097:0:1:2014:430:1:c00000:0:0:0:http%3a//livetv.ktv.zone/13/play.m3u8:TFX
 #DESCRIPTION TFX
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/4/play.m3u8:France 2
+#SERVICE 4097:0:1:245a:440:1:c00000:0:0:0:http%3a//45.153.35.210%3a8000/play/FR_france_2_HD/index.m3u8:France 2
 #DESCRIPTION France 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/5/play.m3u8:France 3
+#SERVICE 4097:0:1:245d:440:1:c00000:0:0:0:http%3a//45.153.35.210%3a8000/play/FR_france_3_HD/index.m3u8:France 3
 #DESCRIPTION France 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/210/play.m3u8:France 3 Alpes
 #DESCRIPTION France 3 Alpes
@@ -41,13 +43,13 @@
 #DESCRIPTION France 3 Provence-Alpes
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/233/play.m3u8:France 3 Rhone-Alpes
 #DESCRIPTION France 3 Rhone-Alpes
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/16/play.m3u8:France 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.210%3a8000/play/FR_france_4_HD/index.m3u8:France 4
 #DESCRIPTION France 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/7/play.m3u8:France 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.210%3a8000/play/FR_france_5_HD/index.m3u8:France 5
 #DESCRIPTION France 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/57/play.m3u8:France 24 English
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a021:France 24 English
 #DESCRIPTION France 24 English
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/56/play.m3u8:France 24 France
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.54.220.67%3a34780/play/a06a:France 24 France
 #DESCRIPTION France 24 France
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/29/play.m3u8:France Info
 #DESCRIPTION France Info
@@ -55,25 +57,25 @@
 #DESCRIPTION M6
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-m6-int-prod-dub.shahid.net/out/v1/a315ab77ee7343a7a17dbe7e32eee3ba/index_2.m3u8:M6 International
 #DESCRIPTION M6 International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/24/play.m3u8:6ter
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.210%3a8000/play/FR_6ter_HD/index.m3u8:6ter
 #DESCRIPTION 6ter
 #SERVICE 4097:0:1:2334:442:1:c00000:0:0:0:http%3a//livetv.ktv.zone/10/play.m3u8:C8
 #DESCRIPTION C8
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/1178:RTL 9
 #DESCRIPTION RTL 9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/11/play.m3u8:W9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.153.35.210%3a8000/play/FR_w9_HD/index.m3u8:W9
 #DESCRIPTION W9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/14/play.m3u8:NRJ 12
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nrj12.nrjaudio.fm/hls/live/2038374/nrj_12/master.m3u8:NRJ 12
 #DESCRIPTION NRJ 12
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/221:NRJ Hits
 #DESCRIPTION NRJ Hits
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/868:Paris Premiere
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/rtlm6/directmaster/pp.m3u8:Paris Premiere
 #DESCRIPTION Paris Premiere
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/27/play.m3u8:Chérie 25
 #DESCRIPTION Chérie 25
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cherie25.nrjaudio.fm/hls/live/2038375/c25/FHD.m3u8:Chérie 25 (#)
 #DESCRIPTION Chérie 25 (#)
-#SERVICE 1:64:257:0:0:0:0:0:0:0:
+#SERVICE 1:64:25d:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/165:AB 1
 #DESCRIPTION AB 1
@@ -87,58 +89,62 @@
 #DESCRIPTION BFM TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END:BFM TV (#)
 #DESCRIPTION BFM TV (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/166/play.m3u8:BFM Business
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_ALPESDUSUD/index.m3u8?start=LIVE&end=END:BFM Alpes du Sud
+#DESCRIPTION BFM Alpes du Sud
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_ALSACE/index.m3u8?start=LIVE&end=END:BFM Alsace
+#DESCRIPTION BFM Alsace
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?start=LIVE&end=END:BFM Business
 #DESCRIPTION BFM Business
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/286499:BFM Grand Littoral
-#DESCRIPTION BFM Grand Littoral
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/201231:BFM Lille TV
-#DESCRIPTION BFM Lille TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/286500:BFM Lyon
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_HAUTEPROVENCE/index.m3u8?start=LIVE&end=END:BFM Haute Provence
+#DESCRIPTION BFM Haute Provence
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLILLE/index.m3u8?start=LIVE&end=END:BFM Lille
+#DESCRIPTION BFM Lille
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLITTORAL/index.m3u8?start=LIVE&end=END:BFM Littoral
+#DESCRIPTION BFM Littoral
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?start=LIVE&end=END:BFM Lyon
 #DESCRIPTION BFM Lyon
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/167:BFM Paris
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?start=LIVE&end=END:BFM Marseille
+#DESCRIPTION BFM Marseille
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NICECOTEDAZUR/index.m3u8?start=LIVE&end=END:BFM Nice
+#DESCRIPTION BFM Nice
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NORMANDIE/index.m3u8?start=LIVE&end=END:BFM Normandie
+#DESCRIPTION BFM Normandie
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_PARIS/index.m3u8?start=LIVE&end=END:BFM Paris
 #DESCRIPTION BFM Paris
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TOULONVAR/index.m3u8?start=LIVE&end=END:BFM Toulon
+#DESCRIPTION BFM Toulon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/18/play.m3u8:CNews
 #DESCRIPTION CNews
 #SERVICE 4097:0:1:2335:442:1:c00000:0:0:0:http%3a//livetv.ktv.zone/19/play.m3u8:CStar
 #DESCRIPTION CStar
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livefr.cgtn.com/1000f/prog_index.m3u8:CGTN France
+#DESCRIPTION CGTN France
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//euronews-euronews-french-3-us.plex.wurl.tv/playlist.m3u8:Euronews Français
 #DESCRIPTION Euronews Français
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-ak.akamaized.net/out/v1/302a3ad418214d3f94460738a805b930/index.m3u8:Euronews Français (#)
-#DESCRIPTION Euronews Français (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/20/play.m3u8:Gulli
-#DESCRIPTION Gulli
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/280291:I24 News France
-#DESCRIPTION I24 News France
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/20/play.m3u8:Gulli Prime
+#DESCRIPTION Gulli Prime
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/cc8266d36bb5469b8b4a3097497e06e6/eu-central-1/5377161796001/playlist-all.m3u8:I24 French
+#DESCRIPTION I24 French
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/236/play.m3u8:KTO
 #DESCRIPTION KTO
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/23/play.m3u8:L'Equipe
 #DESCRIPTION L'Equipe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/dmotion/py/eqpe/equipe.m3u8:L'Equipe (#)
-#DESCRIPTION L'Equipe (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3awaj0f2u3w26.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gy7euubgydp20-ssai-prd/8fd3efae-4468-4ca0-9486-c6cdcb7b65d7/2.m3u8:L'Équipe Live 1
-#DESCRIPTION L'Équipe Live 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2l55nvfkhk4sg.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jg7go1lqzgpny-ssai-prd/435d04a5-ab47-47c5-a2c1-bae01ae6d0c1/2.m3u8:L'Équipe Live 2
-#DESCRIPTION L'Équipe Live 2
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/15/play.m3u8:La Chaine Parlementaire
-#DESCRIPTION La Chaine Parlementaire
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/28/play.m3u8:LCI
 #DESCRIPTION LCI
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/4342:LCI (#)
-#DESCRIPTION LCI (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/15/play.m3u8:LCP Assemblee Nationale
 #DESCRIPTION LCP Assemblee Nationale
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/15/play.m3u8:LCP Assemblee Nationale (#)
+#DESCRIPTION LCP Assemblee Nationale (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8:Le Figaro
 #DESCRIPTION Le Figaro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/4355:MCM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.242.110.52%3a9825/udp/238.1.9.9%3a1234:MCM
 #DESCRIPTION MCM
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/8027:MCM Pop
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.232.110.52%3a9825/udp/238.1.9.9%3a1234:MCM Pop
 #DESCRIPTION MCM Pop
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/223:MCM Top
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.242.110.52%3a9835/udp/238.1.9.9%3a1234:MCM Top
 #DESCRIPTION MCM Top
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/30/play.m3u8:Melody TV
 #DESCRIPTION Melody TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/27959:Melody TV (#)
-#DESCRIPTION Melody TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/220:MTV France
 #DESCRIPTION MTV France
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live4.presstv.ir/live/smil%3apresstvfr.smil/playlist.m3u8:Press TV French
@@ -151,15 +157,17 @@
 #DESCRIPTION RMC Story
 #SERVICE 4097:0:1:2015:430:1:c00000:0:0:0:http%3a//livetv.ktv.zone/12/play.m3u8:TMC
 #DESCRIPTION TMC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/61/play.m3u8:TV5 Monde Europe
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.10.218.219%3a8000/play/a08i:TV5 Monde Europe
 #DESCRIPTION TV5 Monde Europe
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/879:TV5 Monde France Belgique Suisse Monaco
 #DESCRIPTION TV5 Monde France Belgique Suisse Monaco
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/rapidiptv/shhT6NQKB7sC5y7t/286522:TV5 Monde Info
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8:TV5 Monde Info
 #DESCRIPTION TV5 Monde Info
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7004/play/a0e0:TV5 Monde Maghreb Orient
+#DESCRIPTION TV5 Monde Maghreb Orient
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strhlslb01.streamakaci.tv/str_tvfinance_tvfinance/str_tvfinance_multi/playlist.m3u8:TV Finance
 #DESCRIPTION TV Finance
-#SERVICE 1:64:258:0:0:0:0:0:0:0:
+#SERVICE 1:64:25e:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3abn-live.akamaized.net/hls/live/2010546-b/French/master.m3u8:3ABN French
 #DESCRIPTION 3ABN French
@@ -183,8 +191,6 @@
 #DESCRIPTION CDirect
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strhlslb01.streamakaci.tv/cen/cen-multi/playlist.m3u8:CEN
 #DESCRIPTION CEN
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livefr.cgtn.com/1000f/prog_index.m3u8:CGTN France
-#DESCRIPTION CGTN France
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//clubbingtv-rakuten.amagi.tv/playlist.m3u8:Clubbing TV
 #DESCRIPTION Clubbing TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8:DBM
@@ -337,3 +343,19 @@
 #DESCRIPTION Vosges TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livetv.ktv.zone/235/play.m3u8:Vosges TV (#)
 #DESCRIPTION Vosges TV (#)
+#SERVICE 4097:0:1:21fd:44c:1:c00000:0:0:0:http%3a//mmsiptv.com/live/france4/playlist.m3u8:France 4 HD
+#DESCRIPTION France 4 HD
+#SERVICE 4097:0:1:2330:442:1:c00000:0:0:0:http%3a//mmsiptv.com/live/france5/playlist.m3u8:France 5 HD
+#DESCRIPTION France 5 HD
+#SERVICE 4097:0:1:2083:432:1:c00000:0:0:0:http%3a//mmsiptv.com/live/gulli/playlist.m3u8:Gulli HD
+#DESCRIPTION Gulli HD
+#SERVICE 4097:0:1:2076:432:1:c00000:0:0:0:http%3a//mmsiptv.com/live/equipe/playlist.m3u8:L´Equipe 
+#DESCRIPTION L´Equipe 
+#SERVICE 4097:0:1:2457:440:1:c00000:0:0:0:http%3a//mmsiptv.com/live/m6/playlist.m3u8:M6 HD
+#DESCRIPTION M6 HD
+#SERVICE 4097:0:1:4287:446:1:c00000:0:0:0:http%3a//mmsiptv.com/live/mangas/playlist.m3u8:Mangas HD
+#DESCRIPTION Mangas HD
+#SERVICE 4097:0:1:2f72:454:1:c00000:0:0:0:http%3a//mmsiptv.com/live/nrj12/playlist.m3u8:NRJ 12
+#DESCRIPTION NRJ 12
+#SERVICE 4097:0:1:2460:440:1:c00000:0:0:0:http%3a//mmsiptv.com/live/tf1/playlist.m3u8:TF1 HD
+#DESCRIPTION TF1 HD
