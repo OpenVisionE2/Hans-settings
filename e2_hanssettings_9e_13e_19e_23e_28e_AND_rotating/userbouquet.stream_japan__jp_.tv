@@ -1,5 +1,5 @@
 #NAME Stream Japan (JP)
-#SERVICE 1:64:178d:0:0:0:0:0:0:0:
+#SERVICE 1:64:17bd:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx02:ABC
 #DESCRIPTION ABC
@@ -37,7 +37,7 @@
 #DESCRIPTION NHK G Kanto
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx06:NHK G Osaka
 #DESCRIPTION NHK G Osaka
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.162.235.41%3a14093:NHK G Tokyo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd01:NHK G Tokyo
 #DESCRIPTION NHK G Tokyo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8:NHK World Japan
 #DESCRIPTION NHK World Japan
@@ -47,16 +47,20 @@
 #DESCRIPTION Nippon TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd03:Nippon TV (#)
 #DESCRIPTION Nippon TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn2.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd:NTV
+#DESCRIPTION NTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n24-cdn-live.ntv.co.jp/ch01/index.m3u8:NTV News 24
 #DESCRIPTION NTV News 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n24-cdn-live.ntv.co.jp/ch02/index.m3u8:NTV News 24 Live
 #DESCRIPTION NTV News 24 Live
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythlsgo.onrender.com/channel/UCOZv-6MiXqJdLpmYtR431Ow.m3u8:STV News Hokkaido
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UCOZv-6MiXqJdLpmYtR431Ow.m3u8:STV News Hokkaido
 #DESCRIPTION STV News Hokkaido
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tbs4.mov3.co/hls/tbs.m3u8:TBS
 #DESCRIPTION TBS
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd04:TBS (#)
 #DESCRIPTION TBS (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs11:TBS News
+#DESCRIPTION TBS News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UChx_y6aLWNkifSDUt2TVAzg.m3u8:TOS News
 #DESCRIPTION TOS News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd06:TV Asahi
@@ -65,18 +69,24 @@
 #DESCRIPTION TV Osaka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd07:TV Tokyo
 #DESCRIPTION TV Tokyo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythlsgo.onrender.com/channel/UCDww6ExpwQS0TzmREIOo40Q.m3u8:YTN 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UChlgI3UHCOnwUGzWzbJ3H5w.m3u8:YTN
+#DESCRIPTION YTN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UCDww6ExpwQS0TzmREIOo40Q.m3u8:YTN 2
 #DESCRIPTION YTN 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UC38IlqMxZ_YtFg3eSGmmJnQ.m3u8:YTN DMB
+#DESCRIPTION YTN DMB
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UCZdBJIbJz0P9xyFipgOj1fA.m3u8:YTN Science
+#DESCRIPTION YTN Science
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx04:YTV
 #DESCRIPTION YTV
-#SERVICE 1:64:178e:0:0:0:0:0:0:0:
+#SERVICE 1:64:17be:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs15:Animax
 #DESCRIPTION Animax
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//neetball.net/live/neet3.m3u8:AT-X
-#DESCRIPTION AT-X
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs15:BBC News Asia Pacific
 #DESCRIPTION BBC News Asia Pacific
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs31:BS Shochiku Tokio
+#DESCRIPTION BS Shochiku Tokio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs25:Cartoon Network Japan
 #DESCRIPTION Cartoon Network Japan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs29:Channel Ginga
@@ -99,8 +109,8 @@
 #DESCRIPTION Gaora Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//etv.publichs.com/live5.stream/playlist.m3u8:Gongyoung Shopping
 #DESCRIPTION Gongyoung Shopping
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs14:Green Channel
-#DESCRIPTION Green Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs09:History Channel Japan
+#DESCRIPTION History Channel Japan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8:Home & Shopping
 #DESCRIPTION Home & Shopping
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs05:Home Drama Channel
@@ -125,18 +135,16 @@
 #DESCRIPTION LaLa TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8:Lotte Home Shopping
 #DESCRIPTION Lotte Home Shopping
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythlsgo.onrender.com/channel/UCnfwIKyFYRuqZzzKBDt6JOA.m3u8:Maeil Business TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UCnfwIKyFYRuqZzzKBDt6JOA.m3u8:Maeil Business TV
 #DESCRIPTION Maeil Business TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs21:Mondo TV
 #DESCRIPTION Mondo TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs14:Movie Plus
 #DESCRIPTION Movie Plus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//asia.vthanhtivi.pw/MTV/index.m3u8:MTV Japan
-#DESCRIPTION MTV Japan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//jp.vthanhnetwork.com/MTV/index.m3u8:MTV Japan (#)
-#DESCRIPTION MTV Japan (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs06:Music Japan TV
 #DESCRIPTION Music Japan TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs10:National Geographic Japan
+#DESCRIPTION National Geographic Japan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs23:Nihon Eiga Senmon
 #DESCRIPTION Nihon Eiga Senmon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=cs02:Nittele G Plus
@@ -165,7 +173,7 @@
 #DESCRIPTION Toei Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd08:Tokyo MX1
 #DESCRIPTION Tokyo MX1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mcas-eqms-mx2-live.hls.davlive.stream.ne.jp/mt/master/340f27cd590451b1e7d0034b85b5175ddaf05454/EQMS_MX2/master.m3u8:Tokyo MX2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mcas-eqms-mx1-live.hls.davlive.stream.ne.jp/mt/master/340f27cd590451b1e7d0034b85b5175ddaf05454/EQMS_MX2/master.m3u8:Tokyo MX2
 #DESCRIPTION Tokyo MX2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs07:WOWOW Cinema
 #DESCRIPTION WOWOW Cinema
