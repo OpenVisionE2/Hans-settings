@@ -141,9 +141,6 @@ ffff0000:0839:0600
 ffff0000:0015:25a8
 	c 466000:6875000:2:5:0:0:0
 /
-ffff0000:0810:0600
-	c 354000:6900000:2:5:0:0:0
-/
 ffff0000:0805:0600
 	c 506000:6900000:2:5:0:0:0
 /
@@ -239,6 +236,9 @@ ffff0000:0080:08c9
 /
 ffff0000:0013:25a8
 	c 306000:6875000:2:5:0:0:0
+/
+ffff0000:0814:0600
+	c 538000:6900000:2:5:0:0:0
 /
 ffff0000:0076:08c9
 	c 698000:6900000:2:3:0:0:0
@@ -399,6 +399,9 @@ ffff0000:0840:0600
 ffff0000:0808:0600
 	c 402000:6900000:2:5:0:0:0
 /
+ffff0000:0810:0600
+	c 354000:6900000:2:5:0:0:0
+/
 ffff0000:0004:10ef
 	c 578000:6875000:2:3:0:0:0
 /
@@ -437,9 +440,6 @@ ffff0000:0812:0600
 /
 ffff0000:0813:0600
 	c 522000:6900000:2:5:0:0:0
-/
-ffff0000:0814:0600
-	c 538000:6900000:2:5:0:0:0
 /
 ffff0000:0804:0600
 	c 498000:6900000:2:5:0:0:0
@@ -2069,42 +2069,6 @@ p:SKV
 0839:ffff0000:0015:25a8:25:0
 Ziggo Sport Docu HD
 p:SKV
-4b37:ffff0000:0810:0600:1:0
-Ziggo Sport Extra1
-p:Ziggo,c:050001
-4b38:ffff0000:0810:0600:1:0
-Ziggo Sport Extra2
-p:Ziggo,c:050001
-474c:ffff0000:0810:0600:2:0
-TWEE Radio
-p:Ziggo
-4b32:ffff0000:0810:0600:22:0
-TRT Çocuk
-p:Ziggo,c:050001
-4b36:ffff0000:0810:0600:22:0
-MTV 80s
-p:Ziggo
-4b2e:ffff0000:0810:0600:25:0
-Discovery Science
-p:Ziggo,c:050001,c:090202
-4b30:ffff0000:0810:0600:25:0
-Stingray DJAZZ
-p:Ziggo,c:050001
-4b33:ffff0000:0810:0600:25:0
-Cartoon Network
-p:Ziggo,c:050001
-4b34:ffff0000:0810:0600:25:0
-TWEE
-p:Ziggo,c:050001
-4b37:ffff0000:0810:0600:25:0
-Ziggo Sport Docu
-p:Ziggo,c:050001
-4b38:ffff0000:0810:0600:25:0
-Ziggo Sport Tennis
-p:Ziggo,c:050001
-4b39:ffff0000:0810:0600:25:0
-Ziggo
-p:Ziggo,c:050001
 4a39:ffff0000:0805:0600:1:0
 506 SID 0x4a39
 p:,c:090202
@@ -3032,6 +2996,45 @@ p:SKV
 0770:ffff0000:0013:25a8:25:0
 Eurosport 2 HD
 p:SKV
+4b6d:ffff0000:0814:0600:1:0
+538 SID 0x4b6d
+p:
+4b6e:ffff0000:0814:0600:1:0
+538 SID 0x4b6e
+p:
+4b65:ffff0000:0814:0600:22:0
+Nicktoons
+p:Ziggo
+4b67:ffff0000:0814:0600:22:0
+Nick Jr.
+p:Ziggo
+4b68:ffff0000:0814:0600:22:0
+MTV 90s
+p:Ziggo
+4b69:ffff0000:0814:0600:22:0
+PassieXXX
+p:Ziggo,c:050001
+4b6c:ffff0000:0814:0600:22:0
+X-MO
+p:Ziggo,c:050001
+4b70:ffff0000:0814:0600:22:0
+Meiden van Holland Hard
+p:Ziggo,c:050001
+4b72:ffff0000:0814:0600:22:0
+MBC
+p:Ziggo,c:050001
+4b6b:ffff0000:0814:0600:25:0
+NPO 1 extra
+p:Ziggo,c:050001,c:098800
+4b6d:ffff0000:0814:0600:25:0
+Brazzers TV
+p:Ziggo
+4b6e:ffff0000:0814:0600:25:0
+Dorcel TV
+p:Ziggo
+4b71:ffff0000:0814:0600:25:0
+Penthouse Gold
+p:Ziggo,c:050001
 466e:ffff0000:0076:08c9:1:0
 CNBC Europe
 p:CAIW Media,c:050001
@@ -4686,11 +4689,11 @@ p:Ziggo,c:050001
 Centraal TV
 p:Ziggo,c:050001
 1c02:ffff0000:0906:2210:2:0
-NH Radio
-p:KPN
+Omroep Brabant
+p:KPN,f:8
 1c0c:ffff0000:0906:2210:2:0
-NH Radio
-p:KPN
+L1
+p:KPN,f:8
 1c16:ffff0000:0906:2210:2:0
 FunX
 p:KPN
@@ -4714,22 +4717,22 @@ NPO Soul & Jazz
 p:KPN
 02c6:ffff0000:0906:2210:31:0
 NPO 1
-p:KPN,c:050007
+p:KPN
 02d0:ffff0000:0906:2210:31:0
 NPO 2
-p:KPN,c:050007
+p:KPN
 02da:ffff0000:0906:2210:31:0
 NPO 3
-p:KPN,c:050007
-02e4:ffff0000:0906:2210:31:0
-NH Nieuws
-p:KPN,c:050007
-02ee:ffff0000:0906:2210:31:0
-NH Nieuws
 p:KPN
+02e4:ffff0000:0906:2210:31:0
+Omroep Brabant
+p:KPN,f:8
+02ee:ffff0000:0906:2210:31:0
+L1
+p:KPN,f:8
 02f8:ffff0000:0906:2210:31:0
 NPO 1 Extra
-p:KPN,c:050007,f:8
+p:KPN
 4705:ffff0000:0840:0600:2:0
 BBC Radio 1
 p:Ziggo
@@ -4812,13 +4815,13 @@ p:Ziggo
 Classic Rock
 p:Ziggo
 468e:ffff0000:0808:0600:2:0
-Rock On
+Ultimate Throwback
 p:Ziggo
 468f:ffff0000:0808:0600:2:0
 Kneiterhard
 p:Ziggo
 4690:ffff0000:0808:0600:2:0
-Metal Madness
+Hip-Hop Evolution
 p:Ziggo
 4691:ffff0000:0808:0600:2:0
 Jazz Vibes
@@ -4827,7 +4830,7 @@ p:Ziggo
 Soul Baby
 p:Ziggo
 4693:ffff0000:0808:0600:2:0
-Wereldmuziek
+R&B Classic Jams
 p:Ziggo
 4694:ffff0000:0808:0600:2:0
 Got the Blues
@@ -4844,6 +4847,36 @@ p:Ziggo,c:050001,c:098800
 4a77:ffff0000:0808:0600:25:0
 RTL
 p:Ziggo,c:050001,c:090202
+474c:ffff0000:0810:0600:2:0
+TWEE Radio
+p:Ziggo
+4b32:ffff0000:0810:0600:22:0
+TRT Çocuk
+p:Ziggo,c:050001
+4b36:ffff0000:0810:0600:22:0
+MTV 80s
+p:Ziggo
+4b2e:ffff0000:0810:0600:25:0
+Discovery Science
+p:Ziggo,c:050001,c:090202
+4b30:ffff0000:0810:0600:25:0
+Stingray DJAZZ
+p:Ziggo,c:050001
+4b33:ffff0000:0810:0600:25:0
+Cartoon Network
+p:Ziggo,c:050001
+4b34:ffff0000:0810:0600:25:0
+TWEE
+p:Ziggo,c:050001
+4b37:ffff0000:0810:0600:25:0
+Ziggo Sport 5
+p:Ziggo,c:050001
+4b38:ffff0000:0810:0600:25:0
+Ziggo Sport 6
+p:Ziggo,c:050001
+4b39:ffff0000:0810:0600:25:0
+Ziggo
+p:Ziggo,c:050001
 276c:ffff0000:0004:10ef:2:0
 BBC Radio 3
 p:Delta
@@ -5255,39 +5288,6 @@ p:Ziggo,c:050001
 4b63:ffff0000:0813:0600:25:0
 RTL Telekids
 p:Ziggo,c:050001
-4b65:ffff0000:0814:0600:22:0
-Nicktoons
-p:Ziggo
-4b66:ffff0000:0814:0600:22:0
-Evil Angel
-p:Ziggo,c:050001
-4b67:ffff0000:0814:0600:22:0
-Nick Jr.
-p:Ziggo
-4b68:ffff0000:0814:0600:22:0
-MTV 90s
-p:Ziggo
-4b69:ffff0000:0814:0600:22:0
-PassieXXX
-p:Ziggo,c:050001
-4b6c:ffff0000:0814:0600:22:0
-X-MO
-p:Ziggo,c:050001
-4b6f:ffff0000:0814:0600:22:0
-DUSK
-p:Ziggo,c:050001
-4b70:ffff0000:0814:0600:22:0
-Meiden van Holland Hard
-p:Ziggo,c:050001
-4b72:ffff0000:0814:0600:22:0
-MBC
-p:Ziggo,c:050001
-4b6b:ffff0000:0814:0600:25:0
-NPO 1 extra
-p:Ziggo,c:050001,c:098800
-4b71:ffff0000:0814:0600:25:0
-Penthouse Gold
-p:Ziggo,c:050001
 4e65:ffff0000:0804:0600:22:0
 Aljazeera
 p:Ziggo,c:050001
@@ -5539,7 +5539,7 @@ Ziggo Sport
 p:Ziggo,c:050007
 4c3e:ffff0000:0837:0600:31:0
 NPO 1 UHD
-p:Ziggo,c:050001
+p:Ziggo,c:050007
 1131:ffff0000:002c:25a8:25:0
 WDR HD
 p:SKV
@@ -5643,7 +5643,7 @@ p:Ziggo,c:050001
 TLC
 p:Ziggo,c:050001
 4b79:ffff0000:0815:0600:25:0
-Ziggo Sport Select
+Ziggo Sport
 p:Ziggo,c:050001
 4b7f:ffff0000:0815:0600:25:0
 Ziggo TV
@@ -5736,10 +5736,10 @@ p:Ziggo,c:050001
 BBC Two
 p:Ziggo,c:050001,c:098800
 4baa:ffff0000:0817:0600:25:0
-Ziggo Sport Racing
+Ziggo Sport 4
 p:Ziggo,c:050001
 4bab:ffff0000:0817:0600:25:0
-Ziggo Sport Voetbal
+Ziggo Sport 2
 p:Ziggo,c:050001
 0dae:ffff0000:0023:25a8:25:0
 Een HD
@@ -5760,7 +5760,7 @@ p:SKV
 ID
 p:Ziggo,c:050001
 4bb6:ffff0000:0831:0600:25:0
-Ziggo Sport Golf
+Ziggo Sport 3
 p:Ziggo,c:050001
 4bbc:ffff0000:0831:0600:25:0
 Paramount Network
@@ -5893,10 +5893,10 @@ KiKA HD
 p:ZDFmobil
 1c02:eeee0000:0906:2210:2:0
 Omroep Brabant
-p:KPN
+p:KPN,f:8
 1c0c:eeee0000:0906:2210:2:0
 L1
-p:KPN
+p:KPN,f:8
 1c16:eeee0000:0906:2210:2:0
 FunX
 p:KPN
@@ -5929,10 +5929,10 @@ NPO 3
 p:KPN,c:050007
 02e4:eeee0000:0906:2210:31:0
 Omroep Brabant
-p:KPN,c:050007
+p:KPN,c:050007,f:8
 02ee:eeee0000:0906:2210:31:0
 L1
-p:KPN,c:050007
+p:KPN,c:050007,f:8
 02f8:eeee0000:0906:2210:31:0
 NPO 1 Extra
 p:KPN,c:050007,f:8

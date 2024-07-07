@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:605:0:0:0:0:0:0:0:
+#SERVICE 1:64:60f:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -41,9 +41,7 @@
 #DESCRIPTION FunX Rotterdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/funx-utrecht-bb-mp3:FunX Utrecht
 #DESCRIPTION FunX Utrecht
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//149.210.222.13%3a8030/:Spreekbuis Radio
-#DESCRIPTION Spreekbuis Radio
-#SERVICE 1:64:606:0:0:0:0:0:0:0:
+#SERVICE 1:64:610:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -477,6 +475,8 @@
 #DESCRIPTION Soulshow Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//23553.live.streamtheworld.com/JUKE_S10.mp3:Soundz Radio
 #DESCRIPTION Soundz Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//149.210.222.13%3a8030/:Spreekbuis Radio
+#DESCRIPTION Spreekbuis Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mcp-1.streampanel.nl%3a8020/kxclassics_mp3:Stenders & Blokhuis - KX Classics
 #DESCRIPTION Stenders & Blokhuis - KX Classics
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.robstenders.nl%3a8063/lxclassics_mp3:Stenders & Blokhuis - LX Classics
@@ -557,7 +557,7 @@
 #DESCRIPTION Yoursafe Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:607:0:0:0:0:0:0:0:
+#SERVICE 1:64:611:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -597,13 +597,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:608:0:0:0:0:0:0:0:
+#SERVICE 1:64:612:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:609:0:0:0:0:0:0:0:
+#SERVICE 1:64:613:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits (NL Nationaal)
 #DESCRIPTION 18Hits (NL Nationaal)
@@ -627,6 +627,8 @@
 #DESCRIPTION ABTT – Adje Bouman's Top Tien (Nationaal)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.admhardstyleradio.com%3a1765:A.D.M. Hardstyle Radio (Nationaal)
 #DESCRIPTION A.D.M. Hardstyle Radio (Nationaal)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ecmanager.pro-fhi.net%3a2505/stream:Air Gay Radio
+#DESCRIPTION Air Gay Radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//176.9.32.52%3a8732/stream:Alfa-Radio-Nederland
 #DESCRIPTION Alfa-Radio-Nederland
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//node-19.zeno.fm/txy2thr6wp8uv?rj-ttl=5&rj-tok=AAABf43SSMEAbbsvc5k2zmdFKw:Alex FM
@@ -709,6 +711,8 @@
 #DESCRIPTION Deep Dance Radio (NL-nationaa)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.hostingbudget.nl%3a3870/stream:DeZenderHits
 #DESCRIPTION DeZenderHits
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.radio.co/s253044a7a/listen:Disco Factory FM
+#DESCRIPTION Disco Factory FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//caster02.streampakket.com%3a8044/stream:Different Radio 747 AM en Online
 #DESCRIPTION Different Radio 747 AM en Online
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//86.81.98.192%3a8082/1:Dinxper FM (NL)
@@ -877,8 +881,8 @@
 #DESCRIPTION MediaMarktFM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//caster04.streampakket.com%3a9348/stream256mp3:Memories 1251 (NL)
 #DESCRIPTION Memories 1251 (NL)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server-28.stream-server.nl%3a8972/01:MCB (NL)
-#DESCRIPTION MCB (NL)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mscp2.live-streams.nl%3a8002/live.mp3:MCB
+#DESCRIPTION MCB
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.242.99.243%3a8000/stream:MPR - Music Power Radio (NL)
 #DESCRIPTION MPR - Music Power Radio (NL)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server-25.stream-server.nl%3a8314:Musicvaria (NL)
