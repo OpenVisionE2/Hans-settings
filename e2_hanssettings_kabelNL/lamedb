@@ -7,7 +7,7 @@ ffff0000:0c82:0600
 	c 266000:6900000:2:5:0:0:0
 /
 ffff0000:0072:08c9
-	c 306000:6900000:2:3:0:0:0
+	c 305990:6899800:2:3:0:0:0
 /
 ffff0000:007b:08c9
 	c 802000:6900000:2:3:0:0:0
@@ -312,9 +312,6 @@ ffff0000:0089:08c9
 ffff0000:000e:10ef
 	c 682000:6875000:2:3:0:0:0
 /
-ffff0000:007d:08c9
-	c 314000:6900000:2:3:0:0:0
-/
 ffff0000:000c:25a8
 	c 370000:6875000:2:5:0:0:0
 /
@@ -363,6 +360,9 @@ ffff0000:007c:08c9
 ffff0000:00cd:0600
 	c 266000:6900000:2:5:0:0:0
 /
+ffff0000:007d:08c9
+	c 314000:6900000:2:3:0:0:0
+/
 ffff0000:0087:08c9
 	c 578000:6900000:2:3:0:0:0
 /
@@ -391,7 +391,7 @@ ffff0000:0cac:0600
 	c 266000:6900000:2:5:0:0:0
 /
 ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
+	c 4740000:0:2:3:0:0:0
 /
 ffff0000:0840:0600
 	c 290000:6900000:2:5:0:0:0
@@ -440,9 +440,6 @@ ffff0000:0812:0600
 /
 ffff0000:0813:0600
 	c 522000:6900000:2:5:0:0:0
-/
-ffff0000:0804:0600
-	c 498000:6900000:2:5:0:0:0
 /
 ffff0000:080b:0600
 	c 330000:6900000:2:5:0:0:0
@@ -498,6 +495,9 @@ ffff0000:083b:0600
 ffff0000:0018:25a8
 	c 330000:6875000:2:3:0:0:0
 /
+ffff0000:0804:0600
+	c 498000:6900000:2:5:0:0:0
+/
 ffff0000:002a:25a8
 	c 570000:6875000:2:5:0:0:0
 /
@@ -547,7 +547,7 @@ ffff0000:002b:25a8
 	c 578000:6875000:2:5:0:0:0
 /
 ffff0000:0092:08c9
-	c 281990:6900600:2:3:0:0:0
+	c 282000:6900000:2:3:0:0:0
 /
 ffff0000:0086:08c9
 	c 586000:6900000:2:3:0:0:0
@@ -727,9 +727,6 @@ FIP
 p:CAIW Media
 2b02:ffff0000:006f:08c9:1:0
 Haberturk
-p:CAIW Media
-2b16:ffff0000:006f:08c9:1:0
-ESPN 3 SD
 p:CAIW Media
 2b2a:ffff0000:006f:08c9:1:0
 ATV
@@ -1176,10 +1173,10 @@ p:Ziggo
 Ondemand gestopt
 p:Ziggo
 2f12:ffff0000:0070:08c9:1:0
-Ziggo Sport Docu SD
+Ziggo Sport 5 SD
 p:CAIW Media
 2eea:ffff0000:0070:08c9:1:0
-Ziggo Sport Tennis SD
+Ziggo Sport 6 SD
 p:CAIW Media
 ac12:ffff0000:0090:08c9:1:0
 Viaplay TV SD
@@ -2263,7 +2260,7 @@ p:Ziggo,c:050001
 p:Ziggo,c:050001
 4e4a:ffff0000:0803:0600:1:0
 490 SID 0x4e4a
-p:
+p:,c:050001
 4e56:ffff0000:0803:0600:1:0
 Erotiek Pakket info
 p:Ziggo
@@ -2694,7 +2691,7 @@ p:CAIW Media
 Deutsche Welle
 p:CAIW Media
 1f4a:ffff0000:006c:08c9:25:0
-Ziggo Sport Golf
+Ziggo Sport 3
 p:DFN,c:050001
 1b62:ffff0000:006b:08c9:1:0
 TLC SD
@@ -3016,22 +3013,22 @@ PassieXXX
 p:Ziggo,c:050001
 4b6c:ffff0000:0814:0600:22:0
 X-MO
-p:Ziggo,c:050001
+p:Ziggo
 4b70:ffff0000:0814:0600:22:0
 Meiden van Holland Hard
 p:Ziggo,c:050001
 4b72:ffff0000:0814:0600:22:0
 MBC
-p:Ziggo,c:050001
+p:Ziggo
 4b6b:ffff0000:0814:0600:25:0
 NPO 1 extra
 p:Ziggo,c:050001,c:098800
 4b6d:ffff0000:0814:0600:25:0
 Brazzers TV
-p:Ziggo
+p:Ziggo,c:050001
 4b6e:ffff0000:0814:0600:25:0
 Dorcel TV
-p:Ziggo
+p:Ziggo,c:050001
 4b71:ffff0000:0814:0600:25:0
 Penthouse Gold
 p:Ziggo,c:050001
@@ -3300,7 +3297,7 @@ p:CAIW Media
 Babes TV
 p:CAIW Media,c:050001
 17ac:ffff0000:006a:08c9:25:0
-Ziggo Sport Voetbal
+Ziggo Sport 2
 p:DFN,c:050001
 3e84:ffff0000:0010:10ef:1:0
 Cartoonito
@@ -3474,7 +3471,7 @@ p:CAIW Media
 Gouwestad Radio
 p:CAIW Media
 3b4c:ffff0000:0073:08c9:2:0
-TWEE
+TWEE FM
 p:CAIW Media
 3b56:ffff0000:0073:08c9:2:0
 ZOS Radio
@@ -3498,11 +3495,11 @@ p:CAIW Media
 RTV Albrandswaard Radio
 p:CAIW Media
 3aa2:ffff0000:0073:08c9:25:0
-WOS TV
+WOS
 p:CAIW Media,c:050001
 3ae8:ffff0000:0073:08c9:25:0
 TWEE
-p:CAIW Media
+p:CAIW Media,c:050001
 06a5:ffff0000:0011:25a8:1:0
 RTL 2
 p:SKV
@@ -3524,12 +3521,6 @@ p:CAIW Media,c:050001
 3eb2:ffff0000:0074:08c9:1:0
 BBC Four/Cbeebies
 p:CAIW Media,c:050001
-3ebc:ffff0000:0074:08c9:1:0
-ESPN 1 SD
-p:CAIW Media
-3ec6:ffff0000:0074:08c9:1:0
-ESPN 2 SD
-p:CAIW Media
 2fa9:ffff0000:00ca:0600:1:0
 LOL TV
 p:Ziggo
@@ -3651,7 +3642,7 @@ p:CAIW Media,c:050001
 RTV Noord
 p:CAIW Media
 90ba:ffff0000:0089:08c9:1:0
-RTV Oost
+Oost
 p:CAIW Media
 90d8:ffff0000:0089:08c9:1:0
 MTV 00s
@@ -3686,18 +3677,6 @@ p:Delta
 36ba:ffff0000:000e:10ef:25:0
 Film1 Drama
 p:Delta
-61b2:ffff0000:007d:08c9:1:0
-ESPN 4 SD
-p:CAIW Media
-61da:ffff0000:007d:08c9:1:0
-Nick Toons
-p:CAIW Media
-61bc:ffff0000:007d:08c9:25:0
-Film1 Premiere
-p:CAIW Media,c:050001
-61c6:ffff0000:007d:08c9:25:0
-Ziggo Sport Select
-p:CAIW Media,c:050001
 04b3:ffff0000:000c:25a8:1:0
 TLC
 p:SKV
@@ -3870,7 +3849,7 @@ p:CAIW Media
 Veronica Radio
 p:CAIW Media
 0bfe:ffff0000:0067:08c9:25:0
-Ziggo Sport Racing
+Ziggo Sport 4
 p:DFN,c:050001
 1acc:ffff0000:0c81:0600:1:0
 Omroep Venlo
@@ -4277,6 +4256,15 @@ p:Ziggo
 38be:ffff0000:00cd:0600:2:0
 Aladna FM
 p:Ziggo
+61da:ffff0000:007d:08c9:1:0
+Nick Toons
+p:CAIW Media
+61bc:ffff0000:007d:08c9:25:0
+Film1 Premiere
+p:CAIW Media,c:050001
+61c6:ffff0000:007d:08c9:25:0
+Ziggo Sport
+p:CAIW Media,c:050001
 88e0:ffff0000:0087:08c9:1:0
 Caiway informatie SD
 p:CAIW Media
@@ -4689,11 +4677,11 @@ p:Ziggo,c:050001
 Centraal TV
 p:Ziggo,c:050001
 1c02:ffff0000:0906:2210:2:0
-Omroep Brabant
-p:KPN,f:8
+Radio Rijnmond
+p:KPN
 1c0c:ffff0000:0906:2210:2:0
-L1
-p:KPN,f:8
+Omroep Zeeland
+p:KPN
 1c16:ffff0000:0906:2210:2:0
 FunX
 p:KPN
@@ -4725,13 +4713,13 @@ p:KPN
 NPO 3
 p:KPN
 02e4:ffff0000:0906:2210:31:0
-Omroep Brabant
-p:KPN,f:8
+TV Rijnmond
+p:KPN
 02ee:ffff0000:0906:2210:31:0
-L1
-p:KPN,f:8
+Omroep Zeeland
+p:KPN
 02f8:ffff0000:0906:2210:31:0
-NPO 1 Extra
+NPO 2 Extra
 p:KPN
 4705:ffff0000:0840:0600:2:0
 BBC Radio 1
@@ -4852,7 +4840,7 @@ TWEE Radio
 p:Ziggo
 4b32:ffff0000:0810:0600:22:0
 TRT Çocuk
-p:Ziggo,c:050001
+p:Ziggo
 4b36:ffff0000:0810:0600:22:0
 MTV 80s
 p:Ziggo
@@ -5236,19 +5224,19 @@ ducktv
 p:Ziggo,c:050001
 4b42:ffff0000:0812:0600:22:0
 Euro Star
-p:Ziggo,c:050001
+p:Ziggo
 4b47:ffff0000:0812:0600:22:0
 100% NL TV
 p:Ziggo
 4b48:ffff0000:0812:0600:22:0
 ATV Avrupa
-p:Ziggo,c:050001
+p:Ziggo
 4b49:ffff0000:0812:0600:22:0
 HaberTürk
-p:Ziggo,c:050001
+p:Ziggo
 4b4d:ffff0000:0812:0600:22:0
 TV8 Int.
-p:Ziggo,c:050001
+p:Ziggo
 531b:ffff0000:0812:0600:25:0
 OUTtv
 p:Ziggo,c:050001
@@ -5257,7 +5245,7 @@ Love Nature
 p:Ziggo,c:050001
 4b46:ffff0000:0812:0600:25:0
 Euro D
-p:Ziggo,c:050001
+p:Ziggo
 4b4a:ffff0000:0812:0600:25:0
 Mezzo
 p:Ziggo,c:050001
@@ -5287,45 +5275,6 @@ RTL Lounge
 p:Ziggo,c:050001
 4b63:ffff0000:0813:0600:25:0
 RTL Telekids
-p:Ziggo,c:050001
-4e65:ffff0000:0804:0600:22:0
-Aljazeera
-p:Ziggo,c:050001
-4e66:ffff0000:0804:0600:22:0
-TRT Müzik
-p:Ziggo,c:050001
-4e68:ffff0000:0804:0600:22:0
-ShowTÈurk
-p:Ziggo,c:050001
-4e69:ffff0000:0804:0600:22:0
-SET Asia
-p:Ziggo,c:050001,c:098800
-4e6a:ffff0000:0804:0600:22:0
-Utsav Gold
-p:Ziggo,c:050001
-4e6b:ffff0000:0804:0600:22:0
-Utsav Plus
-p:Ziggo,c:050001
-4e6c:ffff0000:0804:0600:22:0
-Zee Cinema
-p:Ziggo,c:050001,c:098800
-4e6d:ffff0000:0804:0600:22:0
-Zee TV
-p:Ziggo,c:050001,c:098800
-4e6e:ffff0000:0804:0600:22:0
-Zing
-p:Ziggo,c:050001
-4e6f:ffff0000:0804:0600:22:0
-Al Arabiya
-p:Ziggo,c:050001
-4e70:ffff0000:0804:0600:22:0
-TVM Europe
-p:Ziggo,c:050001
-4e65:ffff0000:0804:0600:25:0
-Aljazeera
-p:Ziggo
-4e67:ffff0000:0804:0600:25:0
-Horse & Country TV
 p:Ziggo,c:050001
 4ab1:ffff0000:080b:0600:22:0
 RTL 8
@@ -5539,7 +5488,7 @@ Ziggo Sport
 p:Ziggo,c:050007
 4c3e:ffff0000:0837:0600:31:0
 NPO 1 UHD
-p:Ziggo,c:050007
+p:Ziggo,c:050001
 1131:ffff0000:002c:25a8:25:0
 WDR HD
 p:SKV
@@ -5621,6 +5570,9 @@ p:SKV
 0962:ffff0000:0018:25a8:25:0
 NPO 3 HD
 p:SKV
+4e67:ffff0000:0804:0600:25:0
+Horse & Country TV
+p:Ziggo,c:050001
 1069:ffff0000:002a:25a8:25:0
 NASA TV HD
 p:SKV
@@ -5893,10 +5845,10 @@ KiKA HD
 p:ZDFmobil
 1c02:eeee0000:0906:2210:2:0
 Omroep Brabant
-p:KPN,f:8
+p:KPN
 1c0c:eeee0000:0906:2210:2:0
 L1
-p:KPN,f:8
+p:KPN
 1c16:eeee0000:0906:2210:2:0
 FunX
 p:KPN
@@ -5920,21 +5872,21 @@ NPO Soul & Jazz
 p:KPN
 02c6:eeee0000:0906:2210:31:0
 NPO 1
-p:KPN,c:050007,c:098800
+p:KPN,c:050007
 02d0:eeee0000:0906:2210:31:0
 NPO 2
-p:KPN,c:050007,c:098800
+p:KPN,c:050007
 02da:eeee0000:0906:2210:31:0
 NPO 3
 p:KPN,c:050007
 02e4:eeee0000:0906:2210:31:0
 Omroep Brabant
-p:KPN,c:050007,f:8
+p:KPN,c:050007
 02ee:eeee0000:0906:2210:31:0
 L1
-p:KPN,c:050007,f:8
+p:KPN,c:050007
 02f8:eeee0000:0906:2210:31:0
 NPO 1 Extra
-p:KPN,c:050007,f:8
+p:KPN
 end
 Editor:DreamSet 2.4.11 - http://www.dreamset-editor.com

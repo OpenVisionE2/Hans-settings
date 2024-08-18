@@ -1,5 +1,5 @@
 #NAME Stream België nationaal (BE)
-#SERVICE 1:64:609:0:0:0:0:0:0:0:
+#SERVICE 1:64:62d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - VRT++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1-high.mp3:VRT Radio 1
 #DESCRIPTION VRT Radio 1
@@ -47,7 +47,7 @@
 #DESCRIPTION VRT Studio Brussel Vuurland
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_bruut-high.mp3:VRT Studio Brussel Zware Gitaren
 #DESCRIPTION VRT Studio Brussel Zware Gitaren
-#SERVICE 1:64:60a:0:0:0:0:0:0:0:
+#SERVICE 1:64:62e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - overig nationaal++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//3755.cloudrad.io%3a8008/live:21Bis (België)
 #DESCRIPTION 21Bis (België)
@@ -289,6 +289,8 @@
 #DESCRIPTION Radio Pasión (Latijns-Amerikaanse muziek - BE)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice13.fluidstream.net/studiosonart.mp3:Radio Roem - studenten (vrij 10-14.00 live)
 #DESCRIPTION Radio Roem - studenten (vrij 10-14.00 live)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//c22.radioboss.fm%3a8480/stream:Radio SKY Belgium
+#DESCRIPTION Radio SKY Belgium
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radiototaal.be/radiototaal-high.mp3:Radio Totaal
 #DESCRIPTION Radio Totaal
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiofunvlaanderen.stream.laut.fm/radiofunvlaanderen:Radiofunvlaanderen
@@ -391,7 +393,7 @@
 #DESCRIPTION ZZOldies
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//axtran.radioca.st/stream:ZZROCK
 #DESCRIPTION ZZROCK
-#SERVICE 1:64:60b:0:0:0:0:0:0:0:
+#SERVICE 1:64:62f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bruxelles et Wallonie++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rcf.streamakaci.com/rcfbe.mp3:1RCF
 #DESCRIPTION 1RCF
@@ -495,6 +497,8 @@
 #DESCRIPTION LN Radio Relax 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mradio2.ice.infomaniak.ch/mradio.mp3:M Radio
 #DESCRIPTION M Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mint.ice.infomaniak.ch/mint-mp3-192.mp3:MINT
+#DESCRIPTION MINT
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rcs.revma.com/5gd04cwptg0uv:Nostalgie
 #DESCRIPTION Nostalgie
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rcs.revma.com/s9mkgtsqtg0uv:Nostalgie+
@@ -583,28 +587,22 @@
 #DESCRIPTION NRJ Relax
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.radioairlibre.be/radioairlibre.ogg.m3u:Radio Air Libre (Brussel)
 #DESCRIPTION Radio Air Libre (Brussel)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//audiostream.rtl.be/contactfr:Radio Contact
-#DESCRIPTION Radio Contact
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//contact80s.ice.infomaniak.ch/contact80s-192.mp3:Radio Contact 80s
 #DESCRIPTION Radio Contact 80s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//contact90s.ice.infomaniak.ch/contact90s-192.mp3:Radio Contact 90s
 #DESCRIPTION Radio Contact 90s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contact2.ice.infomaniak.ch/contact2-192.mp3:Radio Contact 2000
 #DESCRIPTION Radio Contact 2000
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactmix.ice.infomaniak.ch/contactmix-192.mp3:Radio Contact Afro-Latin 
-#DESCRIPTION Radio Contact Afro-Latin 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiocontact.ice.infomaniak.ch/radiocontact-mp3-128.mp3:Radio Contact FeelGood
 #DESCRIPTION Radio Contact FeelGood
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactgold.ice.infomaniak.ch/contactgold-192.mp3:Radio Contact Gold 80s/90s
-#DESCRIPTION Radio Contact Gold 80s/90s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactkids.ice.infomaniak.ch/contactkids-192.mp3:Radio Contact Kids
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactplus.ice.infomaniak.ch/contactplus-192.mp3:Radio Contact Fresh
+#DESCRIPTION Radio Contact Fresh
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactkids.ice.infomaniak.ch/contactkids-128.mp3:Radio Contact Kids
 #DESCRIPTION Radio Contact Kids
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactlounge.ice.infomaniak.ch/contactlounge-192.mp3:Radio Contact La Playlist de Tonton 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactlaplaylistdetonton.ice.infomaniak.ch/contactlaplaylistdetonton-192.mp3:Radio Contact La Playlist de Tonton 
 #DESCRIPTION Radio Contact La Playlist de Tonton 
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactlove.ice.infomaniak.ch/contactlove-192.mp3:Radio Contact Love
-#DESCRIPTION Radio Contact Love
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//audiostream.rtl.be/contactrnb:Radio Contact RnB
-#DESCRIPTION Radio Contact RnB
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactmix.ice.infomaniak.ch/contactmix-192.mp3:Radio Contact Summertime
+#DESCRIPTION Radio Contact Summertime
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contacturban.ice.infomaniak.ch/contacturban-192.mp3:Radio Contact Urban
 #DESCRIPTION Radio Contact Urban
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.radioemotion.be%3a80/;stream.mp3:Radio Emotion
@@ -697,15 +695,17 @@
 #DESCRIPTION RTL Info
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n03a-eu.rcs.revma.com/95m12ehhbm0uv:SIS Radio Bruxelles
 #DESCRIPTION SIS Radio Bruxelles
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//skyliveradio.ozelip.com/8124/stream:SkyLifeRadio (Turks)
+#DESCRIPTION SkyLifeRadio (Turks)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//igor.torontocast.com%3a2155/stream:Slowly Radio (België)
 #DESCRIPTION Slowly Radio (België)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ceit.be/sudradio-hainaut:Sud Radio Belgique
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ceit.be/sudradio-belgique:Sud Radio Belgique
 #DESCRIPTION Sud Radio Belgique
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//eu2-centova.serverse.com/proxy/wiupfvnu?mp=/TradCan:TradCan
 #DESCRIPTION TradCan
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//thewordradio.out.airtime.pro/thewordradio_a:The Word Radio (Brussels)
 #DESCRIPTION The Word Radio (Brussels)
-#SERVICE 1:64:60c:0:0:0:0:0:0:0:
+#SERVICE 1:64:630:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostkantons (Duitstalig)++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.brf.be%3a80/brf1-high.mp3:BRF1
 #DESCRIPTION BRF1
@@ -723,7 +723,7 @@
 #DESCRIPTION Radio Contact Ostbelgien NOW
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamlive.syndicationradio.fr%3a8158/stream:Radio Sunshine
 #DESCRIPTION Radio Sunshine
-#SERVICE 1:64:60d:0:0:0:0:0:0:0:
+#SERVICE 1:64:631:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//46.17.3.52%3a10000/stream/1/:Dance Tunes Radio
 #DESCRIPTION Dance Tunes Radio

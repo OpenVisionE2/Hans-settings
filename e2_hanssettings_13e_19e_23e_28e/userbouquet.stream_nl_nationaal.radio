@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:5f3:0:0:0:0:0:0:0:
+#SERVICE 1:64:617:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -41,7 +41,7 @@
 #DESCRIPTION FunX Rotterdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/funx-utrecht-bb-mp3:FunX Utrecht
 #DESCRIPTION FunX Utrecht
-#SERVICE 1:64:5f4:0:0:0:0:0:0:0:
+#SERVICE 1:64:618:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -209,8 +209,8 @@
 #DESCRIPTION Grand Prix Radio Dance Hits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/JUKE_S09.mp3:Grolsch 0.0 FM
 #DESCRIPTION Grolsch 0.0 FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice.cr6.streamzilla.xlcdn.com%3a8000/sz=Hallokidsradio=mp3:HalloKids Radio
-#DESCRIPTION HalloKids Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.hallokidsradio.nl/hallokids:Hallo Kids Radio
+#DESCRIPTION Hallo Kids Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hetstamcafe.stream-server.nl/stream:Het Stamcafé
 #DESCRIPTION Het Stamcafé
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.hetstamcafe.nl/hetstamcafe.mp3:Het Stamcafé
@@ -471,7 +471,7 @@
 #DESCRIPTION SLAM! The Boom Room
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.soulradio.com/SOULRADIO.mp3:Soul Radio
 #DESCRIPTION Soul Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast-soulshow.cdp.triple-it.nl/soulshow_128.mp3:Soulshow Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-soulshow-cdp.triple-it.nl/soulshow_128.mp3:Soulshow Radio
 #DESCRIPTION Soulshow Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//23553.live.streamtheworld.com/JUKE_S10.mp3:Soundz Radio
 #DESCRIPTION Soundz Radio
@@ -557,7 +557,7 @@
 #DESCRIPTION Yoursafe Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:5f5:0:0:0:0:0:0:0:
+#SERVICE 1:64:619:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -597,13 +597,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:5f6:0:0:0:0:0:0:0:
+#SERVICE 1:64:61a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:5f7:0:0:0:0:0:0:0:
+#SERVICE 1:64:61b:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits (NL Nationaal)
 #DESCRIPTION 18Hits (NL Nationaal)
@@ -651,6 +651,8 @@
 #DESCRIPTION Bestehits (NL - overig)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//86.94.213.59%3a8000/listen.pls  :Beyond The Beat Generation
 #DESCRIPTION Beyond The Beat Generation
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.bierradio.nl/cheerstothemusic:Bierradio
+#DESCRIPTION Bierradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.bigb21.nl%3a12000/live:Big B21 (NL nationaal)
 #DESCRIPTION Big B21 (NL nationaal)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server-21.stream-server.nl%3a8326/stream/1/:Blackwood FM (NL)
@@ -965,6 +967,8 @@
 #DESCRIPTION Pure Radio Holland Underground Channel (Old Pure Radio Holland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//19993.live.streamtheworld.com/Q_DANCEAAC.aac:Q-dance
 #DESCRIPTION Q-dance
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.mfmstreaming.nl/radio365:Radio365
+#DESCRIPTION Radio365
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.radio0511.com%3a8880/;:Radio 0511 (Buitenpost - Friesland)
 #DESCRIPTION Radio 0511 (Buitenpost - Friesland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio105.shoutcaststream.com%3a8060/;stream.mp3:Radio 105 Digital Radio

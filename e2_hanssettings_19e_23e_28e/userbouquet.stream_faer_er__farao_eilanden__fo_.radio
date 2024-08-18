@@ -1,13 +1,25 @@
 #NAME Stream Faeröer (Farao Eilanden, FO)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.midlar.fo/ras2:FM1 - Kiss, títt radio (Farao Eilanden, FO)
-#DESCRIPTION FM1 - Kiss, títt radio (Farao Eilanden, FO)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//srv.stream.fo%3a8000/high:Klaksvík Stream.fo (Farao Eilanden, FO)
-#DESCRIPTION Klaksvík Stream.fo (Farao Eilanden, FO)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//netvarp.kringvarp.fo%3a443/uvhm:Kringvarp Føroya FM (Farao Eilanden, FO)
-#DESCRIPTION Kringvarp Føroya FM (Farao Eilanden, FO)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//srv1.stream.fo%3a8000/lindinhigh:Lindin FM (Farao Eilanden, FO)
-#DESCRIPTION Lindin FM (Farao Eilanden, FO)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//lurta.r7.fo%3a8080/r7_high:R7 Kringvarp (Farao Eilanden, FO)
-#DESCRIPTION R7 Kringvarp (Farao Eilanden, FO)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.midlar.fo/ras2:VoxPop Radio FM (Farao Eilanden, FO)
-#DESCRIPTION VoxPop Radio FM (Farao Eilanden, FO)
+#SERVICE 1:64:679:0:0:0:0:0:0:0:
+#DESCRIPTION ++Føroyar (Faeröer) radio++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.midlar.fo/ras2:FM1 - Kiss
+#DESCRIPTION FM1 - Kiss
+#SERVICE 4097:0:2:1:100:298:dddd:0:0:0:http%3a//stream.midlar.fo/ras2:FM1 - títt radio
+#DESCRIPTION FM1 - títt radio
+#SERVICE 4097:0:2:1:700:298:dddd:0:0:0:http%3a//srv1.stream.fo%3a8000/high:FM98,7
+#DESCRIPTION FM98,7
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//srv.stream.fo%3a8000/high:Klaksvík
+#DESCRIPTION Klaksvík
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//netvarp.kringvarp.fo%3a443/uvhm:Kringvarp Føroya FM
+#DESCRIPTION Kringvarp Føroya FM
+#SERVICE 4097:0:2:101:100:298:dddd:0:0:0:http%3a//netvarp.kringvarp.fo%3a443/uvhm:KVF (Ljóð)
+#DESCRIPTION KVF (Ljóð)
+#SERVICE 4097:0:2:102:100:298:dddd:0:0:0:http%3a//netvarp.kringvarp.fo%3a4443/kvf2_2:KVF 2
+#DESCRIPTION KVF 2
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//high.lindin.fo/:Lindin
+#DESCRIPTION Lindin
+#SERVICE 4097:0:2:103:100:298:dddd:0:0:0:http%3a//netvarp.kringvarp.fo%3a443/tingvarp:Tingvarp FM
+#DESCRIPTION Tingvarp FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.midlar.fo/ras2:VoxPop Radio FM
+#DESCRIPTION VoxPop Radio FM
+#SERVICE 4097:0:2:2:100:284:dddd:0:0:0:http%3a//stream.midlar.fo/voxpop-128:VoxPop Radio
+#DESCRIPTION VoxPop Radio
