@@ -1,11 +1,11 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:617:0:0:0:0:0:0:0:
+#SERVICE 1:64:57e:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
 #SERVICE 4097:0:2:5259:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio2-bb-mp3:NPO Radio 2
 #DESCRIPTION NPO Radio 2
-#SERVICE 4097:0:2:525a:c99:3:eb0000:0:0:0:http%3a//ics2pss.omroep.nl/3fm-bb-mp3?q=/npo/mp3/3fm-bb.pls&stream=ok:NPO 3FM
+#SERVICE 4097:0:2:525a:c99:3:eb0000:0:0:0:https%3a//icecast.omroep.nl/3fm-bb-mp3:NPO 3FM
 #DESCRIPTION NPO 3FM
 #SERVICE 4097:0:2:525c:c99:3:eb0000:0:0:0:http%3a//ics2nss.omroep.nl%3a80/radio5-bb-mp3:NPO Radio 5
 #DESCRIPTION NPO Radio 5
@@ -13,7 +13,7 @@
 #DESCRIPTION NPO Klassiek
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/npoblend-bb-mp3:NPO BLEND
 #DESCRIPTION NPO BLEND
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//ics2ess.omroep.nl%3a80/3fm-serioustalent-mp3:NPO Campus Radio 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.omroep.nl/3fm-serioustalent-mp3:NPO Campus Radio 
 #DESCRIPTION NPO Campus Radio 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.omroep.nl/radio6-bb-mp3:NPO Soul & Jazz
 #DESCRIPTION NPO Soul & Jazz
@@ -41,7 +41,7 @@
 #DESCRIPTION FunX Rotterdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/funx-utrecht-bb-mp3:FunX Utrecht
 #DESCRIPTION FunX Utrecht
-#SERVICE 1:64:618:0:0:0:0:0:0:0:
+#SERVICE 1:64:57f:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -557,7 +557,7 @@
 #DESCRIPTION Yoursafe Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:619:0:0:0:0:0:0:0:
+#SERVICE 1:64:580:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -597,13 +597,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:61a:0:0:0:0:0:0:0:
+#SERVICE 1:64:581:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:61b:0:0:0:0:0:0:0:
+#SERVICE 1:64:582:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits (NL Nationaal)
 #DESCRIPTION 18Hits (NL Nationaal)
@@ -1107,7 +1107,9 @@
 #DESCRIPTION Rozo Radio 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cc6.beheerstream.com/8615/stream:RVM Radio (NL nationaal)
 #DESCRIPTION RVM Radio (NL nationaal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls1.eu.peppermindmedia.com/samibiza/audio/playlist-128000.m3u8:SAM Ibiza
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls1.eu.peppermindmedia.com/samibiza/audio/playlist-192000.m3u8:SAM Ibiza
+#DESCRIPTION SAM Ibiza
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.peppermindmedia.com/samibiza:SAM Ibiza
 #DESCRIPTION SAM Ibiza
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//caster05.streampakket.com/proxy/9320/stream:Shine Radio 
 #DESCRIPTION Shine Radio 
@@ -1185,5 +1187,5 @@
 #DESCRIPTION Zeilsteen Radio (NL nationaal, overig)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//zolderteam.zolderteam.nl%3a1045/stream:Zolderteam
 #DESCRIPTION Zolderteam
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK (NL nationaal, overig)
-#DESCRIPTION ZTACK (NL nationaal, overig)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
+#DESCRIPTION ZTACK
