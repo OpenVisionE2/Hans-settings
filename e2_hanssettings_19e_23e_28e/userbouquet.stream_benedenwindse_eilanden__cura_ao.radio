@@ -9,26 +9,36 @@
 #DESCRIPTION Chillingstation
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//64.150.176.42%3a8016/live:Clazz FM
 #DESCRIPTION Clazz FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s8.voscast.com%3a7000/;:Comeback Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//74.50.122.103%3a7000/stream:Comeback Radio
 #DESCRIPTION Comeback Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//curastreamz.com/8012/stream:Curacao FM
 #DESCRIPTION Curacao FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge1.direct107.com/;:Direct 107
 #DESCRIPTION Direct 107
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//85.214.231.253%3a8080/:Dolfijn FM
-#DESCRIPTION Dolfijn FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8120/radio.mp3:Dolfijn 80s & 90s
+#DESCRIPTION Dolfijn 80s & 90s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8110/radio.mp3:Dolfijn Bright Top 40
 #DESCRIPTION Dolfijn Bright Top 40
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8120/radio.mp3:Dolfijn Classic
 #DESCRIPTION Dolfijn Classic
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8130/radio.mp3:Dolfijn FM
+#DESCRIPTION Dolfijn FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8020/dolfijnhits.mp3:Dolfijn Hits
+#DESCRIPTION Dolfijn Hits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8020/dolfijnhits.mp3:Dolfijn Hits
 #DESCRIPTION Dolfijn Hits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiostreamfm.com/radio/8000/dolfijnlatin.mp3:Dolfijn Latin
 #DESCRIPTION Dolfijn Latin
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8010/dolfijnurban.mp3:Dolfijn Urban
-#DESCRIPTION Dolfijn Urban
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8000/dolfijnlatin.mp3:Dolfijn Latin
+#DESCRIPTION Dolfijn Latin
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8050/radio.mp3:Dolfijn Techno
 #DESCRIPTION Dolfijn Techno
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8050/radio.mp3:Dolfijn Techno
+#DESCRIPTION Dolfijn Techno
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8010/dolfijnurban.mp3:Dolfijn Urban
+#DESCRIPTION Dolfijn Urban
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreamfm.com/radio/8010/dolfijnurban.mp3:Dolfijn Urban
+#DESCRIPTION Dolfijn Urban
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//node-02.zeno.fm/tbrwtd58f18uv?rj-ttl=5&rj-tok=AAABfQpVe8cA1XJLa9kZg3RoMw:Dushi 88,9 FM
 #DESCRIPTION Dushi 88,9 FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//caster02.streampakket.com%3a8540/live:DZD Radio
@@ -39,7 +49,7 @@
 #DESCRIPTION Fever Pitch
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mediaserv68.live-streams.nl%3a18038/stream:Gosadera Station
 #DESCRIPTION Gosadera Station
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//paradisefm.sincere.cloud/HITradio915:HITradio 915
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.paradisefm.cw/HITradio915:HITradio 915
 #DESCRIPTION HITradio 915
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s7.voscast.com%3a9139/live:HOW Radio
 #DESCRIPTION HOW Radio
@@ -55,7 +65,17 @@
 #DESCRIPTION One Great Station
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mediaserv30.live-streams.nl%3a8127/;stream/1:Papiamentu Kids
 #DESCRIPTION Papiamentu Kids
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//paradisefm.sincere.cloud/ParadiseFM:Paradise FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.paradisefm.cw/00s10s:Paradise FM 00s & 10s
+#DESCRIPTION Paradise FM 00s & 10s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.paradisefm.cw/60s70s:Paradise FM 60s & 70s
+#DESCRIPTION Paradise FM 60s & 70s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.paradisefm.cw/80s90s:Paradise FM 80s & 90s
+#DESCRIPTION Paradise FM 80s & 90s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.paradisefm.cw/ParadiseDiscoInferno :Paradise FM Disco Inferno
+#DESCRIPTION Paradise FM Disco Inferno
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.paradisefm.cw/ParadiseNonstop:Paradise FM Nonstop
+#DESCRIPTION Paradise FM Nonstop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.paradisefm.cw/ParadiseFM:Paradise FM
 #DESCRIPTION Paradise FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mediaserv73.live-streams.nl%3a18021/stream:Radio 911 Live
 #DESCRIPTION Radio 911 Live
@@ -63,6 +83,8 @@
 #DESCRIPTION Radio 94 Korsou
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//node1.westream.solutions/RadioActive:Radio Active
 #DESCRIPTION Radio Active
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//kadushi.westream.cloud/listen/alfafm/xstream:Radio Alpha
+#DESCRIPTION Radio Alpha
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server-28.stream-server.nl%3a8506:Radio Aroma Natural
 #DESCRIPTION Radio Aroma Natural
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.radionomy.com/bachata-dominicana:Radio Bachata Dominicana
@@ -75,12 +97,12 @@
 #DESCRIPTION Radio Completo
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//node1.westream.solutions/delta:Radio Deltha 92.7 FM
 #DESCRIPTION Radio Deltha 92.7 FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nelson.mandelahost.com/proxy/jjmnjyxh/stream:Radio Digital
-#DESCRIPTION Radio Digital
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mediaserv33.live-streams.nl%3a8095/;stream/1:Radio Di Nos .Com
 #DESCRIPTION Radio Di Nos .Com
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mediaserv38.live-streams.nl%3a8123/;stream/1:Radio Di Nos .NL
 #DESCRIPTION Radio Di Nos .NL
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nelson.mandelahost.com/proxy/jjmnjyxh/stream:Radio Digital
+#DESCRIPTION Radio Digital
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge1.direct107.com/:Radio Direct
 #DESCRIPTION Radio Direct
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//usa10.fastcast4u.com/explore:Radio Explore
@@ -91,14 +113,16 @@
 #DESCRIPTION Radio Hoyer 2
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nelson.mandelahost.com/proxy/xseegjjn/stream:Radio Klaridat
 #DESCRIPTION Radio Klaridat
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//162.243.94.61%3a8028/;:Radio Kórsou FM
-#DESCRIPTION Radio Kórsou FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamingv2.shoutcast.com/radio-krioyo-897?1689977496178:Radio Krioyo 89.7 FM
 #DESCRIPTION Radio Krioyo 89.7 FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//162.243.94.61%3a8028/;:Radio Kórsou FM
+#DESCRIPTION Radio Kórsou FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast1.my-control-panel.com/proxy/mambo/stream:Radio Mambo Online
 #DESCRIPTION Radio Mambo Online
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//usa7.fastcast4u.com%3a4658/;stream/1:Radio Margaritha Online
 #DESCRIPTION Radio Margaritha Online
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios.wakenext.com/hls/radio_mas99/live.m3u8:Radio Mas Curacao 
+#DESCRIPTION Radio Mas Curacao 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s7.voscast.com%3a8704/;stream/1:Radio New Song
 #DESCRIPTION Radio New Song
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//8793843.com/7896326782/:Radio One

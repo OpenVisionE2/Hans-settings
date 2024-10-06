@@ -1,21 +1,27 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:8c:0:0:0:0:0:0:0:
+#SERVICE 1:64:97:0:0:0:0:0:0:0:
 #DESCRIPTION ++NPO++
 #SERVICE 4097:0:19:5225:c99:3:eb0000:0:0:0:http%3a//78.130.250.2%3a7023/play/a01h/index.m3u8:NPO 1
 #DESCRIPTION NPO 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv1.darktv.eu%3a80/play/live.php?mac=00%3a1A%3a79%3aAF%3a9F%3a0B&stream=151287&extension=ts:NPO 1 (#)
+#DESCRIPTION NPO 1 (#)
 #SERVICE 4097:0:19:17c0:c82:3:eb0000:0:0:0:http%3a//78.130.250.2%3a7023/play/a00y/index.m3u8:NPO 2
 #DESCRIPTION NPO 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv1.darktv.eu%3a80/play/live.php?mac=00%3a1A%3a79%3aAF%3a9F%3a0B&stream=151284&extension=ts:NPO 2 (#)
+#DESCRIPTION NPO 2 (#)
 #SERVICE 4097:0:19:5230:c99:3:eb0000:0:0:0:http%3a//78.130.250.2%3a7023/play/a01k/index.m3u8:NPO 3
 #DESCRIPTION NPO 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//izlesstvrs.xyz%3a80/live/kvm226/pNkhzBSezs/262827.ts:NPO 1 Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv1.darktv.eu%3a80/play/live.php?mac=00%3a1A%3a79%3aAF%3a9F%3a0B&stream=151283&extension=ts:NPO 3 (#)
+#DESCRIPTION NPO 3 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv1.darktv.eu%3a80/play/live.php?mac=00%3a1A%3a79%3aAF%3a9F%3a0B&stream=151315&extension=ts:NPO 1 Extra
 #DESCRIPTION NPO 1 Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//izlesstvrs.xyz%3a80/live/kvm226/pNkhzBSezs/262828.ts:NPO 2 Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv1.darktv.eu%3a80/play/live.php?mac=00%3a1A%3a79%3aAF%3a9F%3a0B&stream=78288&extension=ts:NPO 2 Extra
 #DESCRIPTION NPO 2 Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//izlesstvrs.xyz%3a80/live/kvm226/pNkhzBSezs/262853.ts:NPO Politiek en Nieuws
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv1.darktv.eu%3a80/play/live.php?mac=00%3a1A%3a79%3aAF%3a9F%3a0B&stream=56388&extension=ts:NPO Politiek en Nieuws
 #DESCRIPTION NPO Politiek en Nieuws
-#SERVICE 4097:0:16:1645:42c:1:c00000:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/8cc105f9f2/151670:BVN
+#SERVICE 4097:0:16:1645:42c:1:c00000:0:0:0:http%3a//tv1.darktv.eu%3a80/play/live.php?mac=00%3a1A%3a79%3aAF%3a9F%3a0B&stream=165218&extension=ts:BVN
 #DESCRIPTION BVN
-#SERVICE 1:64:8d:0:0:0:0:0:0:0:
+#SERVICE 1:64:98:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:4ed1:c99:3:eb0000:0:0:0:https%3a//bnr-cache-cdp.triple-it.nl/studio/index.m3u8:BNR Nieuwsradio
 #DESCRIPTION BNR Nieuwsradio
@@ -57,7 +63,7 @@
 #DESCRIPTION SBS6 Classics
 #SERVICE 4097:0:1:4b8e:816:600:ffff0000:0:0:0:http%3a//ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8:Tommy TV
 #DESCRIPTION Tommy TV
-#SERVICE 1:64:8e:0:0:0:0:0:0:0:
+#SERVICE 1:64:99:0:0:0:0:0:0:0:
 #DESCRIPTION +++Radio Toppers+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-67.stream-server.nl%3a1936/RadioToppers/RadioToppers/playlist.m3u8:Radio Toppers
 #DESCRIPTION Radio Toppers
@@ -67,7 +73,7 @@
 #DESCRIPTION Poesjes TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-23.stream-server.nl%3a1936/WinkRadio/WinkRadio/playlist.m3u8:Wink Radio
 #DESCRIPTION Wink Radio
-#SERVICE 1:64:8f:0:0:0:0:0:0:0:
+#SERVICE 1:64:9a:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL amateur-tv++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//stream.pi6atv.com%3a8081/scoop/pi6atv-hd/playlist.m3u8  :PI6atv (NL amateur tv)
 #DESCRIPTION PI6atv (NL amateur tv)

@@ -1,5 +1,5 @@
 #NAME Stream België nationaal (BE)
-#SERVICE 1:64:594:0:0:0:0:0:0:0:
+#SERVICE 1:64:5a6:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - VRT++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1-high.mp3:VRT Radio 1
 #DESCRIPTION VRT Radio 1
@@ -43,7 +43,7 @@
 #DESCRIPTION VRT Studio Brussel Vuurland
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_bruut-high.mp3:VRT Studio Brussel Zware Gitaren
 #DESCRIPTION VRT Studio Brussel Zware Gitaren
-#SERVICE 1:64:595:0:0:0:0:0:0:0:
+#SERVICE 1:64:5a7:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - overig nationaal++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//3755.cloudrad.io%3a8008/live:21Bis (België)
 #DESCRIPTION 21Bis (België)
@@ -175,6 +175,8 @@
 #DESCRIPTION Kerstkanaal BE
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s19.myradiostream.com/18068/listen.mp3:KL85 (De Zeezendertijd)
 #DESCRIPTION KL85 (De Zeezendertijd)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.laclassica.be%3a18023/stream:La Classica
+#DESCRIPTION La Classica
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.radionomy.com/JamendoLounge:Made With Magic Radio (Muziek rond de Disney Studio's - BE)
 #DESCRIPTION Made With Magic Radio (Muziek rond de Disney Studio's - BE)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//149.202.22.75%3a8598/live:Maeva
@@ -337,10 +339,12 @@
 #DESCRIPTION TOP2
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/TOPBAM.mp3:TOP Bam
 #DESCRIPTION TOP Bam
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/TOP_NEWBEAT.mp3:TOP Newbeat
-#DESCRIPTION TOP Newbeat
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/TOPSPINNING.mp3:TOP Non stop
 #DESCRIPTION TOP Non stop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/DANCE_TOP1000.mp3:TOP Radio Dance Top 1000
+#DESCRIPTION TOP Radio Dance Top 1000
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/TOP_NEWBEAT.mp3:TOP Radio Kamping Kitsch Club
+#DESCRIPTION TOP Radio Kamping Kitsch Club
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/TOPRETRO.mp3 :TOP Retro Arena
 #DESCRIPTION TOP Retro Arena
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/TOPSCHAAMTELOZE.MP3:TOP Schaamteloos
@@ -349,8 +353,6 @@
 #DESCRIPTION TOP Techno
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/TOPZENAAC.aac:TOP Zen
 #DESCRIPTION TOP Zen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/TOP_ZILLION.mp3:TOP Zillion
-#DESCRIPTION TOP Zillion
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//27993.live.streamtheworld.com/TOPVERSUZ.mp3:TOPversuzRadio
 #DESCRIPTION TOPversuzRadio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.trendyfm.be%3a80/:Trendy FM
@@ -391,7 +393,7 @@
 #DESCRIPTION ZZOldies
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//axtran.radioca.st/stream:ZZROCK
 #DESCRIPTION ZZROCK
-#SERVICE 1:64:596:0:0:0:0:0:0:0:
+#SERVICE 1:64:5a8:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bruxelles et Wallonie++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rcf.streamakaci.com/rcfbe.mp3:1RCF
 #DESCRIPTION 1RCF
@@ -443,8 +445,6 @@
 #DESCRIPTION Chérie Noel
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//scdn.nrjaudio.fm/adwz1/be/55569/aac_64.mp3:Chérie Romantic
 #DESCRIPTION Chérie Romantic
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//cdn.nrjaudio.fm/adwz1/be/58174/aac_64.mp3:Chérie Sport
-#DESCRIPTION Chérie Sport
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//cdn.nrjaudio.fm/adwz1/be/55563/aac_64.mp3:Chérie Zen
 #DESCRIPTION Chérie Zen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactplus.ice.infomaniak.ch/contactplus-192.mp3:Contact  Fresh
@@ -703,25 +703,29 @@
 #DESCRIPTION TradCan
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//thewordradio.out.airtime.pro/thewordradio_a:The Word Radio (Brussels)
 #DESCRIPTION The Word Radio (Brussels)
-#SERVICE 1:64:597:0:0:0:0:0:0:0:
+#SERVICE 1:64:5a9:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostkantons (Duitstalig)++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.brf.be%3a80/brf1-high.mp3:BRF1
 #DESCRIPTION BRF1
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.brf.be%3a80/brf2-high.mp3:BRF2
 #DESCRIPTION BRF2
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.dashitradio.de/alemannia/mp3-128/stream.mp3:100'5 Das Hitradio.
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.dashitradio.de/dashitradio/mp3-128/stream.mp3:100'5 Das Hitradio.
 #DESCRIPTION 100'5 Das Hitradio.
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.dashitradio.de/alemannia/mp3-128/stream.mp3:Das Hitradio Alemannia
+#DESCRIPTION Das Hitradio Alemannia
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.dashitradio.de/in_the_mix/mp3-128:Das Hitradio in the Mix 
+#DESCRIPTION Das Hitradio in the Mix 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//88.99.213.237%3a8000/live:Pandaradio (KAS, Eupen)
 #DESCRIPTION Pandaradio (KAS, Eupen)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fmradio.hopto.org%3a7000:Paradise FM
 #DESCRIPTION Paradise FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamserver.funkhaus.info%3a80/:Radio700
 #DESCRIPTION Radio700
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//systemweb-server3.de%3a7002/:Radio Contact Ostbelgien NOW
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//systemweb-server3.de%3a7002/stream/1/:Radio Contact Ostbelgien NOW
 #DESCRIPTION Radio Contact Ostbelgien NOW
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamlive.syndicationradio.fr%3a8158/stream:Radio Sunshine
 #DESCRIPTION Radio Sunshine
-#SERVICE 1:64:598:0:0:0:0:0:0:0:
+#SERVICE 1:64:5aa:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//46.17.3.52%3a10000/stream/1/:Dance Tunes Radio
 #DESCRIPTION Dance Tunes Radio
