@@ -1,5 +1,5 @@
 #NAME Stream Slovenië (SI)
-#SERVICE 1:64:415:0:0:0:0:0:0:0:
+#SERVICE 1:64:41b:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/5567:TV Slovenija 1
 #DESCRIPTION TV Slovenija 1
@@ -7,10 +7,20 @@
 #DESCRIPTION TV Slovenija 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/5569:TV Slovenija 3
 #DESCRIPTION TV Slovenija 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.7.10/live/test_trojka_25p/playlist.m3u8:%3a24
+#DESCRIPTION :24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.7.10/live/test_rtvs_sport_hevc/playlist.m3u8:%3aŠport
+#DESCRIPTION :Šport
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/174843:Diva
 #DESCRIPTION Diva
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/5571:Kanal A
 #DESCRIPTION Kanal A
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnsk003.panaccess.com/local/Markiza/index.m3u8:Markiza
+#DESCRIPTION Markiza
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnsk003.panaccess.com/local/Markiza_Klasik/index.m3u8:Markiza Klasik
+#DESCRIPTION Markiza Klasik
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnsk003.panaccess.com/local/Markiza_krimi/index.m3u8:Markiza Krimi
+#DESCRIPTION Markiza Krimi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/284766:N1 Slovenska
 #DESCRIPTION N1 Slovenska
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/5633:Nova 24 TV
@@ -21,7 +31,7 @@
 #DESCRIPTION RTV SLO - MMC TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vodstr.rtvslo.si/ava_archive05/_definst_/preroll/intermission.mp4/chunklist_w1410424387.m3u8:RTV SLO - TV Maribor
 #DESCRIPTION RTV SLO - TV Maribor
-#SERVICE 1:64:416:0:0:0:0:0:0:0:
+#SERVICE 1:64:41c:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/84772:Brio
 #DESCRIPTION Brio
@@ -35,6 +45,8 @@
 #DESCRIPTION Golica TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.220.221.60/gtv_hls/gtv_03.m3u8:GTV
 #DESCRIPTION GTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8:MTR
+#DESCRIPTION MTR
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vr1.radioaktual.si/hls/stream.m3u8:Radio Aktual TV
 #DESCRIPTION Radio Aktual TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.201.163.244%3a8080/hls/hdmi.m3u8:STV

@@ -1,5 +1,5 @@
 #NAME Stream Colombia (CO)
-#SERVICE 1:64:3bc:0:0:0:0:0:0:0:
+#SERVICE 1:64:3c3:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//131.221.41.94/hls/canal2.m3u8:Canal 2
 #DESCRIPTION Canal 2
@@ -9,6 +9,8 @@
 #DESCRIPTION Canal 8 TV+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8:Canal 9 Bío Bío Televisión
 #DESCRIPTION Canal 9 Bío Bío Televisión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//190.211.140.89%3a8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8:Canal 10 SOL TV
+#DESCRIPTION Canal 10 SOL TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//138.117.4.70%3a8075/channel11/playlist.m3u8:Canal 11 TV Red
 #DESCRIPTION Canal 11 TV Red
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canal.mediaserver.com.co/live/ANCTELEVISION.m3u8:ANC Televisión
@@ -17,6 +19,8 @@
 #DESCRIPTION ATV Soacha
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvlatina.live%3a1936/8012/8012/playlist.m3u8:Cable Sur TV
 #DESCRIPTION Cable Sur TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdns.livewave.co%3a8081/ccapitallive/index.m3u8:Canal Capital
+#DESCRIPTION Canal Capital
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cncmedellin.ddns.net%3a1935/canalcnc/canalcnc_360p/playlist.m3u8:Canal CNC Medellin
 #DESCRIPTION Canal CNC Medellin
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movil.ejeserver.com/live/cncsantander.m3u8:Canal CNC Pasto Santander de Quilichao
@@ -27,8 +31,12 @@
 #DESCRIPTION Canal Nets
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//200.59.188.3%3a8000/play/a03a:Canal RCN
 #DESCRIPTION Canal RCN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdns.livewave.co%3a8081/eurekalive/index.m3u8:Eureka
+#DESCRIPTION Eureka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//unlimited6-cl.dps.live/nettv/nettv.smil/playlist.m3u8:Net TV
 #DESCRIPTION Net TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdns.livewave.co%3a8081/90minutoslive/index.m3u8:Noticiero 90 Minutos
+#DESCRIPTION Noticiero 90 Minutos
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8:RCN Mas
 #DESCRIPTION RCN Mas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//200.59.188.3%3a8000/play/a07q:RCN Novelas
@@ -37,9 +45,11 @@
 #DESCRIPTION RCN Xtra
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/master.m3u8:Red+
 #DESCRIPTION Red+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.amelbasoluciones.co%3a8081/tdicolombia/index.m3u8:TDI Colombia
+#DESCRIPTION TDI Colombia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cp.panelchs.com%3a1936/8060/8060/playlist.m3u8:Televilla
 #DESCRIPTION Televilla
-#SERVICE 1:64:3bd:0:0:0:0:0:0:0:
+#SERVICE 1:64:3c4:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.yupi.live%3a1936/livearbol/livearbol/playlist.m3u8:Árbol de Vida
 #DESCRIPTION Árbol de Vida
@@ -49,7 +59,7 @@
 #DESCRIPTION Avivamiento TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ea86ddd14ce7.streamlock.net/live/cable09061970/playlist.m3u8:Cablenoticias Bogotà
 #DESCRIPTION Cablenoticias Bogotà
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vbox.cehis.net/live-calitv/calitv1/playlist.m3u8:Cali TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ab772334c39c.streamlock.net/live-calitv/calitv1/playlist.m3u8:Cali TV
 #DESCRIPTION Cali TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil%3alive.smil/chunklist_b1500000.m3u8:Canal Institucional
 #DESCRIPTION Canal Institucional
@@ -57,10 +67,14 @@
 #DESCRIPTION Canal Luz
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eu1.servers10.com%3a8081/8092/playlist.m3u8:Canal NorteVision (Pasto, Nariño)
 #DESCRIPTION Canal NorteVision (Pasto, Nariño)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.amelbasoluciones.co%3a19360/santamartalive/santamartalive.m3u8:Canal Santa Marta TV
+#DESCRIPTION Canal Santa Marta TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vcp.myplaytv.com/cantinatv/cantinatv/playlist.m3u8:Cantina TV
 #DESCRIPTION Cantina TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.78.12.164%3a9000/play/a079:Caracol
 #DESCRIPTION Caracol
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mdstrm.com/live-stream-playlist/632391734be92a791e2750e6.m3u8:Caracol Noticias Ahora
+#DESCRIPTION Caracol Noticias Ahora
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//glb.bozztv.com/glb/ssh101/1234chivacoa/index.m3u8:Chivacoa TV Internacional
 #DESCRIPTION Chivacoa TV Internacional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cp.panelchs.com%3a1936/8096/8096/playlist.m3u8:Ciudadela TV
@@ -91,6 +105,8 @@
 #DESCRIPTION Mund2TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5e85d90130e77.streamlock.net/6020/6020/playlist.m3u8:Oasis Televisión
 #DESCRIPTION Oasis Televisión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssh101-fl.bozztv.com/ssh101/qMUAZEy/index.m3u8:Salsa Gorda Television
+#DESCRIPTION Salsa Gorda Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvlatina.live%3a1936/8004/8004/playlist.m3u8:Santel TV
 #DESCRIPTION Santel TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.ejeserver.com/live/telesanjacinto.m3u8:Tele San Jacinto
