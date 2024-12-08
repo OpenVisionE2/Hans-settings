@@ -1,69 +1,39 @@
 #NAME Stream Slowakije (SK)
-#SERVICE 1:64:433:0:0:0:0:0:0:0:
+#SERVICE 1:64:17b1:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.81.133.133%3a8080/jednotka/index.m3u8:RTVS 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n14.stv.livebox.sk/stv-tv/78a9dc1fdd7aac1642d9a7e7d319d5c7/stv1.smil/chunklist_b2691072.m3u8:RTVS 1
 #DESCRIPTION RTVS 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n14.stv.livebox.sk/stv-tv/78a9dc1fdd7aac1642d9a7e7d319d5c7/stv1.smil/chunklist_b2691072.m3u8:RTVS 1 (#)
-#DESCRIPTION RTVS 1 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.81.133.133%3a8080/dvojka/index.m3u8:RTVS 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n15.stv.livebox.sk/stv-tv/f6b794a31f8b2a57f06154108b970c19/stv2.smil/chunklist_b2691072.m3u8:RTVS 2
 #DESCRIPTION RTVS 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n15.stv.livebox.sk/stv-tv/f6b794a31f8b2a57f06154108b970c19/stv2.smil/chunklist_b2691072.m3u8:RTVS 2 (#)
-#DESCRIPTION RTVS 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n13.stv.livebox.sk/stv-tv/889bafe46ff30bf31824de1eaede994e/stv3.smil/chunklist_.m3u8:RTVS 24
 #DESCRIPTION RTVS 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.81.133.133%3a8080/dajto/index.m3u8:Dajto
-#DESCRIPTION Dajto
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/298441:Doma
-#DESCRIPTION Doma
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nn.geo.joj.sk/hls/joj-540.m3u8:JOJ 24
-#DESCRIPTION JOJ 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/295046:Joj Cinema
-#DESCRIPTION Joj Cinema
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nn.geo.joj.sk/hls/family-540.m3u8:JOJ Family
-#DESCRIPTION JOJ Family
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/54235:JOJ Ko
-#DESCRIPTION JOJ Ko
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nn.geo.joj.sk/live/hls/jojplus-540.m3u8:JOJ Plus
-#DESCRIPTION JOJ Plus
-#SERVICE 4097:0:1:daea:2dcd:ec:0:0:0:0:https%3a//nn.geo.joj.sk/live/hls/wau-540.m3u8:JOJ Wau
-#DESCRIPTION JOJ Wau
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//83.167.253.107/hdmi1_ext:Markíza
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.11.199%3a5000/live/test_joj_hd_high_hevc/playlist.m3u8:JOJ
+#DESCRIPTION JOJ
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=63211&extension=ts:JOJ Cinema
+#DESCRIPTION JOJ Cinema
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.27/live/test_markiza_25p/playlist.m3u8:Markíza
 #DESCRIPTION Markíza
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/46704:Markiza International
-#DESCRIPTION Markiza International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/284652:Nove Zamky
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s1.media-planet.sk/live/novezamky/HasBahCa.m3u8:Nove Zamky
 #DESCRIPTION Nove Zamky
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/54239:Reduta
-#DESCRIPTION Reduta
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n13.stv.livebox.sk/ta3/16667cd070f9e7520d2dea9797ad188a/1.smil/chunklist_b2691072.m3u8:TA 3
-#DESCRIPTION TA 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.74.145.11%3a1935/tv8/ngrp%3atv8.stream_all/playlist.m3u8:TV 8
 #DESCRIPTION TV 8
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//80.94.54.11%3a1935/live/dolnykubin1/playlist.m3u8:TV DK
 #DESCRIPTION TV DK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/284657:TV Markíza
-#DESCRIPTION TV Markíza
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s1.media-planet.sk/live/novezamky/lihattv.m3u8:TV Nové Zámky
 #DESCRIPTION TV Nové Zámky
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//s1.media-planet.sk%3a80/live/novezamky:TV Nove Zamky (#)
 #DESCRIPTION TV Nove Zamky (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/29195:Wau TV
-#DESCRIPTION Wau TV
-#SERVICE 1:64:434:0:0:0:0:0:0:0:
+#SERVICE 1:64:17b2:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.130.250.2%3a8023/play/a02v/index.m3u8:Canal+ Sport
+#DESCRIPTION Canal+ Sport
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.streaming.sk/fashiontv/stream/playlist.m3u8:Fashion TV Slovak
 #DESCRIPTION Fashion TV Slovak
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//kamery.kukni.sk%3a8181/memfs/fb00d981-d2d4-4d69-bb44-a9ff6aa25a76.m3u8:L'ubovnianska
-#DESCRIPTION L'ubovnianska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/295439:Lala TV
-#DESCRIPTION Lala TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.geniusnet.sk%3a8081/localltv/pl.m3u8:LocAll
 #DESCRIPTION LocAll
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.streaming.sk/senzi/stream/chunklist_w186513238.m3u8:Senzi TV
 #DESCRIPTION Senzi TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/284655:TV DK
-#DESCRIPTION TV DK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.tvlux.sk/lux/ngrp%3alux.stream_all/playlist.m3u8:TV Lux
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.tvlux.sk%3a1935/lux/lux.stream/HasBahCa.m3u8:TV Lux
 #DESCRIPTION TV Lux
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w2.manasat.com/cirkev-online/smil%3acirkev-online.smil/playlist.m3u8:TV Maná Slovak
 #DESCRIPTION TV Maná Slovak
@@ -73,12 +43,6 @@
 #DESCRIPTION TV Poprad
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.181.128.248%3a8090/tvpovazie-h264.flv:TV Povazie
 #DESCRIPTION TV Povazie
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/285531:TV Raj
-#DESCRIPTION TV Raj
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//s1.media-planet.sk%3a80/live/reduta:TV Reduta
-#DESCRIPTION TV Reduta
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/165967:TV Romana
-#DESCRIPTION TV Romana
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.streaming.sk/tvruzinov/stream/playlist.m3u8:TV Ružinov
 #DESCRIPTION TV Ružinov
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//s1.media-planet.sk%3a80/live/turzovka:TV Turzovka
