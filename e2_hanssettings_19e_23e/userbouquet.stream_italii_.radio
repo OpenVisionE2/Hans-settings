@@ -1,5 +1,5 @@
 #NAME Stream Italië (IT)
-#SERVICE 1:64:5a2:0:0:0:0:0:0:0:
+#SERVICE 1:64:5af:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rai++
 #SERVICE 4097:0:2:5:0:0:0:0:0:0:http%3a//icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast:Rai Radio 1
 #DESCRIPTION Rai Radio 1
@@ -41,7 +41,7 @@
 #DESCRIPTION Radio Serie A con RDS
 #SERVICE 4097:0:2:355:0:0:0:0:0:0:https%3a//stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index_14.m3u8:Radio TV Serie A
 #DESCRIPTION Radio TV Serie A
-#SERVICE 1:64:5a3:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b0:0:0:0:0:0:0:0:
 #DESCRIPTION ++festival San Remo, themazenders++
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icecast.unitedradio.it/um049.mp3:Music Radio Festival Le Canzoni Vincitrici
 #DESCRIPTION Music Radio Festival Le Canzoni Vincitrici
@@ -51,7 +51,7 @@
 #DESCRIPTION United Music Radio Festival 1951-1999
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icecast.unitedradio.it/um112.mp3:United Music Radio Festival 2000-2021
 #DESCRIPTION United Music Radio Festival 2000-2021
-#SERVICE 1:64:5a4:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b1:0:0:0:0:0:0:0:
 #DESCRIPTION ++overig Italiaans++
 #SERVICE 4097:0:2:273:0:0:0:0:0:0:http%3a//icy.unitedradio.it/105_522.mp3:105 BSMNT
 #DESCRIPTION 105 BSMNT
@@ -309,8 +309,8 @@
 #DESCRIPTION RADIO CICCIORICCIO
 #SERVICE 4097:0:2:135:0:0:0:0:0:0:http%3a//stream.rcdc.it%3a8000/;:RADIO CITTA' DEL CAPO
 #DESCRIPTION RADIO CITTA' DEL CAPO
-#SERVICE 4097:0:2:55:0:0:0:0:0:0:http%3a//str30.creacast.com/class_radioclassica:RADIO CLASSICA (Italië)
-#DESCRIPTION RADIO CLASSICA (Italië)
+#SERVICE 4097:0:2:55:0:0:0:0:0:0:https%3a//stream10.xdevel.com/audio0s978096-2470/stream/icecast.audio:Radio Classica
+#DESCRIPTION Radio Classica
 #SERVICE 4097:0:2:221:0:0:0:0:0:0:http%3a//sh1.inmystream.info%3a8188/;:RADIO CLUB NETWORK CAGLIARI
 #DESCRIPTION RADIO CLUB NETWORK CAGLIARI
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//freeus2.listen2myradio.com/stream.mp3?ipport=freeus2.listen2myradio.com_23405:Radio Codogno (Italië)
@@ -319,6 +319,8 @@
 #DESCRIPTION Radio Company
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming1.radiodatanet.it%3a8048/stream:Radio Cortina
 #DESCRIPTION Radio Cortina
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream9.xdevel.com/audio2s975936-745/stream/icecast.audio:Radio CRC
+#DESCRIPTION Radio CRC
 #SERVICE 4097:0:2:107:0:0:0:0:0:0:http%3a//nr9.newradio.it%3a9029:RADIO CUORE
 #DESCRIPTION RADIO CUORE
 #SERVICE 4097:0:2:107:0:0:0:0:0:0:https%3a//bay1.streamfm.it%3a8030/aacp:Radio Cusano Campus
@@ -461,10 +463,6 @@
 #DESCRIPTION RADIO MILANO
 #SERVICE 4097:0:2:355:0:0:0:0:0:0:http%3a//ice12.fluidstream.net/millenote.mp3:RADIO MILLE NOTE
 #DESCRIPTION RADIO MILLE NOTE
-#SERVICE 4097:0:2:355:0:0:0:0:0:0:https%3a//5f204aff97bee.streamlock.net/MillenniumTV/livestream/chunklist.m3u8:Radio Millenium TV
-#DESCRIPTION Radio Millenium TV
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mln.fluidstream.eu/millennium3.mp3:Radio Millenium 80s
-#DESCRIPTION Radio Millenium 80s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icy.unitedradio.it/rmcweb026:Radio Monte Carlo Planet
 #DESCRIPTION Radio Monte Carlo Planet
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icy.unitedradio.it/rmcweb024:Radio Monte Carlo Summer

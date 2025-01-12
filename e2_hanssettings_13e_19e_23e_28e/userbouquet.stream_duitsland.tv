@@ -1,15 +1,13 @@
 #NAME Stream Duitsland (DE)
-#SERVICE 1:64:22b:0:0:0:0:0:0:0:
+#SERVICE 1:64:239:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders-publieke omroepen++
-#SERVICE 4097:0:1:283d:3fb:1:c00000:0:0:0:https%3a//derste247liveint.akamaized.net/hls/live/662735/daserste_int/master.m3u8:ARD
+#SERVICE 4097:0:1:283d:3fb:1:c00000:0:0:0:https%3a//mcdn.daserste.de/daserste/de/master.m3u8:ARD
 #DESCRIPTION ARD
-#SERVICE 4097:0:1:283d:3fb:1:c00000:0:0:0:https%3a//mcdn.daserste.de/daserste/de/master.m3u8:ARD (#)
-#DESCRIPTION ARD (#)
 #SERVICE 4097:0:1:283d:3fb:1:c00000:0:0:0:https%3a//s6.hopslan.com/ard1/tracks-v1a1/mono.m3u8:ARD (#)
 #DESCRIPTION ARD (#)
 #SERVICE 4097:0:1:283d:3fb:1:c00000:0:0:0:http%3a//176.10.117.3%3a5000/play/a002/index.m3u8:ARD (#)
 #DESCRIPTION ARD (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mcdn.br.de/br/fs/ard_alpha/hls/int/master_960p_1600.m3u8:ARD Alpha
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8:ARD Alpha
 #DESCRIPTION ARD Alpha
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.10.117.3%3a5000/play/a01g/index.m3u8:ARD Alpha (#)
 #DESCRIPTION ARD Alpha (#)
@@ -21,14 +19,18 @@
 #DESCRIPTION ARD Phoenix
 #SERVICE 4097:0:1:2887:40f:1:c00000:0:0:0:https%3a//tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8:Tagesschau 24
 #DESCRIPTION Tagesschau 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.10.117.3%3a5000/play/a01c/index.m3u8:Tagesschau 24 (#)
+#DESCRIPTION Tagesschau 24 (#)
 #SERVICE 4097:0:1:2856:401:1:c00000:0:0:0:https%3a//mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8:BR Fernsehen Nord
 #DESCRIPTION BR Fernsehen Nord
-#SERVICE 4097:0:1:2856:401:1:c00000:0:0:0:https%3a//mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8:BR Fernsehen Süd
+#SERVICE 4097:0:1:2856:401:1:c00000:0:0:0:https%3a//brcdn.vo.llnwd.net/br/fs/bfs_sued/hls/de/master.m3u8:BR Fernsehen Süd
 #DESCRIPTION BR Fernsehen Süd
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8:DW Deutsche Welle
 #DESCRIPTION DW Deutsche Welle
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a02c:DW Deutsche Welle (Arabisch)
 #DESCRIPTION DW Deutsche Welle (Arabisch)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8:DW Deutsche Welle (Engels)
+#DESCRIPTION DW Deutsche Welle (Engels)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8:DW Deutsche Welle (Spaans)
 #DESCRIPTION DW Deutsche Welle (Spaans)
 #SERVICE 4097:0:1:2873:425:1:c00000:0:0:0:https%3a//hrhls.akamaized.net/hls/live/2024525/hrhls/master.m3u8:HR Fernsehen
@@ -93,7 +95,7 @@
 #DESCRIPTION KiKA
 #SERVICE 4097:0:1:6d68:437:1:c00000:0:0:0:http%3a//176.10.117.3%3a5000/play/a00v/index.m3u8:KiKA (#)
 #DESCRIPTION KiKA (#)
-#SERVICE 1:64:22c:0:0:0:0:0:0:0:
+#SERVICE 1:64:23a:0:0:0:0:0:0:0:
 #DESCRIPTION ++commerciële zenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ma.anixa.tv/clips/stream/anixehd/index.m3u8:Anixe
 #DESCRIPTION Anixe
@@ -207,7 +209,7 @@
 #DESCRIPTION Welt der Wunder TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ef56ef401101403a8b06f1dec29ef1eb.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-de_ZeeOne/playlist.m3u8:Zee One
 #DESCRIPTION Zee One
-#SERVICE 1:64:22d:0:0:0:0:0:0:0:
+#SERVICE 1:64:23b:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//123tv.cdn.ses-ps.com/index.m3u8:1-2-3 TV 
 #DESCRIPTION 1-2-3 TV 
@@ -267,7 +269,7 @@
 #DESCRIPTION VISIT-X.tv 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xite-samsung-de.amagi.tv/playlist.m3u8:Xite
 #DESCRIPTION Xite
-#SERVICE 1:64:22e:0:0:0:0:0:0:0:
+#SERVICE 1:64:23c:0:0:0:0:0:0:0:
 #DESCRIPTION ++lokale zenders++
 #SERVICE 4097:0:1:16a8:3ff:1:c00000:0:0:0:http%3a//178.248.241.103/iptv/atv.ts:a.tv HD
 #DESCRIPTION a.tv HD
@@ -419,6 +421,8 @@
 #DESCRIPTION Rhein Main TV 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rnf.iptv-playoutcenter.de/rnf/rnf.stream_1/playlist.m3u8:Rhein Neckar Fernsehen
 #DESCRIPTION Rhein Neckar Fernsehen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.rtvpendimi.com%3a19360/tvpendimi/tvpendimi.m3u8:RTV Pendimi
+#DESCRIPTION RTV Pendimi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/playlist.m3u8:Sachsen Eins
 #DESCRIPTION Sachsen Eins
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vogtland.iptv-playoutcenter.de/vogtland/vogtlandfernsehen.stream_1/playlist.m3u8:Sachsen Fernsehen Vogtland

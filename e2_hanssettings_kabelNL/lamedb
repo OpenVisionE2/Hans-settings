@@ -1,13 +1,13 @@
 eDVB services /4/
 transponders
+ffff0000:0005:0001
+	c 362000:6875000:2:5:0:0:0
+/
 ffff0000:0005:10ef
 	c 394000:6875000:2:3:0:0:0
 /
 ffff0000:0c82:0600
 	c 266000:6900000:2:5:0:0:0
-/
-ffff0000:0072:08c9
-	c 306000:6900000:2:3:0:0:0
 /
 ffff0000:007b:08c9
 	c 802000:6900000:2:3:0:0:0
@@ -15,11 +15,11 @@ ffff0000:007b:08c9
 ffff0000:0063:10ef
 	c 770000:6875000:2:3:0:0:0
 /
+ffff0000:0017:0001
+	c 346000:6875000:2:5:0:0:0
+/
 ffff0000:0066:08c9
 	c 554000:6900000:2:3:0:0:0
-/
-ffff0000:006f:08c9
-	c 674000:6900000:2:3:0:0:0
 /
 ffff0000:000b:10ef
 	c 650000:6875000:2:3:0:0:0
@@ -35,6 +35,9 @@ ffff0000:00c7:08c9
 /
 ffff0000:0012:10ef
 	c 746000:6875000:2:3:0:0:0
+/
+ffff0000:0072:08c9
+	c 306000:6900000:2:3:0:0:0
 /
 ffff0000:0084:08c9
 	c 610000:6900000:2:3:0:0:0
@@ -69,8 +72,8 @@ ffff0000:000d:25a8
 ffff0000:008f:08c9
 	c 386000:6900000:2:3:0:0:0
 /
-ffff0000:006e:08c9
-	c 794000:6900000:2:3:0:0:0
+ffff0000:000d:0001
+	c 402000:6875000:2:5:0:0:0
 /
 ffff0000:0085:08c9
 	c 354000:6900000:2:3:0:0:0
@@ -83,6 +86,9 @@ ffff0000:0816:0600
 /
 ffff0000:001f:10ef
 	c 778000:6875000:2:3:0:0:0
+/
+ffff0000:0008:0001
+	c 322000:6875000:2:5:0:0:0
 /
 ffff0000:0008:25a8
 	c 298000:6875000:2:5:0:0:0
@@ -102,14 +108,14 @@ ffff0000:0083:08c9
 ffff0000:0014:10ef
 	c 586000:6875000:2:3:0:0:0
 /
+ffff0000:006e:08c9
+	c 794000:6900000:2:3:0:0:0
+/
 ffff0000:008e:08c9
 	c 378000:6900000:2:3:0:0:0
 /
 ffff0000:0012:0600
 	c 474000:6875000:2:3:0:0:0
-/
-ffff0000:0079:08c9
-	c 634000:6900000:2:3:0:0:0
 /
 ffff0000:0078:08c9
 	c 666000:6900000:2:3:0:0:0
@@ -122,6 +128,12 @@ ffff0000:001a:10ef
 /
 ffff0000:0003:25a8
 	c 250000:6875000:2:3:0:0:0
+/
+ffff0000:0003:0001
+	c 378000:6875000:2:5:0:0:0
+/
+ffff0000:0079:08c9
+	c 634000:6900000:2:3:0:0:0
 /
 ffff0000:0c83:0600
 	c 266000:6900000:2:5:0:0:0
@@ -147,8 +159,14 @@ ffff0000:0013:10ef
 ffff0000:008d:08c9
 	c 370000:6900000:2:3:0:0:0
 /
+ffff0000:0010:0001
+	c 266000:6875000:2:5:0:0:0
+/
 ffff0000:0010:25a8
 	c 418000:6875000:2:5:0:0:0
+/
+ffff0000:006f:08c9
+	c 674000:6900000:2:3:0:0:0
 /
 ffff0000:0081:08c9
 	c 730000:6900000:2:3:0:0:0
@@ -168,17 +186,11 @@ ffff0000:0034:25a8
 ffff0000:0806:0600
 	c 346000:6900000:2:5:0:0:0
 /
-ffff0000:000b:0001
-	c 298000:6875000:2:5:0:0:0
-/
 ffff0000:001d:25a8
 	c 290000:6875000:2:3:0:0:0
 /
 ffff0000:001d:10ef
 	c 738000:6875000:2:3:0:0:0
-/
-ffff0000:0006:0001
-	c 290000:6875000:2:5:0:0:0
 /
 ffff0000:0006:25a8
 	c 274000:6875000:2:5:0:0:0
@@ -192,9 +204,6 @@ ffff0000:0bbc:0600
 ffff0000:0009:10ef
 	c 634000:6875000:2:3:0:0:0
 /
-ffff0000:006c:08c9
-	c 706000:6900000:2:3:0:0:0
-/
 ffff0000:006b:08c9
 	c 682000:6900000:2:3:0:0:0
 /
@@ -203,6 +212,9 @@ ffff0000:008b:08c9
 /
 ffff0000:001c:10ef
 	c 546000:6875000:2:3:0:0:0
+/
+ffff0000:0001:0001
+	c 394000:6875000:2:5:0:0:0
 /
 ffff0000:0001:25a8
 	c 242000:6875000:2:3:0:0:0
@@ -234,6 +246,9 @@ ffff0000:0814:0600
 ffff0000:0076:08c9
 	c 698000:6900000:2:3:0:0:0
 /
+ffff0000:006c:08c9
+	c 706000:6900000:2:3:0:0:0
+/
 ffff0000:0075:08c9
 	c 530000:6900000:2:3:0:0:0
 /
@@ -245,6 +260,9 @@ ffff0000:0025:25a8
 /
 ffff0000:0cb0:0600
 	c 266000:6900000:2:5:0:0:0
+/
+ffff0000:000e:0001
+	c 274000:6875000:2:5:0:0:0
 /
 ffff0000:000e:25a8
 	c 402000:6875000:2:5:0:0:0
@@ -267,6 +285,9 @@ ffff0000:0010:10ef
 ffff0000:0020:25a8
 	c 490000:6875000:2:3:0:0:0
 /
+ffff0000:0009:0001
+	c 314000:6875000:2:5:0:0:0
+/
 ffff0000:0009:25a8
 	c 346000:6875000:2:5:0:0:0
 /
@@ -275,6 +296,9 @@ ffff0000:0004:25a8
 /
 ffff0000:0069:08c9
 	c 778000:6900000:2:3:0:0:0
+/
+ffff0000:0004:0001
+	c 370000:6875000:2:5:0:0:0
 /
 ffff0000:0016:25a8
 	c 314000:6875000:2:5:0:0:0
@@ -309,6 +333,9 @@ ffff0000:000e:10ef
 ffff0000:000c:25a8
 	c 370000:6875000:2:5:0:0:0
 /
+ffff0000:000c:0001
+	c 354000:6875000:2:5:0:0:0
+/
 ffff0000:001e:10ef
 	c 538000:6875000:2:3:0:0:0
 /
@@ -317,6 +344,9 @@ ffff0000:001e:25a8
 /
 ffff0000:0007:25a8
 	c 282000:6875000:2:3:0:0:0
+/
+ffff0000:0007:0001
+	c 330000:6875000:2:5:0:0:0
 /
 ffff0000:0819:0600
 	c 426000:6900000:2:5:0:0:0
@@ -339,6 +369,9 @@ ffff0000:0c81:0600
 ffff0000:000d:10ef
 	c 666000:6875000:2:3:0:0:0
 /
+ffff0000:0002:0001
+	c 386000:6875000:2:5:0:0:0
+/
 ffff0000:0c86:0600
 	c 266000:6900000:2:5:0:0:0
 /
@@ -348,9 +381,6 @@ ffff0000:0002:25a8
 ffff0000:0014:25a8
 	c 458000:6875000:2:5:0:0:0
 /
-ffff0000:0071:08c9
-	c 786000:6900000:2:3:0:0:0
-/
 ffff0000:007c:08c9
 	c 834000:6900000:2:3:0:0:0
 /
@@ -359,6 +389,9 @@ ffff0000:00cd:0600
 /
 ffff0000:007d:08c9
 	c 314000:6900000:2:3:0:0:0
+/
+ffff0000:000f:0001
+	c 282000:6875000:2:5:0:0:0
 /
 ffff0000:0087:08c9
 	c 578000:6900000:2:3:0:0:0
@@ -374,6 +407,12 @@ ffff0000:0017:10ef
 /
 ffff0000:0038:25a8
 	c 226000:6875000:2:5:0:0:0
+/
+ffff0000:000a:0001
+	c 306000:6875000:2:5:0:0:0
+/
+ffff0000:0071:08c9
+	c 786000:6900000:2:3:0:0:0
 /
 ffff0000:0016:10ef
 	c 714000:6875000:2:3:0:0:0
@@ -408,12 +447,6 @@ ffff0000:0c7e:0600
 ffff0000:0807:0600
 	c 410000:6900000:2:5:0:0:0
 /
-ffff0000:000e:0001
-	c 120000:6875000:2:5:0:0:0
-/
-ffff0000:0009:0001
-	c 314000:6875000:2:5:0:0:0
-/
 ffff0000:0019:25a8
 	c 322000:6875000:2:5:0:0:0
 /
@@ -422,9 +455,6 @@ ffff0000:0026:25a8
 /
 ffff0000:080d:0600
 	c 298000:6900000:2:5:0:0:0
-/
-ffff0000:000a:0001
-	c 306000:6875000:2:5:0:0:0
 /
 ffff0000:0836:0600
 	c 362000:6900000:2:5:0:0:0
@@ -459,6 +489,9 @@ ffff0000:0835:0600
 ffff0000:080e:0600
 	c 370000:6900000:2:5:0:0:0
 /
+ffff0000:0012:0001
+	c 338000:6875000:2:5:0:0:0
+/
 ffff0000:0012:25a8
 	c 434000:6875000:2:3:0:0:0
 /
@@ -488,6 +521,9 @@ ffff0000:0027:25a8
 /
 ffff0000:0022:25a8
 	c 506000:6875000:2:3:0:0:0
+/
+ffff0000:000b:0001
+	c 298000:6875000:2:5:0:0:0
 /
 ffff0000:083b:0600
 	c 418000:6900000:2:5:0:0:0
@@ -581,6 +617,45 @@ eeee0000:0906:2210
 /
 end
 services
+0200:ffff0000:0005:0001:1:0
+LCI
+p:Telenet,f:40
+0201:ffff0000:0005:0001:1:0
+Eurosport.FR
+p:Telenet,f:40
+0202:ffff0000:0005:0001:1:0
+Nickelodeon FR
+p:Telenet,f:40
+0206:ffff0000:0005:0001:1:0
+TV5Monde
+p:Telenet,f:40
+020f:ffff0000:0005:0001:1:0
+Crime + Investigation
+p:Telenet,f:40
+022c:ffff0000:0005:0001:1:0
+Cartoonito
+p:Telenet,f:40
+01f5:ffff0000:0005:0001:1:0
+History.TV
+p:Telenet,f:40
+01f7:ffff0000:0005:0001:1:0
+Israel+
+p:Telenet,f:40
+0203:ffff0000:0005:0001:25:0
+TV Breizh
+p:Telenet,f:40
+0205:ffff0000:0005:0001:25:0
+Be Ciné
+p:Telenet,f:40
+0210:ffff0000:0005:0001:25:0
+Be 1
+p:Telenet,f:40
+01f8:ffff0000:0005:0001:25:0
+C8
+p:Telenet,f:40
+01f9:ffff0000:0005:0001:25:0
+Be Séries
+p:Telenet,f:40
 0200:ffff0000:0005:10ef:1:0
 Ketnet
 p:Delta
@@ -641,21 +716,6 @@ p:Ziggo,c:050001
 1aff:ffff0000:0c82:0600:25:0
 Roerstreek OR6
 p:Ziggo,c:050001
-3700:ffff0000:0072:08c9:1:0
-X-MO
-p:CAIW Media
-370a:ffff0000:0072:08c9:1:0
-Hustler TV
-p:CAIW Media
-36ce:ffff0000:0072:08c9:1:0
-Brazzers TV
-p:CAIW Media,c:050001
-36ba:ffff0000:0072:08c9:25:0
-NPO 1
-p:CAIW Media,c:050001
-36f6:ffff0000:0072:08c9:25:0
-Paramount Network
-p:CAIW Media,c:050001
 5a00:ffff0000:007b:08c9:1:0
 NDR
 p:CAIW Media
@@ -686,6 +746,42 @@ p:Delta
 0004:ffff0000:0063:10ef:25:0
 Testkanaal HD 2
 p:Delta
+0901:ffff0000:0017:0001:1:0
+ARD
+p:Telenet,f:40
+0902:ffff0000:0017:0001:1:0
+Disney Junior
+p:Telenet,f:40
+090b:ffff0000:0017:0001:1:0
+Rai Uno
+p:Telenet,f:40
+08fe:ffff0000:0017:0001:1:0
+ZDF
+p:,f:40
+0900:ffff0000:0017:0001:25:0
+PlattelandsTv
+p:Telenet,f:40
+0904:ffff0000:0017:0001:25:0
+Cartoon Network
+p:Telenet,f:40
+0906:ffff0000:0017:0001:25:0
+Baby TV
+p:Telenet,f:40
+0907:ffff0000:0017:0001:25:0
+njam!
+p:Telenet,f:40
+0909:ffff0000:0017:0001:25:0
+France 2
+p:Telenet,f:40
+090a:ffff0000:0017:0001:25:0
+France 3
+p:Telenet,f:40
+0925:ffff0000:0017:0001:25:0
+Nat Geo Wild
+p:Telenet,f:40
+08ff:ffff0000:0017:0001:25:0
+TFX
+p:Telenet,f:40
 0802:ffff0000:0066:08c9:1:0
 TV Rijnmond
 p:CAIW Media
@@ -724,69 +820,6 @@ MNM
 p:CAIW Media
 0870:ffff0000:0066:08c9:2:0
 FIP
-p:CAIW Media
-2b02:ffff0000:006f:08c9:1:0
-Haberturk
-p:CAIW Media
-2b2a:ffff0000:006f:08c9:1:0
-ATV
-p:CAIW Media
-2b48:ffff0000:006f:08c9:1:0
-WDR SD
-p:CAIW Media
-2b5d:ffff0000:006f:08c9:2:0
-Stingray Opera
-p:CAIW Media
-2b5e:ffff0000:006f:08c9:2:0
-Stingray Operette
-p:CAIW Media
-2b5f:ffff0000:006f:08c9:2:0
-Stingray Classical
-p:CAIW Media
-2b61:ffff0000:006f:08c9:2:0
-Stingray Cocktail Lounge
-p:CAIW Media
-2b62:ffff0000:006f:08c9:2:0
-Stingray The Chill Lounge
-p:CAIW Media
-2b64:ffff0000:006f:08c9:2:0
-Stingray Lounge
-p:CAIW Media
-2b65:ffff0000:006f:08c9:2:0
-Stingray France
-p:CAIW Media
-2b68:ffff0000:006f:08c9:2:0
-Stingray Relipop
-p:CAIW Media
-2b69:ffff0000:006f:08c9:2:0
-Stingray Salsa
-p:CAIW Media
-2b6a:ffff0000:006f:08c9:2:0
-Stingray Italia
-p:CAIW Media
-2b6b:ffff0000:006f:08c9:2:0
-Stingray Reggae
-p:CAIW Media
-2b6d:ffff0000:006f:08c9:2:0
-Stingray Turk
-p:CAIW Media
-2b70:ffff0000:006f:08c9:2:0
-Stingray Motown
-p:CAIW Media
-2b71:ffff0000:006f:08c9:2:0
-Stingray Jazz Classics
-p:CAIW Media
-2b72:ffff0000:006f:08c9:2:0
-Stingray Jazz
-p:CAIW Media
-2b73:ffff0000:006f:08c9:2:0
-Stingray Blues
-p:CAIW Media
-2b74:ffff0000:006f:08c9:2:0
-Stingray Filmmuziek
-p:CAIW Media
-2b75:ffff0000:006f:08c9:2:0
-Stingray All Day Party NL
 p:CAIW Media
 2b03:ffff0000:000b:10ef:1:0
 ONS
@@ -902,6 +935,18 @@ p:Delta
 0711:ffff0000:0012:10ef:1:0
 Secret Circle
 p:DELTA
+370a:ffff0000:0072:08c9:1:0
+Hustler TV
+p:CAIW Media
+36ce:ffff0000:0072:08c9:1:0
+Brazzers TV
+p:CAIW Media,c:050001
+36ba:ffff0000:0072:08c9:25:0
+NPO 1
+p:CAIW Media,c:050001
+36f6:ffff0000:0072:08c9:25:0
+Paramount Network
+p:CAIW Media,c:050001
 7d0a:ffff0000:0084:08c9:1:0
 Horse & Country TV
 p:CAIW Media
@@ -1211,24 +1256,39 @@ p:CAIW Media,c:050001
 a82a:ffff0000:008f:08c9:25:0
 Disney Channel
 p:CAIW Media,c:050001
-271a:ffff0000:006e:08c9:1:0
-TV8
-p:CAIW Media
-2724:ffff0000:006e:08c9:1:0
-ONS
-p:CAIW Media
-272e:ffff0000:006e:08c9:1:0
-Bloomberg Television
-p:CAIW Media
-2742:ffff0000:006e:08c9:1:0
-3Sat
-p:CAIW Media
-2756:ffff0000:006e:08c9:1:0
-RTBF La Deux
-p:CAIW Media,c:050001
-276a:ffff0000:006e:08c9:2:0
-Sunlite Radio
-p:CAIW Media
+0517:ffff0000:000d:0001:1:0
+Nick Jr.
+p:Telenet,f:40
+0519:ffff0000:000d:0001:1:0
+VTM Non-Stop 90s
+p:Telenet,f:40
+051d:ffff0000:000d:0001:1:0
+Vlaams Parlement TV
+p:Telenet,f:40
+051e:ffff0000:000d:0001:1:0
+DOBBIT TV
+p:Telenet,f:40
+0529:ffff0000:000d:0001:2:0
+Radio Maria
+p:Telenet,f:40
+0515:ffff0000:000d:0001:25:0
+MTV VL
+p:Telenet,f:40
+0516:ffff0000:000d:0001:25:0
+MENT55
+p:Telenet,f:40
+0518:ffff0000:000d:0001:25:0
+Nickelodeon
+p:Telenet,f:40
+051a:ffff0000:000d:0001:25:0
+TLC
+p:Telenet,f:40
+051b:ffff0000:000d:0001:25:0
+AB3
+p:Telenet,f:40
+051c:ffff0000:000d:0001:25:0
+RTL plug
+p:Telenet,f:40
 811a:ffff0000:0085:08c9:1:0
 NPO 1 extra
 p:CAIW Media
@@ -1343,6 +1403,27 @@ p:Delta
 0c22:ffff0000:001f:10ef:25:0
 Discovery Science
 p:Delta
+0321:ffff0000:0008:0001:1:0
+Nat Geo FR
+p:Telenet,f:40
+034d:ffff0000:0008:0001:1:0
+Disc ID
+p:Telenet,f:40
+034e:ffff0000:0008:0001:1:0
+ID
+p:Telenet,f:40
+0322:ffff0000:0008:0001:25:0
+Discovery FR
+p:Telenet,f:40
+0323:ffff0000:0008:0001:25:0
+DAZN 3 NL
+p:Telenet,f:40
+0327:ffff0000:0008:0001:25:0
+STAR Channel
+p:Telenet,f:40
+0328:ffff0000:0008:0001:25:0
+DAZN 2 NL
+p:Telenet,f:40
 0321:ffff0000:0008:25a8:1:0
 MTV 80s
 p:SKV
@@ -1538,6 +1619,21 @@ p:Delta
 4e2a:ffff0000:0014:10ef:25:0
 Euronews
 p:Delta
+2724:ffff0000:006e:08c9:1:0
+ONS
+p:CAIW Media
+272e:ffff0000:006e:08c9:1:0
+Bloomberg Television
+p:CAIW Media
+2742:ffff0000:006e:08c9:1:0
+3Sat
+p:CAIW Media
+2756:ffff0000:006e:08c9:1:0
+RTBF La Deux
+p:CAIW Media,c:050001
+276a:ffff0000:006e:08c9:2:0
+Sunlite Radio
+p:CAIW Media
 a424:ffff0000:008e:08c9:1:0
 MTV Hits
 p:CAIW Media
@@ -1655,27 +1751,6 @@ p:Ziggo
 4560:ffff0000:0012:0600:1:0
 Humax 5300 dev
 p:Ziggo
-5226:ffff0000:0079:08c9:1:0
-Eurostar TV
-p:CAIW Media
-5230:ffff0000:0079:08c9:1:0
-SLAM!TV
-p:CAIW Media
-523a:ffff0000:0079:08c9:1:0
-TRT Cocuk
-p:CAIW Media
-524e:ffff0000:0079:08c9:1:0
-HISTORY SD
-p:CAIW Media
-5258:ffff0000:0079:08c9:1:0
-RTL Crime
-p:CAIW Media
-5262:ffff0000:0079:08c9:1:0
-TRT Turk
-p:CAIW Media
-5244:ffff0000:0079:08c9:25:0
-MTV
-p:CAIW Media,c:050001
 4e2a:ffff0000:0078:08c9:1:0
 RTL Telekids
 p:CAIW Media
@@ -1790,6 +1865,177 @@ p:SKV
 0133:ffff0000:0003:25a8:25:0
 TV Rijnmond HD
 p:SKV
+012f:ffff0000:0003:0001:1:0
+VOO Sport World 2
+p:Telenet,f:40
+0130:ffff0000:0003:0001:1:0
+VOO Sport World 3
+p:Telenet,f:40
+0132:ffff0000:0003:0001:1:0
+DAZN Pro League 2 FR
+p:Telenet,f:40
+0134:ffff0000:0003:0001:1:0
+DAZN Pro League 3 FR
+p:Telenet,f:40
+0141:ffff0000:0003:0001:2:0
+Total Hits - UK
+p:Telenet,f:40
+0142:ffff0000:0003:0001:2:0
+Rock Anthems
+p:Telenet,f:40
+0143:ffff0000:0003:0001:2:0
+Drive
+p:Telenet,f:40
+0144:ffff0000:0003:0001:2:0
+Stingray Specials
+p:Telenet,f:40
+0145:ffff0000:0003:0001:2:0
+Headbangers
+p:Telenet,f:40
+0146:ffff0000:0003:0001:2:0
+Strictly 60s
+p:Telenet,f:40
+0147:ffff0000:0003:0001:2:0
+70s
+p:Telenet,f:40
+0148:ffff0000:0003:0001:2:0
+Dancefloor Fillers
+p:Telenet,f:40
+0149:ffff0000:0003:0001:2:0
+Bass Breaks & Beats
+p:Telenet,f:40
+014a:ffff0000:0003:0001:2:0
+Ultimate Urban
+p:Telenet,f:40
+014b:ffff0000:0003:0001:2:0
+Classic RnB & Soul
+p:Telenet,f:40
+014c:ffff0000:0003:0001:2:0
+Reggae Vibra
+p:Telenet,f:40
+014d:ffff0000:0003:0001:2:0
+World Carnival
+p:Telenet,f:40
+014e:ffff0000:0003:0001:2:0
+Jazz Classics
+p:Telenet,f:40
+014f:ffff0000:0003:0001:2:0
+Cool Jazz
+p:Telenet,f:40
+0150:ffff0000:0003:0001:2:0
+Chillout
+p:Telenet,f:40
+0151:ffff0000:0003:0001:2:0
+Hot Country
+p:Telenet,f:40
+0152:ffff0000:0003:0001:2:0
+Indie Classics
+p:Telenet,f:40
+0153:ffff0000:0003:0001:2:0
+Blues
+p:Telenet,f:40
+0154:ffff0000:0003:0001:2:0
+Classical Greats
+p:Telenet,f:40
+0155:ffff0000:0003:0001:2:0
+Classical Orchestral
+p:Telenet,f:40
+0156:ffff0000:0003:0001:2:0
+Classical Calm
+p:Telenet,f:40
+0157:ffff0000:0003:0001:2:0
+80s
+p:Telenet,f:40
+0158:ffff0000:0003:0001:2:0
+90s
+p:Telenet,f:40
+0159:ffff0000:0003:0001:2:0
+Silk
+p:Telenet,f:40
+015a:ffff0000:0003:0001:2:0
+Revival
+p:Telenet,f:40
+015b:ffff0000:0003:0001:2:0
+Cocktail Lounge
+p:Telenet,f:40
+015c:ffff0000:0003:0001:2:0
+All Day Party
+p:Telenet,f:40
+015d:ffff0000:0003:0001:2:0
+Total Hits - German
+p:Telenet,f:40
+015e:ffff0000:0003:0001:2:0
+Schlager
+p:Telenet,f:40
+015f:ffff0000:0003:0001:2:0
+Freedom
+p:Telenet,f:40
+0160:ffff0000:0003:0001:2:0
+Groove (Disco&Funk)
+p:Telenet,f:40
+0161:ffff0000:0003:0001:2:0
+Hip Hop
+p:Telenet,f:40
+0162:ffff0000:0003:0001:2:0
+Total Hits - France
+p:Telenet,f:40
+0163:ffff0000:0003:0001:2:0
+Total Hits - Italy
+p:Telenet,f:40
+0164:ffff0000:0003:0001:2:0
+Türk Müzigi
+p:Telenet,f:40
+0165:ffff0000:0003:0001:2:0
+Total Hits - Nordic
+p:Telenet,f:40
+0166:ffff0000:0003:0001:2:0
+Total Hits - Spain
+p:Telenet,f:40
+0167:ffff0000:0003:0001:2:0
+Classic Rock
+p:Telenet,f:40
+0168:ffff0000:0003:0001:2:0
+Rock n Roll
+p:Telenet,f:40
+0169:ffff0000:0003:0001:2:0
+Belpop
+p:Telenet,f:40
+016a:ffff0000:0003:0001:2:0
+Chansons
+p:Telenet,f:40
+012d:ffff0000:0003:0001:25:0
+VOO Sport World 1
+p:Telenet,f:40
+0133:ffff0000:0003:0001:25:0
+DAZN 1 FR
+p:Telenet,f:40
+0138:ffff0000:0003:0001:25:0
+DAZN Pro League 1 FR
+p:Telenet,f:40
+0139:ffff0000:0003:0001:25:0
+Ciné+ Classic
+p:Telenet,f:40
+013a:ffff0000:0003:0001:25:0
+Ciné+ Frisson
+p:Telenet,f:40
+013b:ffff0000:0003:0001:25:0
+Ciné+ OCS
+p:Telenet,f:40
+5230:ffff0000:0079:08c9:1:0
+SLAM!TV
+p:CAIW Media
+524e:ffff0000:0079:08c9:1:0
+HISTORY SD
+p:CAIW Media
+5258:ffff0000:0079:08c9:1:0
+RTL Crime
+p:CAIW Media
+5262:ffff0000:0079:08c9:1:0
+TRT Turk
+p:CAIW Media
+5244:ffff0000:0079:08c9:25:0
+MTV
+p:CAIW Media,c:050001
 1b32:ffff0000:0c83:0600:1:0
 TV Valkenburg
 p:Ziggo
@@ -2114,6 +2360,48 @@ p:CAIW Media,c:050001
 a06e:ffff0000:008d:08c9:25:0
 HGTV
 p:CAIW Media,c:050001
+0641:ffff0000:0010:0001:1:0
+2M Monde
+p:Telenet,f:40
+0644:ffff0000:0010:0001:1:0
+Euronews
+p:Telenet,f:40
+0645:ffff0000:0010:0001:1:0
+Al Jazeera Eng.
+p:,f:40
+064c:ffff0000:0010:0001:1:0
+R. Contact Vision
+p:Telenet,f:40
+0656:ffff0000:0010:0001:1:0
+VOX
+p:Telenet,f:40
+0658:ffff0000:0010:0001:1:0
+Fashion TV
+p:Telenet,f:40
+066a:ffff0000:0010:0001:1:0
+E! Ent
+p:Telenet,f:40
+066b:ffff0000:0010:0001:1:0
+Mezzo Live HD
+p:Telenet,f:40
+0642:ffff0000:0010:0001:25:0
+Penthouse Passion
+p:Telenet,f:40
+0643:ffff0000:0010:0001:25:0
+Penthouse Gold
+p:Telenet,f:40
+0646:ffff0000:0010:0001:25:0
+HGTV
+p:,f:40
+0647:ffff0000:0010:0001:25:0
+Studio 100 TV
+p:,f:40
+064b:ffff0000:0010:0001:25:0
+MENTpop
+p:Telenet,f:40
+064f:ffff0000:0010:0001:25:0
+Dorcel TV
+p:Telenet,f:40
 0644:ffff0000:0010:25a8:1:0
 Nicktoons
 p:SKV
@@ -2129,6 +2417,63 @@ p:SKV
 0642:ffff0000:0010:25a8:25:0
 ESPN HD
 p:SKV
+2b48:ffff0000:006f:08c9:1:0
+WDR SD
+p:CAIW Media
+2b5d:ffff0000:006f:08c9:2:0
+Stingray Opera
+p:CAIW Media
+2b5e:ffff0000:006f:08c9:2:0
+Stingray Operette
+p:CAIW Media
+2b5f:ffff0000:006f:08c9:2:0
+Stingray Classical
+p:CAIW Media
+2b61:ffff0000:006f:08c9:2:0
+Stingray Cocktail Lounge
+p:CAIW Media
+2b62:ffff0000:006f:08c9:2:0
+Stingray The Chill Lounge
+p:CAIW Media
+2b64:ffff0000:006f:08c9:2:0
+Stingray Lounge
+p:CAIW Media
+2b65:ffff0000:006f:08c9:2:0
+Stingray France
+p:CAIW Media
+2b68:ffff0000:006f:08c9:2:0
+Stingray Relipop
+p:CAIW Media
+2b69:ffff0000:006f:08c9:2:0
+Stingray Salsa
+p:CAIW Media
+2b6a:ffff0000:006f:08c9:2:0
+Stingray Italia
+p:CAIW Media
+2b6b:ffff0000:006f:08c9:2:0
+Stingray Reggae
+p:CAIW Media
+2b6d:ffff0000:006f:08c9:2:0
+Stingray Turk
+p:CAIW Media
+2b70:ffff0000:006f:08c9:2:0
+Stingray Motown
+p:CAIW Media
+2b71:ffff0000:006f:08c9:2:0
+Stingray Jazz Classics
+p:CAIW Media
+2b72:ffff0000:006f:08c9:2:0
+Stingray Jazz
+p:CAIW Media
+2b73:ffff0000:006f:08c9:2:0
+Stingray Blues
+p:CAIW Media
+2b74:ffff0000:006f:08c9:2:0
+Stingray Filmmuziek
+p:CAIW Media
+2b75:ffff0000:006f:08c9:2:0
+Stingray All Day Party NL
+p:CAIW Media
 7148:ffff0000:0081:08c9:1:0
 TVE Internaçional
 p:CAIW Media,c:050001
@@ -2396,42 +2741,6 @@ p:Ziggo,c:050001,c:090202
 4a51:ffff0000:0806:0600:25:0
 Ketnet
 p:Ziggo,c:050001,c:098800
-0457:ffff0000:000b:0001:1:0
-vtm
-p:Telenet,c:050001
-0458:ffff0000:000b:0001:1:0
-VTM 2
-p:Telenet,c:050001
-0459:ffff0000:000b:0001:1:0
-VTM 3
-p:Telenet,c:050001
-045a:ffff0000:000b:0001:1:0
-vtm KIDS/NatGeo
-p:Telenet,c:050001
-045b:ffff0000:000b:0001:1:0
-CAZ2
-p:Telenet
-045c:ffff0000:000b:0001:1:0
-NPO 1
-p:Telenet,c:050001
-045d:ffff0000:000b:0001:1:0
-NPO 2
-p:Telenet,c:050001
-045e:ffff0000:000b:0001:1:0
-NPO 3
-p:Telenet,c:050001
-045f:ffff0000:000b:0001:1:0
-vlaamsparlement.tv
-p:Telenet,c:050001
-044f:ffff0000:000b:0001:25:0
-één HD
-p:Telenet,c:050001
-0450:ffff0000:000b:0001:25:0
-Canvas HD
-p:Telenet,c:050001
-0451:ffff0000:000b:0001:25:0
-Ketnet
-p:Telenet,c:050001
 0b57:ffff0000:001d:25a8:1:0
 Infokanaal
 p:SKV
@@ -2453,42 +2762,6 @@ p:Delta
 0b58:ffff0000:001d:10ef:25:0
 BBC Two
 p:Delta
-0259:ffff0000:0006:0001:1:0
-La Une
-p:Telenet,c:050001,c:09c100
-025a:ffff0000:0006:0001:1:0
-Tipik
-p:Telenet,c:050001,c:09c800
-025b:ffff0000:0006:0001:1:0
-RTL TVI
-p:Telenet,c:050001
-025c:ffff0000:0006:0001:1:0
-VIER
-p:Telenet,c:050001
-025d:ffff0000:0006:0001:1:0
-VIJF
-p:Telenet,c:050001
-025e:ffff0000:0006:0001:1:0
-Disney Channel VL
-p:Telenet,c:050001
-025f:ffff0000:0006:0001:1:0
-Comedy Central
-p:Telenet,c:050001
-0260:ffff0000:0006:0001:1:0
-Discovery VL
-p:Telenet,c:050001
-0261:ffff0000:0006:0001:1:0
-Infokanaal
-p:Telenet,c:050001
-0262:ffff0000:0006:0001:1:0
-Nickelodeon/Spike
-p:Telenet
-0263:ffff0000:0006:0001:1:0
-Regionale TV
-p:Telenet,c:050001
-0276:ffff0000:0006:0001:1:0
-INFO
-p:Telenet,c:050001
 0259:ffff0000:0006:25a8:1:0
 3 SAT
 p:SKV
@@ -2597,27 +2870,6 @@ p:Delta
 0391:ffff0000:0009:10ef:1:0
 Canvas SD
 p:Delta
-1f5e:ffff0000:006c:08c9:1:0
-MTV 90s
-p:CAIW Media
-1f72:ffff0000:006c:08c9:1:0
-MTV SD
-p:CAIW Media
-1f7c:ffff0000:006c:08c9:1:0
-ZDF SD
-p:CAIW Media
-1f86:ffff0000:006c:08c9:1:0
-ARD SD
-p:CAIW Media
-1fae:ffff0000:006c:08c9:2:0
-NDR Kultur
-p:CAIW Media
-1fb8:ffff0000:006c:08c9:2:0
-Deutsche Welle
-p:CAIW Media
-1f4a:ffff0000:006c:08c9:25:0
-Ziggo Sport 3
-p:DFN,c:050001
 1b62:ffff0000:006b:08c9:1:0
 TLC SD
 p:CAIW Media
@@ -2669,6 +2921,51 @@ p:Delta
 6d62:ffff0000:001c:10ef:25:0
 Veronica / DisneyXD
 p:Delta
+0065:ffff0000:0001:0001:1:0
+Play 247
+p:Telenet,f:40
+0067:ffff0000:0001:0001:1:0
+NickToons
+p:Telenet,f:40
+0069:ffff0000:0001:0001:1:0
+Netflix
+p:Telenet,f:40
+006a:ffff0000:0001:0001:1:0
+Yelo TV-channel
+p:Telenet,f:40
+007a:ffff0000:0001:0001:2:0
+TOPradio
+p:Telenet,f:40
+007b:ffff0000:0001:0001:2:0
+ROXX
+p:Telenet,f:40
+007d:ffff0000:0001:0001:2:0
+Family Radio
+p:Telenet,f:40
+007f:ffff0000:0001:0001:2:0
+One World Radio
+p:Telenet,f:40
+0066:ffff0000:0001:0001:25:0
+DAZN 3 FR
+p:Telenet,f:40
+0068:ffff0000:0001:0001:25:0
+MTV Live
+p:Telenet,f:40
+006d:ffff0000:0001:0001:25:0
+DAZN 2 FR
+p:Telenet,f:40
+006e:ffff0000:0001:0001:25:0
+Nickelodeon Ukraine
+p:Telenet,f:40
+006f:ffff0000:0001:0001:25:0
+X-MO
+p:Telenet,f:40
+0070:ffff0000:0001:0001:25:0
+Sport 10
+p:Telenet,f:40
+0071:ffff0000:0001:0001:25:0
+W Sport
+p:Telenet,f:40
 0065:ffff0000:0001:25a8:1:0
 Comedy Central
 p:SKV
@@ -2873,6 +3170,9 @@ p:CAIW Media
 4a42:ffff0000:0077:08c9:25:0
 Comedy Central
 p:CAIW Media,c:050001
+4aa6:ffff0000:0077:08c9:25:0
+X-MO
+p:DFN,c:050001,f:40
 6d6a:ffff0000:0080:08c9:1:0
 E! Pop of Culture
 p:CAIW Media
@@ -2969,6 +3269,24 @@ p:CAIW Media
 4664:ffff0000:0076:08c9:25:0
 Filmbox
 p:CAIW Media,c:050001
+1f72:ffff0000:006c:08c9:1:0
+MTV SD
+p:CAIW Media
+1f7c:ffff0000:006c:08c9:1:0
+ZDF SD
+p:CAIW Media
+1f86:ffff0000:006c:08c9:1:0
+ARD SD
+p:CAIW Media
+1fae:ffff0000:006c:08c9:2:0
+NDR Kultur
+p:CAIW Media
+1fb8:ffff0000:006c:08c9:2:0
+Deutsche Welle
+p:CAIW Media
+1f4a:ffff0000:006c:08c9:25:0
+Ziggo Sport 3
+p:DFN,c:050001
 4272:ffff0000:0075:08c9:1:0
 Film1 Drama
 p:CAIW Media,c:050001
@@ -3038,6 +3356,111 @@ p:Ziggo
 14c8:ffff0000:0cb0:0600:2:0
 GL8 Radio
 p:Ziggo
+0579:ffff0000:000e:0001:1:0
+VOO Sport World 4
+p:Telenet,f:40
+057a:ffff0000:000e:0001:1:0
+Playboy TV
+p:Telenet,f:40
+057b:ffff0000:000e:0001:1:0
+Play Sports Golf
+p:Telenet,f:40
+057c:ffff0000:000e:0001:1:0
+Al Maghreb TV
+p:Telenet,f:40
+057d:ffff0000:000e:0001:1:0
+n-tv
+p:Telenet,f:40
+0580:ffff0000:000e:0001:1:0
+Bloomberg
+p:Telenet,f:40
+0581:ffff0000:000e:0001:1:0
+Horse & Country
+p:Telenet,f:40
+058a:ffff0000:000e:0001:1:0
+CGTN
+p:Telenet,f:40
+058c:ffff0000:000e:0001:1:0
+Play Sports Premier League
+p:Telenet,f:40
+05a2:ffff0000:000e:0001:1:0
+Nick Music Global
+p:Telenet,f:40
+05a3:ffff0000:000e:0001:1:0
+MTV 00s
+p:Telenet,f:40
+058d:ffff0000:000e:0001:2:0
+France Musique
+p:Telenet,f:40
+058e:ffff0000:000e:0001:2:0
+France Culture
+p:Telenet,f:40
+058f:ffff0000:000e:0001:2:0
+France Inter
+p:Telenet,f:40
+0592:ffff0000:000e:0001:2:0
+RFI
+p:Telenet,f:40
+0593:ffff0000:000e:0001:2:0
+BBC Radio 1
+p:Telenet,f:40
+0594:ffff0000:000e:0001:2:0
+BBC Radio 2
+p:Telenet,f:40
+0595:ffff0000:000e:0001:2:0
+BBC Radio 3
+p:Telenet,f:40
+0596:ffff0000:000e:0001:2:0
+BBC World Service
+p:Telenet,f:40
+0597:ffff0000:000e:0001:2:0
+NPO Radio 1
+p:Telenet,f:40
+0598:ffff0000:000e:0001:2:0
+NPO Radio 2
+p:Telenet,f:40
+0599:ffff0000:000e:0001:2:0
+NPO 3FM
+p:Telenet,f:40
+059a:ffff0000:000e:0001:2:0
+NPO Radio 4
+p:Telenet,f:40
+059b:ffff0000:000e:0001:2:0
+1LIVE
+p:Telenet,f:40
+059c:ffff0000:000e:0001:2:0
+WDR 2
+p:Telenet,f:40
+059d:ffff0000:000e:0001:2:0
+WDR 3
+p:Telenet,f:40
+059e:ffff0000:000e:0001:2:0
+WDR 4
+p:Telenet,f:40
+059f:ffff0000:000e:0001:2:0
+WDR 5
+p:Telenet,f:40
+05a0:ffff0000:000e:0001:2:0
+ZEN
+p:Telenet,f:40
+05a4:ffff0000:000e:0001:2:0
+Contact
+p:Telenet,f:40
+05a5:ffff0000:000e:0001:2:0
+Mint
+p:Telenet,f:40
+05a6:ffff0000:000e:0001:2:0
+BRF 1
+p:Telenet,f:40
+057e:ffff0000:000e:0001:25:0
+ShortsTV
+p:Telenet,f:40
+0587:ffff0000:000e:0001:25:0
+France 4
+p:Telenet,f:40
+0588:ffff0000:000e:0001:25:0
+France 5
+p:Telenet,f:40
 0579:ffff0000:000e:25a8:1:0
 MTV Hits
 p:SKV
@@ -3072,7 +3495,7 @@ p:CAIW Media,c:050001
 RTV Katwijk
 p:Ziggo
 177c:ffff0000:0c70:0600:1:0
-RTV Amstelveen
+1Amstelveen
 p:Ziggo,c:050001
 177d:ffff0000:0c70:0600:1:0
 Bollenstreek Omroep
@@ -3122,9 +3545,6 @@ p:CAIW Media
 698c:ffff0000:007f:08c9:1:0
 Al Jazeera English
 p:CAIW Media,c:050001
-69a0:ffff0000:007f:08c9:1:0
-TRT Muzik
-p:CAIW Media
 69b4:ffff0000:007f:08c9:1:0
 Crime+Investigation
 p:CAIW Media
@@ -3245,6 +3665,93 @@ p:SKV
 0c81:ffff0000:0020:25a8:25:0
 ESPN 4 HD
 p:SKV
+0389:ffff0000:0009:0001:1:0
+BBC 1
+p:Telenet,f:40
+038c:ffff0000:0009:0001:1:0
+Comedy Central
+p:Telenet,f:40
+0399:ffff0000:0009:0001:2:0
+Radio 1
+p:Telenet,f:40
+039a:ffff0000:0009:0001:2:0
+Radio 2 Vl. Br.
+p:Telenet,f:40
+039b:ffff0000:0009:0001:2:0
+MNM
+p:Telenet,f:40
+039c:ffff0000:0009:0001:2:0
+StuBru
+p:Telenet,f:40
+039d:ffff0000:0009:0001:2:0
+Klara
+p:Telenet,f:40
+039e:ffff0000:0009:0001:2:0
+Klara Continuo
+p:Telenet,f:40
+039f:ffff0000:0009:0001:2:0
+MNM Hits
+p:Telenet,f:40
+03a0:ffff0000:0009:0001:2:0
+nieuws+
+p:Telenet,f:40
+03a1:ffff0000:0009:0001:2:0
+De Tijdloze
+p:Telenet,f:40
+03a2:ffff0000:0009:0001:2:0
+Radio 2 Antw.
+p:Telenet,f:40
+03a3:ffff0000:0009:0001:2:0
+Radio 2 Limb.
+p:Telenet,f:40
+03a4:ffff0000:0009:0001:2:0
+Radio 2 O. Vl.
+p:Telenet,f:40
+03a5:ffff0000:0009:0001:2:0
+Radio 2 W. Vl.
+p:Telenet,f:40
+03a6:ffff0000:0009:0001:2:0
+La Première
+p:,f:40
+03a7:ffff0000:0009:0001:2:0
+VivaCité
+p:Telenet,f:40
+03a8:ffff0000:0009:0001:2:0
+Musiq3
+p:Telenet,f:40
+03a9:ffff0000:0009:0001:2:0
+Tipik radio
+p:Telenet,f:40
+03aa:ffff0000:0009:0001:2:0
+Classic21
+p:Telenet,f:40
+03ab:ffff0000:0009:0001:2:0
+Bel RTL
+p:Telenet,f:40
+03ac:ffff0000:0009:0001:2:0
+NRJ
+p:Telenet,f:40
+03ad:ffff0000:0009:0001:2:0
+Nostalgie
+p:Telenet,f:40
+03ae:ffff0000:0009:0001:2:0
+Nostalgie+
+p:Telenet,f:40
+038a:ffff0000:0009:0001:25:0
+BBC 2
+p:,f:40
+0390:ffff0000:0009:0001:25:0
+Play4
+p:Telenet,f:40
+0391:ffff0000:0009:0001:25:0
+Play5
+p:Telenet,f:40
+0392:ffff0000:0009:0001:25:0
+Play.Crime
+p:Telenet,f:40
+0393:ffff0000:0009:0001:25:0
+Play.7
+p:Telenet,f:40
 0389:ffff0000:0009:25a8:1:0
 Stingray Classica
 p:SKV
@@ -3305,6 +3812,30 @@ p:CAIW Media
 13d8:ffff0000:0069:08c9:1:0
 XITE SD
 p:CAIW Media
+0196:ffff0000:0004:0001:1:0
+Hustler HD
+p:Telenet,f:40
+0191:ffff0000:0004:0001:25:0
+Play More Kicks
+p:Telenet,f:40
+0192:ffff0000:0004:0001:25:0
+Play More Black
+p:Telenet,f:40
+0193:ffff0000:0004:0001:25:0
+Play More Cinema
+p:Telenet,f:40
+0194:ffff0000:0004:0001:25:0
+Play Sports 7
+p:Telenet,f:40
+0195:ffff0000:0004:0001:25:0
+Play Sports HD1
+p:Telenet,f:40
+0197:ffff0000:0004:0001:25:0
+Play Sports HD3
+p:Telenet,f:40
+0198:ffff0000:0004:0001:25:0
+Play Sports HD4
+p:Telenet,f:40
 0899:ffff0000:0016:25a8:1:0
 ESPN SD
 p:SKV
@@ -3344,9 +3875,6 @@ p:Delta
 659a:ffff0000:007e:08c9:1:0
 Nat Geo Wild SD
 p:CAIW Media
-65ae:ffff0000:007e:08c9:1:0
-Show Turk
-p:CAIW Media,c:050001
 65c2:ffff0000:007e:08c9:1:0
 NPO Politiek en Nieuws
 p:CAIW Media
@@ -3602,6 +4130,30 @@ p:SKV
 04b5:ffff0000:000c:25a8:25:0
 NGC Wild HD
 p:SKV
+04b5:ffff0000:000c:0001:1:0
+Play Sports Info
+p:Telenet,f:40
+04b9:ffff0000:000c:0001:1:0
+Eclips TV
+p:Telenet,f:40
+04b1:ffff0000:000c:0001:25:0
+Discovery Vl HD
+p:Telenet,f:40
+04b2:ffff0000:000c:0001:25:0
+Nat Geo HD
+p:Telenet,f:40
+04b4:ffff0000:000c:0001:25:0
+LN24
+p:Telenet,f:40
+04b6:ffff0000:000c:0001:25:0
+TF1 HD
+p:Telenet,f:40
+04b8:ffff0000:000c:0001:25:0
+Play.6
+p:Telenet,f:40
+04da:ffff0000:000c:0001:25:0
+Animal Planet
+p:Telenet,f:40
 0bbb:ffff0000:001e:10ef:1:0
 RTL Crime
 p:Delta
@@ -3638,6 +4190,42 @@ p:SKV
 02c0:ffff0000:0007:25a8:1:0
 RTL 8
 p:SKV
+02c1:ffff0000:0007:0001:1:0
+Be 1+1h
+p:Telenet,f:40
+02c2:ffff0000:0007:0001:1:0
+CNBC Europe
+p:Telenet,f:40
+02c3:ffff0000:0007:0001:1:0
+CNN
+p:,f:40
+02c5:ffff0000:0007:0001:1:0
+TVE
+p:,f:40
+02c6:ffff0000:0007:0001:1:0
+BBC News
+p:Telenet,f:40
+02cb:ffff0000:0007:0001:1:0
+Mediaset Italia
+p:Telenet,f:40
+02bd:ffff0000:0007:0001:25:0
+NPO 1
+p:,f:40
+02be:ffff0000:0007:0001:25:0
+NPO 2
+p:,f:40
+02bf:ffff0000:0007:0001:25:0
+NPO 3
+p:,f:40
+02c0:ffff0000:0007:0001:25:0
+Disney VL
+p:,f:40
+02c4:ffff0000:0007:0001:25:0
+Arte Belgique
+p:,f:40
+02c7:ffff0000:0007:0001:25:0
+BBC First
+p:Telenet,f:40
 4cc3:ffff0000:0819:0600:1:0
 Ziggo
 p:Ziggo
@@ -3923,6 +4511,75 @@ p:Delta
 32cb:ffff0000:000d:10ef:25:0
 Omroep Zeeland
 p:Delta
+00cd:ffff0000:0002:0001:1:0
+RTL Tele
+p:Telenet,f:40
+00d0:ffff0000:0002:0001:1:0
+TRT
+p:Telenet,f:40
+00d2:ffff0000:0002:0001:1:0
+OUT TV
+p:,f:40
+00d3:ffff0000:0002:0001:1:0
+ATV
+p:Telenet,f:40
+00dd:ffff0000:0002:0001:2:0
+Willy
+p:Telenet,f:40
+00de:ffff0000:0002:0001:2:0
+Q-Allstars
+p:Telenet,f:40
+00df:ffff0000:0002:0001:2:0
+Q-Foute Radio
+p:Telenet,f:40
+00e0:ffff0000:0002:0001:2:0
+JOE Gold
+p:Telenet,f:40
+00e1:ffff0000:0002:0001:2:0
+Joe 80s & 90s
+p:Telenet,f:40
+00e2:ffff0000:0002:0001:2:0
+Willy Class X
+p:Telenet,f:40
+00e3:ffff0000:0002:0001:2:0
+Joe Easy
+p:Telenet,f:40
+00e4:ffff0000:0002:0001:2:0
+RTBF Mix
+p:Telenet,f:40
+00e5:ffff0000:0002:0001:2:0
+Stadsradio Vlaanderen
+p:Telenet,f:40
+00e7:ffff0000:0002:0001:2:0
+VRT Radio Bene
+p:Telenet,f:40
+00ee:ffff0000:0002:0001:2:0
+Radio Judaïca
+p:Telenet,f:40
+00ef:ffff0000:0002:0001:2:0
+Be One
+p:Telenet,f:40
+00c9:ffff0000:0002:0001:25:0
+KanaalZ
+p:Telenet,f:40
+00ca:ffff0000:0002:0001:25:0
+Stingray Classica
+p:Telenet,f:40
+00cb:ffff0000:0002:0001:25:0
+DAZN 1 NL
+p:Telenet,f:40
+00cc:ffff0000:0002:0001:25:0
+Eurosport 2 HD
+p:Telenet,f:40
+00ce:ffff0000:0002:0001:25:0
+Xite
+p:Telenet,f:40
+00cf:ffff0000:0002:0001:25:0
+Nick Jr. FR
+p:Telenet,f:40
+00d9:ffff0000:0002:0001:25:0
+VTM 4
+p:Telenet,f:40
 1bcd:ffff0000:0c86:0600:1:0
 Regionieuws TV
 p:Ziggo
@@ -4064,63 +4721,9 @@ p:SKV
 07d3:ffff0000:0014:25a8:25:0
 Kabelkrant HD
 p:SKV
-32d2:ffff0000:0071:08c9:1:0
-CNN Turk
-p:CAIW Media
-32e6:ffff0000:0071:08c9:1:0
-Euro D
-p:CAIW Media
-32f0:ffff0000:0071:08c9:1:0
-Kabel Eins
-p:DFN
-32fa:ffff0000:0071:08c9:1:0
-n-tv
-p:DFN
-340e:ffff0000:0071:08c9:2:0
-Stingray Espana
-p:CAIW Media
-340f:ffff0000:0071:08c9:2:0
-Stingray Rock N Roll
-p:CAIW Media
-3410:ffff0000:0071:08c9:2:0
-Stingray Hip Hop
-p:CAIW Media
-3411:ffff0000:0071:08c9:2:0
-Stingray Classic RnB & Soul
-p:CAIW Media
-3412:ffff0000:0071:08c9:2:0
-Stingray Trance
-p:CAIW Media
-3413:ffff0000:0071:08c9:2:0
-Stingray Dance
-p:CAIW Media
-3414:ffff0000:0071:08c9:2:0
-Stingray Drive
-p:CAIW Media
-3415:ffff0000:0071:08c9:2:0
-Stingray Classic Rock
-p:CAIW Media
-3416:ffff0000:0071:08c9:2:0
-Stingray Hard Rock
-p:CAIW Media
-3417:ffff0000:0071:08c9:2:0
-Stingray Alternative Rock
-p:CAIW Media
-3418:ffff0000:0071:08c9:2:0
-Stingray Rock Anthems
-p:CAIW Media
-341a:ffff0000:0071:08c9:2:0
-Stingray The Spa
-p:CAIW Media
-341d:ffff0000:0071:08c9:2:0
-Stingray Love Songs
-p:CAIW Media
 5dd4:ffff0000:007c:08c9:1:0
 Caiway Evenementenkanaal
 p:CAIW Media,c:050001
-5dde:ffff0000:007c:08c9:1:0
-TRT 1
-p:CAIW Media
 5de8:ffff0000:007c:08c9:1:0
 Dusk Deluxe!
 p:CAIW Media,c:050001
@@ -4229,6 +4832,24 @@ p:CAIW Media,c:050001
 61c6:ffff0000:007d:08c9:25:0
 Ziggo Sport
 p:CAIW Media,c:050001
+05e0:ffff0000:000f:0001:1:0
+TMC
+p:Telenet,f:40
+05e1:ffff0000:000f:0001:1:0
+Disc science
+p:Telenet,f:40
+05dd:ffff0000:000f:0001:25:0
+DAZN Pro League 1 NL
+p:Telenet,f:40
+05de:ffff0000:000f:0001:25:0
+DAZN Pro League 2 NL
+p:Telenet,f:40
+05df:ffff0000:000f:0001:25:0
+DAZN Pro League 3 NL
+p:Telenet,f:40
+05e2:ffff0000:000f:0001:25:0
+Play Sports HD2
+p:Telenet,f:40
 88e0:ffff0000:0087:08c9:1:0
 Caiway informatie SD
 p:CAIW Media
@@ -4340,6 +4961,75 @@ p:SKV
 15e2:ffff0000:0038:25a8:25:0
 TRT World HD
 p:SKV
+03ec:ffff0000:000a:0001:1:0
+VTM GOLD
+p:Telenet,f:40
+03fd:ffff0000:000a:0001:2:0
+Q-music radio
+p:Telenet,f:40
+03fe:ffff0000:000a:0001:2:0
+JOE fm
+p:Telenet,f:40
+03e9:ffff0000:000a:0001:25:0
+VTM 2
+p:Telenet,f:40
+03ed:ffff0000:000a:0001:25:0
+vtm HD
+p:Telenet,f:40
+03f2:ffff0000:000a:0001:25:0
+VTM 3
+p:Telenet,f:40
+03f3:ffff0000:000a:0001:25:0
+Q-music
+p:Telenet,f:40
+03f4:ffff0000:000a:0001:25:0
+Eurosport HD
+p:Telenet,f:40
+32f0:ffff0000:0071:08c9:1:0
+Kabel Eins
+p:DFN
+32fa:ffff0000:0071:08c9:1:0
+n-tv
+p:DFN
+340e:ffff0000:0071:08c9:2:0
+Stingray Espana
+p:CAIW Media
+340f:ffff0000:0071:08c9:2:0
+Stingray Rock N Roll
+p:CAIW Media
+3410:ffff0000:0071:08c9:2:0
+Stingray Hip Hop
+p:CAIW Media
+3411:ffff0000:0071:08c9:2:0
+Stingray Classic RnB & Soul
+p:CAIW Media
+3412:ffff0000:0071:08c9:2:0
+Stingray Trance
+p:CAIW Media
+3413:ffff0000:0071:08c9:2:0
+Stingray Dance
+p:CAIW Media
+3414:ffff0000:0071:08c9:2:0
+Stingray Drive
+p:CAIW Media
+3415:ffff0000:0071:08c9:2:0
+Stingray Classic Rock
+p:CAIW Media
+3416:ffff0000:0071:08c9:2:0
+Stingray Hard Rock
+p:CAIW Media
+3417:ffff0000:0071:08c9:2:0
+Stingray Alternative Rock
+p:CAIW Media
+3418:ffff0000:0071:08c9:2:0
+Stingray Rock Anthems
+p:CAIW Media
+341a:ffff0000:0071:08c9:2:0
+Stingray The Spa
+p:CAIW Media
+341d:ffff0000:0071:08c9:2:0
+Stingray Love Songs
+p:CAIW Media
 55f1:ffff0000:0016:10ef:1:0
 RTL8 SD
 p:Delta
@@ -4943,126 +5633,6 @@ p:Ziggo,c:050001,c:090202
 4a68:ffff0000:0807:0600:25:0
 Viaplay Xtra
 p:Ziggo,c:050001
-058d:ffff0000:000e:0001:2:0
-France Musique
-p:Telenet
-058e:ffff0000:000e:0001:2:0
-France Culture
-p:Telenet
-058f:ffff0000:000e:0001:2:0
-France Inter
-p:Telenet
-0593:ffff0000:000e:0001:2:0
-BBC Radio 1
-p:Telenet
-0594:ffff0000:000e:0001:2:0
-BBC Radio 2
-p:Telenet
-0595:ffff0000:000e:0001:2:0
-BBC Radio 3
-p:Telenet
-0596:ffff0000:000e:0001:2:0
-BBC World Service
-p:Telenet
-0597:ffff0000:000e:0001:2:0
-NPO Radio 1
-p:Telenet
-0598:ffff0000:000e:0001:2:0
-NPO Radio 2
-p:Telenet
-0599:ffff0000:000e:0001:2:0
-NPO 3FM
-p:Telenet
-059a:ffff0000:000e:0001:2:0
-NPO Radio 4
-p:Telenet
-059b:ffff0000:000e:0001:2:0
-1LIVE
-p:Telenet
-059c:ffff0000:000e:0001:2:0
-WDR 2
-p:Telenet
-059d:ffff0000:000e:0001:2:0
-WDR 3
-p:Telenet
-059e:ffff0000:000e:0001:2:0
-WDR 4
-p:Telenet
-059f:ffff0000:000e:0001:2:0
-WDR 5
-p:Telenet
-05a4:ffff0000:000e:0001:2:0
-Contact
-p:Telenet
-05a5:ffff0000:000e:0001:2:0
-Mint
-p:Telenet
-05a6:ffff0000:000e:0001:2:0
-BRF 1
-p:Telenet
-0399:ffff0000:0009:0001:2:0
-Radio 1
-p:Telenet
-039a:ffff0000:0009:0001:2:0
-Radio 2 Vl. Br.
-p:Telenet
-039b:ffff0000:0009:0001:2:0
-MNM
-p:Telenet
-039c:ffff0000:0009:0001:2:0
-StuBru
-p:Telenet
-039d:ffff0000:0009:0001:2:0
-Klara
-p:Telenet
-039e:ffff0000:0009:0001:2:0
-Klara Continuo
-p:Telenet
-039f:ffff0000:0009:0001:2:0
-MNM Hits
-p:Telenet
-03a0:ffff0000:0009:0001:2:0
-nieuws+
-p:Telenet
-03a1:ffff0000:0009:0001:2:0
-De Tijdloze
-p:Telenet
-03a2:ffff0000:0009:0001:2:0
-Radio 2 Antw.
-p:Telenet
-03a3:ffff0000:0009:0001:2:0
-Radio 2 Limb.
-p:Telenet
-03a4:ffff0000:0009:0001:2:0
-Radio 2 O. Vl.
-p:Telenet
-03a5:ffff0000:0009:0001:2:0
-Radio 2 W. Vl.
-p:Telenet
-03a6:ffff0000:0009:0001:2:0
-La Première
-p:
-03a7:ffff0000:0009:0001:2:0
-VivaCité
-p:Telenet
-03a8:ffff0000:0009:0001:2:0
-Musiq3
-p:Telenet
-03a9:ffff0000:0009:0001:2:0
-Tipik radio
-p:Telenet
-03aa:ffff0000:0009:0001:2:0
-Classic21
-p:Telenet
-03ab:ffff0000:0009:0001:2:0
-Bel RTL
-p:Telenet
-03ac:ffff0000:0009:0001:2:0
-NRJ
-p:Telenet
-03ad:ffff0000:0009:0001:2:0
-Nostalgie
-p:Telenet
 62d5:ffff0000:0019:25a8:2:0
 Q-Music
 p:SKV
@@ -5126,12 +5696,6 @@ p:Ziggo
 4ade:ffff0000:080d:0600:25:0
 Comedy Central
 p:Ziggo,c:050001
-03fd:ffff0000:000a:0001:2:0
-Q-music radio
-p:Telenet
-03fe:ffff0000:000a:0001:2:0
-JOE fm
-p:Telenet
 4c1e:ffff0000:0836:0600:22:0
 MTV Hits
 p:Ziggo
@@ -5351,6 +5915,27 @@ p:Ziggo,c:050001,c:098800
 52de:ffff0000:080e:0600:25:0
 Omrop Fryslân
 p:Ziggo,c:050001
+0709:ffff0000:0012:0001:25:0
+La Trois
+p:Telenet,f:40
+070a:ffff0000:0012:0001:25:0
+Play Sports 8
+p:Telenet,f:40
+070b:ffff0000:0012:0001:25:0
+RTL district
+p:Telenet,f:40
+0713:ffff0000:0012:0001:25:0
+La Une HD
+p:Telenet,f:40
+0714:ffff0000:0012:0001:25:0
+Tipik
+p:Telenet,f:40
+0715:ffff0000:0012:0001:25:0
+RTL tvi
+p:Telenet,f:40
+0716:ffff0000:0012:0001:25:0
+RTL club
+p:Telenet,f:40
 0709:ffff0000:0012:25a8:25:0
 TV Noord HD
 p:SKV
@@ -5468,6 +6053,9 @@ p:Ziggo,c:050001
 4e3d:ffff0000:0802:0600:25:0
 MTV Live HD
 p:Ziggo,c:050001
+4e3e:ffff0000:0802:0600:25:0
+Ziggo Sport Totaal
+p:Ziggo
 0f3d:ffff0000:0027:25a8:25:0
 BBC 3 / CbbC HD
 p:SKV
@@ -5486,6 +6074,15 @@ p:SKV
 0d4b:ffff0000:0022:25a8:25:0
 TV West HD
 p:SKV
+044f:ffff0000:000b:0001:25:0
+VRT 1
+p:Telenet,f:40
+0450:ffff0000:000b:0001:25:0
+VRT CANVAS
+p:Telenet,f:40
+0451:ffff0000:000b:0001:25:0
+Ketnet
+p:Telenet,f:40
 544f:ffff0000:083b:0600:25:0
 RTV Noord
 p:Ziggo,c:050001

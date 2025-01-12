@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:4ff:0:0:0:0:0:0:0:
+#SERVICE 1:64:50d:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -41,7 +41,7 @@
 #DESCRIPTION FunX Rotterdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/funx-utrecht-bb-mp3:FunX Utrecht
 #DESCRIPTION FunX Utrecht
-#SERVICE 1:64:500:0:0:0:0:0:0:0:
+#SERVICE 1:64:50e:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -49,18 +49,14 @@
 #DESCRIPTION 40UP Radio!
 #SERVICE 4097:0:2:5253:c99:3:eb0000:0:0:0:http%3a//stream.100p.nl/100pctnl.mp3:100%25 NL
 #DESCRIPTION 100% NL
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB03_MP3.mp3:100%25 NL 70s & 80s
+#DESCRIPTION 100% NL 70s & 80s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB04_MP3.mp3:100%25 NL 90s & 00s 
+#DESCRIPTION 100% NL 90s & 00s 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.100p.nl/web01_mp3:100%25 NL Feest
 #DESCRIPTION 100% NL Feest
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.100p.nl/web03_mp3:100%25 NL Liefde
-#DESCRIPTION 100% NL Liefde
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.100p.nl/web04_mp3:100%25 NL Nederpop
-#DESCRIPTION 100% NL Nederpop
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.100p.nl/web02_mp3:100%25 NL Nonstop
 #DESCRIPTION 100% NL Nonstop
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.100p.nl/web06_mp3:100%25 NL Puur
-#DESCRIPTION 100% NL Puur
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB05_MP3:100%25 NL Songfestival
-#DESCRIPTION 100% NL Songfestival
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server-14.stream-server.nl%3a8030/:192 Radio
 #DESCRIPTION 192 Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//192radio.stream-server.nl/stream:192 Radio (NL) - alternatief
@@ -91,8 +87,6 @@
 #DESCRIPTION 538 Zomer
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server-09.stream-server.nl%3a8400/;stream/1:ABTT (Adje Bouman’s Top Tien)
 #DESCRIPTION ABTT (Adje Bouman’s Top Tien)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/JUKE_S01.mp3:Ajax Radio
-#DESCRIPTION Ajax Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.hofhosting.nl/proxy/allsports_main?mp=/stream:ALLsportsradio
 #DESCRIPTION ALLsportsradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/ARROWBLUESBOX.mp3:Arrow Bluesbox Radio
@@ -173,6 +167,8 @@
 #DESCRIPTION Concertzender World of Jazz
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.greenhost.nl%3a8006/concertzenderlive:Concertzender X-Rated
 #DESCRIPTION Concertzender X-Rated
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/CREAM.mp3:Cream
+#DESCRIPTION Cream
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/DEEP_RADIO_SC:Deep Radio
 #DESCRIPTION Deep Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.deep.radio/hd:Deep Radio HD
@@ -235,22 +231,6 @@
 #DESCRIPTION JND Classics
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.joe.nl/joe/mp3:Joe 70s 80s
 #DESCRIPTION Joe 70s 80s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22603.live.streamtheworld.com/JUKE_S16AAC.aac:JUKE - AZ Radio
-#DESCRIPTION JUKE - AZ Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/JUKE_S16.mp3:JUKE - AZ Radio
-#DESCRIPTION JUKE - AZ Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/JUKE_S07.mp3:JUKE - Foute Hits
-#DESCRIPTION JUKE - Foute Hits
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22323.live.streamtheworld.com/JUKE_S11.mp3:JUKE - Lentekriebels
-#DESCRIPTION JUKE - Lentekriebels
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/JUKE_S04.mp3:JUKE - Music Care Ontspannen
-#DESCRIPTION JUKE - Music Care Ontspannen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB04_MP3.mp3:JUKE - Non-Stop Nederpop
-#DESCRIPTION JUKE - Non-Stop Nederpop
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/JUKE_S05.mp3:JUKE - Radio Roda JC 
-#DESCRIPTION JUKE - Radio Roda JC 
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB04_MP3.mp3:JUKE - Winterkriebels
-#DESCRIPTION JUKE - Winterkriebels
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.automates.media/jumboradio:Jumbo Radio
 #DESCRIPTION Jumbo Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/JUMBORADIO.mp3:Jumbo Radio
@@ -269,10 +249,6 @@
 #DESCRIPTION KINK Distortion
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.layzer.nl/layzer.mp3:Layzer
 #DESCRIPTION Layzer
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/JUKE_S02_SC.mp3:LINDA.NL Linda Lievelings
-#DESCRIPTION LINDA.NL Linda Lievelings
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/TALPA_TRIAL_SC01.mp3 :LINDA.NL Zomer In Je Bol
-#DESCRIPTION LINDA.NL Zomer In Je Bol
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//play.lxclassics.com/:LX-Classics
 #DESCRIPTION LX-Classics
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.magicfm.nl/magicfm:Magic FM
@@ -417,14 +393,14 @@
 #DESCRIPTION Radio Nostalgia - alternatief
 #SERVICE 4097:0:2:17f2:c82:3:eb0000:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/VERONICA_SC:Radio Veronica
 #DESCRIPTION Radio Veronica
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR12_SC:Radio Veronica Alternative
-#DESCRIPTION Radio Veronica Alternative
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR11_SC:Radio Veronica Rock Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/DAB01_AAC.aac :Radio Veronica Goud van Oud
+#DESCRIPTION Radio Veronica Goud van Oud
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR09.mp3 :Radio Veronica Non Stop
+#DESCRIPTION Radio Veronica Non Stop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB07_AAC.aac:Radio Veronica Rock Radio
 #DESCRIPTION Radio Veronica Rock Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR10_SC:Radio Veronica Top 1000 Allertijden
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB06_AAC.aac :Radio Veronica Top 1000 Allertijden
 #DESCRIPTION Radio Veronica Top 1000 Allertijden
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR09_SC:Radio Veronica Vintage
-#DESCRIPTION Radio Veronica Vintage
 #SERVICE 4097:0:2:52eb:c96:3:eb0000:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SKYRADIO_SC:Sky Radio
 #DESCRIPTION Sky Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR04_SC:Sky Radio - 80s Hits
@@ -447,13 +423,15 @@
 #DESCRIPTION Sky Radio - Smooth Hits
 #SERVICE 4097:0:2:5262:c99:3:eb0000:0:0:0:https%3a//stream.slam.nl/slam_mp3:SLAM!
 #DESCRIPTION SLAM!
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB14_MP3_SC:SLAM! 40
-#DESCRIPTION SLAM! 40
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB15_MP3.mp3:SLAM! '00s
+#DESCRIPTION SLAM! '00s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB14_AAC.aac:SLAM! '10s
+#DESCRIPTION SLAM! '10s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB08_AAC.aac  :SLAM! '90s
+#DESCRIPTION SLAM! '90s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB15_MP3_SC:SLAM! Dance Classics
 #DESCRIPTION SLAM! Dance Classics
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB11_MP3_SC:SLAM! Hardstyle
-#DESCRIPTION SLAM! Hardstyle
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB16_MP3_SC:SLAM! Housuh In De Pauzuh
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB16_MP3.mp3  :SLAM! Housuh In De Pauzuh
 #DESCRIPTION SLAM! Housuh In De Pauzuh
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB09_MP3_SC:SLAM! Juize
 #DESCRIPTION SLAM! Juize
@@ -461,10 +439,10 @@
 #DESCRIPTION SLAM! Mixmarathon
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB10_MP3_SC:SLAM! Non-Stop
 #DESCRIPTION SLAM! Non-Stop
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB08_MP3_SC:SLAM! Summer
-#DESCRIPTION SLAM! Summer
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB12_MP3_SC:SLAM! The Boom Room
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB12_AAC.aac  :SLAM! The Boom Room
 #DESCRIPTION SLAM! The Boom Room
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB11_AAC.aac  :SLAM! WKNDMX
+#DESCRIPTION SLAM! WKNDMX
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.soulradio.com/SOULRADIO.mp3:Soul Radio
 #DESCRIPTION Soul Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-soulshow-cdp.triple-it.nl/soulshow_128.mp3:Soulshow Radio
@@ -483,19 +461,15 @@
 #DESCRIPTION Stenders & Blokhuis - XXL Stenders
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25253.live.streamtheworld.com/SUBLIME.mp3:Sublime
 #DESCRIPTION Sublime
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sublime.nl/web24_mp3:Sublime Classics
-#DESCRIPTION Sublime Classics
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sublime.nl/web21_mp3 :Sublime Funk & Disco
-#DESCRIPTION Sublime Funk & Disco
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sublime.nl/web21_mp3 :Sublime Jazz
-#DESCRIPTION Sublime Jazz
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sublime.nl/web23_mp3 :Sublime Smooth
-#DESCRIPTION Sublime Smooth
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sublime.nl/web22_mp3 :Sublime Soul
-#DESCRIPTION Sublime Soul
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sublime.nl/web21_mp3 :Sublime New Jazz
+#DESCRIPTION Sublime New Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.sublime.nl/web20_mp3:Sublime R&B '90s & '00s
+#DESCRIPTION Sublime R&B '90s & '00s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sublime.nl/web23_mp3 :Sublime Sunday Chill
+#DESCRIPTION Sublime Sunday Chill
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sublime.nl/web22_mp3 :Sublime Soul Classics
+#DESCRIPTION Sublime Soul Classics
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SUNLITE_MP3.mp3:Sunlite
-#DESCRIPTION Sunlite
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//23603.live.streamtheworld.com/SUNLITE_MP3_SC:Sunlite
 #DESCRIPTION Sunlite
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mscp4.live-streams.nl%3a8190/live.mp3:Sweet Rock Radio
 #DESCRIPTION Sweet Rock Radio
@@ -521,6 +495,38 @@
 #DESCRIPTION Team FM - Twente
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22653.live.streamtheworld.com/OWR_WORLD_RADIO_NLAAC.aac:Tomorrow One World Radio
 #DESCRIPTION Tomorrow One World Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_06.mp3:TOP40 60s
+#DESCRIPTION TOP40 60s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_01.mp3:TOP40 70s80s90s
+#DESCRIPTION TOP40 70s80s90s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_07.mp3:TOP40 70s
+#DESCRIPTION TOP40 70s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//27943.live.streamtheworld.com/NLTOP40_08.mp3:TOP40 80s
+#DESCRIPTION TOP40 80s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_09.mp3:TOP40 90s
+#DESCRIPTION TOP40 90s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_02.mp3:TOP40 2K
+#DESCRIPTION TOP40 2K
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_05.mp3:TOP40 Drive
+#DESCRIPTION TOP40 Drive
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_03.mp3:TOP40 Hitdossier
+#DESCRIPTION TOP40 Hitdossier
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_04.mp3:TOP40 Hits
+#DESCRIPTION TOP40 Hits
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_11.mp3:TOP40 Hollands
+#DESCRIPTION TOP40 Hollands
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_14.mp3:TOP40 Ibiza
+#DESCRIPTION TOP40 Ibiza
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_15.mp3:TOP40 Lounge
+#DESCRIPTION TOP40 Lounge
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_12.mp3:TOP40 Love
+#DESCRIPTION TOP40 Love
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicnl-cdp.triple-it.nl//Qmusic_nl_top40.mp3:TOP40 Qmusic
+#DESCRIPTION TOP40 Qmusic
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_13.mp3:TOP40 Rock
+#DESCRIPTION TOP40 Rock
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25683.live.streamtheworld.com/NLTOP40_10.mp3:TOP40 Workout
+#DESCRIPTION TOP40 Workout
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.hofhosting.nl/proxy/traffic_main?mp=/stream:Traffic Radio
 #DESCRIPTION Traffic Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tukkerfm.nl/tukkerfm:Tukker FM
@@ -545,13 +551,11 @@
 #DESCRIPTION World of Jazz
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio.wildhitradio.nl/wildfm.mp3:Wild FM
 #DESCRIPTION Wild FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25433.live.streamtheworld.com/JUKE_S06AAC.aac:Willem II Radio
-#DESCRIPTION Willem II Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-edge-kef8b.ams.s.radiomast.io/7f5e877e-8c01-4a7b-9435-c8bfd21f25cc:Yoursafe Radio
 #DESCRIPTION Yoursafe Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:501:0:0:0:0:0:0:0:
+#SERVICE 1:64:50f:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -591,13 +595,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:502:0:0:0:0:0:0:0:
+#SERVICE 1:64:510:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:503:0:0:0:0:0:0:0:
+#SERVICE 1:64:511:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits (NL Nationaal)
 #DESCRIPTION 18Hits (NL Nationaal)
