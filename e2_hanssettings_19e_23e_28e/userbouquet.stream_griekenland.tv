@@ -1,5 +1,5 @@
 #NAME Stream Griekenland (GR)
-#SERVICE 1:64:352:0:0:0:0:0:0:0:
+#SERVICE 1:64:34c:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=88714&extension=ts:ERT 1
 #DESCRIPTION ERT 1
@@ -9,10 +9,16 @@
 #DESCRIPTION ERT 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ertflix.s.llnwi.net/ertlive/ertnews/default/index.m3u8:ERT News
 #DESCRIPTION ERT News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbbtvapp.ert.gr/stream.php/v/vid_ertsports_mpeg.2ts:ERT Sports 1
+#DESCRIPTION ERT Sports 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts:ERT Sports 2
+#DESCRIPTION ERT Sports 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=245295&extension=ts:ERT World
 #DESCRIPTION ERT World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//eu2.tv4e.gr%3a554/live/smil%3amyStream.sdp.smil/playlist.m3u8:4E
 #DESCRIPTION 4E
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//acheloostv.streamings.gr/live/stream/index.m3u8:Acheloos TV
+#DESCRIPTION Acheloos TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8:Action 24
 #DESCRIPTION Action 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lightning-actionhollywood-xiaomi.amagi.tv/playlist.m3u8:Action Hollywood Movies
@@ -35,10 +41,16 @@
 #DESCRIPTION Kontra 8
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//neon.streams.gr%3a8081/telekriti/index.m3u8:Telekriti 8
 #DESCRIPTION Telekriti 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.streams.ovh%3a1935/foxtv/foxtv/playlist.m3u8:Mad Greekz
+#DESCRIPTION Mad Greekz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ellastvmax.better-than.tv/freetv/madworldtv/index.m3u8:Mad World
+#DESCRIPTION Mad World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=109530&extension=ts:Mega TV
 #DESCRIPTION Mega TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.neatv.gr%3a8888/hls/neatv_high/index.m3u8:Nea TV
 #DESCRIPTION Nea TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.netmaxtv.com%3a1936/live/live/chunklist_w1671867540.m3u8:Netmax TV
+#DESCRIPTION Netmax TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//196914.global.ssl.fastly.net/63fe5f3a8f037f47ac36fb2a/live_1d411f00b7a411eda9b5d3bb4704377e/index.m3u8:Omega Channel
 #DESCRIPTION Omega Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sl2.sigmatv.com/hls/live.m3u8:Sigma TV
@@ -61,7 +73,7 @@
 #DESCRIPTION Top Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.fm100.gr/hls/tv100/index.m3u8:TV 100
 #DESCRIPTION TV 100
-#SERVICE 1:64:353:0:0:0:0:0:0:0:
+#SERVICE 1:64:34d:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssh101.bozztv.com/ssh101/astratv/playlist.m3u8:Astra
 #DESCRIPTION Astra
@@ -69,6 +81,8 @@
 #DESCRIPTION Baraza TV Deep House
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp.streams.ovh%3a1936/barazarelax/barazarelax/playlist.m3u8:Baraza TV Relaxing
 #DESCRIPTION Baraza TV Relaxing
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn5.smart-tv-data.com/bluesky/bluesky-live/playlist.m3u8:Blue Sky
+#DESCRIPTION Blue Sky
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//itv.streams.ovh/corfuchannel/corfuchannel/playlist.m3u8:Corfu Channel
 #DESCRIPTION Corfu Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.streams.ovh%3a1935/tvcreta/tvcreta/playlist.m3u8:Creta
@@ -83,6 +97,8 @@
 #DESCRIPTION Ellas World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/eurotv/eurotv/HasBahCa.m3u8:Euro TV
 #DESCRIPTION Euro TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.streams.ovh%3a8081/gnomitv/index.m3u8:Gnomi TV
+#DESCRIPTION Gnomi TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l5.cloudskep.com/hellenictv/htv/playlist.m3u8:Hellenic TV
 #DESCRIPTION Hellenic TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.ioniantv.gr%3a8081/ionian/live/playlist.m3u8:Ionian Channel 
@@ -93,8 +109,6 @@
 #DESCRIPTION KPHTH TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//thor.mental-media.gr%3a19360/imp/imp.m3u8:Lychnos TV
 #DESCRIPTION Lychnos TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.streams.ovh%3a1935/foxtv/foxtv/playlist.m3u8:Mad Greekz
-#DESCRIPTION Mad Greekz
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5cb1ee4d59ac0.streamlock.net/ngradiotv/ngradiotv/playlist.m3u8:NG Radio
 #DESCRIPTION NG Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.nrg91.gr%3a1935/onweb/live/master.m3u8:NRG 91 

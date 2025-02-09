@@ -1,5 +1,5 @@
 #NAME Stream België nationaal (BE)
-#SERVICE 1:64:5a8:0:0:0:0:0:0:0:
+#SERVICE 1:64:5a0:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - VRT++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1-high.mp3:VRT Radio 1
 #DESCRIPTION VRT Radio 1
@@ -43,7 +43,7 @@
 #DESCRIPTION VRT Studio Brussel Vuurland
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_bruut-high.mp3:VRT Studio Brussel Zware Gitaren
 #DESCRIPTION VRT Studio Brussel Zware Gitaren
-#SERVICE 1:64:5a9:0:0:0:0:0:0:0:
+#SERVICE 1:64:5a1:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - overig nationaal++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//3755.cloudrad.io%3a8008/live:21Bis (België)
 #DESCRIPTION 21Bis (België)
@@ -71,8 +71,10 @@
 #DESCRIPTION BRUZZ
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.medianation.be/bam:Business AM
 #DESCRIPTION Business AM
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//streams.movemedia.eu%3a8000/c-dance:C-Dance (BE)
-#DESCRIPTION C-Dance (BE)
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//streams.movemedia.eu%3a8000/c-dance:C-Dance
+#DESCRIPTION C-Dance
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//clubfmserver.be/pink.mp3:Candie
+#DESCRIPTION Candie
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.crooze.eu/proxy/cecret/stream:Cecret
 #DESCRIPTION Cecret
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream2.intronic.nl%3a80/citymusic:City-Music (België)
@@ -343,6 +345,8 @@
 #DESCRIPTION TOP2
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/TOPBAM.mp3:TOP Bam
 #DESCRIPTION TOP Bam
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//21633.live.streamtheworld.com/DANCE_TOP1000.mp3:TOP Dance 1000
+#DESCRIPTION TOP Dance 1000
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/TOPSPINNING.mp3:TOP Non stop
 #DESCRIPTION TOP Non stop
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/DANCE_TOP1000.mp3:TOP Radio Dance Top 1000
@@ -397,7 +401,7 @@
 #DESCRIPTION ZZOldies
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//axtran.radioca.st/stream:ZZROCK
 #DESCRIPTION ZZROCK
-#SERVICE 1:64:5aa:0:0:0:0:0:0:0:
+#SERVICE 1:64:5a2:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bruxelles et Wallonie++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rcf.streamakaci.com/rcfbe.mp3:1RCF
 #DESCRIPTION 1RCF
@@ -451,10 +455,6 @@
 #DESCRIPTION Chérie Romantic
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//cdn.nrjaudio.fm/adwz1/be/55563/aac_64.mp3:Chérie Zen
 #DESCRIPTION Chérie Zen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactplus.ice.infomaniak.ch/contactplus-192.mp3:Contact  Fresh
-#DESCRIPTION Contact  Fresh
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactlaplaylistdetonton.ice.infomaniak.ch/contactlaplaylistdetonton-192.mp3:Contact La Playlist de Tonton
-#DESCRIPTION Contact La Playlist de Tonton
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//belrtl.ice.infomaniak.ch/belrtl-mp3-192.mp3:Bel RTL
 #DESCRIPTION Bel RTL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//belrtl60.ice.infomaniak.ch/belrtl60-128.mp3:Bel RTL 60 
@@ -595,6 +595,8 @@
 #DESCRIPTION Radio Contact 90s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contact2.ice.infomaniak.ch/contact2-192.mp3:Radio Contact 2000
 #DESCRIPTION Radio Contact 2000
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactmix.ice.infomaniak.ch/contactmix-192.mp3:Radio Contact DJ's
+#DESCRIPTION Radio Contact DJ's
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiocontact.ice.infomaniak.ch/radiocontact-mp3-128.mp3:Radio Contact FeelGood
 #DESCRIPTION Radio Contact FeelGood
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactplus.ice.infomaniak.ch/contactplus-192.mp3:Radio Contact Fresh
@@ -707,7 +709,7 @@
 #DESCRIPTION TradCan
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//thewordradio.out.airtime.pro/thewordradio_a:The Word Radio (Brussels)
 #DESCRIPTION The Word Radio (Brussels)
-#SERVICE 1:64:5ab:0:0:0:0:0:0:0:
+#SERVICE 1:64:5a3:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostkantons (Duitstalig)++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.brf.be%3a80/brf1-high.mp3:BRF1
 #DESCRIPTION BRF1
@@ -729,7 +731,7 @@
 #DESCRIPTION Radio Contact Ostbelgien NOW
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamlive.syndicationradio.fr%3a8158/stream:Radio Sunshine
 #DESCRIPTION Radio Sunshine
-#SERVICE 1:64:5ac:0:0:0:0:0:0:0:
+#SERVICE 1:64:5a4:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//46.17.3.52%3a10000/stream/1/:Dance Tunes Radio
 #DESCRIPTION Dance Tunes Radio

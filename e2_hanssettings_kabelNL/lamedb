@@ -222,6 +222,9 @@ ffff0000:0001:25a8
 ffff0000:0001:10ef
 	c 674000:6875000:2:3:0:0:0
 /
+ffff0000:0807:0000
+	c 410000:6900000:2:5:0:0:0
+/
 ffff0000:0c7a:0600
 	c 266000:6900000:2:5:0:0:0
 /
@@ -619,43 +622,43 @@ end
 services
 0200:ffff0000:0005:0001:1:0
 LCI
-p:Telenet,f:40
+p:Telenet
 0201:ffff0000:0005:0001:1:0
 Eurosport.FR
-p:Telenet,f:40
+p:Telenet
 0202:ffff0000:0005:0001:1:0
 Nickelodeon FR
-p:Telenet,f:40
+p:Telenet
 0206:ffff0000:0005:0001:1:0
 TV5Monde
-p:Telenet,f:40
+p:Telenet
 020f:ffff0000:0005:0001:1:0
 Crime + Investigation
-p:Telenet,f:40
+p:Telenet
 022c:ffff0000:0005:0001:1:0
 Cartoonito
-p:Telenet,f:40
+p:Telenet
 01f5:ffff0000:0005:0001:1:0
 History.TV
-p:Telenet,f:40
+p:Telenet
 01f7:ffff0000:0005:0001:1:0
 Israel+
-p:Telenet,f:40
+p:Telenet
 0203:ffff0000:0005:0001:25:0
 TV Breizh
-p:Telenet,f:40
+p:Telenet
 0205:ffff0000:0005:0001:25:0
 Be Ciné
-p:Telenet,f:40
+p:Telenet
 0210:ffff0000:0005:0001:25:0
 Be 1
-p:Telenet,f:40
+p:Telenet
 01f8:ffff0000:0005:0001:25:0
 C8
-p:Telenet,f:40
+p:Telenet
 01f9:ffff0000:0005:0001:25:0
 Be Séries
-p:Telenet,f:40
+p:Telenet
 0200:ffff0000:0005:10ef:1:0
 Ketnet
 p:Delta
@@ -748,40 +751,40 @@ Testkanaal HD 2
 p:Delta
 0901:ffff0000:0017:0001:1:0
 ARD
-p:Telenet,f:40
+p:Telenet
 0902:ffff0000:0017:0001:1:0
 Disney Junior
-p:Telenet,f:40
+p:Telenet
 090b:ffff0000:0017:0001:1:0
 Rai Uno
-p:Telenet,f:40
+p:Telenet
 08fe:ffff0000:0017:0001:1:0
 ZDF
-p:,f:40
+p:
 0900:ffff0000:0017:0001:25:0
 PlattelandsTv
-p:Telenet,f:40
+p:Telenet
 0904:ffff0000:0017:0001:25:0
 Cartoon Network
-p:Telenet,f:40
+p:Telenet
 0906:ffff0000:0017:0001:25:0
 Baby TV
-p:Telenet,f:40
+p:Telenet
 0907:ffff0000:0017:0001:25:0
 njam!
-p:Telenet,f:40
+p:Telenet
 0909:ffff0000:0017:0001:25:0
 France 2
-p:Telenet,f:40
+p:Telenet
 090a:ffff0000:0017:0001:25:0
 France 3
-p:Telenet,f:40
+p:Telenet
 0925:ffff0000:0017:0001:25:0
 Nat Geo Wild
-p:Telenet,f:40
+p:Telenet
 08ff:ffff0000:0017:0001:25:0
 TFX
-p:Telenet,f:40
+p:Telenet
 0802:ffff0000:0066:08c9:1:0
 TV Rijnmond
 p:CAIW Media
@@ -1258,37 +1261,37 @@ Disney Channel
 p:CAIW Media,c:050001
 0517:ffff0000:000d:0001:1:0
 Nick Jr.
-p:Telenet,f:40
+p:Telenet
 0519:ffff0000:000d:0001:1:0
 VTM Non-Stop 90s
-p:Telenet,f:40
+p:Telenet
 051d:ffff0000:000d:0001:1:0
 Vlaams Parlement TV
-p:Telenet,f:40
+p:Telenet
 051e:ffff0000:000d:0001:1:0
 DOBBIT TV
-p:Telenet,f:40
+p:Telenet
 0529:ffff0000:000d:0001:2:0
 Radio Maria
-p:Telenet,f:40
+p:Telenet
 0515:ffff0000:000d:0001:25:0
 MTV VL
-p:Telenet,f:40
+p:Telenet
 0516:ffff0000:000d:0001:25:0
 MENT55
-p:Telenet,f:40
+p:Telenet
 0518:ffff0000:000d:0001:25:0
 Nickelodeon
-p:Telenet,f:40
+p:Telenet
 051a:ffff0000:000d:0001:25:0
 TLC
-p:Telenet,f:40
+p:Telenet
 051b:ffff0000:000d:0001:25:0
 AB3
-p:Telenet,f:40
+p:Telenet
 051c:ffff0000:000d:0001:25:0
 RTL plug
-p:Telenet,f:40
+p:Telenet
 811a:ffff0000:0085:08c9:1:0
 NPO 1 extra
 p:CAIW Media
@@ -1405,25 +1408,25 @@ Discovery Science
 p:Delta
 0321:ffff0000:0008:0001:1:0
 Nat Geo FR
-p:Telenet,f:40
+p:Telenet
 034d:ffff0000:0008:0001:1:0
 Disc ID
-p:Telenet,f:40
+p:Telenet
 034e:ffff0000:0008:0001:1:0
 ID
-p:Telenet,f:40
+p:Telenet
 0322:ffff0000:0008:0001:25:0
 Discovery FR
-p:Telenet,f:40
+p:Telenet
 0323:ffff0000:0008:0001:25:0
 DAZN 3 NL
-p:Telenet,f:40
+p:Telenet
 0327:ffff0000:0008:0001:25:0
 STAR Channel
-p:Telenet,f:40
+p:Telenet
 0328:ffff0000:0008:0001:25:0
 DAZN 2 NL
-p:Telenet,f:40
+p:Telenet
 0321:ffff0000:0008:25a8:1:0
 MTV 80s
 p:SKV
@@ -1867,160 +1870,160 @@ TV Rijnmond HD
 p:SKV
 012f:ffff0000:0003:0001:1:0
 VOO Sport World 2
-p:Telenet,f:40
+p:Telenet
 0130:ffff0000:0003:0001:1:0
 VOO Sport World 3
-p:Telenet,f:40
+p:Telenet
 0132:ffff0000:0003:0001:1:0
 DAZN Pro League 2 FR
-p:Telenet,f:40
+p:Telenet
 0134:ffff0000:0003:0001:1:0
 DAZN Pro League 3 FR
-p:Telenet,f:40
+p:Telenet
 0141:ffff0000:0003:0001:2:0
 Total Hits - UK
-p:Telenet,f:40
+p:Telenet
 0142:ffff0000:0003:0001:2:0
 Rock Anthems
-p:Telenet,f:40
+p:Telenet
 0143:ffff0000:0003:0001:2:0
 Drive
-p:Telenet,f:40
+p:Telenet
 0144:ffff0000:0003:0001:2:0
 Stingray Specials
-p:Telenet,f:40
+p:Telenet
 0145:ffff0000:0003:0001:2:0
 Headbangers
-p:Telenet,f:40
+p:Telenet
 0146:ffff0000:0003:0001:2:0
 Strictly 60s
-p:Telenet,f:40
+p:Telenet
 0147:ffff0000:0003:0001:2:0
 70s
-p:Telenet,f:40
+p:Telenet
 0148:ffff0000:0003:0001:2:0
 Dancefloor Fillers
-p:Telenet,f:40
+p:Telenet
 0149:ffff0000:0003:0001:2:0
 Bass Breaks & Beats
-p:Telenet,f:40
+p:Telenet
 014a:ffff0000:0003:0001:2:0
 Ultimate Urban
-p:Telenet,f:40
+p:Telenet
 014b:ffff0000:0003:0001:2:0
 Classic RnB & Soul
-p:Telenet,f:40
+p:Telenet
 014c:ffff0000:0003:0001:2:0
 Reggae Vibra
-p:Telenet,f:40
+p:Telenet
 014d:ffff0000:0003:0001:2:0
 World Carnival
-p:Telenet,f:40
+p:Telenet
 014e:ffff0000:0003:0001:2:0
 Jazz Classics
-p:Telenet,f:40
+p:Telenet
 014f:ffff0000:0003:0001:2:0
 Cool Jazz
-p:Telenet,f:40
+p:Telenet
 0150:ffff0000:0003:0001:2:0
 Chillout
-p:Telenet,f:40
+p:Telenet
 0151:ffff0000:0003:0001:2:0
 Hot Country
-p:Telenet,f:40
+p:Telenet
 0152:ffff0000:0003:0001:2:0
 Indie Classics
-p:Telenet,f:40
+p:Telenet
 0153:ffff0000:0003:0001:2:0
 Blues
-p:Telenet,f:40
+p:Telenet
 0154:ffff0000:0003:0001:2:0
 Classical Greats
-p:Telenet,f:40
+p:Telenet
 0155:ffff0000:0003:0001:2:0
 Classical Orchestral
-p:Telenet,f:40
+p:Telenet
 0156:ffff0000:0003:0001:2:0
 Classical Calm
-p:Telenet,f:40
+p:Telenet
 0157:ffff0000:0003:0001:2:0
 80s
-p:Telenet,f:40
+p:Telenet
 0158:ffff0000:0003:0001:2:0
 90s
-p:Telenet,f:40
+p:Telenet
 0159:ffff0000:0003:0001:2:0
 Silk
-p:Telenet,f:40
+p:Telenet
 015a:ffff0000:0003:0001:2:0
 Revival
-p:Telenet,f:40
+p:Telenet
 015b:ffff0000:0003:0001:2:0
 Cocktail Lounge
-p:Telenet,f:40
+p:Telenet
 015c:ffff0000:0003:0001:2:0
 All Day Party
-p:Telenet,f:40
+p:Telenet
 015d:ffff0000:0003:0001:2:0
 Total Hits - German
-p:Telenet,f:40
+p:Telenet
 015e:ffff0000:0003:0001:2:0
 Schlager
-p:Telenet,f:40
+p:Telenet
 015f:ffff0000:0003:0001:2:0
 Freedom
-p:Telenet,f:40
+p:Telenet
 0160:ffff0000:0003:0001:2:0
 Groove (Disco&Funk)
-p:Telenet,f:40
+p:Telenet
 0161:ffff0000:0003:0001:2:0
 Hip Hop
-p:Telenet,f:40
+p:Telenet
 0162:ffff0000:0003:0001:2:0
 Total Hits - France
-p:Telenet,f:40
+p:Telenet
 0163:ffff0000:0003:0001:2:0
 Total Hits - Italy
-p:Telenet,f:40
+p:Telenet
 0164:ffff0000:0003:0001:2:0
 Türk Müzigi
-p:Telenet,f:40
+p:Telenet
 0165:ffff0000:0003:0001:2:0
 Total Hits - Nordic
-p:Telenet,f:40
+p:Telenet
 0166:ffff0000:0003:0001:2:0
 Total Hits - Spain
-p:Telenet,f:40
+p:Telenet
 0167:ffff0000:0003:0001:2:0
 Classic Rock
-p:Telenet,f:40
+p:Telenet
 0168:ffff0000:0003:0001:2:0
 Rock n Roll
-p:Telenet,f:40
+p:Telenet
 0169:ffff0000:0003:0001:2:0
 Belpop
-p:Telenet,f:40
+p:Telenet
 016a:ffff0000:0003:0001:2:0
 Chansons
-p:Telenet,f:40
+p:Telenet
 012d:ffff0000:0003:0001:25:0
 VOO Sport World 1
-p:Telenet,f:40
+p:Telenet
 0133:ffff0000:0003:0001:25:0
 DAZN 1 FR
-p:Telenet,f:40
+p:Telenet
 0138:ffff0000:0003:0001:25:0
 DAZN Pro League 1 FR
-p:Telenet,f:40
+p:Telenet
 0139:ffff0000:0003:0001:25:0
 Ciné+ Classic
-p:Telenet,f:40
+p:Telenet
 013a:ffff0000:0003:0001:25:0
 Ciné+ Frisson
-p:Telenet,f:40
+p:Telenet
 013b:ffff0000:0003:0001:25:0
 Ciné+ OCS
-p:Telenet,f:40
+p:Telenet
 5230:ffff0000:0079:08c9:1:0
 SLAM!TV
 p:CAIW Media
@@ -2362,46 +2365,46 @@ HGTV
 p:CAIW Media,c:050001
 0641:ffff0000:0010:0001:1:0
 2M Monde
-p:Telenet,f:40
+p:Telenet
 0644:ffff0000:0010:0001:1:0
 Euronews
-p:Telenet,f:40
+p:Telenet
 0645:ffff0000:0010:0001:1:0
 Al Jazeera Eng.
-p:,f:40
+p:
 064c:ffff0000:0010:0001:1:0
 R. Contact Vision
-p:Telenet,f:40
+p:Telenet
 0656:ffff0000:0010:0001:1:0
 VOX
-p:Telenet,f:40
+p:Telenet
 0658:ffff0000:0010:0001:1:0
 Fashion TV
-p:Telenet,f:40
+p:Telenet
 066a:ffff0000:0010:0001:1:0
 E! Ent
-p:Telenet,f:40
+p:Telenet
 066b:ffff0000:0010:0001:1:0
 Mezzo Live HD
-p:Telenet,f:40
+p:Telenet
 0642:ffff0000:0010:0001:25:0
 Penthouse Passion
-p:Telenet,f:40
+p:Telenet
 0643:ffff0000:0010:0001:25:0
 Penthouse Gold
-p:Telenet,f:40
+p:Telenet
 0646:ffff0000:0010:0001:25:0
 HGTV
-p:,f:40
+p:
 0647:ffff0000:0010:0001:25:0
 Studio 100 TV
-p:,f:40
+p:
 064b:ffff0000:0010:0001:25:0
 MENTpop
-p:Telenet,f:40
+p:Telenet
 064f:ffff0000:0010:0001:25:0
 Dorcel TV
-p:Telenet,f:40
+p:Telenet
 0644:ffff0000:0010:25a8:1:0
 Nicktoons
 p:SKV
@@ -2923,49 +2926,49 @@ Veronica / DisneyXD
 p:Delta
 0065:ffff0000:0001:0001:1:0
 Play 247
-p:Telenet,f:40
+p:Telenet
 0067:ffff0000:0001:0001:1:0
 NickToons
-p:Telenet,f:40
+p:Telenet
 0069:ffff0000:0001:0001:1:0
 Netflix
-p:Telenet,f:40
+p:Telenet
 006a:ffff0000:0001:0001:1:0
 Yelo TV-channel
-p:Telenet,f:40
+p:Telenet
 007a:ffff0000:0001:0001:2:0
 TOPradio
-p:Telenet,f:40
+p:Telenet
 007b:ffff0000:0001:0001:2:0
 ROXX
-p:Telenet,f:40
+p:Telenet
 007d:ffff0000:0001:0001:2:0
 Family Radio
-p:Telenet,f:40
+p:Telenet
 007f:ffff0000:0001:0001:2:0
 One World Radio
-p:Telenet,f:40
+p:Telenet
 0066:ffff0000:0001:0001:25:0
 DAZN 3 FR
-p:Telenet,f:40
+p:Telenet
 0068:ffff0000:0001:0001:25:0
 MTV Live
-p:Telenet,f:40
+p:Telenet
 006d:ffff0000:0001:0001:25:0
 DAZN 2 FR
-p:Telenet,f:40
+p:Telenet
 006e:ffff0000:0001:0001:25:0
 Nickelodeon Ukraine
-p:Telenet,f:40
+p:Telenet
 006f:ffff0000:0001:0001:25:0
 X-MO
-p:Telenet,f:40
+p:Telenet
 0070:ffff0000:0001:0001:25:0
 Sport 10
-p:Telenet,f:40
+p:Telenet
 0071:ffff0000:0001:0001:25:0
 W Sport
-p:Telenet,f:40
+p:Telenet
 0065:ffff0000:0001:25a8:1:0
 Comedy Central
 p:SKV
@@ -3020,6 +3023,39 @@ p:Delta
 006c:ffff0000:0001:10ef:25:0
 Disney Channel
 p:Delta
+4a66:ffff0000:0807:0000:1:0
+410 SID 0x4a66
+p:
+4a67:ffff0000:0807:0000:1:0
+410 SID 0x4a67
+p:
+4679:ffff0000:0807:0000:2:0
+410 SID 0x4679
+p:
+467a:ffff0000:0807:0000:2:0
+410 SID 0x467a
+p:
+467b:ffff0000:0807:0000:2:0
+410 SID 0x467b
+p:
+467c:ffff0000:0807:0000:2:0
+410 SID 0x467c
+p:
+467d:ffff0000:0807:0000:2:0
+410 SID 0x467d
+p:
+467e:ffff0000:0807:0000:2:0
+410 SID 0x467e
+p:
+467f:ffff0000:0807:0000:2:0
+410 SID 0x467f
+p:
+4680:ffff0000:0807:0000:2:0
+410 SID 0x4680
+p:
+4681:ffff0000:0807:0000:2:0
+410 SID 0x4681
+p:
 1969:ffff0000:0c7a:0600:1:0
 TV Hoeksche Waard
 p:Ziggo
@@ -3172,7 +3208,7 @@ Comedy Central
 p:CAIW Media,c:050001
 4aa6:ffff0000:0077:08c9:25:0
 X-MO
-p:DFN,c:050001,f:40
+p:DFN,c:050001
 6d6a:ffff0000:0080:08c9:1:0
 E! Pop of Culture
 p:CAIW Media
@@ -3358,109 +3394,109 @@ GL8 Radio
 p:Ziggo
 0579:ffff0000:000e:0001:1:0
 VOO Sport World 4
-p:Telenet,f:40
+p:Telenet
 057a:ffff0000:000e:0001:1:0
 Playboy TV
-p:Telenet,f:40
+p:Telenet
 057b:ffff0000:000e:0001:1:0
 Play Sports Golf
-p:Telenet,f:40
+p:Telenet
 057c:ffff0000:000e:0001:1:0
 Al Maghreb TV
-p:Telenet,f:40
+p:Telenet
 057d:ffff0000:000e:0001:1:0
 n-tv
-p:Telenet,f:40
+p:Telenet
 0580:ffff0000:000e:0001:1:0
 Bloomberg
-p:Telenet,f:40
+p:Telenet
 0581:ffff0000:000e:0001:1:0
 Horse & Country
-p:Telenet,f:40
+p:Telenet
 058a:ffff0000:000e:0001:1:0
 CGTN
-p:Telenet,f:40
+p:Telenet
 058c:ffff0000:000e:0001:1:0
 Play Sports Premier League
-p:Telenet,f:40
+p:Telenet
 05a2:ffff0000:000e:0001:1:0
 Nick Music Global
-p:Telenet,f:40
+p:Telenet
 05a3:ffff0000:000e:0001:1:0
 MTV 00s
-p:Telenet,f:40
+p:Telenet
 058d:ffff0000:000e:0001:2:0
 France Musique
-p:Telenet,f:40
+p:Telenet
 058e:ffff0000:000e:0001:2:0
 France Culture
-p:Telenet,f:40
+p:Telenet
 058f:ffff0000:000e:0001:2:0
 France Inter
-p:Telenet,f:40
+p:Telenet
 0592:ffff0000:000e:0001:2:0
 RFI
-p:Telenet,f:40
+p:Telenet
 0593:ffff0000:000e:0001:2:0
 BBC Radio 1
-p:Telenet,f:40
+p:Telenet
 0594:ffff0000:000e:0001:2:0
 BBC Radio 2
-p:Telenet,f:40
+p:Telenet
 0595:ffff0000:000e:0001:2:0
 BBC Radio 3
-p:Telenet,f:40
+p:Telenet
 0596:ffff0000:000e:0001:2:0
 BBC World Service
-p:Telenet,f:40
+p:Telenet
 0597:ffff0000:000e:0001:2:0
 NPO Radio 1
-p:Telenet,f:40
+p:Telenet
 0598:ffff0000:000e:0001:2:0
 NPO Radio 2
-p:Telenet,f:40
+p:Telenet
 0599:ffff0000:000e:0001:2:0
 NPO 3FM
-p:Telenet,f:40
+p:Telenet
 059a:ffff0000:000e:0001:2:0
 NPO Radio 4
-p:Telenet,f:40
+p:Telenet
 059b:ffff0000:000e:0001:2:0
 1LIVE
-p:Telenet,f:40
+p:Telenet
 059c:ffff0000:000e:0001:2:0
 WDR 2
-p:Telenet,f:40
+p:Telenet
 059d:ffff0000:000e:0001:2:0
 WDR 3
-p:Telenet,f:40
+p:Telenet
 059e:ffff0000:000e:0001:2:0
 WDR 4
-p:Telenet,f:40
+p:Telenet
 059f:ffff0000:000e:0001:2:0
 WDR 5
-p:Telenet,f:40
+p:Telenet
 05a0:ffff0000:000e:0001:2:0
 ZEN
-p:Telenet,f:40
+p:Telenet
 05a4:ffff0000:000e:0001:2:0
 Contact
-p:Telenet,f:40
+p:Telenet
 05a5:ffff0000:000e:0001:2:0
 Mint
-p:Telenet,f:40
+p:Telenet
 05a6:ffff0000:000e:0001:2:0
 BRF 1
-p:Telenet,f:40
+p:Telenet
 057e:ffff0000:000e:0001:25:0
 ShortsTV
-p:Telenet,f:40
+p:Telenet
 0587:ffff0000:000e:0001:25:0
 France 4
-p:Telenet,f:40
+p:Telenet
 0588:ffff0000:000e:0001:25:0
 France 5
-p:Telenet,f:40
+p:Telenet
 0579:ffff0000:000e:25a8:1:0
 MTV Hits
 p:SKV
@@ -3667,91 +3703,91 @@ ESPN 4 HD
 p:SKV
 0389:ffff0000:0009:0001:1:0
 BBC 1
-p:Telenet,f:40
+p:Telenet
 038c:ffff0000:0009:0001:1:0
 Comedy Central
-p:Telenet,f:40
+p:Telenet
 0399:ffff0000:0009:0001:2:0
 Radio 1
-p:Telenet,f:40
+p:Telenet
 039a:ffff0000:0009:0001:2:0
 Radio 2 Vl. Br.
-p:Telenet,f:40
+p:Telenet
 039b:ffff0000:0009:0001:2:0
 MNM
-p:Telenet,f:40
+p:Telenet
 039c:ffff0000:0009:0001:2:0
 StuBru
-p:Telenet,f:40
+p:Telenet
 039d:ffff0000:0009:0001:2:0
 Klara
-p:Telenet,f:40
+p:Telenet
 039e:ffff0000:0009:0001:2:0
 Klara Continuo
-p:Telenet,f:40
+p:Telenet
 039f:ffff0000:0009:0001:2:0
 MNM Hits
-p:Telenet,f:40
+p:Telenet
 03a0:ffff0000:0009:0001:2:0
 nieuws+
-p:Telenet,f:40
+p:Telenet
 03a1:ffff0000:0009:0001:2:0
 De Tijdloze
-p:Telenet,f:40
+p:Telenet
 03a2:ffff0000:0009:0001:2:0
 Radio 2 Antw.
-p:Telenet,f:40
+p:Telenet
 03a3:ffff0000:0009:0001:2:0
 Radio 2 Limb.
-p:Telenet,f:40
+p:Telenet
 03a4:ffff0000:0009:0001:2:0
 Radio 2 O. Vl.
-p:Telenet,f:40
+p:Telenet
 03a5:ffff0000:0009:0001:2:0
 Radio 2 W. Vl.
-p:Telenet,f:40
+p:Telenet
 03a6:ffff0000:0009:0001:2:0
 La Première
-p:,f:40
+p:
 03a7:ffff0000:0009:0001:2:0
 VivaCité
-p:Telenet,f:40
+p:Telenet
 03a8:ffff0000:0009:0001:2:0
 Musiq3
-p:Telenet,f:40
+p:Telenet
 03a9:ffff0000:0009:0001:2:0
 Tipik radio
-p:Telenet,f:40
+p:Telenet
 03aa:ffff0000:0009:0001:2:0
 Classic21
-p:Telenet,f:40
+p:Telenet
 03ab:ffff0000:0009:0001:2:0
 Bel RTL
-p:Telenet,f:40
+p:Telenet
 03ac:ffff0000:0009:0001:2:0
 NRJ
-p:Telenet,f:40
+p:Telenet
 03ad:ffff0000:0009:0001:2:0
 Nostalgie
-p:Telenet,f:40
+p:Telenet
 03ae:ffff0000:0009:0001:2:0
 Nostalgie+
-p:Telenet,f:40
+p:Telenet
 038a:ffff0000:0009:0001:25:0
 BBC 2
-p:,f:40
+p:
 0390:ffff0000:0009:0001:25:0
 Play4
-p:Telenet,f:40
+p:Telenet
 0391:ffff0000:0009:0001:25:0
 Play5
-p:Telenet,f:40
+p:Telenet
 0392:ffff0000:0009:0001:25:0
 Play.Crime
-p:Telenet,f:40
+p:Telenet
 0393:ffff0000:0009:0001:25:0
 Play.7
-p:Telenet,f:40
+p:Telenet
 0389:ffff0000:0009:25a8:1:0
 Stingray Classica
 p:SKV
@@ -3814,28 +3850,28 @@ XITE SD
 p:CAIW Media
 0196:ffff0000:0004:0001:1:0
 Hustler HD
-p:Telenet,f:40
+p:Telenet
 0191:ffff0000:0004:0001:25:0
 Play More Kicks
-p:Telenet,f:40
+p:Telenet
 0192:ffff0000:0004:0001:25:0
 Play More Black
-p:Telenet,f:40
+p:Telenet
 0193:ffff0000:0004:0001:25:0
 Play More Cinema
-p:Telenet,f:40
+p:Telenet
 0194:ffff0000:0004:0001:25:0
 Play Sports 7
-p:Telenet,f:40
+p:Telenet
 0195:ffff0000:0004:0001:25:0
 Play Sports HD1
-p:Telenet,f:40
+p:Telenet
 0197:ffff0000:0004:0001:25:0
 Play Sports HD3
-p:Telenet,f:40
+p:Telenet
 0198:ffff0000:0004:0001:25:0
 Play Sports HD4
-p:Telenet,f:40
+p:Telenet
 0899:ffff0000:0016:25a8:1:0
 ESPN SD
 p:SKV
@@ -4132,28 +4168,28 @@ NGC Wild HD
 p:SKV
 04b5:ffff0000:000c:0001:1:0
 Play Sports Info
-p:Telenet,f:40
+p:Telenet
 04b9:ffff0000:000c:0001:1:0
 Eclips TV
-p:Telenet,f:40
+p:Telenet
 04b1:ffff0000:000c:0001:25:0
 Discovery Vl HD
-p:Telenet,f:40
+p:Telenet
 04b2:ffff0000:000c:0001:25:0
 Nat Geo HD
-p:Telenet,f:40
+p:Telenet
 04b4:ffff0000:000c:0001:25:0
 LN24
-p:Telenet,f:40
+p:Telenet
 04b6:ffff0000:000c:0001:25:0
 TF1 HD
-p:Telenet,f:40
+p:Telenet
 04b8:ffff0000:000c:0001:25:0
 Play.6
-p:Telenet,f:40
+p:Telenet
 04da:ffff0000:000c:0001:25:0
 Animal Planet
-p:Telenet,f:40
+p:Telenet
 0bbb:ffff0000:001e:10ef:1:0
 RTL Crime
 p:Delta
@@ -4192,40 +4228,40 @@ RTL 8
 p:SKV
 02c1:ffff0000:0007:0001:1:0
 Be 1+1h
-p:Telenet,f:40
+p:Telenet
 02c2:ffff0000:0007:0001:1:0
 CNBC Europe
-p:Telenet,f:40
+p:Telenet
 02c3:ffff0000:0007:0001:1:0
 CNN
-p:,f:40
+p:
 02c5:ffff0000:0007:0001:1:0
 TVE
-p:,f:40
+p:
 02c6:ffff0000:0007:0001:1:0
 BBC News
-p:Telenet,f:40
+p:Telenet
 02cb:ffff0000:0007:0001:1:0
 Mediaset Italia
-p:Telenet,f:40
+p:Telenet
 02bd:ffff0000:0007:0001:25:0
 NPO 1
-p:,f:40
+p:
 02be:ffff0000:0007:0001:25:0
 NPO 2
-p:,f:40
+p:
 02bf:ffff0000:0007:0001:25:0
 NPO 3
-p:,f:40
+p:
 02c0:ffff0000:0007:0001:25:0
 Disney VL
-p:,f:40
+p:
 02c4:ffff0000:0007:0001:25:0
 Arte Belgique
-p:,f:40
+p:
 02c7:ffff0000:0007:0001:25:0
 BBC First
-p:Telenet,f:40
+p:Telenet
 4cc3:ffff0000:0819:0600:1:0
 Ziggo
 p:Ziggo
@@ -4513,73 +4549,73 @@ Omroep Zeeland
 p:Delta
 00cd:ffff0000:0002:0001:1:0
 RTL Tele
-p:Telenet,f:40
+p:Telenet
 00d0:ffff0000:0002:0001:1:0
 TRT
-p:Telenet,f:40
+p:Telenet
 00d2:ffff0000:0002:0001:1:0
 OUT TV
-p:,f:40
+p:
 00d3:ffff0000:0002:0001:1:0
 ATV
-p:Telenet,f:40
+p:Telenet
 00dd:ffff0000:0002:0001:2:0
 Willy
-p:Telenet,f:40
+p:Telenet
 00de:ffff0000:0002:0001:2:0
 Q-Allstars
-p:Telenet,f:40
+p:Telenet
 00df:ffff0000:0002:0001:2:0
 Q-Foute Radio
-p:Telenet,f:40
+p:Telenet
 00e0:ffff0000:0002:0001:2:0
 JOE Gold
-p:Telenet,f:40
+p:Telenet
 00e1:ffff0000:0002:0001:2:0
 Joe 80s & 90s
-p:Telenet,f:40
+p:Telenet
 00e2:ffff0000:0002:0001:2:0
 Willy Class X
-p:Telenet,f:40
+p:Telenet
 00e3:ffff0000:0002:0001:2:0
 Joe Easy
-p:Telenet,f:40
+p:Telenet
 00e4:ffff0000:0002:0001:2:0
 RTBF Mix
-p:Telenet,f:40
+p:Telenet
 00e5:ffff0000:0002:0001:2:0
 Stadsradio Vlaanderen
-p:Telenet,f:40
+p:Telenet
 00e7:ffff0000:0002:0001:2:0
 VRT Radio Bene
-p:Telenet,f:40
+p:Telenet
 00ee:ffff0000:0002:0001:2:0
 Radio Judaïca
-p:Telenet,f:40
+p:Telenet
 00ef:ffff0000:0002:0001:2:0
 Be One
-p:Telenet,f:40
+p:Telenet
 00c9:ffff0000:0002:0001:25:0
 KanaalZ
-p:Telenet,f:40
+p:Telenet
 00ca:ffff0000:0002:0001:25:0
 Stingray Classica
-p:Telenet,f:40
+p:Telenet
 00cb:ffff0000:0002:0001:25:0
 DAZN 1 NL
-p:Telenet,f:40
+p:Telenet
 00cc:ffff0000:0002:0001:25:0
 Eurosport 2 HD
-p:Telenet,f:40
+p:Telenet
 00ce:ffff0000:0002:0001:25:0
 Xite
-p:Telenet,f:40
+p:Telenet
 00cf:ffff0000:0002:0001:25:0
 Nick Jr. FR
-p:Telenet,f:40
+p:Telenet
 00d9:ffff0000:0002:0001:25:0
 VTM 4
-p:Telenet,f:40
+p:Telenet
 1bcd:ffff0000:0c86:0600:1:0
 Regionieuws TV
 p:Ziggo
@@ -4834,22 +4870,22 @@ Ziggo Sport
 p:CAIW Media,c:050001
 05e0:ffff0000:000f:0001:1:0
 TMC
-p:Telenet,f:40
+p:Telenet
 05e1:ffff0000:000f:0001:1:0
 Disc science
-p:Telenet,f:40
+p:Telenet
 05dd:ffff0000:000f:0001:25:0
 DAZN Pro League 1 NL
-p:Telenet,f:40
+p:Telenet
 05de:ffff0000:000f:0001:25:0
 DAZN Pro League 2 NL
-p:Telenet,f:40
+p:Telenet
 05df:ffff0000:000f:0001:25:0
 DAZN Pro League 3 NL
-p:Telenet,f:40
+p:Telenet
 05e2:ffff0000:000f:0001:25:0
 Play Sports HD2
-p:Telenet,f:40
+p:Telenet
 88e0:ffff0000:0087:08c9:1:0
 Caiway informatie SD
 p:CAIW Media
@@ -4963,28 +4999,28 @@ TRT World HD
 p:SKV
 03ec:ffff0000:000a:0001:1:0
 VTM GOLD
-p:Telenet,f:40
+p:Telenet
 03fd:ffff0000:000a:0001:2:0
 Q-music radio
-p:Telenet,f:40
+p:Telenet
 03fe:ffff0000:000a:0001:2:0
 JOE fm
-p:Telenet,f:40
+p:Telenet
 03e9:ffff0000:000a:0001:25:0
 VTM 2
-p:Telenet,f:40
+p:Telenet
 03ed:ffff0000:000a:0001:25:0
 vtm HD
-p:Telenet,f:40
+p:Telenet
 03f2:ffff0000:000a:0001:25:0
 VTM 3
-p:Telenet,f:40
+p:Telenet
 03f3:ffff0000:000a:0001:25:0
 Q-music
-p:Telenet,f:40
+p:Telenet
 03f4:ffff0000:000a:0001:25:0
 Eurosport HD
-p:Telenet,f:40
+p:Telenet
 32f0:ffff0000:0071:08c9:1:0
 Kabel Eins
 p:DFN
@@ -5598,7 +5634,7 @@ p:Ziggo
 Omroep Tilburg
 p:Ziggo
 4679:ffff0000:0807:0600:2:0
-Sunlite Radio
+Veronica Goud van Oud
 p:Ziggo
 467a:ffff0000:0807:0600:2:0
 Qmusic
@@ -5917,25 +5953,25 @@ Omrop Fryslân
 p:Ziggo,c:050001
 0709:ffff0000:0012:0001:25:0
 La Trois
-p:Telenet,f:40
+p:Telenet
 070a:ffff0000:0012:0001:25:0
 Play Sports 8
-p:Telenet,f:40
+p:Telenet
 070b:ffff0000:0012:0001:25:0
 RTL district
-p:Telenet,f:40
+p:Telenet
 0713:ffff0000:0012:0001:25:0
 La Une HD
-p:Telenet,f:40
+p:Telenet
 0714:ffff0000:0012:0001:25:0
 Tipik
-p:Telenet,f:40
+p:Telenet
 0715:ffff0000:0012:0001:25:0
 RTL tvi
-p:Telenet,f:40
+p:Telenet
 0716:ffff0000:0012:0001:25:0
 RTL club
-p:Telenet,f:40
+p:Telenet
 0709:ffff0000:0012:25a8:25:0
 TV Noord HD
 p:SKV
@@ -6076,13 +6112,13 @@ TV West HD
 p:SKV
 044f:ffff0000:000b:0001:25:0
 VRT 1
-p:Telenet,f:40
+p:Telenet
 0450:ffff0000:000b:0001:25:0
 VRT CANVAS
-p:Telenet,f:40
+p:Telenet
 0451:ffff0000:000b:0001:25:0
 Ketnet
-p:Telenet,f:40
+p:Telenet
 544f:ffff0000:083b:0600:25:0
 RTV Noord
 p:Ziggo,c:050001

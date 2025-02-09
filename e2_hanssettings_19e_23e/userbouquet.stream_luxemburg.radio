@@ -1,6 +1,8 @@
 #NAME Stream Luxemburg (LU)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rcb.zapto.org%3a8000/mp3:A1 RCB Radio Classique Bergem (Luxemburg)
 #DESCRIPTION A1 RCB Radio Classique Bergem (Luxemburg)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s1.voscast.com%3a11187/RadioARA.mp3 :ARA 
+#DESCRIPTION ARA 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.35.250.101%3a8000/crgilsdorf:Country Radio Gilsdorf (Luxemburg)
 #DESCRIPTION Country Radio Gilsdorf (Luxemburg)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//eu.radioboss.fm%3a8096:Crazy Poisons Radio
@@ -19,6 +21,8 @@
 #DESCRIPTION EldoRadio Chill
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sc.bce.lu/eldotop25:EldoRadio Top 25
 #DESCRIPTION EldoRadio Top 25
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n08a-eu.rcs.revma.com/wknqhm4yuchvv:FG CHIC
+#DESCRIPTION FG CHIC
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/66160/stream/103807:FRL Free Radio Luxembourg
 #DESCRIPTION FRL Free Radio Luxembourg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//51.255.235.165%3a5164/;stream.mp3:Helix Radio
@@ -29,14 +33,14 @@
 #DESCRIPTION Joke FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//lessentielradio.ice.infomaniak.ch/lessentielradio-128.mp3:L'essentiel Radio
 #DESCRIPTION L'essentiel Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.opus.radio/100komma7/opus/mp3/320/stream.mp3:OPUS 100,7
+#DESCRIPTION OPUS 100,7
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.petangeonair.lu%3a9000/live:Péiting On Air
 #DESCRIPTION Péiting On Air
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//100komma7.cast.addradio.de/100komma7/live/mp3/128/stream.mp3:Radio 100,7 FM
-#DESCRIPTION Radio 100,7 FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//100komma7.cast.addradio.de/100komma7/live/mp3/128/stream.mp3:Radio 100.7
+#DESCRIPTION Radio 100.7
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//zeus.lrb.lu%3a8000/stream:Radio Aktiv 106.5 FM
 #DESCRIPTION Radio Aktiv 106.5 FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s1.voscast.com%3a11187/RadioARA.mp3 :Radio ARA 
-#DESCRIPTION Radio ARA 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge52.streamonkey.net/radioc-live:Radio C Luxembourg
 #DESCRIPTION Radio C Luxembourg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//onairradio.dyndns.org%3a8000/live:Radio Cents
@@ -67,6 +71,8 @@
 #DESCRIPTION Radio RBV
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rs1.radiostreamer.com%3a8270/:Radio ROM
 #DESCRIPTION Radio ROM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rtldtl.hoerradar.de/rtldtl-beste-hits-mp3-128?sABC=5n36r436%25230%2523rnoopr590o2qqrp5qsq2s8p24q12pp2n%2523enqvb-oebjfre.vasb&amsparams=playerid%3aradio-browser.info;skey%3a1513546806:RTL Radio
+#DESCRIPTION RTL Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sec-rtldtl.hoerradar.de/rtldtl-national-mp3-128:RTL Deutsches Hitradio
 #DESCRIPTION RTL Deutsches Hitradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sc.rtl.lu/rtlgold:RTL Gold
@@ -77,12 +83,10 @@
 #DESCRIPTION RTL Radio 1007
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//sc.rtl.lu/rtl:RTL Radio Letzebuerg
 #DESCRIPTION RTL Radio Letzebuerg
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rtldtl.hoerradar.de/rtldtl-beste-hits-mp3-128?sABC=5n36r436%25230%2523rnoopr590o2qqrp5qsq2s8p24q12pp2n%2523enqvb-oebjfre.vasb&amsparams=playerid%3aradio-browser.info;skey%3a1513546806:RTL Radio
-#DESCRIPTION RTL Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-edge.rtl.lu/rtltodayradio/smil%3artltodayradio.smil/1080p.m3u8:RTL Today Radio studiocam
 #DESCRIPTION RTL Today Radio studiocam
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-edge.rtl.lu/radio/rtltodayradio/chunklist.m3u8:RTL Today Radio
-#DESCRIPTION RTL Today Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-edge.rtl.lu/radio/rtltodayradio/chunklist.m3u8:RTL Today
+#DESCRIPTION RTL Today
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sc.rtl.lu/rtltoday:RTL Today
 #DESCRIPTION RTL Today
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sc.rtl.lu/rtlplus80er:RTL+ 80er 

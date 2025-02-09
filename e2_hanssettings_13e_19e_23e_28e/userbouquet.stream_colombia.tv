@@ -1,35 +1,109 @@
 #NAME Stream Colombia (CO)
-#SERVICE 1:64:3ae:0:0:0:0:0:0:0:
+#SERVICE 1:64:3a3:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8:TVK 1
-#DESCRIPTION TVK 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/tvk2.stream/chunklist.m3u8:TVK 2
-#DESCRIPTION TVK 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.happywatch99.com/livehd14/77bbe9df6a93cf229cd40f1400af00fa.sdp/playlist.m3u8:TV 5 Cambodia
-#DESCRIPTION TV 5 Cambodia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg6.tv360.metfone.com.kh/CTV9HD@1.m3u8:CTV 9
-#DESCRIPTION CTV 9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.ams.com.kh/app/stream/playlist.m3u8:Apsara TV 11
-#DESCRIPTION Apsara TV 11
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg2.tv360.metfone.com.kh/livetest/bayontest.stream/playlist.m3u8:BTV News
-#DESCRIPTION BTV News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.happywatch99.com/livehd12/ade9370aadadedbee81fa5e0f228bd37.sdp/playlist.m3u8:CNC
-#DESCRIPTION CNC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming.freshnewsasia.com%3a1935/live/myStream/playlist.m3u8:News 24
-#DESCRIPTION News 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//43.252.18.195%3a5080/LiveApp/streams/ntvhd.m3u8:NTV
-#DESCRIPTION NTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//clive.malisresidences.com%3a1935/rhm_hdtv/_definst_/smil%3aRHMHDTV.smil/playlist.m3u8:Rasmey Hang Meas HDTV
-#DESCRIPTION Rasmey Hang Meas HDTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg13.tv360.metfone.com.kh/live/towntv.m3u8:Town TV HDTV
-#DESCRIPTION Town TV HDTV
-#SERVICE 1:64:3af:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//131.221.41.94/hls/canal2.m3u8:Canal 2
+#DESCRIPTION Canal 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv1.voxtvhd.com.br/alpavision/alpavision/playlist.m3u8:Canal 2 Alpavisión Neiva Huila
+#DESCRIPTION Canal 2 Alpavisión Neiva Huila
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server.asilivehd.com%3a3802/live/canal4live.m3u8:Satel Canal 4
+#DESCRIPTION Satel Canal 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//glb.bozztv.com/glb/ssh101/tvmojanacanal4/index.m3u8:TV Mojana Canal 4
+#DESCRIPTION TV Mojana Canal 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//glb.bozztv.com/glb/ssh101/envivocanal8/index.m3u8:Canal 8 Sincelejo
+#DESCRIPTION Canal 8 Sincelejo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movil.ejeserver.com/live/canal8tv.m3u8:Canal 8 TV+
+#DESCRIPTION Canal 8 TV+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8:Canal 9 Bío Bío Televisión
+#DESCRIPTION Canal 9 Bío Bío Televisión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//138.117.4.70%3a8075/channel11/playlist.m3u8:Canal 11 TV Red
+#DESCRIPTION Canal 11 TV Red
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//glb.bozztv.com/glb/ssh101/videoenvivo/playlist.m3u8:Canal 14 Regional
+#DESCRIPTION Canal 14 Regional
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canal.mediaserver.com.co/live/ANCTELEVISION.m3u8:ANC Televisión
+#DESCRIPTION ANC Televisión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movil.ejeserver.com/live/verteve.m3u8:ATV Soacha
+#DESCRIPTION ATV Soacha
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ea86ddd14ce7.streamlock.net/live/cable09061970/playlist.m3u8:Cablenoticias Bogotà
+#DESCRIPTION Cablenoticias Bogotà
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvlatina.live%3a1936/8012/8012/playlist.m3u8:Cable Sur TV
+#DESCRIPTION Cable Sur TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canal.mediaserver.com.co/live/cinedios.m3u8:Canal Cine Dios
+#DESCRIPTION Canal Cine Dios
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7.innovatestream.pe%3a19360/cnctv/cnctv.m3u8:Canal CNC Cajamarca
+#DESCRIPTION Canal CNC Cajamarca
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cncmedellin.ddns.net%3a1935/canalcnc/canalcnc_360p/playlist.m3u8:Canal CNC Medellin
+#DESCRIPTION Canal CNC Medellin
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movil.ejeserver.com/live/cncsantander.m3u8:Canal CNC Pasto Santander de Quilichao
+#DESCRIPTION Canal CNC Pasto Santander de Quilichao
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movil.ejeserver.com/live/mundovisiontv.m3u8:Canal Mundo Visión Televisión
+#DESCRIPTION Canal Mundo Visión Televisión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.176.153.105%3a8090/play/a0or/index.m3u8:Canal Nets
+#DESCRIPTION Canal Nets
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.78.12.164%3a9000/play/a079:Caracol
+#DESCRIPTION Caracol
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mdstrm.com/live-stream-playlist/632391734be92a791e2750e6.m3u8:Caracol Noticias Ahora
+#DESCRIPTION Caracol Noticias Ahora
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//unlimited6-cl.dps.live/nettv/nettv.smil/playlist.m3u8:Net TV
+#DESCRIPTION Net TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//200.59.188.3%3a8000/play/a03a:RCN
+#DESCRIPTION RCN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8:RCN Mas
+#DESCRIPTION RCN Mas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//200.59.188.3%3a8000/play/a07q:RCN Novelas
+#DESCRIPTION RCN Novelas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.205.199.3/red/index.m3u8:Red
+#DESCRIPTION Red
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/master.m3u8:Red+
+#DESCRIPTION Red+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.ejeserver.com/live/telesanjacinto.m3u8:Tele San Jacinto
+#DESCRIPTION Tele San Jacinto
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//inliveserver.com%3a1936/18506/18506/playlist.m3u8:Telerumba
+#DESCRIPTION Telerumba
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cp.panelchs.com%3a1936/8060/8060/playlist.m3u8:TeleVilla Televisiön
+#DESCRIPTION TeleVilla Televisiön
+#SERVICE 1:64:3a4:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//clive.malisresidences.com%3a1935/hm_hdtv/_definst_/smil%3aHMHDTV.smil/playlist.m3u8:Hang Meas HDTV
-#DESCRIPTION Hang Meas HDTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//seatv.netlinkbroadcaster.com/hls/test.m3u8:Sea TV
-#DESCRIPTION Sea TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8:Tea TV
-#DESCRIPTION Tea TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.wikitv.asia/live/ngrp%3amyStream_all/playlist.m3u8:WIKI TV
-#DESCRIPTION WIKI TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.yupi.live%3a1936/livearbol/livearbol/playlist.m3u8:Árbol de Vida
+#DESCRIPTION Árbol de Vida
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ab772334c39c.streamlock.net/live-calitv/calitv1/playlist.m3u8:Canal Cali TV
+#DESCRIPTION Canal Cali TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//g2.vxral-slo.transport.edge-access.net/a11/ngrp%3acanal_luz01-100009_all/Playlist.m3u8:Canal Luz
+#DESCRIPTION Canal Luz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eu1.servers10.com%3a8081/8092/playlist.m3u8:Canal NorteVision (Pasto, Nariño)
+#DESCRIPTION Canal NorteVision (Pasto, Nariño)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canal.mediaserver.com.co/live/oracionconson.m3u8:Canal Oración Con Son
+#DESCRIPTION Canal Oración Con Son
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.amelbasoluciones.co%3a19360/santamartalive/santamartalive.m3u8:Canal Santa Marta TV
+#DESCRIPTION Canal Santa Marta TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vcp.myplaytv.com/cantinatv/cantinatv/playlist.m3u8:Cantina TV
+#DESCRIPTION Cantina TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canal.mediaserver.com.co/live/ChampionTv.m3u8:Champion TV
+#DESCRIPTION Champion TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//glb.bozztv.com/glb/ssh101/1234chivacoa/index.m3u8:Chivacoa TV Internacional
+#DESCRIPTION Chivacoa TV Internacional
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cp.panelchs.com%3a1936/8096/8096/playlist.m3u8:Ciudadela TV
+#DESCRIPTION Ciudadela TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videohls2.cosmovision.tv/hls/sd.m3u8:Cosmovision
+#DESCRIPTION Cosmovision
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59a564764e2b6.streamlock.net/ctvbarranquilla/ctv/playlist.m3u8:CTV Barranquilla
+#DESCRIPTION CTV Barranquilla
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/abbftuhxxs/abbftuhxxs.m3u8:Josué TV
+#DESCRIPTION Josué TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8:Hermandad Salsera
+#DESCRIPTION Hermandad Salsera
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movil.ejeserver.com/live/teledoradahd.m3u8:Más TV
+#DESCRIPTION Más TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movil.ejeserver.com/live/masmusica.m3u8:MasMusica FM
+#DESCRIPTION MasMusica FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5e85d90130e77.streamlock.net/6020/6020/playlist.m3u8:Oasis Channel
+#DESCRIPTION Oasis Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssh101-fl.bozztv.com/ssh101/qMUAZEy/index.m3u8:Salsa Gorda Television
+#DESCRIPTION Salsa Gorda Television
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvlatina.live%3a1936/8004/8004/playlist.m3u8:Santel TV
+#DESCRIPTION Santel TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ab772334c39c.streamlock.net/live-teleislas/teleislas/playlist.m3u8:Teleislas
+#DESCRIPTION Teleislas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//asucap.com/livestream/asucap_envivo.m3u8:TV San Jorge
+#DESCRIPTION TV San Jorge
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cur.watch/api/get_stream/vam/streann/playlist.m3u8:VAM Vid's & More
+#DESCRIPTION VAM Vid's & More
