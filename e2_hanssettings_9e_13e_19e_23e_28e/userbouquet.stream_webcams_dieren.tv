@@ -1,14 +1,20 @@
 #NAME Stream webcams dieren
-#SERVICE 1:64:26b:0:0:0:0:0:0:0:
+#SERVICE 1:64:26a:0:0:0:0:0:0:0:
 #DESCRIPTION --- Nederland ---
-#SERVICE 1:64:26c:0:0:0:0:0:0:0:
+#SERVICE 1:64:26b:0:0:0:0:0:0:0:
 #DESCRIPTION ++nestkastjes vogels algemeen++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//584b389d712f9.streamlock.net/live/pindacam.stream/playlist.m3u8:Harlingen - Vogelcam
 #DESCRIPTION Harlingen - Vogelcam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/lon/kerkuilen-cam.stream/chunklist_w1233722066.m3u8:Nuenen - Clemenskerk - kerkuil
+#DESCRIPTION Nuenen - Clemenskerk - kerkuil
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-67.stream-server.nl%3a1936/PoesjesTV/PoesjesTV/playlist.m3u8:Poesjes TV
 #DESCRIPTION Poesjes TV
-#SERVICE 1:64:26d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Beleef de Lente 2024++
+#SERVICE 1:64:26c:0:0:0:0:0:0:0:
+#DESCRIPTION ++Beleef de Lente 2025++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n2.burst.cdn.jetstre.am/sz/bdl/wowza4/live/Bosuil1/chunklist.m3u8:Beleef de Lente - Bosuil binnen
+#DESCRIPTION Beleef de Lente - Bosuil binnen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n2.burst.cdn.jetstre.am/sz/bdl/wowza4/live/Bosuil2/chunklist.m3u8:Beleef de Lente - Bosuil buiten
+#DESCRIPTION Beleef de Lente - Bosuil buiten
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n2.burst.cdn.jetstre.am/sz/bdl/wowza4/live/Kerkuil1/chunklist.m3u8:Beleef de Lente - Kerkuil binnen
 #DESCRIPTION Beleef de Lente - Kerkuil binnen
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n2.burst.cdn.jetstre.am/sz/bdl/wowza4/live/Kerkuil2/chunklist.m3u8:Beleef de Lente - Kerkuil buiten
@@ -39,12 +45,14 @@
 #DESCRIPTION Beleef de Lente - Visarend
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n2.burst.cdn.jetstre.am/sz/bdl/wowza4/live/Zeearend1/chunklist.m3u8:Beleef de Lente - Zeearend
 #DESCRIPTION Beleef de Lente - Zeearend
+#SERVICE 1:64:26d:0:0:0:0:0:0:0:
+#DESCRIPTION ++Visdeurbel Utrecht++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//roundrobin3.videostreamingwowza.com/visdeurbel2/visdeurbel2.stream/chunklist_w1077116344.m3u8:Visdeurbel Utrecht (tot eind mei 2025)
+#DESCRIPTION Visdeurbel Utrecht (tot eind mei 2025)
 #SERVICE 1:64:26e:0:0:0:0:0:0:0:
-#DESCRIPTION ++LON Nuenen webcam++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/lon//kerkuilen-cam.stream_720p/playlist.m3u8:Kerkuil - Clemenskerk
-#DESCRIPTION Kerkuil - Clemenskerk
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/lon//kerkuilen-cam.stream_720p/chunklist_w725225295.m3u8:Kerkuil - Clemenskerk #2
-#DESCRIPTION Kerkuil - Clemenskerk #2
+#DESCRIPTION ++België++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.agfa.be/hls/live.stream.m3u8:AGFA - Mortsel, slechtvalk
+#DESCRIPTION AGFA - Mortsel, slechtvalk
 #SERVICE 1:64:26f:0:0:0:0:0:0:0:
 #DESCRIPTION - diverse -
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//56d7ccce550bc.streamlock.net/rtplive/neushoorn-2.sdp/playlist.m3u8:Diergaarde Blijdorp / Rotterdam Zoo - Indische neushoorn

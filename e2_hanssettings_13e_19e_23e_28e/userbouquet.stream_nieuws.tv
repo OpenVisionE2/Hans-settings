@@ -1,5 +1,25 @@
 #NAME Stream Nieuws
 #SERVICE 1:64:2e2:0:0:0:0:0:0:0:
+#DESCRIPTION ++Nederland++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dpg-eventstreams.akamaized.net/aldagclipstreamsrt-pep/streamx/aldagclipstreamsrt_720p.m3u8:AD.nl - Nieuwsupdate
+#DESCRIPTION AD.nl - Nieuwsupdate
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bnr-cache-cdp.triple-it.nl/studio/index.m3u8:BNR Nieuwsradio
+#DESCRIPTION BNR Nieuwsradio
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediahuis.scaliacdn.com/telegraaf/fastchannel/playlist.m3u8:Telegraaf TV
+#DESCRIPTION Telegraaf TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediahuis.scaliacdn.com/telegraaf/fastchannel/telegraaf/fastchannel_1080/chunks.m3u8:Telegraaf TV
+#DESCRIPTION Telegraaf TV
+#SERVICE 1:64:2e3:0:0:0:0:0:0:0:
+#DESCRIPTION ++België++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livestream.parolis.be%3a1935/live/PLN_NL/chunklist_w27225067.m3u8:Federaal Parlement België/Belgique
+#DESCRIPTION Federaal Parlement België/Belgique
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dpg-eventstreams.akamaized.net/hlnlivesrt-xmr/streamx/hlnlivesrt_720p.m3u8:HLN Live
+#DESCRIPTION HLN Live
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-ln24.digiteka.com/1911668011/index.m3u8:LN 24
+#DESCRIPTION LN 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dpp-live-events.medialaancdn.be/events/hls/aes/vtmnieuws.m3u8:VTM Nieuws (tijdens uitzendingen)
+#DESCRIPTION VTM Nieuws (tijdens uitzendingen)
+#SERVICE 1:64:2e4:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen Engels++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//easyip.xyz%3a80/xXRJFchK/c4b7Z9W/5783:ABC News
 #DESCRIPTION ABC News
@@ -91,6 +111,8 @@
 #DESCRIPTION Press TV English
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//easyip.xyz%3a80/xXRJFchK/c4b7Z9W/14968:Sky News UK
 #DESCRIPTION Sky News UK
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp%3aweather_loop.stream_all/playlist.m3u8:Sky News Weather
+#DESCRIPTION Sky News Weather
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//api.new.livestream.com/accounts/19079954/events/7831871/live.m3u8:SMNI
 #DESCRIPTION SMNI
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8:TeleSUR English
@@ -105,26 +127,6 @@
 #DESCRIPTION UN Web TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zjizeoupprliv.vcdn.cloud/live/smil%3avnews.smil/playlist.m3u8:V News
 #DESCRIPTION V News
-#SERVICE 1:64:2e3:0:0:0:0:0:0:0:
-#DESCRIPTION ++Nederland++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dpg-eventstreams.akamaized.net/aldagclipstreamsrt-pep/streamx/aldagclipstreamsrt_720p.m3u8:AD.nl - Nieuwsupdate
-#DESCRIPTION AD.nl - Nieuwsupdate
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bnr-cache-cdp.triple-it.nl/studio/index.m3u8:BNR Nieuwsradio
-#DESCRIPTION BNR Nieuwsradio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediahuis.scaliacdn.com/telegraaf/fastchannel/playlist.m3u8:Telegraaf TV
-#DESCRIPTION Telegraaf TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediahuis.scaliacdn.com/telegraaf/fastchannel/telegraaf/fastchannel_1080/chunks.m3u8:Telegraaf TV
-#DESCRIPTION Telegraaf TV
-#SERVICE 1:64:2e4:0:0:0:0:0:0:0:
-#DESCRIPTION ++België++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livestream.parolis.be%3a1935/live/PLN_NL/chunklist_w27225067.m3u8:Federaal Parlement België/Belgique
-#DESCRIPTION Federaal Parlement België/Belgique
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dpg-eventstreams.akamaized.net/hlnlivesrt-xmr/streamx/hlnlivesrt_720p.m3u8:HLN Live
-#DESCRIPTION HLN Live
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-ln24.digiteka.com/1911668011/index.m3u8:LN 24
-#DESCRIPTION LN 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dpp-live-events.medialaancdn.be/events/hls/aes/vtmnieuws.m3u8:VTM Nieuws (tijdens uitzendingen)
-#DESCRIPTION VTM Nieuws (tijdens uitzendingen)
 #SERVICE 1:64:2e5:0:0:0:0:0:0:0:
 #DESCRIPTION ++Afghanistan++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8:Al Sharq

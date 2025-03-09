@@ -1,14 +1,12 @@
 #NAME Stream Saoedi-Arabië (SA)
-#SERVICE 1:64:16eb:0:0:0:0:0:0:0:
+#SERVICE 1:64:16f3:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a080:KSA 1
 #DESCRIPTION KSA 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//saudi-tv-prod-dub-enc.edgenextcdn.net/out/v1/5ae66b453b62403199811ab78da9982a/index.m3u8:KSA 1 (#)
+#DESCRIPTION KSA 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.54.220.67%3a34780/play/a02x:KSA 2
 #DESCRIPTION KSA 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a08u:KSA For Quran
-#DESCRIPTION KSA For Quran
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.65.112.49%3a8000/play/a0i8:KSA For Sunnah
-#DESCRIPTION KSA For Sunnah
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0a0:KSA Sports 1
 #DESCRIPTION KSA Sports 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0a1:KSA Sports 2
@@ -63,16 +61,20 @@
 #DESCRIPTION MBC Drama (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbcdrama-usa-ak.akamaized.net/out/v1/876f960feec24a8aba9e9d3f9023174b/index.m3u8:MBC Drama USA
 #DESCRIPTION MBC Drama USA
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index_1.m3u8:MBC Drama+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8?@amarnettv.live:MBC Drama+
 #DESCRIPTION MBC Drama+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8?@amarnettv.live:MBC Drama+ (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbcplusdrama-prod-dub-enc.edgenextcdn.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8:MBC Drama+ (#)
 #DESCRIPTION MBC Drama+ (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbcfm-riyadh-prod-dub.shahid.net/out/v1/69c8a03f507e422f99cf5c07291c9e3a/index.m3u8?@amarnettv.live:MBC FM
 #DESCRIPTION MBC FM
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-iraq-prod-dub.shahid.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8:MBC Iraq
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8:MBC FM (#)
+#DESCRIPTION MBC FM (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a05j:MBC Iraq
 #DESCRIPTION MBC Iraq
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a05h:MBC Iraq (#)
 #DESCRIPTION MBC Iraq (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2lfa0y84k5bwn.cloudfront.net/out/v1/86dd4506a70c4d7fb35e2ab50296d9a3/index.m3u8:MBC Loud
+#DESCRIPTION MBC Loud
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-masr-prod-dub.shahid.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8:MBC Masr 1
 #DESCRIPTION MBC Masr 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-masr2-prod-dub.shahid.net/out/v1/f683685242b549f48ea8a5171e3e993a/index.m3u8?@amarnettv.live:MBC Masr 2
@@ -87,7 +89,7 @@
 #DESCRIPTION MBC Persia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/9527a892aeaf43019fd9eeb77ad1516e/eu-central-1/6057955906001/playlist.m3u8:Rotana Cinema KSA
 #DESCRIPTION Rotana Cinema KSA
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.54.220.67%3a34780/play/a06i:Rotana Classic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/0debf5648e584e5fb795c3611c5c0252/eu-central-1/6057955906001/playlist.m3u8:Rotana Classic
 #DESCRIPTION Rotana Classic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.54.220.67%3a34780/play/a06o:Rotana Clip
 #DESCRIPTION Rotana Clip
@@ -123,10 +125,18 @@
 #DESCRIPTION SSC News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-event2-prod-dub.shahid.net/out/v1/0456ede1a39145d98b3d8c8062ddc998/index.m3u8:SSC Action Waleed
 #DESCRIPTION SSC Action Waleed
-#SERVICE 1:64:16ec:0:0:0:0:0:0:0:
+#SERVICE 1:64:16f4:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8:Ahl-Alquran
 #DESCRIPTION Ahl-Alquran
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=5616:Al Arabiya
+#DESCRIPTION Al Arabiya
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//alarabyta.cdn.octivid.com/alaraby/smil%3aalaraby.stream.smil/chunklist.m3u8:Al Arabiya(#)
+#DESCRIPTION Al Arabiya(#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=5617:Al Arabiya 2
+#DESCRIPTION Al Arabiya 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//alarabyta.cdn.octivid.com/alaraby2n/smil%3aalaraby2n.stream.smil/chunklist.m3u8:Al Arabiya 2 (#)
+#DESCRIPTION Al Arabiya 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8:Al Arabiya Business
 #DESCRIPTION Al Arabiya Business
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1j4r34gq3qw9y.cloudfront.net/out/v1/96804f3a14864641a21c25e8ca9afb74/index.m3u8:Al Arabiya Programs
@@ -135,20 +145,26 @@
 #DESCRIPTION Al Hadath
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mn-nl.mncdn.com/khalij/khalij/chunklist.m3u8:Al Khalij
 #DESCRIPTION Al Khalij
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8:Al Riyadh Radio
+#DESCRIPTION Al Riyadh Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sbc-prod-dub-enc.edgenextcdn.net/out/v1/b09bbb8d9b684763be4211b088168de7/index.m3u8:Al Sunnah Al Nabawiyah
 #DESCRIPTION Al Sunnah Al Nabawiyah
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alarabiya.net/alarabiapublish/arabiav.smil/playlist.m3u8:Alarabiya Portrait
-#DESCRIPTION Alarabiya Portrait
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//htvmada.mada.ps%3a8888/ajyal/index.m3u8:Ajyal TV
 #DESCRIPTION Ajyal TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8:Alkhuzama Radio
+#DESCRIPTION Alkhuzama Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8:Asharq Documentary
 #DESCRIPTION Asharq Documentary
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-asharq-prod-dub.shahid.net/out/v1/3b6b4902cf8747a28619411239584002/index.m3u8:Asharq News 
-#DESCRIPTION Asharq News 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//asharq-prod-dub-enc.edgenextcdn.net/out/v1/3b6b4902cf8747a28619411239584002/index.m3u8:Asharq News
+#DESCRIPTION Asharq News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/asharqradiovlive/asharqradiov/playlist.m3u8:Asharq Radio
+#DESCRIPTION Asharq Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5d658d7e9f562.streamlock.net/atfal1.com/atfal2/playlist.m3u8:Atfal Wa Mawaheb
 #DESCRIPTION Atfal Wa Mawaheb
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-enc.edgenextcdn.net/out/v1/97427be47b79457b9ca245e22a8db23a/index.m3u8:Bedaya TV
 #DESCRIPTION Bedaya TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming.zaytonatube.com%3a8080/holyquran/holyquran/video.m3u8:Holy Quran Radio Nablus
+#DESCRIPTION Holy Quran Radio Nablus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ap02.iqplay.tv%3a8082/iqb8002/iq6a7k/playlist.m3u8:Iqraa
 #DESCRIPTION Iqraa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8:Iqraa Arabic
@@ -157,12 +173,22 @@
 #DESCRIPTION Iqraa Bangla
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8:Iqraa Quran
 #DESCRIPTION Iqraa Quran
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/playlist.m3u8:Jeddah Radio
+#DESCRIPTION Jeddah Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0ba:LBC
 #DESCRIPTION LBC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a00r:LBC International
+#DESCRIPTION LBC International
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media2.streambrothers.com%3a1936/8122/8122/playlist.m3u8:Makkah TV
 #DESCRIPTION Makkah TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksanedaradiolive/srpksanedaradio/playlist.m3u8:Nidae AlIslam Radio
+#DESCRIPTION Nidae AlIslam Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-panoramafm-prod-dub.shahid.net/out/v1/66262e420d824475aaae794dc2d69f14/index.m3u8:Panorama FM
 #DESCRIPTION Panorama FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d6izdil55uftn.cloudfront.net/out/v1/0a06d1d6377c47edbd48721ed724bd08/index.m3u8:Panorama FM (#)
+#DESCRIPTION Panorama FM (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8:Quran Radio
+#DESCRIPTION Quran Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a084:Thikrayat TV
 #DESCRIPTION Thikrayat TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8:Wanasah

@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:3f7:0:0:0:0:0:0:0:
+#SERVICE 1:64:3f9:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -41,7 +41,7 @@
 #DESCRIPTION FunX Rotterdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/funx-utrecht-bb-mp3:FunX Utrecht
 #DESCRIPTION FunX Utrecht
-#SERVICE 1:64:3f8:0:0:0:0:0:0:0:
+#SERVICE 1:64:3fa:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -207,6 +207,8 @@
 #DESCRIPTION Grolsch 0.0 FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.hallokidsradio.nl/hallokids:Hallo Kids Radio
 #DESCRIPTION Hallo Kids Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.happy.radio%3a8000/192:Happy Radio
+#DESCRIPTION Happy Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hetstamcafe.stream-server.nl/stream:Het Stamcafé
 #DESCRIPTION Het Stamcafé
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.hetstamcafe.nl/hetstamcafe.mp3:Het Stamcafé
@@ -265,16 +267,48 @@
 #DESCRIPTION Nostalgie
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25333.live.streamtheworld.com/NOSTALGIENL.mp3:Nostalgie
 #DESCRIPTION Nostalgie
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//28563.live.streamtheworld.com/OWR_INTERNATIONAL.mp3:One World Radio
+#DESCRIPTION One World Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//28033.live.streamtheworld.com/OWR_DAYBREAK.mp3:One World Radio- Daybreak Sessions
+#DESCRIPTION One World Radio- Daybreak Sessions
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//28033.live.streamtheworld.com/OWR_DAB.mp3:One World Radio- Tomorrow Anthems
+#DESCRIPTION One World Radio- Tomorrow Anthems
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.pinguinradio.com/PinguinRadio320.mp3:Pinguin Radio
+#DESCRIPTION Pinguin Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.pinguinradio.com/Aardschok192.mp3:Pinguin Aardschok
+#DESCRIPTION Pinguin Aardschok
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//19003.live.streamtheworld.com/SP_R2406394_SC:Pinguin Blues
+#DESCRIPTION Pinguin Blues
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.pinguinradio.com/PinguinClassics192.mp3:Pinguin Classic
+#DESCRIPTION Pinguin Classic
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R2591867.mp3:Pinguin Groove
+#DESCRIPTION Pinguin Groove
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//pr320.pinguinradio.com:Pinguin Indie
+#DESCRIPTION Pinguin Indie
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.pinguinradio.com/PinguinOnTheRocks192.mp3:Pinguin On The Rocks
+#DESCRIPTION Pinguin On The Rocks
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R2591410.mp3:Pinguin Pluche
+#DESCRIPTION Pinguin Pluche
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R2591862.mp3:Pinguin Pop
+#DESCRIPTION Pinguin Pop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//19293.live.streamtheworld.com/SP_R2292843_SC:Pinguin Fiesta
+#DESCRIPTION Pinguin Fiesta
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R3045093_SC.mp3:Pinguin Showcase
+#DESCRIPTION Pinguin Showcase
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R4017895_SC.mp3:Pinguin Vintage
+#DESCRIPTION Pinguin Vintage
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R2591417_SC.mp3:Pinguin World
+#DESCRIPTION Pinguin World
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/Q_DANCE.mp3:Q-dance Radio
+#DESCRIPTION Q-dance Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.olympia-radio.nl%3a80/olympia:Olympia radio
 #DESCRIPTION Olympia radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.olympia-classics.nl/classics:Olympia Radio Classics
 #DESCRIPTION Olympia Radio Classics
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.qmusic.nl/qmusic/mp3:Qmusic
 #DESCRIPTION Qmusic
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_90s00s.mp3:Qmusic 80s&00s
-#DESCRIPTION Qmusic 80s&00s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.qmusic.nl/thema/mp3:Qmusic Christmas
-#DESCRIPTION Qmusic Christmas
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_90s00s.mp3:Qmusic 90s&00s
+#DESCRIPTION Qmusic 90s&00s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.qmusic.nl/fouteuur/mp3:Qmusic Foute Uur
 #DESCRIPTION Qmusic Foute Uur
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicnl-cdp.triple-it.nl/Qmusic_qlmb_high.aac:Qmusic Limburg
@@ -283,10 +317,10 @@
 #DESCRIPTION Qmusic Nederlandstalig
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.qmusic.nl/nonstop/mp3:Qmusic NonStop
 #DESCRIPTION Qmusic NonStop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.qmusic.nl/thema/mp3:Qmusic Summer
+#DESCRIPTION Qmusic Summer
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.qmusic.nl/top40/mp3:Qmusic Top 40
 #DESCRIPTION Qmusic Top 40
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/Q_DANCE.mp3:Q-dance Radio
-#DESCRIPTION Q-dance Radio
 #SERVICE 4097:0:2:525d:c99:3:eb0000:0:0:0:https%3a//22323.live.streamtheworld.com/RADIO10.mp3:Radio 10
 #DESCRIPTION Radio 10
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR18.mp3:Radio 10 - 60's & 70's Hits
@@ -557,7 +591,7 @@
 #DESCRIPTION Yoursafe Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:3f9:0:0:0:0:0:0:0:
+#SERVICE 1:64:3fb:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -597,13 +631,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:3fa:0:0:0:0:0:0:0:
+#SERVICE 1:64:3fc:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:3fb:0:0:0:0:0:0:0:
+#SERVICE 1:64:3fd:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits (NL Nationaal)
 #DESCRIPTION 18Hits (NL Nationaal)
@@ -757,8 +791,8 @@
 #DESCRIPTION Flamingo Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:HTTPS%3a//f103.nl/mp3:Focus 103
 #DESCRIPTION Focus 103
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//37.59.195.28%3a8226:Foute Muziek Radio 24/7
-#DESCRIPTION Foute Muziek Radio 24/7
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//server6.radio-streams.net/proxy/hans12:Foute Muziek Radio
+#DESCRIPTION Foute Muziek Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//freemindedfmstream.nl:Freeminded FM
 #DESCRIPTION Freeminded FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//hazel.torontocast.com%3a1385:Freestyle FM (NL)
@@ -927,24 +961,6 @@
 #DESCRIPTION PDRFM (Planet Dance Radio - NL)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//142.44.131.253%3a8127/;stream:Pidi Radio - gay radio from Amsterdam
 #DESCRIPTION Pidi Radio - gay radio from Amsterdam
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.pinguinradio.com/PinguinRadio320.mp3:Pinguin Radio
-#DESCRIPTION Pinguin Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.pinguinradio.com/Aardschok192.mp3:Pinguin Aardschok
-#DESCRIPTION Pinguin Aardschok
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.pinguinradio.com/PinguinClassics192.mp3:Pinguin Classics
-#DESCRIPTION Pinguin Classics
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R2591867.mp3:Pinguin Grooves
-#DESCRIPTION Pinguin Grooves
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//pr320.pinguinradio.com:Pinguin indie
-#DESCRIPTION Pinguin indie
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.pinguinradio.com/PinguinOnTheRocks192.mp3:Pinguin On The Rocks
-#DESCRIPTION Pinguin On The Rocks
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R2591410.mp3:Pinguin Pluche
-#DESCRIPTION Pinguin Pluche
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R2591862.mp3:Pinguin Pop
-#DESCRIPTION Pinguin Pop
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//19293.live.streamtheworld.com/SP_R2292843_SC:Pinguin Radio Fiesta
-#DESCRIPTION Pinguin Radio Fiesta
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//planet90.shoutcaststream.com%3a8280/;stream.mp3        :Planet 90 (NL)
 #DESCRIPTION Planet 90 (NL)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//78.129.224.11%3a6167/;stream.mp3:Polderpop Radio (NL)

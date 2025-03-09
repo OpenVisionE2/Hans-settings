@@ -1,8 +1,6 @@
 #NAME Stream Tsjechië (CZ)
-#SERVICE 1:64:67e:0:0:0:0:0:0:0:
+#SERVICE 1:64:680:0:0:0:0:0:0:0:
 #DESCRIPTION ++ČRo publieke omroep++
-#SERVICE 4097:0:2:22:0:0:0:0:0:0:http%3a//icecast2.play.cz/cro7-128.mp3:ČRo - Radio Praha
-#DESCRIPTION ČRo - Radio Praha
 #SERVICE 4097:0:2:26:0:0:0:0:0:0:https%3a//rozhlas.stream/brno_high.aac:ČRo Brno
 #DESCRIPTION ČRo Brno
 #SERVICE 4097:0:2:136:0:0:0:0:0:0:https%3a//rozhlas.stream/ddur.mp3:ČRo D-dur
@@ -53,7 +51,7 @@
 #DESCRIPTION ČRo Zlín
 #SERVICE 4097:0:2:150:0:0:0:0:0:0:https%3a//rozhlas.stream/ceske_budejovice.mp3:ČRo České Budějovice
 #DESCRIPTION ČRo České Budějovice
-#SERVICE 1:64:67f:0:0:0:0:0:0:0:
+#SERVICE 1:64:681:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:434:0:0:0:0:0:0:http%3a//mp3stream3.abradio.cz%3a8000/applaus128.mp3:Applaus
 #DESCRIPTION Applaus
@@ -63,6 +61,8 @@
 #DESCRIPTION Beat
 #SERVICE 4097:0:2:214:0:0:0:0:0:0:http%3a//icecast3.play.cz/bonton-128.mp3:Bonton
 #DESCRIPTION Bonton
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rozhlas.stream/radio_dab_praha_high.aac:Český rozhlas Rádio DAB Praha
+#DESCRIPTION Český rozhlas Rádio DAB Praha
 #SERVICE 4097:0:2:272:0:0:0:0:0:0:http%3a//ice.abradio.cz%3a8000/city80128.mp3:City 80
 #DESCRIPTION City 80
 #SERVICE 4097:0:2:274:0:0:0:0:0:0:http%3a//ice.abradio.cz%3a8000/city90128.mp3:City 90
@@ -307,6 +307,12 @@
 #DESCRIPTION Radio 1
 #SERVICE 4097:0:2:172:0:0:0:0:0:0:http%3a//icecast8.play.cz/radio7-128.mp3:Radio 7
 #DESCRIPTION Radio 7
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast6.play.cz/casradio128.mp3:Rádio Čas
+#DESCRIPTION Rádio Čas
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast6.play.cz/casrock128.mp3:Rádio Čas Rock
+#DESCRIPTION Rádio Čas Rock
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice2.radia.cz/chillout128.aac:Radio Chillout
+#DESCRIPTION Radio Chillout
 #SERVICE 4097:0:2:118:0:0:0:0:0:0:http%3a//ice.abradio.cz%3a8000/citymi128.mp3:Radio City Devadesátka
 #DESCRIPTION Radio City Devadesátka
 #SERVICE 4097:0:2:410:0:0:0:0:0:0:http%3a//mp3stream4.abradio.cz/country128.mp3:Radio Country

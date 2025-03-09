@@ -1,33 +1,31 @@
 #NAME Stream NL politiek
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.team-tv.link%3a80/kV3mkGGkNz/EykM2Cnjwm/3079:NPO Politiek en Nieuws
+#SERVICE 4097:0:19:4acf:80c:600:ffff0000:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=1283099&extension=ts&play_token=47tL707NOb:NPO Politiek en Nieuws
 #DESCRIPTION NPO Politiek en Nieuws
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.tweedekamer.nl/live/evenementenkanaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live:Actualiteitenkanaal 1
-#DESCRIPTION Actualiteitenkanaal 1
+#SERVICE 1:64:15d:0:0:0:0:0:0:0:
+#DESCRIPTION ++Tweede Kamer++
+#SERVICE 1:64:15e:0:0:0:0:0:0:0:
+#DESCRIPTION ++Geen geluid? Schakel ServiceApp uit++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67buv2.tweedekamer.nl/live/evenementenkanaal/index.m3u8:Actualiteitenkanaal
+#DESCRIPTION Actualiteitenkanaal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67.tweedekamer.nl/live/alettajacobszaal/2000/prog_index.m3u8:Aletta Jacobszaal
 #DESCRIPTION Aletta Jacobszaal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.tweedekamer.nl/live/enquetezaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live:Enquêtezaal
-#DESCRIPTION Enquêtezaal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.tweedekamer.nl/live/groen_van_prinstererzaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live:Groen van Prinstererzaal
 #DESCRIPTION Groen van Prinstererzaal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67.tweedekamer.nl/live/klompezaal/300/prog_index.m3u8:Klompézaal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67buv2.tweedekamer.nl/live/klompezaal/index.m3u8:Klompézaal
 #DESCRIPTION Klompézaal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67.tweedekamer.nl/live/maxvanderstoelzaal/567/prog_index.m3u8:Max van der Stoelzaal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67buv2.tweedekamer.nl/live/maxvanderstoelzaal/index.m3u8:Max van der Stoelzaal
 #DESCRIPTION Max van der Stoelzaal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67bu.tweedekamer.nl/live/plenairezaal/4000/prog_index.m3u8:Plenaire Zaal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67buv2.tweedekamer.nl/live/plenairezaal/index.m3u8:Plenaire Zaal
 #DESCRIPTION Plenaire Zaal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.tweedekamer.nl/live/plenaire_zaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live:Ridderzaal
-#DESCRIPTION Ridderzaal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.tweedekamer.nl/live/suze_groenewegzaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live:Suze Groenewegzaal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67buv2.tweedekamer.nl/live/suzegroenewegzaal/index.m3u8:Suze Groenewegzaal
 #DESCRIPTION Suze Groenewegzaal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67.tweedekamer.nl/live/thorbeckezaal/571/prog_index.m3u8:Thorbeckezaal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67.tweedekamer.nl/live/thorbeckezaal/618/prog_index.m3u8?sourcetimestamps=1&nocompression=1&returnType=hls:Thorbeckezaal
 #DESCRIPTION Thorbeckezaal
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//livestream.tweedekamer.nl/live/tilanuskamer/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live:Tilanuskamer
 #DESCRIPTION Tilanuskamer
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67.tweedekamer.nl/live/troelstrazaal/567/prog_index.m3u8:Troelstrazaal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67buv2.tweedekamer.nl/live/troelstrazaal/index.m3u8?hd=1&subtitles=live&keyframes=1:Troelstrazaal
 #DESCRIPTION Troelstrazaal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.tweedekamer.nl/live/vondelingkamer/300/prog_index.m3u8:Vondelingkamer
-#DESCRIPTION Vondelingkamer
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.tweedekamer.nl/live/wttewaall_van_stoetwegenzaal/index.m3u8?hd=1&sourcetimestamps=1&subtitles=live:Wttewaall van Stoetwegenzaal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67buv2.tweedekamer.nl/live/wttewaallvanstoetwegenzaal/index.m3u8:Wttewaall van Stoetwegenzaal
 #DESCRIPTION Wttewaall van Stoetwegenzaal
 #SERVICE 1:64:15f:0:0:0:0:0:0:0:
 #DESCRIPTION +++Eerste Kamer (bij vergadering)+++

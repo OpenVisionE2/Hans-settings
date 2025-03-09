@@ -1,19 +1,27 @@
 #NAME Stream Zwitserland (CH)
-#SERVICE 1:64:461:0:0:0:0:0:0:0:
+#SERVICE 1:64:45f:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:4331:300c:13e:820000:0:0:0:http%3a//176.10.117.3%3a5000/play/a011/index.m3u8:SRF 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/8901:RSI 1
+#DESCRIPTION RSI 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/8900:RSI 2
+#DESCRIPTION RSI 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/8897:RTS 1
+#DESCRIPTION RTS 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/8899:RTS 2
+#DESCRIPTION RTS 2
+#SERVICE 4097:0:1:4331:300c:13e:820000:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/8910:SRF 1
 #DESCRIPTION SRF 1
-#SERVICE 4097:0:1:4332:300c:13e:820000:0:0:0:http%3a//176.10.117.3%3a5000/play/a012/index.m3u8:SRF 2
+#SERVICE 4097:0:1:4332:300c:13e:820000:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/8909:SRF 2
 #DESCRIPTION SRF 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.10.117.3%3a5000/play/a008/index.m3u8:SRF Info
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/8908:SRF Info
 #DESCRIPTION SRF Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58de7a369a9c4.streamlock.net/srf/stream_720p/playlist.m3u8:SRF Regional
 #DESCRIPTION SRF Regional
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.10.117.3%3a5000/play/a009/index.m3u8:3+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/8895:3+
 #DESCRIPTION 3+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.10.117.3%3a5000/play/a00a/index.m3u8:4+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/8894:4+
 #DESCRIPTION 4+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.10.117.3%3a5000/play/a00b/index.m3u8:5+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/8893:5+
 #DESCRIPTION 5+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.10.117.3%3a5000/play/a00c/index.m3u8:6+
 #DESCRIPTION 6+
@@ -31,11 +39,7 @@
 #DESCRIPTION TVM 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8:Canal 9 en Français
 #DESCRIPTION Canal 9 en Français
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//176.10.117.3%3a5000/play/a016/index.m3u8:Kanal 9 auf Deutsch
-#DESCRIPTION Kanal 9 auf Deutsch
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming.meteonews.net/hls/stream.m3u8:Wetter TV
-#DESCRIPTION Wetter TV
-#SERVICE 1:64:462:0:0:0:0:0:0:0:
+#SERVICE 1:64:460:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge14.vedge.infomaniak.com/livecast/ik%3aalpen-wellelivestream/playlist.m3u8:Alpenland TV
 #DESCRIPTION Alpenland TV
