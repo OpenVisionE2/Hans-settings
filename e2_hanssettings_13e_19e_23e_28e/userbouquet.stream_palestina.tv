@@ -1,16 +1,22 @@
 #NAME Stream Palestina (PS)
-#SERVICE 1:64:3fc:0:0:0:0:0:0:0:
+#SERVICE 1:64:40d:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//167.172.161.13/hls/feedspare/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8:Al Aqsa Channel
 #DESCRIPTION Al Aqsa Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8:Chada TV
 #DESCRIPTION Chada TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rp.tactivemedia.com/falastinitv/live/playlist.m3u8:Falastini TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//platform.topuphost.com%3a8577/live/alfajr.stream/playlist.m3u8:Fajer TV 1
+#DESCRIPTION Fajer TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//platform.topuphost.com%3a8577/live/alfajr2.stream/playlist.m3u8:Fajer TV 2
+#DESCRIPTION Fajer TV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.131%3a8000/play/a00c:Falastini TV
 #DESCRIPTION Falastini TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a007:Musawa
 #DESCRIPTION Musawa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.najah.edu%3a8443/hls/AlNajah_hd720/index.m3u8:Najah Broadcasting Channel
 #DESCRIPTION Najah Broadcasting Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.com/palestine/live/playlist.m3u8:Palestine
+#DESCRIPTION Palestine
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a004:Palestine Live
 #DESCRIPTION Palestine Live
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a005:Palestine News
@@ -25,11 +31,15 @@
 #DESCRIPTION Palestine TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a006:Palestine TV EDU
 #DESCRIPTION Palestine TV EDU
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//htvmada.mada.ps%3a4443/raya/index.m3u8:Raya TV 1
+#DESCRIPTION Raya TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-palestine/playlist.m3u8:Roya Palestine
+#DESCRIPTION Roya Palestine
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8:Wanasah
 #DESCRIPTION Wanasah
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//htvint.mada.ps%3a8889/orient/tracks-v1a1/mono.m3u8?v=86757236:Watar TV
 #DESCRIPTION Watar TV
-#SERVICE 1:64:3fd:0:0:0:0:0:0:0:
+#SERVICE 1:64:40e:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mn-nl.mncdn.com/alhiwar_live/smil%3aalhiwar.smil/playlist.m3u8:Alhiwar TV
 #DESCRIPTION Alhiwar TV

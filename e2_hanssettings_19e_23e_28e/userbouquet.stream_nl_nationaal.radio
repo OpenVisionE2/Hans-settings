@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:507:0:0:0:0:0:0:0:
+#SERVICE 1:64:518:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -41,7 +41,7 @@
 #DESCRIPTION FunX Rotterdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/funx-utrecht-bb-mp3:FunX Utrecht
 #DESCRIPTION FunX Utrecht
-#SERVICE 1:64:508:0:0:0:0:0:0:0:
+#SERVICE 1:64:519:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -87,6 +87,10 @@
 #DESCRIPTION 538 Zomer
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server-09.stream-server.nl%3a8400/;stream/1:ABTT (Adje Bouman’s Top Tien)
 #DESCRIPTION ABTT (Adje Bouman’s Top Tien)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SERVICE06.mp3:Alleen Klassiek
+#DESCRIPTION Alleen Klassiek
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SERVICE06AAC.aac:Alleen Klassiek (#)
+#DESCRIPTION Alleen Klassiek (#)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.hofhosting.nl/proxy/allsports_main?mp=/stream:ALLsportsradio
 #DESCRIPTION ALLsportsradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/ARROWBLUESBOX.mp3:Arrow Bluesbox Radio
@@ -241,8 +245,10 @@
 #DESCRIPTION K-Rock
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream02.itego.nl/kbc-high:KBC Radio
 #DESCRIPTION KBC Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22593.live.streamtheworld.com/KINK.mp3:KINK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//29043.live.streamtheworld.com/KINK.mp3:KINK
 #DESCRIPTION KINK
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25253.live.streamtheworld.com%3a443/KINK_SC:KINK (3)
+#DESCRIPTION KINK (3)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25233.live.streamtheworld.com/KINK_DNA.mp3:KINK 80s
 #DESCRIPTION KINK 80s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/pls/KINK_90S.pls:KINK 90s
@@ -423,6 +429,8 @@
 #DESCRIPTION RadioNL - Editie Zwolle
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.radionlkids.nl/rnlkids:Radio NL Kids
 #DESCRIPTION Radio NL Kids
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR17.mp3:Radio Noordzee
+#DESCRIPTION Radio Noordzee
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamingv2.shoutcast.com/Radio-Nostalgia:Radio Nostalgia
 #DESCRIPTION Radio Nostalgia
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//kathy.torontocast.com%3a2250/stream:Radio Nostalgia - alternatief
@@ -591,7 +599,7 @@
 #DESCRIPTION Yoursafe Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:509:0:0:0:0:0:0:0:
+#SERVICE 1:64:51a:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -631,13 +639,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:50a:0:0:0:0:0:0:0:
+#SERVICE 1:64:51b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:50b:0:0:0:0:0:0:0:
+#SERVICE 1:64:51c:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits (NL Nationaal)
 #DESCRIPTION 18Hits (NL Nationaal)

@@ -75,6 +75,9 @@ ffff0000:008f:08c9
 ffff0000:000d:0001
 	c 402000:6875000:2:5:0:0:0
 /
+ffff0000:0836:0000
+	c 362000:6900000:2:5:0:0:0
+/
 ffff0000:0085:08c9
 	c 354000:6900000:2:3:0:0:0
 /
@@ -179,6 +182,9 @@ ffff0000:0caa:0600
 /
 ffff0000:0803:0600
 	c 490000:6900000:2:5:0:0:0
+/
+ffff0000:0806:0000
+	c 346000:6900000:2:5:0:0:0
 /
 ffff0000:000b:25a8
 	c 362000:6875000:2:5:0:0:0
@@ -731,6 +737,9 @@ p:CAIW Media
 59f6:ffff0000:007b:08c9:1:0
 Sat.1
 p:CAIW Media
+59e2:ffff0000:007b:08c9:25:0
+RTBF La Une
+p:CAIW Media
 0001:ffff0000:0063:10ef:1:0
 Testkanaal SD
 p:Delta
@@ -1170,10 +1179,10 @@ p:CAIW Media
 Ziggo Sport 6 SD
 p:CAIW Media
 ac12:ffff0000:0090:08c9:1:0
-Viaplay TV SD
+SBS9 SD
 p:CAIW Media
 ac1c:ffff0000:0090:08c9:25:0
-Viaplay TV
+SBS9
 p:CAIW Media,c:050001
 ac26:ffff0000:0090:08c9:25:0
 RTL Z
@@ -1221,7 +1230,7 @@ p:Ziggo,c:050001
 Ziggo Sport
 p:Ziggo,c:050001
 4cd7:ffff0000:081a:0600:25:0
-Viaplay TV
+SBS9
 p:Ziggo,c:050001,c:090202
 4116:ffff0000:081a:0600:128:0
 Humax 5500C
@@ -1289,9 +1298,39 @@ p:Telenet
 051c:ffff0000:000d:0001:25:0
 RTL plug
 p:Telenet
+4c19:ffff0000:0836:0000:1:0
+362 SID 0x4c19
+p:
+4c1b:ffff0000:0836:0000:1:0
+362 SID 0x4c1b
+p:
+4c1c:ffff0000:0836:0000:1:0
+362 SID 0x4c1c
+p:
+4c1f:ffff0000:0836:0000:1:0
+362 SID 0x4c1f
+p:
+4c22:ffff0000:0836:0000:1:0
+362 SID 0x4c22
+p:
+4c24:ffff0000:0836:0000:1:0
+362 SID 0x4c24
+p:
+4c25:ffff0000:0836:0000:1:0
+362 SID 0x4c25
+p:
+4c26:ffff0000:0836:0000:1:0
+362 SID 0x4c26
+p:
+4c27:ffff0000:0836:0000:1:0
+362 SID 0x4c27
+p:
 811a:ffff0000:0085:08c9:1:0
 NPO 1 extra
 p:CAIW Media
+8156:ffff0000:0085:08c9:2:0
+RadioNL
+p:DFN,f:40
 8106:ffff0000:0085:08c9:25:0
 NPO 3
 p:CAIW Media,c:050001
@@ -1637,6 +1676,9 @@ p:CAIW Media,c:050001
 276a:ffff0000:006e:08c9:2:0
 Sunlite Radio
 p:CAIW Media
+2756:ffff0000:006e:08c9:25:0
+RTBF Tipik
+p:CAIW Media
 a424:ffff0000:008e:08c9:1:0
 MTV Hits
 p:CAIW Media
@@ -1775,6 +1817,9 @@ p:Ziggo,c:050001
 4e25:ffff0000:0801:0600:25:0
 ducktv
 p:Ziggo,c:050001
+4e28:ffff0000:0801:0600:25:0
+Viaplay TV
+p:Ziggo,c:050001
 4e2a:ffff0000:0078:08c9:1:0
 RTL Telekids
 p:CAIW Media
@@ -1794,8 +1839,8 @@ p:CAIW Media
 Sublime FM
 p:CAIW Media
 4ea2:ffff0000:0078:08c9:2:0
-classicnl
-p:CAIW Media
+Alleen Klassiek
+p:CAIW Media,f:40
 4eac:ffff0000:0078:08c9:2:0
 SLAM!
 p:CAIW Media
@@ -2627,6 +2672,93 @@ p:Ziggo
 4e57:ffff0000:0803:0600:25:0
 MyZen
 p:Ziggo,c:050001,c:090101
+4a50:ffff0000:0806:0000:1:0
+346 SID 0x4a50
+p:
+4a51:ffff0000:0806:0000:1:0
+346 SID 0x4a51
+p:
+4a53:ffff0000:0806:0000:1:0
+346 SID 0x4a53
+p:
+4665:ffff0000:0806:0000:2:0
+346 SID 0x4665
+p:,f:40
+4666:ffff0000:0806:0000:2:0
+346 SID 0x4666
+p:,f:40
+4667:ffff0000:0806:0000:2:0
+346 SID 0x4667
+p:,f:40
+4668:ffff0000:0806:0000:2:0
+346 SID 0x4668
+p:,f:40
+4669:ffff0000:0806:0000:2:0
+346 SID 0x4669
+p:,f:40
+466a:ffff0000:0806:0000:2:0
+346 SID 0x466a
+p:,f:40
+466b:ffff0000:0806:0000:2:0
+346 SID 0x466b
+p:,f:40
+466c:ffff0000:0806:0000:2:0
+346 SID 0x466c
+p:,f:40
+466d:ffff0000:0806:0000:2:0
+346 SID 0x466d
+p:,f:40
+466e:ffff0000:0806:0000:2:0
+346 SID 0x466e
+p:,f:40
+466f:ffff0000:0806:0000:2:0
+346 SID 0x466f
+p:,f:40
+4670:ffff0000:0806:0000:2:0
+346 SID 0x4670
+p:,f:40
+4671:ffff0000:0806:0000:2:0
+346 SID 0x4671
+p:,f:40
+4672:ffff0000:0806:0000:2:0
+346 SID 0x4672
+p:,f:40
+4673:ffff0000:0806:0000:2:0
+346 SID 0x4673
+p:,f:40
+27e8:ffff0000:0806:0000:2:0
+346 SID 0x27e8
+p:,f:40
+27e9:ffff0000:0806:0000:2:0
+346 SID 0x27e9
+p:,f:40
+27ea:ffff0000:0806:0000:2:0
+346 SID 0x27ea
+p:,f:40
+27eb:ffff0000:0806:0000:2:0
+346 SID 0x27eb
+p:,f:40
+27ec:ffff0000:0806:0000:2:0
+346 SID 0x27ec
+p:,f:40
+27ed:ffff0000:0806:0000:2:0
+346 SID 0x27ed
+p:,f:40
+27ee:ffff0000:0806:0000:2:0
+346 SID 0x27ee
+p:,f:40
+27ef:ffff0000:0806:0000:2:0
+346 SID 0x27ef
+p:,f:40
+27f0:ffff0000:0806:0000:2:0
+346 SID 0x27f0
+p:,f:40
+27f1:ffff0000:0806:0000:2:0
+346 SID 0x27f1
+p:,f:40
+27f2:ffff0000:0806:0000:2:0
+346 SID 0x27f2
+p:,f:40
 0451:ffff0000:000b:25a8:1:0
 Kabel 1
 p:SKV
@@ -4199,6 +4331,9 @@ p:CAIW Media,c:050001
 90c4:ffff0000:0089:08c9:25:0
 INPLUS
 p:CAIW Media,c:050001
+90ce:ffff0000:0089:08c9:25:0
+Viaplay TV
+p:DFN,c:050001
 36b1:ffff0000:000e:10ef:1:0
 Nick Jr.
 p:Delta
@@ -4906,7 +5041,7 @@ TRT World HD
 p:SKV
 4be3:ffff0000:0833:0600:1:0
 394 SID 0x4be3
-p:
+p:,c:050001
 4be6:ffff0000:0833:0600:22:0
 RTL Z
 p:Ziggo,c:050001,c:098800
@@ -5547,7 +5682,7 @@ p:Ziggo
 BNR Nieuwsradio
 p:Ziggo
 467e:ffff0000:0807:0600:2:0
-classicnl
+Alleen Klassiek
 p:Ziggo
 467f:ffff0000:0807:0600:2:0
 Radio Decibel

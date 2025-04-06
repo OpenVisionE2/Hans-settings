@@ -1,5 +1,5 @@
 #NAME Stream Aruba (AW), Bonaire en Sint Maarten
-#SERVICE 1:64:311:0:0:0:0:0:0:0:
+#SERVICE 1:64:321:0:0:0:0:0:0:0:
 #DESCRIPTION ++Aruba++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ed1ov.live.opencaster.com/GzyysAAvEhht/index.m3u8:Aruba TV
 #DESCRIPTION Aruba TV
@@ -7,11 +7,11 @@
 #DESCRIPTION Aruba TV+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.tensila.com/cool-v-1.arubara/hls/master.m3u8:Cool FM 98.9
 #DESCRIPTION Cool FM 98.9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cur.watch/api/get_stream/dctv/basilachill/mystream.m3u8:Dutch Caribbean TV
-#DESCRIPTION Dutch Caribbean TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.tensila.com/cool-v-1.arubara/hls/live/mystream.m3u8:Cool FM 98.9 (#)
+#DESCRIPTION Cool FM 98.9 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.tensila.com/heart-v-1.heartar/hls/live/mystream.m3u8:Heart Radio Aruba
 #DESCRIPTION Heart Radio Aruba
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vcp3.myplaytv.com/powerfm/powerfm/playlist.m3u8:Power 101.7 FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vcp11.myplaytv.com/powerfm/powerfm/playlist.m3u8:Power 101.7 FM
 #DESCRIPTION Power 101.7 FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.setar.aw%3a1935/Telearuba/smil%3atelearuba.smil/playlist.m3u8:Tele Aruba
 #DESCRIPTION Tele Aruba
@@ -21,17 +21,31 @@
 #DESCRIPTION Tele Aruba Channel 13
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ed5ov1.live.opencaster.com/bkyqeDgfaukC/index.m3u8:VIP TV
 #DESCRIPTION VIP TV
-#SERVICE 1:64:312:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//214787.global.ssl.fastly.net/65dee3aad6beacddbd6cd1af/live_21e811c0d60d11eeaa1a471c2c967e4a/rewind-3600.m3u8:X TV
+#DESCRIPTION X TV
+#SERVICE 1:64:322:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bonaire++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.streambrothers.com%3a19360/8022/8022.m3u8:Live 99 FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.streambrothers.com%3a1936/8506/8506/playlist.m3u8:Bonaire TV
+#DESCRIPTION Bonaire TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cur.watch/api/get_stream/dctv/basilachill/mystream.m3u8:Energia TV
+#DESCRIPTION Energia TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.streambrothers.com%3a1936/8014/8014/playlist.m3u8:Live 99 FM
 #DESCRIPTION Live 99 FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming.flamingotv.net/nostv/live.m3u8:Nos TV Bonaire
 #DESCRIPTION Nos TV Bonaire
-#SERVICE 1:64:313:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.westream.cloud/VozdiBonaireTV/VozdiBonaireTV.m3u8:Voz Di Bonaire TV
+#DESCRIPTION Voz Di Bonaire TV
+#SERVICE 1:64:323:0:0:0:0:0:0:0:
 #DESCRIPTION -- Sint Maarten --
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvc.mediacaribstream.com%3a5443/LiveApp/streams/678996728477322762133253.m3u8:TV Carib
-#DESCRIPTION TV Carib
-#SERVICE 1:64:314:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.tensila.com/pearl-v-1.pearlfm/hls/live/mystream.m3u8:Pearl FM
+#DESCRIPTION Pearl FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.mycloudstream.io/hls/live/broadcast/tbyxmtx5/index.m3u8:PJD2 - the Voice of St Maarten
+#DESCRIPTION PJD2 - the Voice of St Maarten
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5dcabf026b188.streamlock.net/Theodore/livestream/playlist.m3u8:SXM TV Broadcast
+#DESCRIPTION SXM TV Broadcast
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//198.255.80.170/FTX9_SXM-TV/index.m3u8:TV 15 St Maarten
+#DESCRIPTION TV 15 St Maarten
+#SERVICE 1:64:324:0:0:0:0:0:0:0:
 #DESCRIPTION ++Antillen algemeen++
 #SERVICE 4097:0:1:131:2:4:0:0:0:0:http%3a//hls.tmacaraibes.com/live/index.m3u8:TMA - Television Musicale Antillaise
 #DESCRIPTION TMA - Television Musicale Antillaise

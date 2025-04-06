@@ -53,10 +53,10 @@
 #DESCRIPTION Campus-Radio-944-StPlten
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//air.chillout.zone%3a8000/radio:Chill-Out-Zone
 #DESCRIPTION Chill-Out-Zone
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//11c.radiotechnikum.at/stream/11.aac:CITY23 (Wenen, Oostenrijk)
-#DESCRIPTION CITY23 (Wenen, Oostenrijk)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radiotechnikum.at/CITYJAZZ:City Jazz Radio
 #DESCRIPTION City Jazz Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//11c.radiotechnikum.at/stream/11.aac:CITY23 (Wenen, Oostenrijk)
+#DESCRIPTION CITY23 (Wenen, Oostenrijk)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//178.209.40.106%3a8010/stream:Creatures-Of-The-Night-Radio
 #DESCRIPTION Creatures-Of-The-Night-Radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.drumandbass.fm%3a9002:DrumAndBassFM
@@ -131,6 +131,10 @@
 #DESCRIPTION Life-Radio - Live Songs (Oostenrijk)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//liferadio.stream.kapper.net%3a8001/party:Life-Radio - Party (Oostenrijk)
 #DESCRIPTION Life-Radio - Party (Oostenrijk)
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//stream.liferadio.tirol/schlager/mp3-192/link:Life-Radio - Schlagerpuls
+#DESCRIPTION Life-Radio - Schlagerpuls
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//stream.liferadio.tirol/sommer/mp3-192/link:Life-Radio - Sommerhitparty
+#DESCRIPTION Life-Radio - Sommerhitparty
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//liferadio.stream.kapper.net%3a8005/unplugged:Life-Radio - Unplugged (Oostenrijk)
 #DESCRIPTION Life-Radio - Unplugged (Oostenrijk)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//liferadio.stream.kapper.net%3a8000/liferadio:Life-Radio
@@ -149,10 +153,6 @@
 #DESCRIPTION Musikwelle
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//11c.radiotechnikum.at/stream/10.aac:NOW Radio (Wenen, Oostenrijk)
 #DESCRIPTION NOW Radio (Wenen, Oostenrijk)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//orf-live.ors-shoutcast.at/oe1-q2a:Ö1
-#DESCRIPTION Ö1
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//orf-live.ors-shoutcast.at/campus-q2a:Ö1 Campus
-#DESCRIPTION Ö1 Campus
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//onair.securestream.radioaustria.at/radioaustria:Oe24 Radio
 #DESCRIPTION Oe24 Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//orf-live.ors-shoutcast.at/bgl-q2a:ORF Radio Burgenland
@@ -203,10 +203,10 @@
 #DESCRIPTION Radio Freequenns
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.fro.at%3a8008/fro-128.ogg:Radio FRO
 #DESCRIPTION Radio FRO
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiogoed.securestream.kapper.net/stream:Radio GÖD
-#DESCRIPTION Radio GÖD
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.gruen-weiss.at/rgw.mp3:Radio Grün Weiss
 #DESCRIPTION Radio Grün Weiss
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiogoed.securestream.kapper.net/stream:Radio GÖD
+#DESCRIPTION Radio GÖD
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//host6.cartwall.at%3a9630:Radio Harmonie
 #DESCRIPTION Radio Harmonie
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//live.helsinki.at%3a8088/live128.mp3:Radio Helsinki 128-kbps
@@ -309,3 +309,7 @@
 #DESCRIPTION WELLE 1 Wien und die Welt
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.welle1.at%3a19000/live:WELLE 1 Wien
 #DESCRIPTION WELLE 1 Wien
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//orf-live.ors-shoutcast.at/campus-q2a:Ö1 Campus
+#DESCRIPTION Ö1 Campus
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//orf-live.ors-shoutcast.at/oe1-q2a:Ö1
+#DESCRIPTION Ö1

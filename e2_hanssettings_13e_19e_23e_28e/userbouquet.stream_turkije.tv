@@ -1,9 +1,11 @@
 #NAME Stream Turkije (TR)
-#SERVICE 1:64:425:0:0:0:0:0:0:0:
+#SERVICE 1:64:436:0:0:0:0:0:0:0:
 #DESCRIPTION ++TRT-hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nestaby.ottolok.net/iptv/WDGREADUV253QK/6883/index.m3u8:TRT 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10158:TRT 1
 #DESCRIPTION TRT 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nestaby.ottolok.net/iptv/WDGREADUV253QK/6884/index.m3u8:TRT 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a00c:TRT 1 (#)
+#DESCRIPTION TRT 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=912456&extension=ts&play_token=sAJI5I5xSX:TRT 2
 #DESCRIPTION TRT 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv-trtarabi.medya.trt.com.tr/master.m3u8:TRT Arabi
 #DESCRIPTION TRT Arabi
@@ -43,7 +45,7 @@
 #DESCRIPTION TRT World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a003:TRT World (#)
 #DESCRIPTION TRT World (#)
-#SERVICE 1:64:426:0:0:0:0:0:0:0:
+#SERVICE 1:64:437:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders 1 overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mn-nl.mncdn.com/kanal24/smil%3akanal24.smil/playlist.m3u8:24
 #DESCRIPTION 24
@@ -53,28 +55,36 @@
 #DESCRIPTION A Haber
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a019:A Haber (#)
 #DESCRIPTION A Haber (#)
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//c.fulltvizle.com/ahaber/index.m3u8:A Haber (#)
-#DESCRIPTION A Haber (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a01k:A News
 #DESCRIPTION A News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a01l:A Para
 #DESCRIPTION A Para
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//c.fulltvizle.com/aytv/index.m3u8:ATV Türkiye
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tgn.bozztv.com/dvrfl05/gin-aspor/index.m3u8:A Spor
+#DESCRIPTION A Spor
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//trkvz-live.daioncdn.net/aspor/aspor.m3u8:A Spor (#)
+#DESCRIPTION A Spor (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10154:ATV Türkiye
 #DESCRIPTION ATV Türkiye
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//116.202.238.88/ATV_TR/tracks-v1a1/index.m3u8:ATV Türkiye (#)
 #DESCRIPTION ATV Türkiye (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a018:ATV Avrupa
 #DESCRIPTION ATV Avrupa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//c.fulltvizle.com/a2/index.m3u8:A2TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=912464&extension=ts&play_token=pJi2X27fe3:ATV Avrupa (#)
+#DESCRIPTION ATV Avrupa (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10124:A2TV
 #DESCRIPTION A2TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=912444&extension=ts&play_token=X0jaqJtZ3p:A2TV (#)
+#DESCRIPTION A2TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//big-time-plus-enc.edgenextcdn.net/out/v1/c885383fb76943c98fa223e7fd08b125/index.m3u8:Big Time+
 #DESCRIPTION Big Time+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bloomberght2dvr.blutv.com/blutv_bloomberght_dvr/live.m3u8:Bloomberg HT
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10128:Bloomberg HT
 #DESCRIPTION Bloomberg HT
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ciner.daioncdn.net/bloomberght/bloomberght_720p.m3u8:Bloomberg HT (#)
 #DESCRIPTION Bloomberg HT (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8:Cine 1
 #DESCRIPTION Cine 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.tvcdn.net/ekonomi/cnbc-e.m3u8:CNBC-e
+#DESCRIPTION CNBC-e
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a01r:CNN Türk
 #DESCRIPTION CNN Türk
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.duhnet.tv//S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8:Dream Türk
@@ -95,12 +105,18 @@
 #DESCRIPTION Halk TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web&dfp_paln=AQzzBGQEBm1BO0E2iVe9tLfcsqJ3gAOMJ63P8Ch&ppid=675956db19f9bb686edda21d15d911e8:HT Spor
 #DESCRIPTION HT Spor
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a016:HT Spor (#)
+#DESCRIPTION HT Spor (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//kanal7-live.daioncdn.net/kanal7/kanal7.m3u8:Kanal 7
 #DESCRIPTION Kanal 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10141:Kanal 7 (#)
+#DESCRIPTION Kanal 7 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8:Kanal 7 Avrupa
 #DESCRIPTION Kanal 7 Avrupa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.duhnet.tv/S2/HLS_LIVE/kanalddainp/track_4_1250/playlist.m3u8:Kanal D
 #DESCRIPTION Kanal D
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10148:Kanal D (#)
+#DESCRIPTION Kanal D (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8:Euro D
 #DESCRIPTION Euro D
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a01w:Euro D (#)
@@ -111,6 +127,10 @@
 #DESCRIPTION Kral Pop
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8:Mercan
 #DESCRIPTION Mercan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8:Number 1
+#DESCRIPTION Number 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10102:Number 1 Türk
+#DESCRIPTION Number 1 Türk
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8:Olay Turk
 #DESCRIPTION Olay Turk
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b5250000_sltur.m3u8:Power Türk
@@ -123,8 +143,12 @@
 #DESCRIPTION Power TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ciner-live.daioncdn.net/showtv/showtv_1080p.m3u8:Show TV
 #DESCRIPTION Show TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10152:Show TV (#)
+#DESCRIPTION Show TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/shmax.m3u8:Show Max
 #DESCRIPTION Show Max
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10247:Show Max (#)
+#DESCRIPTION Show Max (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tur/shturk.m3u8:Show Turk
 #DESCRIPTION Show Turk
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canlitvulusal.xyz/live/showturk/index.m3u8:Show Turk (#)
@@ -133,8 +157,12 @@
 #DESCRIPTION Sports TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dogus-live.daioncdn.net/startv/startv.m3u8:Star TV
 #DESCRIPTION Star TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10150:Star TV (#)
+#DESCRIPTION Star TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a01h:EuroStar
 #DESCRIPTION EuroStar
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=912463&extension=ts&play_token=DhZuTRaMmy:EuroStar (#)
+#DESCRIPTION EuroStar (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//meclistv-live.ercdn.net/meclistv/meclistv.m3u8:TBMM
 #DESCRIPTION TBMM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a047:TGRT Belgesel
@@ -153,16 +181,24 @@
 #DESCRIPTION TV 8 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a01x:TV 8 International
 #DESCRIPTION TV 8 International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nestaby.ottolok.net/iptv/WDGREADUV253QK/6895/index.m3u8:TV 8.5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=912473&extension=ts&play_token=jWmB3nckFf:TV 8 International (#)
+#DESCRIPTION TV 8 International (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//localhd.tv%3a8080/mhbaleste1/DIWH5OVCBj/10144:TV 8.5
 #DESCRIPTION TV 8.5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv100.blutv.com/blutv_tv100_live/live.m3u8:TV 100
 #DESCRIPTION TV 100
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv100-live.daioncdn.net/tv100/tv100_1080p.m3u8:TV 100 (#)
+#DESCRIPTION TV 100 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mn-nl.mncdn.com/tvnet/tvnet/playlist.m3u8:TVnet
 #DESCRIPTION TVnet
-#SERVICE 1:64:427:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.yayin.com.tr/tytturk/index.m3u8:TYT Turk
+#DESCRIPTION TYT Turk
+#SERVICE 1:64:438:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders 2 overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tele1-live.ercdn.net/tele1/tele1.m3u8:Tele 1
 #DESCRIPTION Tele 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a01y:Tele 1 (#)
+#DESCRIPTION Tele 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a05p:TV 1
 #DESCRIPTION TV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//demiroren-live.daioncdn.net/teve2/teve2.m3u8:Teve 2
@@ -237,7 +273,7 @@
 #DESCRIPTION TV A
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a05z:TV Den
 #DESCRIPTION TV Den
-#SERVICE 1:64:428:0:0:0:0:0:0:0:
+#SERVICE 1:64:439:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a011:Agro TV
 #DESCRIPTION Agro TV
@@ -265,6 +301,8 @@
 #DESCRIPTION Berat TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//beyaztv.daioncdn.net/beyaztv/beyaztv.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d&ce=3:Beyaz
 #DESCRIPTION Beyaz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a05h:Beyaz (#)
+#DESCRIPTION Beyaz (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge1.socialsmart.tv/birtv/bant1/playlist.m3u8:Bir TV
 #DESCRIPTION Bir TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8:BRTV
@@ -287,8 +325,12 @@
 #DESCRIPTION DHA 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8:DİM TV
 #DESCRIPTION DİM TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a05j:Diyanet TV
+#DESCRIPTION Diyanet TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8:Diyar TV
 #DESCRIPTION Diyar TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a051:Diyar TV (#)
+#DESCRIPTION Diyar TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a04j:ERTV
 #DESCRIPTION ERTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8:ETV Kayseri
@@ -301,10 +343,14 @@
 #DESCRIPTION Fortuna TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_grt/grt1/playlist.m3u8:GRT
 #DESCRIPTION GRT
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mn-nl.mncdn.com/gzttv/gzttv/playlist.m3u8:GZT
+#DESCRIPTION GZT
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8:Hunat
 #DESCRIPTION Hunat
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8:Kanal Firat
 #DESCRIPTION Kanal Firat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/kanal-s.m3u8:Kanal S TV
+#DESCRIPTION Kanal S TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge1.socialsmart.tv/kanalurfa/bant1/playlist.m3u8:Kanal Urfa
 #DESCRIPTION Kanal Urfa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_kaytv/kaytv1/playlist.m3u8:Kay TV
@@ -331,22 +377,30 @@
 #DESCRIPTION Malatya Vuslat (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8:MaviKaradeniz
 #DESCRIPTION MaviKaradeniz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/mcj-tv-shop.m3u8:MCJ
+#DESCRIPTION MCJ
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a04k:Mercan
 #DESCRIPTION Mercan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tgn.bozztv.com/dvrfl05/gin-minikacocuk/index.m3u8:Minika Cocuk
+#DESCRIPTION Minika Cocuk
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tgn.bozztv.com/dvrfl05/gin-minikago/index.m3u8:Minika Go
+#DESCRIPTION Minika Go
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_noratv/noratv/playlist.m3u8:Nora TV
 #DESCRIPTION Nora TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//c.fulltvizle.com/fox/index.m3u8:NOW
-#DESCRIPTION NOW
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a023:Rumeli TV
 #DESCRIPTION Rumeli TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8:Semerkand TV
 #DESCRIPTION Semerkand TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//602ccc850c9bb.streamlock.net/sterktv/smil%3asterk.smil/chunklist_w516454627_b1010000_sleng.m3u8:Sterk TV
 #DESCRIPTION Sterk TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8:Tempo TV (Türkiye)
-#DESCRIPTION Tempo TV (Türkiye)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a014:Tek Rumeli
+#DESCRIPTION Tek Rumeli
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8:Tempo TV
+#DESCRIPTION Tempo TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-tv.m3u8:TMB
 #DESCRIPTION TMB
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/tmb-azerbaycan.m3u8:TMB Music
+#DESCRIPTION TMB Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8:Ton TV
 #DESCRIPTION Ton TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//217.174.225.146/legacyhls/ch005_400/index.m3u8:Türkmen Owazy
@@ -355,6 +409,10 @@
 #DESCRIPTION Türkmen Sporty
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//217.174.225.146/legacyhls/ch007_400/index.m3u8:Türkmenistan
 #DESCRIPTION Türkmenistan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a01f:Turksat Saat
+#DESCRIPTION Turksat Saat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a01d:Turksat Tanitim
+#DESCRIPTION Turksat Tanitim
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ruhatv.ozelip.com%3a3483/hybrid/play.m3u8:Urfa Haber
 #DESCRIPTION Urfa Haber
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8:Urfa Natik TV
@@ -363,6 +421,8 @@
 #DESCRIPTION Vav TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//embedlp.becdn.net/womantv.m3u8:Woman TV
 #DESCRIPTION Woman TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a05e:Yildiz TV En
+#DESCRIPTION Yildiz TV En
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.amgsmart2home.de/YOLTVMAIN/index.m3u8:Yol TV
 #DESCRIPTION Yol TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zindikurmanci.zaroktv.com.tr/hls/stream.m3u8:Zarok TV

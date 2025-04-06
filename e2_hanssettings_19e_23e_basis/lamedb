@@ -144,11 +144,11 @@ transponders
 00c00000:0442:0001
 	s 12207000:29700000:1:2:192:2:0:1:2:0:2
 /
-00c00000:045b:0001
-	s 12663000:22000000:0:4:192:2:0
-/
 00c00000:0431:0001
 	s 12110000:27500000:0:3:192:2:0
+/
+00c00000:045b:0001
+	s 12663000:22000000:0:4:192:2:0
 /
 00c00000:0458:0001
 	s 12610000:22000000:1:2:192:2:0:1:2:0:2
@@ -273,11 +273,11 @@ transponders
 00c00000:0451:0035
 	s 12515000:22000000:0:4:192:2:0
 /
-00c00000:03ef:0001
-	s 11303000:22000000:0:2:192:2:0:1:2:0:2
-/
 00c00000:03ee:0001
 	s 11288000:22000000:1:2:192:2:0:1:2:0:2
+/
+00c00000:03ef:0001
+	s 11303000:22000000:0:2:192:2:0:1:2:0:2
 /
 00c00000:040f:0001
 	s 11053000:22000000:0:2:192:2:0:1:2:0:2
@@ -625,7 +625,7 @@ Tring Tring
 p:Telekom Srbija,c:050001
 4ea8:00eb0000:0ca6:0003:1:0
 Vision plus
-p:Telekom Srbija
+p:Telekom Srbija,c:050001
 4eaa:00eb0000:0ca6:0003:1:0
 Summertime
 p:Telekom Srbija
@@ -770,9 +770,6 @@ p:BetaDigital
 17d5:00eb0000:0c91:0003:25:0
 Stingray Classica HD
 p:BetaDigital
-17d6:00eb0000:0c91:0003:25:0
-iConcert
-p:MX1
 17d7:00eb0000:0c91:0003:25:0
 AutoMotorSport HD
 p:BetaDigital,c:050001
@@ -1137,7 +1134,7 @@ p:Telekom Srbija
 Star Crime HD
 p:Telekom Srbija
 4e8f:00eb0000:0ca4:0003:1:0
-ATV HD
+ATV
 p:Telekom Srbija
 4e97:00eb0000:0ca4:0003:1:0
 RTRS Plus
@@ -1148,17 +1145,11 @@ p:Telekom Srbija
 4e99:00eb0000:0ca4:0003:1:0
 BBC Earth
 p:Telekom Srbija
-4e9a:00eb0000:0ca4:0003:1:0
-Animal Planet
-p:Telekom Srbija
 4e9b:00eb0000:0ca4:0003:1:0
 National Geographic
 p:Telekom Srbija
 4ea4:00eb0000:0ca4:0003:1:0
 ID
-p:Telekom Srbija
-4ea5:00eb0000:0ca4:0003:1:0
-Balkan Sport 2
 p:Telekom Srbija
 4ea6:00eb0000:0ca4:0003:1:0
 KCN 1
@@ -1173,7 +1164,7 @@ p:Telekom Srbija
 24Kitchen
 p:Telekom Srbija
 4ead:00eb0000:0ca4:0003:1:0
-EuroCinema 3
+Pink Folk
 p:Telekom Srbija
 4eae:00eb0000:0ca4:0003:1:0
 Arena Sport 10 HD
@@ -1207,7 +1198,7 @@ Pink Hits 1
 p:Telekom Srbija
 4eb9:00eb0000:0ca4:0003:1:0
 Pink&Roll
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4eba:00eb0000:0ca4:0003:1:0
 BN Music
 p:Telekom Srbija
@@ -1224,7 +1215,7 @@ p:Telekom Srbija
 City Play
 p:Telekom Srbija
 4ec1:00eb0000:0ca4:0003:1:0
-EuroCinema 4
+Brazzers
 p:Telekom Srbija
 4ec2:00eb0000:0ca4:0003:1:0
 Duga plus
@@ -1284,7 +1275,7 @@ p:M7 Group
 Arrow Classic Rock
 p:M7 Group
 17f1:00eb0000:0c82:0003:2:0
-Classicnl
+Alleen Klassiek
 p:M7 Group
 17f2:00eb0000:0c82:0003:2:0
 Radio Veronica
@@ -1309,7 +1300,7 @@ ONS
 p:M7 Group
 17e0:00eb0000:0c82:0003:22:0
 CD Infokanaal
-p:M7 Group,c:050001
+p:M7 Group
 17e1:00eb0000:0c82:0003:22:0
 TVV Infokanaal
 p:M7 Group
@@ -1342,7 +1333,7 @@ NPO2 HD
 p:M7 Group,c:050001,c:098800
 17ca:00eb0000:0c82:0003:25:0
 SBS6 HD
-p:M7 Group,c:050001,c:098800
+p:M7 Group,c:050001
 17cc:00eb0000:0c82:0003:25:0
 ESPN HD
 p:M7 Group
@@ -1537,7 +1528,7 @@ TV2 Sef
 p:M7 Group
 5273:00eb0000:0c96:0003:22:0
 History NL
-p:M7 Group,c:050001
+p:M7 Group
 5276:00eb0000:0c96:0003:22:0
 VTM Gold
 p:M7 Group,c:050001
@@ -1546,22 +1537,22 @@ Ketnet
 p:M7 Group
 527c:00eb0000:0c96:0003:22:0
 VTM Life
-p:M7 Group,c:050001
+p:M7 Group
 5280:00eb0000:0c96:0003:22:0
 VTM 3
 p:M7 Group
 5282:00eb0000:0c96:0003:22:0
 VTM 4
-p:M7 Group,c:050001
+p:M7 Group
 5284:00eb0000:0c96:0003:22:0
 Man-X
-p:M7 Group,c:050001
+p:M7 Group
 5286:00eb0000:0c96:0003:22:0
 Play5
 p:M7 Group
 5287:00eb0000:0c96:0003:22:0
 Play7
-p:M7 Group,c:050001
+p:M7 Group
 51ae:00eb0000:0c96:0003:22:0
 Film1 Family
 p:M7 Group
@@ -1588,7 +1579,7 @@ DAZN Pro League 1 NL
 p:M7 Group
 52ed:00eb0000:0c96:0003:22:0
 Sport 10
-p:M7 Group,c:050001
+p:M7 Group
 52f3:00eb0000:0c96:0003:22:0
 Muzsika TV
 p:M7 Group
@@ -1599,8 +1590,8 @@ p:M7 Group
 Nova Sport 5 HD (SK)
 p:M7 Group
 51d1:00eb0000:0c96:0003:25:0
-Viaplay TV
-p:M7 Group
+SBS9
+p:M7 Group,c:050001
 51db:00eb0000:0c96:0003:25:0
 Film1 Premiere HD
 p:M7 Group
@@ -1823,9 +1814,6 @@ p:M7 Group
 3cff:00eb0000:0c95:0003:25:0
 History HD
 p:M7 Group
-0308:00eb0000:0c94:0003:22:0
-OCKO
-p:M7 Group
 0309:00eb0000:0c94:0003:22:0
 OCKO STAR
 p:M7 Group
@@ -1843,9 +1831,6 @@ Stingray CMusic CZ
 p:M7 Group
 0311:00eb0000:0c94:0003:22:0
 Golf Channel
-p:M7 Group,c:050001
-0312:00eb0000:0c94:0003:22:0
-A11
 p:M7 Group
 0314:00eb0000:0c94:0003:22:0
 Fishing and Hunting
@@ -1873,7 +1858,7 @@ Galaxy4
 p:M7 Group
 0302:00eb0000:0c94:0003:25:0
 Nat Geo HD
-p:M7 Group
+p:M7 Group,c:050001
 0303:00eb0000:0c94:0003:25:0
 Nat Geo HD CZ
 p:M7 Group
@@ -1891,7 +1876,7 @@ HBO HD
 p:M7 Group
 030a:00eb0000:0c94:0003:25:0
 Premium HD
-p:M7 Group,c:050001
+p:M7 Group
 030f:00eb0000:0c94:0003:25:0
 Love Nature HD CZ
 p:M7 Group
@@ -1990,7 +1975,7 @@ Retro Music TV
 p:M7 Group
 3c29:00eb0000:0c90:0003:25:0
 Arena Sport 1 HD
-p:M7 Group,c:050001
+p:M7 Group
 3c2c:00eb0000:0c90:0003:25:0
 Cinemax HD
 p:M7 Group
@@ -2005,13 +1990,13 @@ CANAL+ Sport 2 (SK)
 p:M7 Group
 3c3c:00eb0000:0c90:0003:25:0
 Jednotka HD
-p:M7 Group,c:050001
+p:M7 Group
 3c3d:00eb0000:0c90:0003:25:0
 Dvojka HD
-p:M7 Group,c:050001
+p:M7 Group
 3c3e:00eb0000:0c90:0003:25:0
 RTVS 24 HD
-p:M7 Group,c:050001
+p:M7 Group
 3c3f:00eb0000:0c90:0003:25:0
 RTVS SPORT HD
 p:M7 Group
@@ -2168,9 +2153,6 @@ p:BetaDigital
 0202:00c00000:0007:0085:1:0
 Immer etwas Neues TV
 p:BetaDigital
-0306:00c00000:0007:0085:1:0
-FOLX MUSIC TELEVISION
-p:BetaDigital
 0307:00c00000:0007:0085:1:0
 MediaShop- Meine Einkaufswelt
 p:BetaDigital
@@ -2181,13 +2163,10 @@ p:BetaDigital
 .
 p:.
 003d:00c00000:0007:0085:1:0
-Nick/Comedy Central Austria
+.
 p:MTV Networks
 0041:00c00000:0007:0085:1:0
 DELUXE MUSIC
-p:BetaDigital
-0046:00c00000:0007:0085:1:0
-.
 p:BetaDigital
 0047:00c00000:0007:0085:1:0
 TLC Austria
@@ -2197,9 +2176,6 @@ p:BetaDigital
 p:BetaDigital
 0049:00c00000:0007:0085:1:0
 DMAX Austria
-p:BetaDigital
-02fd:00c00000:0007:0085:1:0
-pearl.tv Shop
 p:BetaDigital
 00a9:00c00000:0007:0085:2:0
 sunshine live
@@ -2792,78 +2768,6 @@ p:CSAT
 238a:00c00000:0442:0001:100:0
 12207V SID 0x238a
 p:DVB-S2 8PSK 12207V 19.2Â°E
-332d:00c00000:045b:0001:1:0
-ORF III
-p:ORF
-3333:00c00000:045b:0001:1:0
-VISIT-X.tv
-p:-
-3341:00c00000:045b:0001:2:0
-OE1
-p:ORF
-3342:00c00000:045b:0001:2:0
-OE1 DD
-p:ORF
-3343:00c00000:045b:0001:2:0
-OE2 W_alt
-p:ORF
-3344:00c00000:045b:0001:2:0
-OE2 N_alt
-p:ORF
-3345:00c00000:045b:0001:2:0
-OE2 B_alt
-p:ORF
-3346:00c00000:045b:0001:2:0
-OE2 O_alt
-p:ORF
-3347:00c00000:045b:0001:2:0
-OE2 S_alt
-p:ORF
-3348:00c00000:045b:0001:2:0
-OE2 T_alt
-p:ORF
-3349:00c00000:045b:0001:2:0
-OE2 V_alt
-p:ORF
-334a:00c00000:045b:0001:2:0
-OE2 St_alt
-p:ORF
-334b:00c00000:045b:0001:2:0
-OE2 K_alt
-p:ORF
-334d:00c00000:045b:0001:2:0
-OE3_alt
-p:ORF
-334e:00c00000:045b:0001:2:0
-FM4_alt
-p:ORF
-3354:00c00000:045b:0001:2:0
-RADIO MARIA
-p:Radio Maria Österreich
-332e:00c00000:045b:0001:22:0
-NITRO Austria
-p:RTL
-332f:00c00000:045b:0001:22:0
-DOKUSAT SD
-p:
-3330:00c00000:045b:0001:22:0
-LT1-OOE
-p:-
-3332:00c00000:045b:0001:22:0
-Shop LC
-p:ORS
-3336:00c00000:045b:0001:22:0
-Genius TV
-p:TV2000plus
-3338:00c00000:045b:0001:22:0
-4MEDIATHEK
-p:-
-3339:00c00000:045b:0001:22:0
-L-TV
-p:-
-3355:00c00000:045b:0001:25:0
-EWTN katholisches TV HD
-p:EWTN,c:050001
 6e2d:00c00000:0431:0001:1:0
 Xplore
 p:SES,c:050001
@@ -2894,6 +2798,39 @@ p:SES
 6e47:00c00000:0431:0001:1:0
 SERIEN+
 p:SES
+3333:00c00000:045b:0001:1:0
+VISIT-X.tv
+p:-
+3354:00c00000:045b:0001:2:0
+RADIO MARIA
+p:Radio Maria Österreich
+332d:00c00000:045b:0001:22:0
+Service 13101
+p:ORF,c:050001
+332e:00c00000:045b:0001:22:0
+NITRO Austria
+p:RTL
+332f:00c00000:045b:0001:22:0
+DOKUSAT SD
+p:
+3330:00c00000:045b:0001:22:0
+LT1-OOE
+p:-
+3332:00c00000:045b:0001:22:0
+Shop LC
+p:ORS
+3336:00c00000:045b:0001:22:0
+Genius TV
+p:TV2000plus
+3338:00c00000:045b:0001:22:0
+4MEDIATHEK
+p:MIT-xperts GmbH
+3339:00c00000:045b:0001:22:0
+L-TV
+p:
+3355:00c00000:045b:0001:25:0
+EWTN katholisches TV HD
+p:EWTN
 2936:00c00000:0458:0001:1:0
 Xplore
 p:SES
@@ -4819,22 +4756,22 @@ INPLUS
 p:M7
 100b:00c00000:0451:0035:22:0
 Hustler TV
-p:M7 Group,c:050001
+p:M7 Group
 100d:00c00000:0451:0035:22:0
 Hustler TV CZ
-p:M7 Group,c:050001
+p:M7 Group
 1013:00c00000:0451:0035:22:0
 Bergblick
-p:M7 Group
+p:M7 Group,c:050001
 1034:00c00000:0451:0035:22:0
 DAZN Pro League 1 FR
 p:M7 Group
 0fe0:00c00000:0451:0035:22:0
 Vivid
-p:M7 Group,c:050001
+p:M7 Group
 0fe1:00c00000:0451:0035:22:0
 Vivid CZ
-p:M7 Group,c:050001
+p:M7 Group
 101c:00c00000:0451:0035:25:0
 CANAL+ Action
 p:M7 Group,c:050001
@@ -4853,7 +4790,16 @@ p:M7 Group
 1c1e:00c00000:0451:0035:212:0
 EPG Nagraguide
 p:M7 Group
-1338:00c00000:03ef:0001:2:0
+1091:00c00000:03ee:0001:2:0
+Radio Maryja
+p:SES ASTRA
+1090:00c00000:03ee:0001:22:0
+TV Trwam
+p:SES ASTRA
+1086:00c00000:03ee:0001:31:0
+QVC UHD
+p:MX1,c:050007
+1338:00c00000:03ef:0001:10:0
 ORF HITRADIO OE3
 p:ORF
 134c:00c00000:03ef:0001:10:0
@@ -4892,12 +4838,15 @@ p:ORF
 1357:00c00000:03ef:0001:10:0
 ORF RADIO OE1 DOLBY
 p:ORF
+1345:00c00000:03ef:0001:12:0
+Neotion OTA
+p:ORF
 1342:00c00000:03ef:0001:22:0
 RiC NEU
 p:IP Broadcast
 1344:00c00000:03ef:0001:22:0
 TV Berlin
-p:ORF,c:050001
+p:ORF
 132f:00c00000:03ef:0001:25:0
 ORF1 HD
 p:ORF,c:050001
@@ -4909,22 +4858,13 @@ ServusTV HD Oesterreich
 p:ServusTV
 1332:00c00000:03ef:0001:25:0
 DF1 HD
-p:DF1 Medien,c:050001
+p:DF1 Medien
 1334:00c00000:03ef:0001:25:0
 ORF2N HD
 p:ORF
 1335:00c00000:03ef:0001:25:0
 ORF HITRADIO OE3 VISUAL
 p:ORF
-1091:00c00000:03ee:0001:2:0
-Radio Maryja
-p:SES ASTRA
-1090:00c00000:03ee:0001:22:0
-TV Trwam
-p:SES ASTRA
-1086:00c00000:03ee:0001:31:0
-QVC UHD
-p:MX1,c:050007
 28a0:00c00000:040f:0001:10:0
 Bayern 1
 p:ARD BR
@@ -5308,7 +5248,7 @@ ORF2V HD
 p:ORF
 33fc:00c00000:03ed:0001:25:0
 ORF III HD
-p:ORF
+p:ORF,c:050001
 33fd:00c00000:03ed:0001:25:0
 ORF SPORT+ HD
 p:ORF
@@ -5452,7 +5392,7 @@ RTL HD Austria
 p:RTL
 2e91:00c00000:0411:0001:25:0
 VOX HD Austria
-p:RTL
+p:RTL,c:050001
 2e9b:00c00000:0411:0001:25:0
 SUPER RTL HD
 p:RTL
@@ -5704,7 +5644,7 @@ kabel eins HD Austria
 p:ProSiebenSat.1,c:050001
 ef8b:00c00000:03f9:0001:25:0
 sixx HD Austria
-p:ProSiebenSat.1
+p:ProSiebenSat.1,c:050001
 ef8c:00c00000:03f9:0001:25:0
 Pro7 MAXX HD Austria
 p:ProSiebenSat.1,c:050001
