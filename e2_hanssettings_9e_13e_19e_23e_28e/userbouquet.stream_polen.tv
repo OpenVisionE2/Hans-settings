@@ -1,5 +1,5 @@
 #NAME Stream Polen (PL)
-#SERVICE 1:64:42a:0:0:0:0:0:0:0:
+#SERVICE 1:64:471:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders TVP++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02i:TVP HD
 #DESCRIPTION TVP HD
@@ -17,6 +17,8 @@
 #DESCRIPTION TVP 3 Warszawa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9014/play/a00a:TVP 3 Warszawa (#)
 #DESCRIPTION TVP 3 Warszawa (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdndai.pl/tvp3warszawasd/index.m3u8:TVP 3 Warszawa (#)
+#DESCRIPTION TVP 3 Warszawa (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//irylek.ct8.pl/stream/tvppolonia:TVP Polonia
 #DESCRIPTION TVP Polonia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/TVPPOLOHD:TVP Polonia (#)
@@ -28,6 +30,8 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/TVPABC:TVP ABC (#)
 #DESCRIPTION TVP ABC (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/TVP_ABC/index.m3u8:TVP ABC (#)
+#DESCRIPTION TVP ABC (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02z:TVP ABC (#)
 #DESCRIPTION TVP ABC (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//irylek.ct8.pl/stream/tvpabc2:TVP ABC 2
 #DESCRIPTION TVP ABC 2
@@ -46,6 +50,8 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/TVPHIST:TVP Historia (#)
 #DESCRIPTION TVP Historia (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/TVP_Historia/index.m3u8:TVP Historia (#)
+#DESCRIPTION TVP Historia (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a035:TVP Historia (#)
 #DESCRIPTION TVP Historia (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//irylek.ct8.pl/stream/tvphistoria2:TVP Historia 2
 #DESCRIPTION TVP Historia 2
@@ -75,6 +81,8 @@
 #DESCRIPTION TVP Rozrywka (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TVP_Rozrywka/index.m3u8:TVP Rozrywka (#)
 #DESCRIPTION TVP Rozrywka (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a026:TVP Rozrywka (#)
+#DESCRIPTION TVP Rozrywka (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/TVPSERI:TVP Seriale
 #DESCRIPTION TVP Seriale
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TVP_Seriale/index.m3u8:TVP Seriale (#)
@@ -89,7 +97,7 @@
 #DESCRIPTION TVP World (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/TVPWORLHD:TVP World (#)
 #DESCRIPTION TVP World (#)
-#SERVICE 1:64:42b:0:0:0:0:0:0:0:
+#SERVICE 1:64:472:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//echo24new.pl/LiveAppStreamECHO24/streams/GL0VksiIgQUS1672825288490.m3u8:Echo24
 #DESCRIPTION Echo24
@@ -325,15 +333,27 @@
 #DESCRIPTION TVS (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vcp10.myplaytv.com/tvs/tvs/playlist.m3u8:TVS (#)
 #DESCRIPTION TVS (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02p:TVS (#)
+#DESCRIPTION TVS (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ca49f2417d90.streamlock.net/live/turzovka/playlist.m3u8:TVT
 #DESCRIPTION TVT
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9011/play/a00e:VOX Music TV
 #DESCRIPTION VOX Music TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/TNTHD:Warner TV
 #DESCRIPTION Warner TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9019/play/a006:Water Planet
-#DESCRIPTION Water Planet
-#SERVICE 1:64:42c:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/WP_HD/index.m3u8:WP TV
+#DESCRIPTION WP TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02u:WP TV (#)
+#DESCRIPTION WP TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/zoomtv.stream/chunks.m3u8:Zoom TV
+#DESCRIPTION Zoom TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/ZOOMTVHD:Zoom TV (#)
+#DESCRIPTION Zoom TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Zoom_TV_HD/index.m3u8:Zoom TV (#)
+#DESCRIPTION Zoom TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02a:Zoom TV (#)
+#DESCRIPTION Zoom TV (#)
+#SERVICE 1:64:473:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/4fundance.stream/chunks.m3u8:4 Fun Dance
 #DESCRIPTION 4 Fun Dance
@@ -433,6 +453,12 @@
 #DESCRIPTION Eleven Sports 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/epicdrama.stream/chunks.m3u8:Epic Drama
 #DESCRIPTION Epic Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a029:Epic Drama (#)
+#DESCRIPTION Epic Drama (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/espl-abr/index.m3u8:Eska Hity na Czasie
+#DESCRIPTION Eska Hity na Czasie
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/erpl-abr/index.m3u8:Eska Rock Dobrze Rockuje
+#DESCRIPTION Eska Rock Dobrze Rockuje
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/ESKAROCKTV:Eska Rock TV
 #DESCRIPTION Eska Rock TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/ESKATVHD:Eska TV
@@ -455,6 +481,10 @@
 #DESCRIPTION FX
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/hgtv.stream/chunks.m3u8:HGTV
 #DESCRIPTION HGTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/hdpl-abr/index.m3u8:HiDance
+#DESCRIPTION HiDance
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/hmpl-abr/index.m3u8:HiMusic
+#DESCRIPTION HiMusic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/History_HD/index.m3u8:History
 #DESCRIPTION History
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a03l:History 2
@@ -485,6 +515,8 @@
 #DESCRIPTION MTV Polska
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/MTVHD:MTV Polska (#)
 #DESCRIPTION MTV Polska (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/mupl-abr/index.m3u8:Murator
+#DESCRIPTION Murator
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a06f:Nat Geo People
 #DESCRIPTION Nat Geo People
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a05z:National Geographic Wild
@@ -521,6 +553,8 @@
 #DESCRIPTION Polo TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polo_TV/index.m3u8:Polo TV (#)
 #DESCRIPTION Polo TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/pzpl-abr/index.m3u8:Poradnik Zdrowie
+#DESCRIPTION Poradnik Zdrowie
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8:Radio Czworka
 #DESCRIPTION Radio Czworka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Red_Carpet_TV_HD/index.m3u8:Red Carpet TV
@@ -531,6 +565,8 @@
 #DESCRIPTION Romance TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Romance_TV_HD/index.m3u8:Romance TV (#)
 #DESCRIPTION Romance TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/shpl-abr/index.m3u8:SAYHi
+#DESCRIPTION SAYHi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a03k:Sci Fi
 #DESCRIPTION Sci Fi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/SciFi_HD/index.m3u8:Sci Fi (#)
@@ -541,12 +577,16 @@
 #DESCRIPTION Stopklatka TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Stopklatka_HD/index.m3u8:Stopklatka TV (#)
 #DESCRIPTION Stopklatka TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a023:Stopklatka TV (#)
+#DESCRIPTION Stopklatka TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9017/play/a004:StudioMed
 #DESCRIPTION StudioMed
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/sundance.stream/chunks.m3u8:Sundance
 #DESCRIPTION Sundance
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a03i:Sundance (#)
 #DESCRIPTION Sundance (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/sepl-abr/index.m3u8:Super Express
+#DESCRIPTION Super Express
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.173/TeenNick/index.m3u8:TeenNick
 #DESCRIPTION TeenNick
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TeenNick/mono.m3u8:TeenNick (#)
@@ -563,6 +603,8 @@
 #DESCRIPTION TV Kujawy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb2-e3-20.pluscdn.pl/ch/1523532/366/dash/2cf383bb/live.mpd:TV Okazje
 #DESCRIPTION TV Okazje
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a07l:TV Okazje (#)
+#DESCRIPTION TV Okazje (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvreg.klemit.net/regionalna/stream/index.m3u8:TV Regionalna
 #DESCRIPTION TV Regionalna
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//217.173.176.107%3a1935/live/tvk.stream/playlist.m3u8:TV Toruń
@@ -575,15 +617,11 @@
 #DESCRIPTION TV Wielkopolska
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn01.sesja.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8:TVJ Telewizja Jaslo
 #DESCRIPTION TVJ Telewizja Jaslo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/vxpl-abr/index.m3u8:Vox w Rytmie Hitow
+#DESCRIPTION Vox w Rytmie Hitow
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//weyyak-live.akamaized.net/wedo_big_stories/index.m3u8:Wedo Big Stories
 #DESCRIPTION Wedo Big Stories
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/wPolsce.PL/index.m3u8:W Polsce 24
 #DESCRIPTION W Polsce 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/WP_HD/index.m3u8:WP TV
-#DESCRIPTION WP TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/zoomtv.stream/chunks.m3u8:Zoom TV
-#DESCRIPTION Zoom TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/ZOOMTVHD:Zoom TV (#)
-#DESCRIPTION Zoom TV (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Zoom_TV_HD/index.m3u8:Zoom TV (#)
-#DESCRIPTION Zoom TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9019/play/a006:Water Planet
+#DESCRIPTION Water Planet

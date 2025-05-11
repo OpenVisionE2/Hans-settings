@@ -1,5 +1,5 @@
 #NAME Stream Australië (AU)
-#SERVICE 1:64:22e:0:0:0:0:0:0:0:
+#SERVICE 1:64:271:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=156898&extension=ts&play_token=OlJYijB6il:ABC TV Brisbane
 #DESCRIPTION ABC TV Brisbane
@@ -37,6 +37,8 @@
 #DESCRIPTION ABC Me
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//abc-iview-mediapackagestreams-2.akamaized.net/out/v1/64baf190a85c4fdd9f67d5a3c856876d/index.mpd:ABC News Australia
 #DESCRIPTION ABC News Australia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8:ABC News Australia (#)
+#DESCRIPTION ABC News Australia (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//c.mjh.nz/news_in_90_seconds:ABC News in 90 Seconds
 #DESCRIPTION ABC News in 90 Seconds
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//c.mjh.nz/business_in_90_seconds:ABC News Business in 90 Seconds
@@ -115,6 +117,12 @@
 #DESCRIPTION 10 Shake Perth
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=752176&extension=ts&play_token=MAI8uhjggX:10 Shake Sydney
 #DESCRIPTION 10 Shake Sydney
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.ctbperth.net.au/hls/0/stream.m3u8:CTB Perth
+#DESCRIPTION CTB Perth
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movies.ctbperth.net.au/hls/stream.m3u8:CTB Perth Movies
+#DESCRIPTION CTB Perth Movies
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//news.ctbperth.net.au/hls/stream.m3u8:CTB Perth News
+#DESCRIPTION CTB Perth News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=156918&extension=ts&play_token=bowlkScsQE:SBS Brisbane
 #DESCRIPTION SBS Brisbane
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=156894&extension=ts&play_token=FL45hM6cre:SBS Melbourne
@@ -149,7 +157,7 @@
 #DESCRIPTION Sky Racing 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=646953&extension=ts&play_token=JPljduumWY:Sky Racing 2
 #DESCRIPTION Sky Racing 2
-#SERVICE 1:64:22f:0:0:0:0:0:0:0:
+#SERVICE 1:64:272:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8:2GB Sydney
 #DESCRIPTION 2GB Sydney
@@ -161,6 +169,8 @@
 #DESCRIPTION 6PR Perth
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=156928&extension=ts&play_token=R9azRgh7BY:Al Jazeera
 #DESCRIPTION Al Jazeera
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58cc65c534c67.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8:Alkarma TV Australia
+#DESCRIPTION Alkarma TV Australia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8:Ausbiz TV
 #DESCRIPTION Ausbiz TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=646977&extension=ts&play_token=CPRxHVG0Km:Being Sports 1

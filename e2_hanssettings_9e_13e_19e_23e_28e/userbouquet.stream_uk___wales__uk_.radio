@@ -1,14 +1,16 @@
 #NAME Stream UK - Wales (UK)
-#SERVICE 1:64:5ea:0:0:0:0:0:0:0:
+#SERVICE 1:64:63e:0:0:0:0:0:0:0:
 #DESCRIPTION ++UK radio Wales++
-#SERVICE 4097:0:3:0:0:0:0:0:0:0:http%3a//sc10.iad.llnw.net/stream/bbcmedia_lrlincs_mf_p:BBC - Radio Lincolnshire (Wales, UK)
-#DESCRIPTION BBC - Radio Lincolnshire (Wales, UK)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.live.vc.bbcmedia.co.uk/bbc_radio_cymru:BBC Radio Cymru 1
-#DESCRIPTION BBC Radio Cymru 1
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.live.vc.bbcmedia.co.uk/bbc_radio_cymru_2:BBC Radio Cymru 2
+#SERVICE 4097:0:3:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_77667780/live/ww/bbc_radio_lincolnshire/bbc_radio_lincolnshire.isml/bbc_radio_lincolnshire-audio%253d96000.norewind.m3u8:BBC Radio Lincolnshire
+#DESCRIPTION BBC Radio Lincolnshire
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_24792333/live/ww/bbc_radio_cymru/bbc_radio_cymru.isml/bbc_radio_cymru-audio%253d96000.norewind.m3u8:BBC Radio Cymru
+#DESCRIPTION BBC Radio Cymru
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_98610936/live/ww/bbc_radio_cymru_2/bbc_radio_cymru_2.isml/bbc_radio_cymru_2-audio%253d96000.norewind.m3u8:BBC Radio Cymru 2
 #DESCRIPTION BBC Radio Cymru 2
-#SERVICE 4097:0:3:0:0:0:0:0:0:0:http%3a//stream.live.vc.bbcmedia.co.uk/bbc_radio_wales_fm:BBC Radio Wales
+#SERVICE 4097:0:3:0:0:0:0:0:0:0:https%3a//as-hls-ww.live.cf.md.bbci.co.uk/pool_97517794/live/ww/bbc_radio_wales_fm/bbc_radio_wales_fm.isml/bbc_radio_wales_fm-audio%253d96000.norewind.m3u8:BBC Radio Wales
 #DESCRIPTION BBC Radio Wales
+#SERVICE 4097:0:3:0:0:0:0:0:0:0:https%3a//as-hls-ww.live.cf.md.bbci.co.uk/pool_34167727/live/ww/bbc_radio_wales_am/bbc_radio_wales_am.isml/bbc_radio_wales_am-audio%253d96000.norewind.m3u8:BBC Radio Wales Extra
+#DESCRIPTION BBC Radio Wales Extra
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//proxima.shoutca.st%3a8364/stream:97.3 BGfm (Wales, UK)
 #DESCRIPTION 97.3 BGfm (Wales, UK)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s3.viastreaming.net%3a7150/;:Angel Radio (Wales, UK)

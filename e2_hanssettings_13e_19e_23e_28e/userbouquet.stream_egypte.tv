@@ -1,8 +1,6 @@
 #NAME Stream Egypte (EG)
-#SERVICE 1:64:3bf:0:0:0:0:0:0:0:
+#SERVICE 1:64:406:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0et:Egyptian TV
-#DESCRIPTION Egyptian TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.131%3a8000/play/a02i:ERTU 1 Al Masryia
 #DESCRIPTION ERTU 1 Al Masryia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/11282:ERTU 2 Al Thanya
@@ -21,21 +19,17 @@
 #DESCRIPTION ERTU 8 Tebe
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.131%3a8000/play/a044:Al Qanat 9 TV
 #DESCRIPTION Al Qanat 9 TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.54.220.67%3a34780/play/a06g:Rotana Cinema Egypt
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotana/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Cinema Egypt
 #DESCRIPTION Rotana Cinema Egypt
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.54.220.67%3a34780/play/a06i:Rotana Classic
-#DESCRIPTION Rotana Classic
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.54.220.67%3a34780/play/a06o:Rotana Clip
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotana/clip_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Clip
 #DESCRIPTION Rotana Clip
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.54.220.67%3a34780/play/a06h:Rotana Comedy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotana/comedy_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Comedy
 #DESCRIPTION Rotana Comedy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0b8:Rotana Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotana/drama_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Drama
 #DESCRIPTION Rotana Drama
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0b7:Rotana Khalijeah
-#DESCRIPTION Rotana Khalijeah
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0b9:Rotana Music
-#DESCRIPTION Rotana Music
-#SERVICE 1:64:3c0:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotana/khaleejiya_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Khalijia
+#DESCRIPTION Rotana Khalijia
+#SERVICE 1:64:407:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//media4.smc-host.com%3a1935/aghapy.tv/aghapy.smil/playlist.m3u8:Aghapy TV
 #DESCRIPTION Aghapy TV
@@ -43,6 +37,10 @@
 #DESCRIPTION Al Ahly TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.131%3a8000/play/a01k:Al Fady TV
 #DESCRIPTION Al Fady TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8:Al Ghad
+#DESCRIPTION Al Ghad
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playlist.fasttvcdn.com/pl/ykvm3f2fhokwxqsurp9xcg/alghad-plus/playlist.m3u8:Al Ghad Plus
+#DESCRIPTION Al Ghad Plus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp%3alivestream_all/playlist.m3u8:Al Hayat TV
 #DESCRIPTION Al Hayat TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//media.islamexplained.com%3a1935/live/_definst_mp4%3aahme.stream_360p/playlist.m3u8:Al Hayat (#)
@@ -59,8 +57,8 @@
 #DESCRIPTION AlHadath Alyoum
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.atvsat.com/atvsatlive/smil%3aatvsatlive.smil/playlist.m3u8:ATV SAT
 #DESCRIPTION ATV SAT
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58cc65c534c67.streamlock.net/ctvchannel.tv/ctv.smil/playlist.m3u8:CTV
-#DESCRIPTION CTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5aafcc5de91f1.streamlock.net/ctvchannel.tv/ctv.smil/playlist.m3u8:Coptic TV
+#DESCRIPTION Coptic TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0a7:El Mashadra
 #DESCRIPTION El Mashadra
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//9090video.mobtada.com/hls/stream.m3u8:El Radio 9090 FM
@@ -101,6 +99,8 @@
 #DESCRIPTION OnTime Sports 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-panoramafm-prod-dub.shahid.net/out/v1/66262e420d824475aaae794dc2d69f14/index.m3u8:Panorama FM
 #DESCRIPTION Panorama FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-enc.edgenextcdn.net/out/v1/0ef83323c0374a1187c182645db2a45f/index.m3u8:Ramez
+#DESCRIPTION Ramez
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0f0:Sada Elbalad
 #DESCRIPTION Sada Elbalad
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0f1:Sada Elbalad 2

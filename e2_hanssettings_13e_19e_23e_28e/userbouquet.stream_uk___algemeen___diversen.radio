@@ -1,72 +1,94 @@
 #NAME Stream UK - algemeen + diversen
-#SERVICE 1:64:5bd:0:0:0:0:0:0:0:
-#DESCRIPTION ++UK radio BBC algemeen++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/aks/bbc_radio_one.m3u8:BBC Radio 1
+#SERVICE 1:64:612:0:0:0:0:0:0:0:
+#DESCRIPTION ++UK radio BBC voor buiten UK++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww.live.cf.md.bbci.co.uk/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%253d96000.norewind.m3u8:BBC Radio 1
 #DESCRIPTION BBC Radio 1
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one_dance/bbc_radio_one_dance.isml/bbc_radio_one_dance-audio%253d48000.m3u8:BBC Radio 1 Dance
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/aks/bbc_radio_one_dance.mpd:BBC Radio 1 Dance
 #DESCRIPTION BBC Radio 1 Dance
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/low/cfs/bbc_radio_one_dance.m3u8:BBC Radio 1 Dance
-#DESCRIPTION BBC Radio 1 Dance
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww.live.cf.md.bbci.co.uk/pool_904/live/ww/bbc_radio_one_relax/bbc_radio_one_relax.isml/bbc_radio_one_relax-audio%253d48000.m3u8:BBC Radio 1 relax
-#DESCRIPTION BBC Radio 1 relax
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/low/cfs/bbc_radio_one_relax.m3u8:BBC Radio 1 relax
-#DESCRIPTION BBC Radio 1 relax
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.live.vc.bbcmedia.co.uk/bbc_1xtra:BBC Radio 1 Xtra
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_92079267/live/ww/bbc_1xtra/bbc_1xtra.isml/bbc_1xtra-audio%253d96000.norewind.m3u8:BBC Radio 1 Xtra
 #DESCRIPTION BBC Radio 1 Xtra
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/cfs/bbc_radio_two.m3u8:BBC Radio 2
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_74208725/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%253d96000.norewind.m3u8:BBC Radio 2
 #DESCRIPTION BBC Radio 2
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/aks/bbc_radio_three.m3u8:BBC Radio 3
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_23461179/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%253d96000.norewind.m3u8:BBC Radio 3
 #DESCRIPTION BBC Radio 3
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourfm.mpd:BBC Radio 4
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww.live.cf.md.bbci.co.uk/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%253d96000.norewind.m3u8:BBC Radio 4
 #DESCRIPTION BBC Radio 4
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_four_extra.mpd:BBC Radio 4 Extra
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_26173715/live/ww/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio%253d96000.norewind.m3u8:BBC Radio 4 Extra
 #DESCRIPTION BBC Radio 4 Extra
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_radio_fourlw.mpd:BBC Radio 4 LW
-#DESCRIPTION BBC Radio 4 LW
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_online_nonuk:BBC Radio 5 (UK only)
-#DESCRIPTION BBC Radio 5 (UK only)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_sports_extra:BBC Radio 5 Live sports extra (UK only)
-#DESCRIPTION BBC Radio 5 Live sports extra (UK only)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%253d96000.norewind.m3u8:BBC Radio 6 Music
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%253d96000.norewind.m3u8:BBC Radio 5 Live
+#DESCRIPTION BBC Radio 5 Live
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%253d96000.norewind.m3u8:BBC Radio 6 Music
 #DESCRIPTION BBC Radio 6 Music
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/cfs/bbc_sounds_news.mpd:BBC News Live
+#DESCRIPTION BBC News Live
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.live.vc.bbcmedia.co.uk/bbc_world_service:BBC World Service
 #DESCRIPTION BBC World Service
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-frena:BBC Afrique
-#DESCRIPTION BBC Afrique
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/dash/nonuk/dash_low/aks/bbc_asian_network.mpd:BBC Asian Network
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/aks/bbc_world_service.mpd:BBC World Service (#)
+#DESCRIPTION BBC World Service (#)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww.live.cf.md.bbci.co.uk/pool_22108647/live/ww/bbc_asian_network/bbc_asian_network.isml/bbc_asian_network-audio%253d96000.norewind.m3u8:BBC Asian Network
 #DESCRIPTION BBC Asian Network
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-urdua_backup:BBC Urdu
-#DESCRIPTION BBC Urdu
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//as-hls-uk-live.akamaized.net/pool_900/live/uk/bbc_radio_one_anthems/bbc_radio_one_anthems.isml/bbc_radio_one_anthems-audio%253d96000.norewind.m3u8 :BBC Radio 1 Anthems (in UK of met VPN)
-#DESCRIPTION BBC Radio 1 Anthems (in UK of met VPN)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//as-hls-uk-live.akamaized.net/pool_900/live/uk/bbc_radio_three_unwind/bbc_radio_three_unwind.isml/bbc_radio_three_unwind-audio%253d320000.norewind.m3u8 :BBC Radio 3 Unwind (in UK of met VPN)
-#DESCRIPTION BBC Radio 3 Unwind (in UK of met VPN)
-#SERVICE 1:64:5be:0:0:0:0:0:0:0:
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww.live.cf.md.bbci.co.uk/pool_98137350/live/ww/bbc_london/bbc_london.isml/bbc_london-audio%253d96000.norewind.m3u8:BBC Radio London
+#DESCRIPTION BBC Radio London
+#SERVICE 1:64:613:0:0:0:0:0:0:0:
+#DESCRIPTION ++UK radio BBC voor in de UK of VPN++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/aks/bbc_radio_one.mpd:BBC Radio 1
+#DESCRIPTION BBC Radio 1
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/aks/bbc_radio_one_anthems.mpd:BBC Radio 1 Anthems
+#DESCRIPTION BBC Radio 1 Anthems
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/aks/bbc_radio_one_dance.mpd:BBC Radio 1 Dance
+#DESCRIPTION BBC Radio 1 Dance
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/cfs/bbc_1xtra.mpd:BBC Radio 1 Xtra
+#DESCRIPTION BBC Radio 1 Xtra
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/cfs/bbc_radio_two.mpd:BBC Radio 2
+#DESCRIPTION BBC Radio 2
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/aks/bbc_radio_three.mpd:BBC Radio 3
+#DESCRIPTION BBC Radio 3
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/aks/bbc_radio_three_unwind.mpd:BBC Radio 3 Unwind
+#DESCRIPTION BBC Radio 3 Unwind
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/cfs/bbc_radio_fourfm.mpd:BBC Radio 4
+#DESCRIPTION BBC Radio 4
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/aks/bbc_radio_four_extra.mpd:BBC Radio 4 Extra
+#DESCRIPTION BBC Radio 4 Extra
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/cfs/bbc_radio_five_live.mpd:BBC Radio 5 Live
+#DESCRIPTION BBC Radio 5 Live
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/cfs/bbc_radio_five_live_sports_extra.mpd:BBC Radio 5 Sports Extra
+#DESCRIPTION BBC Radio 5 Sports Extra
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/cfs/bbc_6music.mpd:BBC Radio 6 Music
+#DESCRIPTION BBC Radio 6 Music
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/cfs/bbc_sounds_news.mpd:BBC News Live
+#DESCRIPTION BBC News Live
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/aks/bbc_world_service.mpd:BBC World Service
+#DESCRIPTION BBC World Service
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/aks/cbeebies_radio.mpd:BBC CBeebies Radio
+#DESCRIPTION BBC CBeebies Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/aks/bbc_asian_network.mpd:BBC Asian Network
+#DESCRIPTION BBC Asian Network
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/cfs/bbc_london.mpd :BBC Radio London
+#DESCRIPTION BBC Radio London
+#SERVICE 1:64:614:0:0:0:0:0:0:0:
 #DESCRIPTION ++UK radio algemeen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fr5.1mix.co.uk%3a8020/;:1 Mix Radio (UK algemeen)
 #DESCRIPTION 1 Mix Radio (UK algemeen)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamingv2.shoutcast.com/100-CHILL:100%25 Chill (Engeland, UK)
 #DESCRIPTION 100% Chill (Engeland, UK)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream1.hippynet.co.uk%3a8075/stream:Abacus - Amadeus
-#DESCRIPTION Abacus - Amadeus
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream3.hippynet.co.uk%3a8008/stream:Abacus Radio (Londen)
-#DESCRIPTION Abacus Radio (Londen)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.timlradio.co.uk%3a80/ar128.mp3:Absolute
-#DESCRIPTION Absolute
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.timlradio.co.uk%3a80/ac128.mp3:Absolute Classic Rock
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-ar.hellorayo.co.uk/absoluteradio.aac?direct=true&aw_0_1st.skey=1602676850:Absolute Radio
+#DESCRIPTION Absolute Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream-ar.hellorayo.co.uk/absoluteclassicrock.aac?direct=true&aw_0_1st.skey=1602676850:Absolute Classic Rock
 #DESCRIPTION Absolute Classic Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.timlradio.co.uk%3a80/a0128.mp3:Absolute Radio 00s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream-ar.hellorayo.co.uk/absolute00shigh.aac?direct=true&aw_0_1st.skey=1602676850:Absolute Radio 00s
 #DESCRIPTION Absolute Radio 00s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ais.absoluteradio.co.uk/absolute10shigh.aac:Absolute Radio 10s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream-ar.hellorayo.co.uk/absolute10s.aac?direct=true&aw_0_1st.skey=1602676850:Absolute Radio 10s
 #DESCRIPTION Absolute Radio 10s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.timlradio.co.uk%3a80/a6128.mp3:Absolute Radio 60s
-#DESCRIPTION Absolute Radio 60s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.timlradio.co.uk%3a80/a7128.mp3:Absolute Radio 70s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-mz.hellorayo.co.uk/webcast3.aac?direct=true&aw_0_1st.skey=1602676850:Absolute Radio 20s
+#DESCRIPTION Absolute Radio 20s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-ar.hellorayo.co.uk/absolute70s.aac?direct=true&aw_0_1st.skey=1602676850:Absolute Radio 70s
 #DESCRIPTION Absolute Radio 70s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.timlradio.co.uk%3a80/a8128.mp3:Absolute Radio 80s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-ar.hellorayo.co.uk/absolute80s.aac?direct=true&aw_0_1st.skey=1602676850:Absolute Radio 80s
 #DESCRIPTION Absolute Radio 80s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.timlradio.co.uk%3a80/a9128.mp3:Absolute Radio 90s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-ar.hellorayo.co.uk/absolute90s.aac?direct=true&aw_0_1st.skey=1602676850:Absolute Radio 90s
 #DESCRIPTION Absolute Radio 90s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-ar.hellorayo.co.uk/absolutecountry.aac?direct=true&aw_0_1st.skey=1602676850:Absolute Radio Country
+#DESCRIPTION Absolute Radio Country
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s3.viastreaming.net%3a7030/;:Angel Radio
 #DESCRIPTION Angel Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen-awaite.sharp-stream.com/aspenwaiteprem.mp3:Aspen Waite Radio
@@ -107,8 +129,6 @@
 #DESCRIPTION Classic FM - Romantic Classics
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.radionomy.com/JamendoLounge:Classical Radio
 #DESCRIPTION Classical Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//node-27.zeno.fm/9xnur705yqruv?rj-ttl=5&rj-tok=AAABctcxypcA6zDj60JYNiid5w:Classical Radio International
-#DESCRIPTION Classical Radio International
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.135.191.40%3a8010/stream/1/:CMR Nashville (UK, algemeen)
 #DESCRIPTION CMR Nashville (UK, algemeen)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-al.planetradio.co.uk/countryhits.aac:Country Hits Radio
@@ -297,11 +317,11 @@
 #DESCRIPTION Virgin Radio Pride
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//shoutcast.wrn.org%3a8026/:WRN English for Europe
 #DESCRIPTION WRN English for Europe
-#SERVICE 1:64:5bf:0:0:0:0:0:0:0:
+#SERVICE 1:64:615:0:0:0:0:0:0:0:
 #DESCRIPTION ++UK radio Gibraltar++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//37.123.118.13%3a8041/stream:GBC Radio = Radio Gibraltar (Gibraltar)
 #DESCRIPTION GBC Radio = Radio Gibraltar (Gibraltar)
-#SERVICE 1:64:5c0:0:0:0:0:0:0:0:
+#SERVICE 1:64:616:0:0:0:0:0:0:0:
 #DESCRIPTION ++UK radio overzee++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ukwesta.streaming.broadcast.radio/heatmallorca:Heat Mallorca (voor Engelsen daar)
 #DESCRIPTION Heat Mallorca (voor Engelsen daar)
@@ -309,5 +329,5 @@
 #DESCRIPTION Mallorca Sunshine Radio (Engelstalig)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//46.28.53.118%3a7001/stream/:Talk Radio Europe Costa Blanca
 #DESCRIPTION Talk Radio Europe Costa Blanca
-#SERVICE 1:64:5c1:0:0:0:0:0:0:0:
+#SERVICE 1:64:617:0:0:0:0:0:0:0:
 #DESCRIPTION +++BFBS in apart boeket+++

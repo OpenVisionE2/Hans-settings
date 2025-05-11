@@ -1,51 +1,33 @@
 #NAME Stream Servie (RS)
-#SERVICE 1:64:2b8:0:0:0:0:0:0:0:
+#SERVICE 1:64:2fd:0:0:0:0:0:0:0:
 #DESCRIPTION ++RTS-hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3448:RTS 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39714&extension=ts:RTS 1
 #DESCRIPTION RTS 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3449:RTS 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39713&extension=ts:RTS 2
 #DESCRIPTION RTS 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3450:RTS 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39712&extension=ts:RTS 3
 #DESCRIPTION RTS 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/20257:RTS Drama
-#DESCRIPTION RTS Drama
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/20258:RTS Kolo
-#DESCRIPTION RTS Kolo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/57857:RTS Muzika
-#DESCRIPTION RTS Muzika
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/298011:RTS Nauka
-#DESCRIPTION RTS Nauka
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/286759:RTS Poletarac
-#DESCRIPTION RTS Poletarac
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/20261:RTS Svet
-#DESCRIPTION RTS Svet
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/20262:RTS Trezor
-#DESCRIPTION RTS Trezor
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/20263:RTS Zivot
-#DESCRIPTION RTS Zivot
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pluslive.rtrs.tv/plus/plus/playlist.m3u8:RTRS Plus
-#DESCRIPTION RTRS Plus
-#SERVICE 1:64:2b9:0:0:0:0:0:0:0:
-#DESCRIPTION ++overige hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/166218:Agro TV
+#SERVICE 1:64:2fe:0:0:0:0:0:0:0:
+#DESCRIPTION ++hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=31379&extension=ts:Agro TV
 #DESCRIPTION Agro TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/306026:ATV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-live/0nj-g63-92x-few/tracks-v2a1/mono.ts.m3u8:ATV
 #DESCRIPTION ATV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/4133:B92
-#DESCRIPTION B92
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/286764:K1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.cmctv.hr%3a49998/cmc/live.m3u8:CMC TV
+#DESCRIPTION CMC TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39699&extension=ts:Duga Plus 
+#DESCRIPTION Duga Plus 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//53be5ef2d13aa.streamlock.net/informertv-secure/web/chunklist_w1850758410.m3u8:Informer TV
+#DESCRIPTION Informer TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//539745e629986.streamlock.net/minacordmedia-secure/k1studio/chunklist_w1464410076.m3u8:K1
 #DESCRIPTION K1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/280141:Kanal 10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=47427&extension=ts:Kanal 10
 #DESCRIPTION Kanal 10
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/299652:Kazbuka
-#DESCRIPTION Kazbuka
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/4169:KCN 1
-#DESCRIPTION KCN 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/4170:KCN 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39686&extension=ts:KCN 2
 #DESCRIPTION KCN 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/4171:KCN 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39685&extension=ts:KCN 3
 #DESCRIPTION KCN 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/267636:Kurir TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/720p/720p.m3u8:Kurir TV
 #DESCRIPTION Kurir TV
 #SERVICE 4097:0:1:a195:b98e:ec:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1bos&u=n1info&p=n1Sh4redSecre7iNf0:N1 B&H
 #DESCRIPTION N1 B&H
@@ -55,131 +37,103 @@
 #DESCRIPTION N1 RS
 #SERVICE 4097:0:1:b456:6c83:ec:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1srp&u=n1info&p=n1Sh4redSecre7iNf0:N1 SRB
 #DESCRIPTION N1 SRB
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3406:Nova BH
-#DESCRIPTION Nova BH
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3409:Nova M
-#DESCRIPTION Nova M
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/298439:Nova Max
-#DESCRIPTION Nova Max
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/10717:Nova S
-#DESCRIPTION Nova S
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/299641:Nova Series
-#DESCRIPTION Nova Series
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/84781:Nova Sport
-#DESCRIPTION Nova Sport
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3413:Pink
-#DESCRIPTION Pink
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3423:Pink Sci-Fi & Fantasy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=50651&extension=ts:Nova Serbia
+#DESCRIPTION Nova Serbia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39709&extension=ts:Pink 1
+#DESCRIPTION Pink 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39636&extension=ts:Pink Sci-Fi & Fantasy
 #DESCRIPTION Pink Sci-Fi & Fantasy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/4188:Pink World
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39629&extension=ts:Pink World
 #DESCRIPTION Pink World
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3417:Pink World Cinema
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39628&extension=ts:Pink World Cinema
 #DESCRIPTION Pink World Cinema
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3451:Prva Srpska TV
-#DESCRIPTION Prva Srpska TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/5562:Prva World
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39706&extension=ts:Prva 1
+#DESCRIPTION Prva 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39704&extension=ts:Prva World
 #DESCRIPTION Prva World
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3414:Red TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge8.pink.rs/redtv/chunklist_w350271877.m3u8:Red TV
 #DESCRIPTION Red TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/4216:RTV 1
-#DESCRIPTION RTV 1
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/10741:RTV 2
-#DESCRIPTION RTV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/4083:RTV 21
-#DESCRIPTION RTV 21
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/2549:RTV 21 Plus
-#DESCRIPTION RTV 21 Plus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/6909:RTV 21 Popullore
-#DESCRIPTION RTV 21 Popullore
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/47463:RTV Bor
-#DESCRIPTION RTV Bor
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/12396:RTV Fontana
-#DESCRIPTION RTV Fontana
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8:Šanson TV
 #DESCRIPTION Šanson TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3453:Studio B
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.148.117.134%3a1935/studiob/studiob.stream/playlist.m3u8:Studio B
 #DESCRIPTION Studio B
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/27418:Superstar
-#DESCRIPTION Superstar
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/6722:T7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-livestream-specific/1z8-byc-4ee-lc9/tracks-v3a1/mono.ts.m3u8:T7
 #DESCRIPTION T7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/10759:TV 1000
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39683&extension=ts:TV 1000
 #DESCRIPTION TV 1000
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3415:Vesti
-#DESCRIPTION Vesti
-#SERVICE 1:64:2ba:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.60.238.10%3a1935/live/belleamie/playlist.m3u8:TV Belle Amie
+#DESCRIPTION TV Belle Amie
+#SERVICE 1:64:2ff:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-hls-web-ajb.getaj.net/AJB/index.m3u8:Al Jazeera Balkans
 #DESCRIPTION Al Jazeera Balkans
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/299650:Blic TV
-#DESCRIPTION Blic TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/195878:Diva
-#DESCRIPTION Diva
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/4051:First Channel
-#DESCRIPTION First Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3441:Ha Ha
-#DESCRIPTION Ha Ha
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3446:Happy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39708&extension=ts:Happy
 #DESCRIPTION Happy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/20222:IDJ TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?stream=hp1400&sp=idjtv&u=idjtv&p=In$trum300na765ta&channel=idjhd&player=m3u8:IDJ TV
 #DESCRIPTION IDJ TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv1.intv.mk%3a1935/live/intv/playlist.m3u8:inTV Australia
+#DESCRIPTION inTV Australia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/47469:Jefimija
 #DESCRIPTION Jefimija
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/51988:KTV Kohavision
-#DESCRIPTION KTV Kohavision
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/3440:Lol
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.cmctv.hr%3a49998/kit/live.m3u8:Klape i Tambure
+#DESCRIPTION Klape i Tambure
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams2.sofast.tv/ptnr-yupptv/title-LOL-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fc63d5fd-b50e-4d3e-abdf-697d9b6cbf70/manifest.m3u8:Lol
 #DESCRIPTION Lol
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.46.143.222%3a1935/live/mp4%3aldpr.stream_480p/playlist.m3u8:LDPR TV
+#DESCRIPTION LDPR TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-6/playlist.m3u8:Muzzik
+#DESCRIPTION Muzzik
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-9/playlist.m3u8:Muzzik Electro
 #DESCRIPTION Muzzik Electro
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-8/playlist.m3u8:Muzzik Flashback
 #DESCRIPTION Muzzik Flashback
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-4/playlist.m3u8:Muzzik Jeka
 #DESCRIPTION Muzzik Jeka
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-2/playlist.m3u8:Muzzik Moba
-#DESCRIPTION Muzzik Moba
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-3/playlist.m3u8:Muzzik Popstar
 #DESCRIPTION Muzzik Popstar
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-2/playlist.m3u8:Muzzik Restart
+#DESCRIPTION Muzzik Restart
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-1/playlist.m3u8:Muzzik Rock & Roll
 #DESCRIPTION Muzzik Rock & Roll
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-7/playlist.m3u8:Muzzik Sense
 #DESCRIPTION Muzzik Sense
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-a5/playlist.m3u8:Muzzik Tiktak
 #DESCRIPTION Muzzik Tiktak
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-6/playlist.m3u8:Muzzik TV
-#DESCRIPTION Muzzik TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-5/playlist.m3u8:Muzzik Worldwide Riviera
 #DESCRIPTION Muzzik Worldwide Riviera
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//muzzik-live.morescreens.com/mts-a4/playlist.m3u8:Muzzik ZZ TV
 #DESCRIPTION Muzzik ZZ TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.unrealhosting.hu/hls/pannonrtv/live.m3u8:Pannon TV
 #DESCRIPTION Pannon TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/13448:Parovi
-#DESCRIPTION Parovi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/0.m3u8:Radio Hit FM
 #DESCRIPTION Radio Hit FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//peer2.tdiradio.com/static/streaming-playlists/hls/4207de1d-52e8-4591-ad9e-218069b864d1/0.m3u8:Radio Karolina
 #DESCRIPTION Radio Karolina
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//peer2.tdiradio.com/static/streaming-playlists/hls/7c3ea8d3-49dc-4e1b-8b1e-dc6fab71f5cf/0.m3u8:Radio Lola
 #DESCRIPTION Radio Lola
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8:RT Balkan
+#DESCRIPTION RT Balkan
+#SERVICE 4097:0:1:87:0:0:0:0:0:0:rtmp%3a//video.radio-banovina.hr/live/myStream:RTV Banovina
+#DESCRIPTION RTV Banovina
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//53be5ef2d13aa.streamlock.net/rtvbap/uzivo/chunklist_w2087944704.m3u8:RTV BAP
 #DESCRIPTION RTV BAP
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.iptv.nextfiber.rs/nxt004/master.m3u8:Sandzak TV
 #DESCRIPTION Sandzak TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.60.238.10%3a1935/live/belleamie/playlist.m3u8:TV Belle Amie
-#DESCRIPTION TV Belle Amie
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/4150:TV Duga Plus 
-#DESCRIPTION TV Duga Plus 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/chunklist_w869172866.m3u8:SOS Kanal Plus
+#DESCRIPTION SOS Kanal Plus
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8:Strana FM
+#DESCRIPTION Strana FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.tv.3angels.ru/stream.m3u8:Tri Angela
+#DESCRIPTION Tri Angela
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv1.adriatelekom.com/TVAS/tracks-v1/index.fmp4.m3u8:TV As
+#DESCRIPTION TV As
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vod1.laki.eu/live/hram/index.m3u8:TV Hram
 #DESCRIPTION TV Hram
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/171912:TV Kladovo
-#DESCRIPTION TV Kladovo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/26437:TV Novi Pazar
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.rtvnp.rs/stream.m3u8:TV Novi Pazar
 #DESCRIPTION TV Novi Pazar
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/4181:TV Palma Plus
-#DESCRIPTION TV Palma Plus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.pikanal.rs/pikanal/pgm.m3u8:TV Pi Canal Pirot
 #DESCRIPTION TV Pi Canal Pirot
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/300631:TV Pirot
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5bc45691ca49f.streamlock.net/tvpirot/uzivo/chunklist_w1209443471.m3u8:TV Pirot
 #DESCRIPTION TV Pirot
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/23150:Zico TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-live/j3a-n14-2pf-g3s/tracks-v2a1/mono.ts.m3u8:Zico TV
 #DESCRIPTION Zico TV

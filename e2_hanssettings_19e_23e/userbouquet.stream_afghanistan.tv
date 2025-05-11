@@ -1,12 +1,10 @@
 #NAME Stream Afghanistan (AF)
-#SERVICE 1:64:2db:0:0:0:0:0:0:0:
+#SERVICE 1:64:31e:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.afintl.com/hls/stream.m3u8:Afghanistan International
 #DESCRIPTION Afghanistan International
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8:Al Sharq
 #DESCRIPTION Al Sharq
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d10rltuy0iweup.cloudfront.net/ATNINT/myStream/playlist.m3u8:ATN Afghanistan
-#DESCRIPTION ATN Afghanistan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d10rltuy0iweup.cloudfront.net/ATNNEWS/myStream/playlist.m3u8:ATN News
 #DESCRIPTION ATN News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//g5nl6xx5lpq6-hls-live.5centscdn.com/live1234/2621b29e501b445fabf227b086123b70.sdp/mono.m3u8:Payam-e-Afghan TV
@@ -21,10 +19,16 @@
 #DESCRIPTION RTA Sport
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.tamadon.live/hls/stream.m3u8:Tamadon TV
 #DESCRIPTION Tamadon TV
-#SERVICE 1:64:2dc:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.131%3a8000/play/a03z:Watan
+#DESCRIPTION Watan
+#SERVICE 1:64:31f:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediaserver.abnvideos.com/streams/abnafghanistan.m3u8:ABN Afghanistan
+#DESCRIPTION ABN Afghanistan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.relentlessinnovations.net%3a1936/afghannobel/afghannobel/playlist.m3u8:Afghan Nobel Movies
 #DESCRIPTION Afghan Nobel Movies
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.relentlessinnovations.net%3a1936/afghannobel/afghannobel/chunklist_w1518950362.m3u8:Afghan Nobel Music
+#DESCRIPTION Afghan Nobel Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.relentlessinnovations.net%3a1936/afghannobeltv/afghannobeltv/playlist.m3u8:Afghan Nobel TV
 #DESCRIPTION Afghan Nobel TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amchls.wns.live/hls/stream.m3u8:AMC Afghanistan

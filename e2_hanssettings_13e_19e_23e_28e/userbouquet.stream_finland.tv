@@ -1,32 +1,40 @@
 #NAME Stream Finland (FI)
-#SERVICE 1:64:3c6:0:0:0:0:0:0:0:
+#SERVICE 1:64:40d:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yletvworld.akamaized.net/hls/live/622540/yletv1w/yletv_video1080p50.m3u8:YLE TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8:YLE TV 1
 #DESCRIPTION YLE TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=154593&extension=ts&play_token=MixLgRD3if:YLE TV 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/yle-tv1/live.m3u8?hd=true:YLE TV 1 (#)
 #DESCRIPTION YLE TV 1 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yletvworld.akamaized.net/hls/live/622541/yletv2w/yletv_video1080p50.m3u8:YLE TV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yletvworld.akamaized.net/hls/live/622541/yletv2w/index.m3u8:YLE TV 2
 #DESCRIPTION YLE TV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=444266&extension=ts&play_token=GEHd9hbCXa:YLE TV 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/yle-tv2/live.m3u8?hd=true:YLE TV 2 (#)
 #DESCRIPTION YLE TV 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yletvworld.akamaized.net/hls/live/622547/yletvteemafemw/yletv_video1080p50.m3u8:YLE Teema Fem
-#DESCRIPTION YLE Teema Fem
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=444263&extension=ts&play_token=UEKdxtjPWa:YLE Teema Fem (#)
-#DESCRIPTION YLE Teema Fem (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8:YLE X
-#DESCRIPTION YLE X
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=444225&extension=ts&play_token=B7NVP9g70B:MTV 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yletvworld.akamaized.net/hls/live/622547/yletvteemafemw/index.m3u8:YLE TV Teema & Fem
+#DESCRIPTION YLE TV Teema & Fem
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=494258&extension=ts&play_token=VCImFnSU5t:YLE TV Teema & Fem (#)
+#DESCRIPTION YLE TV Teema & Fem (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/mtv3/live.m3u8:MTV 3
 #DESCRIPTION MTV 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/ava/live.m3u8:MTV Ava
+#DESCRIPTION MTV Ava
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/sub/live.m3u8:MTV Sub
+#DESCRIPTION MTV Sub
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.streaming.a2d.tv/asset/20025962.isml/.m3u8:MTV Uutiset
 #DESCRIPTION MTV Uutiset
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=444261&extension=ts&play_token=m8LC94PiqM:Nelonen 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/nelonen/live.m3u8:Nelonen 4
 #DESCRIPTION Nelonen 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=444257&extension=ts&play_token=0HENxCddT5:SF-Kanalen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=494264&extension=ts&play_token=nNVQjjQmw2:SF-Kanalen
 #DESCRIPTION SF-Kanalen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/star-channel/live.m3u8:STAR Channel
+#DESCRIPTION STAR Channel
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//vod.tv7.fi%3a1935/tv7-se/_definst_/smil%3atv7-se.smil/playlist.m3u8:TV 7 Himlen
 #DESCRIPTION TV 7 Himlen
-#SERVICE 1:64:3c7:0:0:0:0:0:0:0:
+#SERVICE 1:64:40e:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/frii/live.m3u8:Frii
+#DESCRIPTION Frii
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/jim/live.m3u8?hd=true:Jim
+#DESCRIPTION Jim
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8:JRTV Järviradio
 #DESCRIPTION JRTV Järviradio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.nartv.fi/live/ngrp%3aNAR_TV.stream_all/playlist.m3u8:När TV

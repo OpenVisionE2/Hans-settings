@@ -1,36 +1,54 @@
 #NAME Stream Zuid-Afrika (ZA)
-#SERVICE 1:64:3a3:0:0:0:0:0:0:0:
+#SERVICE 1:64:3e8:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sabconetanw.cdn.mangomolo.com/news/smil%3anews.stream.smil/master.m3u8:SABC News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=157293&extension=ts:SABC 1
+#DESCRIPTION SABC 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=157292&extension=ts:SABC 2
+#DESCRIPTION SABC 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=157291&extension=ts:SABC 3
+#DESCRIPTION SABC 3
+#SERVICE 4097:0:1:404:1:27:abcd0000:0:0:0:https%3a//sabconetanw.cdn.mangomolo.com/news/smil%3anews.stream.smil/master.m3u8:SABC News
 #DESCRIPTION SABC News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sabctretalh.cdn.mangomolo.com/lehae/smil%3alehae.stream.smil/master.m3u8:SABC Nuus
-#DESCRIPTION SABC Nuus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3actv.stream.smil/chunklist.m3u8:Cape Town TV
-#DESCRIPTION Cape Town TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3actv.stream.smil/playlist.m3u8:Cape Town TV (#)
-#DESCRIPTION Cape Town TV (#)
+#SERVICE 4097:0:1:40a:1:27:abcd0000:0:0:0:https%3a//sabctretalh.cdn.mangomolo.com/lehae/smil%3alehae.stream.smil/master.m3u8:SABC Lehae
+#DESCRIPTION SABC Lehae
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnstack.internetmultimediaonline.org/ln24/ln24.stream/playlist.m3u8:LN24 International
 #DESCRIPTION LN24 International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3asoweto.stream.smil/chunklist.m3u8:Soweto TV
-#DESCRIPTION Soweto TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3atshwane.stream.smil/chunklist.m3u8:Tshwane TV
-#DESCRIPTION Tshwane TV
-#SERVICE 1:64:3a4:0:0:0:0:0:0:0:
+#SERVICE 1:64:3e9:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3a1kzn.stream.smil/playlist.m3u8:1KZN TV
-#DESCRIPTION 1KZN TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//axp-lin.premiumfree.tv/abr_satellitechannel/afriwoodbb/manifest.mpd:Afriwood Blockbuster
+#DESCRIPTION Afriwood Blockbuster
+#SERVICE 4097:0:1:7:2:27:abcd0000:0:0:0:https%3a//ov.ottera.tv/channels/alt_black/master.m3u8:Afroland Black Experience
+#DESCRIPTION Afroland Black Experience
+#SERVICE 4097:0:1:3:2:27:abcd0000:0:0:0:https%3a//ov.ottera.tv/channels/alt_com/master.m3u8:Afroland Comedy
+#DESCRIPTION Afroland Comedy
+#SERVICE 4097:0:1:5:2:27:abcd0000:0:0:0:https%3a//ov.ottera.tv/channels/alt_crime/master.m3u8:Afroland Crime
+#DESCRIPTION Afroland Crime
+#SERVICE 4097:0:1:1:2:27:abcd0000:0:0:0:https%3a//ov.ottera.tv/channels/alt_drama/master.m3u8:Afroland Drama
+#DESCRIPTION Afroland Drama
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream2.bokradio.co.za/hls/Bok5c_hd720.m3u8:Bok TV
 #DESCRIPTION Bok TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//engbrics2.mediacdn.ru/cdn/brics/english/playlist.m3u8:Brics Africa Channel
+#DESCRIPTION Brics Africa Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/290393:Business Day TV
 #DESCRIPTION Business Day TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//origin2.afxp.telemedia.co.za/afxp/cinemahausatest/manifest.mpd:Cinema Hausa
+#DESCRIPTION Cinema Hausa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//axp-lin.premiumfree.tv/afxp/CinemaYoruba/manifest.mpd:Cinema Yoruba
+#DESCRIPTION Cinema Yoruba
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//axp-lin.premiumfree.tv/abr/CrimeEvidenceAfrica_720p/manifest.mpd:Crime & Evidence
+#DESCRIPTION Crime & Evidence
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3afaith.stream.smil/playlist.m3u8:Faith TV
 #DESCRIPTION Faith TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//oqgdrb8my4rm-hls-live.5centscdn.com/GNF02/bcea197d8b00f79cb716c6288a861000.sdp/playlist.m3u8:GNF TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//axp-lin.premiumfree.tv/afxp/eutelsat-freshtv/manifest.mpd:fresh
+#DESCRIPTION fresh
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//j78dpornyq5r-hls-live.5centscdn.com/GNF/5dbbfe8795821b64b4a79445526e6ece.sdp/playlist.m3u8:GNF TV
 #DESCRIPTION GNF TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn5.iqsat.net/iq/aa89b15058a61b904359307cc0a5e80a.sdp/chunks.m3u8:Hilaal TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn149.anystream.uk%3a8082/app/h199ltv/playlist.m3u8:Hilaal TV
 #DESCRIPTION Hilaal TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//webstreaming-2.viewmedia.tv/web_022/Stream/playlist.m3u8:Homebase TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viewmedia7219.bozztv.com/wmedia/viewmedia100/web_022/Stream/playlist.m3u8:Homebase TV
 #DESCRIPTION Homebase TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//axp-lin.premiumfree.tv/afxp/eutelsat-kiddiwinks/manifest.mpd:Kiddiwinks
+#DESCRIPTION Kiddiwinks
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//origin2.afxp.telemedia.co.za/abr/limelight/abr/kapang_limelight_720p/chunks.m3u8?id=775&ip=2001%253A1c05%253A378f%253A7100%253A387c%253A752%253Acb41%253Ae67f&override_expiration=1500&sign=%252BURC%252FY6kq19qu6AtUKhdWePVcrH7HPR10jVd2IJwx6g%253D&timestamp=:Limelight
 #DESCRIPTION Limelight
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//origin2.afxp.telemedia.co.za/abr/lol/abr/kapang_lol_720p/chunks.m3u8?id=614&ip=2001%253A1c05%253A378f%253A7100%253A387c%253A752%253Acb41%253Ae67f&override_expiration=1500&sign=fcn%252FMqEgYBRG9dvrpzs3dUUqQNaP7QpsyoZa4HyhL3g%253D&timestamp=:LOL Africa
@@ -39,17 +57,37 @@
 #DESCRIPTION LOL Standup
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnstack.internetmultimediaonline.org/lwsat/lwsat.stream/chunklist.m3u8:LoveWorld Sat
 #DESCRIPTION LoveWorld Sat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//axp-lin.premiumfree.tv/Africa/novocomedy/manifest.mpd:Novo Pranks
+#DESCRIPTION Novo Pranks
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1p0bzoad08w6e.cloudfront.net/encode/nudu.m3u8:Nudu
 #DESCRIPTION Nudu
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//webstreaming.viewmedia.tv/web_012/Stream/live12_3/high/chunks.m3u8:ROV TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//axp-lin.premiumfree.tv/Africa/romanza/manifest.mpd:Romanza Africa
+#DESCRIPTION Romanza Africa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viewmedia7219.bozztv.com/wmedia/viewmedia100/web_012/Stream/playlist.m3u8:ROV TV
 #DESCRIPTION ROV TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//axp-lin.premiumfree.tv/abr/kapang_rpm_720p/manifest.mpd:RPM
+#DESCRIPTION RPM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//axp-lin.premiumfree.tv/Africa/sportsconnect/manifest.mpd:Sports Connect
+#DESCRIPTION Sports Connect
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//origin2.afxp.telemedia.co.za/abr/trigger/abr/kapang_trigger_480p/chunks.m3u8?id=622&ip=2001%253A1c05%253A378f%253A7100%253A387c%253A752%253Acb41%253Ae67f&override_expiration=1500&sign=X1CxmWrvzTTFFgVLpClvY4nxVLyl4e%252BZkC6ff2I2s7Q%253D&timestamp=:Trigger
 #DESCRIPTION Trigger
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tbn-jw.cdn.vustreams.com/live/tbn-africa/live.isml/master.m3u8:TBN Africa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//axp-lin.premiumfree.tv/afxp/eutelsat-trueafrican/manifest.mpd:True African
+#DESCRIPTION True African
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.jwplayer.com/live/broadcast/OSANTCwg.mpd:TBN Africa
 #DESCRIPTION TBN Africa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3atshwane.stream.smil/playlist.m3u8:Tshwane TV
-#DESCRIPTION Tshwane TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3abrics.stream.smil/playlist.m3u8:TV Brics Africa
-#DESCRIPTION TV Brics Africa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a01y:TV5 Monde Maghreb Orient
 #DESCRIPTION TV5 Monde Maghreb Orient
+#SERVICE 1:64:3ea:0:0:0:0:0:0:0:
+#DESCRIPTION ++lokaal/regionaal++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3a1kzn.stream.smil/playlist.m3u8:1KZN TV
+#DESCRIPTION 1KZN TV
+#SERVICE 4097:0:1:6:2:27:abcd0000:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3actv.stream.smil/playlist.m3u8:Cape Town TV
+#DESCRIPTION Cape Town TV
+#SERVICE 4097:0:1:10:2:27:abcd0000:0:0:0:https%3a//cdn.freevisiontv.co.za/li/smil%3ali.stream.smil/playlist.m3u8:Limpopo tv
+#DESCRIPTION Limpopo tv
+#SERVICE 4097:0:1:9:2:27:abcd0000:0:0:0:https%3a//senth3ta.cdn.mangomolo.com/mk/smil%3amktv.stream.smil/chunklist_b3500000_t64MTA4MHA=.m3u8:Mpuma Kapa TV
+#DESCRIPTION Mpuma Kapa TV
+#SERVICE 4097:0:1:4:2:27:abcd0000:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3asoweto.stream.smil/chunklist.m3u8:Soweto TV
+#DESCRIPTION Soweto TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3atshwane.stream.smil/playlist.m3u8:Tshwane TV
+#DESCRIPTION Tshwane TV

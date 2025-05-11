@@ -1,70 +1,78 @@
 #NAME Stream Thailand (TH)
-#SERVICE 1:64:447:0:0:0:0:0:0:0:
+#SERVICE 1:64:48e:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//news1.live14.com/stream/news1_hi.m3u8:News 1
 #DESCRIPTION News 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge2a.v2h-cdn.com/nbt/nbt.stream/playlist.m3u8:NBT 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-edge-ott.prd.go.th/live_vlc/smil%3ac30f-97f7-c767-ca64-98aa.smil/chunklist_w1868923993_b3128000.m3u8:NBT 2
 #DESCRIPTION NBT 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//appdootv2.dootvde.com%3a1935/live/50001_ch3.stream.smil/playlist.m3u8:Thai TV 3
-#DESCRIPTION Thai TV 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//appdootv2.dootvde.com%3a1935/live/50001_ch3.stream.smil/playlist.m3u8:3 HD
+#DESCRIPTION 3 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/ffae/3hd/3hd.m3u8:3 HD (#)
+#DESCRIPTION 3 HD (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8:Thai PBS 3
 #DESCRIPTION Thai PBS 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge2a.v2h-cdn.com/tpbs/tpbs.stream/playlist.m3u8:Thai PBS 3 (#)
 #DESCRIPTION Thai PBS 3 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//thaipbs-ujxrch.cdn.byteark.com/live/playlist_1080p/index.m3u8:ALTV 4
 #DESCRIPTION ALTV 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thaipbs-ujxrch.cdn.byteark.com/live/playlist.m3u8:ALTV 4 (#)
+#DESCRIPTION ALTV 4 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/chunklist_.m3u8:Thai TV 5
 #DESCRIPTION Thai TV 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge2a.v2h-cdn.com/tv5hd/tv5hd.stream/playlist.m3u8:Thai TV 5 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/fffb/5hd/5hd.m3u8:Thai TV 5 (#)
 #DESCRIPTION Thai TV 5 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming-hwc.ch7.com/livech7hd/HD_720p.m3u8:Thai TV 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming-hwc.ch7.com/livech7hd/HD.m3u8:Thai TV 7
 #DESCRIPTION Thai TV 7
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming-hwc.ch7.com/livech7hd/HD_1080p.m3u8:Thai TV 7 (#)
 #DESCRIPTION Thai TV 7 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming-hwc.ch7.com/livech7hd/HD.m3u8:Thai TV 7 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming-hwc.ch7.com/livech7hd/HD_720p.m3u8:Thai TV 7 (#)
 #DESCRIPTION Thai TV 7 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge6a.v2h-cdn.com/t_sport/t_sport.stream/playlist.m3u8:T Sports 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/ffef/tsport/tsport.m3u8:T Sports 7
 #DESCRIPTION T Sports 7
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//usa.login.in.th%3a1935/ch8/ch8/playlist.m3u8:Channel 8
 #DESCRIPTION Channel 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-edge-ott.prd.go.th/live_vlc/smil%3ac30f-97f7-c767-ca64-98aa.smil/chunklist_.m3u8:NBT 11
+#DESCRIPTION NBT 11
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-edge-ott.prd.go.th/live_vlc/smil%3a01f1-8b4b-971e-aa35-d5fa.smil/chunklist_.m3u8:NBT 11 Central
+#DESCRIPTION NBT 11 Central
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-edge-ott.prd.go.th/live_vlc/smil%3a2609-b4a6-64b3-1431-5e64.smil/chunklist_.m3u8:NBT World
+#DESCRIPTION NBT World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.x2.co.th/live/13livetv-th.m3u8:13 Siam Thai
 #DESCRIPTION 13 Siam Thai
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge6a.v2h-cdn.com/tnn24/tnn24.stream/playlist.m3u8:TNN 16
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/ffdc/tnn/tnn.m3u8:TNN 16
 #DESCRIPTION TNN 16
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge6a.v2h-cdn.com/jkn18/jkn18.stream/playlist.m3u8:JKN 18
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/ffda/jkn18/jkn18.m3u8:JKN 18
 #DESCRIPTION JKN 18
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge2a.v2h-cdn.com/jkn18/jkn18.stream/playlist.m3u8:Top News / JKN 18
 #DESCRIPTION Top News / JKN 18
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge6a.v2h-cdn.com/nation/nation.stream/playlist.m3u8:Nation 22
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.topnews.co.th/hls/topnews_a_720.m3u8:Top News / JKN 18 (#)
+#DESCRIPTION Top News / JKN 18 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nationtv-1jdcjo.cdn.byteark.com/fleetstream/nationtvlive/index.m3u8:Nation 22
 #DESCRIPTION Nation 22
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//appdootv2.dootvde.com%3a1935/live/50015_nation.stream.smil/playlist.m3u8:Nation 22 (#)
-#DESCRIPTION Nation 22 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge6a.v2h-cdn.com/true4u/true4u.stream/playlist.m3u8:True4U 24
-#DESCRIPTION True4U 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/fb7ac9cc4e1140238e3077ffd29337fe/ap-southeast-1/6415628290001/playlist.m3u8:GMM 25
-#DESCRIPTION GMM 25
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge2a.v2h-cdn.com/gmm25/gmm25.stream/playlist.m3u8:GMM 25 (#)
-#DESCRIPTION GMM 25 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.monomax.me/Mono29LiveStream/ngrp%3amyStream_all/master.m3u8:MONO 29
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/ffcb/workpoint/workpoint.m3u8:Workpoint 23
+#DESCRIPTION Workpoint 23
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/ffca/true24/true24.m3u8:True 4U 24
+#DESCRIPTION True 4U 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/ffbf/gmm25/gmm25.m3u8:G-MM 25
+#DESCRIPTION G-MM 25
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge4-bkk.3bb.co.th%3a9443/Mono29LivexDRM/mono29DRM_360TH.stream/manifest.mpd:MONO 29
 #DESCRIPTION MONO 29
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-org-01-cdn.mcot.net/mcothd1080p_edge/smil%3amcothd1080p.smil/master.m3u8:MCOT 30
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge2a.v2h-cdn.com/mcothd/mcothd.stream/playlist.m3u8:MCOT 30
 #DESCRIPTION MCOT 30
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge2a.v2h-cdn.com/mcothd/mcothd.stream/playlist.m3u8:MCOT 30 (#)
-#DESCRIPTION MCOT 30 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/e11d0db446fe41fe9be61157033f9325/ap-southeast-1/6415628290001/playlist.m3u8:ONE 31
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/ffba/one/one.m3u8:ONE 31
 #DESCRIPTION ONE 31
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge6a.v2h-cdn.com/thairathhd/thairathHD.stream/playlist.m3u8:Thairath TV 32
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//appdootv2.dootvde.com%3a1935/live/50023_thairath_hd.stream.smil/playlist.m3u8:Thairath TV 32
 #DESCRIPTION Thairath TV 32
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//appdootv2.dootvde.com%3a1935/live/50025_amarin_tv_hd.stream.smil/playlist.m3u8:Amarin 34
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/ffaf/thairath/thairath.m3u8:Thairath TV 32 (#)
+#DESCRIPTION Thairath TV 32 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/ffad/amarin/amarin.m3u8:Amarin 34
 #DESCRIPTION Amarin 34
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64d0d74b76158.streamlock.net/BTVTV/binhthuantv/chunklist.m3u8:BTV News
-#DESCRIPTION BTV News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vdo.plathong.net/live8794/live8794/chunklist_.m3u8:Baanbaan YV 73
+#DESCRIPTION Baanbaan YV 73
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64d0d74b76158.streamlock.net/BTVTV/binhthuantv/chunklist.m3u8:BTV
+#DESCRIPTION BTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv-live.tpchannel.org/live/tv.m3u8:Thai Parliament TV
 #DESCRIPTION Thai Parliament TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge2a.v2h-cdn.com/tptv/tptv.stream/playlist.m3u8:Thai Parliament TV (#)
-#DESCRIPTION Thai Parliament TV (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge6a.v2h-cdn.com/tvb_thai/tvb_thai.stream/playlist.m3u8:TVB Thai
-#DESCRIPTION TVB Thai
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/ttd01-playlist/tracks-v1a1/mono.m3u8:TTD 1
 #DESCRIPTION TTD 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/ttd02-playlist/tracks-v1a1/mono.m3u8:TTD 2
@@ -89,10 +97,14 @@
 #DESCRIPTION TTD 11
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge6a.v2h-cdn.com/mvmall_ttd12/mvmall_ttd12.stream/chunklist_.m3u8:TTD 12
 #DESCRIPTION TTD 12
-#SERVICE 1:64:448:0:0:0:0:0:0:0:
+#SERVICE 1:64:48f:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//49.0.87.24%3a1936/HDAttv/Attv/playlist.m3u8:@TV
 #DESCRIPTION @TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.x2.co.th/live/bntv.m3u8:Boonniyom TV
+#DESCRIPTION Boonniyom TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-iptv.cool-channel.com/cool/live-720P.m3u8:Cool Channel
+#DESCRIPTION Cool Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-live.dltv.ac.th/dltv01.m3u8:DLTV 1
 #DESCRIPTION DLTV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-live.dltv.ac.th/dltv02.m3u8:DLTV 2
@@ -123,8 +135,6 @@
 #DESCRIPTION DLTV 14
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-live.dltv.ac.th/dltv15.m3u8:DLTV 15
 #DESCRIPTION DLTV 15
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/299487:DMC TV
-#DESCRIPTION DMC TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dopachannel.truegse.com/live/dopatv03.m3u8:Dopa Channel
 #DESCRIPTION Dopa Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/ttd20-playlist/index.m3u8:Esan TV
@@ -133,8 +143,50 @@
 #DESCRIPTION GBN Global Buddhist Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//49.0.87.24%3a1936/HDDragon/Dragon/playlist.m3u8:Mangorn
 #DESCRIPTION Mangorn
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge6a.v2h-cdn.com/mvlao/mvlao.stream/playlist.m3u8:MV Lao TV
-#DESCRIPTION MV Lao TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/fffa/boomerang/boomerang.m3u8:MV Boomerang
+#DESCRIPTION MV Boomerang
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/ttd24-playlist/tracks-v1a1/mono.m3u8:MV Go Sport
+#DESCRIPTION MV Go Sport
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/fdff/mvmallhelth/mvmallhelth.m3u8:MV Mall Healthy
+#DESCRIPTION MV Mall Healthy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h1-playlist/tracks-v1a1/mono.m3u8:MV V2H1
+#DESCRIPTION MV V2H1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h2-playlist/tracks-v1a1/mono.m3u8:MV V2H2
+#DESCRIPTION MV V2H2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h3-playlist/tracks-v1a1/mono.m3u8:MV V2H3
+#DESCRIPTION MV V2H3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h4-playlist/tracks-v1a1/mono.m3u8:MV V2H4
+#DESCRIPTION MV V2H4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h5-playlist/tracks-v1a1/mono.m3u8:MV V2H5
+#DESCRIPTION MV V2H5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h6-playlist/tracks-v1a1/mono.m3u8:MV V2H6
+#DESCRIPTION MV V2H6
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h7-playlist/tracks-v1a1/mono.m3u8:MV V2H7
+#DESCRIPTION MV V2H7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h8-playlist/tracks-v1a1/mono.m3u8:MV V2H8
+#DESCRIPTION MV V2H8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h9-playlist/tracks-v1a1/mono.m3u8:MV V2H9
+#DESCRIPTION MV V2H9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h10-playlist/tracks-v1a1/mono.m3u8:MV V2H10
+#DESCRIPTION MV V2H10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h11-playlist/tracks-v1a1/mono.m3u8:MV V2H11
+#DESCRIPTION MV V2H11
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h12-playlist/tracks-v1a1/mono.m3u8:MV V2H12
+#DESCRIPTION MV V2H12
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h13-playlist/tracks-v1a1/mono.m3u8:MV V2H13
+#DESCRIPTION MV V2H13
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h14-playlist/tracks-v1a1/mono.m3u8:MV V2H14
+#DESCRIPTION MV V2H14
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/v2h15-playlist/tracks-v1a1/mono.m3u8:MV V2H15
+#DESCRIPTION MV V2H15
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vdo.plathong.net/flash7253/flash7253/chunklist_.m3u8:New TM
+#DESCRIPTION New TM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-th-vip.livestreaming.in.th/policetv/policetv/chunklist_.m3u8:Police TV
+#DESCRIPTION Police TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//180.180.243.239/streams/3/hls:R Channel
+#DESCRIPTION R Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ramach.ddns.net/live/ramalive/index.m3u8:Rama Channel
+#DESCRIPTION Rama Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.bangkokstream.com%3a19360/suwannabhumi/suwannabhumi.m3u8:Suwannabhumi Channel
 #DESCRIPTION Suwannabhumi Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.swamiji.tv/YogaIPTV/smil%3aYogaStreamUS.smil/playlist.m3u8:Swamiji TV American
@@ -143,8 +195,8 @@
 #DESCRIPTION Swamiji TV Australian
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-iptv.thaichaiyo.tv/tcy/live-manifest.m3u8:Thai Chaiyo
 #DESCRIPTION Thai Chaiyo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/tv9.stream/playlist.m3u8:TV9
-#DESCRIPTION TV9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vdo.plathong.net/tvmuslim/tvmuslim/chunklist_.m3u8:TV Muslim Thailand
+#DESCRIPTION TV Muslim Thailand
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//symc-cdn.violin.co.th%3a1935/tndedge/whitechannel/playlist.m3u8:White Channel
 #DESCRIPTION White Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//symc-cdn.violin.co.th/tndedge/whitechannel/chunklist_.m3u8:White Flix

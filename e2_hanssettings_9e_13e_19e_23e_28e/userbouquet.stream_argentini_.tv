@@ -1,5 +1,5 @@
 #NAME Stream Argentinië (AR)
-#SERVICE 1:64:3a7:0:0:0:0:0:0:0:
+#SERVICE 1:64:3ec:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nd106.republicaservers.com%3a4433/hls/c6611/index.m3u8:Canal 2 de Ushuaia
 #DESCRIPTION Canal 2 de Ushuaia
@@ -11,6 +11,8 @@
 #DESCRIPTION Canal 2 Salta
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmvideo1.livecastv.com/canal2/canal2/playlist.m3u8:Canal 2 Sanagasta
 #DESCRIPTION Canal 2 Sanagasta
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wowza.telpin.com.ar%3a1935/telpintv/smil%3attv.stream.smil/playlist.m3u8:Canal 2 Telpin
+#DESCRIPTION Canal 2 Telpin
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.radiosargentina.com.ar/php/tvm3u.php?id=DIAR0089:Canal 3 BA Buenos Aires
 #DESCRIPTION Canal 3 BA Buenos Aires
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmvideo2.livecastv.com/agenfor/agenfor/playlist.m3u8:Canal 3 Formosa
@@ -99,7 +101,7 @@
 #DESCRIPTION Canal 9 Multivision -2-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//panel.dattalive.com/8076/8076/playlist.m3u8:Canal 9 Norte Misionero
 #DESCRIPTION Canal 9 Norte Misionero
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//201.217.245.41%3a8081/testmelucas/canal9/playlist.m3u8:Canal 9 Resistencia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//coninfo.net%3a1935/9linklivert/smil%3a9linkmultibr.smil/playlist.m3u8:Canal 9 Resistencia
 #DESCRIPTION Canal 9 Resistencia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamcasthd.com%3a1936/canal9riocuartotv/canal9riocuartotv/playlist.m3u8:Canal 9 Río Cuarto
 #DESCRIPTION Canal 9 Río Cuarto
@@ -135,14 +137,20 @@
 #DESCRIPTION Canal 12 Puerto Madryn
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//f6z5x8d4.stackpathcdn.com/stream.m3u8:Canal 12 Trenque Lauquen
 #DESCRIPTION Canal 12 Trenque Lauquen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//coninfo.net%3a1935/13maxhd/live13maxtvnuevo/playlist.m3u8:13 Max Televisión
+#DESCRIPTION 13 Max Televisión
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//genexservicios.com%3a19360/canal13jujuy/canal13jujuy.m3u8:Canal 13 Jujuy TV
 #DESCRIPTION Canal 13 Jujuy TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//arcast.net%3a1935/mp/mp/playlist.m3u8:Canal 13 La Rioja
 #DESCRIPTION Canal 13 La Rioja
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.arcast.live/sanluistv/ngrp%3asanluistv_all/playlist.m3u8:Canal 13 San Luis
 #DESCRIPTION Canal 13 San Luis
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.trixserver.com%3a8443/uv096/uv096/playlist.m3u8:Canal 15.1 Panc TV
-#DESCRIPTION Canal 15.1 Panc TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//panel.host-live.com%3a19360/81500/81500.m3u8:Panc TV Canal 15.1
+#DESCRIPTION Panc TV Canal 15.1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//panel.host-live.com%3a19360/20004/20004.m3u8:Panc TV Canal 15.1 (#)
+#DESCRIPTION Panc TV Canal 15.1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//panel.host-live.com%3a19360/20000/20000.m3u8:Panc TV Peru
+#DESCRIPTION Panc TV Peru
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videostream.shockmedia.com.ar%3a19360/neotvdigital/neotvdigital.m3u8:Neo TV 16
 #DESCRIPTION Neo TV 16
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59c5c86e10038.streamlock.net/6605140/6605140/playlist.m3u8?fluxustv.m3u8:Canal 17 Milenium Salta
@@ -167,11 +175,11 @@
 #DESCRIPTION Canal 34 San Juan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//coopmorteros.online/canal50/vivo.m3u8:Canal 50 Morteros
 #DESCRIPTION Canal 50 Morteros
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamconex.com%3a1936/lacosta/lacosta/playlist.m3u8:Canal 79 La Costa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamconex.com%3a19360/lacosta/lacosta.m3u8:Canal 79 La Costa
 #DESCRIPTION Canal 79 La Costa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamconex.com%3a1936/mardelplata/mardelplata/playlist.m3u8:Canal 79 Mar del Plata
 #DESCRIPTION Canal 79 Mar del Plata
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamconex.com%3a1936/puan/puan/playlist.m3u8:Canal 79 Puan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamconex.com%3a19360/puan/puan.m3u8:Canal 79 Puan
 #DESCRIPTION Canal 79 Puan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamconex.com%3a1936/sanjuan/sanjuan/playlist.m3u8:Canal 79 San Juan
 #DESCRIPTION Canal 79 San Juan
@@ -185,7 +193,7 @@
 #DESCRIPTION Net TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.coninfo.net%3a1935/tvlink/live/playlist.m3u8:NG Federal
 #DESCRIPTION NG Federal
-#SERVICE 1:64:3a8:0:0:0:0:0:0:0:
+#SERVICE 1:64:3ed:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//59c5c86e10038.streamlock.net%3a1935/6605140/6605140/playlist.m3u8:24/7 Canal de Noticias
 #DESCRIPTION 24/7 Canal de Noticias
@@ -195,6 +203,8 @@
 #DESCRIPTION A24 -2-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//free.fullspeed.tv/iptv-query?streaming-ip=https%3a//www.youtube.com/channel/UCrYFBjFOP_zlFzsif9XDhgw/live:Acequia TV
 #DESCRIPTION Acequia TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssh101-fl.bozztv.com/ssh101/livestreamingtv/index.m3u8:Anime Station
+#DESCRIPTION Anime Station
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc1.stweb.tv/airedigital/live/playlist.m3u8:Aire de Santa Fe
 #DESCRIPTION Aire de Santa Fe
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u8:Aire de Santa Fe (#)
@@ -203,8 +213,12 @@
 #DESCRIPTION Alterna TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//51.79.83.93%3a9998/live/am1020/playlist.m3u8:Am 1020
 #DESCRIPTION Am 1020
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tgn2.bozztv.com/americateve/americateve1/americateve--1/playlist.m3u8:América TeVé
+#DESCRIPTION América TeVé
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UCZ8sgVyD7HqDor8ujB-TZpg.m3u8:América Tucumán
 #DESCRIPTION América Tucumán
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//190.2.212.209%3a8050/play/a0pb:America TV Internacional
+#DESCRIPTION America TV Internacional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tuvideoonline.com.ar%3a3393/live/antena91live.m3u8:Antena 91
 #DESCRIPTION Antena 91
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream1.sersat.com/hls/argentinisima.m3u8:Argentinísima Satelital
@@ -215,6 +229,8 @@
 #DESCRIPTION Bayres TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videostream.shockmedia.com.ar%3a19360/beatsradio/beatsradio.m3u8:Beats Radio
 #DESCRIPTION Beats Radio
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.189.225.150%3a85/boing/index.m3u8:Boing
+#DESCRIPTION Boing
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vivo.solumedia.com%3a19360/bvconline/bvconline.m3u8:BVC
 #DESCRIPTION BVC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.arcast.com.ar/casse/casse/playlist.m3u8:Cable Imagen Armstrong
@@ -341,8 +357,6 @@
 #DESCRIPTION OneRadio TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5fb24b460df87.streamlock.net/live-cont.ar/pakapaka/playlist.m3u8:Pakapaka
 #DESCRIPTION Pakapaka
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.streamtvradio.com%3a8443/uv096/uv096/playlist.m3u8:Panc TV
-#DESCRIPTION Panc TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming.elpinguino.com%3a1935/live/pinguinotv_720p/hasbahca.m3u8:Pinguino TV
 #DESCRIPTION Pinguino TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videostream.shockmedia.com.ar%3a19360/radio1045/radio1045.m3u8:Power Max Radio TV
@@ -429,8 +443,8 @@
 #DESCRIPTION TV Aire
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w2.manasat.com/tvmana-ar/smil%3atvmana-ar.smil/playlist.m3u8:TV Maná Argentina
 #DESCRIPTION TV Maná Argentina
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cntlnk-main-edge-access.secure.footprint.net/entrypoint/c7_vivo01_dai_source-20001_all.m3u8:TV Pública
-#DESCRIPTION TV Pública
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/entrypoint/c7_vivo01_dai_source-20001_all.m3u8:TV Publica
+#DESCRIPTION TV Publica
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canadaremar2.todostreaming.es/live/argentina-web.m3u8:TV Solidaria
 #DESCRIPTION TV Solidaria
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.flynetwifi.com%3a1935/live/mobile-005/playlist.m3u8:TyC Sports

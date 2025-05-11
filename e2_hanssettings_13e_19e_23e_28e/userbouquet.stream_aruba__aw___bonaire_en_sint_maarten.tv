@@ -1,29 +1,31 @@
 #NAME Stream Aruba (AW), Bonaire en Sint Maarten
-#SERVICE 1:64:394:0:0:0:0:0:0:0:
+#SERVICE 1:64:3db:0:0:0:0:0:0:0:
 #DESCRIPTION ++Aruba++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ed1ov.live.opencaster.com/GzyysAAvEhht/index.m3u8:Aruba TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn01.setar.aw/Canal49/canal49/playlist.m3u8:Aruba TV
 #DESCRIPTION Aruba TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5caf24a595d94.streamlock.net%3a1937/kmdbgtygtx/kmdbgtygtx/playlist.m3u8:Aruba TV+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livertmptwo.com%3a19360/atvplusrelay/atvplusrelay.m3u8:Aruba TV+
 #DESCRIPTION Aruba TV+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livertmptwo.com%3a19360/balchirelaytv/balchirelaytv.m3u8:Balchi TV
+#DESCRIPTION Balchi TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.tensila.com/cool-v-1.arubara/hls/master.m3u8:Cool FM 98.9
 #DESCRIPTION Cool FM 98.9
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.tensila.com/cool-v-1.arubara/hls/live/mystream.m3u8:Cool FM 98.9 (#)
 #DESCRIPTION Cool FM 98.9 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.tensila.com/heart-v-1.heartar/hls/live/mystream.m3u8:Heart Radio Aruba
 #DESCRIPTION Heart Radio Aruba
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//backend-server-dot-telearuba-app.appspot.com/media/livestream23/playlist.m3u8:Nos Isla TV
+#DESCRIPTION Nos Isla TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vcp11.myplaytv.com/powerfm/powerfm/playlist.m3u8:Power 101.7 FM
 #DESCRIPTION Power 101.7 FM
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.setar.aw%3a1935/Telearuba/smil%3atelearuba.smil/playlist.m3u8:Tele Aruba
+#SERVICE 1:0:1:0:0:0:0:0:0:0:http%3a//cdn.setar.aw%3a1935/Telearuba/smil%3atelearuba.smil/playlist.m3u8:Tele Aruba
 #DESCRIPTION Tele Aruba
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.setar.aw%3a1935/Telearuba/smil%3atelearuba.smil/playlist.m3u8:Tele Aruba (#)
-#DESCRIPTION Tele Aruba (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//backend-server-dot-telearuba-app.appspot.com/media/livestream13/playlist.m3u8:Tele Aruba Channel 13
 #DESCRIPTION Tele Aruba Channel 13
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ed5ov1.live.opencaster.com/bkyqeDgfaukC/index.m3u8:VIP TV
 #DESCRIPTION VIP TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//214787.global.ssl.fastly.net/65dee3aad6beacddbd6cd1af/live_21e811c0d60d11eeaa1a471c2c967e4a/rewind-3600.m3u8:X TV
 #DESCRIPTION X TV
-#SERVICE 1:64:395:0:0:0:0:0:0:0:
+#SERVICE 1:64:3dc:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bonaire++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.streambrothers.com%3a1936/8506/8506/playlist.m3u8:Bonaire TV
 #DESCRIPTION Bonaire TV
@@ -35,7 +37,7 @@
 #DESCRIPTION Nos TV Bonaire
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.westream.cloud/VozdiBonaireTV/VozdiBonaireTV.m3u8:Voz Di Bonaire TV
 #DESCRIPTION Voz Di Bonaire TV
-#SERVICE 1:64:396:0:0:0:0:0:0:0:
+#SERVICE 1:64:3dd:0:0:0:0:0:0:0:
 #DESCRIPTION -- Sint Maarten --
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.tensila.com/pearl-v-1.pearlfm/hls/live/mystream.m3u8:Pearl FM
 #DESCRIPTION Pearl FM
@@ -45,7 +47,13 @@
 #DESCRIPTION SXM TV Broadcast
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//198.255.80.170/FTX9_SXM-TV/index.m3u8:TV 15 St Maarten
 #DESCRIPTION TV 15 St Maarten
-#SERVICE 1:64:397:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.mycloudstream.io/hls/live/broadcast/s6nitpvn/index.m3u8:TV CARiB
+#DESCRIPTION TV CARiB
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.mycloudstream.io/hls/live/broadcast/wokrhjkd/index.m3u8:TV CARiB Gospel
+#DESCRIPTION TV CARiB Gospel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.mycloudstream.io/hls/live/broadcast/xn44vdc5/index.m3u8:TV CARiB Latino
+#DESCRIPTION TV CARiB Latino
+#SERVICE 1:64:3de:0:0:0:0:0:0:0:
 #DESCRIPTION ++Antillen algemeen++
 #SERVICE 4097:0:1:131:2:4:0:0:0:0:http%3a//hls.tmacaraibes.com/live/index.m3u8:TMA - Television Musicale Antillaise
 #DESCRIPTION TMA - Television Musicale Antillaise

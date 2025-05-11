@@ -87,6 +87,8 @@
 #DESCRIPTION Cocktail FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//92.243.25.139%3a9000/;stream.mp3:Corsica Radio
 #DESCRIPTION Corsica Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//croonerradio.ice.infomaniak.ch/croonerradio-midfi.mp3:Crooner Radio
+#DESCRIPTION Crooner Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/deltafmboulogne-high.mp3:Delta FM Boulogne
 #DESCRIPTION Delta FM Boulogne
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/deltafmdunkerque-high.mp3:Delta FM Dunkerque
@@ -939,6 +941,8 @@
 #DESCRIPTION Radio Notre Dame
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//novazz.ice.infomaniak.ch/novazz-128.mp3:Radio Nova
 #DESCRIPTION Radio Nova
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioone.ice.infomaniak.ch/radioone-96.mp3:Radio One (Montpellier)
+#DESCRIPTION Radio One (Montpellier)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radioperfecto.net-radio.fr/perfecto.mp3:Radio Perfecto (Frankrijk)
 #DESCRIPTION Radio Perfecto (Frankrijk)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//webradio.tvradio-pitchoun.fr%3a8443/radiopitchoun.aac:Radio Pitchoun
@@ -957,6 +961,14 @@
 #DESCRIPTION Radio Super Plus
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/radiotonic-high.mp3:Radio Tonic
 #DESCRIPTION Radio Tonic
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/394513/stream/448327:Radio Vinci Autoroutes Méditerranée (version Française)
+#DESCRIPTION Radio Vinci Autoroutes Méditerranée (version Française)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/461024/stream/556051:Radio Vinci Autoroutes Méditerranée (version classique)
+#DESCRIPTION Radio Vinci Autoroutes Méditerranée (version classique)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/526354/stream/584707:Radio Vinci Autoroutes Méditerranée (version HappyList)
+#DESCRIPTION Radio Vinci Autoroutes Méditerranée (version HappyList)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/424771/stream/557395:Radio Vinci Autoroutes Méditerranée (version pop-rock)
+#DESCRIPTION Radio Vinci Autoroutes Méditerranée (version pop-rock)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rbg.online.radiobreizh.bzh/live.mp3:RBG - Radio Bro Gwened (Gwened, Bretagne)
 #DESCRIPTION RBG - Radio Bro Gwened (Gwened, Bretagne)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n37a-eu.rcs.revma.com/w6u9tk4a6nhvv:RDS Radio Couserans
@@ -1005,10 +1017,12 @@
 #DESCRIPTION Riviera Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rkb.online.radiobreizh.bzh/live.mp3:RKB - Radio Kreiz Breizh (Sant-Nigouden, Bretagne)
 #DESCRIPTION RKB - Radio Kreiz Breizh (Sant-Nigouden, Bretagne)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//chai5she.cdn.dvmr.fr/rmcinfo:RMC - Info Talk Sport (Monaco)
-#DESCRIPTION RMC - Info Talk Sport (Monaco)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//edge.radiomontecarlo.net/RMC.mp3?listenerid=2cef19f21bc7f88d8ea3eb2f6dc61f9e&awparams=companionAds%253Atrue:RMC = Radio Monte Carlo (Monaco)
-#DESCRIPTION RMC = Radio Monte Carlo (Monaco)
+#SERVICE 1:64:6df:0:0:0:0:0:0:0:
+#DESCRIPTION ++RMC = Radio Monte Carlo, zie ook Monaco++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls-rmcgold.nextradiotv.com/ssai/192k/media.m3u8:RMC Gold (voor Frankrijk)
+#DESCRIPTION RMC Gold (voor Frankrijk)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/rougefm-high.aac:Rouge fm AAC+
+#DESCRIPTION Rouge fm AAC+
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/rougefm-high.aac:Rouge fm AAC+
 #DESCRIPTION Rouge fm AAC+
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/rougefm-high.mp3:Rouge fm
