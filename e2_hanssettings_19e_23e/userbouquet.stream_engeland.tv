@@ -1,73 +1,87 @@
 #NAME Stream Engeland (UK)
-#SERVICE 1:64:1d6:0:0:0:0:0:0:0:
+#SERVICE 1:64:19c:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:17:a27:a27:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4213&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4213&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4213&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:BBC 1
 #DESCRIPTION BBC 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//75697-mouse.cloud-x.me%3a80/play/live.php?mac=00%3a1A%3a79%3a62%3a38%3a32&stream=30581&extension=ts&play_token=dewPSt1zXK:BBC 1 (#)
+#DESCRIPTION BBC 1 (#)
 #SERVICE 4097:0:1:17:a35:a35:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4214&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4214&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4214&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:BBC 2
 #DESCRIPTION BBC 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8:BBC 2 (#)
+#DESCRIPTION BBC 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8:BBC 3 / CBBC
+#DESCRIPTION BBC 3 / CBBC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=45336&extension=ts&play_token=oWhqaailgd:BBC 3 / CBBC (#)
+#DESCRIPTION BBC 3 / CBBC (#)
 #SERVICE 4097:0:1:17:a24:a24:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4215&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4215&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4215&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:BBC 4 / CBeeBies
 #DESCRIPTION BBC 4 / CBeeBies
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8:BBC 4 / CNeeBies (#)
+#DESCRIPTION BBC 4 / CNeeBies (#)
 #SERVICE 4097:0:1:17:a1f:a1f:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25870&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=25870&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25870&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:BBC Alba
 #DESCRIPTION BBC Alba
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl2.moveonjoy.com/BBC_AMERICA/index.m3u8:BBC America
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=174553&extension=ts&play_token=UdUhumkP31:BBC America
 #DESCRIPTION BBC America
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/BBCAmericaEast/sd:BBC America (#)
+#DESCRIPTION BBC America (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn%3abbc%3apips%3aservice%3abbc_arabic_tv/pc_hd_abr_v2.m3u8:BBC Arabic
 #DESCRIPTION BBC Arabic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//75697-mouse.cloud-x.me%3a80/play/live.php?mac=00%3a1A%3a79%3a62%3a38%3a32&stream=176796&extension=ts&play_token=p4Xa40ASvS:BBC Canada
+#DESCRIPTION BBC Canada
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//apollo.production-public.tubi.io/live/ac-bbc-earth2.m3u8:BBC Earth
 #DESCRIPTION BBC Earth
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8:BBC Earth (#)
 #DESCRIPTION BBC Earth (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//75697-mouse.cloud-x.me%3a80/play/live.php?mac=00%3a1A%3a79%3a62%3a38%3a32&stream=176826&extension=ts&play_token=EiGeSPAU6a:BBC First
+#DESCRIPTION BBC First
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs-hls-push-ww-live.akamaized.net/x=4/i=urn%3abbc%3apips%3aservice%3abbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8:BBC News UK
 #DESCRIPTION BBC News UK
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs-hls-push-ww.live.cf.md.bbci.co.uk/x=4/i=urn%3abbc%3apips%3aservice%3abbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8:BBC News UK (#)
 #DESCRIPTION BBC News UK (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=113983&extension=ts:BBC Parliament
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=317211&extension=ts&play_token=bzncWpZiQM:BBC Parliament
 #DESCRIPTION BBC Parliament
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ott-cdn.ucom.am/s24/index.m3u8:BBC World News
 #DESCRIPTION BBC World News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=1177976&extension=ts&play_token=8v5AyZlzEA:BBC Nordic
 #DESCRIPTION BBC Nordic
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a3D%3aDE%3aCF&stream=38251&extension=ts:ITV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=79725&extension=ts&play_token=kZfMZ7NjXj:ITV 1
 #DESCRIPTION ITV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4228&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4228&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4228&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:ITV 1 (#)
 #DESCRIPTION ITV 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=45323&extension=ts&play_token=3QalLmchrP:STV
 #DESCRIPTION STV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=230677&extension=ts&play_token=Ci0inqgbPj:UTV
+#DESCRIPTION UTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fortv.cc%3a8080/gscQ3v/779460/53671:ITV 2
 #DESCRIPTION ITV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38249&extension=ts:ITV 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=30532&extension=ts&play_token=1RDNwlrg03:ITV 2 (#)
 #DESCRIPTION ITV 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4229&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4229&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4229&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:ITV 2 (#)
 #DESCRIPTION ITV 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38247&extension=ts:ITV 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=30531&extension=ts&play_token=ONE8euoSXo:ITV 3
 #DESCRIPTION ITV 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38245&extension=ts:ITV 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=30530&extension=ts&play_token=M617AsAb2q:ITV 4
 #DESCRIPTION ITV 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4231&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4231&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4231&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:ITV 4 (#)
 #DESCRIPTION ITV 4 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=475&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=475&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=475&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:ITV Be
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=45333&extension=ts&play_token=Cy56tPzHoQ:ITV Be
 #DESCRIPTION ITV Be
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38243&extension=ts:ITV Be (#)
-#DESCRIPTION ITV Be (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4218&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4218&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4218&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:Channel 4
 #DESCRIPTION Channel 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38217&extension=ts:Channel 4 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=30555&extension=ts&play_token=jYmwYUQSNB:Channel 4 (#)
 #DESCRIPTION Channel 4 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4207&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4207&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4207&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:E4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=30545&extension=ts&play_token=dYUEWNbZn1:E4
 #DESCRIPTION E4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38208&extension=ts:E4 (#)
-#DESCRIPTION E4 (#)
-#SERVICE 4097:0:1:17:a64:a64:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=476&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=476&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=476&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:E4 Extra
+#SERVICE 4097:0:1:17:a64:a64:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=1014314&extension=ts&play_token=gyrZtWIkzg:E4 Extra
 #DESCRIPTION E4 Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38268&extension=ts:Film 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=30539&extension=ts&play_token=0tZ8V4IW2f:Film 4
 #DESCRIPTION Film 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38200&extension=ts:More 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=30528&extension=ts&play_token=ZGr0lf4CyY:More 4
 #DESCRIPTION More 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=155143&extension=ts:TG 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=1014232&extension=ts&play_token=MV9OTeY6a8:TG 4
 #DESCRIPTION TG 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4219&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4219&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4219&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:Channel 5
 #DESCRIPTION Channel 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38216&extension=ts:Channel 5 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=30554&extension=ts&play_token=BoDuUj4x1a:Channel 5 (#)
 #DESCRIPTION Channel 5 (#)
 #SERVICE 4097:0:1:17:a12:a12:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4242&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4242&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4242&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:5 Action
 #DESCRIPTION 5 Action
@@ -79,7 +93,7 @@
 #DESCRIPTION My 5 Documentaries
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a015:Euronews English
 #DESCRIPTION Euronews English
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38428&extension=ts:Euronews English (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8:Euronews English (#)
 #DESCRIPTION Euronews English (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8:GB News
 #DESCRIPTION GB News
@@ -87,18 +101,16 @@
 #DESCRIPTION NewsWorld
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ffg.gogo8k.me%3a80/play/live.php?mac=00%3a1A%3a79%3a58%3aC1%3a94&stream=717701&extension=ts&play_token=09F1XA8Rjs:Sky News UK
 #DESCRIPTION Sky News UK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Live/channel(skynews)/index_1080.m3u8:Sky News International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8:Sky News International
 #DESCRIPTION Sky News International
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp%3aweather_loop.stream_all/playlist.m3u8:Sky News Weather
 #DESCRIPTION Sky News Weather
-#SERVICE 1:64:1d7:0:0:0:0:0:0:0:
+#SERVICE 1:64:19d:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8:4K Travel TV
 #DESCRIPTION 4K Travel TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ecable.tv/afrobeats/index.m3u8:Afrobeats
 #DESCRIPTION Afrobeats
-#SERVICE 4097:0:1:17:a1a:a1a:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25899&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=25899&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25899&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:Alibi
-#DESCRIPTION Alibi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bbc-classicdrwho-1-us.roku.wurl.tv/playlist.m3u8:BBC Doctor Who Classic
 #DESCRIPTION BBC Doctor Who Classic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aegis-cloudfront-1.tubi.video/7e9ef0f5-4d13-4083-aa3f-9375e652a4c9/playlist.m3u8:BBC Doctor Who Classic (#)
@@ -125,47 +137,49 @@
 #DESCRIPTION Clubland TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=228568&extension=ts&play_token=gp5HFvYPps:Comedy Central
 #DESCRIPTION Comedy Central
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=79696&extension=ts&play_token=XNd7JZzXLz:Dave
-#DESCRIPTION Dave
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=1014227&extension=ts&play_token=B3GZgAywmn:Dave ja vu
-#DESCRIPTION Dave ja vu
 #SERVICE 4097:0:1:17:a5c:a5c:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25871&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=25871&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25871&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:DMAX
 #DESCRIPTION DMAX
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25896&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=25896&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25896&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:Food Network
 #DESCRIPTION Food Network
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8:GoodNews TV
-#DESCRIPTION GoodNews TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=887937&extension=ts&play_token=UOv2CSUFgd:Great Movies
-#DESCRIPTION Great Movies
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=1424879&extension=ts&play_token=Dhuq6Yoe9P:Great Romance
-#DESCRIPTION Great Romance
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=887939&extension=ts&play_token=ZupOytWfLq:Great TV
-#DESCRIPTION Great TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//halalondon-live.ercdn.net/halalondon/halalondon.m3u8:Hala London TV
-#DESCRIPTION Hala London TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8:GoodNews Television
+#DESCRIPTION GoodNews Television
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=1424875&extension=ts&play_token=WrNj3kFEeE:Great! Action
+#DESCRIPTION Great! Action
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.trexiptv.com%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3aD1%3a54&stream=887938&extension=ts&play_token=xyXhmyezPA:Great! Classic
+#DESCRIPTION Great! Classic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=887937&extension=ts&play_token=UOv2CSUFgd:Great! Movies
+#DESCRIPTION Great! Movies
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=1424879&extension=ts&play_token=Dhuq6Yoe9P:Great! Romance
+#DESCRIPTION Great! Romance
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=887939&extension=ts&play_token=ZupOytWfLq:Great! TV
+#DESCRIPTION Great! TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//halalondon-live.ercdn.net/halalondon/halalondon.m3u8:Huna London TV
+#DESCRIPTION Huna London TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lo3.gemporia.com/abrhobbymakerukgfx/smil%3alivestreamFullHD.smil/playlist.m3u8:Hobby Maker
 #DESCRIPTION Hobby Maker
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hncfree-samsung-uk.amagi.tv/playlist.m3u8:Horse and Country
 #DESCRIPTION Horse and Country
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn149.anystream.uk%3a8082/app/iq53la/playlist.m3u8:Iqra Bangla
+#DESCRIPTION Iqra Bangla
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.mdc.akamaized.net/hls/livestream/kicctv/playlist.m3u8:KICCTV
 #DESCRIPTION KICCTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//moonbug-rokuus.amagi.tv/playlist.m3u8:Moonbug Kids
 #DESCRIPTION Moonbug Kids
-#SERVICE 4097:0:1:17:a95:a95:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4233&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4233&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4233&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:MTV 80s
+#SERVICE 4097:0:1:17:a95:a95:0:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=1696899&extension=ts&play_token=vKI6mqA9er:MTV 80s
 #DESCRIPTION MTV 80s
 #SERVICE 4097:0:1:17:a96:a96:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4232&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4232&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4232&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:MTV 90s
 #DESCRIPTION MTV 90s
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=45265&extension=ts&play_token=D5uF5IlhhD:MTV 90s (#)
+#DESCRIPTION MTV 90s (#)
 #SERVICE 4097:0:1:17:a9a:a9a:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4235&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4235&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4235&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:MTV Club
 #DESCRIPTION MTV Club
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=45265&extension=ts&play_token=D5uF5IlhhD:MTV Club (#)
-#DESCRIPTION MTV Club (#)
 #SERVICE 4097:0:1:17:a99:a99:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4234&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=4234&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=4234&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:MTV Hits
 #DESCRIPTION MTV Hits
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25873&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=25873&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25873&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:MTV UK
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//75697-mouse.cloud-x.me%3a80/play/live.php?mac=00%3a1A%3a79%3a62%3a38%3a32&stream=45326&extension=ts&play_token=B6APdX4W9D:MTV UK
 #DESCRIPTION MTV UK
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=228579&extension=ts&play_token=PRiOcRDL2l:Nickelodeon
 #DESCRIPTION Nickelodeon
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=38327&extension=ts:Nick Jr.
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//75697-mouse.cloud-x.me%3a80/play/live.php?mac=00%3a1A%3a79%3a62%3a38%3a32&stream=45260&extension=ts&play_token=V8vpTUFeEQ:Nick Jr.
 #DESCRIPTION Nick Jr.
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=45258&extension=ts&play_token=E3IRTx8U4X:NickToons
 #DESCRIPTION NickToons
@@ -175,11 +189,9 @@
 #DESCRIPTION Now 80s
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lightning-now90s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now90s-rakuten/CDN/playlist.m3u8:Now Rock
 #DESCRIPTION Now Rock
-#SERVICE 4097:0:1:17:aa9:aa9:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25875&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=25875&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25875&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:Pick
-#DESCRIPTION Pick
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fortv.cc%3a8080/gscQ3v/779460/53730:Pop
 #DESCRIPTION Pop
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fortv.cc%3a8080/gscQ3v/779460/53682:Quest
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//75697-mouse.cloud-x.me%3a80/play/live.php?mac=00%3a1A%3a79%3a62%3a38%3a32&stream=45334&extension=ts&play_token=3yTEqdQfTH:Quest
 #DESCRIPTION Quest
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8:QVC UK
 #DESCRIPTION QVC UK
@@ -197,8 +209,12 @@
 #DESCRIPTION TLC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8:Travelxp
 #DESCRIPTION Travelxp
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//68.235.37.11%3a1935/vallenato/vallenato/.m3u8:Tropical Music TV
-#DESCRIPTION Tropical Music TV
+#SERVICE 4097:0:1:17:a1a:a1a:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25899&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=25899&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25899&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:U&Alibi
+#DESCRIPTION U&Alibi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=79696&extension=ts&play_token=XNd7JZzXLz:U&Dave
+#DESCRIPTION U&Dave
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=1014227&extension=ts&play_token=B3GZgAywmn:U&DaveJaVu
+#DESCRIPTION U&DaveJaVu
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25886&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=25886&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25886&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:U&Drama
 #DESCRIPTION U&Drama
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=30537&extension=ts&play_token=j28D2gF1la:U&Gold
@@ -207,6 +223,8 @@
 #DESCRIPTION U&Gold (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25884&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=25884&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25884&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:U&Yesterday
 #DESCRIPTION U&Yesterday
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.64.57.208/voxafrica/playlist.m3u8:Vox Africa
+#DESCRIPTION Vox Africa
 #SERVICE 4097:0:1:17:af8:af8:0:0:0:0:http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25879&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67?mode=itv&ph1=p&hst=aHR0cDovL3R2LmluZGlnb3R2Lm1lOjgw&chCode=MDA6MUE6Nzk6MDc6QTY6Njc=&epNum=&epId=&cId=23&sId=25879&chCm=http%3a//tv.cloudcdn.me%3a80/live.ts?channelId=25879&uid=1814&deviceMac=00%3a1A%3a79%3a07%3aA6%3a67&end=:Watch
 #DESCRIPTION Watch
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wonder-samsung-uk.amagi.tv/playlist.m3u8:Wonder

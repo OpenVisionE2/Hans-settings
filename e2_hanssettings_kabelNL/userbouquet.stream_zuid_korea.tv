@@ -1,5 +1,5 @@
 #NAME Stream Zuid-Korea (KR)
-#SERVICE 1:64:330:0:0:0:0:0:0:0:
+#SERVICE 1:64:2ed:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders KBS++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mytv.dothome.co.kr/ch/public/1.php:KBS 1
 #DESCRIPTION KBS 1
@@ -21,7 +21,7 @@
 #DESCRIPTION KBS Story
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mytv.dothome.co.kr/ch/catv/7.php:KBS World
 #DESCRIPTION KBS World
-#SERVICE 1:64:331:0:0:0:0:0:0:0:
+#SERVICE 1:64:2ee:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8:BTN TV
 #DESCRIPTION BTN TV
@@ -53,6 +53,8 @@
 #DESCRIPTION NBS
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8:NHTV
 #DESCRIPTION NHTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.hwado.net/webtv/catv/502_76142D8F.php:SBS
+#DESCRIPTION SBS
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//119.200.131.11%3a1935/KBCTV/tv/playlist.m3u8:SBS Gwangju
 #DESCRIPTION SBS Gwangju
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//123.140.197.22/stream/1/play.m3u8:SBS Jibs
@@ -75,7 +77,7 @@
 #DESCRIPTION YTN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UCDww6ExpwQS0TzmREIOo40Q.m3u8:YTN 2
 #DESCRIPTION YTN 2
-#SERVICE 1:64:332:0:0:0:0:0:0:0:
+#SERVICE 1:64:2ef:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil%3aarirang_3ch.smil/playlist.m3u8:Arirang Radio
 #DESCRIPTION Arirang Radio
@@ -105,12 +107,16 @@
 #DESCRIPTION FGTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_high/chunklist.m3u8:GCN Korea
 #DESCRIPTION GCN Korea
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//etv.publichs.com/live5.stream/playlist.m3u8:Gongyoung Shopping
+#DESCRIPTION Gongyoung Shopping
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8:GS My Shop
 #DESCRIPTION GS My Shop
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gstv-gsshop.gsshop.com/gsshop_hd/gsshop_hd.stream/playlist.m3u8:GS Shop
 #DESCRIPTION GS Shop
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8:Gugak TV
 #DESCRIPTION Gugak TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8:Home & Shopping
+#DESCRIPTION Home & Shopping
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mediaworks.dema.mil.kr%3a1935/live_edge/cudo.sdp/playlist.m3u8:KFN
 #DESCRIPTION KFN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8:Home & Shopping
@@ -119,6 +125,8 @@
 #DESCRIPTION Hyundai Home Shopping Plus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8:Korean Music Broadcasting
 #DESCRIPTION Korean Music Broadcasting
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8:LOTTE Homeshopping 
+#DESCRIPTION LOTTE Homeshopping 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8:Lotte One TV
 #DESCRIPTION Lotte One TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.knou.ac.kr/knou1/live1/playlist.m3u8:OUN

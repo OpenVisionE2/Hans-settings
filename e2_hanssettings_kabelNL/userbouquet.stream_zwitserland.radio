@@ -1,5 +1,5 @@
 #NAME Stream Zwitserland (CH)
-#SERVICE 1:64:744:0:0:0:0:0:0:0:
+#SERVICE 1:64:6fa:0:0:0:0:0:0:0:
 #DESCRIPTION ++publiek Duitstalig++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/drs1_96.stream/chunklist_DVR.m3u8:SRF 1
 #DESCRIPTION SRF 1
@@ -13,11 +13,11 @@
 #DESCRIPTION SRF Musikwelle
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/drsvirus_96.stream/chunklist_DVR.m3u8:SRF Virus
 #DESCRIPTION SRF Virus
-#SERVICE 1:64:745:0:0:0:0:0:0:0:
+#SERVICE 1:64:6fb:0:0:0:0:0:0:0:
 #DESCRIPTION ++publiek RTR Duitstalig++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/rr_96.stream/chunklist_DVR.m3u8:RTR
 #DESCRIPTION RTR
-#SERVICE 1:64:746:0:0:0:0:0:0:0:
+#SERVICE 1:64:6fc:0:0:0:0:0:0:0:
 #DESCRIPTION ++publiek Franstalig++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.srg-ssr.ch/m/rsc_fr/mp3_128:Radio Swiss Classic FR
 #DESCRIPTION Radio Swiss Classic FR
@@ -29,7 +29,7 @@
 #DESCRIPTION RTS Couleur 3 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/option-musique_96.stream/playlist.m3u8:RTS Option Musique
 #DESCRIPTION RTS Option Musique
-#SERVICE 1:64:747:0:0:0:0:0:0:0:
+#SERVICE 1:64:6fd:0:0:0:0:0:0:0:
 #DESCRIPTION ++publiek Italiaanstalig++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/reteuno_96.stream/chunklist_DVR.m3u8:RSI Rete Uno
 #DESCRIPTION RSI Rete Uno
@@ -37,7 +37,7 @@
 #DESCRIPTION RSI Rete Due
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/retetre_96.stream/chunklist_DVR.m3u8:RSI Rete Tre
 #DESCRIPTION RSI Rete Tre
-#SERVICE 1:64:748:0:0:0:0:0:0:0:
+#SERVICE 1:64:6fe:0:0:0:0:0:0:0:
 #DESCRIPTION ++publiek algemeen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.srg-ssr.ch/m/rsc_de/mp3_128:SRF Swiss Classic
 #DESCRIPTION SRF Swiss Classic
@@ -45,7 +45,7 @@
 #DESCRIPTION SRF Swiss Jazz 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.srg-ssr.ch/m/rsp/mp3_128:SRF Swiss Pop
 #DESCRIPTION SRF Swiss Pop
-#SERVICE 1:64:749:0:0:0:0:0:0:0:
+#SERVICE 1:64:6ff:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice03.fluidstream.net/onedancech.mp3:1ne Dance
 #DESCRIPTION 1ne Dance
@@ -125,6 +125,8 @@
 #DESCRIPTION James FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.smartradio.ch%3a9505/stream:Jazz Ascona Channel
 #DESCRIPTION Jazz Ascona Channel
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//play.kanalk.ch/kanalk/mp3-192/webseite:kanalK
+#DESCRIPTION kanalK
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icepool.silvacast.com/CLASSICAL102.mp3:Klassik 1 
 #DESCRIPTION Klassik 1 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.multhielemedia.de/listen/kontrafunk/radio.mp3:Kontrafunk
@@ -231,10 +233,12 @@
 #DESCRIPTION Radio Top
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiotop.ice.infomaniak.ch/toptwo96.aac:Radio Top Two
 #DESCRIPTION Radio Top Two
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/radiovostok.aac:Radio Vostok
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiovostok.ice.infomaniak.ch/radiovostok.aac:Radio Vostok
 #DESCRIPTION Radio Vostok
-#SERVICE 4097:0:1:c:2:6:0:0:0:0:http%3a//mp3.radio.ch/radiozuerisee128k:Radio Zürisee (Zwitserland)
-#DESCRIPTION Radio Zürisee (Zwitserland)
+#SERVICE 4097:0:1:c:2:6:0:0:0:0:https%3a//frontend.streamonkey.net/radiozuerileu-live:Radio Zürileu
+#DESCRIPTION Radio Zürileu
+#SERVICE 4097:0:1:c:2:6:0:0:0:0:http%3a//mp3.radio.ch/radiozuerisee128k:Radio Zürisee
+#DESCRIPTION Radio Zürisee
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/rfj-low.mp3:RFJ
 #DESCRIPTION RFJ
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/rfj-high.aac:RFJ AAC+

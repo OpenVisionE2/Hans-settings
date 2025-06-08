@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:5f3:0:0:0:0:0:0:0:
+#SERVICE 1:64:5ad:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -41,7 +41,7 @@
 #DESCRIPTION FunX Rotterdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/funx-utrecht-bb-mp3:FunX Utrecht
 #DESCRIPTION FunX Utrecht
-#SERVICE 1:64:5f4:0:0:0:0:0:0:0:
+#SERVICE 1:64:5ae:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -177,18 +177,10 @@
 #DESCRIPTION Deep Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.deep.radio/hd:Deep Radio HD
 #DESCRIPTION Deep Radio HD
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.easyfm.nl/stream1/stream.mp3:EASY 95.5 FM
-#DESCRIPTION EASY 95.5 FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//77.164.95.243%3a8035/EASY:Easy Radio (Camfactor)
-#DESCRIPTION Easy Radio (Camfactor)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//77.164.95.243%3a8035/HOT:Easy Radio / Oldies
-#DESCRIPTION Easy Radio / Oldies
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//77.164.95.243%3a8035/URBAN:Easy Radio / Urban Traxx
-#DESCRIPTION Easy Radio / Urban Traxx
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//ice.cr2.streamzilla.xlcdn.com%3a8000/sz=efteling=hdstream:Efteling Kids Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.easyfm.nl/easyfm:Easy FM
+#DESCRIPTION Easy FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//media.hostin.live/audio/efteling.mp3?source=eftelingcom:Efteling Kids Radio
 #DESCRIPTION Efteling Kids Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rrr.sz.xlcdn.com/?account=efteling&file=hdstream&type=live&service=icecast&protocol=http&port=8000&output=pls:Efteling Kids Radio - alternatief
-#DESCRIPTION Efteling Kids Radio - alternatief
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.streemlion.com/RadioExcellent:Excellent FM
 #DESCRIPTION Excellent FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//solid67.streamupsolutions.com%3a15527/Girlpower:GirlPower Radio
@@ -599,7 +591,7 @@
 #DESCRIPTION Yoursafe Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:5f5:0:0:0:0:0:0:0:
+#SERVICE 1:64:5af:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -639,13 +631,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:5f6:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b0:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:5f7:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b1:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits (NL Nationaal)
 #DESCRIPTION 18Hits (NL Nationaal)
@@ -679,8 +671,8 @@
 #DESCRIPTION All Oldies Channel (NL nationaal)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//kathy.torontocast.com%3a2495/stream:Allsound Radio (NL nationaal)
 #DESCRIPTION Allsound Radio (NL nationaal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream-12.zenomedia.com/pgxwyxk8mg0uv:Amor FM multiculturele radiio
-#DESCRIPTION Amor FM multiculturele radiio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-162.zeno.fm/pgxwyxk8mg0uv:AmorFM
+#DESCRIPTION AmorFM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//larry.torontocast.com%3a1325/stream:Ariba The Party Station (NL - overige)
 #DESCRIPTION Ariba The Party Station (NL - overige)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mpc1.mediacp.eu%3a8740/stream:Atlantis
@@ -781,6 +773,8 @@
 #DESCRIPTION Drum and Bass FM (NL)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//caster02.streampakket.com%3a8540/live:DZDRadio (NL)
 #DESCRIPTION DZDRadio (NL)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/EXPERTSLIVERADIOAAC.aac:Experts Live Radio
+#DESCRIPTION Experts Live Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//extragold.stream-server.nl/;:Extra Gold (NL nationaal, overig)
 #DESCRIPTION Extra Gold (NL nationaal, overig)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//server2.inetcast.nl%3a1555/stream:Fact Radio
@@ -907,6 +901,8 @@
 #DESCRIPTION K-Golden Radio (NL)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//audiostreamen.nl%3a8168:Kerstradio.nl
 #DESCRIPTION Kerstradio.nl
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mediacp.audiostreamen.nl%3a8226/stream:KickFM
+#DESCRIPTION KickFM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//kinderradio.ic-stream.nl%3a30039/stream:Kinderradio FM
 #DESCRIPTION Kinderradio FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.kiss-fm.nl%3a9502/KissFM_320HQ:KissFM Netherlands

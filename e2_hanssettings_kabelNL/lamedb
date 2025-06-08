@@ -183,6 +183,9 @@ ffff0000:0caa:0600
 ffff0000:0803:0600
 	c 490000:6900000:2:5:0:0:0
 /
+ffff0000:083b:0000
+	c 418000:6900000:2:5:0:0:0
+/
 ffff0000:0806:0000
 	c 346000:6900000:2:5:0:0:0
 /
@@ -474,9 +477,6 @@ ffff0000:0836:0600
 ffff0000:0082:08c9
 	c 690000:6900000:2:3:0:0:0
 /
-ffff0000:0813:0600
-	c 522000:6900000:2:5:0:0:0
-/
 ffff0000:080b:0600
 	c 330000:6900000:2:5:0:0:0
 /
@@ -533,6 +533,9 @@ ffff0000:000b:0001
 /
 ffff0000:083b:0600
 	c 418000:6900000:2:5:0:0:0
+/
+ffff0000:0813:0600
+	c 522000:6900000:2:5:0:0:0
 /
 ffff0000:0018:25a8
 	c 330000:6875000:2:3:0:0:0
@@ -617,6 +620,9 @@ ffff0000:6f00:2114
 /
 ffff0000:0203:2114
 	c 6660000:0:2:3:0:0:0
+/
+ffff0000:0839:0000
+	c 474000:6900000:2:3:0:0:0
 /
 eeee0000:0906:2210
 	t 570000000:0:5:5:3:2:4:4:2:0:0:0
@@ -2669,6 +2675,39 @@ p:Ziggo
 4e57:ffff0000:0803:0600:25:0
 MyZen
 p:Ziggo,c:050001,c:090101
+544f:ffff0000:083b:0000:1:0
+418 SID 0x544f
+p:
+5457:ffff0000:083b:0000:1:0
+418 SID 0x5457
+p:
+5458:ffff0000:083b:0000:1:0
+418 SID 0x5458
+p:
+5459:ffff0000:083b:0000:1:0
+418 SID 0x5459
+p:
+545a:ffff0000:083b:0000:1:0
+418 SID 0x545a
+p:
+4c7d:ffff0000:083b:0000:1:0
+418 SID 0x4c7d
+p:
+4c7f:ffff0000:083b:0000:1:0
+418 SID 0x4c7f
+p:
+4c87:ffff0000:083b:0000:1:0
+418 SID 0x4c87
+p:
+4c88:ffff0000:083b:0000:1:0
+418 SID 0x4c88
+p:
+4c89:ffff0000:083b:0000:1:0
+418 SID 0x4c89
+p:
+4c8a:ffff0000:083b:0000:1:0
+418 SID 0x4c8a
+p:
 4a50:ffff0000:0806:0000:1:0
 346 SID 0x4a50
 p:
@@ -5173,7 +5212,7 @@ RTL 8
 p:Ziggo,c:050001,c:090202
 4be3:ffff0000:0833:0600:25:0
 Viaplay TV+
-p:Ziggo
+p:Ziggo,c:050001
 4be4:ffff0000:0833:0600:25:0
 TVE
 p:Ziggo,c:050001
@@ -5697,7 +5736,7 @@ p:Ziggo
 Ziggo Dome
 p:Ziggo
 4a75:ffff0000:0808:0600:22:0
-Veronica / Disney XD
+Veronica / Disney Jr.
 p:Ziggo,c:050001,c:098800
 4a77:ffff0000:0808:0600:25:0
 RTL
@@ -5948,27 +5987,6 @@ p:CAIW Media,c:050001
 756c:ffff0000:0082:08c9:25:0
 HISTORY
 p:CAIW Media,c:050001
-4b5e:ffff0000:0813:0600:22:0
-SLAM!TV
-p:Ziggo,c:050001
-4b5d:ffff0000:0813:0600:25:0
-HGTV
-p:Ziggo,c:050001
-4b5f:ffff0000:0813:0600:25:0
-Stingray LiteTV
-p:Ziggo
-4b60:ffff0000:0813:0600:25:0
-192TV
-p:Ziggo,c:050001
-4b61:ffff0000:0813:0600:25:0
-Shorts TV
-p:Ziggo,c:050001,c:090202
-4b62:ffff0000:0813:0600:25:0
-RTL Lounge
-p:Ziggo,c:050001
-4b63:ffff0000:0813:0600:25:0
-RTL Telekids
-p:Ziggo,c:050001
 4ab1:ffff0000:080b:0600:22:0
 RTL 8
 p:Ziggo,c:050001,c:098800
@@ -6015,7 +6033,7 @@ p:Ziggo,c:050001,c:098800
 ESPN
 p:Ziggo,c:050001,c:098800
 4bf2:ffff0000:0834:0600:25:0
-Veronica / Disney Junior
+Veronica / Disney Jr.
 p:Ziggo,c:050001,c:090202
 4bf7:ffff0000:0834:0600:25:0
 CNN
@@ -6302,6 +6320,27 @@ p:Ziggo,c:050001,c:098800
 4c8a:ffff0000:083b:0600:25:0
 Omroep Gelderland
 p:Ziggo,c:050001,c:098800
+4b5d:ffff0000:0813:0600:25:0
+HGTV
+p:Ziggo,c:050001
+4b5e:ffff0000:0813:0600:25:0
+SLAM!TV
+p:Ziggo
+4b5f:ffff0000:0813:0600:25:0
+Stingray LiteTV
+p:Ziggo
+4b60:ffff0000:0813:0600:25:0
+192TV
+p:Ziggo,c:050001
+4b61:ffff0000:0813:0600:25:0
+Shorts TV
+p:Ziggo,c:050001,c:090202
+4b62:ffff0000:0813:0600:25:0
+RTL Lounge
+p:Ziggo,c:050001
+4b63:ffff0000:0813:0600:25:0
+RTL Telekids
+p:Ziggo,c:050001
 0961:ffff0000:0018:25a8:25:0
 NPO 2 HD
 p:SKV
@@ -6339,7 +6378,7 @@ p:Ziggo,c:050001
 Ziggo TV
 p:Ziggo,c:050001
 4b80:ffff0000:0815:0600:25:0
-BBC First
+BBC NL
 p:Ziggo,c:050001,c:090202
 4b82:ffff0000:0815:0600:25:0
 Disney Channel
@@ -6581,6 +6620,18 @@ p:ZDFmobil,c:050007,c:097707
 07d5:ffff0000:0203:2114:31:0
 KiKA HD
 p:ZDFmobil
+3f36:ffff0000:0839:0000:100:0
+474 SID 0x3f36
+p:,f:40
+3f3d:ffff0000:0839:0000:100:0
+474 SID 0x3f3d
+p:,f:40
+3f3e:ffff0000:0839:0000:100:0
+474 SID 0x3f3e
+p:,f:40
+3f3f:ffff0000:0839:0000:100:0
+474 SID 0x3f3f
+p:,f:40
 1c02:eeee0000:0906:2210:2:0
 Omroep Brabant
 p:KPN

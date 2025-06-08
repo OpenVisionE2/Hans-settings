@@ -1,5 +1,5 @@
 #NAME Stream Thailand (TH)
-#SERVICE 1:64:402:0:0:0:0:0:0:0:
+#SERVICE 1:64:3c5:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//news1.live14.com/stream/news1_hi.m3u8:News 1
 #DESCRIPTION News 1
@@ -69,6 +69,8 @@
 #DESCRIPTION Amarin 34
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vdo.plathong.net/live8794/live8794/chunklist_.m3u8:Baanbaan YV 73
 #DESCRIPTION Baanbaan YV 73
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//103.120.113.107%3a80/Saradee/index.m3u8:PSI Saradee 99
+#DESCRIPTION PSI Saradee 99
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64d0d74b76158.streamlock.net/BTVTV/binhthuantv/chunklist.m3u8:BTV
 #DESCRIPTION BTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv-live.tpchannel.org/live/tv.m3u8:Thai Parliament TV
@@ -97,7 +99,7 @@
 #DESCRIPTION TTD 11
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge6a.v2h-cdn.com/mvmall_ttd12/mvmall_ttd12.stream/chunklist_.m3u8:TTD 12
 #DESCRIPTION TTD 12
-#SERVICE 1:64:403:0:0:0:0:0:0:0:
+#SERVICE 1:64:3c6:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//49.0.87.24%3a1936/HDAttv/Attv/playlist.m3u8:@TV
 #DESCRIPTION @TV
@@ -141,8 +143,12 @@
 #DESCRIPTION Esan TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/BellezaEmporium/IPTV_Exception/raw/master/channels/us/gbnus.m3u8:GBN Global Buddhist Network
 #DESCRIPTION GBN Global Buddhist Network
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtsp%3a//103.113.47.82%3a554/lantungsd.sdp:Lanthung TV
+#DESCRIPTION Lanthung TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//49.0.87.24%3a1936/HDDragon/Dragon/playlist.m3u8:Mangorn
 #DESCRIPTION Mangorn
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//49.0.87.24%3a1936/HDMediatv/Mediatv/playlist.m3u8:Media TV
+#DESCRIPTION Media TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb1-live-mv.v2h-cdn.com/hls/fffa/boomerang/boomerang.m3u8:MV Boomerang
 #DESCRIPTION MV Boomerang
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//psiiptv-b.sky-cdn.com/ttd24-playlist/tracks-v1a1/mono.m3u8:MV Go Sport
@@ -181,12 +187,18 @@
 #DESCRIPTION MV V2H15
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vdo.plathong.net/flash7253/flash7253/chunklist_.m3u8:New TM
 #DESCRIPTION New TM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtsp%3a//103.113.47.82%3a554/peopletvsd.sdp:People TV
+#DESCRIPTION People TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-th-vip.livestreaming.in.th/policetv/policetv/chunklist_.m3u8:Police TV
 #DESCRIPTION Police TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//180.180.243.239/streams/3/hls:R Channel
 #DESCRIPTION R Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ramach.ddns.net/live/ramalive/index.m3u8:Rama Channel
 #DESCRIPTION Rama Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-th-vip2.livestreaming.in.th/watsanghathan/watsanghathan/playlist.m3u8:SBB TV
+#DESCRIPTION SBB TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//122.155.12.107%3a1935/live/sbt_tv_aac_300/playlist.m3u8:SBT TV
+#DESCRIPTION SBT TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.bangkokstream.com%3a19360/suwannabhumi/suwannabhumi.m3u8:Suwannabhumi Channel
 #DESCRIPTION Suwannabhumi Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.swamiji.tv/YogaIPTV/smil%3aYogaStreamUS.smil/playlist.m3u8:Swamiji TV American
@@ -195,8 +207,12 @@
 #DESCRIPTION Swamiji TV Australian
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-iptv.thaichaiyo.tv/tcy/live-manifest.m3u8:Thai Chaiyo
 #DESCRIPTION Thai Chaiyo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtsp%3a//103.113.47.82%3a554/toplinesd.sdp:Topline TV
+#DESCRIPTION Topline TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vdo.plathong.net/tvmuslim/tvmuslim/chunklist_.m3u8:TV Muslim Thailand
 #DESCRIPTION TV Muslim Thailand
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//psilive1.sky-cdn.com%3a1935/psi-62/psi-62.stream/playlist.m3u8:Umm TV
+#DESCRIPTION Umm TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//symc-cdn.violin.co.th%3a1935/tndedge/whitechannel/playlist.m3u8:White Channel
 #DESCRIPTION White Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//symc-cdn.violin.co.th/tndedge/whitechannel/chunklist_.m3u8:White Flix

@@ -1,5 +1,5 @@
-#NAME Stream Servie (RS)
-#SERVICE 1:64:2fd:0:0:0:0:0:0:0:
+#NAME Stream Servië (RS)
+#SERVICE 1:64:2ba:0:0:0:0:0:0:0:
 #DESCRIPTION ++RTS-hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39714&extension=ts:RTS 1
 #DESCRIPTION RTS 1
@@ -7,8 +7,16 @@
 #DESCRIPTION RTS 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39712&extension=ts:RTS 3
 #DESCRIPTION RTS 3
-#SERVICE 1:64:2fe:0:0:0:0:0:0:0:
+#SERVICE 1:64:2bb:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.83.120.135%3a8001/play/a112:21 Junior
+#DESCRIPTION 21 Junior
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.83.120.135%3a8001/play/a0jq:21 Mix
+#DESCRIPTION 21 Mix
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.83.120.135%3a8001/play/a03j:21 Plus
+#DESCRIPTION 21 Plus
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.83.120.135%3a8001/play/a0i9:21 Popullore
+#DESCRIPTION 21 Popullore
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=31379&extension=ts:Agro TV
 #DESCRIPTION Agro TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-live/0nj-g63-92x-few/tracks-v2a1/mono.ts.m3u8:ATV
@@ -63,7 +71,7 @@
 #DESCRIPTION TV 1000
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.60.238.10%3a1935/live/belleamie/playlist.m3u8:TV Belle Amie
 #DESCRIPTION TV Belle Amie
-#SERVICE 1:64:2ff:0:0:0:0:0:0:0:
+#SERVICE 1:64:2bc:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-hls-web-ajb.getaj.net/AJB/index.m3u8:Al Jazeera Balkans
 #DESCRIPTION Al Jazeera Balkans
@@ -77,6 +85,8 @@
 #DESCRIPTION Jefimija
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.cmctv.hr%3a49998/kit/live.m3u8:Klape i Tambure
 #DESCRIPTION Klape i Tambure
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-livestream/lj9-pxm-o53-rp0/tracks-v4a1/mono.m3u8:Kohavision
+#DESCRIPTION Kohavision
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams2.sofast.tv/ptnr-yupptv/title-LOL-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fc63d5fd-b50e-4d3e-abdf-697d9b6cbf70/manifest.m3u8:Lol
 #DESCRIPTION Lol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.46.143.222%3a1935/live/mp4%3aldpr.stream_480p/playlist.m3u8:LDPR TV
@@ -125,10 +135,14 @@
 #DESCRIPTION Strana FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.tv.3angels.ru/stream.m3u8:Tri Angela
 #DESCRIPTION Tri Angela
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-live/mps-vgx-u9p-qv1/index.m3u8:TV Arta
+#DESCRIPTION TV Arta
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv1.adriatelekom.com/TVAS/tracks-v1/index.fmp4.m3u8:TV As
 #DESCRIPTION TV As
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vod1.laki.eu/live/hram/index.m3u8:TV Hram
 #DESCRIPTION TV Hram
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.83.120.135%3a8001/play/a04z:TV Llapi
+#DESCRIPTION TV Llapi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.rtvnp.rs/stream.m3u8:TV Novi Pazar
 #DESCRIPTION TV Novi Pazar
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.pikanal.rs/pikanal/pgm.m3u8:TV Pi Canal Pirot

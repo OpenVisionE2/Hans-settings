@@ -1,6 +1,8 @@
 #NAME Stream Canada (CA)
-#SERVICE 1:64:281:0:0:0:0:0:0:0:
+#SERVICE 1:64:240:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl3.moveonjoy.com/CA_GLOBAL/index.m3u8:CHBL-TV
+#DESCRIPTION CHBL-TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/11619:CBC Calgary
 #DESCRIPTION CBC Calgary
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/76729:CBC Edmonton
@@ -89,12 +91,32 @@
 #DESCRIPTION ICI Montreal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/281013:ICI Vancouver
 #DESCRIPTION ICI Vancouver
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer1.nexgen.bz/MTV/index.m3u8:MTV Canada
+#DESCRIPTION MTV Canada
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/280913:RDS
 #DESCRIPTION RDS
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/495:RDS 2
 #DESCRIPTION RDS 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/496:RDS Info
 #DESCRIPTION RDS Info
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20510&extension=ts&play_token=HTezsxSmTA:Showcase
+#DESCRIPTION Showcase
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20509&extension=ts&play_token=AnH0pxGhK7:Silver Screen Classics
+#DESCRIPTION Silver Screen Classics
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20503&extension=ts&play_token=XdCD3Iqbi1:SportsNet East
+#DESCRIPTION SportsNet East
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20499&extension=ts&play_token=dPfVqeAhVS:SportsNet West
+#DESCRIPTION SportsNet West
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20504&extension=ts&play_token=6zgWkB893J:SportsNet 360
+#DESCRIPTION SportsNet 360
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20502&extension=ts&play_token=lrBhPT0Lu4:SportsNet One
+#DESCRIPTION SportsNet One
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20501&extension=ts&play_token=ay9TF0g7b0:SportsNet Ontario
+#DESCRIPTION SportsNet Ontario
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20500&extension=ts&play_token=9SRD3zQGZf:SportsNet Pacific
+#DESCRIPTION SportsNet Pacific
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20498&extension=ts&play_token=Gy3Yj38ln9:SportsNet World
+#DESCRIPTION SportsNet World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/4b1c462c86094bae93b65adc84e43afc/us-west-2/6101674910001/playlist.m3u8:Télé-Québec
 #DESCRIPTION Télé-Québec
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/296630:Télé-Québec (#)
@@ -103,7 +125,29 @@
 #DESCRIPTION The Weather Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/447:The Weather Network (#)
 #DESCRIPTION The Weather Network (#)
-#SERVICE 1:64:282:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl5.moveonjoy.com/TSN_1/index.m3u8:TSN 1
+#DESCRIPTION TSN 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn1/sd:TSN 1 (#)
+#DESCRIPTION TSN 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl5.moveonjoy.com/TSN_2/index.m3u8:TSN 2
+#DESCRIPTION TSN 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn2/sd:TSN 2 (#)
+#DESCRIPTION TSN 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl5.moveonjoy.com/TSN_3/index.m3u8:TSN 3
+#DESCRIPTION TSN 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn3/sd:TSN 3 (#)
+#DESCRIPTION TSN 3 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl5.moveonjoy.com/TSN_4/index.m3u8:TSN 4
+#DESCRIPTION TSN 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn4/sd:TSN 4 (#)
+#DESCRIPTION TSN 4 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl5.moveonjoy.com/TSN_5/index.m3u8:TSN 5
+#DESCRIPTION TSN 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn5/sd:TSN 5 (#)
+#DESCRIPTION TSN 5 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20471&extension=ts&play_token=emk9CG3s7f:TV 5 Quebec
+#DESCRIPTION TV 5 Quebec
+#SERVICE 1:64:241:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3abn.bozztv.com/3abncanada/3ABN/master.m3u8:3ABN Canada
 #DESCRIPTION 3ABN Canada
@@ -131,11 +175,11 @@
 #DESCRIPTION CMT Canada
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl3.moveonjoy.com/CRAVE_1/index.m3u8:Crave 1
 #DESCRIPTION Crave 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/CRAVE_2/index.m3u8:Crave 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl3.moveonjoy.com/CRAVE_2/index.m3u8:Crave 2
 #DESCRIPTION Crave 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl3.moveonjoy.com/CRAVE_3/index.m3u8:Crave 3
 #DESCRIPTION Crave 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/CRAVE_4/index.m3u8:Crave 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl3.moveonjoy.com/CRAVE_4/index.m3u8:Crave 4
 #DESCRIPTION Crave 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//app.viloud.tv/hls/channel/053140e08adc29e3eac61eb05ff12f51.m3u8:Cult Classic Movie Theater
 #DESCRIPTION Cult Classic Movie Theater
@@ -153,8 +197,42 @@
 #DESCRIPTION FilmRise True Crime Canada
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8:Gaunda Punjab TV
 #DESCRIPTION Gaunda Punjab TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01077-gusto-gustous-firetv.amagi.tv/playlist.m3u8:Gusto
-#DESCRIPTION Gusto
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gembollywood/index-0.m3u8:GEM Bollywood
+#DESCRIPTION GEM Bollywood
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemclassic/index-0.m3u8:GEM Classic
+#DESCRIPTION GEM Classic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemcomedy/index-0.m3u8:GEM Comedy
+#DESCRIPTION GEM Comedy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemdrama/index-0.m3u8:GEM Drama
+#DESCRIPTION GEM Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemfilm/index-0.m3u8:GEM Film
+#DESCRIPTION GEM Film
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemfit/index-0.m3u8:GEM Fit
+#DESCRIPTION GEM Fit
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemfood/index-0.m3u8:GEM Food
+#DESCRIPTION GEM Food
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemjunior/index-0.m3u8:GEM Junior
+#DESCRIPTION GEM Junior
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemkids/index-0.m3u8:GEM Kids
+#DESCRIPTION GEM Kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemlife/index-0.m3u8:GEM Life
+#DESCRIPTION GEM Life
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemmifa/index-0.m3u8:GEM Mifa
+#DESCRIPTION GEM Mifa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemnature/index-0.m3u8:GEM Nature
+#DESCRIPTION GEM Nature
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemriver/index-0.m3u8:GEM River
+#DESCRIPTION GEM River
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemrubix/index-0.m3u8:GEM Rubix
+#DESCRIPTION GEM Rubix
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemseriesbb/index-0.m3u8:GEM Series
+#DESCRIPTION GEM Series
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemb/index-0.m3u8:GEM TV
+#DESCRIPTION GEM TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01077-gusto-gustous-firetv.amagi.tv/playlist.m3u8:Gusto TV
+#DESCRIPTION Gusto TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-eu_GustoTV/playlist.m3u8:Gusto TV (#)
+#DESCRIPTION Gusto TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aegis-cloudfront-1.tubi.video/62f59fa9-7923-47ae-8c71-5446cf927f7e/playlist.m3u8:Haunt TV Canada
 #DESCRIPTION Haunt TV Canada
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//insighttv-samsung-canada.amagi.tv/playlist.m3u8:Insight TV
@@ -181,32 +259,12 @@
 #DESCRIPTION MovieSphere Canada
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20540&extension=ts&play_token=RwYyRtR1iu:Movietime
 #DESCRIPTION Movietime
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer1.nexgen.bz/MTV/index.m3u8:MTV Canada
-#DESCRIPTION MTV Canada
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8:NTV+
 #DESCRIPTION NTV+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/451:Paramount Network
 #DESCRIPTION Paramount Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8:Pardesi TV
 #DESCRIPTION Pardesi TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20510&extension=ts&play_token=HTezsxSmTA:Showcase
-#DESCRIPTION Showcase
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20509&extension=ts&play_token=AnH0pxGhK7:Silver Screen Classics
-#DESCRIPTION Silver Screen Classics
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20503&extension=ts&play_token=XdCD3Iqbi1:SportsNet East
-#DESCRIPTION SportsNet East
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20499&extension=ts&play_token=dPfVqeAhVS:SportsNet West
-#DESCRIPTION SportsNet West
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20504&extension=ts&play_token=6zgWkB893J:SportsNet 360
-#DESCRIPTION SportsNet 360
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20502&extension=ts&play_token=lrBhPT0Lu4:SportsNet One
-#DESCRIPTION SportsNet One
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20501&extension=ts&play_token=ay9TF0g7b0:SportsNet Ontario
-#DESCRIPTION SportsNet Ontario
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20500&extension=ts&play_token=9SRD3zQGZf:SportsNet Pacific
-#DESCRIPTION SportsNet Pacific
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20498&extension=ts&play_token=Gy3Yj38ln9:SportsNet World
-#DESCRIPTION SportsNet World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/17059:Stingray IConcerts
 #DESCRIPTION Stingray IConcerts
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/62633:Super Channel Fuse
@@ -223,25 +281,3 @@
 #DESCRIPTION Temiscaming-Kipawa Community Television Québec
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn3.toronto360.tv%3a8081/toronto360/hd/playlist.m3u8:Toronto 360 TV
 #DESCRIPTION Toronto 360 TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl5.moveonjoy.com/TSN_1/index.m3u8:TSN 1
-#DESCRIPTION TSN 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn1/sd:TSN 1 (#)
-#DESCRIPTION TSN 1 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl5.moveonjoy.com/TSN_2/index.m3u8:TSN 2
-#DESCRIPTION TSN 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn2/sd:TSN 2 (#)
-#DESCRIPTION TSN 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl5.moveonjoy.com/TSN_3/index.m3u8:TSN 3
-#DESCRIPTION TSN 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn3/sd:TSN 3 (#)
-#DESCRIPTION TSN 3 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl5.moveonjoy.com/TSN_4/index.m3u8:TSN 4
-#DESCRIPTION TSN 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn4/sd:TSN 4 (#)
-#DESCRIPTION TSN 4 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl5.moveonjoy.com/TSN_5/index.m3u8:TSN 5
-#DESCRIPTION TSN 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn5/sd:TSN 5 (#)
-#DESCRIPTION TSN 5 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20471&extension=ts&play_token=emk9CG3s7f:TV 5 Quebec
-#DESCRIPTION TV 5 Quebec

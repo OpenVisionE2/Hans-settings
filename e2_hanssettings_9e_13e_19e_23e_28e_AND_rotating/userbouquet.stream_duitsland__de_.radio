@@ -173,10 +173,10 @@
 #DESCRIPTION Ahoy Radio Hamburg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//server3.streamserver-unlimited.de%3a8689/stream2:Ahrtalradio
 #DESCRIPTION Ahrtalradio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//aidaradio.de/AIDAradio.m3u:AIDAradio
-#DESCRIPTION AIDAradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//frontend.streamonkey.net/aidaradio-meergefuehl:AIDAradio (#)
 #DESCRIPTION AIDAradio (#)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//aidaradio.de/AIDAradio.m3u:AIDAradio
+#DESCRIPTION AIDAradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.moodsense.nl/austriapop.mp3:Aldiana Radio Deutschland - Austria Pop
 #DESCRIPTION Aldiana Radio Deutschland - Austria Pop
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//aldianaradio.eu/downloads/aldianamemories-danceversion.mp3:Aldiana Radio Deutschland - Memories
@@ -1069,6 +1069,8 @@
 #DESCRIPTION German-TOP50-Official-Dance-Charts
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//discofox-livestream.de%3a8200/:Germany-Radio
 #DESCRIPTION Germany-Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.gewandhausradio.de/live/mp3-256/homepage/:Gewandhaus Radio
+#DESCRIPTION Gewandhaus Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//gospelradio.de%3a9000/;:Gospelradiode
 #DESCRIPTION Gospelradiode
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//h2315646.stratoserver.net%3a8090/:Grenzland-Musik
@@ -1369,6 +1371,8 @@
 #DESCRIPTION Joke FM - comedy radio (Duitsland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//deluxe-radio.mivitec.net%3a8443/0004:JUKEBOX-RADIO
 #DESCRIPTION JUKEBOX-RADIO
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//k-radio.stream.laut.fm/k-radio:K-Radio
+#DESCRIPTION K-Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamplus52.leonex.de%3a10894:Kamikaze-Radio
 #DESCRIPTION Kamikaze-Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//85.214.52.51%3a8002/:KB-Radio
@@ -1377,8 +1381,8 @@
 #DESCRIPTION KCRW-Berlin-1041-FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//listen.kibo.fm%3a8000/kibofm:KiboFM (Duitsland)
 #DESCRIPTION KiboFM (Duitsland)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//37.120.186.197%3a8000/stream:KickFM
-#DESCRIPTION KickFM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.kickfm.eu/mp3-hq:kick!fm
+#DESCRIPTION kick!fm
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//radio.oksh.de%3a8000/kielfm.mp3:Kiel-FM
 #DESCRIPTION Kiel-FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//kinderlieder-123.stream.laut.fm/kinderlieder-123?t302=2017-12-09_19-50-09&uuid=648629da-1d84-49ab-990f-871789fde7e0:kinderlieder-123
@@ -1693,28 +1697,6 @@
 #DESCRIPTION Lounge Plus (Duitsland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream1.ml1.t4e.dj%3a80/loungelovers_high.mp3:Loungelovers
 #DESCRIPTION Loungelovers
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/lulufm.mp3:Lulu.fm - Lesbisch-schwuler Rundfunk (Köln)
-#DESCRIPTION Lulu.fm - Lesbisch-schwuler Rundfunk (Köln)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/luluzwei.mp3:lulu2
-#DESCRIPTION lulu2
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/lulu80xl.mp3:lulu80XL
-#DESCRIPTION lulu80XL
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/luluclub.mp3:luluCLUB
-#DESCRIPTION luluCLUB
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/lulugold.mp3:luluD'OR
-#DESCRIPTION luluD'OR
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/luludiva.mp3:luluDIVA
-#DESCRIPTION luluDIVA
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/luludyke.mp3:luluDYKE
-#DESCRIPTION luluDYKE
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/luluesc.mp3:luluESC
-#DESCRIPTION luluESC
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/lulueuro.mp3:luluEURO
-#DESCRIPTION luluEURO
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/lululoft.mp3:luluLOFT
-#DESCRIPTION luluLOFT
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s38.derstream.net/lulutrax.mp3:luluTRAX
-#DESCRIPTION luluTRAX
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.mainlux.de%3a8000/lux-128.mp3:LUX Radio (Frankfurt am Main - Duitsland)
 #DESCRIPTION LUX Radio (Frankfurt am Main - Duitsland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio.oksh.de%3a8000/luebeckfm.mp3:Lübeck FM (Lübeck- Duitsland)
@@ -3737,6 +3719,18 @@
 #DESCRIPTION SchlagerRadioFM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rs13.stream24.org%3a8700:SchottenRadio
 #DESCRIPTION SchottenRadio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//hoamatwelle.sp.radio.fm/stream64:Schwany HoamatWelle
+#DESCRIPTION Schwany HoamatWelle
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//instrumental-volksmusik.sp.radio.fm/stream:Schwany Instrumental (volkstümlich)
+#DESCRIPTION Schwany Instrumental (volkstümlich)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio-blaess.sp.radio.fm/stream64:Schwany Radio Bläss
+#DESCRIPTION Schwany Radio Bläss
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//souvenir.sp.radio.fm/stream64:Schwany Souvenir 1 (50er bis 80er)
+#DESCRIPTION Schwany Souvenir 1 (50er bis 80er)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//souvenir2.sp.radio.fm/stream64:Schwany Souvenir 2 (Schlager der 30er bis 50er Jahre)
+#DESCRIPTION Schwany Souvenir 2 (Schlager der 30er bis 50er Jahre)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//weihnachtsradio.sp.radio.fm/stream64:Schwany Weihnachtsradio
+#DESCRIPTION Schwany Weihnachtsradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//volkstuemlich.sp.radio.fm/stream:Schwany1 Volkstümlich
 #DESCRIPTION Schwany1 Volkstümlich
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//schlager.sp.radio.fm/stream:Schwany2 Schlager
@@ -3753,18 +3747,6 @@
 #DESCRIPTION Schwany7 Märchen/Kinderradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//herzklang.sp.radio.fm/stream:Schwany8 Herzklang
 #DESCRIPTION Schwany8 Herzklang
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//hoamatwelle.sp.radio.fm/stream64:Schwany HoamatWelle
-#DESCRIPTION Schwany HoamatWelle
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//instrumental-volksmusik.sp.radio.fm/stream:Schwany Instrumental (volkstümlich)
-#DESCRIPTION Schwany Instrumental (volkstümlich)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio-blaess.sp.radio.fm/stream64:Schwany Radio Bläss
-#DESCRIPTION Schwany Radio Bläss
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//souvenir.sp.radio.fm/stream64:Schwany Souvenir 1 (50er bis 80er)
-#DESCRIPTION Schwany Souvenir 1 (50er bis 80er)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//souvenir2.sp.radio.fm/stream64:Schwany Souvenir 2 (Schlager der 30er bis 50er Jahre)
-#DESCRIPTION Schwany Souvenir 2 (Schlager der 30er bis 50er Jahre)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//weihnachtsradio.sp.radio.fm/stream64:Schwany Weihnachtsradio
-#DESCRIPTION Schwany Weihnachtsradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.schwarze-welle.de%3a7500:Schwarze-Welle
 #DESCRIPTION Schwarze-Welle
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge69.streamonkey.net/fho-schwarzwaldradiolive/stream/mp3:Schwarzwald Radio
