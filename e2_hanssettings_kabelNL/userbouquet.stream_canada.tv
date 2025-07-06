@@ -1,5 +1,5 @@
 #NAME Stream Canada (CA)
-#SERVICE 1:64:240:0:0:0:0:0:0:0:
+#SERVICE 1:64:242:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl3.moveonjoy.com/CA_GLOBAL/index.m3u8:CHBL-TV
 #DESCRIPTION CHBL-TV
@@ -147,7 +147,7 @@
 #DESCRIPTION TSN 5 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//thespectrummag.sytes.net%3a80/play/live.php?mac=00%3a1A%3a79%3a32%3aC2%3a99&stream=20471&extension=ts&play_token=emk9CG3s7f:TV 5 Quebec
 #DESCRIPTION TV 5 Quebec
-#SERVICE 1:64:241:0:0:0:0:0:0:0:
+#SERVICE 1:64:243:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3abn.bozztv.com/3abncanada/3ABN/master.m3u8:3ABN Canada
 #DESCRIPTION 3ABN Canada
@@ -205,6 +205,8 @@
 #DESCRIPTION GEM Comedy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemdrama/index-0.m3u8:GEM Drama
 #DESCRIPTION GEM Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemdramaplus/index-0.m3u8:GEM Drama +
+#DESCRIPTION GEM Drama +
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemfilm/index-0.m3u8:GEM Film
 #DESCRIPTION GEM Film
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemfit/index-0.m3u8:GEM Fit
@@ -219,14 +221,26 @@
 #DESCRIPTION GEM Life
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemmifa/index-0.m3u8:GEM Mifa
 #DESCRIPTION GEM Mifa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemmifaplus/index-0.m3u8:GEM Mifa +
+#DESCRIPTION GEM Mifa +
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemnature/index-0.m3u8:GEM Nature
 #DESCRIPTION GEM Nature
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemonyx/index-0.m3u8:GEM Onyx
+#DESCRIPTION GEM Onyx
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemriver/index-0.m3u8:GEM River
 #DESCRIPTION GEM River
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemriverplus/index-0.m3u8:GEM River +
+#DESCRIPTION GEM River +
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemrubix/index-0.m3u8:GEM Rubix
 #DESCRIPTION GEM Rubix
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemrubixplus/index-0.m3u8:GEM Rubix +
+#DESCRIPTION GEM Rubix +
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemseriesbb/index-0.m3u8:GEM Series
 #DESCRIPTION GEM Series
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemseries/index-0.m3u8:GEM Series
+#DESCRIPTION GEM Series
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemseriesplus/index-0.m3u8:GEM Series + (#)
+#DESCRIPTION GEM Series + (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ca-rt.onetv.app/gemb/index-0.m3u8:GEM TV
 #DESCRIPTION GEM TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01077-gusto-gustous-firetv.amagi.tv/playlist.m3u8:Gusto TV

@@ -1,20 +1,24 @@
 #NAME Stream Peru (PE)
-#SERVICE 1:64:3a6:0:0:0:0:0:0:0:
+#SERVICE 1:64:3a7:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.agenciastreaming.com%3a8081/nacionaltv/tracks-a1v1/index.m3u8:Nacional TV Peru
 #DESCRIPTION Nacional TV Peru
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.176.153.105%3a8090/play/a0n5/index.m3u8:TV Perú
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf.m3u8:TV Perú
 #DESCRIPTION TV Perú
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.176.153.105%3a8090/play/a0n5/index.m3u8:TV Perú (#)
+#DESCRIPTION TV Perú (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/ee2450c81e554f4cae0e6292106993c2.m3u8:TV Perú Internacional
 #DESCRIPTION TV Perú Internacional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/902c1a0395264f269f1160efa00660e4.m3u8:TV Perú Noticias
 #DESCRIPTION TV Perú Noticias
-#SERVICE 1:64:3a7:0:0:0:0:0:0:0:
+#SERVICE 1:64:3a8:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ed21ov.live.opencaster.com/pAtGzcAnwziC/index.m3u8:Agro TV
 #DESCRIPTION Agro TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/MachineSystems/archived_m3u8/main/america_hls.m3u8:América
-#DESCRIPTION América
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg1.tv360.bitel.com.pe/bitel/americatv/playlist.m3u8:America Television
+#DESCRIPTION America Television
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//servilive.com%3a3624/stream/play.m3u8:Angienet Television
+#DESCRIPTION Angienet Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video2.lhdserver.es/asiritv/live.m3u8:Asiri
 #DESCRIPTION Asiri
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//alba-pe-atv-atv.stream.mediatiquestream.com/index.m3u8:ATV
@@ -25,12 +29,16 @@
 #DESCRIPTION ATV Sur
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/autenticatvmux/index.m3u8:Auténtica Televisión
 #DESCRIPTION Auténtica Televisión
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg25.tv360.bitel.com.pe/bitel/bethel/bitel/bethel_ori_480p/chunks.m3u8:Bethel TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//alfa.betheltv.tv/srt/3_abr/playlist.m3u8:Bethel TV
 #DESCRIPTION Bethel TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg25.tv360.bitel.com.pe/bitel/bethel/bitel/bethel_ori_480p/chunks.m3u8:Bethel TV (#)
+#DESCRIPTION Bethel TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.agenciastreaming.com%3a8081/bnblimalive/tracks-v1a1/mono.m3u8:BNB TV
 #DESCRIPTION BNB TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.bitstreaming.net%3a3789/live/cdntvlive.m3u8:Cadena TV Huancayo
 #DESCRIPTION Cadena TV Huancayo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg1.tv360.bitel.com.pe/bitel/cajamarcatv/playlist.m3u8:Cajamarca TV
+#DESCRIPTION Cajamarca TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/canal8/index.m3u8:Canal 8 Catacaos
 #DESCRIPTION Canal 8 Catacaos
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/3f2cb1658d114f2693eff18d83199e67.m3u8:Canal IPe
@@ -61,21 +69,31 @@
 #DESCRIPTION ESPN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8:Exitosa
 #DESCRIPTION Exitosa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg1.tv360.bitel.com.pe/bitel/global/playlist.m3u8:Global TV
+#DESCRIPTION Global TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.176.153.105%3a8090/play/a1av/index.m3u8:Golperu
 #DESCRIPTION Golperu
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.opencaster.com/resources/hls_stream/hipodromojcp2.m3u8:Hipódromo de Monterrico
+#DESCRIPTION Hipódromo de Monterrico
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//servilive.com%3a3028/live/jntv19live.m3u8:JN 19
 #DESCRIPTION JN 19
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live20.bozztv.com/akamaissh101/ssh101/jnetv/playlist.m3u8:JNE
+#DESCRIPTION JNE
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg1.tv360.bitel.com.pe/bitel/karibeñatv/playlist.m3u8:Karibena
+#DESCRIPTION Karibena
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ott.streann.com%3a8080/loadbalancer/services/public/channels/59ce7f292cdc7ba015a93b82/playlist.m3u8:La Luz Television
 #DESCRIPTION La Luz Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8070/index.m3u8:La Ribereña Pucallpa
 #DESCRIPTION La Ribereña Pucallpa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg1.tv360.bitel.com.pe/bitel/latele/playlist.m3u8:La Tele
+#DESCRIPTION La Tele
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamtv.intervenhosting.net%3a3639/live/latinatvlive.m3u8:Latina
 #DESCRIPTION Latina
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3u8:Latina Clasicos
 #DESCRIPTION Latina Clasicos
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.176.153.105%3a8090/play/a0p6/index.m3u8:Liga 1 Max
 #DESCRIPTION Liga 1 Max
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.agenciastreaming.com%3a8081/Liketv/tracks-v1a1/playlist.m3u8:Like TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg1.tv360.bitel.com.pe/bitel/liketv/playlist.m3u8:Like TV
 #DESCRIPTION Like TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.milenial.news/salida/milenial.m3u8:Milenial TV
 #DESCRIPTION Milenial TV
@@ -85,8 +103,8 @@
 #DESCRIPTION Milenio Noticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.176.153.105%3a8090/play/a13i/index.m3u8:Movistar Deportes
 #DESCRIPTION Movistar Deportes
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//oneplay.iptvperu.tv%3a1936/static/nativa1.stream/chunks.m3u8:Nativa
-#DESCRIPTION Nativa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv5.voxtvhd.com.br/nativatv/nativatv/playlist.m3u8:Nativa TV
+#DESCRIPTION Nativa TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/norselvatv/index.m3u8:NorSelva TV
 #DESCRIPTION NorSelva TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7.innovatestream.pe%3a19360/oasisrtv/oasisrtv.m3u8:Oasis RTV
@@ -101,12 +119,18 @@
 #DESCRIPTION Panamericana TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//panel.host-live.com%3a19360/20000/20000.m3u8:Panc TV Peru
 #DESCRIPTION Panc TV Peru
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg1.tv360.bitel.com.pe/bitel/pbo/playlist.m3u8:PBO
+#DESCRIPTION PBO
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/planetatv/index.m3u8:Planeta Moyobamba
 #DESCRIPTION Planeta Moyobamba
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//servilive.com%3a3538/live/v6qe84b6flive.m3u8:Primavera 15 Moquegua
 #DESCRIPTION Primavera 15 Moquegua
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/radiomaster/radiomaster.m3u8:Radio Master
+#DESCRIPTION Radio Master
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/raditropical/raditropical.m3u8:Radio Tropical Tarapoto
 #DESCRIPTION Radio Tropical Tarapoto
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/tvoriente/index.m3u8:Radio TV Oriente
+#DESCRIPTION Radio TV Oriente
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/rnyurimaguas/rnyurimaguas.m3u8:RN Televisión
 #DESCRIPTION RN Televisión
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.176.153.105%3a8090/play/a0xv/index.m3u8:RPP Noticias Piura
@@ -147,6 +171,8 @@
 #DESCRIPTION Uranio TV Yurimaguas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//per01-lim01.servidor.stream/usiltv/index.m3u8:USIL TV
 #DESCRIPTION USIL TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg1.tv360.bitel.com.pe/bitel/usmp/playlist.m3u8:USMPTV
+#DESCRIPTION USMPTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/viaaltomayomux/index.m3u8:Vía Alto Mayo
 #DESCRIPTION Vía Alto Mayo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/cablerasvia/cablerasvia.m3u8:Vía Televisión
@@ -155,6 +181,8 @@
 #DESCRIPTION Vinilos TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/vivatv/index.m3u8:Viva TV Yurimaguas
 #DESCRIPTION Viva TV Yurimaguas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/visionnoticias/visionnoticias.m3u8:VNP
+#DESCRIPTION VNP
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/vztv/index.m3u8:VZ TV
 #DESCRIPTION VZ TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg25.tv360.bitel.com.pe/bitel/willax/bitel/willax_ori_480p/chunks.m3u8:Willax TV

@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:5ad:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b2:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -41,7 +41,7 @@
 #DESCRIPTION FunX Rotterdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/funx-utrecht-bb-mp3:FunX Utrecht
 #DESCRIPTION FunX Utrecht
-#SERVICE 1:64:5ae:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b3:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -227,8 +227,8 @@
 #DESCRIPTION jinglegek
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radiojnd.nl/radiojnd-classics.mp3:JND Classics
 #DESCRIPTION JND Classics
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.joe.nl/joe/mp3:Joe 70s 80s
-#DESCRIPTION Joe 70s 80s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.joe.nl/joe/mp3:JOE
+#DESCRIPTION JOE
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.automates.media/jumboradio:Jumbo Radio
 #DESCRIPTION Jumbo Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/JUMBORADIO.mp3:Jumbo Radio
@@ -247,6 +247,8 @@
 #DESCRIPTION KINK 90s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/pls/KINK_DISTORTION.pls:KINK Distortion
 #DESCRIPTION KINK Distortion
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.kissfm.amsterdam/kissfm:KissFM
+#DESCRIPTION KissFM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.layzer.nl/layzer.mp3:Layzer
 #DESCRIPTION Layzer
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ssl.feelgoodradio.eu/proxy/legacy/stream:Lega-C
@@ -259,7 +261,7 @@
 #DESCRIPTION Mediamarkt FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nashvillefm.stream-server.nl%3a8300/stream:Nashville FM
 #DESCRIPTION Nashville FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//2.trafficstream.nl/business_main.mp3:New Business Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.hofhosting.nl/proxy/business_main?mp=/stream:New Business Radio
 #DESCRIPTION New Business Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/NOSTALGIENL.mp3 :Nostalgie
 #DESCRIPTION Nostalgie
@@ -437,6 +439,8 @@
 #DESCRIPTION Radio Veronica Rock Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB06_AAC.aac :Radio Veronica Top 1000 Allertijden
 #DESCRIPTION Radio Veronica Top 1000 Allertijden
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.simone.nl/simone:Simone FM
+#DESCRIPTION Simone FM
 #SERVICE 4097:0:2:52eb:c96:3:eb0000:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SKYRADIO_SC:Sky Radio
 #DESCRIPTION Sky Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR04_SC:Sky Radio - 80s Hits
@@ -591,7 +595,7 @@
 #DESCRIPTION Yoursafe Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:5af:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b4:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -631,13 +635,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:5b0:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b5:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:5b1:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b6:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits (NL Nationaal)
 #DESCRIPTION 18Hits (NL Nationaal)
@@ -943,6 +947,8 @@
 #DESCRIPTION Nationaal FM (Kollum - Friesland)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream05.dotpoint.nl%3a8000/nederpop:Nederpop Radio
 #DESCRIPTION Nederpop Radio
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.netherdance.nl%3a9502/Netherdance_320HQ:Netherdance!
+#DESCRIPTION Netherdance!
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mediaserv33.live-streams.nl%3a8042/live:News Internetradio (NL)
 #DESCRIPTION News Internetradio (NL)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//caster04.streampakket.com%3a8272/stream:Nicky-FM-Stream

@@ -1,25 +1,333 @@
 #NAME Stream Portugal (PT)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.23.85.126%3a9500:Hiper FM (Portugal)
-#DESCRIPTION Hiper FM (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocast.rtp.pt/antena1acores80a.mp3:RTP Antena 1 Acores (Portugal)
-#DESCRIPTION RTP Antena 1 Acores (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocast.rtp.pt/antena1madeira80a.mp3:RTP Antena 1 Madeira (Portugal)
-#DESCRIPTION RTP Antena 1 Madeira (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocast.rtp.pt/antena2jazzin80a.mp3:RTP Antena 2 Jazzin (Portugal)
-#DESCRIPTION RTP Antena 2 Jazzin (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocast.rtp.pt/antena3madeira80a.mp3:RTP Antena 3 Madeira (Portugal)
-#DESCRIPTION RTP Antena 3 Madeira (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8499:Rádio Marginal (Portugal)
-#DESCRIPTION Rádio Marginal (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//19553.live.streamtheworld.com/RADIO_SIMAAC.aac:Sim (Portugal)
-#DESCRIPTION Sim (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mcrwowza3.mcr.iol.pt/smooth/ngrp%3asmooth.stream_all/playlist.m3u8:Smooth FM (Portugal)
-#DESCRIPTION Smooth FM (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mcrwowza8.mcr.iol.pt/smoblues/smoblues.stream/playlist.m3u8:Smooth FM Blues (Portugal)
-#DESCRIPTION Smooth FM Blues (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mcrwowza8.mcr.iol.pt/smobossa/smobossa.stream/playlist.m3u8:Smooth FM Bossa Nova (Portugal)
-#DESCRIPTION Smooth FM Bossa Nova (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mcrwowza8.mcr.iol.pt/smoothsoul/smoothsoul.stream/playlist.m3u8:Smooth FM Soul (Portugal)
-#DESCRIPTION Smooth FM Soul (Portugal)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.9.14.150%3a9302:Super FM (Portugal)
-#DESCRIPTION Super FM (Portugal)
+#SERVICE 1:64:6ae:0:0:0:0:0:0:0:
+#DESCRIPTION ++RDP-zenders++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena180a/chunklist.m3u8:RDP Antena 1
+#DESCRIPTION RDP Antena 1
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocast.rtp.pt/antena1acores80a.mp3:RDP Antena 1 Açores
+#DESCRIPTION RDP Antena 1 Açores
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/antena1fado80a/chunklist.m3u8:RDP Antena 1 Fado
+#DESCRIPTION RDP Antena 1 Fado
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/antena1madeira80a/chunklist.m3u8:RDP Antena 1 Madeira
+#DESCRIPTION RDP Antena 1 Madeira
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena280a/chunklist.m3u8:RDP Antena 2
+#DESCRIPTION RDP Antena 2
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocast.rtp.pt/antena380a.mp3:RDP Antena 3
+#DESCRIPTION RDP Antena 3
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/antena3madeira80a/chunklist.m3u8:RDP Antena 3 Madeira
+#DESCRIPTION RDP Antena 3 Madeira
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/antena1acores80a/chunklist.m3u8:RDP Acores
+#DESCRIPTION RDP Acores
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/rdpafrica80a/chunklist.m3u8:RDP África
+#DESCRIPTION RDP África
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/rdpafrica80a/chunklist_DVR.m3u8:RDP África Cabe Verde
+#DESCRIPTION RDP África Cabe Verde
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/rdpafrica80a/chunklist.m3u8:RDP África Guinee
+#DESCRIPTION RDP África Guinee
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/rdpafrica80a/chunklist.m3u8:RDP África Mocambique
+#DESCRIPTION RDP África Mocambique
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/rdpint80a/chunklist.m3u8:RDP Internacional
+#DESCRIPTION RDP Internacional
+#SERVICE 1:64:6af:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige zenders++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//play.radioregional.pt/stream/10/:100$ Dance
+#DESCRIPTION 100$ Dance
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//play.radioregional.pt/stream/6/:100%25 Portugal
+#DESCRIPTION 100% Portugal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rs2.ptservidor.com%3a8003/stream:80Rock Radio
+#DESCRIPTION 80Rock Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//play.radioregional.pt%3a8220/stream/2/;;/stream.mp3:105.4 Cascais FM
+#DESCRIPTION 105.4 Cascais FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/547?mp=/stream:ABC Portugal FM
+#DESCRIPTION ABC Portugal FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a9496/stream?1444874431322.mp3/;:Amália FM
+#DESCRIPTION Amália FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8565:Antena Nove
+#DESCRIPTION Antena Nove
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/batidafm.mp3:Batida FM
+#DESCRIPTION Batida FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a9466:Canal FM 100.5
+#DESCRIPTION Canal FM 100.5
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radio.com.pt%3a9470/stream:Diário De Notícias Madeira
+#DESCRIPTION Diário De Notícias Madeira
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//eu10.fastcast4u.com/famaradio:FAMA Rádio Portugal
+#DESCRIPTION FAMA Rádio Portugal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com/8154/stream:Golo FM
+#DESCRIPTION Golo FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/500?mp=/stream:Hiper FM
+#DESCRIPTION Hiper FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-174.zeno.fm/88ck6ggfqm0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI4OGNrNmdnZnFtMHV2IiwiaG9zdCI6InN0cmVhbS0xNzQuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InlGcFdGaV9SUzZLWjVPT041RTZ0cHciLCJpYXQiOjE3NTA1NDg1MTYsImV4cCI6MTc1MDU0ODU3Nn0.ww30LXxXWFERCEjsZ8reErVlU9hNOIiQD-s_38kOQBM:Hit FM
+#DESCRIPTION Hit FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios3.justweb.pt/8002/stream:Iris FM
+#DESCRIPTION Iris FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nl.digitalrm.pt%3a8024/stream:Kiss FM 101.2
+#DESCRIPTION Kiss FM 101.2
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn1/video/users/hls/24485/video_66d0455a2599a475571658/vid68557d9ee2f70331579656.mp4/chunklist_480.m3u8:M80 '80s
+#DESCRIPTION M80 '80s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/m8090.aac:M80 '90s
+#DESCRIPTION M80 '90s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn1/video/users/hls/24485/video_66c6ede88ae86017735882/vid684ab3af14254697131756.mp4/chunklist_480.m3u8:M80 Dance
+#DESCRIPTION M80 Dance
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/m80.mp3:M80 Radio
+#DESCRIPTION M80 Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn1/video/users/hls/24485/video_66d04782c4914137127934/vid68557bc197e1d680518120.mp4/chunklist_480.m3u8:M80 Rock
+#DESCRIPTION M80 Rock
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn1/video/users/hls/24485/video1520421480/vid6855490e3d50c046322950.mp4/chunklist_480.m3u8:Mega Hits
+#DESCRIPTION Mega Hits
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-173.zeno.fm/ut9t91zdma0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1dDl0OTF6ZG1hMHV2IiwiaG9zdCI6InN0cmVhbS0xNzMuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ii1aMGdzMzd1UWh5LS1MSzJPTnJscFEiLCJpYXQiOjE3NTA1NDU4MDgsImV4cCI6MTc1MDU0NTg2OH0.fuKeSKr_prqfFWRFuGfI4x3iCZcJBJIiq8gE1KFgbNw:Planeta Love
+#DESCRIPTION Planeta Love
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//c3.radioboss.fm%3a8106/stream:PT Rádio
+#DESCRIPTION PT Rádio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//proic1.evspt.com/radar_mp3:Radar FM
+#DESCRIPTION Radar FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios2.justweb.pt%3a8004/%3a8000:Rádioeste
+#DESCRIPTION Rádioeste
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sonic1.transmissaodigital.com/8028/stream:Rádio Alcobaca
+#DESCRIPTION Rádio Alcobaca
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ec2.yesstreaming.net%3a3705/stream:Rádio Alto Minho
+#DESCRIPTION Rádio Alto Minho
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/469?mp=/stream/;listen.pls:Rádio Alvor
+#DESCRIPTION Rádio Alvor
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ssl.stmxp.net%3a7134:Rádio Amor Eterno
+#DESCRIPTION Rádio Amor Eterno
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn1/video/users/hls/31043/video_61efdb2d89eb9568475954/vid65a7173a80022225725037.mp4/chunklist_480.m3u8:Rádio Amor Portugal
+#DESCRIPTION Rádio Amor Portugal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8419/;listen.pls:Rádio Ansiäes
+#DESCRIPTION Rádio Ansiäes
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast1.lunabroadcasting.net/listen/atlantida/radio.mp3:Rádio Atlantida
+#DESCRIPTION Rádio Atlantida
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8563/stream:Rádio Barcelos FM 91.9
+#DESCRIPTION Rádio Barcelos FM 91.9
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nl.digitalrm.pt%3a8094/stream:Rádio Boa Nova
+#DESCRIPTION Rádio Boa Nova
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//server.vendaslotus.pt%3a7016/mp3:Rádio Boaventura
+#DESCRIPTION Rádio Boaventura
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/491?mp=/stream:Rádio Brigantia
+#DESCRIPTION Rádio Brigantia
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamonline.pt/radio/8000/radiocalheta:Rádio Calheta
+#DESCRIPTION Rádio Calheta
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena280a/media_61078.aac:Rádio Cantinho De Guiffoes
+#DESCRIPTION Rádio Cantinho De Guiffoes
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//capsaolisboa.ice.infomaniak.ch/capsaolisboa-128.mp3:Rádio Capsao Grande Lisboa
+#DESCRIPTION Rádio Capsao Grande Lisboa
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com/8250/stream:Rádio Caria
+#DESCRIPTION Rádio Caria
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/462?mp=/stream:Rádio Castelo Branco
+#DESCRIPTION Rádio Castelo Branco
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-174.zeno.fm/q9k377tdzy8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxOWszNzd0ZHp5OHV2IiwiaG9zdCI6InN0cmVhbS0xNzQuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlVSM0FES21YUTFPT29Ob3NSa1J4ZlEiLCJpYXQiOjE3NTA1NDgyODcsImV4cCI6MTc1MDU0ODM0N30.0nOmykSza8b_0cU_80TAU-I5Nl7k0DWU_qQW1GHnkBE:Rádio Cidade FM
+#DESCRIPTION Rádio Cidade FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/cidade.mp3:Rádio Cidade FM (#)
+#DESCRIPTION Rádio Cidade FM (#)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/cidade.mp3:Rádio Cidade FM De Matosinhos
+#DESCRIPTION Rádio Cidade FM De Matosinhos
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-hls.bauermedia.pt/cidlatina.aac/playlist.m3u8?listeningSessionID=6830d907060bd032_2516050_7cfCrfkH__00000004Ljd&downloadSessionID=0:Rádio Cidade FM Latino
+#DESCRIPTION Rádio Cidade FM Latino
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chunks-bauerpt.sharp-stream.com/cidhiphop.aac/54edqhpfC72-350109504-5013.aac:Rádio Cidade FM Hip-Hop
+#DESCRIPTION Rádio Cidade FM Hip-Hop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.serv.pt/8020/stream.mp3?_=6:Rádio Clube
+#DESCRIPTION Rádio Clube
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rcasul.ddns.net%3a8000/stream:Rádio Clube Do Alcoutim
+#DESCRIPTION Rádio Clube Do Alcoutim
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//176.9.43.216%3a8135/stream:Rádio Clube Do Arganil
+#DESCRIPTION Rádio Clube Do Arganil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios2.justweb.pt/8054/stream:Rádio Clube Do Armamar
+#DESCRIPTION Rádio Clube Do Armamar
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com/8052/stream:Rádio Clube Do Dao
+#DESCRIPTION Rádio Clube Do Dao
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//109.71.41.6%3a8110:Rádio Clube Do Lamego
+#DESCRIPTION Rádio Clube Do Lamego
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/comercial.mp3:Rádio Comercial
+#DESCRIPTION Rádio Comercial
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/rcdance.aac:Rádio Comercial Dance
+#DESCRIPTION Rádio Comercial Dance
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/rctuga.aac:Rádio Comercial Made In Portugal
+#DESCRIPTION Rádio Comercial Made In Portugal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/rcrock.aac:Rádio Comercial Rock
+#DESCRIPTION Rádio Comercial Rock
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn16/video/users/hls/31043/video_61efdb2d89eb9568475954/vid62cf0c05e39fd092028222.mp4/chunklist_480.m3u8:Radio Comercial Santos Populares
+#DESCRIPTION Radio Comercial Santos Populares
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/184?mp=/stream:Rádio Corval Alentejo
+#DESCRIPTION Rádio Corval Alentejo
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/467?mp=/stream:Rádio Cova Da Beira
+#DESCRIPTION Rádio Cova Da Beira
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sonic.servsonic.com/8012/stream:Rádio Do Folclore Portugués
+#DESCRIPTION Rádio Do Folclore Portugués
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-178.zeno.fm/s9bwyczq6tzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzOWJ3eWN6cTZ0enV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlVxWGxaV1BCU0xDRnZDTDl5bkRjWkEiLCJpYXQiOjE3NTA1NTIzNzcsImV4cCI6MTc1MDU1MjQzN30.8j3lJzZHlH3pVf2oFvN6F8ZrvtdKfOlCOaM-qj50vNE:Rádio Echo Portugal
+#DESCRIPTION Rádio Echo Portugal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//iguana.tejo.pro/8020/stream:Rádio Estrelas Do Minho
+#DESCRIPTION Rádio Estrelas Do Minho
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com/8122/stream:Rádio Estrelas Do Norte
+#DESCRIPTION Rádio Estrelas Do Norte
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//servidor15-1.brlogic.com%3a7046/live:Rádio EuroPub
+#DESCRIPTION Rádio EuroPub
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sonic.servsonic.com%3a7002:Rádio Folclore Portugal
+#DESCRIPTION Rádio Folclore Portugal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-178.zeno.fm/rhwxv5204k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyaHd4djUyMDRrOHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjB4VlRHRW95UVpPUzNubUpOUlVpdlEiLCJpYXQiOjE3NTA1NTQyNjcsImV4cCI6MTc1MDU1NDMyN30.YpZdoTuWuVHK5oVC8yQwACfj1fAIBv9n7eVxwSt5ODE:Rádio Fronteirense
+#DESCRIPTION Rádio Fronteirense
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/440?mp=/stream:Rádio Gilao
+#DESCRIPTION Rádio Gilao
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com%3a10860/;stream.mp3:Rádio Gondomar Mix
+#DESCRIPTION Rádio Gondomar Mix
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com/8034/stream;:Radio H
+#DESCRIPTION Radio H
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova57.instainternet.com/proxy/maria?mp=/1:Rádio Histórias Arganil
+#DESCRIPTION Rádio Histórias Arganil
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/458?mp=/stream:Rádio Horizonte Algarve
+#DESCRIPTION Rádio Horizonte Algarve
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios.justweb.pt%3a7027:Rádio Lajes
+#DESCRIPTION Rádio Lajes
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radio.com.pt%3a9408/stream:Rádio Limite 89
+#DESCRIPTION Rádio Limite 89
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios.justweb.pt/8008/stream:Rádio Mancheta
+#DESCRIPTION Rádio Mancheta
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.shoutcast.com/marcoense-fm:Rádio Marcoense
+#DESCRIPTION Rádio Marcoense
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8499/;listen.pls:Rádio Marginal
+#DESCRIPTION Rádio Marginal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios.justweb.pt/8026/stream:Rádio Marinhais
+#DESCRIPTION Rádio Marinhais
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//is.ntradio.pt/radiomer:Rádio Mértola
+#DESCRIPTION Rádio Mértola
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com/8096/stream:Rádio Motard FM
+#DESCRIPTION Rádio Motard FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios.justweb.pt/8034/stream:Radio No Ar
+#DESCRIPTION Radio No Ar
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//servidor.noite.pt%3a9002/stream:Rádio Noite FM
+#DESCRIPTION Rádio Noite FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/528?mp=/stream:Rádio Nova
+#DESCRIPTION Rádio Nova
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a9478:Rádio Nova Era
+#DESCRIPTION Rádio Nova Era
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a9522/;listen.pls:Rádio Nove3Cinco
+#DESCRIPTION Rádio Nove3Cinco
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s2.stmxp.net%3a7096/stream?icy=http:Rádio Nuvem Branca
+#DESCRIPTION Rádio Nuvem Branca
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//25603.live.streamtheworld.com/OBSERVADORAAC.aac?dist=onlineradiobox:Rádio Observador
+#DESCRIPTION Rádio Observador
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radio.com.pt%3a9572:Radio Onda Livre
+#DESCRIPTION Radio Onda Livre
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a9524:Radio Onda Viva
+#DESCRIPTION Radio Onda Viva
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ssl.stmxp.net%3a7012:Radio Ondas Do Cabreira
+#DESCRIPTION Radio Ondas Do Cabreira
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8407/stream:Radio Ondas Do Lima
+#DESCRIPTION Radio Ondas Do Lima
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//proic1.evspt.com/oxigenio_mp3:Rádio Oxigénio
+#DESCRIPTION Rádio Oxigénio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream2.soundflux.eu/8146/stream:Rádio Paixao FM
+#DESCRIPTION Rádio Paixao FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiosmadeira.net%3a8018:Rádio Palmeira
+#DESCRIPTION Rádio Palmeira
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radio.com.pt%3a9484:Rádio Pax
+#DESCRIPTION Rádio Pax
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8471/stream:Rádio Popular Afifense
+#DESCRIPTION Rádio Popular Afifense
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//tonyvendas.top%3a8018/stream:Rádio Portalegre
+#DESCRIPTION Rádio Portalegre
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast.redewt.net%3a9124/live:Rádio Portugal Star
+#DESCRIPTION Rádio Portugal Star
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a9548:Rádio Praia
+#DESCRIPTION Rádio Praia
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream1.svrdedicado.org/8410/stream:Rádio Promove Portugal
+#DESCRIPTION Rádio Promove Portugal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-176.zeno.fm/a51ttgprn3quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhNTF0dGdwcm4zcXV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImEyNHJodndrVENlX3U0RDRNWUxXNWciLCJpYXQiOjE3NTA1NDkwOTAsImV4cCI6MTc1MDU0OTE1MH0.4-TZQPoX0lvFY4lfjNxRQb5jUDDtdGamREnBPCcZhp4:Rádio RBO FM
+#DESCRIPTION Rádio RBO FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8445/stream:Rádio RCS 91.2 FM Lisboa
+#DESCRIPTION Rádio RCS 91.2 FM Lisboa
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s9.yesstreaming.net%3a7070/stream:Rádio RDS
+#DESCRIPTION Rádio RDS
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//play2.radioregional.pt/stream/1/:Rádio Regional
+#DESCRIPTION Rádio Regional
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8485/stream:Rádio Regional De Arouca
+#DESCRIPTION Rádio Regional De Arouca
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//23543.live.streamtheworld.com/RADIO_RENASCENCA_SC?dist=onlineradiobox:Rádio Renascença
+#DESCRIPTION Rádio Renascença
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a9542/stream:Rádio Riba-Tavora
+#DESCRIPTION Rádio Riba-Tavora
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stm6.conectastreaming.com%3a8272:Rádio Ricb Tuga
+#DESCRIPTION Rádio Ricb Tuga
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//cast2.hoost.com.br%3a8233/stream:Rádio Ritmos
+#DESCRIPTION Rádio Ritmos
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-176.zeno.fm/af3em5gbm0quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhZjNlbTVnYm0wcXV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlRNOUFFOUptUjItT1lnTlh3bHZ0Z0EiLCJpYXQiOjE3NTA1NTQwODEsImV4cCI6MTc1MDU1NDE0MX0.iWEsL52S7HH17OaxZTQIiVqEl5Bx7_hAGrQRXygu9YU:Rádio Sempre Alegre
+#DESCRIPTION Rádio Sempre Alegre
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ssl.ndvendas.eu%3a7260:Rádio Serra Da Estrela
+#DESCRIPTION Rádio Serra Da Estrela
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.serv.pt/8010/stream.mp3?_=5:Rádio Sol
+#DESCRIPTION Rádio Sol
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios2.justweb.pt/8052/stream:Rádio Solar 94 FM
+#DESCRIPTION Rádio Solar 94 FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radios.pt/proxy/495?mp=/stream:Rádio Sudoeste
+#DESCRIPTION Rádio Sudoeste
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-178.zeno.fm/xg9rr7rc445vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ4ZzlycjdyYzQ0NXZ2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjBGaVAwbkoyU20yMXpXWXV4X3lSS1EiLCJpYXQiOjE3NTA1NTQ4MjEsImV4cCI6MTc1MDU1NDg4MX0.jBo25IWI2MdD8a2ciVccE1QRzQ40F3fExKcO40XBdqI:Rádio Super Mundo Paulo Pintao
+#DESCRIPTION Rádio Super Mundo Paulo Pintao
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a9404/stream:Rádio Terranova
+#DESCRIPTION Rádio Terranova
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn1/video/users/hls/24485/video_66c452b7befa1047111016/vid68548f6ab1249989304284.mp4/chunklist_480.m3u8:Rádio Toca A Dancar
+#DESCRIPTION Rádio Toca A Dancar
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-178.zeno.fm/ttqjndkwtrsuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0dHFqbmRrd3Ryc3V2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlBPMEU0MEdWUV9lQmZkcmFfdHJZUFEiLCJpYXQiOjE3NTA1NTAyMzMsImV4cCI6MTc1MDU1MDI5M30.Fgyi13d3fSX9nn8avFj6jmuZTQ9OBHy0BnfZnXE031w:Rádio Top Ilha3
+#DESCRIPTION Rádio Top Ilha3
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ruc.pt/high:Rádio Universitaria Do Coimbra
+#DESCRIPTION Rádio Universitaria Do Coimbra
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ruc.pt/high:Rádio Universitaria Do Coimbra
+#DESCRIPTION Rádio Universitaria Do Coimbra
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/558?mp=/stream:Rádio Universitaria Do Minho
+#DESCRIPTION Rádio Universitaria Do Minho
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ssl.stmxp.net%3a8078:Rádio Universo Portugal
+#DESCRIPTION Rádio Universo Portugal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com/8054/stream?1603106992356:Rádio US Nelas
+#DESCRIPTION Rádio US Nelas
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8567/stream:Radio Vidiqueira
+#DESCRIPTION Radio Vidiqueira
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com/9920/stream:Rádio Viva Portugal
+#DESCRIPTION Rádio Viva Portugal
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com/8092/stream:Radio Voz De Neiva
+#DESCRIPTION Radio Voz De Neiva
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/441?mp=/stream:Rádio Voz De Planicie
+#DESCRIPTION Rádio Voz De Planicie
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios.justweb.pt/8024/stream:Rádio Voz De Santo Tirso
+#DESCRIPTION Rádio Voz De Santo Tirso
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios.justweb.pt/8002/stream:Rádio XL FM
+#DESCRIPTION Rádio XL FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.serv.pt/8014/stream.mp3?_=4:Rádio Zarco
+#DESCRIPTION Rádio Zarco
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp0.redeaudio.com/8116/stream:RCL 99 FM
+#DESCRIPTION RCL 99 FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nl.digitalrm.pt%3a8010/stream:Record FM 107.7
+#DESCRIPTION Record FM 107.7
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream2.soundflux.eu/8440/stream:RES FM 107.9
+#DESCRIPTION RES FM 107.9
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22733.live.streamtheworld.com/RFM_SC?dist=onlineradiobox:RFM
+#DESCRIPTION RFM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn1/video/users/hls/24485/video_66c452f555e96700667828/vid68540bf8bdb1c753118893.mp4/chunklist_480.m3u8:RFM '80s
+#DESCRIPTION RFM '80s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn20/video/users/hls/24485/video_5dbada67ccf74786694391/vid5dbb8d2115446765972143.mp4/chunklist_480.m3u8:RFM Dancefloor
+#DESCRIPTION RFM Dancefloor
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn21/video/users/hls/24485/video_5dbada67ccf74786694391/vid5dbb8cf182b48330285425.mp4/chunklist_480.m3u8:RFM On The Rock
+#DESCRIPTION RFM On The Rock
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//centova.radio.com.pt/proxy/487?mp=/stream:Singa FM
+#DESCRIPTION Singa FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/smooth.mp3:Smooth FM
+#DESCRIPTION Smooth FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-icy.bauermedia.pt/smobossa.aac:Smooth FM Bossa Nova
+#DESCRIPTION Smooth FM Bossa Nova
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//play.radioregional.pt%3a8210/stream/1/;/stream.mp3:Super FM
+#DESCRIPTION Super FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video.primis.tech/uploads/cn1/video/users/hls/31043/video_61efdb2d89eb9568475954/vid66e6c1941fcd7689220064.mp4/chunklist_480.m3u8:The Vibe Dancefloor
+#DESCRIPTION The Vibe Dancefloor
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//213.136.92.8%3a8038:Top FM
+#DESCRIPTION Top FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//servidor.noite.pt%3a9001/stream:Top80 Rádio
+#DESCRIPTION Top80 Rádio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//176.61.144.80%3a9300/;type=mp3:Total FM
+#DESCRIPTION Total FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s03.transmissaodigital.com%3a7652/;type=mp3:Tropical FM
+#DESCRIPTION Tropical FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//directo.tsf.pt/tsfdirecto.mp3:TSF Rádio Noticias
+#DESCRIPTION TSF Rádio Noticias
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//185.32.188.17%3a8049/;stream/1?1593948491922.mp3:Uni Rádio
+#DESCRIPTION Uni Rádio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/42445/stream/79033:Veep Rádio
+#DESCRIPTION Veep Rádio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a8061/stream:Vida Nova FM
+#DESCRIPTION Vida Nova FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast.redewt.net/proxy/vfm/stream:VFM
+#DESCRIPTION VFM

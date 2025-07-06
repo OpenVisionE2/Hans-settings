@@ -1,8 +1,10 @@
 #NAME Stream Egypte (EG)
-#SERVICE 1:64:317:0:0:0:0:0:0:0:
+#SERVICE 1:64:319:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.131%3a8000/play/a02i:ERTU 1 Al Masryia
 #DESCRIPTION ERTU 1 Al Masryia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1002.bozztv.com/ga-almasriya/index.m3u8:ERTU 1 Al Masryia (#)
+#DESCRIPTION ERTU 1 Al Masryia (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/Abraham/6b3ca724a0/11282:ERTU 2 Al Thanya
 #DESCRIPTION ERTU 2 Al Thanya
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.131%3a8000/play/a02c:ERTU 3 Al Kahera
@@ -19,6 +21,28 @@
 #DESCRIPTION ERTU 8 Tebe
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.131%3a8000/play/a044:Al Qanat 9 TV
 #DESCRIPTION Al Qanat 9 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/0c223ac0a9d34b30b100cb92ee83b70a/us-west-2/6057955906001/playlist.m3u8:CBC
+#DESCRIPTION CBC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1002.bozztv.com/ga-cbcdrama/index.m3u8:CBC Drama
+#DESCRIPTION CBC Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/753a1f2c951b4fb3914f30e1deb147d8/us-west-2/6057955906001/playlist.m3u8:CBC Sofra
+#DESCRIPTION CBC Sofra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/ba3169004d40484b9ff29e194964c9e8/eu-west-1/6057955906001/playlist.m3u8:DMC
+#DESCRIPTION DMC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1002.bozztv.com/ga-dmcdrama/index.m3u8:DMC Drama
+#DESCRIPTION DMC Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1002.bozztv.com/ga-elmehwar/tracks-v1a1/mono.m3u8:El Mehwar Channel
+#DESCRIPTION El Mehwar Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1002.bozztv.com/ga-ondrama/index.m3u8:On Drama
+#DESCRIPTION On Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0ed:On Drama (#)
+#DESCRIPTION On Drama (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0eb:On E
+#DESCRIPTION On E
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0e9:OnTime Sports
+#DESCRIPTION OnTime Sports
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0e7:OnTime Sports 2
+#DESCRIPTION OnTime Sports 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotana/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Cinema Egypt
 #DESCRIPTION Rotana Cinema Egypt
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotana/clip_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Clip
@@ -29,7 +53,7 @@
 #DESCRIPTION Rotana Drama
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotana/khaleejiya_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Khalijia
 #DESCRIPTION Rotana Khalijia
-#SERVICE 1:64:318:0:0:0:0:0:0:0:
+#SERVICE 1:64:31a:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//media4.smc-host.com%3a1935/aghapy.tv/aghapy.smil/playlist.m3u8:Aghapy TV
 #DESCRIPTION Aghapy TV
@@ -45,8 +69,14 @@
 #DESCRIPTION Al Hayat TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//media.islamexplained.com%3a1935/live/_definst_mp4%3aahme.stream_360p/playlist.m3u8:Al Hayat (#)
 #DESCRIPTION Al Hayat (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1002.bozztv.com/ga-alhayah/tracks-v1a1/mono.m3u8:Al Hayat (#)
+#DESCRIPTION Al Hayat (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//media.smc-host.com%3a1935/alhorreya.tv/alhorreya.smil/playlist.m3u8:Al Horreya
 #DESCRIPTION Al Horreya
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1002.bozztv.com/ga-alnahar/tracks-v1a1/mono.m3u8:Al-Nahar
+#DESCRIPTION Al-Nahar
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1002.bozztv.com/ga-alnahardrama/index.m3u8:Al-Nahar Drama
+#DESCRIPTION Al-Nahar Drama
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/d30cbb3350af4cb7a6e05b9eb1bfd850/eu-west-1/6057955906001/playlist.m3u8:Al Qahera News
 #DESCRIPTION Al Qahera News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pull-cdnw.anystream.uk/live/d84d4809018b100059f000f600000000/playlist.m3u8:Al Qamar
@@ -89,14 +119,6 @@
 #DESCRIPTION Misr Quran Kareem
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nogoumtv.nrpstream.com/hls/stream.m3u8:Nogoum FM TV
 #DESCRIPTION Nogoum FM TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0ed:On Drama
-#DESCRIPTION On Drama
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0eb:On E
-#DESCRIPTION On E
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0e9:OnTime Sports
-#DESCRIPTION OnTime Sports
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.197.91.168%3a7002/play/a0e7:OnTime Sports 2
-#DESCRIPTION OnTime Sports 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-panoramafm-prod-dub.shahid.net/out/v1/66262e420d824475aaae794dc2d69f14/index.m3u8:Panorama FM
 #DESCRIPTION Panorama FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-enc.edgenextcdn.net/out/v1/0ef83323c0374a1187c182645db2a45f/index.m3u8:Ramez
