@@ -1,6 +1,8 @@
 #NAME Stream Honduras (HN)
-#SERVICE 1:64:3f4:0:0:0:0:0:0:0:
+#SERVICE 1:64:3fa:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dvrfl03.bozztv.com/hondu-teleceiba/index.m3u8:Teleceiba 7
+#DESCRIPTION Teleceiba 7
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s.emisoras.tv%3a8081/tvcopan/index.m3u8:TV Copán Canal 9
 #DESCRIPTION TV Copán Canal 9
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8:Canal 11
@@ -11,10 +13,14 @@
 #DESCRIPTION Canal 15 DTP
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8130/index.m3u8:WTV Canal 20
 #DESCRIPTION WTV Canal 20
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dvrfl03.bozztv.com/hondu/hondu-otvcanal23/index.m3u8:Olanchito TV Canal 23
+#DESCRIPTION Olanchito TV Canal 23
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.streamgato.us%3a3595/live/litoralhdlive.m3u8:Litoral Atlántico Canal 25 HD
 #DESCRIPTION Litoral Atlántico Canal 25 HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud2.streaminglivehd.com%3a1936/8032/8032/playlist.m3u8:TV Centro 27.1 HD
 #DESCRIPTION TV Centro 27.1 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dvrfl03.bozztv.com/hondu/hondu-ceibavisionhd/index.m3u8:Ceiba Vision Canal 36
+#DESCRIPTION Ceiba Vision Canal 36
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediacp.us%3a8081/8034/index.m3u8:Television Comayagua Canal 40
 #DESCRIPTION Television Comayagua Canal 40
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lencatelevision.com/hls/stream.m3u8:Lenca TV Canal 40
@@ -23,12 +29,18 @@
 #DESCRIPTION Metro TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d39900ebfb8.streamlock.net/rcv/rcv/playlist.m3u8:RCV
 #DESCRIPTION RCV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dvrfl03.bozztv.com/hondu/hondu-rtvtv/index.m3u8:RTV
+#DESCRIPTION RTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.webmedialive.com/sulatv/live/playlist.m3u8:Sula TV
+#DESCRIPTION Sula TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3q93l5bumjyoq.cloudfront.net/index.m3u8:VTV
 #DESCRIPTION VTV
-#SERVICE 1:64:3f5:0:0:0:0:0:0:0:
+#SERVICE 1:64:3fb:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s.emisoras.tv%3a8081/cholutecatv/index.m3u8:Choluteca TV
 #DESCRIPTION Choluteca TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viewhn.com/chtv/live/playlist.m3u8:CHTV
+#DESCRIPTION CHTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediacp.us%3a8081/ctvhn/index.m3u8:CTV
 #DESCRIPTION CTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s.emisoras.tv%3a8081/diostevetv/index.m3u8:Dios Te Ve
@@ -37,8 +49,14 @@
 #DESCRIPTION Dios Te Ve Kids
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s.emisoras.tv%3a8081/dtv/index.m3u8:DTV
 #DESCRIPTION DTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dvrfl03.bozztv.com/hondu-dtelevision/index.m3u8:DTV (#)
+#DESCRIPTION DTV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dvrfl03.bozztv.com/hondu/hondu-gotv/index.m3u8:Go TV
+#DESCRIPTION Go TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.misistemareseller.com/Girasoltv/Girasoltv/playlist.m3u8:Girasol TV
 #DESCRIPTION Girasol TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dvrfl03.bozztv.com/hondu-hchtv/index.m3u8:HCH
+#DESCRIPTION HCH
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mediacp.us%3a8081/jbntv/index.m3u8:JBN
 #DESCRIPTION JBN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s.emisoras.tv%3a8081/kerussotv/index.m3u8:Kerusso TV
@@ -61,7 +79,11 @@
 #DESCRIPTION Radio Imagen 105.1 FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8230/index.m3u8:TDtv
 #DESCRIPTION TDtv
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dvrfl03.bozztv.com/hondu-telecadena/index.m3u8:Telecadena 7 y 4
+#DESCRIPTION Telecadena 7 y 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s.emisoras.tv%3a8081/telerayo/index.m3u8:Telerayo
 #DESCRIPTION Telerayo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viewhn.com/canal30/live/playlist.m3u8:Television Olanchana
+#DESCRIPTION Television Olanchana
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-utv.unah.edu.hn/web/salida.m3u8:Unah UTV
 #DESCRIPTION Unah UTV

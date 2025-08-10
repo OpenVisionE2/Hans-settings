@@ -1,165 +1,577 @@
 #NAME Stream Polen (PL)
-#SERVICE 1:64:3ef:0:0:0:0:0:0:0:
+#SERVICE 1:64:633:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders TVP++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52491:TVP 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ec06-krk3.cache.orange.pl/dai4/org1/vb/104/tvp1hd/index.m3u8:TVP 1
 #DESCRIPTION TVP 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52493:TVP 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdndai.pl/tvp2hd/index.m3u8:TVP 2
 #DESCRIPTION TVP 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52734:TVP 3 Warszawa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdndai.pl/tvp3warszawasd/index.m3u8:TVP 3 Warszawa
 #DESCRIPTION TVP 3 Warszawa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52714:TVP HD
-#DESCRIPTION TVP HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52716:TVP Polonia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rr2.1ott.net/~109e1a3c05fcad5b22d13b9453dc0db5122/10094/hlsx/pl.m3u8:TVP Polonia
 #DESCRIPTION TVP Polonia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52676:TVP ABC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02z:TVP ABC
 #DESCRIPTION TVP ABC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52662:TVP Info
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a035:TVP Historia
+#DESCRIPTION TVP Historia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rsdt-waw1501-228.tvp.pl/token/video/live/51696820/20250606/1380452742/XFZNzV4GP6DHLYLD8iYjrnNYIvaz_dCWqN46-t2TmooZgXt7E5Rx5ZZ8IOg0Hdnw7Sn9Ctl81DLfCXqV4o6dV3aSv-RPybtNIuArY-u-czgKDj5KWUt8lcevqVrp-ibe9bn0vb3kneU_o_z-478H0KKqyA01bR2fIKZb04ZqOyI/156/master_v1.m3u8:TVP Info
 #DESCRIPTION TVP Info
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52701:TVP Kultura
-#DESCRIPTION TVP Kultura
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52650:TVP Rozrywka
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a026:TVP Rozrywka
 #DESCRIPTION TVP Rozrywka
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52554:TVP Seriale
-#DESCRIPTION TVP Seriale
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52590:TVP Sport
-#DESCRIPTION TVP Sport
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.129.193.20/tsstreamer/TVP_SD.ts:TVP World
 #DESCRIPTION TVP World
-#SERVICE 1:64:3f0:0:0:0:0:0:0:0:
+#SERVICE 1:64:634:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52787:Polonia 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//echo24new.pl/LiveAppStreamECHO24/streams/GL0VksiIgQUS1672825288490.m3u8:Echo24
+#DESCRIPTION Echo24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/eskatv.stream/chunks.m3u8:Eska TV
+#DESCRIPTION Eska TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/eskatvextra.stream/chunks.m3u8:Eska TV Extra
+#DESCRIPTION Eska TV Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/powertv.stream/chunks.m3u8:Eska TV Rock TV
+#DESCRIPTION Eska TV Rock TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/metro.stream/chunks.m3u8:Metro
+#DESCRIPTION Metro
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/METRHD:Metro (#)
+#DESCRIPTION Metro (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polonia1.stream/chunks.m3u8:Polonia 1
 #DESCRIPTION Polonia 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52483:Polsat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/POLO1:Polonia 1 (#)
+#DESCRIPTION Polonia 1 (#)
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsat.stream/chunks.m3u8:Polsat
 #DESCRIPTION Polsat
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52485:Polsat 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/POLSHD:Polsat (#)
+#DESCRIPTION Polsat (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb2-e2-19.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd:Polsat (#)
+#DESCRIPTION Polsat (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_HD/index.m3u8:Polsat (#)
+#DESCRIPTION Polsat (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsat2.stream/chunks.m3u8:Polsat 2
 #DESCRIPTION Polsat 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52788:Polsat Cafe
-#DESCRIPTION Polsat Cafe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52779:Polsat Comedy Central
-#DESCRIPTION Polsat Comedy Central
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52622:Polsat Doku
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/POLS2HD:Polsat 2 (#)
+#DESCRIPTION Polsat 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_2_HD/index.m3u8:Polsat 2 (#)
+#DESCRIPTION Polsat 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatcafe.stream/chunks.m3u8:Polsat Café
+#DESCRIPTION Polsat Café
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/POLSCAFEHD:Polsat Cafe (#)
+#DESCRIPTION Polsat Cafe (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Polsat_Cafe_HD/index.m3u8:Polsat Cafe (#)
+#DESCRIPTION Polsat Cafe (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9015/play/a00b:Polsat Comedy Central Extra
+#DESCRIPTION Polsat Comedy Central Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatdoku.stream/chunks.m3u8:Polsat Doku
 #DESCRIPTION Polsat Doku
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52508:Polsat Film
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/POLSDOKUHD:Polsat Doku (#)
+#DESCRIPTION Polsat Doku (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_Doku_HD/index.m3u8:Polsat Doku (#)
+#DESCRIPTION Polsat Doku (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatfilm.stream/chunks.m3u8:Polsat Film
 #DESCRIPTION Polsat Film
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52693:Polsat Games
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/POLSFILMHD:Polsat Film (#)
+#DESCRIPTION Polsat Film (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_Film_HD/index.m3u8:Polsat Film (#)
+#DESCRIPTION Polsat Film (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9016/play/a00m:Polsat Film 2
+#DESCRIPTION Polsat Film 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatgames.stream/chunks.m3u8:Polsat Games
 #DESCRIPTION Polsat Games
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52675:Polsat JimJam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a025:Polsat Games (#)
+#DESCRIPTION Polsat Games (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_Games/mono.m3u8:Polsat Games (#)
+#DESCRIPTION Polsat Games (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a07e:Polsat JimJam
 #DESCRIPTION Polsat JimJam
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52647:Polsat Music
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_JimJam/index.m3u8:Polsat JimJam (#)
+#DESCRIPTION Polsat JimJam (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatmusic.stream/chunks.m3u8:Polsat Music
 #DESCRIPTION Polsat Music
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52659:Polsat News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02b:Polsat Music (#)
+#DESCRIPTION Polsat Music (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Polsat_Music_HD/index.m3u8:Polsat Music (#)
+#DESCRIPTION Polsat Music (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatnews.stream/chunks.m3u8:Polsat News
 #DESCRIPTION Polsat News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52661:Polsat News 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-s-lb2.pluscdn.pl/lv/1517830/349/dash/81ec4c32/live.mpd:Polsat News (#)
+#DESCRIPTION Polsat News (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/POLSNEWSHD:Polsat News (#)
+#DESCRIPTION Polsat News (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_News_HD/index.m3u8:Polsat News (#)
+#DESCRIPTION Polsat News (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatnews2.stream/chunks.m3u8:Polsat News 2
 #DESCRIPTION Polsat News 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52694:Polsat Play
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/POLSNEWS2:Polsat News 2 (#)
+#DESCRIPTION Polsat News 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_News_2/index.m3u8:Polsat News 2 (#)
+#DESCRIPTION Polsat News 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/SUPEHD:Polsat News Polityka
+#DESCRIPTION Polsat News Polityka
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_News_Polityka/index.m3u8:Polsat News Polityka (#)
+#DESCRIPTION Polsat News Polityka (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatplay.stream/chunks.m3u8:Polsat Play
 #DESCRIPTION Polsat Play
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52697:Polsat Rodzina
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/POLSPLAYHD:Polsat Play (#)
+#DESCRIPTION Polsat Play (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_Play_HD/index.m3u8:Polsat Play (#)
+#DESCRIPTION Polsat Play (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9016/play/a00l:Polsat Reality
+#DESCRIPTION Polsat Reality
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatrodzina.stream/chunks.m3u8:Polsat Rodzina
 #DESCRIPTION Polsat Rodzina
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52552:Polsat Seriale
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/POLSRODZHD:Polsat Rodzina (#)
+#DESCRIPTION Polsat Rodzina (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Polsat_Rodzina_HD/index.m3u8:Polsat Rodzina (#)
+#DESCRIPTION Polsat Rodzina (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatseriale.stream/chunks.m3u8:Polsat Seriale
 #DESCRIPTION Polsat Seriale
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52573:Polsat Sport
-#DESCRIPTION Polsat Sport
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52574:Polsat Sport Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/POLSROMA:Polsat Seriale (#)
+#DESCRIPTION Polsat Seriale (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polsat_Seriale_HD/index.m3u8:Polsat Seriale (#)
+#DESCRIPTION Polsat Seriale (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatsport.stream/chunks.m3u8:Polsat Sport 1
+#DESCRIPTION Polsat Sport 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/POLSSPORHD:Polsat Sport 1 (#)
+#DESCRIPTION Polsat Sport 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Polsat_Sport_HD/index.m3u8:Polsat Sport 1 (#)
+#DESCRIPTION Polsat Sport 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatsport2.stream/chunks.m3u8:Polsat Sport 2
+#DESCRIPTION Polsat Sport 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Polsat_Sport_Extra_HD/index.m3u8:Polsat Sport 2 (#)
+#DESCRIPTION Polsat Sport 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatsport3.stream/chunks.m3u8:Polsat Sport 3
+#DESCRIPTION Polsat Sport 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/POLSSPORNEWSHD:Polsat Sport 3 (#)
+#DESCRIPTION Polsat Sport 3 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Polsat_Sport_News_HD/index.m3u8:Polsat Sport 3 (#)
+#DESCRIPTION Polsat Sport 3 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/POLSSPOREXTRHD:Polsat Sport Extra
 #DESCRIPTION Polsat Sport Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52579:Polsat Sport Fight
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatsportfight.stream/chunks.m3u8:Polsat Sport Fight
 #DESCRIPTION Polsat Sport Fight
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52791:Polsat Sport News
-#DESCRIPTION Polsat Sport News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52710:Polsat Super
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/POLSSPORFIGHHD:Polsat Sport Fight (#)
+#DESCRIPTION Polsat Sport Fight (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Polsat_Sport_Fight_HD/index.m3u8:Polsat Sport Fight (#)
+#DESCRIPTION Polsat Sport Fight (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9003/play/a002:Polsat Sport Premium 1
+#DESCRIPTION Polsat Sport Premium 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9003/play/a003:Polsat Sport Premium 2
+#DESCRIPTION Polsat Sport Premium 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9002/play/a009:Polsat Sport Premium 3
+#DESCRIPTION Polsat Sport Premium 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9002/play/a00a:Polsat Sport Premium 4
+#DESCRIPTION Polsat Sport Premium 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9013/play/a00m:Polsat Sport Premium 5
+#DESCRIPTION Polsat Sport Premium 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/superpolsat.stream/chunks.m3u8:Polsat Super
 #DESCRIPTION Polsat Super
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52623:Polsat Viasat History
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Super_Polsat_HD/index.m3u8:Polsat Super (#)
+#DESCRIPTION Polsat Super (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatviasatexplore.stream/chunks.m3u8:Polsat Viasat Explore
+#DESCRIPTION Polsat Viasat Explore
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/POLSVIASEXPLHD:Polsat Viasat Explore (#)
+#DESCRIPTION Polsat Viasat Explore (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatviasathistory.stream/chunks.m3u8:Polsat Viasat History
 #DESCRIPTION Polsat Viasat History
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52625:Polsat Viasat Nature
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/POLSVIASHISTHD:Polsat Viasat History (#)
+#DESCRIPTION Polsat Viasat History (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polsatviasatnature.stream/chunks.m3u8:Polsat Viasat Nature
 #DESCRIPTION Polsat Viasat Nature
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52648:Power TV
-#DESCRIPTION Power TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52653:Stars TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/POLSVIASNATUHD:Polsat Viasat Nature (#)
+#DESCRIPTION Polsat Viasat Nature (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9016/play/a00e:Polsat X
+#DESCRIPTION Polsat X
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/redcarpet.stream/chunks.m3u8:Red Carpet TV
+#DESCRIPTION Red Carpet TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02q:Red Carpet TV (#)
+#DESCRIPTION Red Carpet TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fast-rakuten.okast.tv//fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa-40c6-41b8-8634-595c424f856e/21f67fd1-4d21-43ba-8ad8-3afac9982c25/master.m3u8:Red Carpet TV International (#)
+#DESCRIPTION Red Carpet TV International (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/starstv.stream/chunks.m3u8:Stars TV
 #DESCRIPTION Stars TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52490:TV 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/STARTVHD:Stars TV (#)
+#DESCRIPTION Stars TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/SUPEPOLSHD:Super Polsat
+#DESCRIPTION Super Polsat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Wydarzenia_24_HD/index.m3u8:Superstacja
+#DESCRIPTION Superstacja
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tv4.stream/chunks.m3u8:TV 4
 #DESCRIPTION TV 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52797:Tele 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/TV4HD:TV 4 (#)
+#DESCRIPTION TV 4 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb2-e2-32.pluscdn.pl/ch/1502601/309/dash/e25c2c93/live.mpd:TV 4 (#)
+#DESCRIPTION TV 4 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TV4_HD/index.m3u8:TV 4 (#)
+#DESCRIPTION TV 4 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tele5.stream/chunks.m3u8:Tele 5
 #DESCRIPTION Tele 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52706:TV 6
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/TELE5HD:Tele 5 (#)
+#DESCRIPTION Tele 5 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Tele_5_HD/index.m3u8:Tele 5 (#)
+#DESCRIPTION Tele 5 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tv6.stream/chunks.m3u8:TV 6
 #DESCRIPTION TV 6
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52686:TTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/TV6HD:TV 6 (#)
+#DESCRIPTION TV 6 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TV6_HD/index.m3u8:TV 6 (#)
+#DESCRIPTION TV 6 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/ttv.stream/chunks.m3u8:TTV
 #DESCRIPTION TTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52702:TV Puls
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tvpuls.stream/chunks.m3u8:TV Puls
 #DESCRIPTION TV Puls
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52704:Puls 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/TVPULSHD:TV Puls (#)
+#DESCRIPTION TV Puls (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TV_Puls_HD/index.m3u8:TV Puls (#)
+#DESCRIPTION TV Puls (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/puls2.stream/chunks.m3u8:Puls 2
 #DESCRIPTION Puls 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52713:TV Republika
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/PULS2HD:Puls 2 (#)
+#DESCRIPTION Puls 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tvrepublika.stream/chunks.m3u8:TV Republika
 #DESCRIPTION TV Republika
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52479:TVN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bocian.io%3a8880/lacha76/ODEzNzU1NzQ0/105463:TV Republika (#)
+#DESCRIPTION TV Republika (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/TVREPU:TV Republika (#)
+#DESCRIPTION TV Republika (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TV_Republika_HD/index.m3u8:TV Republika (#)
+#DESCRIPTION TV Republika (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tvn.stream/chunks.m3u8:TVN
 #DESCRIPTION TVN
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52481:TVN 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//6065d3147e895.streamlock.net%3a4444/npcl/live/playlist.m3u8:TVN (#)
+#DESCRIPTION TVN (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tvn7.stream/chunks.m3u8:TVN 7
 #DESCRIPTION TVN 7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52655:TVN 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tvn24.stream/chunks.m3u8:TVN 24
 #DESCRIPTION TVN 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52658:TVN 24 BiS
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tvn24bis.stream/chunks.m3u8:TVN 24 BiS
 #DESCRIPTION TVN 24 BiS
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52551:TVN Fabula
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tvnfabula.stream/chunks.m3u8:TVN Fabula
 #DESCRIPTION TVN Fabula
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52699:TVN Style
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tvnstyle.stream/chunks.m3u8:TVN Style
 #DESCRIPTION TVN Style
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52626:TVN Turbo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tvnturbo.stream/chunks.m3u8:TVN Turbo
 #DESCRIPTION TVN Turbo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52717:TVS
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/tvs.stream/chunks.m3u8:TVS
 #DESCRIPTION TVS
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/TVS:TVS (#)
+#DESCRIPTION TVS (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vcp10.myplaytv.com/tvs/tvs/playlist.m3u8:TVS (#)
+#DESCRIPTION TVS (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02p:TVS (#)
+#DESCRIPTION TVS (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ca49f2417d90.streamlock.net/live/turzovka/playlist.m3u8:TVT
 #DESCRIPTION TVT
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52739:TVT Zgorzelec
-#DESCRIPTION TVT Zgorzelec
-#SERVICE 1:64:3f1:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9011/play/a00e:VOX Music TV
+#DESCRIPTION VOX Music TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/TNTHD:Warner TV
+#DESCRIPTION Warner TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02u:WP TV
+#DESCRIPTION WP TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//str.onnetwork.tv/hls/onnet-358726_hi/index.m3u8:WP TV 24
+#DESCRIPTION WP TV 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/zoomtv.stream/chunks.m3u8:Zoom TV
+#DESCRIPTION Zoom TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/ZOOMTVHD:Zoom TV (#)
+#DESCRIPTION Zoom TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Zoom_TV_HD/index.m3u8:Zoom TV (#)
+#DESCRIPTION Zoom TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02a:Zoom TV (#)
+#DESCRIPTION Zoom TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02i:TVP HD
+#DESCRIPTION TVP HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TVP_HD/index.m3u8:TVP HD (#)
+#DESCRIPTION TVP HD (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/TVP1HD:TVP 1
+#DESCRIPTION TVP 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/TVP2HD:TVP 2
+#DESCRIPTION TVP 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ec04-waw4.cache.orange.pl/dai4/org2/vb/105/tvp2hd/index.m3u8:TVP 2 (#)
+#DESCRIPTION TVP 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TVP2_HD/index.m3u8:TVP 2 (#)
+#DESCRIPTION TVP 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//irylek.ct8.pl/stream/tvpabc2:TVP ABC 2
+#DESCRIPTION TVP ABC 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//irylek.ct8.pl/stream/alfatvp:Alfa TVP
+#DESCRIPTION Alfa TVP
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Alfa_TVP_HD/index.m3u8:Alfa TVP (#)
+#DESCRIPTION Alfa TVP (#)
+#SERVICE 1:64:635:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/4fundance.stream/chunks.m3u8:4 Fun Dance
+#DESCRIPTION 4 Fun Dance
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/4FUNDANC:4 Fun Dance (#)
+#DESCRIPTION 4 Fun Dance (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/4FUNKIDS:4 Fun Kids
+#DESCRIPTION 4 Fun Kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/4FUNKIDS:4 Fun Kids (#)
+#DESCRIPTION 4 Fun Kids (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.4fun.tv%3a8888/hls/4f_high/index.m3u8:4 Fun TV
 #DESCRIPTION 4 Fun TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52632:4 Fun Kids
-#DESCRIPTION 4 Fun Kids
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52770:Biznes 24
-#DESCRIPTION Biznes 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//94.246.128.53%3a1935/tv/dlaCiebieTv/playlist.m3u8:DlaCiebie.tv
-#DESCRIPTION DlaCiebie.tv
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52638:Eska TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/4FUNTV:4 Fun TV (#)
+#DESCRIPTION 4 Fun TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/13ULICHD:13 Ulica
+#DESCRIPTION 13 Ulica
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/13_Ulica_HD/index.m3u8:13 Ulica (#)
+#DESCRIPTION 13 Ulica (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/activefamily.stream/chunks.m3u8:Active Family
+#DESCRIPTION Active Family
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/ACTIFAMIHD:Active Family (#)
+#DESCRIPTION Active Family (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Active_Family_HD/index.m3u8:Active Family (#)
+#DESCRIPTION Active Family (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/adventure.stream/chunks.m3u8:Adventure
+#DESCRIPTION Adventure
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Adventure_HD/index.m3u8:Adventure (#)
+#DESCRIPTION Adventure (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/ALEKINOHD:Ale Kino+
+#DESCRIPTION Ale Kino+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/AMCHD:AMC
+#DESCRIPTION AMC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/AMC_HD/index.m3u8:AMC (#)
+#DESCRIPTION AMC (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Antena_TV_HD/index.m3u8:Antena HD
+#DESCRIPTION Antena HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/AXN:AXN
+#DESCRIPTION AXN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a075:AXN Black
+#DESCRIPTION AXN Black
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a074:AXN White
+#DESCRIPTION AXN White
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/bbcbrit.stream/chunks.m3u8:BBC Brit
+#DESCRIPTION BBC Brit
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/BBCBRITHD:BBC Brit (#)
+#DESCRIPTION BBC Brit (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/bbcearth.stream/chunks.m3u8:BBC Earth
+#DESCRIPTION BBC Earth
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/BBCEARTHD:BBC Earth (#)
+#DESCRIPTION BBC Earth (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/BBC_Earth_HD/index.m3u8:BBC Earth (#)
+#DESCRIPTION BBC Earth (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/bbcfirst.stream/chunks.m3u8:BBC First
+#DESCRIPTION BBC First
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02n:BBC First (#)
+#DESCRIPTION BBC First (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/bbclifestyle.stream/chunks.m3u8:BBC Lifestyle
+#DESCRIPTION BBC Lifestyle
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/BBCLIFEHD:BBC Lifestyle (#)
+#DESCRIPTION BBC Lifestyle (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//irylek.ct8.pl/stream/belsat:Belsat
+#DESCRIPTION Belsat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/CARTNETWHD:Cartoon Network
+#DESCRIPTION Cartoon Network
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Boomerang_HD/index.m3u8:Cartoonito
+#DESCRIPTION Cartoonito
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/cbeebies.stream/chunks.m3u8:CBeebies
+#DESCRIPTION CBeebies
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a06s:CBeebies (#)
+#DESCRIPTION CBeebies (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02v:CBS Reality
+#DESCRIPTION CBS Reality
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/CBS_Reality_HD/index.m3u8:CBS Reality (#)
+#DESCRIPTION CBS Reality (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/CINEMAX_HD/index.m3u8:Cinemax
+#DESCRIPTION Cinemax
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/CINEMAX_2_HD/index.m3u8:Cinemax 2
+#DESCRIPTION Cinemax 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/COMECENTHD:Comedy Central
+#DESCRIPTION Comedy Central
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Comedy_Central_HD/index.m3u8:Comedy Central (#)
+#DESCRIPTION Comedy Central (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a07w:Crime + Investigation Polsat
+#DESCRIPTION Crime + Investigation Polsat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Da_Vinci_HD/index.m3u8:Da Vinci
+#DESCRIPTION Da Vinci
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/DISCLIFEHD:Discovery Life
+#DESCRIPTION Discovery Life
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Disney_Channel/index.m3u8:Disney Channel
+#DESCRIPTION Disney Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/DISNJUNI:Disney Junior
+#DESCRIPTION Disney Junior
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a07c:Disney XD
+#DESCRIPTION Disney XD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/DLAC:DiaCiebie.tv
+#DESCRIPTION DiaCiebie.tv
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a04u:DlaCiebie.tv (#)
+#DESCRIPTION DlaCiebie.tv (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/DTX_HD/index.m3u8:DTX
+#DESCRIPTION DTX
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//9b129915.akadatel.com/iptv/83GA6FAV4DPTPQ/20068/index.m3u8:Eleven Sports 1
+#DESCRIPTION Eleven Sports 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/epicdrama.stream/chunks.m3u8:Epic Drama
+#DESCRIPTION Epic Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a029:Epic Drama (#)
+#DESCRIPTION Epic Drama (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/espl-abr/index.m3u8:Eska Hity na Czasie
+#DESCRIPTION Eska Hity na Czasie
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/erpl-abr/index.m3u8:Eska Rock Dobrze Rockuje
+#DESCRIPTION Eska Rock Dobrze Rockuje
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/ESKAROCKTV:Eska Rock TV
+#DESCRIPTION Eska Rock TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/ESKATVHD:Eska TV
 #DESCRIPTION Eska TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52637:Eska TV Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/ESKA_TV_HD/index.m3u8:Eska TV (#)
+#DESCRIPTION Eska TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/ESKATVEXTRHD:Eska TV Extra
 #DESCRIPTION Eska TV Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52608:Fokus TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9011/play/a004:Extreme Sports Channel Polska
+#DESCRIPTION Extreme Sports Channel Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream01.vnet.am/Channel_131/index.m3u8:Fast Sports
+#DESCRIPTION Fast Sports
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/fokustv.stream/chunks.m3u8:Fokus TV
 #DESCRIPTION Fokus TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52772:Kino Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/FOKUTV:Fokus TV (#)
+#DESCRIPTION Fokus TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/foodnetwork.stream/chunks.m3u8:Food Network
+#DESCRIPTION Food Network
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/FOXHD:FX
+#DESCRIPTION FX
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.130.250.2%3a8023/play/a02q/index.m3u8:Golf Channel
+#DESCRIPTION Golf Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/hgtv.stream/chunks.m3u8:HGTV
+#DESCRIPTION HGTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/hdpl-abr/index.m3u8:HiDance
+#DESCRIPTION HiDance
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/hmpl-abr/index.m3u8:HiMusic
+#DESCRIPTION HiMusic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/History_HD/index.m3u8:History
+#DESCRIPTION History
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a03l:History 2
+#DESCRIPTION History 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/History_2_HD/index.m3u8:History 2 (#)
+#DESCRIPTION History 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/HOMETV:Home TV
+#DESCRIPTION Home TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TVR_HD/index.m3u8:Home TV (#)
+#DESCRIPTION Home TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/kinopolska.stream/chunks.m3u8:Kino Polska
 #DESCRIPTION Kino Polska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52640:Kino Polska Muzyka
-#DESCRIPTION Kino Polska Muzyka
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52771:Kino TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/KINOPOLSHD:Kino Polska (#)
+#DESCRIPTION Kino Polska (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Kino_Polska_HD/index.m3u8:Kino Polska (#)
+#DESCRIPTION Kino Polska (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/kinotv.stream/chunks.m3u8:Kino TV
 #DESCRIPTION Kino TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52700:Metro
-#DESCRIPTION Metro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52671:MiniMini+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/KINOTV:Kino TV (#)
+#DESCRIPTION Kino TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.27/live/test_minimax/playlist.m3u8:Minimax
+#DESCRIPTION Minimax
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/MINIHD:MiniMini+
 #DESCRIPTION MiniMini+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52784:Motowizja
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Motowizja_HD/index.m3u8:Motowizja
 #DESCRIPTION Motowizja
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52645:Nuta TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/mtvpolska.stream/chunks.m3u8:MTV Polska
+#DESCRIPTION MTV Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/MTVHD:MTV Polska (#)
+#DESCRIPTION MTV Polska (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/mupl-abr/index.m3u8:Murator
+#DESCRIPTION Murator
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a06f:Nat Geo People
+#DESCRIPTION Nat Geo People
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a05z:National Geographic Wild
+#DESCRIPTION National Geographic Wild
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/National_Geographic_Wild_HD/index.m3u8:National Geographic Wild (#)
+#DESCRIPTION National Geographic Wild (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Nickelodeon/index.m3u8:Nickelodeon
+#DESCRIPTION Nickelodeon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/NICKJR:Nick Jr. Polen
+#DESCRIPTION Nick Jr. Polen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9019/play/a008:Novela TV
+#DESCRIPTION Novela TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9012/play/a003:Novelas+
+#DESCRIPTION Novelas+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/nowatv.stream/chunks.m3u8:Nowa TV
+#DESCRIPTION Nowa TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/NOWATVHD:Nowa TV (#)
+#DESCRIPTION Nowa TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/NOWA_TV_HD/index.m3u8:Nowa TV (#)
+#DESCRIPTION Nowa TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/nutatv.stream/chunks.m3u8:Nuta TV
 #DESCRIPTION Nuta TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52646:Polo TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/NUTA:Nuta TV (#)
+#DESCRIPTION Nuta TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a069:Paramount Network
+#DESCRIPTION Paramount Network
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Paramount_Channel_HD/index.m3u8:Paramount Network (#)
+#DESCRIPTION Paramount Network (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/PLANHD:Planete+
+#DESCRIPTION Planete+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/polotv.stream/chunks.m3u8:Polo TV
 #DESCRIPTION Polo TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64888/POLOTV:Polo TV (#)
+#DESCRIPTION Polo TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Polo_TV/index.m3u8:Polo TV (#)
+#DESCRIPTION Polo TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/pzpl-abr/index.m3u8:Poradnik Zdrowie
+#DESCRIPTION Poradnik Zdrowie
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8:Radio Czworka
 #DESCRIPTION Radio Czworka
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/Red_Carpet_TV_HD/index.m3u8:Red Carpet TV
+#DESCRIPTION Red Carpet TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cbxedge.synapsetv.com/picker/tsstreamer/?f=RedCarpetTVLDAI_SD&sessionID=IOOlOK0MLN0ytoF0qULYt8LtoJ6z.qu9Z9P72ST7e3qooF-1745345173079:Red Carpet TV (#)
+#DESCRIPTION Red Carpet TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa-40c6-41b8-8634-595c424f856e/21f67fd1-4d21-43ba-8ad8-3afac9982c25/master.m3u8:Red Carpet TV International
+#DESCRIPTION Red Carpet TV International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/romance.stream/chunks.m3u8:Romance TV
+#DESCRIPTION Romance TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Romance_TV_HD/index.m3u8:Romance TV (#)
+#DESCRIPTION Romance TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/shpl-abr/index.m3u8:SAYHi
+#DESCRIPTION SAYHi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a03k:Sci Fi
+#DESCRIPTION Sci Fi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/SciFi_HD/index.m3u8:Sci Fi (#)
+#DESCRIPTION Sci Fi (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/stopklatkatv.stream/chunks.m3u8:Stopklatka TV
+#DESCRIPTION Stopklatka TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/STOPTV:Stopklatka TV (#)
+#DESCRIPTION Stopklatka TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/Stopklatka_HD/index.m3u8:Stopklatka TV (#)
+#DESCRIPTION Stopklatka TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a023:Stopklatka TV (#)
+#DESCRIPTION Stopklatka TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9017/play/a004:StudioMed
+#DESCRIPTION StudioMed
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//89.187.167.247/sundance.stream/chunks.m3u8:Sundance
+#DESCRIPTION Sundance
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a03i:Sundance (#)
+#DESCRIPTION Sundance (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/sepl-abr/index.m3u8:Super Express
+#DESCRIPTION Super Express
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.173/TeenNick/index.m3u8:TeenNick
+#DESCRIPTION TeenNick
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.166/TeenNick/mono.m3u8:TeenNick (#)
+#DESCRIPTION TeenNick (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//178.219.128.68%3a64889/TELEHD:Teletoon+
+#DESCRIPTION Teletoon+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8:Telewizja Biznesowa
+#DESCRIPTION Telewizja Biznesowa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn01.aztv.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8:Telewizja Jaslo
+#DESCRIPTION Telewizja Jaslo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.truso.tv/elblag/myStream_aac/playlist.m3u8:Truso TV
 #DESCRIPTION Truso TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.onrender.com/channel/UCL1u3cY7_nPjbZmKljCy_Cw.m3u8:TV Dami
-#DESCRIPTION TV Dami
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5cce8c6f0e84c.streamlock.net/LiveCast/smil%3aPlayStream9.smil/playlist.m3u8:TV ASTA
+#DESCRIPTION TV ASTA
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.tvkujawy.pl%3a8080/live/broadcast.m3u8:TV Kujawy
 #DESCRIPTION TV Kujawy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb2-e3-20.pluscdn.pl/ch/1523532/366/dash/2cf383bb/live.mpd:TV Okazje
+#DESCRIPTION TV Okazje
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a07l:TV Okazje (#)
+#DESCRIPTION TV Okazje (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvreg.klemit.net/regionalna/stream/index.m3u8:TV Regionalna
 #DESCRIPTION TV Regionalna
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//217.173.176.107%3a1935/live/tvk.stream/playlist.m3u8:TV Toruń
 #DESCRIPTION TV Toruń
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52720:TV Trwam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-ch1.trwam.cf.insyscd.net/out/v1/b99041a282774d4a8fe84a54243af5de/trwamtv-live-ch1.mpd:TV Trwam
 #DESCRIPTION TV Trwam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/TV_TRWAM/index.m3u8:TV Trwam (#)
+#DESCRIPTION TV Trwam (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream6.nadaje.com%3a35308/live/stream-1/playlist.m3u8:TV Wielkopolska
 #DESCRIPTION TV Wielkopolska
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52765:W Polsce
-#DESCRIPTION W Polsce
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52718:WP TV
-#DESCRIPTION WP TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//xplatinmedia.com%3a8080/@Roloq/56geFQ4mfyhhX2PX6fsbYF/52719:Zoom TV
-#DESCRIPTION Zoom TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn01.sesja.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8:TVJ Telewizja Jaslo
+#DESCRIPTION TVJ Telewizja Jaslo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/vxpl-abr/index.m3u8:Vox w Rytmie Hitow
+#DESCRIPTION Vox w Rytmie Hitow
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//weyyak-live.akamaized.net/wedo_big_stories/index.m3u8:Wedo Big Stories
+#DESCRIPTION Wedo Big Stories
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.233.89.170/wPolsce.PL/index.m3u8:W Polsce 24
+#DESCRIPTION W Polsce 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//195.189.60.33%3a9019/play/a006:Water Planet
+#DESCRIPTION Water Planet

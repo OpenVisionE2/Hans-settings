@@ -1380,6 +1380,9 @@ transponders
 00c00000:0449:0001
 	s 12344000:27500000:0:9:192:2:0:1:1:0:2
 /
+00c00000:03f6:0001
+	s 11406000:23500000:1:7:192:2:0:1:2:0:2
+/
 00a00000:4e84:016e
 	s 10721000:30000000:0:3:160:2:0:1:2:0:2
 /
@@ -1790,6 +1793,9 @@ transponders
 /
 00820000:2648:00d5
 	s 12673000:30000000:1:4:130:2:0:1:2:0:2
+/
+00820000:2c24:013e
+	s 10775000:29900000:0:2:130:2:0:1:2:0:2
 /
 00640000:7850:010e
 	s 10770000:22963000:0:3:100:2:0
@@ -3336,89 +3342,20 @@ ffff0000:0003:0001
 ffff0000:0906:2210
 	c 5700000:0:2:3:0:0:0
 /
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
-ffff0000:0906:2210
-	c 5700000:0:2:3:0:0:0
-/
 ffff0000:6d00:2114
 	c 5780000:0:2:3:0:0:0
 /
 ffff0000:0203:2114
 	c 6660000:0:2:3:0:0:0
 /
-ffff0000:0203:2114
-	c 6660000:0:2:3:0:0:0
-/
-ffff0000:0203:2114
-	c 6660000:0:2:3:0:0:0
-/
-ffff0000:0203:2114
-	c 6660000:0:2:3:0:0:0
-/
-ffff0000:6d00:2114
-	c 5780000:0:2:3:0:0:0
-/
-ffff0000:6d00:2114
-	c 5780000:0:2:3:0:0:0
-/
 ffff0000:6f00:2114
 	c 5620000:0:2:3:0:0:0
 /
-ffff0000:6f00:2114
-	c 5620000:0:2:3:0:0:0
+ffff0000:0805:0600
+	c 322000:6900000:2:5:0:0:0
 /
-ffff0000:6d00:2114
-	c 5780000:0:2:3:0:0:0
-/
-ffff0000:6f00:2114
-	c 5620000:0:2:3:0:0:0
-/
-ffff0000:6f00:2114
-	c 5620000:0:2:3:0:0:0
-/
-ffff0000:6f00:2114
-	c 5620000:0:2:3:0:0:0
-/
-ffff0000:0203:2114
-	c 6660000:0:2:3:0:0:0
+ffff0000:0012:0600
+	c 474000:6900000:2:5:0:0:0
 /
 end
 services
@@ -13913,6 +13850,12 @@ p:BSkyB,f:40
 cfa2:011a0000:083a:0002:1:0
 Islam TV
 p:BSkyB,f:40
+cfa5:011a0000:083a:0002:1:0
+ATN
+p:BSkyB,c:050001,f:40
+cfa4:011a0000:083a:0002:1:0
+iON TV
+p:BSkyB,f:40
 1c2d:011a0000:083b:0002:1:0
 Film4
 p:Sky Digital
@@ -14003,6 +13946,9 @@ p:Sky Digital
 083c:011a0000:083d:0002:25:0
 5 HD
 p:BSkyB,c:050001,f:40
+0840:011a0000:083d:0002:1:0
+NickSpongeBob
+p:BSkyB,f:40
 d034:011a0000:083e:0002:1:0
 GREAT! Movies
 p:Sky Digital
@@ -18065,6 +18011,9 @@ p:M7 Group,f:40
 3723:00eb0000:0c8e:0003:22:0
 Nova Lady
 p:M7 Group,f:40
+371f:00eb0000:0c8e:0003:22:0
+Galaxy4
+p:M7 Group,f:40
 3c29:00eb0000:0c90:0003:25:0
 Arena Sport 1 HD
 p:SkyLink
@@ -18394,6 +18343,9 @@ TV8
 p:M7 Group,f:40
 3cfe:00eb0000:0c95:0003:22:0
 TV Spark
+p:M7 Group,f:40
+3cfa:00eb0000:0c95:0003:22:0
+Comedy Central Hungary
 p:M7 Group,f:40
 51ae:00eb0000:0c96:0003:25:0
 Film1 Family
@@ -18866,6 +18818,9 @@ p:Telekom Srbija
 4f44:00eb0000:0c9f:0003:1:0
 Test Service 2
 p:Telekom Srbija,c:050001,f:40
+4f46:00eb0000:0c9f:0003:1:0
+Test service 4
+p:Telekom Srbija,f:40
 1f41:00eb0000:0ca1:0003:25:0
 CT 1 HD
 p:SkyLink
@@ -19136,6 +19091,9 @@ p:Towercom,f:40
 1353:00eb0000:0ca2:0003:1:0
 COUNTRY SV
 p:Towercom,f:40
+1446:00eb0000:0ca2:0003:1:0
+TV Rain
+p:FFmpeg,f:40
 4e63:00eb0000:0ca4:0003:25:0
 Star Life Serbia HD
 p:Telekom Srbija
@@ -19400,6 +19358,9 @@ p:Telekom Srbija
 4f24:00eb0000:0ca5:0003:25:0
 Baby TV
 p:Telekom Srbija
+4ede:00eb0000:0ca5:0003:1:0
+Zona Plus
+p:Telekom Srbija,f:40
 4e46:00eb0000:0ca6:0003:25:0
 Arena Sport 2 HD Slovakia
 p:Telekom Srbija
@@ -23321,6 +23282,27 @@ p:,f:40
 0802:00c00000:0449:0001:25:0
 2050
 p:,f:40
+2c24:00c00000:03f6:0001:1:0
+ASTRA TV 15
+p:,f:40
+2c25:00c00000:03f6:0001:1:0
+ASTRA TV 16
+p:,f:40
+2c26:00c00000:03f6:0001:1:0
+ASTRA TV 17
+p:,f:40
+2c27:00c00000:03f6:0001:1:0
+ASTRA TV 18
+p:,f:40
+2c28:00c00000:03f6:0001:1:0
+ASTRA TV 19
+p:,f:40
+2c29:00c00000:03f6:0001:1:0
+ASTRA TV 20
+p:,f:40
+2c2a:00c00000:03f6:0001:1:0
+ASTRA TV 21
+p:,f:40
 05dd:00a00000:4e84:016e:25:0
 Arena Premium 3
 p:Total TV
@@ -26009,6 +25991,18 @@ p:,c:050007,f:40
 11fb:00820000:2b5c:013e:31:0
 TRAVELXP 4K
 p:TravelXP,f:40
+1201:00820000:2b5c:013e:1:0
+Baby TV
+p:SES,c:050001,c:09510c,f:40
+1200:00820000:2b5c:013e:25:0
+DAYSTAR HD
+p:BSkyB,f:40
+11ff:00820000:2b5c:013e:1:0
+GEB TV
+p:,f:40
+11fe:00820000:2b5c:013e:1:0
+Simay Azadi HD
+p:GLOBECAST,f:40
 4279:00820000:2bc0:013e:25:0
 wPolsce.pl
 p:Polsat Box
@@ -26690,6 +26684,12 @@ p:COSMONOVA LLC,f:40
 4237:00820000:2f44:013e:1:0
 Juwelo TV
 p:SCP2100,c:050001,f:48
+4238:00820000:2f44:013e:25:0
+SAT.TV - Hot Bird
+p:,f:40
+4267:00820000:2f44:013e:1:0
+Eutelsat Data 1
+p:Eutelsat,f:40
 0065:00820000:2fa8:013e:25:0
 Svoboda
 p:Svoboda Satellite
@@ -27139,6 +27139,9 @@ WRN Sawt Al Alam
 p:GLOBECAST,f:40
 06d9:00820000:3138:013e:1:0
 WRN Russkij
+p:GLOBECAST,f:40
+06dc:00820000:3138:013e:1:0
+EDM Events
 p:GLOBECAST,f:40
 0e83:00820000:3200:013e:25:0
 TVP Polonia
@@ -27977,6 +27980,30 @@ p:M-Three Satcom,f:40
 01fc:00820000:0384:013e:1:0
 Kurdistan 24 HD
 p:,f:40
+0203:00820000:0384:013e:25:0
+RADIOFRECCIA HD
+p:M-Three Satcom,f:40
+0201:00820000:0384:013e:1:0
+RADIONORBA TV
+p:Telenorba,f:40
+0202:00820000:0384:013e:25:0
+RTL 102.5 HD
+p:M-Three Satcom,f:40
+0205:00820000:0384:013e:25:0
+RTL 102.5 CALIENTE
+p:M-Three satcom,f:40
+0204:00820000:0384:013e:25:0
+RADIO ZETA HD
+p:M-Three satcom,f:40
+0200:00820000:0384:013e:1:0
+Vilayet TV
+p:mws,f:40
+0206:00820000:0384:013e:1:0
+People TV
+p:PEOPLETV-RETE7,f:40
+0207:00820000:0384:013e:2:0
+RVS-Accendi la Speranza
+p:M-Three Satcom Srl,f:40
 10dd:00820000:03e8:013e:25:0
 Discovery Poland HD
 p:Orange Polska
@@ -28949,6 +28976,9 @@ p:Telespazio,f:40
 4253:00820000:3db8:013e:1:0
 QVC HD
 p:Telespazio,f:40
+424b:00820000:3db8:013e:1:0
+MARCOPOLO
+p:Telespazio,c:050001,f:40
 012d:00820000:3e1c:013f:25:0
 TF 1
 p:Bis
@@ -29150,6 +29180,18 @@ p:Globecast,f:40
 3331:00820000:1388:013e:1:0
 TV5MONDE EUROPE
 p:Globecast,f:40
+338c:00820000:1388:013e:1:0
+Test GC1
+p:Globecast,f:40
+338d:00820000:1388:013e:1:0
+Test GC2
+p:Globecast,f:40
+338e:00820000:1388:013e:1:0
+Test GC3
+p:Globecast,f:40
+338f:00820000:1388:013e:1:0
+Test GC4
+p:Globecast,f:40
 2520:00820000:13ef:013e:25:0
 Sharjah HD
 p:DU
@@ -29288,6 +29330,9 @@ p:MuxIP,f:40
 02c1:00820000:14b4:013e:1:0
 One America News
 p:MuxIP,f:40
+02c9:00820000:14b4:013e:25:0
+wedotv Movies
+p:Amtecco,f:40
 0191:00820000:1518:013e:25:0
 MTV 00s
 p:Nova
@@ -32543,6 +32588,18 @@ p:VIVACOM,c:050001,f:40
 0131:00820000:2648:00d5:1:0
 Viasat True Crime
 p:VIVACOM,f:40
+00fc:00820000:2c24:013e:22:0
+Kabelio BVN
+p:KABELIO.CH,c:050001,f:40
+0106:00820000:2c24:013e:25:0
+wedo Big Stories
+p:KABELIO.CH,f:40
+0104:00820000:2c24:013e:25:0
+wedo Movies
+p:KABELIO.CH,c:050001,f:40
+0105:00820000:2c24:013e:25:0
+wedo Sports
+p:KABELIO.CH,f:40
 9c44:00640000:7850:010e:1:0
 AFP HD Europe
 p:EBU
@@ -46136,6 +46193,12 @@ p:Ziggo,f:40
 4cd4:ffff0000:081a:0600:1:0
 Testbeeld
 p:Ziggo,f:40
+4cd1:ffff0000:081a:0600:25:0
+Ridderkerk TV
+p:Ziggo,f:40
+4cd0:ffff0000:081a:0600:25:0
+TV Hoeksche Waard
+p:Ziggo,f:40
 4a50:ffff0000:0806:0600:25:0
 Net5
 p:Ziggo,c:050001,c:090202,f:40
@@ -46508,6 +46571,9 @@ p:Ziggo,c:050001,f:40
 4cc3:ffff0000:0819:0600:25:0
 Ziggo
 p:Ziggo,c:050001,f:40
+4cc3:ffff0000:0819:0600:1:0
+Ziggo
+p:Ziggo,f:40
 4bb5:ffff0000:0831:0600:25:0
 ID
 p:Ziggo,c:050001,f:40
@@ -47240,6 +47306,12 @@ p:Ziggo,f:40
 13fc:ffff0000:0cac:0600:2:0
 WeertFM
 p:Ziggo,f:40
+1fb1:ffff0000:0cac:0600:25:0
+KempenTV
+p:Ziggo,f:40
+1fab:ffff0000:0cac:0600:25:0
+SIRIS-tv
+p:Ziggo,f:40
 1bc5:ffff0000:0c86:0600:25:0
 RTV Go TV
 p:Ziggo,f:40
@@ -47632,6 +47704,21 @@ SRC FM
 p:Ziggo,f:40
 0db4:ffff0000:0c7a:0600:2:0
 WOS Radio
+p:Ziggo,f:40
+196c:ffff0000:0c7a:0600:25:0
+Atos TV
+p:Ziggo,f:40
+1970:ffff0000:0c7a:0600:25:0
+Capelle TV
+p:Ziggo,f:40
+196a:ffff0000:0c7a:0600:25:0
+Open Rotterdam
+p:Ziggo,f:40
+196b:ffff0000:0c7a:0600:25:0
+Rotterdam Podium
+p:Ziggo,f:40
+196e:ffff0000:0c7a:0600:25:0
+TV Dordrecht
 p:Ziggo,f:40
 3f35:ffff0000:0839:0600:22:0
 Testbeeld
@@ -51182,6 +51269,15 @@ p:KPN,f:40
 0301:ffff0000:6d00:2114:31:0
 Das Erste HD
 p:ARD,c:050007,f:40
+0302:ffff0000:6d00:2114:31:0
+arte HD
+p:ARD,f:40
+0305:ffff0000:6d00:2114:31:0
+ONE HD
+p:ARD,f:40
+0407:ffff0000:6d00:2114:31:0
+WDR HD Münster
+p:ARD,f:40
 07d1:ffff0000:0203:2114:31:0
 ZDF HD
 p:ZDFmobil,c:050007,f:40
@@ -51194,20 +51290,14 @@ p:ZDFmobil,f:40
 07d4:ffff0000:0203:2114:31:0
 3sat HD
 p:ZDFmobil,c:050007,c:097707,f:40
-0302:ffff0000:6d00:2114:31:0
-arte HD
-p:ARD,f:40
-0305:ffff0000:6d00:2114:31:0
-ONE HD
-p:ARD,f:40
+07d5:ffff0000:0203:2114:31:0
+KiKA HD
+p:ZDFmobil,f:40
 0303:ffff0000:6f00:2114:31:0
 phoenix HD
 p:ARD,f:40
 0381:ffff0000:6f00:2114:31:0
 NDR FS NDS HD
-p:ARD,f:40
-0407:ffff0000:6d00:2114:31:0
-WDR HD Münster
 p:ARD,f:40
 0362:ffff0000:6f00:2114:31:0
 MDR S-Anhalt HD
@@ -51218,8 +51308,86 @@ p:ARD,f:40
 0304:ffff0000:6f00:2114:31:0
 tagesschau24 HD
 p:ARD,f:40
-07d5:ffff0000:0203:2114:31:0
-KiKA HD
-p:ZDFmobil,f:40
+4a3d:ffff0000:0805:0600:25:0
+BBC News
+p:Ziggo,c:050001,c:098800,f:40
+4a3e:ffff0000:0805:0600:31:0
+ESPN UHD
+p:Ziggo,c:050007,f:40
+4a39:ffff0000:0805:0600:25:0
+TWEE TV
+p:Ziggo,f:40
+2782:ffff0000:0805:0600:2:0
+NPO Soul & Jazz
+p:Ziggo,f:40
+2788:ffff0000:0805:0600:2:0
+Concertzender
+p:Ziggo,f:40
+2785:ffff0000:0805:0600:2:0
+Efteling Kids Radio
+p:Ziggo,f:40
+2789:ffff0000:0805:0600:2:0
+Qmusic Nonstop
+p:Ziggo,f:40
+2786:ffff0000:0805:0600:2:0
+Radio 10
+p:Ziggo,f:40
+278a:ffff0000:0805:0600:2:0
+Radio509
+p:Ziggo,f:40
+2784:ffff0000:0805:0600:2:0
+Radio 538
+p:Ziggo,f:40
+4659:ffff0000:0805:0600:2:0
+00s Heroes
+p:Ziggo,f:40
+465c:ffff0000:0805:0600:2:0
+60s&70s Fever
+p:Ziggo,f:40
+465b:ffff0000:0805:0600:2:0
+80s Flashback
+p:Ziggo,f:40
+465a:ffff0000:0805:0600:2:0
+Back 2 The 90s
+p:Ziggo,f:40
+4654:ffff0000:0805:0600:2:0
+De Bruine Kroeg
+p:Ziggo,f:40
+4652:ffff0000:0805:0600:2:0
+France Chansons
+p:Ziggo,f:40
+465d:ffff0000:0805:0600:2:0
+Gouwe Ouwe
+p:Ziggo,f:40
+4651:ffff0000:0805:0600:2:0
+Kids Disco
+p:Ziggo,f:40
+465e:ffff0000:0805:0600:2:0
+Klassiek
+p:Ziggo,f:40
+4653:ffff0000:0805:0600:2:0
+Lekker Hollands
+p:Ziggo,f:40
+4658:ffff0000:0805:0600:2:0
+Muziek Van Nu
+p:Ziggo,f:40
+4655:ffff0000:0805:0600:2:0
+POP NL
+p:Ziggo,f:40
+4656:ffff0000:0805:0600:2:0
+Schlagerfest
+p:Ziggo,f:40
+4657:ffff0000:0805:0600:2:0
+XITE Hits
+p:Ziggo,f:40
+465f:ffff0000:0805:0600:2:0
+Yoga Flow
+p:Ziggo,f:40
+4d2d:ffff0000:0012:0600:25:0
+Omroep PIM
+p:Ziggo,c:050001,f:40
+4d2e:ffff0000:0012:0600:25:0
+RTV Purmerend
+p:Ziggo,c:050001,f:40
 end
 Editor:DreamSet 2.4.11 - http://www.dreamset-editor.com

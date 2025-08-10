@@ -45,9 +45,6 @@ ffff0000:0084:08c9
 ffff0000:0015:10ef
 	c 634000:6875000:2:3:0:0:0
 /
-ffff0000:007a:08c9
-	c 626000:6900000:2:3:0:0:0
-/
 ffff0000:081b:0000
 	c 546000:6900000:2:5:0:0:0
 /
@@ -75,8 +72,8 @@ ffff0000:008f:08c9
 ffff0000:000d:0001
 	c 402000:6875000:2:5:0:0:0
 /
-ffff0000:0836:0000
-	c 362000:6900000:2:5:0:0:0
+ffff0000:007a:08c9
+	c 626000:6900000:2:3:0:0:0
 /
 ffff0000:0085:08c9
 	c 354000:6900000:2:3:0:0:0
@@ -118,7 +115,7 @@ ffff0000:008e:08c9
 	c 378000:6900000:2:3:0:0:0
 /
 ffff0000:0012:0600
-	c 474000:6875000:2:3:0:0:0
+	c 474000:6900000:2:5:0:0:0
 /
 ffff0000:0801:0600
 	c 274000:6900000:2:5:0:0:0
@@ -154,7 +151,7 @@ ffff0000:0015:25a8
 	c 466000:6875000:2:5:0:0:0
 /
 ffff0000:0805:0600
-	c 506000:6900000:2:5:0:0:0
+	c 322000:6900000:2:5:0:0:0
 /
 ffff0000:006d:08c9
 	c 650000:6900000:2:3:0:0:0
@@ -183,20 +180,11 @@ ffff0000:0caa:0600
 ffff0000:0803:0600
 	c 490000:6900000:2:5:0:0:0
 /
-ffff0000:083b:0000
-	c 418000:6900000:2:5:0:0:0
-/
-ffff0000:0806:0000
-	c 346000:6900000:2:5:0:0:0
-/
 ffff0000:000b:25a8
 	c 362000:6875000:2:5:0:0:0
 /
 ffff0000:0034:25a8
 	c 194000:6875000:2:5:0:0:0
-/
-ffff0000:0806:0600
-	c 346000:6900000:2:5:0:0:0
 /
 ffff0000:001d:25a8
 	c 290000:6875000:2:3:0:0:0
@@ -234,9 +222,6 @@ ffff0000:0001:25a8
 ffff0000:0001:10ef
 	c 674000:6875000:2:3:0:0:0
 /
-ffff0000:0807:0000
-	c 410000:6900000:2:5:0:0:0
-/
 ffff0000:0c7a:0600
 	c 266000:6900000:2:5:0:0:0
 /
@@ -251,9 +236,6 @@ ffff0000:0080:08c9
 /
 ffff0000:0013:25a8
 	c 306000:6875000:2:5:0:0:0
-/
-ffff0000:0814:0600
-	c 538000:6900000:2:5:0:0:0
 /
 ffff0000:0011:10ef
 	c 602000:6875000:2:3:0:0:0
@@ -453,6 +435,9 @@ ffff0000:0808:0600
 ffff0000:0810:0600
 	c 354000:6900000:2:5:0:0:0
 /
+ffff0000:0806:0600
+	c 346000:6900000:2:5:0:0:0
+/
 ffff0000:0004:10ef
 	c 578000:6875000:2:3:0:0:0
 /
@@ -476,6 +461,9 @@ ffff0000:0836:0600
 /
 ffff0000:0082:08c9
 	c 690000:6900000:2:3:0:0:0
+/
+ffff0000:0814:0600
+	c 538000:6900000:2:5:0:0:0
 /
 ffff0000:080b:0600
 	c 330000:6900000:2:5:0:0:0
@@ -989,36 +977,6 @@ p:Delta
 520a:ffff0000:0015:10ef:25:0
 National Geographic
 p:Delta
-560e:ffff0000:007a:08c9:1:0
-FOX News Channel
-p:CAIW Media,c:050001
-5618:ffff0000:007a:08c9:1:0
-Dorcel TV
-p:CAIW Media,c:050001
-5622:ffff0000:007a:08c9:1:0
-OUTtv
-p:CAIW Media
-5636:ffff0000:007a:08c9:1:0
-RAI Uno
-p:CAIW Media,c:050001
-5672:ffff0000:007a:08c9:1:0
-France 3
-p:CAIW Media
-55f0:ffff0000:007a:08c9:1:0
-CGTN
-p:CAIW Media
-55fa:ffff0000:007a:08c9:1:0
-Omroep Gelderland
-p:CAIW Media
-5604:ffff0000:007a:08c9:2:0
-Radio Gelderland
-p:CAIW Media
-562c:ffff0000:007a:08c9:2:0
-4ever49
-p:DFN
-5618:ffff0000:007a:08c9:25:0
-Dorcel TV
-p:CAIW Media,c:050001
 4511:ffff0000:081b:0000:1:0
 546 SID 0x4511
 p:
@@ -1238,6 +1196,12 @@ p:Ziggo,c:050001
 4ccd:ffff0000:081a:0600:25:0
 Ziggo Sport
 p:Ziggo,c:050001
+4cd0:ffff0000:081a:0600:25:0
+TV Hoeksche Waard
+p:Ziggo
+4cd1:ffff0000:081a:0600:25:0
+Ridderkerk TV
+p:Ziggo
 4cd7:ffff0000:081a:0600:25:0
 SBS9
 p:Ziggo,c:050001,c:090202
@@ -1307,33 +1271,33 @@ p:Telenet
 051c:ffff0000:000d:0001:25:0
 RTL plug
 p:Telenet
-4c19:ffff0000:0836:0000:1:0
-362 SID 0x4c19
-p:
-4c1b:ffff0000:0836:0000:1:0
-362 SID 0x4c1b
-p:
-4c1c:ffff0000:0836:0000:1:0
-362 SID 0x4c1c
-p:
-4c1f:ffff0000:0836:0000:1:0
-362 SID 0x4c1f
-p:
-4c22:ffff0000:0836:0000:1:0
-362 SID 0x4c22
-p:
-4c24:ffff0000:0836:0000:1:0
-362 SID 0x4c24
-p:
-4c25:ffff0000:0836:0000:1:0
-362 SID 0x4c25
-p:
-4c26:ffff0000:0836:0000:1:0
-362 SID 0x4c26
-p:
-4c27:ffff0000:0836:0000:1:0
-362 SID 0x4c27
-p:
+5618:ffff0000:007a:08c9:1:0
+Dorcel TV
+p:CAIW Media,c:050001
+5622:ffff0000:007a:08c9:1:0
+OUTtv
+p:CAIW Media
+5636:ffff0000:007a:08c9:1:0
+RAI Uno
+p:CAIW Media,c:050001
+5672:ffff0000:007a:08c9:1:0
+France 3
+p:CAIW Media
+55f0:ffff0000:007a:08c9:1:0
+CGTN
+p:CAIW Media
+55fa:ffff0000:007a:08c9:1:0
+Omroep Gelderland
+p:CAIW Media
+5604:ffff0000:007a:08c9:2:0
+Radio Gelderland
+p:CAIW Media
+562c:ffff0000:007a:08c9:2:0
+4ever49
+p:DFN
+5618:ffff0000:007a:08c9:25:0
+Dorcel TV
+p:CAIW Media,c:050001
 811a:ffff0000:0085:08c9:1:0
 NPO 1 extra
 p:CAIW Media
@@ -1628,9 +1592,6 @@ p:Delta
 0327:ffff0000:0008:10ef:1:0
 Pro Sieben
 p:Delta
-0328:ffff0000:0008:10ef:1:0
-Fox News Channel
-p:DELTA
 0326:ffff0000:0008:10ef:25:0
 RTL HD
 p:Delta
@@ -1805,6 +1766,12 @@ p:Ziggo
 4560:ffff0000:0012:0600:1:0
 Humax 5300 dev
 p:Ziggo
+4d2d:ffff0000:0012:0600:25:0
+Omroep PIM
+p:Ziggo,c:050001
+4d2e:ffff0000:0012:0600:25:0
+RTV Purmerend
+p:Ziggo,c:050001
 4e28:ffff0000:0801:0600:1:0
 274 SID 0x4e28
 p:
@@ -2363,6 +2330,9 @@ p:Ziggo
 278a:ffff0000:0805:0600:2:0
 Radio509
 p:Ziggo
+4a39:ffff0000:0805:0600:25:0
+TWEE TV
+p:Ziggo
 4a3d:ffff0000:0805:0600:25:0
 BBC News
 p:Ziggo,c:050001,c:098800
@@ -2675,126 +2645,6 @@ p:Ziggo
 4e57:ffff0000:0803:0600:25:0
 MyZen
 p:Ziggo,c:050001,c:090101
-544f:ffff0000:083b:0000:1:0
-418 SID 0x544f
-p:
-5457:ffff0000:083b:0000:1:0
-418 SID 0x5457
-p:
-5458:ffff0000:083b:0000:1:0
-418 SID 0x5458
-p:
-5459:ffff0000:083b:0000:1:0
-418 SID 0x5459
-p:
-545a:ffff0000:083b:0000:1:0
-418 SID 0x545a
-p:
-4c7d:ffff0000:083b:0000:1:0
-418 SID 0x4c7d
-p:
-4c7f:ffff0000:083b:0000:1:0
-418 SID 0x4c7f
-p:
-4c87:ffff0000:083b:0000:1:0
-418 SID 0x4c87
-p:
-4c88:ffff0000:083b:0000:1:0
-418 SID 0x4c88
-p:
-4c89:ffff0000:083b:0000:1:0
-418 SID 0x4c89
-p:
-4c8a:ffff0000:083b:0000:1:0
-418 SID 0x4c8a
-p:
-4a50:ffff0000:0806:0000:1:0
-346 SID 0x4a50
-p:
-4a51:ffff0000:0806:0000:1:0
-346 SID 0x4a51
-p:
-4a53:ffff0000:0806:0000:1:0
-346 SID 0x4a53
-p:
-4665:ffff0000:0806:0000:2:0
-346 SID 0x4665
-p:
-4666:ffff0000:0806:0000:2:0
-346 SID 0x4666
-p:
-4667:ffff0000:0806:0000:2:0
-346 SID 0x4667
-p:
-4668:ffff0000:0806:0000:2:0
-346 SID 0x4668
-p:
-4669:ffff0000:0806:0000:2:0
-346 SID 0x4669
-p:
-466a:ffff0000:0806:0000:2:0
-346 SID 0x466a
-p:
-466b:ffff0000:0806:0000:2:0
-346 SID 0x466b
-p:
-466c:ffff0000:0806:0000:2:0
-346 SID 0x466c
-p:
-466d:ffff0000:0806:0000:2:0
-346 SID 0x466d
-p:
-466e:ffff0000:0806:0000:2:0
-346 SID 0x466e
-p:
-466f:ffff0000:0806:0000:2:0
-346 SID 0x466f
-p:
-4670:ffff0000:0806:0000:2:0
-346 SID 0x4670
-p:
-4671:ffff0000:0806:0000:2:0
-346 SID 0x4671
-p:
-4672:ffff0000:0806:0000:2:0
-346 SID 0x4672
-p:
-4673:ffff0000:0806:0000:2:0
-346 SID 0x4673
-p:
-27e8:ffff0000:0806:0000:2:0
-346 SID 0x27e8
-p:
-27e9:ffff0000:0806:0000:2:0
-346 SID 0x27e9
-p:
-27ea:ffff0000:0806:0000:2:0
-346 SID 0x27ea
-p:
-27eb:ffff0000:0806:0000:2:0
-346 SID 0x27eb
-p:
-27ec:ffff0000:0806:0000:2:0
-346 SID 0x27ec
-p:
-27ed:ffff0000:0806:0000:2:0
-346 SID 0x27ed
-p:
-27ee:ffff0000:0806:0000:2:0
-346 SID 0x27ee
-p:
-27ef:ffff0000:0806:0000:2:0
-346 SID 0x27ef
-p:
-27f0:ffff0000:0806:0000:2:0
-346 SID 0x27f0
-p:
-27f1:ffff0000:0806:0000:2:0
-346 SID 0x27f1
-p:
-27f2:ffff0000:0806:0000:2:0
-346 SID 0x27f2
-p:
 0451:ffff0000:000b:25a8:1:0
 Kabel 1
 p:SKV
@@ -2855,96 +2705,6 @@ p:SKV
 1458:ffff0000:0034:25a8:25:0
 Nickelodeon
 p:SKV
-4a54:ffff0000:0806:0600:1:0
-Ziggo TV
-p:Ziggo
-4665:ffff0000:0806:0600:2:0
-Op De Koffie
-p:Ziggo
-4666:ffff0000:0806:0600:2:0
-Calm Piano
-p:Ziggo
-4667:ffff0000:0806:0600:2:0
-Mellow Beats
-p:Ziggo
-4668:ffff0000:0806:0600:2:0
-Take It Easy
-p:Ziggo
-4669:ffff0000:0806:0600:2:0
-Dinner Time
-p:Ziggo
-466a:ffff0000:0806:0600:2:0
-LOVE.
-p:Ziggo
-466b:ffff0000:0806:0600:2:0
-Voel Je Goed
-p:Ziggo
-466c:ffff0000:0806:0600:2:0
-Sing-Along
-p:Ziggo
-466d:ffff0000:0806:0600:2:0
-NL Classics
-p:Ziggo
-466e:ffff0000:0806:0600:2:0
-This is EDM
-p:Ziggo
-466f:ffff0000:0806:0600:2:0
-Club Techno
-p:Ziggo
-4670:ffff0000:0806:0600:2:0
-Reggae Feels
-p:Ziggo
-4671:ffff0000:0806:0600:2:0
-Siempre Latino
-p:Ziggo
-4672:ffff0000:0806:0600:2:0
-Country Roads
-p:Ziggo
-4673:ffff0000:0806:0600:2:0
-50s&60s Rock
-p:Ziggo
-27e8:ffff0000:0806:0600:2:0
-Sky Radio
-p:Ziggo
-27e9:ffff0000:0806:0600:2:0
-FunX
-p:Ziggo
-27ea:ffff0000:0806:0600:2:0
-KINK
-p:Ziggo
-27eb:ffff0000:0806:0600:2:0
-JOE
-p:Ziggo
-27ec:ffff0000:0806:0600:2:0
-NPO Campus Radio
-p:Ziggo
-27ed:ffff0000:0806:0600:2:0
-NPO Sterren NL
-p:Ziggo
-27ee:ffff0000:0806:0600:2:0
-Qmusic Het Foute Uur
-p:Ziggo
-27ef:ffff0000:0806:0600:2:0
-Qmusic TOP 40
-p:Ziggo
-27f0:ffff0000:0806:0600:2:0
-Qmusic Nederlandstalig
-p:Ziggo
-27f1:ffff0000:0806:0600:2:0
-Qmusic Thema
-p:Ziggo
-27f2:ffff0000:0806:0600:2:0
-Qmusic 90s 00s
-p:Ziggo
-4a53:ffff0000:0806:0600:22:0
-SBS6
-p:Ziggo,c:050001,c:098800
-4a50:ffff0000:0806:0600:25:0
-Net5
-p:Ziggo,c:050001,c:090202
-4a51:ffff0000:0806:0600:25:0
-Ketnet
-p:Ziggo,c:050001,c:098800
 0b57:ffff0000:001d:25a8:1:0
 Infokanaal
 p:SKV
@@ -3218,39 +2978,6 @@ p:Delta
 006c:ffff0000:0001:10ef:25:0
 Disney Channel
 p:Delta
-4a66:ffff0000:0807:0000:1:0
-410 SID 0x4a66
-p:
-4a67:ffff0000:0807:0000:1:0
-410 SID 0x4a67
-p:
-4679:ffff0000:0807:0000:2:0
-410 SID 0x4679
-p:
-467a:ffff0000:0807:0000:2:0
-410 SID 0x467a
-p:
-467b:ffff0000:0807:0000:2:0
-410 SID 0x467b
-p:
-467c:ffff0000:0807:0000:2:0
-410 SID 0x467c
-p:
-467d:ffff0000:0807:0000:2:0
-410 SID 0x467d
-p:
-467e:ffff0000:0807:0000:2:0
-410 SID 0x467e
-p:
-467f:ffff0000:0807:0000:2:0
-410 SID 0x467f
-p:
-4680:ffff0000:0807:0000:2:0
-410 SID 0x4680
-p:
-4681:ffff0000:0807:0000:2:0
-410 SID 0x4681
-p:
 1969:ffff0000:0c7a:0600:1:0
 TV Hoeksche Waard
 p:Ziggo
@@ -3323,11 +3050,26 @@ p:Ziggo
 1968:ffff0000:0c7a:0600:25:0
 TV-Papendrecht
 p:Ziggo
+196a:ffff0000:0c7a:0600:25:0
+Open Rotterdam
+p:Ziggo
+196b:ffff0000:0c7a:0600:25:0
+Rotterdam Podium
+p:Ziggo
+196c:ffff0000:0c7a:0600:25:0
+Atos TV
+p:Ziggo
 196d:ffff0000:0c7a:0600:25:0
 LINQ TV
 p:Ziggo
+196e:ffff0000:0c7a:0600:25:0
+TV Dordrecht
+p:Ziggo
 196f:ffff0000:0c7a:0600:25:0
 Lansingerland TV
+p:Ziggo
+1970:ffff0000:0c7a:0600:25:0
+Capelle TV
 p:Ziggo
 1971:ffff0000:0c7a:0600:25:0
 RTV Slogo
@@ -3419,39 +3161,6 @@ p:SKV
 0770:ffff0000:0013:25a8:25:0
 Eurosport 2 HD
 p:SKV
-4b6d:ffff0000:0814:0600:1:0
-538 SID 0x4b6d
-p:
-4b6e:ffff0000:0814:0600:1:0
-538 SID 0x4b6e
-p:
-4b65:ffff0000:0814:0600:22:0
-Nicktoons
-p:Ziggo
-4b67:ffff0000:0814:0600:22:0
-Nick Jr.
-p:Ziggo
-4b68:ffff0000:0814:0600:22:0
-MTV 90s
-p:Ziggo
-4b69:ffff0000:0814:0600:22:0
-PassieXXX
-p:Ziggo,c:050001
-4b70:ffff0000:0814:0600:22:0
-Meiden van Holland Hard
-p:Ziggo,c:050001
-4b6b:ffff0000:0814:0600:25:0
-NPO 1 extra
-p:Ziggo,c:050001,c:090202
-4b6d:ffff0000:0814:0600:25:0
-Brazzers TV
-p:Ziggo,c:050001
-4b6e:ffff0000:0814:0600:25:0
-Dorcel TV
-p:Ziggo,c:050001
-4b71:ffff0000:0814:0600:25:0
-Penthouse Gold
-p:Ziggo,c:050001
 426e:ffff0000:0011:10ef:1:0
 SLAM!TV
 p:Delta
@@ -5546,14 +5255,8 @@ p:Ziggo
 13ff:ffff0000:0cac:0600:2:0
 Radio Studio040
 p:Ziggo
-1fab:ffff0000:0cac:0600:22:0
-SIRIS-tv
-p:Ziggo,c:050001
 1fb0:ffff0000:0cac:0600:22:0
 eentv
-p:Ziggo,c:050001
-1fb1:ffff0000:0cac:0600:22:0
-KempenTV
 p:Ziggo,c:050001
 1faa:ffff0000:0cac:0600:25:0
 Studio040
@@ -5774,6 +5477,93 @@ p:Ziggo,c:050001
 4b39:ffff0000:0810:0600:25:0
 Ziggo
 p:Ziggo,c:050001
+4665:ffff0000:0806:0600:2:0
+Op De Koffie
+p:Ziggo
+4666:ffff0000:0806:0600:2:0
+Calm Piano
+p:Ziggo
+4667:ffff0000:0806:0600:2:0
+Mellow Beats
+p:Ziggo
+4668:ffff0000:0806:0600:2:0
+Take It Easy
+p:Ziggo
+4669:ffff0000:0806:0600:2:0
+Dinner Time
+p:Ziggo
+466a:ffff0000:0806:0600:2:0
+LOVE.
+p:Ziggo
+466b:ffff0000:0806:0600:2:0
+Voel Je Goed
+p:Ziggo
+466c:ffff0000:0806:0600:2:0
+Sing-Along
+p:Ziggo
+466d:ffff0000:0806:0600:2:0
+NL Classics
+p:Ziggo
+466e:ffff0000:0806:0600:2:0
+This is EDM
+p:Ziggo
+466f:ffff0000:0806:0600:2:0
+Club Techno
+p:Ziggo
+4670:ffff0000:0806:0600:2:0
+Reggae Feels
+p:Ziggo
+4671:ffff0000:0806:0600:2:0
+Siempre Latino
+p:Ziggo
+4672:ffff0000:0806:0600:2:0
+Country Roads
+p:Ziggo
+4673:ffff0000:0806:0600:2:0
+50s&60s Rock
+p:Ziggo
+27e8:ffff0000:0806:0600:2:0
+Sky Radio
+p:Ziggo
+27e9:ffff0000:0806:0600:2:0
+FunX
+p:Ziggo
+27ea:ffff0000:0806:0600:2:0
+KINK
+p:Ziggo
+27eb:ffff0000:0806:0600:2:0
+JOE
+p:Ziggo
+27ec:ffff0000:0806:0600:2:0
+NPO Campus Radio
+p:Ziggo
+27ed:ffff0000:0806:0600:2:0
+NPO Sterren NL
+p:Ziggo
+27ee:ffff0000:0806:0600:2:0
+Qmusic Het Foute Uur
+p:Ziggo
+27ef:ffff0000:0806:0600:2:0
+Qmusic TOP 40
+p:Ziggo
+27f0:ffff0000:0806:0600:2:0
+Qmusic Nederlandstalig
+p:Ziggo
+27f1:ffff0000:0806:0600:2:0
+Qmusic Thema
+p:Ziggo
+27f2:ffff0000:0806:0600:2:0
+Qmusic 90s 00s
+p:Ziggo
+4a53:ffff0000:0806:0600:22:0
+SBS6
+p:Ziggo,c:050001,c:098800
+4a50:ffff0000:0806:0600:25:0
+Net5
+p:Ziggo,c:050001,c:090202
+4a51:ffff0000:0806:0600:25:0
+Ketnet
+p:Ziggo,c:050001,c:098800
 276c:ffff0000:0004:10ef:2:0
 BBC Radio 3
 p:Delta
@@ -5954,9 +5744,6 @@ p:Ziggo
 4ade:ffff0000:080d:0600:25:0
 Comedy Central
 p:Ziggo,c:050001
-4c1e:ffff0000:0836:0600:22:0
-MTV Hits
-p:Ziggo
 4c26:ffff0000:0836:0600:22:0
 Nick Music
 p:Ziggo
@@ -5993,6 +5780,30 @@ p:CAIW Media,c:050001
 756c:ffff0000:0082:08c9:25:0
 HISTORY
 p:CAIW Media,c:050001
+4b65:ffff0000:0814:0600:22:0
+Nicktoons
+p:Ziggo
+4b67:ffff0000:0814:0600:22:0
+Nick Jr.
+p:Ziggo
+4b69:ffff0000:0814:0600:22:0
+PassieXXX
+p:Ziggo,c:050001
+4b70:ffff0000:0814:0600:22:0
+Meiden van Holland Hard
+p:Ziggo,c:050001
+4b6b:ffff0000:0814:0600:25:0
+NPO 1 extra
+p:Ziggo,c:050001,c:090202
+4b6d:ffff0000:0814:0600:25:0
+Brazzers TV
+p:Ziggo,c:050001
+4b6e:ffff0000:0814:0600:25:0
+Dorcel TV
+p:Ziggo,c:050001
+4b71:ffff0000:0814:0600:25:0
+Penthouse Gold
+p:Ziggo,c:050001
 4ab1:ffff0000:080b:0600:22:0
 RTL 8
 p:Ziggo,c:050001,c:098800
@@ -6259,9 +6070,6 @@ ARD
 p:Ziggo,c:050001
 4e3c:ffff0000:0802:0600:25:0
 ZDF
-p:Ziggo,c:050001
-4e3d:ffff0000:0802:0600:25:0
-MTV Live HD
 p:Ziggo,c:050001
 4e3e:ffff0000:0802:0600:25:0
 Ziggo Sport Totaal

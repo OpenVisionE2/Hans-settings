@@ -1,5 +1,5 @@
-#NAME Stream Jazz radio
-#SERVICE 1:64:44d:0:0:0:0:0:0:0:
+#NAME Stream Jazz + Soul
+#SERVICE 1:64:46b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nederland++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.greenhost.nl%3a8006/jazznotjazz:Concertzender Jazznotjazz
 #DESCRIPTION Concertzender Jazznotjazz
@@ -23,19 +23,23 @@
 #DESCRIPTION Jazz de Ville Jazz
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.radio.co/s849294a22/listen:Red Light Jazz Radio
 #DESCRIPTION Red Light Jazz Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.soulradio.com/SOULRADIO.mp3:Soul Radio
+#DESCRIPTION Soul Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.wearethebeat.com/listen/soulbox/soulbox:Soulbox Radio
+#DESCRIPTION Soulbox Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-soulshow-cdp.triple-it.nl/soulshow_128.mp3:Soulshow Radio
 #DESCRIPTION Soulshow Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sublime.nl/web21_mp3 :Sublime New Jazz
 #DESCRIPTION Sublime New Jazz
-#SERVICE 1:64:44e:0:0:0:0:0:0:0:
+#SERVICE 1:64:46c:0:0:0:0:0:0:0:
 #DESCRIPTION ++België++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.crooze.fm%3a8002/;stream128:Crooze FM Radio - jazz
-#DESCRIPTION Crooze FM Radio - jazz
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.crooze.fm%3a8010/;stream128:Crooze FM Radio - smooth jazz
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ouhmq3apu6pb:Chérie Jazzy
+#DESCRIPTION Chérie Jazzy
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.shoutcast.com/smoothjazz-crooze-mp3:Crooze FM Radio - smooth jazz
 #DESCRIPTION Crooze FM Radio - smooth jazz
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//redbeemedia.streamabc.net/redbm-m3jazz-mp3-192-2456713:RTBF - Musiq3 Jazz
 #DESCRIPTION RTBF - Musiq3 Jazz
-#SERVICE 1:64:44f:0:0:0:0:0:0:0:
+#SERVICE 1:64:46d:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.bigblueswing.com%3a8002/;stream.nsv:Big Blue Swing
 #DESCRIPTION Big Blue Swing
@@ -45,7 +49,7 @@
 #DESCRIPTION Jazz and Lounge
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//diffusion.clim.digital%3a1180/stream:Jazzbox Radio International
 #DESCRIPTION Jazzbox Radio International
-#SERVICE 1:64:450:0:0:0:0:0:0:0:
+#SERVICE 1:64:46e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Duitsland++
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.laut.fm/1000jazzhits:1000-Jazz Hits
 #DESCRIPTION 1000-Jazz Hits
@@ -53,9 +57,11 @@
 #DESCRIPTION 1000-Euro Smooth Jazz
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//acidjazz.stream.laut.fm/acidjazz:Acid Jazz Radio
 #DESCRIPTION Acid Jazz Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.radio.co/s774887f7b/listen:Jazzradio Berlin
+#DESCRIPTION Jazzradio Berlin
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.laut.fm/thejazzofwiesbaden:The Jazz of Wiesbaden
 #DESCRIPTION The Jazz of Wiesbaden
-#SERVICE 1:64:451:0:0:0:0:0:0:0:
+#SERVICE 1:64:46f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland - UK++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/69079/stream/106852:ACE Cafe Radio
 #DESCRIPTION ACE Cafe Radio
@@ -67,27 +73,29 @@
 #DESCRIPTION Jazz London Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//eilo.org%3a8000/jazzfunksoul:Radio Eilo - Jazz, Funk & Soul Radio
 #DESCRIPTION Radio Eilo - Jazz, Funk & Soul Radio
-#SERVICE 1:64:452:0:0:0:0:0:0:0:
+#SERVICE 1:64:470:0:0:0:0:0:0:0:
 #DESCRIPTION ++Frankrijk/Franstalig++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//direct.fipradio.fr/live/fip-webradio2.mp3:FIP autour du jazz
 #DESCRIPTION FIP autour du jazz
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//jazzradio.ice.infomaniak.ch/jazzradio-high.mp3:Jazz Radio
 #DESCRIPTION Jazz Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//scdn.nrjaudio.fm/adwz1/fr/30641/mp3_128.mp3            :Nostalgie - Jazz
+#DESCRIPTION Nostalgie - Jazz
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//tsfjazz.ice.infomaniak.ch/tsfjazz-high:TSF Jazz
 #DESCRIPTION TSF Jazz
-#SERVICE 1:64:453:0:0:0:0:0:0:0:
+#SERVICE 1:64:471:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostenrijk++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radiotechnikum.at/CITYJAZZ:City Jazz Radio
 #DESCRIPTION City Jazz Radio
-#SERVICE 1:64:454:0:0:0:0:0:0:0:
+#SERVICE 1:64:472:0:0:0:0:0:0:0:
 #DESCRIPTION ++Tsjechië++
 #SERVICE 4097:0:2:138:0:0:0:0:0:0:https%3a//rozhlas.stream/jazz.mp3:ČRo Jazz
 #DESCRIPTION ČRo Jazz
-#SERVICE 1:64:455:0:0:0:0:0:0:0:
+#SERVICE 1:64:473:0:0:0:0:0:0:0:
 #DESCRIPTION ++Zuid-Afrika++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//edge.iono.fm/xice/fmr_live_medium.mp3:Fine Music Radio 101.3
 #DESCRIPTION Fine Music Radio 101.3
-#SERVICE 1:64:456:0:0:0:0:0:0:0:
+#SERVICE 1:64:474:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige landen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/AFN02_S01AAC.aac:AFN Jazz+
 #DESCRIPTION AFN Jazz+

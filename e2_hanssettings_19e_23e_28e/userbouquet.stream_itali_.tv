@@ -1,75 +1,53 @@
 #NAME Stream Italië (IT)
-#SERVICE 1:64:37c:0:0:0:0:0:0:0:
+#SERVICE 1:64:386:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8:RAI 1
 #DESCRIPTION RAI 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122738:RAI 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd:RAI 1 (#)
+#DESCRIPTION RAI 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd:RAI 2
 #DESCRIPTION RAI 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wzstreaming.rai.it/TVlive/liveStream/chunklist_w823540263.m3u8:RAI 3
 #DESCRIPTION RAI 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8:RAI 3 (#)
 #DESCRIPTION RAI 3 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122740:RAI 4
-#DESCRIPTION RAI 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122741:RAI 5
-#DESCRIPTION RAI 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122742:RAI Gulp
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd:RAI Gulp
 #DESCRIPTION RAI Gulp
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fortv.cc%3a8080/gscQ3v/779460/212900:RAI Italia
 #DESCRIPTION RAI Italia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8:RAI Italia (#)
-#DESCRIPTION RAI Italia (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8:RAi Italia Americas
-#DESCRIPTION RAi Italia Americas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8:RAI Italia 2
+#DESCRIPTION RAI Italia 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8:RAI Italia Americas
+#DESCRIPTION RAI Italia Americas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIItaliaAustralia/Live.m3u8:RAI Italia Australia
 #DESCRIPTION RAI Italia Australia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122766:RAI Movie
-#DESCRIPTION RAI Movie
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8:RAI News 24
 #DESCRIPTION RAI News 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122767:RAI Premium
-#DESCRIPTION RAI Premium
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122854:RAI Scuola
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd:RAI News 24 (#)
+#DESCRIPTION RAI News 24 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd:RAI Scuola
 #DESCRIPTION RAI Scuola
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122837:RAI Sport +
-#DESCRIPTION RAI Sport +
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122855:RAI Storia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd:RAI Sport
+#DESCRIPTION RAI Sport
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd:RAI Storia
 #DESCRIPTION RAI Storia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIPremium/Live.m3u8:RAI World Premium
 #DESCRIPTION RAI World Premium
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122743:RAI Yoyo
-#DESCRIPTION RAI Yoyo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=601709&extension=ts&play_token=x7LoLDYXKG:Mediaset Italia 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd:Mediaset Italia 1
 #DESCRIPTION Mediaset Italia 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122735:Mediaset Italia 2
-#DESCRIPTION Mediaset Italia 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122745:Mediaset Rete 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd:Mediaset Rete 4
 #DESCRIPTION Mediaset Rete 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122720:Mediaset Canale 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd:Mediaset Canale 5
 #DESCRIPTION Mediaset Canale 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122730:Mediaset La 5
-#DESCRIPTION Mediaset La 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=379857&extension=ts:Mediaset 20
 #DESCRIPTION Mediaset 20
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=602214&extension=ts&play_token=V4wlccvnB6:Mediaset Cine 34
-#DESCRIPTION Mediaset Cine 34
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122734:Mediaset Extra
-#DESCRIPTION Mediaset Extra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=601655&extension=ts&play_token=5SnfaOI7cN:Mediaset Focus
-#DESCRIPTION Mediaset Focus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=602211&extension=ts&play_token=2OHzCCY3Uu:Mediaset Iris
-#DESCRIPTION Mediaset Iris
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=602199&extension=ts&play_token=84IvG3fVvP:Mediaset Top Crime
-#DESCRIPTION Mediaset Top Crime
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8:La 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd:La 7
 #DESCRIPTION La 7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/122731:La 7d
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd:La 7d
 #DESCRIPTION La 7d
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=602198&extension=ts&play_token=qQrtzXtVHd:TV 8
-#DESCRIPTION TV 8
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=379758&extension=ts:Sport Italia
 #DESCRIPTION Sport Italia
-#SERVICE 1:64:37d:0:0:0:0:0:0:0:
+#SERVICE 1:64:387:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8:7 RadioVisione
 #DESCRIPTION 7 RadioVisione
@@ -261,6 +239,8 @@
 #DESCRIPTION Radio 51
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8:Radio Birikina TV
 #DESCRIPTION Radio Birikina TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//57068da1deb21.streamlock.net/radiorbs/radiorbs/playlist.m3u8:Radio Brianza
+#DESCRIPTION Radio Brianza
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/Mikef/m6UxZXEyn1/114900:Radio Bruno
 #DESCRIPTION Radio Bruno
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/Mikef/m6UxZXEyn1/114901:Radio Capital

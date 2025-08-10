@@ -1,23 +1,47 @@
 #NAME Stream Moldavië (MD)
-#SERVICE 1:64:3e3:0:0:0:0:0:0:0:
-#DESCRIPTION Hoofdzenders
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.trm.md%3a1935/live/MoldovaUnu1/playlist.m3u8:Moldova 1
+#SERVICE 1:64:621:0:0:0:0:0:0:0:
+#DESCRIPTION ++hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//v9.trm.md/static/streaming-playlists/hls/b387c76b-38a5-4936-a0ce-cc789e913296/master.m3u8:Moldova 1
 #DESCRIPTION Moldova 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.trm.md%3a1935/live/MoldovaDoi2/playlist.m3u8:Moldova 2
-#DESCRIPTION Moldova 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.tv8.md/TV7/tracks-v2a1/mono.m3u8?token=e2e25a391f49899270bd0c7f73596d46f2d2024f:TV 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//v.trm.md/static/streaming-playlists/hls/937e4e0e-7174-4fb2-a299-480e68b49ecb/master.m3u8:Moldova 2 
+#DESCRIPTION Moldova 2 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a00a:Moldova 2 (#)
+#DESCRIPTION Moldova 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a007:N4
+#DESCRIPTION N4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.cdn.tv8.md/TV7/tracks-v1a1/mono.m3u8?token=f8ee061b78c76aeb4b321d5ddcc5416a7d27f3cb:TV 8
 #DESCRIPTION TV 8
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.protv.md/acasatv/acasatv.m3u8:Acasa TV
-#DESCRIPTION Acasa TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.89.199.174%3a81/hls/live2.m3u8:BTV
-#DESCRIPTION BTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livebeta.publika.md/LIVE/P/1500.m3u8:Publika TV
-#DESCRIPTION Publika TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.28.25.122/hls/tnt_md.m3u8:THT Moldova
-#DESCRIPTION THT Moldova
-#SERVICE 1:64:3e4:0:0:0:0:0:0:0:
-#DESCRIPTION Overige zenders
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//busuioctv.iforward.eu/hls/busuioc.m3u8:Busuioc TV
-#DESCRIPTION Busuioc TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live4.cdn.jurnaltv.md/JurnalTV_HD/tracks-v1a1/mono.m3u8?token=da431610d3e1f3047f62b6c5c7d1908c8f72b028:Jurnal TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a00l00:Cinema 1
+#DESCRIPTION Cinema 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a00f:Exclusiv TV
+#DESCRIPTION Exclusiv TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a00f00:GRT
+#DESCRIPTION GRT
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live1.cdn.jurnaltv.md/JurnalTV_HD/tracks-v1a1/mono.m3u8?token=ae8573dd758754727451475447204193d0ecbeee:Jurnal TV
 #DESCRIPTION Jurnal TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a00i:Jurnal TV (#)
+#DESCRIPTION Jurnal TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//5.56.77.9%3a50000:NTS
+#DESCRIPTION NTS
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a00d:NTS (#)
+#DESCRIPTION NTS (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a009:Premiera TV
+#DESCRIPTION Premiera TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cachestar.privesc.eu/liniar/moldova/playlist.m3u8:Privesc.Eu
+#DESCRIPTION Privesc.Eu
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a00g:Pro TV Chisinau
+#DESCRIPTION Pro TV Chisinau
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a008:Star TV
+#DESCRIPTION Star TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tezaurtv.md/wp-content/uploads/live/index.m3u8:Tezaur TV
+#DESCRIPTION Tezaur TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a00e:Zona M
+#DESCRIPTION Zona M
+#SERVICE 1:64:622:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a005:Busuioc TV
+#DESCRIPTION Busuioc TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.noroc.tv/noroc/noroc.m3u8:Noroc TV
+#DESCRIPTION Noroc TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.233.57.226%3a8001/play/a00i00:Noroc TV (#)
+#DESCRIPTION Noroc TV (#)

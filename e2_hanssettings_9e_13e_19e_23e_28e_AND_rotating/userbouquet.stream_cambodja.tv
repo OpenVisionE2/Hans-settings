@@ -1,23 +1,39 @@
 #NAME Stream Cambodja (KH)
-#SERVICE 1:64:38c:0:0:0:0:0:0:0:
+#SERVICE 1:64:5c4:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/tvk.stream/chunklist.m3u8:TVK 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8:TVK 1
 #DESCRIPTION TVK 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kh.malimarcdn.com/live/tvk2.stream/chunklist.m3u8:TVK 2
 #DESCRIPTION TVK 2
-#SERVICE 1:64:38d:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=670194&extension=ts&play_token=4ajn9jq1fK:TV 5 Cambodia
+#DESCRIPTION TV 5 Cambodia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//es1-p1-netcdn.metfone.com.kh/netcdn-live-36/36/output/playlist.m3u8:TV 5 Cambodia (#)
+#DESCRIPTION TV 5 Cambodia (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//43.252.18.195%3a5080/live/streams/ctv8.m3u8:CTV 8
+#DESCRIPTION CTV 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg6.tv360.metfone.com.kh/CTV9HD@1.m3u8:CTV 9
+#DESCRIPTION CTV 9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.ams.com.kh/app/stream/playlist.m3u8:Apsara TV 11
+#DESCRIPTION Apsara TV 11
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//43.252.18.195%3a5080/live/streams/cnctv.m3u8:CNC
+#DESCRIPTION CNC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//202.62.56.22%3a8080/hls/MOITV.m3u8:MOI TV
+#DESCRIPTION MOI TV
+#SERVICE 1:64:5c5:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.176.130.123%3a8989/live/bayontv_480k.stream/chunklist_.m3u8:Bayon TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8:Bayon TV
 #DESCRIPTION Bayon TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.176.130.123%3a8989/live/bayontv1_480k.stream/chunklist_.m3u8:BTV News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg2.tv360.metfone.com.kh/livetest/bayontest.stream/playlist.m3u8:BTV News
 #DESCRIPTION BTV News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//124.248.165.18%3a1935/live/myStream.smil/chunklist_.m3u8:MSJ TV
-#DESCRIPTION MSJ TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//203.176.130.123%3a8989/live/pnn_480k.stream/playlist.m3u8:PNN
-#DESCRIPTION PNN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//43.252.18.195%3a5080/live/streams/ctntv.m3u8:CTN
+#DESCRIPTION CTN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8:EAC News
+#DESCRIPTION EAC News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming.freshnewsasia.com%3a1935/live/myStream/playlist.m3u8:Fresh News 24
+#DESCRIPTION Fresh News 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//43.252.18.195%3a5080/LiveApp/streams/ntvhd.m3u8:NTV
+#DESCRIPTION NTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//seatv.netlinkbroadcaster.com/hls/test.m3u8:Sea TV
 #DESCRIPTION Sea TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fmseatv.netlinkbroadcaster.com/hls/test.m3u8:Sea TV-Radio
-#DESCRIPTION Sea TV-Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8:Tea TV
 #DESCRIPTION Tea TV

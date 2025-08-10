@@ -1,22 +1,16 @@
 #NAME Stream Servië (RS)
-#SERVICE 1:64:16c0:0:0:0:0:0:0:0:
+#SERVICE 1:64:16cb:0:0:0:0:0:0:0:
 #DESCRIPTION ++RTS-hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39714&extension=ts:RTS 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.37.116.201%3a8008/Cristian_Zaharie/eYq7TH8t/473565:RTS 1
 #DESCRIPTION RTS 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39713&extension=ts:RTS 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.37.116.201%3a8008/Cristian_Zaharie/eYq7TH8t/473568:RTS 2
 #DESCRIPTION RTS 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39712&extension=ts:RTS 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//199.115.193.39%3a8008/Dascalu@PetreSorin/kNBFAPTU2G/473570:RTS 3
 #DESCRIPTION RTS 3
-#SERVICE 1:64:16c1:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cachehsi1a.netplus.ch/live/eds/rtssat/browser-dash/rtssat.mpd:RTS Svet
+#DESCRIPTION RTS Svet
+#SERVICE 1:64:16cc:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.83.120.135%3a8001/play/a112:21 Junior
-#DESCRIPTION 21 Junior
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.83.120.135%3a8001/play/a0jq:21 Mix
-#DESCRIPTION 21 Mix
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.83.120.135%3a8001/play/a03j:21 Plus
-#DESCRIPTION 21 Plus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.83.120.135%3a8001/play/a0i9:21 Popullore
-#DESCRIPTION 21 Popullore
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=31379&extension=ts:Agro TV
 #DESCRIPTION Agro TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-live/0nj-g63-92x-few/tracks-v2a1/mono.ts.m3u8:ATV
@@ -45,6 +39,8 @@
 #DESCRIPTION N1 RS
 #SERVICE 4097:0:1:b456:6c83:ec:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1srp&u=n1info&p=n1Sh4redSecre7iNf0:N1 SRB
 #DESCRIPTION N1 SRB
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge8.pink.rs/narodnatv/index.m3u8:Narodna TV
+#DESCRIPTION Narodna TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=50651&extension=ts:Nova Serbia
 #DESCRIPTION Nova Serbia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39709&extension=ts:Pink 1
@@ -71,10 +67,14 @@
 #DESCRIPTION TV 1000
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.60.238.10%3a1935/live/belleamie/playlist.m3u8:TV Belle Amie
 #DESCRIPTION TV Belle Amie
-#SERVICE 1:64:16c2:0:0:0:0:0:0:0:
+#SERVICE 1:64:16cd:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.132.74.5%3a8000/play/a00a:24 Kitchen Serbia
+#DESCRIPTION 24 Kitchen Serbia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-hls-web-ajb.getaj.net/AJB/index.m3u8:Al Jazeera Balkans
 #DESCRIPTION Al Jazeera Balkans
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.132.74.5%3a8000/play/a00k:Arena Sport 1
+#DESCRIPTION Arena Sport 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39708&extension=ts:Happy
 #DESCRIPTION Happy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?stream=hp1400&sp=idjtv&u=idjtv&p=In$trum300na765ta&channel=idjhd&player=m3u8:IDJ TV

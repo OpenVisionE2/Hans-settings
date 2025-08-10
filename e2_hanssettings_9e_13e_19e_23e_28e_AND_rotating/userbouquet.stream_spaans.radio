@@ -1,34 +1,50 @@
 #NAME Stream Spaans (ES)
-#SERVICE 1:64:1c80:0:0:0:0:0:0:0:
+#SERVICE 1:64:8d8:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rne1/main/mp3/high:RNE Radio Nacional
 #DESCRIPTION RNE Radio Nacional
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_r1_main.m3u8:RNE Radio Nacional
+#DESCRIPTION RNE Radio Nacional
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rner3/main/mp3/high:RNE Radio 3
 #DESCRIPTION RNE Radio 3
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_r3_main.m3u8:RNE Radio 3
+#DESCRIPTION RNE Radio 3
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_r4_main.m3u8:RNE Radio 4
+#DESCRIPTION RNE Radio 4
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rner4/main/mp3/high:RNE Radio 4 Catalunya
 #DESCRIPTION RNE Radio 4 Catalunya
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_r5_madrid_main.m3u8:RNE Radio 5 Madrid
+#DESCRIPTION RNE Radio 5 Madrid
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rne5/mad/mp3/high:RNE Radio 5 Todo Nocitias
 #DESCRIPTION RNE Radio 5 Todo Nocitias
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rnerc/main/mp3/high:RNE Radio Clásica
 #DESCRIPTION RNE Radio Clásica
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_r2_main.m3u8:RNE Radio Clásica
+#DESCRIPTION RNE Radio Clásica
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rneree/main/mp3/high:RNE Exterior
 #DESCRIPTION RNE Exterior
-#SERVICE 1:64:1c81:0:0:0:0:0:0:0:
-#DESCRIPTION --- Spanje - Canarische Eilanden ---
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_re_main.m3u8:RNE Exterior
+#DESCRIPTION RNE Exterior
+#SERVICE 1:64:8d9:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL-talig - Canarische Eilanden en costas/NL++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//panel.amediastream.eu%3a8500/live:Holland FM
 #DESCRIPTION Holland FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mooiradio.live-streams.nl/live:Mooi Radio
-#DESCRIPTION Mooi Radio
-#SERVICE 1:64:1c82:0:0:0:0:0:0:0:
+#SERVICE 1:64:8da:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL-talig - Canarische Eilanden en costas/BE++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//opsinjoor2.live-streams.nl/:Mooi Radio Tenerife
+#DESCRIPTION Mooi Radio Tenerife
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s1.voscast.com%3a10584/stream:Radio 7 Costa Blanca
+#DESCRIPTION Radio 7 Costa Blanca
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.wradio.es%3a9000/;?type=http&nocache=1239603:Wradio (Westhoek%3a Ieper, Roeselare en Zonnebeke + Costa Blanca)
+#DESCRIPTION Wradio (Westhoek: Ieper, Roeselare en Zonnebeke + Costa Blanca)
+#SERVICE 1:64:8db:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.10.10.225/zaragoza/live-web/chunklist_b128000.m3u8?GKID=dc544ece277711e9809800163e914f69:Aragón Radio
 #DESCRIPTION Aragón Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//antares.dribbcast.com/proxy/ondasanlucar?mp=/stream:Bahio sur Radio (Sanlúcar de Barrameda)
 #DESCRIPTION Bahio sur Radio (Sanlúcar de Barrameda)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//flucast-b05-01.flumotion.com/cope/cadena100-high.mp3:Cadena 100
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cadena100-cope.flumotion.com/playlist.m3u8:Cadena 100
 #DESCRIPTION Cadena 100
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//20423.live.streamtheworld.com/CADENADIAL_SC:Cadena Dial
-#DESCRIPTION Cadena Dial
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//21633.live.streamtheworld.com/CADENASERAAC.aac:Cadena SER
 #DESCRIPTION Cadena SER
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.55.74.203/rtva/canalfiestaradio_master.mp3:Canal Fiesta
@@ -57,8 +73,8 @@
 #DESCRIPTION Coast FM - Tenerife North (Canarische eilanden - Spanje)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.costahitradio.com%3a8134/stream:Costa Hit Radio NL
 #DESCRIPTION Costa Hit Radio NL
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.elfarodigital.es%3a8000/copeceuta?:Cope Ceuta (Ceiuta, Spanje, noord-Afrika)
-#DESCRIPTION Cope Ceuta (Ceiuta, Spanje, noord-Afrika)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cadena100-cope.flumotion.com/playlist.m3u8:Cope
+#DESCRIPTION Cope
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//flucast-b02-05.flumotion.com/cope/net2.mp3:COPE Nacional
 #DESCRIPTION COPE Nacional
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wecast17-h-cloud.flumotion.com/copesedes/barcelona.mp3:COPE Barcelona
@@ -67,18 +83,18 @@
 #DESCRIPTION Costa Hit Radio (Nederlandstalig)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//c3.auracast.net%3a8020/stream/1/:Dance Radio
 #DESCRIPTION Dance Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//inselradio--di--nacs-ais-lgc--01--cdn.cast.addradio.de/inselradio/live/mp3/high:Das Inselradio Mallorca
+#DESCRIPTION Das Inselradio Mallorca
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//livestreaming.esradio.fm/stream64.mp3:EsRadio
 #DESCRIPTION EsRadio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast-streaming.nice264.com/europafmback:Europa FM
 #DESCRIPTION Europa FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.giraweb.com/8020/stream:Flaix FM Andorra
-#DESCRIPTION Flaix FM Andorra
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.giraweb.com/8010/stream:Flaixbac Andorra
-#DESCRIPTION Flaixbac Andorra
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.10.10.206/rtva/canalflamenco.mp3:Flamenco Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdnlive.codev8.net/rtvalive/smil%3achannel7.smil/playlist.m3u8:Flamenco Radio
 #DESCRIPTION Flamenco Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ex52.voordeligstreamen.nl/8050/stream:FM Goud Tenerife
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast5.asurahosting.com/proxy/fmgoudmi/live:FM Goud Tenerife
 #DESCRIPTION FM Goud Tenerife
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ukwesta.streaming.broadcast.radio/heatmallorca:Heat Mallorca (voor Engelsen daar)
+#DESCRIPTION Heat Mallorca (voor Engelsen daar)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//hitfm.kissfmradio.cires21.com/hitfm.mp3:Hit FM
 #DESCRIPTION Hit FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.135.183.124%3a8207/stream:Hola FM (Fuerventure, Duits)
@@ -89,6 +105,8 @@
 #DESCRIPTION Holland FM (Gran Canaria)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radioserver1.us%3a7088/;:I Love FM
 #DESCRIPTION I Love FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nodo05-cloud01.streaming-pro.com%3a8025/ibizaglobalradio.mp3:Ibiza Global Radio
+#DESCRIPTION Ibiza Global Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listenssl.ibizaglobalradio.com%3a8024/stream:Ibiza Global Radio
 #DESCRIPTION Ibiza Global Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s1.sonicabroadcast.com%3a7005/stream/1/:Ibiza Sonica
@@ -97,10 +115,12 @@
 #DESCRIPTION Ibiza Sound Radio (Spanje)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str2b.openstream.co/588?aw_0_1st.stationid=3138&aw_0_1st.publisherId=612&aw_0_1st.serverId=str2b:Ibiza Sound Radio (Spanje)
 #DESCRIPTION Ibiza Sound Radio (Spanje)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.isla106.com/isla106:ISLA 106 Ibiza
-#DESCRIPTION ISLA 106 Ibiza
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//kissfm.kissfmradio.cires21.com/kissfm.mp3:Kiss FM
 #DESCRIPTION Kiss FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//usa7.fastcast4u.com%3a5230/stream:KW Rock 
+#DESCRIPTION KW Rock 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.enantena.com%3a8000/laveu128.mp3:La Veu
+#DESCRIPTION La Veu
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//usa10.fastcast4u.com/latineoradio:Latineo Radio (Sevilla)
 #DESCRIPTION Latineo Radio (Sevilla)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//likeradiostream.com/likeonespain:Like One Spain
@@ -109,6 +129,8 @@
 #DESCRIPTION Loca FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CAT.mp3:LOS 40 Catalunya – ELS 40
 #DESCRIPTION LOS 40 Catalunya – ELS 40
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22673.live.streamtheworld.com/LOS40_MELILLAAAC.aac:LOS 40 Melilla
+#DESCRIPTION LOS 40 Melilla
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3:Los 40 Classic
 #DESCRIPTION Los 40 Classic
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE.mp3:Los 40 Dance
@@ -121,16 +143,22 @@
 #DESCRIPTION Mallora E1NS
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream2.inselradio.com/high.sunshine.mp3:Mallorca Sunshine Radio (Engelstalig)
 #DESCRIPTION Mallorca Sunshine Radio (Engelstalig)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mallorcasunshine--di--nacs-ais-lgc--05--cdn.cast.addradio.de/mallorcasunshine/live/mp3/high:Mallorca Sunshine Radio 
+#DESCRIPTION Mallorca Sunshine Radio 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livefastly-webs.melodia-fm.com/melodiafm/audio/master.m3u8:Melodia FM
 #DESCRIPTION Melodia FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//20073.live.streamtheworld.com/MAXIMAFMAAC.aac?csegid=2000&tdsdk=js-2.9&pname=TDSdk&pversion=2.9&banners=300x250&sbmid=ce486fb5-b5d2-4669-fe7b-c64550744bf9:Máxima FM
 #DESCRIPTION Máxima FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//flucast-b05-05.flumotion.com/cope/megastar.mp3:Megastar FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//megastar-cope.flumotion.com/chunks.m3u8:Megastar FM
+#DESCRIPTION Megastar FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//flucast-b02-01.flumotion.com/cope/megastar.mp3 :Megastar FM
 #DESCRIPTION Megastar FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//opsinjoor2.live-streams.nl/:Mooi Radio Tenerife
 #DESCRIPTION Mooi Radio Tenerife
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live-audio.ondacero.es/radio/ondacero/master.m3u8:Onda Cero
-#DESCRIPTION Onda Cero
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//zuzenean.naiz.eus/naiz_irratia.mp3:NAIZ irratia (San Sebastian)
+#DESCRIPTION NAIZ irratia (San Sebastian)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radioserver4.profesionalhosting.com%3a8146/;:Onda Cero Melilla
+#DESCRIPTION Onda Cero Melilla
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming12.elitecomunicacion.es%3a8212/stream?:Onda Color (Ceiuta, Spanje, noord-Afrika)
 #DESCRIPTION Onda Color (Ceiuta, Spanje, noord-Afrika)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s1.viastreaming.net%3a7420/stream/1/:Q FM Cool Jazz
@@ -153,6 +181,8 @@
 #DESCRIPTION Radio Finlandia Costa del Sol (Finland - Spanje)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nodo02-cloud01.streaming-pro.com%3a8005/flaixbac.mp3:Radio Flaixbac
 #DESCRIPTION Radio Flaixbac
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.emisorasmusicales.net/listen/hallo_fm/hallofm.mp3:Radio Hallo (voor Duitsers in Spanje)
+#DESCRIPTION Radio Hallo (voor Duitsers in Spanje)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//212.85.46.144/siliconorg:Radio Intereconomia
 #DESCRIPTION Radio Intereconomia
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.isla106.com/isla106:Radio Isla voor Ibiza en Mallorca (ES)
@@ -163,8 +193,8 @@
 #DESCRIPTION Radio Marca
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//dreamsiteradiocp2.com%3a8030/:Radio Maria Spanje
 #DESCRIPTION Radio Maria Spanje
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//19993.live.streamtheworld.com/SER_MELILLA.mp3:Radio Melilla Cadena SER (Spanje)
-#DESCRIPTION Radio Melilla Cadena SER (Spanje)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//19993.live.streamtheworld.com/SER_MELILLA.mp3:Radio Melilla Cadena SER
+#DESCRIPTION Radio Melilla Cadena SER
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stan319.radioca.st/stream:Radio Mi Amigo, de échte
 #DESCRIPTION Radio Mi Amigo, de échte
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//eu1.lhdserver.es%3a9161/stream:Radio Ondagongora (Córdoba)
@@ -179,10 +209,22 @@
 #DESCRIPTION Radiole Costa de la Luz, Huelva
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//19993.live.streamtheworld.com/RADIOLEAAC.aac:Radiolé
 #DESCRIPTION Radiolé
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.55.74.207/cope/rockfm/chunks.m3u8?GKID=c7a9ffb6277011e9809800163e914f69:Rock FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//us-b4-p-e-cg11-audio.cdn.mdstrm.com/live-audio-aw/65afe4a0357cec56667ac739:Flaix FM
+#DESCRIPTION Flaix FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.giraweb.com/8020/stream:Flaix FM Andorra
+#DESCRIPTION Flaix FM Andorra
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//us-b4-p-e-pb13-audio.cdn.mdstrm.com/live-audio-aw/65afe517d47dc208abd053d2:Flaixback
+#DESCRIPTION Flaixback
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.giraweb.com/8010/stream:Flaixbac Andorra
+#DESCRIPTION Flaixbac Andorra
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rockfm-cope.flumotion.com/playlist.m3u8:Rock FM
 #DESCRIPTION Rock FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.internetgirona.com%3a8008/onair:Ràdio Platja d'Aro
 #DESCRIPTION Ràdio Platja d'Aro
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls1.eu.peppermindmedia.com/samibiza/audio/playlist-192000.m3u8:SAM Ibiza
+#DESCRIPTION SAM Ibiza
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.peppermindmedia.com/samibiza:SAM Ibiza
+#DESCRIPTION SAM Ibiza
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stm1.emiteonline.com%3a8008/spektrafm:Spektra FM
 #DESCRIPTION Spektra FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//eu8.fastcast4u.com/proxy/almeria2:Spectrum FM (Almeria, Engels)

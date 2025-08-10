@@ -1,5 +1,5 @@
 #NAME Stream Spanje (ES)
-#SERVICE 1:64:16c9:0:0:0:0:0:0:0:
+#SERVICE 1:64:16d4:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/la1/la1_main_dvr.m3u8:TVE 1
 #DESCRIPTION TVE 1
@@ -87,7 +87,7 @@
 #DESCRIPTION Neox (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rt-esp.rttv.com/dvr/rtesp/playlist.m3u8:RT en Español
 #DESCRIPTION RT en Español
-#SERVICE 1:64:16ca:0:0:0:0:0:0:0:
+#SERVICE 1:64:16d5:0:0:0:0:0:0:0:
 #DESCRIPTION ++regionaal++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8:7 TeleValencia
 #DESCRIPTION 7 TeleValencia
@@ -97,6 +97,8 @@
 #DESCRIPTION 101tv Andalucia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.streaming101tv.es%3a19360/axarquia/axarquia.m3u8:101tv Malaga
 #DESCRIPTION 101tv Malaga
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.28kanala.eus/hls/z.m3u8:28 Kanala
+#DESCRIPTION 28 Kanala
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-edge-eu-1.cdn.enetres.net/56495F77FD124FECA75590A906965F2C022/live-3000/index.m3u8:Andorra TV
 #DESCRIPTION Andorra TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/2758:Aragon Television Internacional
@@ -117,8 +119,12 @@
 #DESCRIPTION Canal Málaga
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s.emisoras.tv%3a8081/sierradecadiz/index.m3u8:Canal Sierra de Cádiz
 #DESCRIPTION Canal Sierra de Cádiz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978e69202.m3u8:Canal Sur Andalucia
+#DESCRIPTION Canal Sur Andalucia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnlive.codev8.net/rtvalive/smil%3achannel22.smil/playlist.m3u8:Canal Sur Andalucía 2
 #DESCRIPTION Canal Sur Andalucía 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnlive.codev8.net/rtvalive/smil%3achannel42.smil/playlist.m3u8:Canal Sur Noticias
+#DESCRIPTION Canal Sur Noticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ingest1-video.streaming-pro.com/canalteABR/ctestream/playlist.m3u8:Canal Terres de L'Ebre
 #DESCRIPTION Canal Terres de L'Ebre
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//elche7tv.gestec-video.com/hls/canal2.m3u8:Elche 7 TV
@@ -173,14 +179,18 @@
 #DESCRIPTION TVG 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/281802:TVG 2
 #DESCRIPTION TVG 2
-#SERVICE 1:64:16cb:0:0:0:0:0:0:0:
+#SERVICE 1:64:16d6:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8:A Punt
+#DESCRIPTION A Punt
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8:Alacanti TV
 #DESCRIPTION Alacanti TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=30253&extension=ts:AMC
 #DESCRIPTION AMC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.78.109.48%3a8000/play/a02l/index.m3u8:AMC (#)
 #DESCRIPTION AMC (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamtv2.elitecomunicacion.cloud%3a3628/live/arabitv2025live.m3u8:Arabí TV
+#DESCRIPTION Arabí TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=30250&extension=ts:AXN
 #DESCRIPTION AXN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8:Barca One

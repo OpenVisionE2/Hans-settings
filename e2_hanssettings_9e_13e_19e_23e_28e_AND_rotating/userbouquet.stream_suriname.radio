@@ -5,10 +5,10 @@
 #DESCRIPTION Amor FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.radiomast.io/a263a766-cea5-49e2-87c7-b2e9c9f5740c:Beat FM 92.1
 #DESCRIPTION Beat FM 92.1
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rs.suricloud.com/listen/radio_boss/radio.mp3:Chutney FM 100.1
+#DESCRIPTION Chutney FM 100.1
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//surilive.com%3a8070/stream:Color Radio Suriname
 #DESCRIPTION Color Radio Suriname
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//nickerie.webhop.net%3a8000/stream:Íshara FM
-#DESCRIPTION Íshara FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostream.limfmsu.com/radio:Lim FM
 #DESCRIPTION Lim FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sonic.magicdragon.nl/8038/stream:Lobie FM
@@ -21,7 +21,7 @@
 #DESCRIPTION Neutral Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//surilive.com%3a8010/;:NIO FM
 #DESCRIPTION NIO FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//pipel.kloud.xyz%3a8010/radio.mp3:Pipel FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rs.suricloud.com/radio/8010/radio.mp3:Pipel FM
 #DESCRIPTION Pipel FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sonic.magicdragon.nl/8024/stream:Pokoe FM
 #DESCRIPTION Pokoe FM
@@ -29,7 +29,7 @@
 #DESCRIPTION Radio 10 Magic FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rs.suricloud.com/radio/8060/radio.mp3:Radio 9 Suriname
 #DESCRIPTION Radio 9 Suriname
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//kathy.torontocast.com%3a2945/stream:Radio Anda
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-150.zeno.fm/b2ukpxvty6duv?zs=ZMBJAbBhRwyz7dsKkhu_Hw :Radio Anda
 #DESCRIPTION Radio Anda
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//apintie.sr%3a7000:Radio Apintie
 #DESCRIPTION Radio Apintie
@@ -43,12 +43,12 @@
 #DESCRIPTION Radio Garuda
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//surilive.com%3a8030/stream/1/:Radio Immanuël
 #DESCRIPTION Radio Immanuël
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a8.asurahosting.com%3a7030/radio.mp3:Radio Ishara
+#DESCRIPTION Radio Ishara
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server.jvhost.net%3a8010/stream:Radio Kabar Katresnan RK2 90.9 FM
 #DESCRIPTION Radio Kabar Katresnan RK2 90.9 FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//162.244.80.245%3a8020:Radio Koyeba
 #DESCRIPTION Radio Koyeba
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//surilive.com%3a8050/stream/1/:Rádio LPM
-#DESCRIPTION Rádio LPM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-edge-es6pf.mia.g.radiomast.io/d7e8093b-6a7e-4442-a096-37f259cb7092:Radio Rapar
 #DESCRIPTION Radio Rapar
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//108.59.9.147%3a8136:Radio Rasonic 1
@@ -65,12 +65,18 @@
 #DESCRIPTION Radio SRS Suriname
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//caster05.streampakket.com/proxy/9338/stream/1/:Radio Tamara
 #DESCRIPTION Radio Tamara
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-edge-es6pf.mia.g.radiomast.io/2ce0ffa5-dd88-491e-9f9f-925a7ce36b13:Rp The Hot one 89.7
-#DESCRIPTION Rp The Hot one 89.7
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//audio-edge-kef8b.ams.s.radiomast.io/d7e8093b-6a7e-4442-a096-37f259cb7092:RTV Mustika
-#DESCRIPTION RTV Mustika
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//audio-edge-es6pf.mia.g.radiomast.io/d7e8093b-6a7e-4442-a096-37f259cb7092 :RP / ACME 91.3 FM
+#DESCRIPTION RP / ACME 91.3 FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-edge-es6pf.mia.g.radiomast.io/2ce0ffa5-dd88-491e-9f9f-925a7ce36b13:Rp 89.7
+#DESCRIPTION Rp 89.7
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.radiomast.io/a263a766-cea5-49e2-87c7-b2e9c9f5740c:RP BEAT 92.1
+#DESCRIPTION RP BEAT 92.1
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rs.suricloud.com/radio/8050/radio.mp3:RTV Mustika
 #DESCRIPTION RTV Mustika
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//surilive.com%3a8050/stream/1/:Rádio LPM
+#DESCRIPTION Rádio LPM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rs.suricloud.com/radio/8030/radio.mp3:Sangeet Mala 
+#DESCRIPTION Sangeet Mala 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video1.getstreamhosting.com%3a8340/stream:SCCN B104.1 FM Radio
 #DESCRIPTION SCCN B104.1 FM Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//162.244.80.245%3a8014/stream/1/:Shalom Radio
@@ -83,3 +89,5 @@
 #DESCRIPTION Surja Vibes
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//tbn.kloud.xyz%3a8050/radio.mp3:TBN Radio Trishul
 #DESCRIPTION TBN Radio Trishul
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//nickerie.webhop.net%3a8000/stream:Íshara FM
+#DESCRIPTION Íshara FM
