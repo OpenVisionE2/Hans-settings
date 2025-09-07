@@ -1,45 +1,27 @@
 #NAME Stream Oostenrijk (AT)
-#SERVICE 1:64:420:0:0:0:0:0:0:0:
+#SERVICE 1:64:414:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:132f:3ef:1:c00000:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=127402&extension=ts&play_token=Zl0Y2tcdkU:ORF 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8:ORF 1
 #DESCRIPTION ORF 1
-#SERVICE 4097:0:1:132f:3ef:1:c00000:0:0:0:https%3a//s6.hopslan.com/orfx11/index.m3u8:ORF 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strm.hdtvizlecanli.com/live/orf1.m3u8:ORF 1 (#)
 #DESCRIPTION ORF 1 (#)
-#SERVICE 4097:0:1:1330:3ef:1:c00000:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=127403&extension=ts&play_token=tufUdtExqR:ORF 2
+#SERVICE 4097:0:1:1330:3ef:1:c00000:0:0:0:https%3a//strm.hdtvizlecanli.com/live/orf2.m3u8:ORF 2
 #DESCRIPTION ORF 2
-#SERVICE 4097:0:1:1330:3ef:1:c00000:0:0:0:https%3a//strm.hdtvizlecanli.com/live/orf2.m3u8:ORF 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/orf2/browser-dash/orf2.mpd:ORF 2 (#)
 #DESCRIPTION ORF 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cachehsi1a.netplus.ch/live/eds/orf2/browser-dash/orf2.mpd:ORF 2 (#)
-#DESCRIPTION ORF 2 (#)
-#SERVICE 4097:0:1:33fc:3ed:1:c00000:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=127404&extension=ts&play_token=6Qg5wDrlA1:ORF 3
+#SERVICE 4097:0:1:33fc:3ed:1:c00000:0:0:0:https%3a//orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8:ORF 3
 #DESCRIPTION ORF 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8:ORF 3 (#)
-#DESCRIPTION ORF 3 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//web12.mdn.ors.at/orf/web12/qxa/manifest.mpd:ORF Kids
 #DESCRIPTION ORF Kids
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=127405&extension=ts&play_token=jbV39ROPrm:ORF Sport+
-#DESCRIPTION ORF Sport+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=1004561&extension=ts&play_token=Vrq2agzHzq:ATV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strm.hdtvizlecanli.com/live/atv.m3u8:ATV
 #DESCRIPTION ATV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strm.hdtvizlecanli.com/live/atv.m3u8:ATV (#)
-#DESCRIPTION ATV (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=1004562&extension=ts&play_token=W95gRJ7Uih:ATV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/atv/browser-dash/atv.mpd:ATV 2
 #DESCRIPTION ATV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cachehsi1a.netplus.ch/live/eds/atv/browser-dash/atv.mpd:ATV 2 (#)
-#DESCRIPTION ATV 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=127409&extension=ts&play_token=U6iztsrtg0:Puls 4
-#DESCRIPTION Puls 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=942591&extension=ts&play_token=l8KIEX74Aq:Puls 24
-#DESCRIPTION Puls 24
 #SERVICE 4097:0:1:3400:3ed:1:c00000:0:0:0:https%3a//ms01.w24.at/R9/smil%3aliveeventR9.smil/playlist.m3u8:R9 Oesterreich
 #DESCRIPTION R9 Oesterreich
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=1015041&extension=ts&play_token=JRCA7inKy3:Öe 24
-#DESCRIPTION Öe 24
-#SERVICE 4097:0:1:1331:3ef:1:c00000:0:0:0:http%3a//trxx.in%3a80/play/live.php?mac=00%3a1A%3a79%3a75%3a63%3a04&stream=1004560&extension=ts&play_token=LQeWowp4dP:Servus TV Österreich
-#DESCRIPTION Servus TV Österreich
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ms01.w24.at/W24/smil%3aliveevent.smil/chunklist.m3u8:W24
 #DESCRIPTION W24
-#SERVICE 1:64:421:0:0:0:0:0:0:0:
+#SERVICE 1:64:415:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//60efd7a2b4d02.streamlock.net/a_kaernten/ngrp%3alivestream_all/playlist.m3u8:Antenne Kaernten
 #DESCRIPTION Antenne Kaernten
@@ -53,18 +35,14 @@
 #DESCRIPTION FS 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8:K-TV
 #DESCRIPTION K-TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1853185335.rsc.cdn77.org/K192/tv/playlist.m3u8:K19
-#DESCRIPTION K19
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming13.huberwebmedia.at/LiveApp/streams/985585225397790082777809.m3u8:Ländle TV
-#DESCRIPTION Ländle TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8:Krone HIT
 #DESCRIPTION Krone HIT
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming13.huberwebmedia.at/LiveApp/streams/985585225397790082777809.m3u8:Ländle TV
+#DESCRIPTION Ländle TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.peer.biz/live/peertv-it.m3u8:Peer TV Alto Adige
 #DESCRIPTION Peer TV Alto Adige
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.peer.biz/live/peertv-en.m3u8:Peer TV South Tyrol
 #DESCRIPTION Peer TV South Tyrol
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.peer.biz/live/peertv.m3u8:Peer TV Südtirol
-#DESCRIPTION Peer TV Südtirol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?944623300051.m3u8:Red Bull TV
 #DESCRIPTION Red Bull TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptv.rtv-ooe.at/stream.m3u8:RTV

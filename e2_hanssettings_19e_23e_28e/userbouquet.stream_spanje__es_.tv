@@ -1,9 +1,9 @@
 #NAME Stream Spanje (ES)
-#SERVICE 1:64:3cd:0:0:0:0:0:0:0:
+#SERVICE 1:64:3bd:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/la1/la1_main_dvr.m3u8:TVE 1
 #DESCRIPTION TVE 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dh6vo1bovy43s.cloudfront.net/La_1_ES.m3u8:TVE 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107594&extension=ts&play_token=VSkfbghBu0:TVE 1 (#)
 #DESCRIPTION TVE 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.rtve.es/rtvesec/can/la1_can_main_720.m3u8:TVE 1 Canarias
 #DESCRIPTION TVE 1 Canarias
@@ -11,7 +11,7 @@
 #DESCRIPTION TVE 1 Catalunya
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8:TVE 2
 #DESCRIPTION TVE 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//di2qeq48iv8ps.cloudfront.net/La_2_ES.m3u8:TVE 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=1548214&extension=ts&play_token=VHZCC7GlQt:TVE 2 (#)
 #DESCRIPTION TVE 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.rtve.es/rtvesec/can/la2_can_main_720.m3u8:TVE 2 Canarias
 #DESCRIPTION TVE 2 Canarias
@@ -19,6 +19,8 @@
 #DESCRIPTION TVE 2 Catalunya
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//200.59.188.3%3a8000/play/a05n:TVE Internacional América
 #DESCRIPTION TVE Internacional América
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//190.11.225.124%3a5000/live/tve_hd/playlist.m3u8:TVE Internacional America (#)
+#DESCRIPTION TVE Internacional America (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_dvr_1080.m3u8:TVE Internacional Europa
 #DESCRIPTION TVE Internacional Europa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/int/tvei_eu_main.m3u8:TVE Internacional Europe-Asia
@@ -27,67 +29,57 @@
 #DESCRIPTION TVE Canal 24 Horas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ztnr.rtve.es/ztnr/1694255.m3u8:TVE Canal 24 Horas (#)
 #DESCRIPTION TVE Canal 24 Horas (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3pfmk89wc0vm9.cloudfront.net/24H_ES.m3u8:TVE Canal 24 Horas (#)
-#DESCRIPTION TVE Canal 24 Horas (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/can/24h_can_main_dvr.m3u8:TVE Canal 24 Horas Canarias
 #DESCRIPTION TVE Canal 24 Horas Canarias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/cat/24h_cat_main_dvr.m3u8:TVE Canal 24 Horas Catalunya
 #DESCRIPTION TVE Canal 24 Horas Catalunya
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3nnqrdb77sy13.cloudfront.net/Clan_ES.m3u8:Clan TVE
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=1547099&extension=ts&play_token=UtBvqCSvCE:Clan TVE
 #DESCRIPTION Clan TVE
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/int/star_main.m3u8:Star TVE
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8:Star TVE
 #DESCRIPTION Star TVE
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8:Star TVE (#)
-#DESCRIPTION Star TVE (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=1567925&extension=ts&play_token=8ma6tcEoiP:Star TVE (#)
-#DESCRIPTION Star TVE (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2a02gfcid1k4a.cloudfront.net/Teledeporte_ES.m3u8:TVE Teledeporte
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=1796593&extension=ts&play_token=tYtP8bqREE:TVE Teledeporte
 #DESCRIPTION TVE Teledeporte
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/oca/irtve01_main_1080.m3u8:RTVE Play 1 HD
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//rtvelivestream.rtve.es/rtvesec/oca/irtve01_main_1080.m3u8:RTVE Play 1 HD
 #DESCRIPTION RTVE Play 1 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/oca/irtve02_main_1080.m3u8:RTVE Play 2 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.rtve.es/rtvesec/oca/irtve02_main_1080.m3u8:RTVE Play 2 HD
 #DESCRIPTION RTVE Play 2 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/oca/irtve03_main_1080.m3u8:RTVE Play 3 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.rtve.es/rtvesec/oca/irtve03_main_1080.m3u8:RTVE Play 3 HD
 #DESCRIPTION RTVE Play 3 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/oca/irtve04_main_1080.m3u8:RTVE Play 4 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.rtve.es/rtvesec/oca/irtve04_main_1080.m3u8:RTVE Play 4 HD
 #DESCRIPTION RTVE Play 4 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvnoov.com/fadoo/antena3.m3u8:Antena 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107631&extension=ts&play_token=fAudZldDeq:Antena 3
 #DESCRIPTION Antena 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//planettvweb.com%3a8091/sebastianmartinez/6tvs33u3/11826:Antena 3 (#)
+#DESCRIPTION Antena 3 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=18539&extension=ts:Antena 3 (#)
 #DESCRIPTION Antena 3 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1aca8310a30e00074fab92/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%257BTARGETOPT%257D&deviceId=%257BPSID%257D&advertisingId=%257BPSID%257D&us_privacy=1YNY&samsung_app_domain=%257BAPP_DOMAIN%257D&samsung_app_name=%257BAPP_NAME%257D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus:A3 Series
 #DESCRIPTION A3 Series
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvnoov.com/fadoo/cuatrohd.m3u8:Cuatro
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107610&extension=ts&play_token=DctrR4c1AO:Cuatro
 #DESCRIPTION Cuatro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvnoov.com/fadoo/telecincohd.m3u8:Telecinco
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107534&extension=ts&play_token=m3fQ0ZESib:Telecinco
 #DESCRIPTION Telecinco
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=107534&extension=ts&play_token=zVl7dSvk63:Telecinco (#)
-#DESCRIPTION Telecinco (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvnoov.com/fadoo/lasexta.m3u8:La Sexta
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107592&extension=ts&play_token=EEXH1xc22j:La Sexta
 #DESCRIPTION La Sexta
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=1547401&extension=ts&play_token=FvNoFf5EAy:Nova 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=1547401&extension=ts&play_token=xojFtOHRDX:Nova 7
 #DESCRIPTION Nova 7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=30218&extension=ts:#0
-#DESCRIPTION #0
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5dcde0657444a40009cd2422/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%257BTARGETOPT%257D&deviceId=%257BPSID%257D&advertisingId=%257BPSID%257D&us_privacy=1YNY&samsung_app_domain=%257BAPP_DOMAIN%257D&samsung_app_name=%257BAPP_NAME%257D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus:Canal Cocina
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=636559&extension=ts&play_token=rJ0qQKdddE:Canal Cocina
 #DESCRIPTION Canal Cocina
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/bitrate_1.m3u8:Canal Parlamento
 #DESCRIPTION Canal Parlamento
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//200.59.188.3%3a8000/play/a06d:CNN en Espanol
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00803-amg00803c3-rakuten-us-5347.playouts.now.amagi.tv/playlist/amg00803-cnnfastinternational-cnnesponal-rakutenus/playlist.m3u8:CNN en Espanol
 #DESCRIPTION CNN en Espanol
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/e/26034/euronews-es.m3u8:Euronews en Español
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews-spa/euronews-es.m3u8:Euronews en Español
 #DESCRIPTION Euronews en Español
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eu1.servers10.com%3a8081/8010/index.m3u8:Factoria TV
 #DESCRIPTION Factoria TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=30214&extension=ts:Mega
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107645&extension=ts&play_token=WmqVqHRj2A:Mega
 #DESCRIPTION Mega
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=30201&extension=ts:Neox
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=1547398&extension=ts&play_token=1dXKPe6qmc:Neox
 #DESCRIPTION Neox
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//line.myunityhost.com%3a80/play/live.php?mac=00%3a1A%3a79%3aD8%3aCE%3a85&stream=1547398&extension=ts&play_token=WuxO2QWfHs:Neox (#)
-#DESCRIPTION Neox (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rt-esp.rttv.com/dvr/rtesp/playlist.m3u8:RT en Español
 #DESCRIPTION RT en Español
-#SERVICE 1:64:3ce:0:0:0:0:0:0:0:
+#SERVICE 1:64:3be:0:0:0:0:0:0:0:
 #DESCRIPTION ++regionaal++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8:7 TeleValencia
 #DESCRIPTION 7 TeleValencia
@@ -169,6 +161,10 @@
 #DESCRIPTION TV 3 Catalunya Internacional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming007.gestec-video.com/hls/artequatreTVA.m3u8:TV Artequatre
 #DESCRIPTION TV Artequatre
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks_dvr.m3u8:TV Galicia
+#DESCRIPTION TV Galicia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//crtvg-40-anos-crtvg-schlive.flumotion.cloud/crtvglive/smil%3achannel9PRG.smil/playlist.m3u8:TV Galicia - Corenta años de TVG
+#DESCRIPTION TV Galicia - Corenta años de TVG
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ventdelnord.tv%3a8080/girona/directe.m3u8:TV Girona
 #DESCRIPTION TV Girona
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8:TV Sabadell-Vallès
@@ -179,7 +175,7 @@
 #DESCRIPTION TVG 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/281802:TVG 2
 #DESCRIPTION TVG 2
-#SERVICE 1:64:3cf:0:0:0:0:0:0:0:
+#SERVICE 1:64:3bf:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8:A Punt
 #DESCRIPTION A Punt
@@ -281,3 +277,5 @@
 #DESCRIPTION TV Reus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud2.streaminglivehd.com%3a1936/universfaller/universfaller/playlist.m3u8:Univers TV
 #DESCRIPTION Univers TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//crtvg-infantil-schlive.flumotion.cloud/crtvglive/smil%3achannel5PRG.smil/playlist.m3u8:Xabarín TV
+#DESCRIPTION Xabarín TV

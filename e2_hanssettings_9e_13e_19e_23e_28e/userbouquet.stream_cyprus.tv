@@ -1,39 +1,67 @@
 #NAME Stream Cyprus (CY)
-#SERVICE 1:64:3e2:0:0:0:0:0:0:0:
+#SERVICE 1:64:3d0:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=753611&extension=ts&play_token=mkFkJQNsMh:RIK 1
-#DESCRIPTION RIK 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.rsplus.cc%3a80/play/live.php?mac=00%3a1A%3a79%3aBC%3aCA%3a1D&stream=754289&extension=ts&play_token=sqiSsLy1NN:RIK 2
-#DESCRIPTION RIK 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ertflix.akamaized.net/ertlive/rik/default/playlist.m3u8:RIK Sat
 #DESCRIPTION RIK Sat
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//l3.cloudskep.com/cybcsat/abr/playlist.m3u8:RIK Sat (#)
+#SERVICE 4097:0:1:132a:33f4:13e:820000:0:0:0:http%3a//l3.cloudskep.com/cybcsat/abr/playlist.m3u8:RIK Sat (#)
 #DESCRIPTION RIK Sat (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l4.cloudskep.com/alphacyp/acy/playlist.m3u8:Alpha Cyprus
+#DESCRIPTION Alpha Cyprus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//l2.cloudskep.com/ant1cm2/abr/playlist.m3u8:Ant 1 Cyprus
 #DESCRIPTION Ant 1 Cyprus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc-kuzeykibrissmarttv.ercdn.net/brt1hd/bant1/playlist.m3u8:BRT 1
-#DESCRIPTION BRT 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canlitvulusal.xyz/live/brt1/index.m3u8:BRT 1 (#)
-#DESCRIPTION BRT 1 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc-kuzeykibrissmarttv.ercdn.net/brt2hd/bant1/playlist.m3u8:BRT 2
-#DESCRIPTION BRT 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canlitvulusal.xyz/live/brt2/index.m3u8:BRT 2 (#)
-#DESCRIPTION BRT 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a07e:BRT 3
-#DESCRIPTION BRT 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.210.211.188%3a2095/play/a00e:One Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l1.cloudskep.com/omegatv/omcy/playlist.m3u8:Omega Channel
+#DESCRIPTION Omega Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//onechannel.siliconweb.com/one/live_abr/playlist_dvr.m3u8:One Channel
 #DESCRIPTION One Channel
-#SERVICE 1:64:3e3:0:0:0:0:0:0:0:
+#SERVICE 1:64:3d1:0:0:0:0:0:0:0:
+#DESCRIPTION ++hoofdzenders, VPN nodig++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l6.cloudskep.com/rikct/rik1/playlist.m3u8:RIK 1
+#DESCRIPTION RIK 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l6.cloudskep.com/rikct/rik2/playlist.m3u8:RIK 2
+#DESCRIPTION RIK 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l6.cloudskep.com/rikct/rikhd/playlist.m3u8:RIK HD
+#DESCRIPTION RIK HD
+#SERVICE 1:64:3d2:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc-kuzeykibrissmarttv.ercdn.net/adatv/bant1/playlist.m3u8:Ada TV
-#DESCRIPTION Ada TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s1.cystream.net/live/faros1/playlist.m3u8:Faros TV
+#DESCRIPTION Faros TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s1.cystream.net/live/faros2/playlist.m3u8:Faros TV2
+#DESCRIPTION Faros TV2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//web.onair-radio.eu%3a1935/groovytv/groovytv/HasBahCa.m3u8:Groovy TV
 #DESCRIPTION Groovy TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sl2.sigmatv.com/hls/live.m3u8:Sigma TV
+#DESCRIPTION Sigma TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s1.cystream.net/live/smile/playlist.m3u8:Smile TV
+#DESCRIPTION Smile TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dev.aftermind.xyz/edge-hls/unitrust/voulitv/index.m3u8:Vouli.TV
+#DESCRIPTION Vouli.TV
+#SERVICE 1:64:3d3:0:0:0:0:0:0:0:
+#DESCRIPTION ++Noord-Cyprus (Turks)++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc-kuzeykibrissmarttv.ercdn.net/brt1hd/bant1/playlist.m3u8:BRT 1 HD
+#DESCRIPTION BRT 1 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc-kuzeykibrissmarttv.ercdn.net/brt2hd/bant1/playlist.m3u8:BRT 2 HD
+#DESCRIPTION BRT 2 HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.234.111.229%3a8000/play/a07e:BRT 3
+#DESCRIPTION BRT 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc-kuzeykibrissmarttv.ercdn.net/adatv/bant1/playlist.m3u8:Ada TV
+#DESCRIPTION Ada TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-tr.tivimivi.com//streams/142/master.m3u8:Kanal Sim
+#DESCRIPTION Kanal Sim
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc-kuzeykibrissmarttv.ercdn.net/kibristv/bant1/playlist.m3u8:Kibris TV
 #DESCRIPTION Kibris TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc-kuzeykibrissmarttv.ercdn.net/kibrisgenctv/bant1/playlist.m3u8:Kibris Genç TV
+#DESCRIPTION Kibris Genç TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc-kuzeykibrissmarttv.ercdn.net/kanalt/bantp1/playlist.m3u8:Kibris Kanal T
+#DESCRIPTION Kibris Kanal T
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc-kuzeykibrissmarttv.ercdn.net/tv2020/bantp1/playlist.m3u8:TV2020
+#DESCRIPTION TV2020
+#SERVICE 1:64:3d4:0:0:0:0:0:0:0:
+#DESCRIPTION ++anderstalig++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8:Sat 7 Arab
+#DESCRIPTION Sat 7 Arab
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist.m3u8:Sat 7 Kids
 #DESCRIPTION Sat 7 Kids
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/sat7parslive/sat7pars.smil/playlist.m3u8:Sat 7 Pars
 #DESCRIPTION Sat 7 Pars
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streamer-cache.grnet.gr/parliament/hls/webtv.m3u8:Vouli TV
-#DESCRIPTION Vouli TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist_dvr.m3u8:Sat 7 Türk
+#DESCRIPTION Sat 7 Türk
