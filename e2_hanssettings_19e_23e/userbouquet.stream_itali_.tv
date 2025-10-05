@@ -1,46 +1,94 @@
 #NAME Stream Italië (IT)
-#SERVICE 1:64:338:0:0:0:0:0:0:0:
+#SERVICE 1:64:34c:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8:RAI 1
 #DESCRIPTION RAI 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd:RAI 1 (#)
 #DESCRIPTION RAI 1 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd:RAI 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38564&extension=ts:RAI 2
 #DESCRIPTION RAI 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rai2/browser-dash/rai2.mpd:RAI 2 (#)
+#DESCRIPTION RAI 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wzstreaming.rai.it/TVlive/liveStream/chunklist_w823540263.m3u8:RAI 3
 #DESCRIPTION RAI 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8:RAI 3 (#)
 #DESCRIPTION RAI 3 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd:RAI Gulp
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38560&extension=ts:RAI 4
+#DESCRIPTION RAI 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38558&extension=ts:RAI 5
+#DESCRIPTION RAI 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38532&extension=ts:RAI Gulp
 #DESCRIPTION RAI Gulp
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8:RAI Italia
-#DESCRIPTION RAI Italia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raigulp/browser-dash/raigulp.mpd:RAI Gulp (#)
+#DESCRIPTION RAI Gulp (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8:RAI Italia Africa
+#DESCRIPTION RAI Italia Africa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIItaliaSudAmerica/Live.m3u8:RAI Italia Americas
 #DESCRIPTION RAI Italia Americas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIItaliaAustralia/Live.m3u8:RAI Italia Australia
 #DESCRIPTION RAI Italia Australia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42694&extension=ts:RAI Movie
+#DESCRIPTION RAI Movie
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8:RAI News 24
 #DESCRIPTION RAI News 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd:RAI News 24 (#)
 #DESCRIPTION RAI News 24 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd:RAI Scuola
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38548&extension=ts:RAI Premium
+#DESCRIPTION RAI Premium
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38536&extension=ts:RAI Scuola
 #DESCRIPTION RAI Scuola
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd:RAI Sport
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raiscuola/browser-dash/raiscuola.mpd:RAI Scuola (#)
+#DESCRIPTION RAI Scuola (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42739&extension=ts:RAI Sport
 #DESCRIPTION RAI Sport
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd:RAI Storia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raisport1/browser-dash/raisport1.mpd:RAI Sport (#)
+#DESCRIPTION RAI Sport (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38537&extension=ts:RAI Storia
 #DESCRIPTION RAI Storia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/raistoria/browser-dash/raistoria.mpd:RAI Storia (#)
+#DESCRIPTION RAI Storia (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilglobotv-live.akamaized.net/channels/RAIPremium/Live.m3u8:RAI World Premium
 #DESCRIPTION RAI World Premium
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd:Mediaset Italia 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38531&extension=ts:RAI Yoyo
+#DESCRIPTION RAI Yoyo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38554&extension=ts:Mediaset Italia 1
 #DESCRIPTION Mediaset Italia 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd:Mediaset Rete 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/italia1/browser-dash/italia1.mpd:Mediaset Italia 1 (#)
+#DESCRIPTION Mediaset Italia 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=51488&extension=ts:Mediaset Italia 2
+#DESCRIPTION Mediaset Italia 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38557&extension=ts:Mediaset Rete 4
 #DESCRIPTION Mediaset Rete 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd:Mediaset Canale 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rete4/browser-dash/rete4.mpd:Mediaset Rete 4 (#)
+#DESCRIPTION Mediaset Rete 4 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=56088&extension=ts:Mediaset Canale 5
 #DESCRIPTION Mediaset Canale 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd:La 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/canale5/browser-dash/canale5.mpd:Mediaset Canale 5 (#)
+#DESCRIPTION Mediaset Canale 5 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38546&extension=ts:Mediaset La 5
+#DESCRIPTION Mediaset La 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38547&extension=ts:Mediaset 20
+#DESCRIPTION Mediaset 20
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=129209&extension=ts:Mediaset 27
+#DESCRIPTION Mediaset 27
+#SERVICE 4097:0:1:0:0:0:0:0:0:0: http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=89785&extension=ts:Mediaset Cine 34
+#DESCRIPTION Mediaset Cine 34
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38544&extension=ts:Mediaset Extra
+#DESCRIPTION Mediaset Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38528&extension=ts:Mediaset Iris
+#DESCRIPTION Mediaset Iris
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38542&extension=ts:Mediaset Top Crime
+#DESCRIPTION Mediaset Top Crime
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38552&extension=ts:La 7
 #DESCRIPTION La 7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd:La 7d
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd:La 7 (#)
+#DESCRIPTION La 7 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=51536&extension=ts:La 7d
 #DESCRIPTION La 7d
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd:La 7d (#)
+#DESCRIPTION La 7d (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=38551&extension=ts:TV 8
+#DESCRIPTION TV 8
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ovp-live.akamaized.net/ac115_live/canale1.smil/playlist.m3u8:Canale Italia
 #DESCRIPTION Canale Italia
 #SERVICE 4097:0:1:d50:1450:13e:820000:0:0:0:https%3a//senato-live.morescreens.com/SENATO_1_001/playlist.m3u8:Senato TV 
@@ -49,7 +97,13 @@
 #DESCRIPTION TG Norba 24
 #SERVICE 4097:0:1:2bac:19c8:fbff:820000:0:0:0:https%3a//hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8:TV 2000
 #DESCRIPTION TV 2000
-#SERVICE 1:64:339:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:d50:1450:13e:820000:0:0:0:https%3a//senato-live.morescreens.com/SENATO_1_001/playlist.m3u8:Senato TV 
+#DESCRIPTION Senato TV 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//router.xdevel.com/video0s976570-1326/stream/playlist_dvr.m3u8:TG Norba 24
+#DESCRIPTION TG Norba 24
+#SERVICE 4097:0:1:2bac:19c8:fbff:820000:0:0:0:https%3a//hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8:TV 2000
+#DESCRIPTION TV 2000
+#SERVICE 1:64:34d:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8:7 RadioVisione
 #DESCRIPTION 7 RadioVisione
@@ -65,12 +119,18 @@
 #DESCRIPTION 51 Radio TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//585b674743bbb.streamlock.net/9050/9050/chunklist_.m3u8:70-80.it
 #DESCRIPTION 70-80.it
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8:ACI Sport TV
+#DESCRIPTION ACI Sport TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8:Alto Adige TV
 #DESCRIPTION Alto Adige TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58f12ffd2447a.streamlock.net/Antenna2/livestream/playlist.m3u8:Antenna 2 Bergamo
 #DESCRIPTION Antenna 2 Bergamo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/chunklist_.m3u8:Antenna 3 Veneto
 #DESCRIPTION Antenna 3 Veneto
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.antennasudwebtv.it%3a9443/hls/vod.m3u8:Antenna Sud
+#DESCRIPTION Antenna Sud
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.antennasudwebtv.it%3a9443/hls/vod92.m3u8:Antenna Sud Extra
+#DESCRIPTION Antenna Sud Extra
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.antennasudwebtv.it%3a9443/hls/vod92.m3u8:Antenna Sud Extra 92
 #DESCRIPTION Antenna Sud Extra 92
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tsw.streamingwebtv24.it%3a1936/artenetwork/artenetwork/chunklist_.m3u8:Arte Network Orler Canale Uno
@@ -85,7 +145,9 @@
 #DESCRIPTION Azzurra TV Italia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c41-rakuten-it-5445.playouts.now.amagi.tv/playlist.m3u8:BBC Drama
 #DESCRIPTION BBC Drama
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/chunklist_DVR.m3u8:Bergamo TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net%3a443/bejoy/bejoy/playlist.m3u8:BeJoy.kids
+#DESCRIPTION BeJoy.kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist_dvr.m3u8:Bergamo TV
 #DESCRIPTION Bergamo TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/tracks-v1a1/mono.m3u8:Bike Channel
 #DESCRIPTION Bike Channel
@@ -191,8 +253,8 @@
 #DESCRIPTION Italia Channel 123
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fms.premio.link/fishingtv/playlist.m3u8:Italian Fishing TV
 #DESCRIPTION Italian Fishing TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8:Iunior TV
-#DESCRIPTION Iunior TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8:Junior TV
+#DESCRIPTION Junior TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5a1178b42cc03.streamlock.net/jonica/jonica/chunklist_.m3u8:Jonica Radio TV
 #DESCRIPTION Jonica Radio TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sdn-global-live-streaming-packager-cache.3qsdn.com/7841/7841_264_live.m3u8?latency=low:Juwelo Italia

@@ -1,5 +1,5 @@
 #NAME Stream Noorwegen (NO)
-#SERVICE 1:64:6ba:0:0:0:0:0:0:0:
+#SERVICE 1:64:6dc:0:0:0:0:0:0:0:
 #DESCRIPTION *** NRK hoofdzenders***
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//lyd.nrk.no/nrk_radio_alltid_nyheter_mp3_h:NRK Alltid nyheter (Noorwegen)
 #DESCRIPTION NRK Alltid nyheter (Noorwegen)
@@ -19,10 +19,10 @@
 #DESCRIPTION NRK P2 (Noorwegen)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//lyd.nrk.no/nrk_radio_p3_mp3_h:NRK P3 (Noorwegen)
 #DESCRIPTION NRK P3 (Noorwegen)
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//nrk-live-radio-world.akamaized.net/p3musikk/sc-gaFEAA/a0_index.m3u8:NRK P3 Musikk
+#DESCRIPTION NRK P3 Musikk
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//lyd.nrk.no/nrk_radio_p3x_mp3_h:NRK P3X (Noorwegen)
 #DESCRIPTION NRK P3X (Noorwegen)
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//lyd.nrk.no/nrk_radio_p13_mp3_h:NRK P13 (Noorwegen)
-#DESCRIPTION NRK P13 (Noorwegen)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//lyd.nrk.no/nrk_radio_p3_radioresepsjonen_mp3_h:NRK Radiojeresepsjonen (Noorwegen)
 #DESCRIPTION NRK Radiojeresepsjonen (Noorwegen)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//lyd.nrk.no/nrk_radio_sami_mp3_h:NRK Sápmi (Noorwegen)
@@ -33,7 +33,7 @@
 #DESCRIPTION NRK Sport (Noorwegen)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//lyd.nrk.no/nrk_radio_p3_urort_mp3_h:NRK Urort (Noorwegen)
 #DESCRIPTION NRK Urort (Noorwegen)
-#SERVICE 1:64:6bb:0:0:0:0:0:0:0:
+#SERVICE 1:64:6dd:0:0:0:0:0:0:0:
 #DESCRIPTION *** NRK subzenders***
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//lyd.nrk.no/nrk_radio_p1_buskerud_mp3_h:NRK P1 Buskerud
 #DESCRIPTION NRK P1 Buskerud
@@ -93,7 +93,7 @@
 #DESCRIPTION NRK Sport Oslo
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//lyd.nrk.no/nrk_radio_super_mp3_m?_hdr=0:NRK Super Oslo
 #DESCRIPTION NRK Super Oslo
-#SERVICE 1:64:6bc:0:0:0:0:0:0:0:
+#SERVICE 1:64:6de:0:0:0:0:0:0:0:
 #DESCRIPTION *** OVERIG ***
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.153.107.45%3a2016/mp3_ultra:1 FM
 #DESCRIPTION 1 FM
@@ -107,6 +107,8 @@
 #DESCRIPTION Ariel Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.scalefog.net%3a8002:Beiarn Radioen
 #DESCRIPTION Beiarn Radioen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-nors.sharp-stream.com/nors1.mp3:Dansbandradioen
+#DESCRIPTION Dansbandradioen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.scalefog.net%3a4005:DinRadio.net
 #DESCRIPTION DinRadio.net
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.radio.co/s07e510a23/listen:Duen Radio
@@ -129,6 +131,10 @@
 #DESCRIPTION Hamar Radioen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//headcleaner.stream.laut.fm/headcleaner:Headcleaner
 #DESCRIPTION Headcleaner
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-nors.sharp-stream.com/nors15.mp3:Heart
+#DESCRIPTION Heart
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-nors.sharp-stream.com/nors2.mp3:Hit Radio
+#DESCRIPTION Hit Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//node-04.zeno.fm/71be2x2429duv:ICPRM RADIO Norway
 #DESCRIPTION ICPRM RADIO Norway
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.radiolab.no/interfm.mp3:Inter FM
@@ -147,6 +153,8 @@
 #DESCRIPTION Metal Express Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//85.19.118.197/buskerud128.mp3:Metro Buskerud - FM 94.1 Drammen
 #DESCRIPTION Metro Buskerud - FM 94.1 Drammen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-nors.sharp-stream.com/nors3.mp3:Metro Classic
+#DESCRIPTION Metro Classic
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//85.19.118.197/mjos128.mp3:Metro Mjosbyene - FM 107.0 Gjøvik
 #DESCRIPTION Metro Mjosbyene - FM 107.0 Gjøvik
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.radiometro.no/metro128.mp3:Metro Oslo (Noorwegen)
@@ -181,10 +189,12 @@
 #DESCRIPTION P8 Pop
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//p9.p4groupaudio.com/P09_MH:P9 Retro
 #DESCRIPTION P9 Retro
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//206.72.194.250%3a9978:Pinoy Radio Nordic
-#DESCRIPTION Pinoy Radio Nordic
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-bauerno.sharp-stream.com/p247mix_no_mp3:P24-7 MIX
 #DESCRIPTION P24-7 MIX
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//206.72.194.250%3a9978:Pinoy Radio Nordic
+#DESCRIPTION Pinoy Radio Nordic
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-nors.sharp-stream.com/nors15.mp3:Power Rock Radio
+#DESCRIPTION Power Rock Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5186.cloudrad.io%3a8048:pTro
 #DESCRIPTION pTro
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-bauerno.sharp-stream.com/radio1_no_mp3:Radio 1 - SBS Discovery
@@ -227,7 +237,7 @@
 #DESCRIPTION Radio Loland
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radiolyngdal.com/rly_hq:Radio Lyngdal
 #DESCRIPTION Radio Lyngdal
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.radiometro.no/metro128.mp3:Radio Metro
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-nors.sharp-stream.com/nors8.mp3:Radio Metro
 #DESCRIPTION Radio Metro
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//media.radiomodum.no/radio_modum_mp3:Radio Modum
 #DESCRIPTION Radio Modum
@@ -279,6 +289,8 @@
 #DESCRIPTION Radio Riks Oslo
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-bauerno.sharp-stream.com/radiorock_no_mp3 :Radio Rock
 #DESCRIPTION Radio Rock
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-nors.sharp-stream.com/nors13.mp3:Radio Rox
+#DESCRIPTION Radio Rox
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//78.129.228.187%3a8102/stream/1/:Radio Sotra
 #DESCRIPTION Radio Sotra
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ipradio.no/RS_48:Radio Sunnmøre
@@ -321,7 +333,7 @@
 #DESCRIPTION Studentradioen i Bergen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//130.238.166.180%3a8004/live:Studentradion 98.9
 #DESCRIPTION Studentradion 98.9
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.thebeat.no/beat128.mp3:The Beat
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live-nors.sharp-stream.com/nors8.mp3:The Beat
 #DESCRIPTION The Beat
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//philae.shoutca.st%3a8894/stream:The Soul Network Radio
 #DESCRIPTION The Soul Network Radio

@@ -1,10 +1,8 @@
 #NAME Stream Mongolië (MN)
-#SERVICE 1:64:394:0:0:0:0:0:0:0:
+#SERVICE 1:64:3a6:0:0:0:0:0:0:0:
 #DESCRIPTION ++Hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.mnb.mn/hls/mnb.stream.m3u8:MNB
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/MNB/DASH-FTA/MNB.mpd:MNB
 #DESCRIPTION MNB
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/MNB/DASH-FTA/MNB.mpd:MNB (#)
-#DESCRIPTION MNB (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/MNB_Family/HLSv3-FTA/MNB_Family.m3u8:MNB Family
 #DESCRIPTION MNB Family
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd:MNB Mongolyn Medee
@@ -13,6 +11,8 @@
 #DESCRIPTION MNB Sport
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/MNB_World/HLSv3-FTA/MNB_World.m3u8:MNB World
 #DESCRIPTION MNB World
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/TV4/HLSv3-FTA/TV4.m3u8:TV 4
+#DESCRIPTION TV 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/TV7/HLSv3-FTA/TV7.m3u8:TV 7
 #DESCRIPTION TV 7
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/TV8HD/HLSv3-FTA/TV8HD.m3u8:TV 8
@@ -25,7 +25,7 @@
 #DESCRIPTION MN 25
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/UlziiTV/HLSv3-FTA/UlziiTV.m3u8:Ölzii TV
 #DESCRIPTION Ölzii TV
-#SERVICE 1:64:395:0:0:0:0:0:0:0:
+#SERVICE 1:64:3a7:0:0:0:0:0:0:0:
 #DESCRIPTION ++pverige zenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/AsianBOX/HLSv3-FTA/AsianBOX.m3u8:AsianBox
 #DESCRIPTION AsianBox
@@ -37,6 +37,8 @@
 #DESCRIPTION Central TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/C1/HLSv3-FTA/C1.m3u8:C1
 #DESCRIPTION C1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/CinemaTV/HLSv3-FTA/CinemaTV.m3u8:Cinema
+#DESCRIPTION Cinema
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8:CNBC MGL
 #DESCRIPTION CNBC MGL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/Dreambox/HLSv3-FTA/Dreambox.m3u8:Dream TV
@@ -49,6 +51,8 @@
 #DESCRIPTION ETV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/GTV/HLSv3-FTA/GTV.m3u8:Gandan TV
 #DESCRIPTION Gandan TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/GlobalTV/HLSv3-FTA/GlobalTV.m3u8:Global TV
+#DESCRIPTION Global TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/Khugjim/HLSv3-FTA/Khugjim.m3u8:Khögjim
 #DESCRIPTION Khögjim
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/Malchin/HLSv3-FTA/Malchin.m3u8:Malchin TV
@@ -65,10 +69,16 @@
 #DESCRIPTION Parliament TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/Popcorn/HLSv3-FTA/Popcorn.m3u8:Popcorn
 #DESCRIPTION Popcorn
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/SPSPrime/HLSv3-FTA/SPSPrime.m3u8:PSN 1
+#DESCRIPTION PSN 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/SPSPlay/HLSv3-FTA/SPSPlay.m3u8:PSN 2
+#DESCRIPTION PSN 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8:PSN 4
+#DESCRIPTION PSN 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/SPSPlus/HLSv3-FTA/SPSPlus.m3u8:PSN 5
+#DESCRIPTION PSN 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/SBN/HLSv3-FTA/SBN.m3u8:SBN
 #DESCRIPTION SBN
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/SoyonGegeeruulegch/HLSv3-FTA/SoyonGegeeruulegch.m3u8:Soyon Gegeerüülegch
-#DESCRIPTION Soyon Gegeerüülegch
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/SuldTV/HLSv3-FTA/SuldTV.m3u8:Suld TV
 #DESCRIPTION Suld TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn4.skygo.mn/live/disk1/VTV/HLSv3-FTA/VTV.m3u8:TenGer TV

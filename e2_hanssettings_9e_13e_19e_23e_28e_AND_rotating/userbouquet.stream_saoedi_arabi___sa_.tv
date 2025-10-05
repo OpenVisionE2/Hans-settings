@@ -1,5 +1,5 @@
 #NAME Stream Saoedi-Arabië (SA)
-#SERVICE 1:64:43a:0:0:0:0:0:0:0:
+#SERVICE 1:64:446:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a080:KSA 1
 #DESCRIPTION KSA 1
@@ -49,14 +49,10 @@
 #DESCRIPTION MBC Bollywood
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8:MBC Bollywood (#)
 #DESCRIPTION MBC Bollywood (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbc1-enc.edgenextcdn.net/out/v1/b0b3a0e6750d4408bb86d703d5feffd1/index.m3u8:MBC Drama
-#DESCRIPTION MBC Drama
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8:MBC Drama USA
-#DESCRIPTION MBC Drama USA
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8?@amarnettv.live:MBC Drama+
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8:MBC Drama+
 #DESCRIPTION MBC Drama+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbcplusdrama-prod-dub-enc.edgenextcdn.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8:MBC Drama+ (#)
-#DESCRIPTION MBC Drama+ (#)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8:MBC Drama USA
+#DESCRIPTION MBC Drama USA
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8:MBC FM
 #DESCRIPTION MBC FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a05j:MBC Iraq
@@ -85,21 +81,23 @@
 #DESCRIPTION MBC Persia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/9527a892aeaf43019fd9eeb77ad1516e/eu-central-1/6057955906001/playlist.m3u8:Rotana Cinema KSA
 #DESCRIPTION Rotana Cinema KSA
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/0debf5648e584e5fb795c3611c5c0252/eu-central-1/6057955906001/playlist.m3u8:Rotana Classic
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/rotana/classical_1080p/chunks.m3u8#Referer=https%3a//rotana.net/:Rotana Classic
 #DESCRIPTION Rotana Classic
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0bc:Rotana Clip
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/0debf5648e584e5fb795c3611c5c0252/eu-central-1/6057955906001/playlist.m3u8:Rotana Classic (#)
+#DESCRIPTION Rotana Classic (#)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/clip_net-7Y83PP5adWixDF93/rotana/clip_1080p/chunks.m3u8#Referer=https%3a//rotana.net/:Rotana Clip
 #DESCRIPTION Rotana Clip
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0b5:Rotana Comedy
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/comedy_net-7Y83PP5adWixDF93/rotana/comedy_1080p/chunks.m3u8#Referer=https%3a//rotana.net/:Rotana Comedy
 #DESCRIPTION Rotana Comedy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0b8:Rotana Drama
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/drama_net-7Y83PP5adWixDF93/rotana/drama_1080p/chunks.m3u8#Referer=https%3a//rotana.net/:Rotana Drama
 #DESCRIPTION Rotana Drama
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//live.restream.io/pull/play_320121_94512612fd0e084bd284:Rotana FM
 #DESCRIPTION Rotana FM
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0b7:Rotana Khalijia
-#DESCRIPTION Rotana Khalijia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0b7:Rotana Khalijeah
-#DESCRIPTION Rotana Khalijeah
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0b9:Rotana Music
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/khaleejiya_net-7Y83PP5adWixDF93/rotana/khaleejiya_1080p/chunks.m3u8#Referer=https%3a//rotana.net/:Rotana Khalijea
+#DESCRIPTION Rotana Khalijea
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/rotana/cinema_1080p/chunks.m3u8#Referer=https%3a//rotana.net/:Rotana Cinema KSA
+#DESCRIPTION Rotana Cinema KSA
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/rotana/music_1080p/chunks.m3u8#Referer=https%3a//rotana.net/:Rotana Music
 #DESCRIPTION Rotana Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a09z:SBC
 #DESCRIPTION SBC
@@ -117,7 +115,7 @@
 #DESCRIPTION SSC News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-event2-prod-dub.shahid.net/out/v1/0456ede1a39145d98b3d8c8062ddc998/index.m3u8:SSC Action Waleed
 #DESCRIPTION SSC Action Waleed
-#SERVICE 1:64:43b:0:0:0:0:0:0:0:
+#SERVICE 1:64:447:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=5616:Al Arabiya
 #DESCRIPTION Al Arabiya
@@ -135,10 +133,14 @@
 #DESCRIPTION Al Arabiya Programs
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8:Al Ekhbariya
 #DESCRIPTION Al Ekhbariya
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8:Al Hadath
+#DESCRIPTION Al Hadath
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mn-nl.mncdn.com/khalij/khalij/chunklist.m3u8:Al Khalij
 #DESCRIPTION Al Khalij
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8:Al Quran Al Kareem TV
 #DESCRIPTION Al Quran Al Kareem TV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/risala_net-7Y83PP5adWixDF93/rotana/risala_1080p/chunks.m3u8#Referer=https%3a//rotana.net/:Al Resalah 
+#DESCRIPTION Al Resalah 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8:Al Riyadh Radio
 #DESCRIPTION Al Riyadh Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8:Al Saudiya Alaan
@@ -171,12 +173,8 @@
 #DESCRIPTION Iqraa Bangla
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8:Iqraa Quran
 #DESCRIPTION Iqraa Quran
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a0ba:LBC
-#DESCRIPTION LBC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/lbc_net-7Y83PP5adWixDF93/playlist.m3u8:LBC (#)
-#DESCRIPTION LBC (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a00r:LBC International
-#DESCRIPTION LBC International
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/lbc_net-7Y83PP5adWixDF93/rotana/lbc_1080p/chunks.m3u8#Referer=https%3a//rotana.net/:LBC HD
+#DESCRIPTION LBC HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media2.streambrothers.com%3a1936/8122/8122/playlist.m3u8:Makkah TV
 #DESCRIPTION Makkah TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksanedaradiolive/srpksanedaradio/playlist.m3u8:Nidae AlIslam Radio

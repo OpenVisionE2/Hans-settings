@@ -153,11 +153,11 @@ transponders
 00c00000:0442:0001
 	s 12207000:29700000:1:2:192:2:0:1:2:0:2
 /
-00c00000:045b:0001
-	s 12663000:22000000:0:4:192:2:0
-/
 00c00000:0458:0001
 	s 12610000:22000000:1:2:192:2:0:1:2:0:2
+/
+00c00000:045b:0001
+	s 12663000:22000000:0:4:192:2:0
 /
 00c00000:0459:0001
 	s 12633000:22000000:0:4:192:2:0
@@ -320,9 +320,6 @@ transponders
 /
 00c00000:0411:0001
 	s 11082000:22000000:0:3:192:2:0:1:2:0:2
-/
-00c00000:0001:0001
-	s 11406000:26000000:1:4:192:2:0:1:2:0:2
 /
 00c00000:0449:0001
 	s 12344000:27500000:0:9:192:2:0:1:1:0:2
@@ -602,11 +599,11 @@ p:Telekom Srbija
 4f23:00eb0000:0c9c:0003:1:0
 Arena Premium 4 HD
 p:Telekom Srbija
-4e39:00eb0000:0c9c:0003:1:0
-NBA TV
-p:Telekom Srbija
 4f3b:00eb0000:0c9c:0003:1:0
 Euronews Montenegro
+p:Telekom Srbija
+4e3d:00eb0000:0c9c:0003:1:0
+SOS kanal
 p:Telekom Srbija
 4e42:00eb0000:0c9c:0003:1:0
 Pink Romance
@@ -772,9 +769,6 @@ Eko Vizija
 p:Telekom Srbija
 4edf:00eb0000:0ca6:0003:1:0
 TV Palma
-p:Telekom Srbija
-4ee2:00eb0000:0ca6:0003:1:0
-V5
 p:Telekom Srbija
 4ee3:00eb0000:0ca6:0003:1:0
 TV Galaksija 32
@@ -1153,13 +1147,13 @@ RDS SAT
 p:Towercom
 1328:00eb0000:0ca2:0003:25:0
 TA3 HD
-p:Towercom
+p:Towercom,c:050001
 1e33:00eb0000:0c9e:0003:1:0
 Pershiy
-p:,c:050001
+p:
 1e35:00eb0000:0c9e:0003:1:0
 Suspilne Kultura
-p:,c:050001
+p:
 1e1e:00eb0000:0c9e:0003:2:0
 Ukrayinske Radio
 p:
@@ -1195,10 +1189,10 @@ Service 801
 p:SES
 1e5a:00eb0000:0c9e:0003:22:0
 1+1 International
-p:1plus1 Media,c:050001
+p:1plus1 Media
 1e5b:00eb0000:0c9e:0003:22:0
 1+1
-p:1plus1 Media,c:050001
+p:1plus1 Media
 1e64:00eb0000:0c9e:0003:22:0
 ICTV
 p:
@@ -1213,7 +1207,7 @@ SONCE
 p:
 1e46:00eb0000:0c9e:0003:25:0
 Espreso TV HD
-p:,c:050001
+p:
 1e50:00eb0000:0c9e:0003:25:0
 Inter HD
 p:
@@ -1585,7 +1579,7 @@ CANAL+ Action
 p:M7 Group,c:050001
 17e2:00eb0000:0c82:0003:25:0
 Vixen HD
-p:M7 Group
+p:M7 Group,c:050001
 3746:00eb0000:0c8e:0003:2:0
 Proglas
 p:M7 Group
@@ -1744,7 +1738,7 @@ Veronica / Disney Jr.
 p:M7 Group,c:050001
 5230:00eb0000:0c99:0003:25:0
 NPO3 HD
-p:M7 Group,c:050001
+p:M7 Group,c:050001,c:098800
 52b0:00eb0000:0c99:0003:25:0
 BBC NL
 p:M7 Group,c:050001
@@ -1771,22 +1765,22 @@ TV2 Sef
 p:M7 Group
 5273:00eb0000:0c96:0003:22:0
 History NL
-p:M7 Group,c:050001
+p:M7 Group
 5276:00eb0000:0c96:0003:22:0
 VTM Gold
 p:M7 Group,c:050001
 5278:00eb0000:0c96:0003:22:0
 Ketnet
-p:M7 Group,c:050001
-527c:00eb0000:0c96:0003:22:0
-VTM Life
 p:M7 Group
+527c:00eb0000:0c96:0003:22:0
+VTM XMAS
+p:M7 Group,c:050001
 5280:00eb0000:0c96:0003:22:0
 VTM 3
 p:M7 Group
 5282:00eb0000:0c96:0003:22:0
 VTM 4
-p:M7 Group,c:050001
+p:M7 Group
 5284:00eb0000:0c96:0003:22:0
 Man-X
 p:M7 Group,c:050001
@@ -1795,10 +1789,10 @@ Play5
 p:M7 Group
 5287:00eb0000:0c96:0003:22:0
 Play7
-p:M7 Group,c:050001
+p:M7 Group
 51ae:00eb0000:0c96:0003:22:0
 Film1 Family
-p:M7 Group
+p:M7 Group,c:050001
 51b3:00eb0000:0c96:0003:22:0
 Film1 Drama
 p:M7 Group
@@ -1807,19 +1801,19 @@ Film1 Action
 p:M7 Group
 51bd:00eb0000:0c96:0003:22:0
 Ziggo Sport 2
-p:M7 Group,c:050001
+p:M7 Group
 51c2:00eb0000:0c96:0003:22:0
 Ziggo Sport 6
 p:M7 Group
 51d5:00eb0000:0c96:0003:22:0
 Ment Pop
-p:M7 Group,c:050001
+p:M7 Group
 51da:00eb0000:0c96:0003:22:0
 Eclips TV
-p:M7 Group,c:050001
+p:M7 Group
 52ec:00eb0000:0c96:0003:22:0
 DAZN Pro League 1 NL
-p:M7 Group,c:050001
+p:M7 Group
 52ed:00eb0000:0c96:0003:22:0
 Sport 10
 p:M7 Group
@@ -1834,16 +1828,16 @@ Nova Sport 5 HD (SK)
 p:M7 Group
 51d1:00eb0000:0c96:0003:25:0
 SBS9
-p:M7 Group,c:050001
+p:M7 Group
 51db:00eb0000:0c96:0003:25:0
 Film1 Premiere HD
-p:M7 Group,c:050001
+p:M7 Group
 51e0:00eb0000:0c96:0003:25:0
 Ziggo Sport
 p:M7 Group
 51e5:00eb0000:0c96:0003:25:0
 NGC HD
-p:M7 Group,c:050001
+p:M7 Group
 03e8:00ebb162:0001:0001:2:0
 Antenne Bayern
 p:Media Broadcast
@@ -1986,11 +1980,11 @@ p:M7 Group
 Nickelodeon CZ
 p:M7 Group
 334b:00eb0000:0c93:0003:25:0
-Sport 1 HD
+Sport 1 SK HD
 p:M7 Group
 334f:00eb0000:0c93:0003:25:0
 WAU HD
-p:M7 Group
+p:M7 Group,c:050001
 3350:00eb0000:0c93:0003:25:0
 JOJ Family HD
 p:M7 Group
@@ -2023,10 +2017,10 @@ Leo TV (22-06)
 p:M7 Group
 3cfd:00eb0000:0c95:0003:22:0
 TV8
-p:M7 Group,c:050001
-3cfe:00eb0000:0c95:0003:22:0
-TV Spark
 p:M7 Group
+3cfe:00eb0000:0c95:0003:22:0
+Kanal 1
+p:M7 Group,c:050001
 3cf0:00eb0000:0c95:0003:25:0
 Viasat History HD
 p:M7 Group
@@ -2445,7 +2439,7 @@ p:BetaDigital
 OLDIE ANTENNE
 p:BetaDigital
 0036:00c00000:0007:0085:22:0
-Genius Exklusiv
+NICER DICER TV
 p:BetaDigital
 0f03:00c00000:0007:0085:100:0
 12148H SID 0xf03
@@ -2650,10 +2644,10 @@ RFM TV
 p:CSAT
 2204:00c00000:044c:0001:25:0
 DORCEL XXX
-p:CSAT
+p:CSAT,c:050001
 2205:00c00000:044c:0001:25:0
 DORCEL TV
-p:CSAT
+p:CSAT,c:050001
 2206:00c00000:044c:0001:25:0
 TEVA
 p:CSAT
@@ -2977,9 +2971,6 @@ p:DVB-S QPSK 11156V 19.2Â°E
 p:DVB-S QPSK 11156V 19.2Â°E
 6e2d:00c00000:0431:0001:1:0
 Xplore
-p:SES,c:050001
-6e2e:00c00000:0431:0001:1:0
-Hip Trips
 p:SES
 6e40:00c00000:0431:0001:1:0
 One Terra
@@ -2998,13 +2989,16 @@ Just Fishing
 p:SES
 6e45:00c00000:0431:0001:1:0
 Höhenrausch
-p:SES
+p:SES,c:050001
 6e46:00c00000:0431:0001:1:0
 Crime Time
 p:SES
 6e47:00c00000:0431:0001:1:0
 SERIEN+
 p:SES
+6e3d:00c00000:0431:0001:25:0
+DYN Sport Mix
+p:SES,c:050001
 232f:00c00000:0442:0001:1:0
 F3 BNORMANDIE
 p:CSAT
@@ -3050,48 +3044,9 @@ p:CSAT
 238a:00c00000:0442:0001:100:0
 12207V SID 0x238a
 p:DVB-S2 8PSK 12207V 19.2Â°E
-3333:00c00000:045b:0001:1:0
-VISIT-X.tv
-p:
-3337:00c00000:045b:0001:1:0
-Service 13111
-p:ServusTV
-3354:00c00000:045b:0001:2:0
-RADIO MARIA
-p:Radio Maria Österreich
-332d:00c00000:045b:0001:22:0
-Service 13101
-p:ORF
-332e:00c00000:045b:0001:22:0
-NITRO Austria
-p:RTL
-332f:00c00000:045b:0001:22:0
-DOKUSAT SD
-p:Bayerische Medien Technik GmbH
-3330:00c00000:045b:0001:22:0
-LT1-OOE
-p:-
-3332:00c00000:045b:0001:22:0
-Shop LC
-p:ORS
-3336:00c00000:045b:0001:22:0
-Genius TV
-p:TV2000plus
-3338:00c00000:045b:0001:22:0
-4MEDIATHEK
-p:MIT-xperts GmbH
-3339:00c00000:045b:0001:22:0
-L-TV
-p:
-3355:00c00000:045b:0001:25:0
-EWTN katholisches TV HD
-p:EWTN
 2936:00c00000:0458:0001:1:0
 ALT_Xplore
 p:SES,c:050001
-2937:00c00000:0458:0001:1:0
-ALT_Hip Trips
-p:SES
 2938:00c00000:0458:0001:1:0
 ALT_One Terra
 p:SES
@@ -3125,6 +3080,42 @@ p:SES
 2942:00c00000:0458:0001:1:0
 ALT_SERIEN+
 p:SES
+3337:00c00000:045b:0001:1:0
+Service 13111
+p:ServusTV
+3354:00c00000:045b:0001:2:0
+RADIO MARIA
+p:Radio Maria Österreich
+332d:00c00000:045b:0001:22:0
+Service 13101
+p:ORF
+332e:00c00000:045b:0001:22:0
+NITRO Austria
+p:RTL
+332f:00c00000:045b:0001:22:0
+DOKUSAT SD
+p:Bayerische Medien Technik GmbH
+3330:00c00000:045b:0001:22:0
+LT1-OOE
+p:-
+3332:00c00000:045b:0001:22:0
+Shop LC
+p:ORS
+3333:00c00000:045b:0001:22:0
+Service 13107
+p:MIT-xperts GmbH
+3336:00c00000:045b:0001:22:0
+Genius TV
+p:TV2000plus
+3338:00c00000:045b:0001:22:0
+4MEDIATHEK
+p:MIT-xperts GmbH
+3339:00c00000:045b:0001:22:0
+L-TV
+p:
+3355:00c00000:045b:0001:25:0
+EWTN katholisches TV HD
+p:EWTN
 3138:00c00000:0459:0001:1:0
 MBS - Test2
 p:MB Satellite
@@ -3231,11 +3222,11 @@ p:SES ASTRA
 Algerie 3
 p:SES ASTRA
 2f6c:00c00000:0454:0001:1:0
-Cherie 25
-p:SES ASTRA
+RMC LIFE
+p:SES ASTRA,c:050001,c:090101
 2f6d:00c00000:0454:0001:1:0
-Cherie 25
-p:SES ASTRA
+RMC LIFE
+p:SES ASTRA,c:050001,c:090101
 2f9a:00c00000:0454:0001:1:0
 SBN International
 p:SES
@@ -4894,7 +4885,7 @@ AUTOMOTO la chaine
 p:AB SAT
 427d:00c00000:0446:0001:25:0
 AB1
-p:AB SAT
+p:AB SAT,c:050001
 427e:00c00000:0446:0001:25:0
 ANIMAUX
 p:AB SAT
@@ -4942,7 +4933,7 @@ volksmusik.tv
 p:
 6dcf:00c00000:044d:0001:22:0
 Genius Exklusiv
-p:WISI
+p:WISI,c:050001
 6dd1:00c00000:044d:0001:22:0
 Genius Family
 p:TV.2000plus,c:050001
@@ -4977,7 +4968,7 @@ p:TSA
 Telesur English
 p:TSA
 1012:00c00000:0451:0035:2:0
-Play Nostalgie
+Nostalgie
 p:M7 Group
 101a:00c00000:0451:0035:2:0
 VRT Radio1
@@ -5002,7 +4993,7 @@ BVN
 p:M7,c:050001
 1006:00c00000:0451:0035:22:0
 AB3
-p:M7 Group,c:050001
+p:M7 Group
 1009:00c00000:0451:0035:22:0
 INPLUS.
 p:M7
@@ -5011,7 +5002,7 @@ INPLUS
 p:M7
 100b:00c00000:0451:0035:22:0
 Hustler TV
-p:M7 Group
+p:M7 Group,c:050001
 100d:00c00000:0451:0035:22:0
 Hustler TV CZ
 p:M7 Group
@@ -5020,10 +5011,10 @@ Bergblick
 p:M7 Group
 1034:00c00000:0451:0035:22:0
 DAZN Pro League 1 FR
-p:M7 Group,c:050001
+p:M7 Group
 0fe0:00c00000:0451:0035:22:0
 Vivid
-p:M7 Group
+p:M7 Group,c:050001
 0fe1:00c00000:0451:0035:22:0
 Vivid CZ
 p:M7 Group
@@ -5388,7 +5379,7 @@ p:SES,c:050007
 Atreseries
 p:SES,c:050007
 2bc4:00c00000:040c:0001:31:0
-LaSexta
+laSexta
 p:SES,c:050007
 2bc5:00c00000:040c:0001:31:0
 Mega
@@ -5623,7 +5614,7 @@ TELE 5 HD
 p:BetaDigital
 151a:00c00000:0455:0001:25:0
 DMAX HD
-p:BetaDigital
+p:BetaDigital,c:050001
 151b:00c00000:0455:0001:25:0
 Juwelo HD
 p:BetaDigital
@@ -5732,15 +5723,6 @@ p:RTL
 2eaf:00c00000:0411:0001:25:0
 NITRO HD
 p:RTL
-0001:00c00000:0001:0001:25:0
-MM2 Service 1
-p:RR
-0002:00c00000:0001:0001:25:0
-MM2 Service 2
-p:RR
-0003:00c00000:0001:0001:25:0
-MM2 Service 3
-p:RR
 0802:00c00000:0449:0001:25:0
 HGTV HD
 p:
@@ -5920,16 +5902,19 @@ One Terra HD
 p:SES
 2969:00c00000:045a:0001:25:0
 Xplore HD
-p:SES,c:050001
-296a:00c00000:045a:0001:25:0
-Hip Trips HD
 p:SES
 296b:00c00000:045a:0001:25:0
 Deluxe Dance by Kontor HD
-p:SES,c:050001
+p:SES
+296c:00c00000:045a:0001:25:0
+Deluxe Flashback HD
+p:SES
 296d:00c00000:045a:0001:25:0
 Just Cooking HD
-p:SES,c:050001
+p:SES
+296e:00c00000:045a:0001:25:0
+Deluxe Rock HD
+p:SES
 296f:00c00000:045a:0001:25:0
 Deluxe Rap HD
 p:SES
@@ -5977,7 +5962,7 @@ Kabel Eins Doku HD
 p:ProSiebenSat.1
 ef7a:00c00000:03f9:0001:25:0
 SAT.1 GOLD HD
-p:ProSiebenSat.1
+p:ProSiebenSat.1,c:050001
 ef8a:00c00000:03f9:0001:25:0
 kabel eins HD Austria
 p:ProSiebenSat.1
@@ -6130,7 +6115,7 @@ Höhenrausch HD
 p:SES,c:050001
 30d4:00c00000:0413:0001:25:0
 SAT.1 Gold HD
-p:ProSiebenSat.1,c:050001
+p:ProSiebenSat.1
 30d5:00c00000:0413:0001:25:0
 .
 p:SES ASTRA
@@ -6148,7 +6133,7 @@ Eurosport 1 HD Austria
 p:SES ASTRA
 30f2:00c00000:0413:0001:25:0
 K-TV HD
-p:SES ASTRA,c:050001
+p:SES ASTRA
 30de:00c00000:0413:0001:31:0
 .
 p:SES ASTRA
@@ -6177,7 +6162,7 @@ p:SES
 Pro7Sat.1 UHD
 p:ProSiebenSat.1,c:050007
 2c24:00c00000:03f6:0001:31:0
-La 1
+La 1 UHD
 p:SES,c:050007
 2c25:00c00000:03f6:0001:31:0
 La 2
@@ -6191,8 +6176,11 @@ p:SES
 2c28:00c00000:03f6:0001:31:0
 Teledeporte
 p:SES
+2c29:00c00000:03f6:0001:31:0
+TRECE
+p:SES
 2c2a:00c00000:03f6:0001:31:0
 DKISS
-p:SES,c:050007
+p:SES
 end
 Editor:DreamSet 2.4.11 - http://www.dreamset-editor.com
