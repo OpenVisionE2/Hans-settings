@@ -1,23 +1,25 @@
 #NAME Stream Polen (PL)
-#SERVICE 1:64:426:0:0:0:0:0:0:0:
+#SERVICE 1:64:415:0:0:0:0:0:0:0:
 #DESCRIPTION ++TVP++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42936&extension=ts:TVP 1 (#)
-#DESCRIPTION TVP 1 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ec06-krk3.cache.orange.pl/dai4/org1/vb/104/tvp1hd/index.m3u8:TVP 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42936&extension=ts:TVP 1
 #DESCRIPTION TVP 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42935&extension=ts:TVP 2 (#)
-#DESCRIPTION TVP 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdndai.pl/tvp2hd/index.m3u8:TVP 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ec06-krk3.cache.orange.pl/dai4/org1/vb/104/tvp1hd/index.m3u8:TVP 1 (#)
+#DESCRIPTION TVP 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdndai.pl/tvp1hd/index.m3u8:TVP 1 (#)
+#DESCRIPTION TVP 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42935&extension=ts:TVP 2
 #DESCRIPTION TVP 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42934&extension=ts:TVP 3 (#)
-#DESCRIPTION TVP 3 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdndai.pl/tvp3warszawasd/index.m3u8:TVP 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdndai.pl/tvp2hd/index.m3u8:TVP 2 (#)
+#DESCRIPTION TVP 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42934&extension=ts:TVP 3
 #DESCRIPTION TVP 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdndai.pl/tvp3warszawasd/index.m3u8:TVP 3 (#)
+#DESCRIPTION TVP 3 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42931&extension=ts:TVP Info
 #DESCRIPTION TVP Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42929&extension=ts:TVP Polonia
 #DESCRIPTION TVP Polonia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/tvpolonia/browser-HLS8/tvpolonia.m3u8:TVP Polonia (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/tvpolonia/browser-dash/tvpolonia.mpd:TVP Polonia (#)
 #DESCRIPTION TVP Polonia (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42926&extension=ts:TVP Sport
 #DESCRIPTION TVP Sport
@@ -45,7 +47,7 @@
 #DESCRIPTION TVP Rozrywka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42927&extension=ts:TVP Seriale
 #DESCRIPTION TVP Seriale
-#SERVICE 1:64:427:0:0:0:0:0:0:0:
+#SERVICE 1:64:416:0:0:0:0:0:0:0:
 #DESCRIPTION ++Polsat++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42970&extension=ts:Polsat
 #DESCRIPTION Polsat
@@ -59,6 +61,8 @@
 #DESCRIPTION Polsat Film
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42967&extension=ts:Polsat Jim Jam
 #DESCRIPTION Polsat Jim Jam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a07e:Polsat Jim Jam (#)
+#DESCRIPTION Polsat Jim Jam (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42966&extension=ts:Polsat Music
 #DESCRIPTION Polsat Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42965&extension=ts:Polsat News
@@ -85,7 +89,9 @@
 #DESCRIPTION Polsat Viasat Nature
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=51396&extension=ts:Super Polsat
 #DESCRIPTION Super Polsat
-#SERVICE 1:64:428:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a043:Super Polsat (#)
+#DESCRIPTION Super Polsat (#)
+#SERVICE 1:64:417:0:0:0:0:0:0:0:
 #DESCRIPTION ++TVN++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=36162&extension=ts:TVN
 #DESCRIPTION TVN
@@ -127,14 +133,22 @@
 #DESCRIPTION TVN Usterka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=188102&extension=ts:TVN W Domu
 #DESCRIPTION TVN W Domu
-#SERVICE 1:64:429:0:0:0:0:0:0:0:
+#SERVICE 1:64:418:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a020:4 Fun Dance
+#DESCRIPTION 4 Fun Dance
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.4fun.tv%3a8889/hls/4fk_high/index.m3u8:4 Fun Kids
+#DESCRIPTION 4 Fun Kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.4fun.tv%3a8888/hls/4f_high/index.m3u8:4 Fun TV
+#DESCRIPTION 4 Fun TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//echo24new.pl/LiveAppStreamECHO24/streams/GL0VksiIgQUS1672825288490.m3u8:Echo24
 #DESCRIPTION Echo24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/espl-abr/index.m3u8:Eska Hity na Czasie
 #DESCRIPTION Eska Hity na Czasie
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/erpl-abr/index.m3u8:Eska Rock Dobrze Rockuje
 #DESCRIPTION Eska Rock Dobrze Rockuje
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02f:Eska TV
+#DESCRIPTION Eska TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-s-lb2.pluscdn.pl/lv/1517830/349/dash/81ec4c32/live.mpd:Polsat News
 #DESCRIPTION Polsat News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cbxedge.synapsetv.com/picker/tsstreamer/?f=RedCarpetTVLDAI_SD&sessionID=IOOlOK0MLN0ytoF0qULYt8LtoJ6z.qu9Z9P72ST7e3qooF-1745345173079:Red Carpet TV
@@ -151,16 +165,24 @@
 #DESCRIPTION Tele 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42943&extension=ts:TV 6
 #DESCRIPTION TV 6
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a03y:TV 6 (#)
+#DESCRIPTION TV 6 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a02e:Polo TV
+#DESCRIPTION Polo TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a034:TV Puls
+#DESCRIPTION TV Puls
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=42946&extension=ts:Puls 2
+#DESCRIPTION Puls 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=47241&extension=ts:TVS
 #DESCRIPTION TVS
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.streamtvt.pl/LiveAppStreamTVT/streams/853271271313930867905724.m3u8:TVT
 #DESCRIPTION TVT
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//str.onnetwork.tv/hls/onnet-358726_hi/index.m3u8:W Polsce 24
 #DESCRIPTION W Polsce 24
-#SERVICE 1:64:42a:0:0:0:0:0:0:0:
+#SERVICE 1:64:419:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.4fun.tv%3a8888/hls/4f_high/index.m3u8:4 Fun TV
-#DESCRIPTION 4 Fun TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a03o:13 Ulica
+#DESCRIPTION 13 Ulica
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8:Cartoon Classics
 #DESCRIPTION Cartoon Classics
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/espl-abr/index.m3u8:Eska Hity na Czasie
@@ -177,6 +199,8 @@
 #DESCRIPTION Radio Czworka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/shpl-abr/index.m3u8:SAYHi
 #DESCRIPTION SAYHi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.236.229.62%3a9981/play/a023:Stopklatka
+#DESCRIPTION Stopklatka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8:Telewizja Biznesowa
 #DESCRIPTION Telewizja Biznesowa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn01.aztv.pl/live_tvjaslo/live_tvjaslo.stream/playlist.m3u8:Telewizja Jaslo
@@ -191,11 +215,3 @@
 #DESCRIPTION TV Okazje
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//217.173.176.107%3a1935/live/tvk.stream/playlist.m3u8:TV Toruń
 #DESCRIPTION TV Toruń
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42941&extension=ts:TVN 7
-#DESCRIPTION TVN 7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=42942&extension=ts:TVN 24
-#DESCRIPTION TVN 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=51405&extension=ts:TVN 24 Bis
-#DESCRIPTION TVN 24 Bis
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=36162&extension=ts:TVN Pora Na Show
-#DESCRIPTION TVN Pora Na Show

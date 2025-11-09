@@ -1,5 +1,5 @@
 #NAME Stream UK - algemeen + diversen
-#SERVICE 1:64:61f:0:0:0:0:0:0:0:
+#SERVICE 1:64:60b:0:0:0:0:0:0:0:
 #DESCRIPTION ++UK radio BBC voor buiten UK++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww.live.cf.md.bbci.co.uk/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%253d96000.norewind.m3u8:BBC Radio 1
 #DESCRIPTION BBC Radio 1
@@ -29,7 +29,7 @@
 #DESCRIPTION BBC Asian Network
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//as-hls-ww.live.cf.md.bbci.co.uk/pool_98137350/live/ww/bbc_london/bbc_london.isml/bbc_london-audio%253d96000.norewind.m3u8:BBC Radio London
 #DESCRIPTION BBC Radio London
-#SERVICE 1:64:620:0:0:0:0:0:0:0:
+#SERVICE 1:64:60c:0:0:0:0:0:0:0:
 #DESCRIPTION ++BBC radio voor in de UK of buiten UK met VPN++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/aks/bbc_radio_one.mpd:BBC Radio 1
 #DESCRIPTION BBC Radio 1
@@ -69,7 +69,7 @@
 #DESCRIPTION BBC Asian Network
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/uk/pc_hd_abr_v2/cfs/bbc_london.mpd :BBC Radio London
 #DESCRIPTION BBC Radio London
-#SERVICE 1:64:621:0:0:0:0:0:0:0:
+#SERVICE 1:64:60d:0:0:0:0:0:0:0:
 #DESCRIPTION ++UK radio algemeen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fr5.1mix.co.uk%3a8020/;:1 Mix Radio (UK algemeen)
 #DESCRIPTION 1 Mix Radio (UK algemeen)
@@ -291,10 +291,16 @@
 #DESCRIPTION Smooth Radio Country (Engeland, UK algemeen)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//eu9.fastcast4u.com/proxy/soulpowerradio?mp=%252F1:Soul Power Radio (UK algemeen)
 #DESCRIPTION Soul Power Radio (UK algemeen)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n41a-eu.rcs.revma.com/nep4pkyctncwv:Soundtrack Radio
+#DESCRIPTION Soundtrack Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//listen-nation.sharp-stream.com/sunfm.mp3:Sun FM
 #DESCRIPTION Sun FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//direct.sharp-stream.com/sunriseradio.mp3:Sunrise Radio (UK algemeen)
-#DESCRIPTION Sunrise Radio (UK algemeen)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//direct.sharp-stream.com/sunriseradio.mp3:Sunrise Radio
+#DESCRIPTION Sunrise Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen-sunriseradio.sharp-stream.com/1014_sunrise_retro_128_mp3:Sunrise Retro
+#DESCRIPTION Sunrise Retro
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen-sunriseradio.sharp-stream.com/529_sunrise_smooth_128_mp3:Sunrise Smooth
+#DESCRIPTION Sunrise Smooth
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio.talkradio.co.uk/stream:talkRADIO
 #DESCRIPTION talkRADIO
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio.talksport.com/stream:talkSPORT 1
@@ -307,6 +313,8 @@
 #DESCRIPTION The UK 1940S (Engeland, UK)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//timesradio.wireless.radio/stream:Times Radio (UK)
 #DESCRIPTION Times Radio (UK)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ukwesta.streaming.broadcast.radio/truck:TRK Radio (Truck Radio)
+#DESCRIPTION TRK Radio (Truck Radio)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//edge-audio-02-gos1.sharp-stream.com/ucbuk.mp3:UCB 1 (reliigie - UK)
 #DESCRIPTION UCB 1 (reliigie - UK)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//edge-audio-01-cr.sharp-stream.com/ucbinspirational.mp3:UCB 2 (reliigie - UK)
@@ -327,11 +335,11 @@
 #DESCRIPTION WRN English for Europe
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamer.radio.co/seeb39e7d4/listen:Wynne Evans Show
 #DESCRIPTION Wynne Evans Show
-#SERVICE 1:64:622:0:0:0:0:0:0:0:
+#SERVICE 1:64:60e:0:0:0:0:0:0:0:
 #DESCRIPTION ++UK radio Gibraltar++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//37.123.118.13%3a8041/stream:GBC Radio = Radio Gibraltar (Gibraltar)
 #DESCRIPTION GBC Radio = Radio Gibraltar (Gibraltar)
-#SERVICE 1:64:623:0:0:0:0:0:0:0:
+#SERVICE 1:64:60f:0:0:0:0:0:0:0:
 #DESCRIPTION ++UK radio in andere landen++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-14.aiir.com/ugvtqtv4jfmuv:93.6 Global Radio (Costa del Sol)
 #DESCRIPTION 93.6 Global Radio (Costa del Sol)
@@ -343,5 +351,5 @@
 #DESCRIPTION Mallorca Sunshine Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//46.28.53.118%3a7001/stream/:Talk Radio Europe Costa Blanca
 #DESCRIPTION Talk Radio Europe Costa Blanca
-#SERVICE 1:64:624:0:0:0:0:0:0:0:
+#SERVICE 1:64:610:0:0:0:0:0:0:0:
 #DESCRIPTION +++BFBS in apart boeket+++

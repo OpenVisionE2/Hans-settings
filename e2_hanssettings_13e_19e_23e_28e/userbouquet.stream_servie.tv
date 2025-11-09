@@ -1,33 +1,37 @@
 #NAME Stream Servië (RS)
-#SERVICE 1:64:437:0:0:0:0:0:0:0:
+#SERVICE 1:64:426:0:0:0:0:0:0:0:
 #DESCRIPTION ++RTS-hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.37.116.201%3a8008/Cristian_Zaharie/eYq7TH8t/473565:RTS 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39714&extension=ts:RTS 1
 #DESCRIPTION RTS 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.37.116.201%3a8008/Cristian_Zaharie/eYq7TH8t/473568:RTS 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39713&extension=ts:RTS 2
 #DESCRIPTION RTS 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//199.115.193.39%3a8008/Dascalu@PetreSorin/kNBFAPTU2G/473570:RTS 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a91%3a01%3a12&stream=161994&extension=ts&play_token=E7XCae0KFf:RTS 3
 #DESCRIPTION RTS 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cachehsi1a.netplus.ch/live/eds/rtssat/browser-dash/rtssat.mpd:RTS Svet
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39712&extension=ts:RTS Svet
 #DESCRIPTION RTS Svet
-#SERVICE 1:64:438:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:3:13:13:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a91%3a01%3a12&stream=161996&extension=ts&play_token=3RPrgZR4Hk:RTS Drama
+#DESCRIPTION RTS Drama
+#SERVICE 4097:0:1:3:15:15:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a91%3a01%3a12&stream=161998&extension=ts&play_token=LqW7Nx9bqs:RTS Kolo
+#DESCRIPTION RTS Kolo
+#SERVICE 4097:0:1:3:16:16:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a91%3a01%3a12&stream=1159828&extension=ts&play_token=K95pYIVaaD:RTS Poletarac
+#DESCRIPTION RTS Poletarac
+#SERVICE 4097:0:1:3:14:14:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a91%3a01%3a12&stream=162000&extension=ts&play_token=0NIXCvMatp:RTS Trezor
+#DESCRIPTION RTS Trezor
+#SERVICE 4097:0:1:3:18:18:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a91%3a01%3a12&stream=161997&extension=ts&play_token=2oc12bGKvL:RTS Zivot
+#DESCRIPTION RTS Zivot
+#SERVICE 1:64:427:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=31379&extension=ts:Agro TV
-#DESCRIPTION Agro TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-live/0nj-g63-92x-few/tracks-v2a1/mono.ts.m3u8:ATV
 #DESCRIPTION ATV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.cmctv.hr%3a49998/cmc/live.m3u8:CMC TV
 #DESCRIPTION CMC TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39699&extension=ts:Duga Plus 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/dmsat/browser-dash/dmsat.mpd:DM Sat
+#DESCRIPTION DM Sat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39699&extension=ts:Duga Plus 
 #DESCRIPTION Duga Plus 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//53be5ef2d13aa.streamlock.net/informertv-secure/web/chunklist_w1850758410.m3u8:Informer TV
-#DESCRIPTION Informer TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//539745e629986.streamlock.net/minacordmedia-secure/k1studio/chunklist_w1464410076.m3u8:K1
-#DESCRIPTION K1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=47427&extension=ts:Kanal 10
-#DESCRIPTION Kanal 10
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39686&extension=ts:KCN 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39686&extension=ts:KCN 2
 #DESCRIPTION KCN 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39685&extension=ts:KCN 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39685&extension=ts:KCN 3
 #DESCRIPTION KCN 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/720p/720p.m3u8:Kurir TV
 #DESCRIPTION Kurir TV
@@ -41,19 +45,19 @@
 #DESCRIPTION N1 SRB
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge8.pink.rs/narodnatv/index.m3u8:Narodna TV
 #DESCRIPTION Narodna TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=50651&extension=ts:Nova Serbia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=50651&extension=ts:Nova Serbia
 #DESCRIPTION Nova Serbia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39709&extension=ts:Pink 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge8.pink.rs/pinktv/index.m3u8:Pink 1
 #DESCRIPTION Pink 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39636&extension=ts:Pink Sci-Fi & Fantasy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39636&extension=ts:Pink Sci-Fi & Fantasy
 #DESCRIPTION Pink Sci-Fi & Fantasy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39629&extension=ts:Pink World
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39629&extension=ts:Pink World
 #DESCRIPTION Pink World
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39628&extension=ts:Pink World Cinema
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39628&extension=ts:Pink World Cinema
 #DESCRIPTION Pink World Cinema
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39706&extension=ts:Prva 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39706&extension=ts:Prva 1
 #DESCRIPTION Prva 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39704&extension=ts:Prva World
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39704&extension=ts:Prva World
 #DESCRIPTION Prva World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge8.pink.rs/redtv/chunklist_w350271877.m3u8:Red TV
 #DESCRIPTION Red TV
@@ -63,26 +67,24 @@
 #DESCRIPTION Studio B
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-livestream-specific/1z8-byc-4ee-lc9/tracks-v3a1/mono.ts.m3u8:T7
 #DESCRIPTION T7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39683&extension=ts:TV 1000
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39683&extension=ts:TV 1000
 #DESCRIPTION TV 1000
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92.60.238.10%3a1935/live/belleamie/playlist.m3u8:TV Belle Amie
 #DESCRIPTION TV Belle Amie
-#SERVICE 1:64:439:0:0:0:0:0:0:0:
+#SERVICE 1:64:428:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.132.74.5%3a8000/play/a00a:24 Kitchen Serbia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39668&extension=ts:24 Kitchen Serbia
 #DESCRIPTION 24 Kitchen Serbia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-hls-web-ajb.getaj.net/AJB/index.m3u8:Al Jazeera Balkans
 #DESCRIPTION Al Jazeera Balkans
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.132.74.5%3a8000/play/a00k:Arena Sport 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39615&extension=ts:Arena Sport 1
 #DESCRIPTION Arena Sport 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aE8%3aC7%3a66&stream=39708&extension=ts:Happy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=39708&extension=ts:Happy
 #DESCRIPTION Happy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?stream=hp1400&sp=idjtv&u=idjtv&p=In$trum300na765ta&channel=idjhd&player=m3u8:IDJ TV
 #DESCRIPTION IDJ TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv1.intv.mk%3a1935/live/intv/playlist.m3u8:inTV Australia
 #DESCRIPTION inTV Australia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/romaniamedia/076cd2e932/47469:Jefimija
-#DESCRIPTION Jefimija
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.cmctv.hr%3a49998/kit/live.m3u8:Klape i Tambure
 #DESCRIPTION Klape i Tambure
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-livestream/lj9-pxm-o53-rp0/tracks-v4a1/mono.m3u8:Kohavision
@@ -141,13 +143,9 @@
 #DESCRIPTION TV As
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vod1.laki.eu/live/hram/index.m3u8:TV Hram
 #DESCRIPTION TV Hram
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.83.120.135%3a8001/play/a04z:TV Llapi
-#DESCRIPTION TV Llapi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.rtvnp.rs/stream.m3u8:TV Novi Pazar
 #DESCRIPTION TV Novi Pazar
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.pikanal.rs/pikanal/pgm.m3u8:TV Pi Canal Pirot
 #DESCRIPTION TV Pi Canal Pirot
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5bc45691ca49f.streamlock.net/tvpirot/uzivo/chunklist_w1209443471.m3u8:TV Pirot
-#DESCRIPTION TV Pirot
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gjirafa-video-live.gjirafa.net/gjvideo-live/j3a-n14-2pf-g3s/tracks-v2a1/mono.ts.m3u8:Zico TV
 #DESCRIPTION Zico TV

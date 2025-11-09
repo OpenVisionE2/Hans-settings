@@ -243,14 +243,14 @@ transponders
 00c00000:03ff:0001
 	s 11553000:22000000:0:2:192:2:0:1:2:0:2
 /
-00c00000:043c:0001
-	s 12090000:29700000:1:2:192:2:0:1:2:0:2
-/
 00c00000:040a:0001
 	s 10979000:22000000:1:4:192:2:0
 /
 00c00000:0407:0001
 	s 11671000:22000000:0:2:192:2:0:1:2:0:2
+/
+00c00000:043c:0001
+	s 12090000:29700000:1:2:192:2:0:1:2:0:2
 /
 00c00000:040e:0001
 	s 11038000:22000000:1:4:192:2:0
@@ -582,9 +582,6 @@ ffff0000:0001:25a8
 ffff0000:0001:10ef
 	c 674000:6875000:2:3:0:0:0
 /
-ffff0000:0c7a:0600
-	c 266000:6900000:2:5:0:0:0
-/
 ffff0000:0002:10ef
 	c 554000:6875000:2:3:0:0:0
 /
@@ -774,6 +771,9 @@ ffff0000:000a:0001
 ffff0000:0071:08c9
 	c 786000:6900000:2:3:0:0:0
 /
+ffff0000:0834:0000
+	c 450000:6900000:2:5:0:0:0
+/
 ffff0000:0016:10ef
 	c 714000:6875000:2:3:0:0:0
 /
@@ -792,6 +792,9 @@ ffff0000:0906:2210
 ffff0000:0840:0600
 	c 290000:6900000:2:5:0:0:0
 /
+ffff0000:0803:0000
+	c 434000:6900000:2:5:0:0:0
+/
 ffff0000:0808:0600
 	c 402000:6900000:2:5:0:0:0
 /
@@ -809,6 +812,9 @@ ffff0000:0c7e:0600
 /
 ffff0000:0807:0600
 	c 410000:6900000:2:5:0:0:0
+/
+ffff0000:0c7a:0600
+	c 266000:6900000:2:5:0:0:0
 /
 ffff0000:0019:25a8
 	c 322000:6875000:2:5:0:0:0
@@ -965,9 +971,6 @@ p:Telekom Srbija
 4f01:00eb0000:0ca5:0003:1:0
 Cool TV
 p:Telekom Srbija
-4f02:00eb0000:0ca5:0003:1:0
-Digi 24
-p:Telekom Srbija
 4f03:00eb0000:0ca5:0003:1:0
 Pro TV International
 p:Telekom Srbija
@@ -1001,9 +1004,6 @@ p:Telekom Srbija
 4f0d:00eb0000:0ca5:0003:1:0
 Super TV2
 p:Telekom Srbija
-4f10:00eb0000:0ca5:0003:1:0
-TV Mreza Most
-p:Telekom Srbija
 4f11:00eb0000:0ca5:0003:1:0
 OBN
 p:Telekom Srbija
@@ -1031,12 +1031,9 @@ p:Telekom Srbija
 4f1c:00eb0000:0ca5:0003:1:0
 TV Pljevlja
 p:Telekom Srbija
-4f24:00eb0000:0ca5:0003:1:0
-Baby TV
-p:Telekom Srbija
 4e30:00eb0000:0ca5:0003:1:0
 UNA TV
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e4d:00eb0000:0ca5:0003:1:0
 Kurir TV
 p:Telekom Srbija
@@ -1061,26 +1058,14 @@ p:Telekom Srbija
 4ecd:00eb0000:0ca5:0003:1:0
 TVCG3
 p:Telekom Srbija
-4ece:00eb0000:0ca5:0003:1:0
-Novi Pazar
-p:Telekom Srbija
 4ed4:00eb0000:0ca5:0003:1:0
 Dorcel
-p:Telekom Srbija
-4eda:00eb0000:0ca5:0003:1:0
-Hustler
 p:Telekom Srbija
 4ede:00eb0000:0ca5:0003:1:0
 Zona Plus
 p:Telekom Srbija
-4ee0:00eb0000:0ca5:0003:1:0
-Panon TV
-p:Telekom Srbija
 4ee1:00eb0000:0ca5:0003:1:0
 Novosadska TV
-p:Telekom Srbija
-4ee4:00eb0000:0ca5:0003:1:0
-TV 5
 p:Telekom Srbija
 4ee8:00eb0000:0ca5:0003:1:0
 Arena Sport_1 HD
@@ -1094,9 +1079,6 @@ p:Telekom Srbija
 4efb:00eb0000:0ca5:0003:1:0
 Arena_Sport 4
 p:Telekom Srbija
-4efd:00eb0000:0ca5:0003:1:0
-Mozy +
-p:Telekom Srbija
 4efe:00eb0000:0ca5:0003:1:0
 Film 4
 p:Telekom Srbija
@@ -1106,6 +1088,9 @@ p:Telekom Srbija
 0001:00ebacff:0001:ffff:1:0
 rt1.tv Dirty Krefeld Galopp
 p:rt1.tv,c:050001
+4f02:00eb0000:0c9f:0003:1:0
+Digi 24
+p:Telekom Srbija
 4f0e:00eb0000:0c9f:0003:1:0
 RAI 1
 p:Telekom Srbija
@@ -1121,20 +1106,56 @@ p:Telekom Srbija
 4f22:00eb0000:0c9f:0003:1:0
 Elita live 4
 p:Telekom Srbija
+4e2e:00eb0000:0c9f:0003:1:0
+Prva Max
+p:Telekom Srbija,c:050001
 4f2f:00eb0000:0c9f:0003:1:0
 Arena Premium 5 HD
+p:Telekom Srbija
+4e53:00eb0000:0c9f:0003:1:0
+Pink Western
 p:Telekom Srbija
 4e54:00eb0000:0c9f:0003:1:0
 LFCTV
 p:Telekom Srbija
+4e65:00eb0000:0c9f:0003:1:0
+DaVinci
+p:Telekom Srbija
+4e74:00eb0000:0c9f:0003:1:0
+Pink World Cinema
+p:Telekom Srbija
+4e76:00eb0000:0c9f:0003:1:0
+Prva World
+p:Telekom Srbija
 4e93:00eb0000:0c9f:0003:1:0
 Cartoon Network
+p:Telekom Srbija
+4e94:00eb0000:0c9f:0003:1:0
+History
 p:Telekom Srbija
 4e9a:00eb0000:0c9f:0003:1:0
 Arena Adrenalin
 p:Telekom Srbija
+4ead:00eb0000:0c9f:0003:1:0
+Pink Folk
+p:Telekom Srbija
+4ebb:00eb0000:0c9f:0003:1:0
+DM SAT
+p:Telekom Srbija
+4ebf:00eb0000:0c9f:0003:1:0
+Bravo Music
+p:Telekom Srbija
+4ec0:00eb0000:0c9f:0003:1:0
+Pink Music 2
+p:Telekom Srbija
 4ec1:00eb0000:0c9f:0003:1:0
 JimJam
+p:Telekom Srbija
+4ec2:00eb0000:0c9f:0003:1:0
+Duga Plus
+p:Telekom Srbija
+4ece:00eb0000:0c9f:0003:1:0
+Novi Pazar
 p:Telekom Srbija
 4ed1:00eb0000:0c9f:0003:1:0
 Viasat Kino
@@ -1151,6 +1172,12 @@ p:Telekom Srbija
 4edc:00eb0000:0c9f:0003:1:0
 Euro Cinema 4
 p:Telekom Srbija
+4ee0:00eb0000:0c9f:0003:1:0
+Panon TV
+p:Telekom Srbija
+4ee3:00eb0000:0c9f:0003:1:0
+TV Galaksija 32
+p:Telekom Srbija
 4ee5:00eb0000:0c9f:0003:1:0
 Prva Plus
 p:Telekom Srbija
@@ -1166,6 +1193,9 @@ p:Telekom Srbija
 4f0f:00eb0000:0c9c:0003:1:0
 TVE International
 p:Telekom Srbija
+4f10:00eb0000:0c9c:0003:1:0
+TV Mreza Most
+p:Telekom Srbija
 4f18:00eb0000:0c9c:0003:1:0
 France 24
 p:Telekom Srbija
@@ -1178,23 +1208,50 @@ p:Telekom Srbija
 4f23:00eb0000:0c9c:0003:1:0
 Arena Premium 4 HD
 p:Telekom Srbija
+4f24:00eb0000:0c9c:0003:1:0
+Baby TV
+p:Telekom Srbija
 4f3b:00eb0000:0c9c:0003:1:0
 Euronews Montenegro
 p:Telekom Srbija
+4f3c:00eb0000:0c9c:0003:1:0
+TS Media Live
+p:Telekom Srbija
 4e3d:00eb0000:0c9c:0003:1:0
 SOS kanal
-p:Telekom Srbija
+p:Telekom Srbija,c:050001
 4e42:00eb0000:0c9c:0003:1:0
 Pink Romance
 p:Telekom Srbija
 4e43:00eb0000:0c9c:0003:1:0
 Arena Tenis HD
 p:Telekom Srbija
+4e50:00eb0000:0c9c:0003:1:0
+Pink Crime&Mistery
+p:Telekom Srbija
+4e5a:00eb0000:0c9c:0003:1:0
+AMC
+p:Telekom Srbija
+4e5f:00eb0000:0c9c:0003:1:0
+DIVA
+p:Telekom Srbija
 4e72:00eb0000:0c9c:0003:1:0
 Kuvo TV
 p:Telekom Srbija
+4e89:00eb0000:0c9c:0003:1:0
+TV Hram
+p:Telekom Srbija
+4e95:00eb0000:0c9c:0003:1:0
+TLC
+p:Telekom Srbija
 4ea5:00eb0000:0c9c:0003:1:0
 Nicktoons
+p:Telekom Srbija
+4eb9:00eb0000:0c9c:0003:1:0
+Pink n Roll
+p:Telekom Srbija
+4ebe:00eb0000:0c9c:0003:1:0
+City Play
 p:Telekom Srbija
 4ec9:00eb0000:0c9c:0003:1:0
 Cartoonito
@@ -1208,11 +1265,20 @@ p:Telekom Srbija
 4ed8:00eb0000:0c9c:0003:1:0
 Euro Cinema 1
 p:Telekom Srbija
+4eda:00eb0000:0c9c:0003:1:0
+Hustler TV
+p:Telekom Srbija
 4edb:00eb0000:0c9c:0003:1:0
 Euro Cinema 3
 p:Telekom Srbija
 4edd:00eb0000:0c9c:0003:1:0
 Prva Kick
+p:Telekom Srbija
+4ee4:00eb0000:0c9c:0003:1:0
+TV 5
+p:Telekom Srbija
+4ee6:00eb0000:0c9c:0003:1:0
+Telemark
 p:Telekom Srbija
 4ee7:00eb0000:0c9c:0003:1:0
 Skymusic Entertaiment
@@ -1222,6 +1288,9 @@ Love Nature
 p:Telekom Srbija
 4ef1:00eb0000:0c9c:0003:1:0
 Fashion TV
+p:Telekom Srbija
+4ef6:00eb0000:0c9c:0003:1:0
+Story 4
 p:Telekom Srbija
 4efd:00eb0000:0c9c:0003:1:0
 MTV 00s
@@ -1337,9 +1406,6 @@ p:Telekom Srbija
 4ebf:00eb0000:0ca6:0003:1:0
 Bravo music
 p:Telekom Srbija
-4ec0:00eb0000:0ca6:0003:1:0
-Pink music 2
-p:Telekom Srbija
 4ecf:00eb0000:0ca6:0003:1:0
 Narodna TV
 p:Telekom Srbija
@@ -1363,61 +1429,58 @@ mSAT Info
 p:Telekom Srbija,c:050001
 4e2c:00eb0000:0c8b:0003:1:0
 Superstar 2
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e33:00eb0000:0c8b:0003:1:0
 Dexy TV
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e6f:00eb0000:0c8b:0003:1:0
 RTS Klasika
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e7a:00eb0000:0c8b:0003:1:0
 RTS Život
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e7b:00eb0000:0c8b:0003:1:0
 RTS Drama
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e7c:00eb0000:0c8b:0003:1:0
 RTS Kolo
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e7d:00eb0000:0c8b:0003:1:0
 RTS Trezor
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e7e:00eb0000:0c8b:0003:1:0
 RTS Muzika
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e7f:00eb0000:0c8b:0003:1:0
 RTS Poletarac
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e82:00eb0000:0c8b:0003:1:0
 RTS 3 HD
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4ea3:00eb0000:0c8b:0003:1:0
 Dox TV
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4ec4:00eb0000:0c8b:0003:1:0
 Blic TV HD
 p:Telekom Srbija
 4ef2:00eb0000:0c8b:0003:1:0
 M1
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4ef3:00eb0000:0c8b:0003:1:0
 Arena_Sport 5
 p:Telekom Srbija
 4ef4:00eb0000:0c8b:0003:1:0
 RTL
-p:Telekom Srbija,c:050001
-4ef6:00eb0000:0c8b:0003:1:0
-Story 4
 p:Telekom Srbija
 4ef8:00eb0000:0c8b:0003:1:0
 RTL KETTŐ
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4ef9:00eb0000:0c8b:0003:1:0
 Duna
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4efa:00eb0000:0c8b:0003:1:0
 Duna world
-p:,c:050001
+p:
 5154:00eb0000:0c8b:0003:2:0
 Radio Beograd 1
 p:Telekom Srbija
@@ -1438,19 +1501,16 @@ RTS 1 HD
 p:Telekom Srbija,c:050001
 4e22:00eb0000:0c8b:0003:25:0
 RTS 2 HD
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e23:00eb0000:0c8b:0003:25:0
 SUPERSTAR TV HD
-p:Telekom Srbija,c:050007
+p:Telekom Srbija
 4e32:00eb0000:0c8b:0003:25:0
 Agro TV HD
-p:Telekom Srbija,c:050001
-4e39:00eb0000:0c8b:0003:25:0
-Balkan Sport 1
 p:Telekom Srbija
 4e83:00eb0000:0c8b:0003:25:0
 RTS Svet HD
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4e24:00eb0000:0ca7:0003:1:0
 TV Pink
 p:Telekom Srbija
@@ -1757,18 +1817,15 @@ p:
 1e2c:00eb0000:0c9e:0003:2:0
 radio nv
 p:TRK ERA
-1e2e:00eb0000:0c9e:0003:2:0
-Golos Kyiva
-p:
 0320:00eb0000:0c9e:0003:12:0
 MX
-p:SES,C:0000
+p:SES,c:031000,C:2600
 0321:00eb0000:0c9e:0003:12:0
 Service 801
-p:SES
+p:SES,c:031001
 1e5a:00eb0000:0c9e:0003:22:0
 1+1 International
-p:1plus1 Media
+p:1plus1 Media,c:050001
 1e5b:00eb0000:0c9e:0003:22:0
 1+1
 p:1plus1 Media
@@ -1823,9 +1880,6 @@ p:Telekom Srbija,c:050001
 4e59:00eb0000:0ca8:0003:1:0
 M2
 p:Telekom Srbija
-4e5a:00eb0000:0ca8:0003:1:0
-AMC
-p:Telekom Srbija
 4e5b:00eb0000:0ca8:0003:1:0
 Arena Premium 2
 p:Telekom Srbija
@@ -1834,9 +1888,6 @@ Muzsika TV
 p:Telekom Srbija
 4e5e:00eb0000:0ca8:0003:1:0
 Hype 2 TV
-p:Telekom Srbija
-4e5f:00eb0000:0ca8:0003:1:0
-DIVA
 p:Telekom Srbija
 4e61:00eb0000:0ca8:0003:1:0
 Star HD
@@ -1850,14 +1901,8 @@ p:Telekom Srbija
 4e73:00eb0000:0ca8:0003:1:0
 Pink Classic
 p:Telekom Srbija
-4e74:00eb0000:0ca8:0003:1:0
-Pink world Cinema
-p:Telekom Srbija
 4e75:00eb0000:0ca8:0003:1:0
 Newsmax Balkans
-p:Telekom Srbija
-4e76:00eb0000:0ca8:0003:1:0
-Prva World
 p:Telekom Srbija
 4e77:00eb0000:0ca8:0003:1:0
 K1
@@ -1886,9 +1931,6 @@ p:Telekom Srbija
 4e88:00eb0000:0ca8:0003:1:0
 BN HD
 p:Telekom Srbija
-4e89:00eb0000:0ca8:0003:1:0
-TV Hram
-p:Telekom Srbija
 4e8a:00eb0000:0ca8:0003:1:0
 TVCG1
 p:Telekom Srbija
@@ -1909,12 +1951,6 @@ BHTV
 p:Telekom Srbija
 4e91:00eb0000:0ca8:0003:1:0
 FTV
-p:Telekom Srbija
-4e94:00eb0000:0ca8:0003:1:0
-History
-p:Telekom Srbija
-4e95:00eb0000:0ca8:0003:1:0
-TLC
 p:Telekom Srbija
 4e96:00eb0000:0ca8:0003:1:0
 Pink Reality
@@ -1942,7 +1978,7 @@ Cinemax 2
 p:Telekom Srbija
 4e63:00eb0000:0ca4:0003:1:0
 Star Life HD
-p:Telekom Srbija
+p:Telekom Srbija,c:050007
 4e64:00eb0000:0ca4:0003:1:0
 Star Crime HD
 p:Telekom Srbija
@@ -1976,9 +2012,6 @@ p:Telekom Srbija
 4eac:00eb0000:0ca4:0003:1:0
 24Kitchen
 p:Telekom Srbija
-4ead:00eb0000:0ca4:0003:1:0
-Pink Folk
-p:Telekom Srbija
 4eae:00eb0000:0ca4:0003:1:0
 Arena Sport 10 HD
 p:Telekom Srbija
@@ -2009,14 +2042,8 @@ p:Telekom Srbija
 4eb8:00eb0000:0ca4:0003:1:0
 Pink Hits 1
 p:Telekom Srbija
-4eb9:00eb0000:0ca4:0003:1:0
-Pink&Roll
-p:Telekom Srbija
 4eba:00eb0000:0ca4:0003:1:0
 BN Music
-p:Telekom Srbija
-4ebb:00eb0000:0ca4:0003:1:0
-DM SAT
 p:Telekom Srbija
 4ebc:00eb0000:0ca4:0003:1:0
 Toxic Rap
@@ -2024,12 +2051,6 @@ p:Telekom Srbija
 4ebd:00eb0000:0ca4:0003:1:0
 Arena 1x2
 p:Telekom Srbija
-4ebe:00eb0000:0ca4:0003:1:0
-City Play
-p:Telekom Srbija
-4ec2:00eb0000:0ca4:0003:1:0
-Duga plus
-p:Telekom Srbija,c:050001
 4ec3:00eb0000:0ca4:0003:1:0
 RTR Planeta
 p:Telekom Srbija
@@ -2048,9 +2069,6 @@ p:Telekom Srbija
 4ed5:00eb0000:0ca4:0003:1:0
 Brazzers
 p:
-4ee6:00eb0000:0ca4:0003:1:0
-Telemark
-p:Telekom Srbija
 4eed:00eb0000:0ca4:0003:1:0
 Arena Sport 8 HD
 p:
@@ -2098,13 +2116,13 @@ Mezzo
 p:M7 Group
 178e:00eb0000:0c82:0003:22:0
 Star Channel
-p:M7 Group
+p:M7 Group,c:050001
 17ae:00eb0000:0c82:0003:22:0
 Travel XP
 p:M7 Group
 17af:00eb0000:0c82:0003:22:0
 Travel XP BNL
-p:M7 Group
+p:M7 Group,c:050001
 17b1:00eb0000:0c82:0003:22:0
 Disney Channel
 p:M7 Group,c:050001
@@ -2152,7 +2170,7 @@ ESPN HD
 p:M7 Group,c:050001
 17ce:00eb0000:0c82:0003:25:0
 Filmbox NL HD
-p:M7 Group
+p:M7 Group,c:050001
 17cf:00eb0000:0c82:0003:25:0
 CANAL+ Action
 p:M7 Group,c:050001
@@ -2175,7 +2193,7 @@ p:M7 Group
 Markiza International
 p:M7 Group
 3721:00eb0000:0c8e:0003:22:0
-Nova Gold
+Nova Krimi
 p:M7 Group
 3723:00eb0000:0c8e:0003:22:0
 Nova Lady
@@ -2188,7 +2206,7 @@ SuperTV2
 p:M7 Group
 371e:00eb0000:0c8e:0003:25:0
 Nova Sport 2 HD
-p:M7 Group,c:050001
+p:M7 Group
 3722:00eb0000:0c8e:0003:25:0
 Nova Fun HD
 p:M7 Group
@@ -2200,7 +2218,7 @@ Prima COOL HD SK
 p:M7 Group
 3726:00eb0000:0c8e:0003:25:0
 Prima Love HD SK
-p:M7 Group,c:050001
+p:M7 Group
 372c:00eb0000:0c8e:0003:25:0
 Nova Sport 5 HD (CZ)
 p:M7 Group
@@ -2269,13 +2287,13 @@ TV Gelderland
 p:M7 Group,c:050001
 5252:00eb0000:0c99:0003:22:0
 Oost
-p:M7 Group
+p:M7 Group,c:050001
 5265:00eb0000:0c99:0003:22:0
 TV Noord
 p:M7 Group,c:050001
 5268:00eb0000:0c99:0003:22:0
 Omroep Brabant Televisie
-p:M7 Group,c:050001
+p:M7 Group,c:050001,c:098800
 5274:00eb0000:0c99:0003:22:0
 Nickelodeon
 p:M7 Group,c:050001
@@ -2284,10 +2302,10 @@ Comedy Central NL
 p:M7 Group,c:050001
 528b:00eb0000:0c99:0003:22:0
 Paramount Network
-p:M7 Group
+p:M7 Group,c:050001
 528c:00eb0000:0c99:0003:22:0
 MTV NL
-p:M7 Group
+p:M7 Group,c:050001
 5292:00eb0000:0c99:0003:22:0
 TV Oranje
 p:M7 Group,c:050001
@@ -2302,7 +2320,7 @@ Sorozat+
 p:M7 Group
 521c:00eb0000:0c99:0003:25:0
 NET5 HD
-p:M7 Group
+p:M7 Group,c:050001,c:098800
 5221:00eb0000:0c99:0003:25:0
 VRT 1
 p:M7 Group,c:050001,c:098800
@@ -2311,10 +2329,10 @@ NPO1 HD
 p:M7 Group,c:050001,c:098800
 5226:00eb0000:0c99:0003:25:0
 VRT Canvas HD
-p:M7 Group,c:050001
+p:M7 Group,c:050001,c:098800
 522b:00eb0000:0c99:0003:25:0
 Veronica / Disney Jr.
-p:M7 Group,c:050001
+p:M7 Group,c:050001,f:8
 5230:00eb0000:0c99:0003:25:0
 NPO3 HD
 p:M7 Group,c:050001,c:098800
@@ -2344,34 +2362,34 @@ TV2 Sef
 p:M7 Group
 5273:00eb0000:0c96:0003:22:0
 History NL
-p:M7 Group
+p:M7 Group,c:050001,c:090202
 5276:00eb0000:0c96:0003:22:0
 VTM Gold
-p:M7 Group,c:050001
+p:M7 Group
 5278:00eb0000:0c96:0003:22:0
 Ketnet
-p:M7 Group
+p:M7 Group,c:050001
 527c:00eb0000:0c96:0003:22:0
 VTM XMAS
-p:M7 Group,c:050001
+p:M7 Group
 5280:00eb0000:0c96:0003:22:0
 VTM 3
-p:M7 Group
+p:M7 Group,c:050001
 5282:00eb0000:0c96:0003:22:0
 VTM 4
-p:M7 Group
+p:M7 Group,c:050001
 5284:00eb0000:0c96:0003:22:0
 Man-X
-p:M7 Group,c:050001
+p:M7 Group
 5286:00eb0000:0c96:0003:22:0
-Play5
+Play Fictie
 p:M7 Group
 5287:00eb0000:0c96:0003:22:0
-Play7
+Play Reality
 p:M7 Group
 51ae:00eb0000:0c96:0003:22:0
 Film1 Family
-p:M7 Group,c:050001
+p:M7 Group
 51b3:00eb0000:0c96:0003:22:0
 Film1 Drama
 p:M7 Group
@@ -2389,10 +2407,10 @@ Ment Pop
 p:M7 Group
 51da:00eb0000:0c96:0003:22:0
 Eclips TV
-p:M7 Group
+p:M7 Group,c:050001
 52ec:00eb0000:0c96:0003:22:0
 DAZN Pro League 1 NL
-p:M7 Group
+p:M7 Group,c:050001
 52ed:00eb0000:0c96:0003:22:0
 Sport 10
 p:M7 Group
@@ -2407,7 +2425,7 @@ Nova Sport 5 HD (SK)
 p:M7 Group
 51d1:00eb0000:0c96:0003:25:0
 SBS9
-p:M7 Group
+p:M7 Group,c:050001
 51db:00eb0000:0c96:0003:25:0
 Film1 Premiere HD
 p:M7 Group
@@ -2416,7 +2434,7 @@ Ziggo Sport
 p:M7 Group
 51e5:00eb0000:0c96:0003:25:0
 NGC HD
-p:M7 Group
+p:M7 Group,c:050001
 03e8:00ebb162:0001:0001:2:0
 Antenne Bayern
 p:Media Broadcast
@@ -2710,7 +2728,7 @@ Love Nature HD BNL
 p:M7 Group
 1c10:00eb0000:0c88:0003:22:0
 Duna World / M4 Sport+
-p:M7 Group,c:050001
+p:M7 Group
 1c15:00eb0000:0c88:0003:22:0
 Film+ Hungary
 p:M7 Group
@@ -2719,31 +2737,31 @@ Duna SD
 p:M7 Group
 1c17:00eb0000:0c88:0003:22:0
 Cool
-p:M7 Group,c:050001
+p:M7 Group
 1b62:00eb0000:0c88:0003:22:0
 DreamWorks
-p:M7 Group,c:050001
+p:M7 Group
 1b92:00eb0000:0c88:0003:22:0
 RTL Z
 p:M7 Group,c:050001
 1b95:00eb0000:0c88:0003:22:0
-Play6
+Play Actie
 p:M7 Group
 1b97:00eb0000:0c88:0003:22:0
 Crime+Investigation
-p:M7 Group,c:050001
+p:M7 Group
 1c0c:00eb0000:0c88:0003:25:0
 Penthouse Gold CZ
-p:M7 Group,c:050001
+p:M7 Group
 1c0d:00eb0000:0c88:0003:25:0
 Penthouse Reality TV CZ
-p:M7 Group,c:050001
+p:M7 Group
 1b6c:00eb0000:0c88:0003:25:0
 RTL4 HD
 p:M7 Group,c:050001,c:098800
 1b6f:00eb0000:0c88:0003:25:0
 RTL5 HD
-p:M7 Group,c:050001
+p:M7 Group
 1b73:00eb0000:0c88:0003:25:0
 RTL7 HD
 p:M7 Group,c:050001
@@ -2755,22 +2773,22 @@ RTL8 HD
 p:M7 Group,c:050001
 1b90:00eb0000:0c88:0003:25:0
 VTM 2 HD
-p:M7 Group,c:050001
+p:M7 Group
 1b91:00eb0000:0c88:0003:25:0
-Play4
+Play
 p:M7 Group,c:050001,c:098800
 1bfc:00eb0000:0c88:0003:25:0
 ESPN 2 HD
-p:M7 Group,c:050001
+p:M7 Group
 1bfd:00eb0000:0c88:0003:25:0
 Nautical HD
-p:M7 Group,c:050001
+p:M7 Group
 1bfe:00eb0000:0c88:0003:25:0
 Penthouse Gold
-p:M7 Group,c:050001
+p:M7 Group
 1bff:00eb0000:0c88:0003:25:0
 Penthouse Reality TV
-p:M7 Group,c:050001
+p:M7 Group
 3c2a:00eb0000:0c90:0003:22:0
 LALA TV
 p:M7 Group
@@ -3241,7 +3259,7 @@ p:CSAT
 p:CSAT
 220d:00c00000:044c:0001:25:0
 FRANCEINFO:
-p:CSAT
+p:CSAT,c:050001
 21fd:00c00000:044c:0001:25:0
 FRANCE 4
 p:CSAT,c:050001,c:090102
@@ -3368,6 +3386,12 @@ p:SES ASTRA
 1efb:00c00000:0457:0001:2:0
 RTL RADIO
 p:SES ASTRA
+0378:00c00000:0457:0001:12:0
+DVB-I
+p:,f:40
+0379:00c00000:0457:0001:12:0
+DVB-I Images
+p:,f:40
 1ee6:00c00000:0457:0001:12:0
 SGI_1111
 p:SES ASTRA
@@ -3589,10 +3613,7 @@ DATASYSTEM
 p:CSAT
 232a:00c00000:0442:0001:25:0
 T18
-p:CSAT
-232b:00c00000:0442:0001:25:0
-CANAL+LIVE 9
-p:CSAT
+p:CSAT,c:050001
 232c:00c00000:0442:0001:25:0
 PARIS PREMIERE
 p:CSAT
@@ -3607,7 +3628,7 @@ FRANCE 5
 p:CSAT
 2331:00c00000:0442:0001:25:0
 LCI
-p:CSAT
+p:CSAT,c:050001
 2332:00c00000:0442:0001:25:0
 INFOSPORT+
 p:CSAT
@@ -3616,7 +3637,7 @@ CSTAR
 p:CSAT
 2336:00c00000:0442:0001:25:0
 CNEWS
-p:CSAT
+p:CSAT,c:050001
 2329:00c00000:0442:0001:31:0
 CANAL+BOX OFFICE UHD
 p:CSAT
@@ -3802,10 +3823,10 @@ Algerie 3
 p:SES ASTRA
 2f6c:00c00000:0454:0001:1:0
 RMC LIFE
-p:SES ASTRA,c:050001,c:090101
+p:SES ASTRA
 2f6d:00c00000:0454:0001:1:0
 RMC LIFE
-p:SES ASTRA,c:050001,c:090101
+p:SES ASTRA
 2f9a:00c00000:0454:0001:1:0
 SBN International
 p:SES
@@ -4015,7 +4036,7 @@ CINE+ EMOTION
 p:CSAT
 245c:00c00000:0440:0001:25:0
 LCP
-p:CSAT
+p:CSAT,c:050001
 245d:00c00000:0440:0001:25:0
 FRANCE 3
 p:CSAT,c:050001,c:090102
@@ -4292,21 +4313,12 @@ p:HD +
 307a:00c00000:03f5:0001:31:0
 RTL UHD
 p:MX1,c:050007
-2071:00c00000:0432:0001:1:0
-11895V SID 0x2071
-p:DVB-S2 8PSK 11895V 19.2Â°E
-2072:00c00000:0432:0001:1:0
-11895V SID 0x2072
-p:DVB-S2 8PSK 11895V 19.2Â°E
-2073:00c00000:0432:0001:1:0
-11895V SID 0x2073
-p:DVB-S2 8PSK 11895V 19.2Â°E
 207b:00c00000:0432:0001:1:0
 F3 AQUITAINE
 p:CSAT
 206d:00c00000:0432:0001:25:0
 BFM TV
-p:CSAT,c:050001
+p:CSAT
 206e:00c00000:0432:0001:25:0
 POLAR+
 p:CSAT
@@ -4315,7 +4327,16 @@ BFM BUSINESS
 p:CSAT
 2070:00c00000:0432:0001:25:0
 A LA UNE
-p:CSAT,c:050001
+p:CSAT
+2071:00c00000:0432:0001:25:0
+CANAL+LIVE 7
+p:CSAT
+2072:00c00000:0432:0001:25:0
+CANAL+LIVE 8
+p:CSAT
+2073:00c00000:0432:0001:25:0
+CANAL+LIVE 9
+p:CSAT
 2074:00c00000:0432:0001:25:0
 BEIN SPORTS MAX 10
 p:CSAT
@@ -4333,7 +4354,7 @@ p:CSAT
 p:CSAT
 2079:00c00000:0432:0001:25:0
 NICKTOONS
-p:CSAT,c:050001
+p:CSAT
 207a:00c00000:0432:0001:25:0
 CANAL+GRAND ECRAN
 p:CSAT
@@ -4371,14 +4392,14 @@ p:SES Astra
 HSE Extra
 p:SES Astra
 7882:00c00000:0414:0001:1:0
-TEST1 TXP44
+TEST TXP44
 p:Movistar+
 7884:00c00000:0414:0001:1:0
-TEST4 TXP44
+TEST3 TXP44
 p:
 7885:00c00000:0414:0001:1:0
-M+ OSCARS
-p:Movistar+
+M+ TERROR
+p:Movistar+,c:090208
 7888:00c00000:0414:0001:1:0
 BOING
 p:DIGITAL+
@@ -4389,7 +4410,7 @@ p:DIGITAL+
 DIVINITY
 p:DIGITAL+
 788c:00c00000:0414:0001:1:0
-TEST2 TXP44
+TEST4 TXP44
 p:
 788d:00c00000:0414:0001:1:0
 TEST5 TXP44
@@ -4398,19 +4419,19 @@ p:Movistar+
 MTV ESPAÑA
 p:DIGITAL+
 7890:00c00000:0414:0001:1:0
-GOL PLAY
+GOL
 p:Movistar+
 7891:00c00000:0414:0001:1:0
 BE MAD
 p:Movistar+
 7892:00c00000:0414:0001:1:0
-M+ LALIGA TV 4
+M+ LALIGA 4
 p:
 7893:00c00000:0414:0001:1:0
 TEST L8.
 p:
 7894:00c00000:0414:0001:1:0
-TEST3 TXP44
+TEST2 TXP44
 p:
 788e:00c00000:0414:0001:100:0
 11126V SID 0x788e
@@ -4493,14 +4514,11 @@ p:DIGITAL+
 7693:00c00000:041e:0001:1:0
 10788V SID 0x7693
 p:DVB-S QPSK 10788V 19.2Â°E
-7694:00c00000:041e:0001:1:0
-10788V SID 0x7694
-p:DVB-S QPSK 10788V 19.2Â°E
 7695:00c00000:041e:0001:1:0
 ALQUILER XY
 p:TXY
 7696:00c00000:041e:0001:1:0
-M+COMEDIA Ñ
+M+ ROMANCE
 p:Movistar+
 7697:00c00000:041e:0001:1:0
 NICK JR
@@ -4518,7 +4536,7 @@ p:Movistar+
 10788V SID 0x769c
 p:DVB-S QPSK 10788V 19.2Â°E
 769d:00c00000:041e:0001:1:0
-M+ LALIGA TV 2
+M+ LALIGA 2
 p:Movistar+
 769e:00c00000:041e:0001:1:0
 LA SEXTA
@@ -4916,48 +4934,30 @@ p:Movistar+
 74a5:00c00000:041c:0001:100:0
 10758V SID 0x74a5
 p:DVB-S2 8PSK 10758V 19.2Â°E
-219e:00c00000:0448:0001:1:0
-12324V SID 0x219e
-p:DVB-S2 8PSK 12324V 19.2Â°E
 21a0:00c00000:0448:0001:1:0
 F3 FRANCHE COMTE
 p:CSAT
 21a1:00c00000:0448:0001:1:0
 F3 BOURGOGNE
-p:CSAT
+p:CSAT,c:050001
 21a2:00c00000:0448:0001:1:0
 F3 ALPES
-p:CSAT
+p:CSAT,c:050001
 21a3:00c00000:0448:0001:1:0
 F3 LIMOUSIN
 p:CSAT
 21a4:00c00000:0448:0001:1:0
 F3 LORRAINE
 p:CSAT
-21a5:00c00000:0448:0001:1:0
-F3 PARIS IDF
-p:CSAT
-21a6:00c00000:0448:0001:1:0
-F3 POITOUCHAR
-p:CSAT
-21a7:00c00000:0448:0001:1:0
-F3 CHAMP ARDENNE
-p:CSAT
-21a8:00c00000:0448:0001:1:0
-F3 HNORMANDIE
-p:CSAT
-21a9:00c00000:0448:0001:1:0
-F3 ALSACE
-p:CSAT
 21aa:00c00000:0448:0001:1:0
 NOA
 p:CSAT
 2199:00c00000:0448:0001:25:0
 NICKELODEON
-p:CSAT
+p:CSAT,c:050001
 219c:00c00000:0448:0001:25:0
 BEIN SPORTS MAX 7
-p:CSAT
+p:CSAT,c:050001
 219d:00c00000:0448:0001:25:0
 NICKELODEON JUNIOR
 p:CSAT
@@ -5093,56 +5093,11 @@ p:BMT
 16b1:00c00000:03ff:0001:25:0
 Franken Plus HD
 p:BMT
-24ba:00c00000:043c:0001:1:0
-12090V SID 0x24ba
-p:DVB-S2 8PSK 12090V 19.2Â°E
-24bd:00c00000:043c:0001:1:0
-F3 PROV ALPES
-p:CSAT
-24c9:00c00000:043c:0001:1:0
-F3 AUVERGNE
-p:CSAT
-251b:00c00000:043c:0001:12:0
-DATASYSTEM
-p:CSAT
-24b9:00c00000:043c:0001:25:0
-UNIONTV
-p:CSAT
-24bc:00c00000:043c:0001:25:0
-NOVO19
-p:CSAT
-24be:00c00000:043c:0001:25:0
-EUROSPORT 2
-p:CSAT
-24bf:00c00000:043c:0001:25:0
-NOVELAS TV
-p:CSAT
-24c1:00c00000:043c:0001:25:0
-PLANETE+CRIME
-p:CSAT
-24c4:00c00000:043c:0001:25:0
-CANAL+LIVE 3
-p:CSAT
-24c5:00c00000:043c:0001:25:0
-CANAL+LIVE 8
-p:CSAT
-24c6:00c00000:043c:0001:25:0
-TRACE URBAN
-p:CSAT
-24c7:00c00000:043c:0001:25:0
-GAME ONE
-p:CSAT
-24c8:00c00000:043c:0001:25:0
-CANAL+SPORT360
-p:CSAT
-238a:00c00000:043c:0001:100:0
-12090V SID 0x238a
-p:DVB-S2 8PSK 12090V 19.2Â°E
 77bc:00c00000:040a:0001:1:0
 FDF
 p:DIGITAL+
 77bd:00c00000:040a:0001:1:0
-M+ LALIGA TV 3
+M+ LALIGA 3
 p:Movistar+
 77be:00c00000:040a:0001:1:0
 DAZN 3
@@ -5154,7 +5109,7 @@ p:Movistar+
 DAZN 4
 p:Movistar+
 77c1:00c00000:040a:0001:1:0
-BBC DRAMA
+BBC SERIES
 p:Movistar+
 77c2:00c00000:040a:0001:1:0
 M+DEPORTES3
@@ -5222,6 +5177,45 @@ p:ProSiebenSat.1
 14b9:00c00000:0407:0001:25:0
 4mediathek
 p:ProSiebenSat.1
+24bd:00c00000:043c:0001:1:0
+F3 PROV ALPES
+p:CSAT
+24c9:00c00000:043c:0001:1:0
+F3 AUVERGNE
+p:CSAT
+251b:00c00000:043c:0001:12:0
+DATASYSTEM
+p:CSAT
+24b9:00c00000:043c:0001:25:0
+UNIONTV
+p:CSAT,c:050001
+24bc:00c00000:043c:0001:25:0
+NOVO19
+p:CSAT
+24be:00c00000:043c:0001:25:0
+EUROSPORT 2
+p:CSAT
+24bf:00c00000:043c:0001:25:0
+NOVELAS TV
+p:CSAT
+24c1:00c00000:043c:0001:25:0
+PLANETE+CRIME
+p:CSAT
+24c4:00c00000:043c:0001:25:0
+CANAL+LIVE 3
+p:CSAT
+24c6:00c00000:043c:0001:25:0
+TRACE URBAN
+p:CSAT
+24c7:00c00000:043c:0001:25:0
+GAME ONE
+p:CSAT
+24c8:00c00000:043c:0001:25:0
+CANAL+SPORT360
+p:CSAT
+238a:00c00000:043c:0001:100:0
+12090V SID 0x238a
+p:DVB-S2 8PSK 12090V 19.2Â°E
 76c0:00c00000:040e:0001:1:0
 M+ ESTRENOS
 p:Movistar+
@@ -5232,11 +5226,11 @@ p:Digital+
 LA 1
 p:TVE 1
 76c3:00c00000:040e:0001:1:0
-TEST2 TXP38
-p:DCH
+BBC LIFESTYLE
+p:MOVISTAR+
 76c4:00c00000:040e:0001:1:0
-TEST TXP38
-p:PRISA TV
+BBC EARTH
+p:MOVISTAR+
 76c5:00c00000:040e:0001:1:0
 LALIGA TV BAR 2
 p:Movistar
@@ -5273,15 +5267,24 @@ p:DVB-S QPSK 11038V 19.2Â°E
 22c9:00c00000:0434:0001:1:0
 F3 PICARDIE
 p:CSAT
+22ca:00c00000:0434:0001:1:0
+F3 PARIS IDF
+p:CSAT
+22cc:00c00000:0434:0001:1:0
+F3 POITOUCHAR
+p:CSAT
+22cf:00c00000:0434:0001:1:0
+F3 CHAMP ARDENNE
+p:CSAT
 22d0:00c00000:0434:0001:1:0
-11934V SID 0x22d0
-p:DVB-S2 8PSK 11934V 19.2Â°E
+F3 HNORMANDIE
+p:CSAT
+22d1:00c00000:0434:0001:1:0
+F3 ALSACE
+p:CSAT
 22d2:00c00000:0434:0001:1:0
 F3 MIDI PYRENEES
 p:CSAT
-22d8:00c00000:0434:0001:1:0
-11934V SID 0x22d8
-p:DVB-S2 8PSK 11934V 19.2Â°E
 2007:00c00000:0434:0001:12:0
 DATASYSTEM
 p:CSAT
@@ -5290,9 +5293,6 @@ MTV
 p:CSAT
 22c6:00c00000:0434:0001:25:0
 TV5 MONDE
-p:CSAT
-22c7:00c00000:0434:0001:25:0
-CANAL+
 p:CSAT
 22c8:00c00000:0434:0001:25:0
 HISTOIRE TV
@@ -5318,8 +5318,8 @@ p:CSAT
 22d6:00c00000:0434:0001:25:0
 MEZZO
 p:CSAT
-22d7:00c00000:0434:0001:25:0
-CANAL+LIVE 7
+22d8:00c00000:0434:0001:25:0
+PANNEAU ARRET G5
 p:CSAT
 238a:00c00000:0434:0001:100:0
 11934V SID 0x238a
@@ -5542,7 +5542,7 @@ CGTN Documentary
 p:TSA
 18ef:00c00000:03f4:0001:25:0
 CGTN Francais
-p:TSA
+p:TSA,c:050001
 18f9:00c00000:03f4:0001:25:0
 Telesur English
 p:TSA
@@ -5569,7 +5569,7 @@ OTA SMIT CAM 702
 p:M7 Group
 1005:00c00000:0451:0035:22:0
 BVN
-p:M7,c:050001
+p:M7,c:050001,f:8
 1006:00c00000:0451:0035:22:0
 AB3
 p:M7 Group
@@ -5590,7 +5590,7 @@ Bergblick
 p:M7 Group
 1034:00c00000:0451:0035:22:0
 DAZN Pro League 1 FR
-p:M7 Group
+p:M7 Group,c:050001
 0fe0:00c00000:0451:0035:22:0
 Vivid
 p:M7 Group,c:050001
@@ -5635,7 +5635,7 @@ DRadio Dok&Deb
 p:ZDFvision
 2b66:00c00000:03f3:0001:25:0
 ZDF HD
-p:ZDFvision
+p:ZDFvision,c:050001,c:090101
 2b7a:00c00000:03f3:0001:25:0
 zdf_neo HD
 p:ZDFvision
@@ -5684,12 +5684,9 @@ p:ORF
 1342:00c00000:03ef:0001:22:0
 RiC NEU
 p:IP Broadcast
-1344:00c00000:03ef:0001:22:0
-TV Berlin
-p:ORF
 132f:00c00000:03ef:0001:25:0
 ORF1 HD
-p:ORF,c:050001
+p:ORF
 1330:00c00000:03ef:0001:25:0
 ORF2W HD
 p:ORF
@@ -5704,7 +5701,7 @@ ORF2N HD
 p:ORF
 1335:00c00000:03ef:0001:25:0
 ORF HITRADIO OE3 VISUAL
-p:ORF,c:050001
+p:ORF
 28a0:00c00000:040f:0001:10:0
 Bayern 1
 p:ARD BR
@@ -6445,7 +6442,7 @@ p:Movistar,c:050001,c:090405
 p:DVB-S2 8PSK 10906V 19.2Â°E
 283d:00c00000:03fb:0001:25:0
 Das Erste HD
-p:ARD,c:050001
+p:ARD,c:050001,c:090101
 283e:00c00000:03fb:0001:25:0
 arte HD
 p:ARD,c:050001,c:090101
@@ -6823,6 +6820,9 @@ Nickelodeon
 p:Delta
 1b00:ffff0000:0c82:0600:1:0
 ML5 TV
+p:Ziggo
+1b01:ffff0000:0c82:0600:1:0
+Omroep P&M
 p:Ziggo
 1b02:ffff0000:0c82:0600:1:0
 WeertFM TV
@@ -8714,120 +8714,6 @@ p:Delta
 006c:ffff0000:0001:10ef:25:0
 Disney Channel
 p:Delta
-1969:ffff0000:0c7a:0600:1:0
-TV Hoeksche Waard
-p:Ziggo
-196a:ffff0000:0c7a:0600:1:0
-Open Rotterdam
-p:Ziggo
-196b:ffff0000:0c7a:0600:1:0
-Rotterdam Podium
-p:Ziggo
-196c:ffff0000:0c7a:0600:1:0
-Atos TV
-p:Ziggo
-196e:ffff0000:0c7a:0600:1:0
-TV Dordrecht
-p:Ziggo
-1970:ffff0000:0c7a:0600:1:0
-Capelle TV
-p:Ziggo
-0db4:ffff0000:0c7a:0600:2:0
-WOS Radio
-p:Ziggo
-0db5:ffff0000:0c7a:0600:2:0
-Amor FM
-p:Ziggo
-0db6:ffff0000:0c7a:0600:2:0
-LINQ FM
-p:Ziggo
-0db7:ffff0000:0c7a:0600:2:0
-Atos Radio
-p:Ziggo
-0db8:ffff0000:0c7a:0600:2:0
-Radio Ridderkerk
-p:Ziggo
-0db9:ffff0000:0c7a:0600:2:0
-FunX Lokaal Rotterdam
-p:Ziggo
-0dba:ffff0000:0c7a:0600:2:0
-DrechtstadFM
-p:Ziggo
-0dbb:ffff0000:0c7a:0600:2:0
-Radio Hoeksche Waard
-p:Ziggo
-0dbc:ffff0000:0c7a:0600:2:0
-Lansingerland FM
-p:Ziggo
-0dbd:ffff0000:0c7a:0600:2:0
-Capelle Radio
-p:Ziggo
-0dbe:ffff0000:0c7a:0600:2:0
-Klok Radio
-p:Ziggo
-0dbf:ffff0000:0c7a:0600:2:0
-Radio Slogo
-p:Ziggo
-0dc0:ffff0000:0c7a:0600:2:0
-Papendrecht-FM
-p:Ziggo
-0dc1:ffff0000:0c7a:0600:2:0
-Merwe Radio
-p:Ziggo
-0dc2:ffff0000:0c7a:0600:2:0
-SRC FM
-p:Ziggo
-0dc3:ffff0000:0c7a:0600:2:0
-RTV Krimpenerwaard Radio
-p:Ziggo
-0dc4:ffff0000:0c7a:0600:2:0
-Exxact Radio
-p:Ziggo
-1968:ffff0000:0c7a:0600:25:0
-TV-Papendrecht
-p:Ziggo
-196a:ffff0000:0c7a:0600:25:0
-Open Rotterdam
-p:Ziggo
-196b:ffff0000:0c7a:0600:25:0
-Rotterdam Podium
-p:Ziggo
-196c:ffff0000:0c7a:0600:25:0
-Atos TV
-p:Ziggo
-196d:ffff0000:0c7a:0600:25:0
-LINQ TV
-p:Ziggo
-196e:ffff0000:0c7a:0600:25:0
-TV Dordrecht
-p:Ziggo
-196f:ffff0000:0c7a:0600:25:0
-Lansingerland TV
-p:Ziggo
-1970:ffff0000:0c7a:0600:25:0
-Capelle TV
-p:Ziggo
-1971:ffff0000:0c7a:0600:25:0
-RTV Slogo
-p:Ziggo
-1972:ffff0000:0c7a:0600:25:0
-WOS Media
-p:Ziggo
-1973:ffff0000:0c7a:0600:25:0
-Merwe TV
-p:Ziggo
-1974:ffff0000:0c7a:0600:25:0
-Ridderkerk TV
-p:Ziggo
-1975:ffff0000:0c7a:0600:25:0
-SRC TV
-p:Ziggo
-1976:ffff0000:0c7a:0600:25:0
-RTV Krimpenerwaard
-p:Ziggo
-1977:ffff0000:0c7a:0600:25:0
-Exxact Barendrecht
-p:Ziggo
 006a:ffff0000:0002:10ef:1:0
 Veronica / DisneyXD SD
 p:Delta
@@ -10760,6 +10646,21 @@ p:CAIW Media
 341d:ffff0000:0071:08c9:2:0
 Stingray Love Songs
 p:CAIW Media
+4bf1:ffff0000:0834:0000:1:0
+450 SID 0x4bf1
+p:
+4bf2:ffff0000:0834:0000:1:0
+450 SID 0x4bf2
+p:
+4bf3:ffff0000:0834:0000:1:0
+450 SID 0x4bf3
+p:
+4bf4:ffff0000:0834:0000:1:0
+450 SID 0x4bf4
+p:
+4bf7:ffff0000:0834:0000:1:0
+450 SID 0x4bf7
+p:
 55f1:ffff0000:0016:10ef:1:0
 RTL8 SD
 p:Delta
@@ -11150,6 +11051,24 @@ p:Ziggo,c:050001
 4af7:ffff0000:0840:0600:25:0
 RTL Z
 p:Ziggo,c:050001,c:098800
+2b21:ffff0000:0803:0000:2:0
+434 SID 0x2b21
+p:
+2b22:ffff0000:0803:0000:2:0
+434 SID 0x2b22
+p:
+2b23:ffff0000:0803:0000:2:0
+434 SID 0x2b23
+p:
+2b24:ffff0000:0803:0000:2:0
+434 SID 0x2b24
+p:
+2b25:ffff0000:0803:0000:2:0
+434 SID 0x2b25
+p:
+2b26:ffff0000:0803:0000:2:0
+434 SID 0x2b26
+p:
 2847:ffff0000:0808:0600:2:0
 NPO Radio 1
 p:Ziggo
@@ -11483,6 +11402,102 @@ p:Ziggo,c:050001,c:090202
 4a67:ffff0000:0807:0600:25:0
 2M
 p:Ziggo
+0db4:ffff0000:0c7a:0600:2:0
+WOS Radio
+p:Ziggo
+0db5:ffff0000:0c7a:0600:2:0
+Amor FM
+p:Ziggo
+0db6:ffff0000:0c7a:0600:2:0
+LINQ FM
+p:Ziggo
+0db7:ffff0000:0c7a:0600:2:0
+Atos Radio
+p:Ziggo
+0db8:ffff0000:0c7a:0600:2:0
+Radio Ridderkerk
+p:Ziggo
+0db9:ffff0000:0c7a:0600:2:0
+FunX Lokaal Rotterdam
+p:Ziggo
+0dba:ffff0000:0c7a:0600:2:0
+DrechtstadFM
+p:Ziggo
+0dbb:ffff0000:0c7a:0600:2:0
+Radio Hoeksche Waard
+p:Ziggo
+0dbc:ffff0000:0c7a:0600:2:0
+Lansingerland FM
+p:Ziggo
+0dbd:ffff0000:0c7a:0600:2:0
+Capelle Radio
+p:Ziggo
+0dbe:ffff0000:0c7a:0600:2:0
+Klok Radio
+p:Ziggo
+0dbf:ffff0000:0c7a:0600:2:0
+Radio Slogo
+p:Ziggo
+0dc0:ffff0000:0c7a:0600:2:0
+Papendrecht-FM
+p:Ziggo
+0dc1:ffff0000:0c7a:0600:2:0
+Merwe Radio
+p:Ziggo
+0dc2:ffff0000:0c7a:0600:2:0
+SRC FM
+p:Ziggo
+0dc3:ffff0000:0c7a:0600:2:0
+RTV Krimpenerwaard Radio
+p:Ziggo
+0dc4:ffff0000:0c7a:0600:2:0
+Exxact Radio
+p:Ziggo
+1968:ffff0000:0c7a:0600:25:0
+TV-Papendrecht
+p:Ziggo
+196a:ffff0000:0c7a:0600:25:0
+Open Rotterdam
+p:Ziggo
+196b:ffff0000:0c7a:0600:25:0
+Rotterdam Podium
+p:Ziggo
+196c:ffff0000:0c7a:0600:25:0
+Atos TV
+p:Ziggo
+196d:ffff0000:0c7a:0600:25:0
+LINQ TV
+p:Ziggo
+196e:ffff0000:0c7a:0600:25:0
+TV Dordrecht
+p:Ziggo
+196f:ffff0000:0c7a:0600:25:0
+Lansingerland TV
+p:Ziggo
+1970:ffff0000:0c7a:0600:25:0
+Capelle TV
+p:Ziggo
+1971:ffff0000:0c7a:0600:25:0
+RTV Slogo
+p:Ziggo
+1972:ffff0000:0c7a:0600:25:0
+WOS Media
+p:Ziggo
+1973:ffff0000:0c7a:0600:25:0
+Merwe TV
+p:Ziggo
+1974:ffff0000:0c7a:0600:25:0
+Ridderkerk TV
+p:Ziggo
+1975:ffff0000:0c7a:0600:25:0
+SRC TV
+p:Ziggo
+1976:ffff0000:0c7a:0600:25:0
+RTV Krimpenerwaard
+p:Ziggo
+1977:ffff0000:0c7a:0600:25:0
+Exxact Barendrecht
+p:Ziggo
 62d5:ffff0000:0019:25a8:2:0
 Q-Music
 p:SKV
@@ -11620,7 +11635,7 @@ Comedy Central
 p:Ziggo
 4ab5:ffff0000:080b:0600:25:0
 SBS9
-p:Ziggo
+p:Ziggo,c:050001
 4aba:ffff0000:080b:0600:25:0
 SBS6
 p:Ziggo,c:050001,c:090202
@@ -11818,7 +11833,7 @@ BBC One
 p:Ziggo,c:050001,c:098800
 4e37:ffff0000:0802:0600:25:0
 ONS
-p:Ziggo
+p:Ziggo,c:050001
 4e38:ffff0000:0802:0600:25:0
 Fashion TV HD
 p:Ziggo,c:050001
@@ -12082,7 +12097,7 @@ NPO 2 extra
 p:Ziggo
 4bcf:ffff0000:0832:0600:25:0
 NPO Politiek en Nieuws
-p:Ziggo
+p:Ziggo,c:050001
 88c2:ffff0000:0087:08c9:25:0
 VRT 1
 p:CAIW Media,c:050001

@@ -1,7 +1,15 @@
 #NAME Stream Roemenië (RO)
-#SERVICE 1:64:442:0:0:0:0:0:0:0:
+#SERVICE 1:64:431:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-tvri.cdn.zitec.com/live/tvri/main.m3u8:TVR International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31381&extension=ts:TVR 1
+#DESCRIPTION TVR 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31382&extension=ts:TVR 2
+#DESCRIPTION TVR 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=121950&extension=ts:TVR 3
+#DESCRIPTION TVR 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=121952&extension=ts:TVR Craiova
+#DESCRIPTION TVR Craiova
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//61451b63d0dfe.streamlock.net/extern/tvri.stream/chunklist_.m3u8:TVR International
 #DESCRIPTION TVR International
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a7tvlive.ro/A7TV/A7TV/playlist.m3u8:A7TV
 #DESCRIPTION A7TV
@@ -13,31 +21,63 @@
 #DESCRIPTION Aleph News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aom-live.maghost.ro/aomTV/streams/OOztu5o9Fx6dh9mD1711027803849.m3u8:Alfa Omega TV
 #DESCRIPTION Alfa Omega TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live1ag.antenaplay.ro/live_a1ro/live_a1ro.m3u8:Antena 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31378&extension=ts:Antena 1
 #DESCRIPTION Antena 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live3vox.antenaplay.ro/a3free/a3free.m3u8:Antena 3 CNN
-#DESCRIPTION Antena 3 CNN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live1ag.antenaplay.ro/live_a1ro/live_a1ro.m3u8:Antena 1 (#)
+#DESCRIPTION Antena 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31377&extension=ts:Antena 3
+#DESCRIPTION Antena 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live3vox.antenaplay.ro/a3free/a3free.m3u8:Antena 3 (#)
+#DESCRIPTION Antena 3 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31376&extension=ts:Antena Stars
+#DESCRIPTION Antena Stars
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31372&extension=ts:B1 TV
+#DESCRIPTION B1 TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge-ar.rcs-rds.ro/digi24ar/index.m3u8:Digi 24
 #DESCRIPTION Digi 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31358&extension=ts:Digi World
+#DESCRIPTION Digi World
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=121914&extension=ts:Diva
+#DESCRIPTION Diva
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31324&extension=ts:Etno TV
+#DESCRIPTION Etno TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=121918&extension=ts:Favorit
+#DESCRIPTION Favorit
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31348&extension=ts:Happy Channel
+#DESCRIPTION Happy Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jobtvserver.eu/hls/stream.m3u8:JOB TV
 #DESCRIPTION JOB TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream1.kanald.ro/iphone/knd-live.m3u8:Kanal D
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31343&extension=ts:Kanal D
 #DESCRIPTION Kanal D
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream1.kanald.ro/iphone/knd-live.m3u8:Kanal D (#)
+#DESCRIPTION Kanal D (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.broadcasting.ro/magictv/925f90db-5c88-4190-a53d-5163cdffe6f4.m3u8:Magic TV
 #DESCRIPTION Magic TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.livemetropolatv.ro/MetropolaTV/Metro/playlist.m3u8:Metropola TV
 #DESCRIPTION Metropola TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=129180&extension=ts:NCN
+#DESCRIPTION NCN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//novapress.ro%3a2022/live/nova/playlist.m3u8:Nova TV Brasov
 #DESCRIPTION Nova TV Brasov
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//flash2.streaming.xdevel.com/primatv/primatv/playlist.m3u8:Prima TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31330&extension=ts:Prima TV
 #DESCRIPTION Prima TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31327&extension=ts:Pro TV
+#DESCRIPTION Pro TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31326&extension=ts:Pro TV International
+#DESCRIPTION Pro TV International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=121905&extension=ts:Pro Arena
+#DESCRIPTION Pro Arena
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31328&extension=ts:Pro Cinema
+#DESCRIPTION Pro Cinema
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//owncast-jjg42-u20330.vm.elestio.app/hls/0/stream.m3u8:Profi 24
 #DESCRIPTION Profi 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.romaniatv.net/clients/romaniatv/playlist.m3u8:Romania TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=121933&extension=ts:Romania TV
 #DESCRIPTION Romania TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.96.33.89%3a8080:TV Buzau
-#DESCRIPTION TV Buzau
-#SERVICE 1:64:443:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=121934&extension=ts:Telestar 1
+#DESCRIPTION Telestar 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=121948&extension=ts:TV Paprika
+#DESCRIPTION TV Paprika
+#SERVICE 1:64:432:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.angelustv.ro/hls/angelustv.m3u8:Angelus TV
 #DESCRIPTION Angelus TV
@@ -55,8 +95,8 @@
 #DESCRIPTION Impact TV Dance
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//informatia.streamnet.ro/mobile_tv/informatiatv.m3u8:Informatia TV
 #DESCRIPTION Informatia TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//v2.catcast.tv/content/44051/index.m3u8:MGM HD
-#DESCRIPTION MGM HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//v2.catcast.tv/content/44051/index.m3u8:MGM
+#DESCRIPTION MGM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8:Kiss TV
 #DESCRIPTION Kiss TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream1.antenaplay.ro/live/MediCOOLTV/chunklist.m3u8:MediCOOL TV

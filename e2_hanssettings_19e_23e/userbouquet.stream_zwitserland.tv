@@ -1,22 +1,42 @@
 #NAME Stream Zwitserland (CH)
-#SERVICE 1:64:3da:0:0:0:0:0:0:0:
+#SERVICE 1:64:3bf:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8:RSI La 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=50590&extension=ts:RSI La 1
 #DESCRIPTION RSI La 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8:RSI La 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8:RSI La 1 (#)
+#DESCRIPTION RSI La 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=50591&extension=ts:RSI La 2
 #DESCRIPTION RSI La 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rts1hd/browser-dash/rts1hd.mpd:RTS 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8:RSI La 2 (#)
+#DESCRIPTION RSI La 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=50593&extension=ts:RTS 1
 #DESCRIPTION RTS 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rts2hd/browser-dash/rts2hd.mpd:RTS 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rts1hd/browser-dash/rts1hd.mpd:RTS 1 (#)
+#DESCRIPTION RTS 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//23232.top%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a05%3a98&stream=114969&extension=ts&play_token=5tzK8RrWmP:RTS 2
 #DESCRIPTION RTS 2
-#SERVICE 4097:0:1:4331:300c:13e:820000:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srf1hd/browser-dash/srf1hd.mpd:SRF 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rts2hd/browser-dash/rts2hd.mpd:RTS 2 (#)
+#DESCRIPTION RTS 2 (#)
+#SERVICE 4097:0:1:4331:300c:13e:820000:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=50585&extension=ts:SRF 1
 #DESCRIPTION SRF 1
-#SERVICE 4097:0:1:4332:300c:13e:820000:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srf1hd/browser-dash/srf1hd.mpd:SRF 2
+#SERVICE 4097:0:1:4331:300c:13e:820000:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srf1hd/browser-dash/srf1hd.mpd:SRF 1 (#)
+#DESCRIPTION SRF 1 (#)
+#SERVICE 4097:0:1:4332:300c:13e:820000:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=50592&extension=ts:SRF 2
 #DESCRIPTION SRF 2
+#SERVICE 4097:0:1:4332:300c:13e:820000:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srf1hd/browser-dash/srf1hd.mpd:SRF 2 (#)
+#DESCRIPTION SRF 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srfinfo/browser-dash/srfinfo.mpd:SRF Info
 #DESCRIPTION SRF Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58de7a369a9c4.streamlock.net/srf/stream_720p/playlist.m3u8:SRF Regional
 #DESCRIPTION SRF Regional
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=50587&extension=ts:3+
+#DESCRIPTION 3+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=50588&extension=ts:4+
+#DESCRIPTION 4+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=50589&extension=ts:5+
+#DESCRIPTION 5+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//23232.top%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a05%3a98&stream=188217&extension=ts&play_token=hXgGgIDBNr:6+
+#DESCRIPTION 6+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge13.vedge.infomaniak.com/livecast/ik%3aevent/manifest.m3u8:Carac 1
 #DESCRIPTION Carac 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//onefmhd.vedge.infomaniak.com/livecast/ik%3aonefmhd/manifest.m3u8:Carac 2
@@ -25,6 +45,8 @@
 #DESCRIPTION Carac 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge17.vedge.infomaniak.com/livecast/ik%3acompack_media_1/playlist.m3u8:Carac 4
 #DESCRIPTION Carac 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/teleswizz/browser-dash/teleswizz.mpd:Carac 5
+#DESCRIPTION Carac 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.meteonews.net/hls/stream.m3u8:Meteonews
 #DESCRIPTION Meteonews
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_xias5bqq/format/applehttp/protocol/https/a.m3u8:Tele 1
@@ -33,7 +55,7 @@
 #DESCRIPTION TVM 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8:Canal 9 en Français
 #DESCRIPTION Canal 9 en Français
-#SERVICE 1:64:3db:0:0:0:0:0:0:0:
+#SERVICE 1:64:3c0:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canalalpha.vedge.infomaniak.com/livecast/smil%3acanalalpha.smil/manifest.m3u8:Canal Alpha
 #DESCRIPTION Canal Alpha
@@ -47,6 +69,8 @@
 #DESCRIPTION Die Neue Zeit TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//everest.pa-hosting.de%3a3591/live/joseflive.m3u8:KIT-TV
 #DESCRIPTION KIT-TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/nrtv/browser-HLS8/nrtv.m3u8:NRTV
+#DESCRIPTION NRTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pmcrohls.wns.live/hls/stream.m3u8:PMC Royale
 #DESCRIPTION PMC Royale
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vstream-cdn.ch/hls/radio3i.m3u8:Radio 3i
@@ -55,12 +79,18 @@
 #DESCRIPTION Rouge TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//protokolldns.xyz/rtvislamweb554/index.m3u8:RTV Islam 
 #DESCRIPTION RTV Islam 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/startv/browser-HLS8/startv.m3u8:Star TV
+#DESCRIPTION Star TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_ljzy3evp/format/applehttp/protocol/https/a.m3u8:Tele M1
 #DESCRIPTION Tele M1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_obr1n222/protocol/https/format/applehttp/flavorIds/1_ilmyd94i,1_ndclh5za,1_y4atcpo4/a.m3u8:TeleBarn
 #DESCRIPTION TeleBarn
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/telebaern/browser-HLS8/telebaern.m3u8:TeleBarn (#)
+#DESCRIPTION TeleBarn (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge20.vedge.infomaniak.com/livecast/ik%3atelebielinguech/manifest.m3u8:TeleBielingue
 #DESCRIPTION TeleBielingue
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/telebielingue/browser-HLS8/telebielingue.m3u8:TeleBielingue (#)
+#DESCRIPTION TeleBielingue (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vstream-cdn.ch/hls/teleticino.m3u8:TeleTicino
 #DESCRIPTION TeleTicino
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_se36k3uk/protocol/https/format/applehttp/flavorIds/1_i4zc9zv3,1_2vzxm8zl,1_yjohpwzj/a.m3u8:TeleZuri
@@ -69,3 +99,17 @@
 #DESCRIPTION TV Rheintal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8:TVO
 #DESCRIPTION TVO
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lfmhd.vedge.infomaniak.com/livecast/lfmhd/master.m3u8:Carac 3
+#DESCRIPTION Carac 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge17.vedge.infomaniak.com/livecast/ik%3acompack_media_1/playlist.m3u8:Carac 4
+#DESCRIPTION Carac 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/teleswizz/browser-dash/teleswizz.mpd:Carac 5
+#DESCRIPTION Carac 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.meteonews.net/hls/stream.m3u8:Meteonews
+#DESCRIPTION Meteonews
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_xias5bqq/format/applehttp/protocol/https/a.m3u8:Tele 1
+#DESCRIPTION Tele 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livevideo.infomaniak.com/streaming/livecast/tvm3/playlist.m3u8:TVM 3
+#DESCRIPTION TVM 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8:Canal 9 en Français
+#DESCRIPTION Canal 9 en Français
