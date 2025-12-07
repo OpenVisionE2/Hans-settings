@@ -1,5 +1,5 @@
 #NAME Stream USA (US)
-#SERVICE 1:64:46a:0:0:0:0:0:0:0:
+#SERVICE 1:64:45c:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders networks++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KTVOABC/KTVOABC.m3u8:ABC 3 Kirksville
 #DESCRIPTION ABC 3 Kirksville
@@ -7,8 +7,6 @@
 #DESCRIPTION ABC 7 Los Angeles
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=173034&extension=ts&play_token=s3HnACs6Kk:ABC 7 New York
 #DESCRIPTION ABC 7 New York
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl25.moveonjoy.com/ABC_EAST/index.m3u8:ABC 7 New York (#)
-#DESCRIPTION ABC 7 New York (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KMBCABC/KMBCABC.m3u8:ABC 9 Kansas City
 #DESCRIPTION ABC 9 Kansas City
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//143.244.60.30/ABC_EAST/index.m3u8:ABC 10 Miami
@@ -21,8 +19,6 @@
 #DESCRIPTION ABC 28 Tampa, Florida
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/Buzzr/index.m3u8:Buzzr
 #DESCRIPTION Buzzr
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//apollo.production-public.tubi.io/live/ac-buzzr.m3u8:Buzzr (#)
-#DESCRIPTION Buzzr (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=173138&extension=ts&play_token=bjdc6NOz9U:CBS 2 Los Angeles
 #DESCRIPTION CBS 2 Los Angeles
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=173249&extension=ts&play_token=wCZStT19yS:CBS 2 New York
@@ -31,14 +27,14 @@
 #DESCRIPTION CBS 3 Kirksville
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KCTVCBS/KCTVCBS.m3u8:CBS 5 Kansas City
 #DESCRIPTION CBS 5 Kansas City
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KOMUCW/KOMUCW.m3u8:CW 8 Columbia
-#DESCRIPTION CW 8 Columbia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//e1.thetvapp.to/hls/WPIX/index.m3u8:CW 11 New York
-#DESCRIPTION CW 11 New York
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/FL_West_Palm_Beach_CBS/index.m3u8:CBS 12 West Palm Beach, Florida
 #DESCRIPTION CBS 12 West Palm Beach, Florida
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KRCGCBS/KRCGCBS.m3u8:CBS 13 Jefferson City
 #DESCRIPTION CBS 13 Jefferson City
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KOMUCW/KOMUCW.m3u8:CW 8 Columbia
+#DESCRIPTION CW 8 Columbia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//e1.thetvapp.to/hls/WPIX/index.m3u8:CW 11 New York
+#DESCRIPTION CW 11 New York
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KYOUDT4/KYOUDT4.m3u8:CW 15 Ottawa
 #DESCRIPTION CW 15 Ottawa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dvrfl03.bozztv.com/hondu-lxnews/index.m3u8:CW 18 Clemont, Florida
@@ -55,24 +51,16 @@
 #DESCRIPTION FOX 5 Atlanta
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=173728&extension=ts&play_token=yqh6JZisew:FOX 5 New York
 #DESCRIPTION FOX 5 New York
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/FOX_EAST/index.m3u8:FOX 5 New York (#)
-#DESCRIPTION FOX 5 New York (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KQFXFOX/KQFXFOX.m3u8:FOX 22 Columbia
 #DESCRIPTION FOX 22 Columbia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/FL_West_Palm_Beach_FOX/index.m3u8:FOX 29 West Palm Beach, Florida
 #DESCRIPTION FOX 29 West Palm Beach, Florida
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl41.moveonjoy.com/FOX_EAST/index.m3u8:FOX 56  Hazleton, Pennsylvania
-#DESCRIPTION FOX 56  Hazleton, Pennsylvania
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e54187aae660e00093561d6/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5e54187aae660e00093561d6&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=167&terminate=false&userId=:Game Show Central
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e90e8cb05d2b0007f10a61/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a54a2-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=06d7c73f-91e9-44c5-868e-5336253a1d67:Game Show Central
 #DESCRIPTION Game Show Central
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e90e8cb05d2b0007f10a61/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a54a2-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=06d7c73f-91e9-44c5-868e-5336253a1d67:Game Show Central (#)
-#DESCRIPTION Game Show Central (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=1783056&extension=ts&play_token=6eaxLpoFjF:Game Show Network
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=45553&extension=ts&play_token=HyBnGSN6R3:Game Show Network
 #DESCRIPTION Game Show Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=45472&extension=ts&play_token=rBbxZgOmlj:Game TV
 #DESCRIPTION Game TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl3.moveonjoy.com/ME_TV/index.m3u8:Me TV
-#DESCRIPTION Me TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KMBCMeTV/KMBCMeTV.m3u8:Me TV Kansas City
 #DESCRIPTION Me TV Kansas City
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KMIZMeTV/KMIZMeTV.m3u8:Me TV Missouri
@@ -81,10 +69,14 @@
 #DESCRIPTION My Zou Missouri
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=173924&extension=ts&play_token=akWpDuCN7l:NBC 4 Los Angeles
 #DESCRIPTION NBC 4 Los Angeles
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/NBC_EAST/index.m3u8:NBC 4 New York
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=174038&extension=ts&play_token=eC1CCKlUzm:NBC 4 New York
 #DESCRIPTION NBC 4 New York
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=174038&extension=ts&play_token=eC1CCKlUzm:NBC 4 New York (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//e1.thetvapp.to/hls/WNBCDT1/tracks-v1a1/mono.m3u8:NBC 4 New York (#)
 #DESCRIPTION NBC 4 New York (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl61.moveonjoy.com/NY_New_York_NBC/tracks-v1a1/mono.ts.m3u8:NBC 4 New York (#)
+#DESCRIPTION NBC 4 New York (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/FL_Miami_NBC/index.m3u8:NBC 6 Miami
+#DESCRIPTION NBC 6 Miami
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KOMUNBC/KOMUNBC.m3u8:NBC 8 Columbia
 #DESCRIPTION NBC 8 Columbia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/FL_Tampa_NBC/index.m3u8:NBC 8 Tampa, Florida
@@ -123,15 +115,17 @@
 #DESCRIPTION PBS Kids Mountain
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8:PBS Kids Pacific
 #DESCRIPTION PBS Kids Pacific
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//143.244.60.30/TBS/index.m3u8:TBS East
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=47289&extension=ts:TBS East
 #DESCRIPTION TBS East
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//143.244.60.30/TCM/index.m3u8:TCM East
 #DESCRIPTION TCM East
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=47311&extension=ts:TNT East
+#DESCRIPTION TNT East
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//voa-ingest.akamaized.net/hls/live/2033874/tvmc06/playlist.m3u8:VoA TV Africa
 #DESCRIPTION VoA TV Africa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8:VoA TV Persian
 #DESCRIPTION VoA TV Persian
-#SERVICE 1:64:46b:0:0:0:0:0:0:0:
+#SERVICE 1:64:45d:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders Spaans++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.nstvlatino.com%3a8080/live/Mitv2462/I8G5FfZBMw/3793.m3u8:Galavision East
 #DESCRIPTION Galavision East
@@ -143,6 +137,8 @@
 #DESCRIPTION Telemundo East
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master.m3u8:Telemundo Accion
 #DESCRIPTION Telemundo Accion
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1rqgw5gocwo9i.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-stitched/10a44c37-f976-4d2b-ab23-8637a7a094ca/3.m3u8:Telemundo Al Dia
+#DESCRIPTION Telemundo Al Dia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-ch827-uj0ch.fast.nbcuni.com/live/master.m3u8:Telemundo Noticias Ahora
 #DESCRIPTION Telemundo Noticias Ahora
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00884-nbcuniversal-nbctelemundowest-xumo-xc0n5.amagi.tv/playlist.m3u8:Telemundo Noticias California
@@ -155,7 +151,7 @@
 #DESCRIPTION Telemundo Noticias Texas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-drct-ch836-57aiq.fast.nbcuni.com/live/master.m3u8:Telemundo Romance
 #DESCRIPTION Telemundo Romance
-#SERVICE 1:64:46c:0:0:0:0:0:0:0:
+#SERVICE 1:64:45e:0:0:0:0:0:0:0:
 #DESCRIPTION ++AFN++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/118462:AFN Family/Pulse
 #DESCRIPTION AFN Family/Pulse
@@ -175,7 +171,7 @@
 #DESCRIPTION AFN Sports (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lunar.pm%3a8080/RandyJ2/randy/118469:AFN Sports 2
 #DESCRIPTION AFN Sports 2
-#SERVICE 1:64:46d:0:0:0:0:0:0:0:
+#SERVICE 1:64:45f:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01076-lightningintern-actionhollywood-samsungau-rs69y.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungau/playlist.m3u8:Action Hollywood Movies
 #DESCRIPTION Action Hollywood Movies
@@ -235,6 +231,8 @@
 #DESCRIPTION Bounce (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cors.tundracast.com%3a2000/https%3a//streamer1.nexgen.bz/BOUNCE/index.m3u8:Bounce San Antonio
 #DESCRIPTION Bounce San Antonio
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8:Bounce XL
+#DESCRIPTION Bounce XL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/BRAVO/index.m3u8:Bravo East
 #DESCRIPTION Bravo East
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-vc-114-x0p7i.fast.nbcuni.com/live/master.m3u8:Bravo Vault
@@ -274,6 +272,8 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5dae0b4841a7d0000938ddbd/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c282e24-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=dbd92d33-fc8d-4cda-9f79-5f63b98b071a:Court TV
 #DESCRIPTION Court TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl3.moveonjoy.com/COURT_TV/index.m3u8:Court TV (#)
+#DESCRIPTION Court TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8:Court TV (#)
 #DESCRIPTION Court TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//scripps-ctvlegendary-1-us.xumo.wurl.tv/playlist.m3u8:Court TV Legendary Trials
 #DESCRIPTION Court TV Legendary Trials
@@ -335,6 +335,8 @@
 #DESCRIPTION Grit Kansas City
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv-fa.tubi.video/grit-extra/playlist.m3u8:Grit Xtra
 #DESCRIPTION Grit Xtra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8:Grit Xtra (#)
+#DESCRIPTION Grit Xtra (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8:Grjngo Western Movies
 #DESCRIPTION Grjngo Western Movies
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8:Hallmark Channel East
@@ -381,14 +383,16 @@
 #DESCRIPTION ION Mystery
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aegis-cloudfront-1.tubi.video/b11b44b8-461f-4034-becb-9bb14ee45be2/playlist.m3u8:ION Mystery (#)
 #DESCRIPTION ION Mystery (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8:ION Mystery Bostom (WFXT)
+#DESCRIPTION ION Mystery Bostom (WFXT)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cors.tundracast.com%3a2000/https%3a//streamer1.nexgen.bz/IONMYSTERY/index.m3u8:ION Mystery Pittsburgh, Pennsylvania (WINP)
 #DESCRIPTION ION Mystery Pittsburgh, Pennsylvania (WINP)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/ION_Plus/index.m3u8:ION Plus East
 #DESCRIPTION ION Plus East
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8:ION Plus East (#)
+#DESCRIPTION ION Plus East (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KPXEION/KPXEION.m3u8:ION Television Kansas City
 #DESCRIPTION ION Television Kansas City
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//content.jwplatform.com/live/broadcast/oe7UD7Ag.m3u8:Jewelry Television
-#DESCRIPTION Jewelry Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com/out/v1/72b5a55e4c35445f9e742871aa0aefa2/index.m3u8:Jewelry Television Espanol
 #DESCRIPTION Jewelry Television Espanol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cvtv.cvalley.net/hls/KSHBLaff/KSHBLaff.m3u8:Laff Kansas City
@@ -399,6 +403,8 @@
 #DESCRIPTION Law & Crime
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/LIFETIME/index.m3u8:Lifetime East
 #DESCRIPTION Lifetime East
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//content.jwplatform.com/live/broadcast/oe7UD7Ag.m3u8:Jewelry Television
+#DESCRIPTION Jewelry Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8:Lifetime Movies East
 #DESCRIPTION Lifetime Movies East
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//apollo.production-public.tubi.io/live/lol-stand-up2.m3u8:LOL! Network 1
@@ -457,6 +463,8 @@
 #DESCRIPTION Nickelodeon East (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//23.237.104.106%3a8080/USA_NICKELODEON/index.m3u8:Nickelodeon East (#)
 #DESCRIPTION Nickelodeon East (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//179.51.136.19%3a8000/play/a0q4/index.m3u8:Nickelodeon Latin America
+#DESCRIPTION Nickelodeon Latin America
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/NICK_JR/index.m3u8:Nick Jr. East
 #DESCRIPTION Nick Jr. East
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/NICK_MUSIC/index.m3u8:Nick Music
@@ -605,7 +613,7 @@
 #DESCRIPTION We TV East (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yta.unitedteleports.tv/hls/YTA.m3u8:YTA
 #DESCRIPTION YTA
-#SERVICE 1:64:46e:0:0:0:0:0:0:0:
+#SERVICE 1:64:460:0:0:0:0:0:0:0:
 #DESCRIPTION ++landelijke nieuwszenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8:ABC News Live
 #DESCRIPTION ABC News Live
@@ -681,14 +689,12 @@
 #DESCRIPTION Fox Weather (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8:Free Speech TV
 #DESCRIPTION Free Speech TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.102.60.231/MSNBC/index.m3u8:MSNBC
-#DESCRIPTION MSNBC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//41.205.93.154/MSNBC/index.m3u8:MSNBC (#)
-#DESCRIPTION MSNBC (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//41.205.93.154/MSNBC/index.m3u8:MS NOW
+#DESCRIPTION MS NOW
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv-fa.tubi.video/nbc-news-now/master.m3u8:NBC News NOW
 #DESCRIPTION NBC News NOW
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8:NBC News NOW (#)
-#DESCRIPTION NBC News NOW (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8:NBC News NOW
+#DESCRIPTION NBC News NOW
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8:NewsMax
 #DESCRIPTION NewsMax
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//newsmax-samsungus.amagi.tv/playlist.m3u8:NewsMax (#)
@@ -703,7 +709,7 @@
 #DESCRIPTION NewsNet
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//content.uplynk.com/channel/1f93c13275024afb9e0ead299624073d.m3u8:Newsy
 #DESCRIPTION Newsy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg17596-ntdtv-amg17596c1-stirr-us-4738.playouts.now.amagi.tv/ntd.m3u8:NTD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg17596-ntdtv-amg17596c1-rakuten-gb-6741.playouts.now.amagi.tv/playlist/amg17596-newtangdynastytelevision-ntdtv-rakutengb/playlist.m3u8:NTD
 #DESCRIPTION NTD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//oneamericanews-roku-us.amagi.tv/playlist.m3u8:OAN
 #DESCRIPTION OAN
@@ -735,7 +741,7 @@
 #DESCRIPTION WeatherSpy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yahoo-vizio.amagi.tv/playlist.m3u8:Yahoo! Finance
 #DESCRIPTION Yahoo! Finance
-#SERVICE 1:64:46f:0:0:0:0:0:0:0:
+#SERVICE 1:64:461:0:0:0:0:0:0:0:
 #DESCRIPTION ++sport++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raycom-accdn-firetv.amagi.tv/playlist.m3u8:ACCDN
 #DESCRIPTION ACCDN
@@ -797,8 +803,62 @@
 #DESCRIPTION NFL Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/NFL_RedZone/index.m3u8:NFL RedZone
 #DESCRIPTION NFL RedZone
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_1/index.m3u8:NFL Sunday Ticket 1
+#DESCRIPTION NFL Sunday Ticket 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_2/index.m3u8:NFL Sunday Ticket 2
+#DESCRIPTION NFL Sunday Ticket 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_3/index.m3u8:NFL Sunday Ticket 3
+#DESCRIPTION NFL Sunday Ticket 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_4/index.m3u8:NFL Sunday Ticket 4
+#DESCRIPTION NFL Sunday Ticket 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_5/index.m3u8:NFL Sunday Ticket 5
+#DESCRIPTION NFL Sunday Ticket 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_6/index.m3u8:NFL Sunday Ticket 6
+#DESCRIPTION NFL Sunday Ticket 6
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_7/index.m3u8:NFL Sunday Ticket 7
+#DESCRIPTION NFL Sunday Ticket 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_8/index.m3u8:NFL Sunday Ticket 8
+#DESCRIPTION NFL Sunday Ticket 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_9/index.m3u8:NFL Sunday Ticket 9
+#DESCRIPTION NFL Sunday Ticket 9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_10/index.m3u8:NFL Sunday Ticket 10
+#DESCRIPTION NFL Sunday Ticket 10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_11/index.m3u8:NFL Sunday Ticket 11
+#DESCRIPTION NFL Sunday Ticket 11
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_12/index.m3u8:NFL Sunday Ticket 12
+#DESCRIPTION NFL Sunday Ticket 12
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_13/index.m3u8:NFL Sunday Ticket 13
+#DESCRIPTION NFL Sunday Ticket 13
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_14/index.m3u8:NFL Sunday Ticket 14
+#DESCRIPTION NFL Sunday Ticket 14
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl2.moveonjoy.com/NFL_15/index.m3u8:NFL Sunday Ticket 15
+#DESCRIPTION NFL Sunday Ticket 15
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nhl-firetv.amagi.tv/playlist.m3u8:NHL Network
 #DESCRIPTION NHL Network
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_1/index.m3u8:NHL Centre Ice 1
+#DESCRIPTION NHL Centre Ice 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_4/index.m3u8:NHL Centre Ice 4
+#DESCRIPTION NHL Centre Ice 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_5/index.m3u8:NHL Centre Ice 5
+#DESCRIPTION NHL Centre Ice 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_6/index.m3u8:NHL Centre Ice 6
+#DESCRIPTION NHL Centre Ice 6
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_7/index.m3u8:NHL Centre Ice 7
+#DESCRIPTION NHL Centre Ice 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_8/index.m3u8:NHL Centre Ice 8
+#DESCRIPTION NHL Centre Ice 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_9/index.m3u8:NHL Centre Ice 9
+#DESCRIPTION NHL Centre Ice 9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_10/index.m3u8:NHL Centre Ice 10
+#DESCRIPTION NHL Centre Ice 10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_11/index.m3u8:NHL Centre Ice 11
+#DESCRIPTION NHL Centre Ice 11
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_12/index.m3u8:NHL Center Ice 12
+#DESCRIPTION NHL Center Ice 12
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_13/index.m3u8:NHL Center Ice 13
+#DESCRIPTION NHL Center Ice 13
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/NHL_14/index.m3u8:NHL Center Ice 14
+#DESCRIPTION NHL Center Ice 14
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv-fa.tubi.video/nhra/nh.m3u8:NHRA TV
 #DESCRIPTION NHRA TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pac12-firetv.amagi.tv/playlist.m3u8:Pac 12 Insider
@@ -809,6 +869,8 @@
 #DESCRIPTION Poker Go
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv-fa.tubi.video/racing-america/playlist.m3u8:Racing America
 #DESCRIPTION Racing America
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//fl1.moveonjoy.com/SEC_NETWORK/index.m3u8:SEC Network
+#DESCRIPTION SEC Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aegis-cloudfront-1.tubi.video/74681dcc-e6d0-4add-ad67-a22ad9c152e6/playlist.m3u8:Stadium
 #DESCRIPTION Stadium
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00315-sportsgrid-firetv.amagi.tv/playlist.m3u8:SportsGrid
@@ -833,7 +895,7 @@
 #DESCRIPTION Women's Sports Network (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/YES_NETWORK/index.m3u8:Yes Network
 #DESCRIPTION Yes Network
-#SERVICE 1:64:470:0:0:0:0:0:0:0:
+#SERVICE 1:64:462:0:0:0:0:0:0:0:
 #DESCRIPTION ++nieuwsfeeds++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master_4000.m3u8:ABC News 1
 #DESCRIPTION ABC News 1
@@ -895,7 +957,7 @@
 #DESCRIPTION NBC News Now Event 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wsjlivehls-lh.akamaihd.net/i/events1_1@174990/master.m3u8:WSJ Live 
 #DESCRIPTION WSJ Live 
-#SERVICE 1:64:471:0:0:0:0:0:0:0:
+#SERVICE 1:64:463:0:0:0:0:0:0:0:
 #DESCRIPTION ++regionale informatieve uitzendingen++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv-fa.tubi.video/localish/index.m3u8:ABC Localish
 #DESCRIPTION ABC Localish
@@ -1285,7 +1347,7 @@
 #DESCRIPTION NBCU Telemundo West
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.field59.com/wrde/wrde1/playlist.m3u8:Coast TV NBC WRDE
 #DESCRIPTION Coast TV NBC WRDE
-#SERVICE 1:64:472:0:0:0:0:0:0:0:
+#SERVICE 1:64:464:0:0:0:0:0:0:0:
 #DESCRIPTION ++lokale uitzendingen++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcsecurelivehls-i.akamaihd.net/hls/live/598046/4744899807001_1/livestream/master.m3u8:7 News Boston
 #DESCRIPTION 7 News Boston
@@ -1679,6 +1741,8 @@
 #DESCRIPTION Long Beach Television (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//reflect-channel36-la.cablecast.tv/live-3/live/stream-1/live.m3u8:Los Angeles Local Television Channel 36
 #DESCRIPTION Los Angeles Local Television Channel 36
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-losangeles.scientology.org/master.m3u8:Los Angeles Scientology (KSCN)
+#DESCRIPTION Los Angeles Scientology (KSCN)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//free.fullspeed.tv/iptv-query?streaming-ip=https%3a//www.youtube.com/channel/UCro5PeODE-MCnNzuWyxRJ6A/live:Louisville Colorado Media
 #DESCRIPTION Louisville Colorado Media
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//reflect-cityofloveland-co.cablecast.tv/live-3/live/live.m3u8:Loveland TV Colorado
@@ -1701,6 +1765,8 @@
 #DESCRIPTION MCN 6 Arts Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8:MCN 6 Music Channel
 #DESCRIPTION MCN 6 Music Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8:Mega TV Florida
+#DESCRIPTION Mega TV Florida
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//free.fullspeed.tv/iptv-query?streaming-ip=https%3a//www.youtube.com/user/CountyofSacramento1/live:Metro Cable 14 Sacramento CA
 #DESCRIPTION Metro Cable 14 Sacramento CA
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//granicusliveus10-a.akamaihd.net/nashville/G2157_002/playlist.m3u8:Metro Nashville Network
@@ -1751,6 +1817,8 @@
 #DESCRIPTION Newington Community Television Channel 16
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/newportbeach/G0064_003/playlist.m3u8:Newport Beach Television
 #DESCRIPTION Newport Beach Television
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tkx.mp.lura.live/rest/v2/mcp/video/11135425.m3u8?anvack=pDKqMLyG9pVqMkSYRJHWu3XROjAlvR6z&eud=1iqQ%252BzazzEobWIhmmj6bA8STRJm4HceYQApO7QYBvy9BTps0KI7LuXGD4KK7RLtBTyO8KsbFw40vgX8hrw%252Bxqw%253D%253D:News 8 New Haven
+#DESCRIPTION News 8 New Haven
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lnc-news12.tubi.video/index.m3u8:News 12 New York
 #DESCRIPTION News 12 New York
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aegis-cloudfront-1.tubi.video/1568cc70-2bf5-4f52-805b-42e0e514a77a/playlist.m3u8:News 12 New York (#)
@@ -1915,6 +1983,8 @@
 #DESCRIPTION Super Channel Orlando
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//reflect-tampa-bay-community.cablecast.tv/live-16/live/live.m3u8:Tampa Bay Communnity Network TBCN
 #DESCRIPTION Tampa Bay Communnity Network TBCN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-tampa.scientology.org/master.m3u8:Tampa Scientology
+#DESCRIPTION Tampa Scientology
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//newyorkstream.ddns.net%3a1935/telenord8/telenord8/playlist.m3u8:Telenord 8
 #DESCRIPTION Telenord 8
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//newyorkstream.ddns.net%3a1935/telenord10/telenord10/playlist.m3u8:Telenord Canal 10
@@ -2055,6 +2125,8 @@
 #DESCRIPTION WLKY-TV News Louisville
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rpn.bozztv.com/wlmb/wlmb/wlmb/index.m3u8:WLMB
 #DESCRIPTION WLMB
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//61ce5915.amazzin.pw/iptv/FF38ZQWZHTSV8T4XX9RDZYLB/1098/index.m3u8:WMBC New Jersey
+#DESCRIPTION WMBC New Jersey
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//townnews.g-mana.live/media/e6909128-cd42-4690-8340-4b8a49455666/main.m3u8:WMGT-TV News (Macon GA)
 #DESCRIPTION WMGT-TV News (Macon GA)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv-fa.tubi.video/wmor/playlist.m3u8:WMOR-TV News Lakeland FL
@@ -2099,7 +2171,7 @@
 #DESCRIPTION Yuma Arizona Channel 73
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//securestream10.champds.com/LIVE/YumaCoAZLIVE/YumaCoAZLIVE.m3u8:Yuma77
 #DESCRIPTION Yuma77
-#SERVICE 1:64:473:0:0:0:0:0:0:0:
+#SERVICE 1:64:465:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//moiptvhls-i.akamaihd.net/hls/live/652042/secure/HQs/chunklist.m3u8:3ABN
 #DESCRIPTION 3ABN
@@ -2121,6 +2193,8 @@
 #DESCRIPTION 3ABN Russia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp1.abnsat.com/hls/trinity.m3u8:3ABN Trinity
 #DESCRIPTION 3ABN Trinity
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.enhdtv.com%3a8081/8150/index.m3u8:6 Wise TV
+#DESCRIPTION 6 Wise TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8:24 Hour Free Movies
 #DESCRIPTION 24 Hour Free Movies
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4d878d3d19b30007d2e782/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS:70s Cinema
@@ -2385,6 +2459,8 @@
 #DESCRIPTION Bounce XL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//granicusliveus3-a.akamaihd.net/cityofbowie/G0466_001/playlist.m3u8:Bowie TV
 #DESCRIPTION Bowie TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video1.getstreamhosting.com%3a1936/8212/8212/playlist.m3u8:BPX TV Radio
+#DESCRIPTION BPX TV Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//brat-samsung-us.amagi.tv/playlist.m3u8:Brat TV
 #DESCRIPTION Brat TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a.jsrdn.com/broadcast/22693_4rGhgrBU/-0800/c.m3u8:Brit Asia Live (US Pacific)
@@ -2413,6 +2489,8 @@
 #DESCRIPTION Catholic TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lnc-caught-in-providence.tubi.video/playlist.m3u8:Caught in Providence
 #DESCRIPTION Caught in Providence
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fastly.live.brightcove.com/6383462549112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgzNDYyNTQ5MTEyIn0.g04lznsvgqgIXQt2ZH0H_tWtIeTsMgGjVORsjOJ0T6U/playlist-hls.m3u8:CBN Espanol
+#DESCRIPTION CBN Espanol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcliveunivsecure-lh.akamaihd.net/i/iptv1_1@500579/master.m3u8:CBN Family
 #DESCRIPTION CBN Family
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fastly.live.brightcove.com/6380399588112/us-east-1/734546207001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiczFpM3ZpLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiNzM0NTQ2MjA3MDAxIiwiZWhuIjoiZmFzdGx5LmxpdmUuYnJpZ2h0Y292ZS5jb20iLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjczNDU0NjIwNzAwMSJdLCJqdGkiOiI2MzgwMzk5NTg4MTEyIn0.LYfIeObmX4AEStY_xCnPZwMJHXgOAPFMTKfztq-9F8U/playlist-hls.m3u8:CBN Family (#)
@@ -2963,12 +3041,12 @@
 #DESCRIPTION Intipacha
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00346-vizioono-investigation-xumo-us.amagi.tv/playlist.m3u8:Investigation
 #DESCRIPTION Investigation
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ap02.iqplay.tv%3a8082/iqb8002/i09/playlist.m3u8:iON TV
-#DESCRIPTION iON TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a.jsrdn.com/broadcast/41e3e6703e/+0000/c.m3u8:Island Escape
 #DESCRIPTION Island Escape
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cpdc101-lh.akamaihd.net/i/ISNCPDCMB1_1@314337/master.m3u8:ISN
 #DESCRIPTION ISN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//itiswrittentv.akamaized.net/xR8gyATuHMVx69u9G79DXnpNRL/playlist.m3u8:It Is Written TV
+#DESCRIPTION It Is Written TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//isntv.mmdlive.lldns.net/isntv/f79b65204e7141c6a5cc74e63cf0dae5/playlist.m3u8:It's Supernatural! Network (ISN Network)
 #DESCRIPTION It's Supernatural! Network (ISN Network)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20a0ac30-d157-4400-8f64-3c52b37c645c/manifest.m3u8:ITSF
@@ -3599,6 +3677,8 @@
 #DESCRIPTION Street Music 4U
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn61.liveonlineservices.com/hls/subrang.m3u8:SubRang TV
 #DESCRIPTION SubRang TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bozztv.com/uni10rtmp/ssstv1-cdn/smil%3assstv1web.smil/playlist.m3u8:SUMtv English
+#DESCRIPTION SUMtv English
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bozztv.com/uni10rtmp/ssstv2-cdn/smil%3assstv2web.smil/playlist.m3u8:SUMtv Latino
 #DESCRIPTION SUMtv Latino
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sy.wns.live/hls/stream.m3u8:Superyacht TV
@@ -3693,6 +3773,8 @@
 #DESCRIPTION The Design Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist/amg00441-thedesignnetworkllcfast-thedesignnetwork-rakutenus/playlist.m3u8:The Design Network (#)
 #DESCRIPTION The Design Network (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//thedovetv.bozztv.com/thedovetv/thedovetv/index.m3u8:The Dove TV
+#DESCRIPTION The Dove TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01201-cinedigmenterta-elvis-cineverse/playlist.m3u8:The Elvis Channel
 #DESCRIPTION The Elvis Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8:The Explorers
@@ -3877,6 +3959,8 @@
 #DESCRIPTION Vanity Fair
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d80z5qf1qyhbf.cloudfront.net/playlist.m3u8:VENN
 #DESCRIPTION VENN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tgn.bozztv.com/betterlife/bettervida/bettervida/index.m3u8:Vida Mejor TV
+#DESCRIPTION Vida Mejor TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5940924978228.streamlock.net/8095/8095/playlist.m3u8:Visión Latina
 #DESCRIPTION Visión Latina
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//unlimited1-us.dps.live/vivotv/vivotv.smil/playlist.m3u8:Vivo TV
