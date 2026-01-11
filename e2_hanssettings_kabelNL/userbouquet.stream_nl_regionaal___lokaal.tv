@@ -1,5 +1,5 @@
 #NAME Stream NL regionaal & lokaal
-#SERVICE 1:64:9a:0:0:0:0:0:0:0:
+#SERVICE 1:64:c9:0:0:0:0:0:0:0:
 #DESCRIPTION +++Groningen+++
 #SERVICE 4097:0:1:5265:c99:3:eb0000:0:0:0:http%3a//media.rtvnoord.nl/live/rtvnoord/tv/index.m3u8:RTV Noord
 #DESCRIPTION RTV Noord
@@ -11,7 +11,7 @@
 #DESCRIPTION Omroep Eemsdelta
 #SERVICE 4097:0:1:1bc8:c86:600:ffff0000:0:0:0:https%3a//d2i7mcr606u870.cloudfront.net/nlpo/clr-nlpo/omroephethogeland/index.m3u8:Omroep Het Hogeland
 #DESCRIPTION Omroep Het Hogeland
-#SERVICE 4097:0:19:1bc8:c86:600:ffff0000:0:0:0:https%3a//d1xcc1603wntzx.cloudfront.net/nlpo/clr-nlpo/oogtv/index.m3u8:OOG TV (Groningen)
+#SERVICE 4097:0:19:1bc8:c86:600:ffff0000:0:0:0:https%3a//d1xcc1603wntzx.cloudfront.net/nlpo/clr-nlpo/oogtv/index.m3u8#Referer=https%3a//player.clevercast.com/:OOG TV (Groningen)
 #DESCRIPTION OOG TV (Groningen)
 #SERVICE 4097:0:1:4d60:bbc:600:ffff0000:0:0:0:https%3a//68039941ee8f7.streamlock.net/regiomedia/regiomedia/playlist.m3u8:Regio TV Midden-Groningen
 #DESCRIPTION Regio TV Midden-Groningen
@@ -23,7 +23,7 @@
 #DESCRIPTION RTV Westerwolde
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:http%3a//ms7.mx-cd.net/tv/212-1299944/RTV-Zulthe.smil/playlist.m3u8:RTV Zulthe (Noordenveld/Westerkwartier)
 #DESCRIPTION RTV Zulthe (Noordenveld/Westerkwartier)
-#SERVICE 1:64:9b:0:0:0:0:0:0:0:
+#SERVICE 1:64:ca:0:0:0:0:0:0:0:
 #DESCRIPTION +++Friesland+++
 #SERVICE 4097:0:1:524d:c99:3:eb0000:0:0:0:https%3a//d3pvma9xb2775h.cloudfront.net/live/omropfryslan/f8f68bd5/chunklist_b5628000.m3u8:Omrop Fryslân
 #DESCRIPTION Omrop Fryslân
@@ -45,7 +45,7 @@
 #DESCRIPTION RTV NOF Noardeast Fryslân / Dantumadiel#
 #SERVICE 4097:0:19:1c90:c8a:600:ffff0000:0:0:0:https%3a//61ae39677a1ab.streamlock.net/smelne_ipad/smelne_ipad/playlist.m3u8:Smelne TV (Smallingerland)
 #DESCRIPTION Smelne TV (Smallingerland)
-#SERVICE 1:64:9c:0:0:0:0:0:0:0:
+#SERVICE 1:64:cb:0:0:0:0:0:0:0:
 #DESCRIPTION +++Drenthe+++
 #SERVICE 4097:0:1:524f:c99:3:eb0000:0:0:0:https%3a//cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/chunklist_b5628000.m3u8:RTV Drenthe HD
 #DESCRIPTION RTV Drenthe HD
@@ -65,13 +65,11 @@
 #DESCRIPTION Radio Continu (Tweede Exloërmond)
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//d2eanln3bsfb0d.cloudfront.net/nlpo/clr-nlpo/rtvmeppel/index.m3u8:RTV Meppel
 #DESCRIPTION RTV Meppel
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//wowza2.videostreamingwowza.com/eeldevrieszuidlaren/eeldevrieszuidlaren/chunklist_w1974062864.m3u8:Tynaarlo Lokaal
+#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//mistserv3.videostreams.nl/hls/rtvtynaarlo/2_1/index.m3u8:Tynaarlo Lokaal
 #DESCRIPTION Tynaarlo Lokaal
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//wowza2.videostreamingwowza.com/eeldevrieszuidlaren/eeldevrieszuidlaren/playlist.m3u8:Tynaarlo Lokaal (#)
-#DESCRIPTION Tynaarlo Lokaal (#)
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//video.uitzending.tv%3a19360/zo34/zo34.m3u8:ZO!34 (Coevorden/Emmen)
 #DESCRIPTION ZO!34 (Coevorden/Emmen)
-#SERVICE 1:64:9d:0:0:0:0:0:0:0:
+#SERVICE 1:64:cc:0:0:0:0:0:0:0:
 #DESCRIPTION +++Overijssel+++
 #SERVICE 4097:0:1:5252:c99:3:eb0000:0:0:0:https%3a//mediacdn.rtvoost.nl/live/rtvoost/tv/index.m3u8:Oost
 #DESCRIPTION Oost
@@ -101,7 +99,7 @@
 #DESCRIPTION twentetv
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:http%3a//ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8:Vechtdal TV (Dalfsen/Ommen)
 #DESCRIPTION Vechtdal TV (Dalfsen/Ommen)
-#SERVICE 1:64:9e:0:0:0:0:0:0:0:
+#SERVICE 1:64:cd:0:0:0:0:0:0:0:
 #DESCRIPTION +++Flevoland+++
 #SERVICE 4097:0:1:4b09:80e:600:ffff0000:0:0:0:https%3a//d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/2000/prog_index.m3u8:Omroep Flevoland HD
 #DESCRIPTION Omroep Flevoland HD
@@ -119,7 +117,7 @@
 #DESCRIPTION Radio Lelystad TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//storage.urkfm.nl/urkfm-video-livestream/hls/1/stream.m3u8:Urk FM
 #DESCRIPTION Urk FM
-#SERVICE 1:64:9f:0:0:0:0:0:0:0:
+#SERVICE 1:64:ce:0:0:0:0:0:0:0:
 #DESCRIPTION +++Gelderland+++
 #SERVICE 4097:0:1:5250:c99:3:eb0000:0:0:0:https%3a//d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8:Omroep Gelderland HD
 #DESCRIPTION Omroep Gelderland HD
@@ -171,7 +169,7 @@
 #DESCRIPTION TV Nunspeet Tekst
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//live.omroepnet.nl/hls/stream.m3u8:XON
 #DESCRIPTION XON
-#SERVICE 1:64:a0:0:0:0:0:0:0:0:
+#SERVICE 1:64:cf:0:0:0:0:0:0:0:
 #DESCRIPTION +++Utrecht+++
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:http%3a//media.rtvutrecht.nl/live/rtvutrecht/rtvutrecht/index.m3u8:RTV Utrecht HD
 #DESCRIPTION RTV Utrecht HD
@@ -195,7 +193,7 @@
 #DESCRIPTION SRC TV (Rivierenland/Vijfheerenlanden)
 #SERVICE 4097:0:1:1:0:33:0:0:0:0:http%3a//media.rtvutrecht.nl/live/rtvutrecht/ustad/index.m3u8:UStad HD (stad Utrecht)
 #DESCRIPTION UStad HD (stad Utrecht)
-#SERVICE 1:64:a1:0:0:0:0:0:0:0:
+#SERVICE 1:64:d0:0:0:0:0:0:0:0:
 #DESCRIPTION +++Noord-Holland+++
 #SERVICE 4097:0:1:4b0b:80e:600:ffff0000:0:0:0:https%3a//takeoff.jetstre.am/?account=nhnieuws&file=live&type=live&service=wowza&protocol=https&output=playlist.m3u8:NH Nieuws
 #DESCRIPTION NH Nieuws
@@ -249,7 +247,7 @@
 #DESCRIPTION WEEFF Radio (West-Friesland)
 #SERVICE 5002:0:1:0:0:31:abcd0000:0:0:0:http%3a//icecast.bytesheep.net/zfmzandvoort_cam.webm:ZFM Zandvoort
 #DESCRIPTION ZFM Zandvoort
-#SERVICE 1:64:a2:0:0:0:0:0:0:0:
+#SERVICE 1:64:d1:0:0:0:0:0:0:0:
 #DESCRIPTION +++Zuid-Holland+++
 #SERVICE 4097:0:1:4b0c:80e:600:ffff0000:0:0:0:https%3a//d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8:Omroep West
 #DESCRIPTION Omroep West
@@ -315,13 +313,13 @@
 #DESCRIPTION WOS TV (Maassluis/Midden-Delfland/Westland)
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//zfmzoetermeer.nl/live/master.m3u8:ZFM Zoetermeer TV
 #DESCRIPTION ZFM Zoetermeer TV
-#SERVICE 1:64:a3:0:0:0:0:0:0:0:
+#SERVICE 1:64:d2:0:0:0:0:0:0:0:
 #DESCRIPTION +++Zeeland+++
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:http%3a//d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8:Omroep Zeeland HD
 #DESCRIPTION Omroep Zeeland HD
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//ms2.mx-cd.net/tv/280-2963002/Omroep_Hulst_TV.smil/playlist.m3u8:Omroep ZVL (Hulst/Sluis/Terneuzen)
 #DESCRIPTION Omroep ZVL (Hulst/Sluis/Terneuzen)
-#SERVICE 1:64:a4:0:0:0:0:0:0:0:
+#SERVICE 1:64:d3:0:0:0:0:0:0:0:
 #DESCRIPTION +++Noord-Brabant+++
 #SERVICE 4097:0:1:5268:c99:3:0:0:0:0:http%3a//d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/tv/index.m3u8:Omroep Brabant HD
 #DESCRIPTION Omroep Brabant HD
@@ -349,6 +347,8 @@
 #DESCRIPTION Dtv Den Bosch
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//live.dtvstreams.nl/memfs/e1095ea7-f558-4711-a181-b2f38cd34b39_output_0.m3u8?session=UF5ZHQzGuaHg7TXVAwaEbA:Dtv Maashorst
 #DESCRIPTION Dtv Maashorst
+#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//ms2.mx-cd.net/dtv-11/186-793530/Omroep_Meierij_TV.smil/playlist.m3u8:Dtv Omroep Meierij
+#DESCRIPTION Dtv Omroep Meierij
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//live.dtvstreams.nl/memfs/bcf94ab4-ea3d-41ad-87a9-e4912e4927c8_output_0.m3u8?session=haVnncvKAkgCRvGQeFdTic:Dtv Oss en Bernheze
 #DESCRIPTION Dtv Oss en Bernheze
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.dtvstreams.nl/memfs/61b02793-f243-4a9c-8792-26629dd149d0_output_0.m3u8?session=msVx6C6yA5Sw2bRD3qiGE4:Dtv Ring Den Bosch
@@ -381,8 +381,6 @@
 #DESCRIPTION Omroep Drimmelen
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//d3go236bg358u.cloudfront.net/nlpo/clr-nlpo/omroeplandvancuijk/index.m3u8:Omroep Land van Cuijk
 #DESCRIPTION Omroep Land van Cuijk
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//ms2.mx-cd.net/dtv-11/186-793530/Omroep_Meierij_TV.smil/playlist.m3u8:Omroep Meierij
-#DESCRIPTION Omroep Meierij
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//ms7.mx-cd.net/dtv-12/208-1258878/Omroep_Peelrand_TV.smil/playlist.m3u8:Omroep PeelRand (Laarbeek, Gemert-Bakel)
 #DESCRIPTION Omroep PeelRand (Laarbeek, Gemert-Bakel)
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//ms7.mx-cd.net/tv/184-782326/Omroep_Tilburg_TV.smil/chunklist_w908184801_b3328000_slNLD.m3u8:Omroep Tilburg
@@ -413,7 +411,7 @@
 #DESCRIPTION ZuidWest TV 1 (Bergen op Zoom, Roosendaal en Woensdrecht)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//owncast2.zuidwest.cloud/hls/stream.m3u8:ZuidWest TV 2 (Etten-Leur, Halderberge, Moerdijk, Zundert)
 #DESCRIPTION ZuidWest TV 2 (Etten-Leur, Halderberge, Moerdijk, Zundert)
-#SERVICE 1:64:a5:0:0:0:0:0:0:0:
+#SERVICE 1:64:d4:0:0:0:0:0:0:0:
 #DESCRIPTION +++Limburg+++
 #SERVICE 4097:0:1:4ac8:80c:600:ffff0000:0:0:0:http%3a//d34pj260kw1xmk.cloudfront.net/live/l1/tv/index.m3u8:L1TV HD
 #DESCRIPTION L1TV HD
@@ -449,27 +447,31 @@
 #DESCRIPTION Weert FM TV
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//d1elysv23zpg5s.cloudfront.net/nlpo/clr-nlpo/zonwstv/index.m3u8:ZO-NWS (Beekdaelen en Brunssum)
 #DESCRIPTION ZO-NWS (Beekdaelen en Brunssum)
-#SERVICE 1:64:a6:0:0:0:0:0:0:0:
+#SERVICE 1:64:d5:0:0:0:0:0:0:0:
 #DESCRIPTION ++via Twitch++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/afmtv:Aladna FM visual radio
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/afmtv:Aladna FM visual radio
 #DESCRIPTION Aladna FM visual radio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a/www.twitch.tv/art4more:art4more (Haaksbergen)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a/www.twitch.tv/art4more:art4more (Haaksbergen)
 #DESCRIPTION art4more (Haaksbergen)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/eenfm:éénFM (Oirschot)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/eenfm:éénFM (Oirschot)
 #DESCRIPTION éénFM (Oirschot)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/gooitv:Gooi TV (Bussem)
 #DESCRIPTION Gooi TV (Bussem)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//https%3a//www.twitch.tv/holland_tv_nl:Holland TV
 #DESCRIPTION Holland TV
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a/www.twitch.tv/moergesteltv/:Moergestel TV
-#DESCRIPTION Moergestel TV
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/koekstadradio:Koekstad FM (Deventer)
 #DESCRIPTION Koekstad FM (Deventer)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/mexicodenbosch1980:Radio Mexico (Den Bosch)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a/www.twitch.tv/moergesteltv/:Moergestel TV
+#DESCRIPTION Moergestel TV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/mexicodenbosch1980:Radio Mexico (Den Bosch)
 #DESCRIPTION Radio Mexico (Den Bosch)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/ros_tvkrant:ROS TV-Krant (Rosmalen)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/ros_tvkrant:ROS TV-Krant (Rosmalen)
 #DESCRIPTION ROS TV-Krant (Rosmalen)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/ster_in_twente:Ster in Twente (Haaksbergen)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/ster_in_twente:Ster in Twente (Haaksbergen)
 #DESCRIPTION Ster in Twente (Haaksbergen)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/omroepcastricumT:TV Castricum
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/taximarceldenhaag:Taxi Marcel Den Haag
+#DESCRIPTION Taxi Marcel Den Haag
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/omroepcastricumT:TV Castricum
 #DESCRIPTION TV Castricum
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/omroepcastricum:TV Castricum kabelkrant of studiocam
+#DESCRIPTION TV Castricum kabelkrant of studiocam

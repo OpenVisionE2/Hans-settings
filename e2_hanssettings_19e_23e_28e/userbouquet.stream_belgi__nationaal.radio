@@ -1,12 +1,10 @@
 #NAME Stream België nationaal (BE)
-#SERVICE 1:64:541:0:0:0:0:0:0:0:
+#SERVICE 1:64:610:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - VRT++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1-high.mp3:VRT Radio 1
 #DESCRIPTION VRT Radio 1
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio1_classics-high.mp3:VRT Radio 1 Classics
 #DESCRIPTION VRT Radio 1 Classics
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio2_unwind-high.mp3:VRT Radio 2 Unwind
-#DESCRIPTION VRT Radio 2 Unwind
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/ra2ant-high.mp3:VRT Radio 2 Antwerpen
 #DESCRIPTION VRT Radio 2 Antwerpen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/ra2lim-high.mp3:VRT Radio 2 Limburg
@@ -17,6 +15,8 @@
 #DESCRIPTION VRT Radio 2 Vlaams-Brabant
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/ra2wvl-high.mp3:VRT Radio 2 West-Vlaanderen
 #DESCRIPTION VRT Radio 2 West-Vlaanderen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/radio2_relax-high.mp3:VRT Radio 2 Relax
+#DESCRIPTION VRT Radio 2 Relax
 #SERVICE 4097:0:2:52dc:c96:3:eb0000:0:0:0:http%3a//icecast.vrtcdn.be/klara-high.mp3 :VRT Klara
 #DESCRIPTION VRT Klara
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/klaracontinuo-high.mp3 :VRT Klara Continuo
@@ -27,7 +27,7 @@
 #DESCRIPTION VRT MNM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/mnm_hits-high.mp3 :VRT MNM Hits
 #DESCRIPTION VRT MNM Hits
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//progressive-audio.vrtcdn.be/content/fixed/11_11niws-snip_hi.mp3:VRT NWS
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.vrtcdn.be/vrtnws-high.mp3:VRT NWS
 #DESCRIPTION VRT NWS
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.vrtcdn.be/radiobene-high.mp3:VRT Radio Bene
 #DESCRIPTION VRT Radio Bene
@@ -43,7 +43,7 @@
 #DESCRIPTION VRT Studio Brussel Vuurland
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.vrtcdn.be/stubru_bruut-high.mp3:VRT Studio Brussel Zware Gitaren
 #DESCRIPTION VRT Studio Brussel Zware Gitaren
-#SERVICE 1:64:542:0:0:0:0:0:0:0:
+#SERVICE 1:64:611:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen - overig nationaal++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamingV2.shoutcast.com/2bfm:2bfm (België)
 #DESCRIPTION 2bfm (België)
@@ -249,7 +249,7 @@
 #DESCRIPTION ZZMETAL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//axtran.radioca.st/stream:ZZROCK
 #DESCRIPTION ZZROCK
-#SERVICE 1:64:543:0:0:0:0:0:0:0:
+#SERVICE 1:64:612:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bruxelles et Wallonie++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rcf.streamakaci.com/rcfbe.mp3:1RCF
 #DESCRIPTION 1RCF
@@ -399,7 +399,7 @@
 #DESCRIPTION NRJ Hits 2000
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/ouwguosk6j4d:NRJ Latino
 #DESCRIPTION NRJ Latino
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rcs.revma.com/pge88k4uhhuvv:NRJ Nouveautés
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/ouuk6c5n3nje:NRJ Nouveautés
 #DESCRIPTION NRJ Nouveautés
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/oufdfatx4thg?origine=playernrj(#):NRJ Nouveautés (#)
 #DESCRIPTION NRJ Nouveautés (#)
@@ -413,16 +413,18 @@
 #DESCRIPTION Radio Contact FeelGood (hoofdzender)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contact2.ice.infomaniak.ch/contact2-192.mp3:Radio Contact 2000
 #DESCRIPTION Radio Contact 2000
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//contact80s.ice.infomaniak.ch/contact80s-192.mp3:Radio Contact 80s
-#DESCRIPTION Radio Contact 80s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//contact90s.ice.infomaniak.ch/contact90s-192.mp3:Radio Contact 90s
-#DESCRIPTION Radio Contact 90s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactkids.ice.infomaniak.ch/contactkids-128.mp3:Radio Contact Kids
 #DESCRIPTION Radio Contact Kids
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactlaplaylistdetonton.ice.infomaniak.ch/contactlaplaylistdetonton-192.mp3:Radio Contact La Playlist de Tonton 
 #DESCRIPTION Radio Contact La Playlist de Tonton 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactplus.ice.infomaniak.ch/contactplus-192.mp3:Radio Contact Le Hit Contact
+#DESCRIPTION Radio Contact Le Hit Contact
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactmax.ice.infomaniak.ch/contactmax-128.mp3?:Radio Contact MAX
 #DESCRIPTION Radio Contact MAX
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//contact80s.ice.infomaniak.ch/contact80s-192.mp3:Radio Contact MAX 80
+#DESCRIPTION Radio Contact MAX 80
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//contact90s.ice.infomaniak.ch/contact90s-192.mp3:Radio Contact MAX 90
+#DESCRIPTION Radio Contact MAX 90
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mint.ice.infomaniak.ch/mint-mp3-192.mp3?:Radio Contact Mint
 #DESCRIPTION Radio Contact Mint
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//contactplus.ice.infomaniak.ch/contactplus-192.mp3:Radio Contact Summertime
@@ -471,8 +473,10 @@
 #DESCRIPTION RTBF Musiq3 Baroque
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//redbeemedia.streamabc.net/redbm-m3jazz-mp3-192-2456713:RTBF Musiq3 Jazz
 #DESCRIPTION RTBF Musiq3 Jazz
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios.rtbf.be/wr-m3-romantique-128.mp3:RTBF Musiq3 Romantique
-#DESCRIPTION RTBF Musiq3 Romantique
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios.rtbf.be/wr-m3-romantique-128.mp3:RTBF Musiq3 Top du Classique 
+#DESCRIPTION RTBF Musiq3 Top du Classique 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//redbeemedia.streamabc.net/redbm-m3rom-mp3-192-5816543:RTBF Musiq3 Top du Classique 
+#DESCRIPTION RTBF Musiq3 Top du Classique 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radios.rtbf.be/tarmac-128.mp3:RTBF Tarmac
 #DESCRIPTION RTBF Tarmac
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//redbeemedia.streamabc.net/redbm-tipik-mp3-160-1909468:RTBF Tipik
@@ -509,7 +513,7 @@
 #DESCRIPTION Sud Radio Belgique
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//eu2-centova.serverse.com/proxy/wiupfvnu?mp=/TradCan:TradCan
 #DESCRIPTION TradCan
-#SERVICE 1:64:544:0:0:0:0:0:0:0:
+#SERVICE 1:64:613:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostkantons (Duitstalig)++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.brf.be%3a80/brf1-high.mp3:BRF1
 #DESCRIPTION BRF1

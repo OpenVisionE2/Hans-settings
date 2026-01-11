@@ -1,5 +1,5 @@
 #NAME Stream Spaans (ES)
-#SERVICE 1:64:646:0:0:0:0:0:0:0:
+#SERVICE 1:64:719:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rne1/main/mp3/high:RNE Radio Nacional
 #DESCRIPTION RNE Radio Nacional
@@ -25,11 +25,11 @@
 #DESCRIPTION RNE Exterior
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_re_main.m3u8:RNE Exterior
 #DESCRIPTION RNE Exterior
-#SERVICE 1:64:647:0:0:0:0:0:0:0:
+#SERVICE 1:64:71a:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL-talig - Canarische Eilanden en costas/NL++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//panel.amediastream.eu%3a8500/live:Holland FM
 #DESCRIPTION Holland FM
-#SERVICE 1:64:648:0:0:0:0:0:0:0:
+#SERVICE 1:64:71b:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL-talig - Canarische Eilanden en costas/BE++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//opsinjoor2.live-streams.nl/:Mooi Radio Tenerife
 #DESCRIPTION Mooi Radio Tenerife
@@ -37,11 +37,15 @@
 #DESCRIPTION Radio 7 Costa Blanca
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.wradio.es%3a9000/;?type=http&nocache=1239603:Wradio (Westhoek%3a Ieper, Roeselare en Zonnebeke + Costa Blanca)
 #DESCRIPTION Wradio (Westhoek: Ieper, Roeselare en Zonnebeke + Costa Blanca)
-#SERVICE 1:64:649:0:0:0:0:0:0:0:
+#SERVICE 1:64:71c:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL-talig Ibiza++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-15.aiir.com/a85tlgriuzyuv:SAM
 #DESCRIPTION SAM
-#SERVICE 1:64:64a:0:0:0:0:0:0:0:
+#SERVICE 1:64:71d:0:0:0:0:0:0:0:
+#DESCRIPTION ++België voor Tenerife++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.fmgoud.be/fm-goud-tenerife:FM Goud Tenerife
+#DESCRIPTION FM Goud Tenerife
+#SERVICE 1:64:71e:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.10.10.225/zaragoza/live-web/chunklist_b128000.m3u8?GKID=dc544ece277711e9809800163e914f69:Aragón Radio
 #DESCRIPTION Aragón Radio
@@ -91,8 +95,8 @@
 #DESCRIPTION Das Inselradio Mallorca
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//livestreaming.esradio.fm/stream64.mp3:EsRadio
 #DESCRIPTION EsRadio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast-streaming.nice264.com/europafmback:Europa FM
-#DESCRIPTION Europa FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server6.20comunicacion.com%3a8102/:Europa FM (Espana) Tierras de Medina del Campo 100.1
+#DESCRIPTION Europa FM (Espana) Tierras de Medina del Campo 100.1
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdnlive.codev8.net/rtvalive/smil%3achannel7.smil/playlist.m3u8:Flamenco Radio
 #DESCRIPTION Flamenco Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast5.asurahosting.com/proxy/fmgoudmi/live:FM Goud Tenerife
@@ -149,8 +153,6 @@
 #DESCRIPTION Mallorca Sunshine Radio (Engelstalig)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mallorcasunshine--di--nacs-ais-lgc--05--cdn.cast.addradio.de/mallorcasunshine/live/mp3/high:Mallorca Sunshine Radio 
 #DESCRIPTION Mallorca Sunshine Radio 
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livefastly-webs.melodia-fm.com/melodiafm/audio/master.m3u8:Melodia FM
-#DESCRIPTION Melodia FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//20073.live.streamtheworld.com/MAXIMAFMAAC.aac?csegid=2000&tdsdk=js-2.9&pname=TDSdk&pversion=2.9&banners=300x250&sbmid=ce486fb5-b5d2-4669-fe7b-c64550744bf9:Máxima FM
 #DESCRIPTION Máxima FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//megastar-cope.flumotion.com/chunks.m3u8:Megastar FM
@@ -161,8 +163,8 @@
 #DESCRIPTION Mooi Radio Tenerife
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//zuzenean.naiz.eus/naiz_irratia.mp3:NAIZ irratia (San Sebastian)
 #DESCRIPTION NAIZ irratia (San Sebastian)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radioserver4.profesionalhosting.com%3a8146/;:Onda Cero Melilla
-#DESCRIPTION Onda Cero Melilla
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/OCAAC.aac:Onda Cero
+#DESCRIPTION Onda Cero
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming12.elitecomunicacion.es%3a8212/stream?:Onda Color (Ceiuta, Spanje, noord-Afrika)
 #DESCRIPTION Onda Color (Ceiuta, Spanje, noord-Afrika)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s1.viastreaming.net%3a7420/stream/1/:Q FM Cool Jazz
@@ -199,8 +201,8 @@
 #DESCRIPTION Radio Lider (Mexico)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiomarca.streaming-pro.com%3a8030/radiomarca.mp3:Radio Marca
 #DESCRIPTION Radio Marca
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//dreamsiteradiocp2.com%3a8030/:Radio Maria Spanje
-#DESCRIPTION Radio Maria Spanje
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//dreamsiteradiocp2.com%3a8030/:Radio Mariá
+#DESCRIPTION Radio Mariá
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//19993.live.streamtheworld.com/SER_MELILLA.mp3:Radio Melilla Cadena SER
 #DESCRIPTION Radio Melilla Cadena SER
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stan319.radioca.st/stream:Radio Mi Amigo, de échte
@@ -251,5 +253,5 @@
 #DESCRIPTION Talk Radio Europe Costa Blanca
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//vaughanradioweb.streaming-pro.com%3a8057/;:Vaughan Radio
 #DESCRIPTION Vaughan Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.jfkradio.es/xtrafm.aac:XtraFM Costa Bianca
-#DESCRIPTION XtraFM Costa Bianca
+#SERVICE 5002:0:2:0:0:0:0:0:0:0:https%3a//hls1.eu.peppermindmedia.com/xtrafm/south/XtraFMSouth.m3u8:Xtra FM South
+#DESCRIPTION Xtra FM South

@@ -1,8 +1,8 @@
 #NAME Stream Slowakije (SK)
-#SERVICE 1:64:3ab:0:0:0:0:0:0:0:
+#SERVICE 1:64:452:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n13.stv.livebox.sk/stv-tv/dcd5e3c7af1edb9a18092828d1ff7aa6/stv1.smil/chunklist_b5251072.m3u8:RTVS 1
-#DESCRIPTION RTVS 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n13.stv.livebox.sk/stv-tv/dcd5e3c7af1edb9a18092828d1ff7aa6/stv1.smil/chunklist_b5251072.m3u8:RTVS 1 (#)
+#DESCRIPTION RTVS 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n14.stv.livebox.sk/stv-tv/78a9dc1fdd7aac1642d9a7e7d319d5c7/stv1.smil/chunklist_b2691072.m3u8:RTVS 1 (#)
 #DESCRIPTION RTVS 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n16.stv.livebox.sk/stv-tv/c8f324143e6a0fdc691db13859dfe1dc/stv2.smil/chunklist_b5251072.m3u8:RTVS 2
@@ -17,30 +17,36 @@
 #DESCRIPTION RTVS :O
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n17.stv.livebox.sk/stv-tv/d56c11ccba14ded337afe958400833e1/stv4.smil/chunklist_b5251072.m3u8:RTVS Sport
 #DESCRIPTION RTVS Sport
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sktv.plainrock127.xyz/get.php?x=TA3:TA3
-#DESCRIPTION TA3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.11.199%3a5000/live/test_joj_hd_high_hevc/playlist.m3u8:JOJ
-#DESCRIPTION JOJ
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/joj_news-1080.m3u8:JOJ 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/joj-720.m3u8:JOJ TV
+#DESCRIPTION JOJ TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/joj_news-720.m3u8:JOJ 24
 #DESCRIPTION JOJ 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=63211&extension=ts:JOJ Cinema
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/cinema-720.m3u8:JOJ Cinema
 #DESCRIPTION JOJ Cinema
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/plus-1080.m3u8:JOJ Plus
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/family-720.m3u8:JOJ Family
+#DESCRIPTION JOJ Family
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/jojko-720.m3u8:JOY Ko
+#DESCRIPTION JOY Ko
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/plus-720.m3u8:JOJ Plus
 #DESCRIPTION JOJ Plus
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/joj_sport-720.m3u8:JOJ Sport
+#DESCRIPTION JOJ Sport
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/wau-720.m3u8:JOJ Wau
+#DESCRIPTION JOJ Wau
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.74.145.11%3a1935/tv8/ngrp%3atv8.stream_all/playlist.m3u8:TV 8
 #DESCRIPTION TV 8
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//80.94.54.11%3a1935/live/dolnykubin1/playlist.m3u8:TV DK
-#DESCRIPTION TV DK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.cdn.joj.sk/live/andromeda/wau-1080.m3u8:Wau TV
-#DESCRIPTION Wau TV
-#SERVICE 1:64:3ac:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_tv9/playlist.m3u8:TV 9
+#DESCRIPTION TV 9
+#SERVICE 1:64:453:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.130.250.2%3a8023/play/a02v/index.m3u8:Canal+ Sport
-#DESCRIPTION Canal+ Sport
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.streaming.sk/fashiontv/stream/playlist.m3u8:Fashion TV Slovak
 #DESCRIPTION Fashion TV Slovak
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.geniusnet.sk%3a8081/localltv/pl.m3u8:LocAll
 #DESCRIPTION LocAll
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_nove_zamky/playlist.m3u8:NZTV
+#DESCRIPTION NZTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_regio_tv/playlist.m3u8:Regio TV
+#DESCRIPTION Regio TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.streaming.sk/senzi/stream/chunklist_w186513238.m3u8:Senzi TV
 #DESCRIPTION Senzi TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//109.74.145.11%3a1935/tv8/mp4%3atv8.stream_360p/playlist.m3u8:Televízia OSEM
@@ -51,11 +57,17 @@
 #DESCRIPTION TV Maná Slovak
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s1.media-planet.sk/live/dolnykubin1/chunklist_w420768934.m3u8:TV Mesta Dolný Kubín
 #DESCRIPTION TV Mesta Dolný Kubín
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash3.antik.sk/live/test_mistral_atktv/playlist.m3u8:TV Mistral
+#DESCRIPTION TV Mistral
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_nitricka/playlist.m3u8:TV Nitricka
+#DESCRIPTION TV Nitricka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5b17837053cfa.streamlock.net/tv8/mp4%3atv8.stream_360p/chunklist_w552112816.m3u8:TV Osem
 #DESCRIPTION TV Osem
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slovanet-livestream.ceelabs.com%3a1935/live/mpegts.stream_tvpoprad/playlist.m3u8:TV Poprad
-#DESCRIPTION TV Poprad
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.streaming.sk/tvruzinov/stream/playlist.m3u8:TV Ružinov
 #DESCRIPTION TV Ružinov
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//s1.media-planet.sk%3a80/live/turzovka:TV Turzovka
 #DESCRIPTION TV Turzovka
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//radio.serv.si/VeseljakGolicaTV/tracks-v1a1/mono.m3u8:TV Veseljak Golica
+#DESCRIPTION TV Veseljak Golica
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash3.antik.sk/live/test_vita/playlist.m3u8:TV Vita
+#DESCRIPTION TV Vita

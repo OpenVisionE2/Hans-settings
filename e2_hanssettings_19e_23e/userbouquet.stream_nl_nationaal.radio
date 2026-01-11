@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:4e2:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b5:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -41,7 +41,7 @@
 #DESCRIPTION FunX Rotterdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/funx-utrecht-bb-mp3:FunX Utrecht
 #DESCRIPTION FunX Utrecht
-#SERVICE 1:64:4e3:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b6:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -77,6 +77,8 @@
 #DESCRIPTION 538 Ibiza
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3:538 Non-Stop
 #DESCRIPTION 538 Non-Stop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR29.mp3:538 Ochtendshow
+#DESCRIPTION 538 Ochtendshow
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR16.mp3:538 Party
 #DESCRIPTION 538 Party
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR13.mp3:538 Top 50
@@ -293,6 +295,8 @@
 #DESCRIPTION Pinguin Blues
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.pinguinradio.com/PinguinClassics192.mp3:Pinguin Classic
 #DESCRIPTION Pinguin Classic
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R2292843_SC.mp3:Pinguin Fiesta
+#DESCRIPTION Pinguin Fiesta
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SP_R2591867.mp3:Pinguin Groove
 #DESCRIPTION Pinguin Groove
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//pr320.pinguinradio.com:Pinguin Indie
@@ -381,8 +385,8 @@
 #DESCRIPTION Radio Mi Amigo
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//janus.shoutca.st%3a8031/;:Radio Mi Amigo International
 #DESCRIPTION Radio Mi Amigo International
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiomonique918.radioca.st/stream:Radio Monique 918
-#DESCRIPTION Radio Monique 918
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiomonique918.radioca.st/stream:Radio Monique Internationaal
+#DESCRIPTION Radio Monique Internationaal
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.radionl.fm/radionl:RadioNL
 #DESCRIPTION RadioNL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radionl.fm/rnlachterhoek:RadioNL - Editie Achterhoek
@@ -579,6 +583,8 @@
 #DESCRIPTION VIB Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.joyradio.nl/viberadio:Vibe Radio
 #DESCRIPTION Vibe Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.wearethebeat.com/listen/beat/beat:We Are The Beat
+#DESCRIPTION We Are The Beat
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.greenhost.nl%3a8006/jazz:World of Jazz
 #DESCRIPTION World of Jazz
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio.wildhitradio.nl/wildfm.mp3:Wild FM
@@ -587,7 +593,7 @@
 #DESCRIPTION Yoursafe Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:4e4:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b7:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -627,13 +633,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:4e5:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b8:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:4e6:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b9:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits
 #DESCRIPTION 18Hits
@@ -993,8 +999,6 @@
 #DESCRIPTION Radio 854 Gold (uit Canada voor luisteraars BE en NL)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server-25.stream-server.nl%3a8502/;:Radio Boxerteam
 #DESCRIPTION Radio Boxerteam
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.radio.co/s0d77dbc70/listen:Radio Caliente
-#DESCRIPTION Radio Caliente
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//caster05.streampakket.com/proxy/8868/stream:Radio Calypso
 #DESCRIPTION Radio Calypso
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.rcgoldserver.eu%3a8253:Radio Caroline 259 Gold
@@ -1181,8 +1185,6 @@
 #DESCRIPTION Vergeten Artiesten Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.vibradio.nl/vib192mp3:VIB Radio
 #DESCRIPTION VIB Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.wearethebeat.com/listen/beat/beat:We Are The Beat
-#DESCRIPTION We Are The Beat
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//webradio.slimweb.org%3a8000/wradio:Webradio SLIM
 #DESCRIPTION Webradio SLIM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//securestream3.digipal.nl%3a2213/;stream.mp3:Wolkhits.nl

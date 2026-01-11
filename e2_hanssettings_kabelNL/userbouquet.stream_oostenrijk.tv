@@ -1,37 +1,51 @@
 #NAME Stream Oostenrijk (AT)
-#SERVICE 1:64:28d:0:0:0:0:0:0:0:
+#SERVICE 1:64:33a:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aC7%3a8B%3a56&stream=44821&extension=ts:ORF 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=36058&extension=ts:ORF 1
 #DESCRIPTION ORF 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8:ORF 1 (#)
-#DESCRIPTION ORF 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strm.hdtvizlecanli.com/live/orf1.m3u8:ORF 1 (#)
 #DESCRIPTION ORF 1 (#)
-#SERVICE 4097:0:1:1330:3ef:1:c00000:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=44820&extension=ts:ORF 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8:ORF 1 (#)
+#DESCRIPTION ORF 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_orf_eins_tizen/playlist.m3u8:ORF 1 (#)
+#DESCRIPTION ORF 1 (#)
+#SERVICE 4097:0:1:1330:3ef:1:c00000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=36059&extension=ts:ORF 2
 #DESCRIPTION ORF 2
 #SERVICE 4097:0:1:1330:3ef:1:c00000:0:0:0:https%3a//strm.hdtvizlecanli.com/live/orf2.m3u8:ORF 2 (#)
 #DESCRIPTION ORF 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/orf2/browser-dash/orf2.mpd:ORF 2 (#)
 #DESCRIPTION ORF 2 (#)
-#SERVICE 4097:0:1:33fc:3ed:1:c00000:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aC7%3a8B%3a56&stream=44819&extension=ts:ORF 3
+#SERVICE 4097:0:1:33fc:3ed:1:c00000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=36060&extension=ts:ORF 3
 #DESCRIPTION ORF 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//web12.mdn.ors.at/orf/web12/qxa/manifest.mpd:ORF Kids
-#DESCRIPTION ORF Kids
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=44806&extension=ts:ORF Sport+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2386&extension=ts:ORF Sport+
 #DESCRIPTION ORF Sport+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strm.hdtvizlecanli.com/live/atv.m3u8:ATV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//studiocam-oe3.mdn.ors.at/orf/studiocam_oe3/q6a/manifest.mpd:Hitradio O3
+#DESCRIPTION Hitradio O3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2385&extension=ts:ATV
 #DESCRIPTION ATV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/atv/browser-dash/atv.mpd:ATV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strm.hdtvizlecanli.com/live/atv.m3u8:ATV (#)
+#DESCRIPTION ATV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2384&extension=ts:ATV 2
 #DESCRIPTION ATV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aC7%3a8B%3a56&stream=184144&extension=ts:Sixx
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/atv/browser-dash/atv.mpd:ATV 2 (#)
+#DESCRIPTION ATV 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2381&extension=ts:Puls 4
+#DESCRIPTION Puls 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=393745&extension=ts:Sixx
 #DESCRIPTION Sixx
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_sixx_tizen/playlist.m3u8:Sixx (#)
+#DESCRIPTION Sixx (#)
 #SERVICE 4097:0:1:3400:3ed:1:c00000:0:0:0:https%3a//ms01.w24.at/R9/smil%3aliveeventR9.smil/playlist.m3u8:R9 Oesterreich
 #DESCRIPTION R9 Oesterreich
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2380&extension=ts:Puls 24
+#DESCRIPTION Puls 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ms01.w24.at/W24/smil%3aliveevent.smil/chunklist.m3u8:W24
 #DESCRIPTION W24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8:Servus TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=393746&extension=ts:Servus TV
 #DESCRIPTION Servus TV
-#SERVICE 1:64:28e:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8:Servus TV (#)
+#DESCRIPTION Servus TV (#)
+#SERVICE 1:64:33b:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//60efd7a2b4d02.streamlock.net/a_kaernten/ngrp%3alivestream_all/playlist.m3u8:Antenne Kaernten
 #DESCRIPTION Antenne Kaernten
@@ -43,8 +57,6 @@
 #DESCRIPTION Dorf TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.fs1.tv%3a8080/hls/webstream.m3u8:FS 1
 #DESCRIPTION FS 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3aC7%3a8B%3a56&stream=184160&extension=ts:Gute Laune TV
-#DESCRIPTION Gute Laune TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8:K-TV
 #DESCRIPTION K-TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8:Krone HIT

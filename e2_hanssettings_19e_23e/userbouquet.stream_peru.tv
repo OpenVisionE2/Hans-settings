@@ -1,33 +1,35 @@
 #NAME Stream Peru (PE)
-#SERVICE 1:64:354:0:0:0:0:0:0:0:
+#SERVICE 1:64:3ff:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamtv.onliv3.online%3a1936/karibtv/karibtv/playlist.m3u8:TV One Peru
+#DESCRIPTION TV One Peru
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/canal8/index.m3u8:Canal 8 Catacaos
+#DESCRIPTION Canal 8 Catacaos
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8034/index.m3u8:Onda 15 TV
+#DESCRIPTION Onda 15 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5790d294af2dc.streamlock.net/8134/8134/chunklist_w2057575581.m3u8:TV Cosmos 15.1
+#DESCRIPTION TV Cosmos 15.1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//servilive.com%3a3028/live/jntv19live.m3u8:JN 19
+#DESCRIPTION JN 19
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.agenciastreaming.com%3a8081/tvwanka/tracks-v1/index.fmp4.m3u8:Canal 21 Huancayo
+#DESCRIPTION Canal 21 Huancayo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.agenciastreaming.com%3a8081/nacionaltv/tracks-a1v1/index.m3u8:Nacional TV Peru
 #DESCRIPTION Nacional TV Peru
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.188.216.5%3a18000/play/a0qn/index.m3u8:TV Peru
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf7.m3u8:TV Peru
 #DESCRIPTION TV Peru
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.183.182.166%3a8000/play/a12u/index.m3u8:TV Peru (#)
-#DESCRIPTION TV Peru (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/902c1a0395264f269f1160efa00660e47.m3u8:TV Peru Noticias
 #DESCRIPTION TV Peru Noticias
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/ee2450c81e554f4cae0e6292106993c27.m3u8:TV Perú Internacional
-#DESCRIPTION TV Perú Internacional
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/902c1a0395264f269f1160efa00660e47.m3u8:TV Perú Noticias
-#DESCRIPTION TV Perú Noticias
-#SERVICE 1:64:355:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/ee2450c81e554f4cae0e6292106993c27.m3u8:TV Peru Internacional
+#DESCRIPTION TV Peru Internacional
+#SERVICE 1:64:400:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.188.216.5%3a18000/play/a014/index.m3u8:America Television
-#DESCRIPTION America Television
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.183.182.166%3a8000/play/a0rb/index.m3u8:America Television (#)
-#DESCRIPTION America Television (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//servilive.com%3a3624/stream/play.m3u8:Angienet Television
-#DESCRIPTION Angienet Television
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudpro.servidoresdestream.com%3a8081/8010/index.m3u8:Antena SUR
+#DESCRIPTION Antena SUR
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video2.lhdserver.es/asiritv/live.m3u8:Asiri
 #DESCRIPTION Asiri
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//alba-pe-atv-atv.stream.mediatiquestream.com/index.m3u8:ATV
-#DESCRIPTION ATV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//alba-pe-atv-atvmas.stream.mediatiquestream.com/index.m3u8:ATV+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2qsan2ut81n2k.cloudfront.net/live/77eece7f-8de5-4406-9f7e-7be16d81f2ce/medialist_15609871089997455276_hls.m3u8:ATV+
 #DESCRIPTION ATV+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//alba-pe-atv-atvsur.stream.mediatiquestream.com/index.m3u8:ATV Sur
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2qsan2ut81n2k.cloudfront.net/live/1dedd057-0bc1-44a7-a747-bd52e12166b3/medialist_15609871089997455276_hls.m3u8:ATV Sur
 #DESCRIPTION ATV Sur
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/autenticatvmux/index.m3u8:Auténtica Televisión
 #DESCRIPTION Auténtica Televisión
@@ -35,20 +37,12 @@
 #DESCRIPTION Bethel TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc1.wasidata.com/Bhtv/index.fmp4.m3u8:BHTV
 #DESCRIPTION BHTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.agenciastreaming.com%3a8081/bnblimalive/tracks-v1a1/mono.m3u8:BNB TV
-#DESCRIPTION BNB TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.bitstreaming.net%3a3789/live/cdntvlive.m3u8:Cadena TV Huancayo
 #DESCRIPTION Cadena TV Huancayo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/canal8/index.m3u8:Canal 8 Catacaos
-#DESCRIPTION Canal 8 Catacaos
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.agenciastreaming.com%3a8081/tvwanka/tracks-v1/index.fmp4.m3u8:Canal 21 Huancayo
-#DESCRIPTION Canal 21 Huancayo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/3f2cb1658d114f2693eff18d83199e677.m3u8:Canal IPe
 #DESCRIPTION Canal IPe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.188.216.5%3a18000/play/a01p/index.m3u8:Canal N
-#DESCRIPTION Canal N
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.176.153.105%3a8090/play/a0yg/index.m3u8:Cinecanal
-#DESCRIPTION Cinecanal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movil.ejeserver.com/live/nets.m3u8:Canal Nets
+#DESCRIPTION Canal Nets
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7.innovatestream.pe%3a19360/cnctv/cnctv.m3u8:CNC
 #DESCRIPTION CNC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.mexiserver.com%3a19360/conectatvx/conectatvx.m3u8:Conecta TV
@@ -61,28 +55,16 @@
 #DESCRIPTION CR Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.opencaster.com/resources/hls_stream/cultura24.m3u8:Cultura 24 TV
 #DESCRIPTION Cultura 24 TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv1.voxhdnet.com/dmjsurtv/dmjsurtv/playlist.m3u8:DMJ Cuzco
-#DESCRIPTION DMJ Cuzco
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8:Exitosa
 #DESCRIPTION Exitosa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.188.216.5%3a18000/play/a0m5/index.m3u8:Global TV
-#DESCRIPTION Global TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.176.153.105%3a8090/play/a1av/index.m3u8:Gol Peru
-#DESCRIPTION Gol Peru
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.183.182.166%3a8000/play/a120/index.m3u8:Gol Peru (#)
-#DESCRIPTION Gol Peru (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.opencaster.com/resources/hls_stream/hipodromojcp2.m3u8:Hipódromo de Monterrico
 #DESCRIPTION Hipódromo de Monterrico
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//servilive.com%3a3028/live/jntv19live.m3u8:JN 19
-#DESCRIPTION JN 19
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live20.bozztv.com/akamaissh101/ssh101/jnetv/playlist.m3u8:JNE
 #DESCRIPTION JNE
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-player.egostreaming.pe/karibenatv_685a-pe-a5676-584412/index.m3u8:Karibena
 #DESCRIPTION Karibena
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//148.72.155.144%3a8000/play/a01i/index.m3u8:L1
-#DESCRIPTION L1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.183.182.166%3a8000/play/a12t/index.m3u8:L1 Max
-#DESCRIPTION L1 Max
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eu1.servers10.com%3a8081/8004/index.m3u8:La Fabulosa Radio y TV
+#DESCRIPTION La Fabulosa Radio y TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8070/index.m3u8:La Ribereña Pucallpa
 #DESCRIPTION La Ribereña Pucallpa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8:Latina
@@ -101,22 +83,16 @@
 #DESCRIPTION NorSelva TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5e85d90130e77.streamlock.net/6020/6020/playlist.m3u8:Oasis RTV
 #DESCRIPTION Oasis RTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8034/index.m3u8:Onda 15 TV
-#DESCRIPTION Onda 15 TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//v4.tustreaming.cl/odtvgo/tracks-v1a1/mono.m3u8:Onda Digital
 #DESCRIPTION Onda Digital
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn2.ujjina.com%3a1935/iptvovacion1/liveovacion1tv/playlist.m3u8:Ovación TV
 #DESCRIPTION Ovación TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.183.182.166%3a8000/play/a0ii/index.m3u8:Panamericana TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-stream.iblups.com/live/9137130947f091805ddd46dadbfce546f24af32d.m3u8:Panamericana TV
 #DESCRIPTION Panamericana TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//panel.host-live.com%3a19360/20000/20000.m3u8:Panc TV Peru
 #DESCRIPTION Panc TV Peru
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.183.182.166%3a8000/play/a13k/index.m3u8:PBO
-#DESCRIPTION PBO
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/planetatv/index.m3u8:Planeta Moyobamba
 #DESCRIPTION Planeta Moyobamba
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//servilive.com%3a3538/live/v6qe84b6flive.m3u8:Primavera 15 Moquegua
-#DESCRIPTION Primavera 15 Moquegua
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/radiomaster/radiomaster.m3u8:Radio Master
 #DESCRIPTION Radio Master
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/raditropical/raditropical.m3u8:Radio Tropical Tarapoto
@@ -125,10 +101,6 @@
 #DESCRIPTION Radio TV Oriente
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/rnyurimaguas/rnyurimaguas.m3u8:RN Televisión
 #DESCRIPTION RN Televisión
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//181.176.153.105%3a8090/play/a0xv/index.m3u8:RPP Noticias Piura
-#DESCRIPTION RPP Noticias Piura
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.183.182.166%3a8000/play/a13g/index.m3u8:RPP TV
-#DESCRIPTION RPP TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/selvatv/index.m3u8:RSelva Televisión
 #DESCRIPTION RSelva Televisión
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/rtvtotal/tracks-v1a1/mono.m3u8:RTV Total
@@ -137,28 +109,20 @@
 #DESCRIPTION Señal Perú TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video03.logicahost.com.br/soltv/soltv/playlist.m3u8:Sol Televisión
 #DESCRIPTION Sol Televisión
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.183.182.166%3a8000/play/a0vg/index.m3u8:Sony Channel
-#DESCRIPTION Sony Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/supercanal/index.m3u8:Super Canal Yurimaguas
 #DESCRIPTION Super Canal Yurimaguas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/telecolormux/index.m3u8:Telecolor Yurimaguas
 #DESCRIPTION Telecolor Yurimaguas
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.telelima.net/TL_GRUPO-MVCE/index.m3u8:Telelima
-#DESCRIPTION Telelima
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7.innovatestream.pe%3a19360/tvnoticiassatipo/tvnoticiassatipo.m3u8:Teleselva
 #DESCRIPTION Teleselva
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//isaocorp.cloudecast.com/toptv/index.m3u8:Top TV
 #DESCRIPTION Top TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.chasquirouter.com/salida/sd/trivu.m3u8:Trivu
 #DESCRIPTION Trivu
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7.innovatestream.pe%3a19360/turbomixoficial/turbomixoficial.m3u8:Turbo Mix Radio TV
-#DESCRIPTION Turbo Mix Radio TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5790d294af2dc.streamlock.net/8134/8134/chunklist_w2057575581.m3u8:TV Cosmos 15.1
-#DESCRIPTION TV Cosmos 15.1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7.innovatestream.pe%3a19360/turbomixoficial/turbomixoficial.m3u8:Turbo Mix TV
+#DESCRIPTION Turbo Mix TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s4.tvdatta.com%3a3450/hybrid/play.m3u8:TV en Linea
 #DESCRIPTION TV en Linea
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamtv.onliv3.online%3a1936/karibtv/karibtv/playlist.m3u8:TV One Peru
-#DESCRIPTION TV One Peru
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/uraniotv/index.m3u8:Uranio TV Yurimaguas
 #DESCRIPTION Uranio TV Yurimaguas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamusmptv.ddns.net/live/stream.m3u8:USMP TV
@@ -173,9 +137,5 @@
 #DESCRIPTION Viva TV Yurimaguas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/visionnoticias/visionnoticias.m3u8:VNP
 #DESCRIPTION VNP
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.183.182.166%3a8000/play/a0zn/index.m3u8:Willax
-#DESCRIPTION Willax
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7.innovatestream.pe%3a19360/ecuadortest/ecuadortest.m3u8:Wuan+
 #DESCRIPTION Wuan+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn.elsalvadordigital.com%3a1935/wowtv/wowtv/playlist.m3u8:Wow TV
-#DESCRIPTION Wow TV

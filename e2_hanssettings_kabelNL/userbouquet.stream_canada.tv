@@ -1,8 +1,6 @@
 #NAME Stream Canada (CA)
-#SERVICE 1:64:223:0:0:0:0:0:0:0:
+#SERVICE 1:64:2d0:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=1458074&extension=ts&play_token=Ag52pKMEUD:ABC Spark
-#DESCRIPTION ABC Spark
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=177364&extension=ts&play_token=X5Zjb5SCHi:CBC Edmonton
 #DESCRIPTION CBC Edmonton
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=828577&extension=ts&play_token=H0egXjr9oZ:CBC Frederiction
@@ -25,8 +23,6 @@
 #DESCRIPTION CBC Winnipeg
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=176801&extension=ts&play_token=usnhy159sd:CBC News
 #DESCRIPTION CBC News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master.m3u8:CBC News (#)
-#DESCRIPTION CBC News (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=177376&extension=ts&play_token=cRJDe2Grlr:CTV Calgary
 #DESCRIPTION CTV Calgary
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=545065&extension=ts&play_token=UwMYEsGyM6:CTV Edmonton
@@ -89,8 +85,6 @@
 #DESCRIPTION CTV Sci-Fi Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8:Global News Canada
 #DESCRIPTION Global News Canada
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl7.moveonjoy.com/CA_GLOBAL/index.m3u8:Global News Camada (#)
-#DESCRIPTION Global News Camada (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/.m3u8:Global News BC
 #DESCRIPTION Global News BC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.corusdigitaldev.com/groupd/live/8970c668-40cd-4ca9-8c4d-25fd04f619b5/live.isml/.m3u8:Global News Calgary
@@ -139,27 +133,17 @@
 #DESCRIPTION RDS Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63da370e2e477400081cf8b6/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7c7782-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6b5c5f52-01b7-44d8-a06c-1f05f3169a75:The Weather Network
 #DESCRIPTION The Weather Network
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/TSN_1/index.m3u8:TSN 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/TSN_1/mpegts:TSN 1
 #DESCRIPTION TSN 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn1/sd:TSN 1 (#)
-#DESCRIPTION TSN 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/TSN_2/index.m3u8:TSN 2
 #DESCRIPTION TSN 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn2/sd:TSN 2 (#)
-#DESCRIPTION TSN 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/TSN_3/index.m3u8:TSN 3
 #DESCRIPTION TSN 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn3/sd:TSN 3 (#)
-#DESCRIPTION TSN 3 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/TSN_4/index.m3u8:TSN 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/TSN_4/mpegts:TSN 4
 #DESCRIPTION TSN 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn4/sd:TSN 4 (#)
-#DESCRIPTION TSN 4 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/TSN_5/index.m3u8:TSN 5
 #DESCRIPTION TSN 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvpass.org/live/tsn5/sd:TSN 5 (#)
-#DESCRIPTION TSN 5 (#)
-#SERVICE 1:64:224:0:0:0:0:0:0:0:
+#SERVICE 1:64:2d1:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3abn.bozztv.com/3abncanada/3ABN/master.m3u8:3ABN Canada
 #DESCRIPTION 3ABN Canada
@@ -169,10 +153,8 @@
 #DESCRIPTION Az Star TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn8.live247stream.com/canadaone/tv/playlist.m3u8:Canada One
 #DESCRIPTION Canada One
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=225478&extension=ts:Canal Savoir
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.savoir.media/live/stream.m3u8:Canal Savoir
 #DESCRIPTION Canal Savoir
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//temp4.isilive.ca/live/CHCOTV/live/index.m3u8:CHCO-TV
-#DESCRIPTION CHCO-TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8:CityNews
 #DESCRIPTION CityNews
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8:CityNews Edmonton
@@ -189,8 +171,6 @@
 #DESCRIPTION Crave 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/CRAVE_4/index.m3u8:Crave 4
 #DESCRIPTION Crave 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl5.moveonjoy.com/DISNEY_XD/index.m3u8:Disney XD Canada
-#DESCRIPTION Disney XD Canada
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8:Gaunda Punjab TV
 #DESCRIPTION Gaunda Punjab TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wild-dawn-81ef.srmhoburfqyupzwxbu.workers.dev/?url=https%3a//ca-rt.onetv.app/gembollywood/index-0.m3u8:GEM Bollywood
@@ -289,14 +269,12 @@
 #DESCRIPTION Stingray CMusic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8:Stingray DJazz
 #DESCRIPTION Stingray DJazz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/54947915-6504-4548-aaef-eabd451f8607/1.m3u8:Stingray Greatest Holiday Hits
+#DESCRIPTION Stingray Greatest Holiday Hits
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8:Stingray Naturescape
 #DESCRIPTION Stingray Naturescape
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dd7oxfzdj1tsm.cloudfront.net/master.m3u8:Stingray Holidayscape (#)
-#DESCRIPTION Stingray Holidayscape (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv-fa.tubi.video/super-channel-hearties-canada/index.m3u8:Super Channel Hearties Canada
-#DESCRIPTION Super Channel Hearties Canada
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv-fa.tubi.video/super-channel-uncovered-canada/index.m3u8:Super Channel Uncovered Canada
-#DESCRIPTION Super Channel Uncovered Canada
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/68cc5f97-cf6c-4ff7-9125-f56f272dbcb6/1.m3u8:Stingray Remember the 80s
+#DESCRIPTION Stingray Remember the 80s
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//2-fss-1.streamhoster.com/pl_122/206338-3120682-1/playlist.m3u8:Talkin Live Classics TV
 #DESCRIPTION Talkin Live Classics TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn3.toronto360.tv%3a8081/toronto360/hd/playlist.m3u8:Toronto 360 TV

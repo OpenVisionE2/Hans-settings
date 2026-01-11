@@ -7,6 +7,8 @@
 #DESCRIPTION Al Arabiya Al Hadath
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1j4r34gq3qw9y.cloudfront.net/out/v1/96804f3a14864641a21c25e8ca9afb74/index_4.m3u8:Al Arabiya Programs
 #DESCRIPTION Al Arabiya Programs
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-eu-west-prod-ingest-infra-dacast-com.akamaized.net/23cf2e00-28b0-b7b4-2569-ab7d19233fd7/index.m3u8:Al Dafrah
+#DESCRIPTION Al Dafrah
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8:Al-Sharqiya
 #DESCRIPTION Al-Sharqiya
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8:Al Sharqiya Min Kabla
@@ -29,10 +31,14 @@
 #DESCRIPTION ART Hekayat 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8:Asharq News
 #DESCRIPTION Asharq News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/baynounah/baynounah_hls_nd/index.m3u8:Baynounah
+#DESCRIPTION Baynounah
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8:Fujairah TV
 #DESCRIPTION Fujairah TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vo-live.cdb.cdn.orange.com/Content/Channel/MajidChildrenChannel/HLS/index.m3u8:Majid Kids TV
 #DESCRIPTION Majid Kids TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/majid/majid_hls_nd/index.m3u8:Majid TV
+#DESCRIPTION Majid TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-enc.edgenextcdn.net/out/v1/a4a39d8e92e34b0780ca602270a59512/index.m3u8:Maraya
 #DESCRIPTION Maraya
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=45641&extension=ts:MBC 1 KSA
@@ -129,6 +135,8 @@
 #DESCRIPTION Pulse 95 Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-globecast.akamaized.net/live/eds/sharjah_tv/hls_roku/index.m3u8:Sharjah TV
 #DESCRIPTION Sharjah TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8:Sharjah TV (#)
+#DESCRIPTION Sharjah TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8:Sharjah 2
 #DESCRIPTION Sharjah 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8:Sharjah Radio Quran
@@ -139,11 +147,13 @@
 #DESCRIPTION Sky News Arabia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41670&extension=ts:Spacetoon Arabic
 #DESCRIPTION Spacetoon Arabic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wanasah-prod-dub-enc.edgenextcdn.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8:Wanasah
+#DESCRIPTION Wanasah
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=42119&extension=ts:Zee Aflam
 #DESCRIPTION Zee Aflam
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41700&extension=ts:Zee Alwan
 #DESCRIPTION Zee Alwan
-#SERVICE 1:64:2e1:0:0:0:0:0:0:0:
+#SERVICE 1:64:38e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Abu Dhabi = hoofdstad VAE++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiChannel/HLS/index.m3u8:Abu Dhabi Aloula
 #DESCRIPTION Abu Dhabi Aloula
@@ -151,19 +161,31 @@
 #DESCRIPTION Abu Dhabi Drama
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vo-live-media.cdb.cdn.orange.com/Content/Channel/EmiratesChannel/HLS/index.m3u8:Abu Dhabi Emirates
 #DESCRIPTION Abu Dhabi Emirates
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/emarat_tv/emarat_tv_hls_nd/index.m3u8:Abu Dhabi Emirates (#)
+#DESCRIPTION Abu Dhabi Emirates (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vo-live-media.cdb.cdn.orange.com/Content/Channel/AbuDhabiSportsChannel1/HLS/index.m3u8:Abu Dhabi Sports 1
 #DESCRIPTION Abu Dhabi Sports 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8:Abu Dhabi Sports 1 (#)
+#DESCRIPTION Abu Dhabi Sports 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=105616&extension=ts:Abu Dhabi Sports 2
 #DESCRIPTION Abu Dhabi Sports 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8:Abu Dhabi Sports 2 (#)
+#DESCRIPTION Abu Dhabi Sports 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=41729&extension=ts:Abu Dhabi TV
 #DESCRIPTION Abu Dhabi TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_tv/abudhabi_tv_hls_nd/index.m3u8:Abu Dhabi TV (#)
+#DESCRIPTION Abu Dhabi TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vo-live-media.cdb.cdn.orange.com/Content/Channel/Baynounah/HLS/index.m3u8:Baynounah TV
 #DESCRIPTION Baynounah TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//213.57.91.138%3a8000/play/a05a:National Geographic Abu Dhabi
 #DESCRIPTION National Geographic Abu Dhabi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/national_geo_hls_nd/index.m3u8:National Geographic Abu Dhabi (#)
+#DESCRIPTION National Geographic Abu Dhabi (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vo-live-media.cdb.cdn.orange.com/Content/Channel/YASSportsChannel/HLS/index.m3u8:Yas TV
 #DESCRIPTION Yas TV
-#SERVICE 1:64:2e2:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/yas_1/yas_1_hls_nd/index.m3u8:Yas TV (#)
+#DESCRIPTION Yas TV (#)
+#SERVICE 1:64:38f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Dubai, stad in VAE++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/bahry1live/bahry1.smil/playlist.m3u8:Bahry
 #DESCRIPTION Bahry

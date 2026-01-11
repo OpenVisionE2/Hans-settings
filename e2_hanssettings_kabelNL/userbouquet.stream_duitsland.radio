@@ -1,5 +1,5 @@
 #NAME Stream Duitsland (DE)
-#SERVICE 1:64:439:0:0:0:0:0:0:0:
+#SERVICE 1:64:50e:0:0:0:0:0:0:0:
 #DESCRIPTION ++ARD-zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/br/br1/franken/mp3/mid:BR - Bayern 1 - Franken
 #DESCRIPTION BR - Bayern 1 - Franken
@@ -41,13 +41,9 @@
 #DESCRIPTION HR - You FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284340-0_mp3_high.m3u:MDR Aktuell
 #DESCRIPTION MDR Aktuell
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//avw.mdr.de/streams/284350-0_mp3_max.m3u:MDR Klassik
-#DESCRIPTION MDR Klassik
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284310-0_mp3_high.m3u:MDR Kultur
-#DESCRIPTION MDR Kultur
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284311-0_mp3_max.m3u:MDR Kultur - Webchannel "Klassik im Konzert"
-#DESCRIPTION MDR Kultur - Webchannel "Klassik im Konzert"
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284320-0_mp3_high.m3u:MDR Jump
+#DESCRIPTION MDR Jump
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mdr-284320-0.cast.mdr.de/mdr/284320/0/mp3/high/stream.mp3:MDR Jump
 #DESCRIPTION MDR Jump
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284321-2_mp3_high.m3u:MDR Jump -Iin the mix
 #DESCRIPTION MDR Jump -Iin the mix
@@ -55,6 +51,16 @@
 #DESCRIPTION MDR Jump Rockchannel
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284321-0_mp3_high.m3u:MDR Jump Trendchannel
 #DESCRIPTION MDR Jump Trendchannel
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//avw.mdr.de/streams/284350-0_mp3_max.m3u:MDR Klassik
+#DESCRIPTION MDR Klassik
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/high/stream.mp3:MDR Klassik
+#DESCRIPTION MDR Klassik
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284310-0_mp3_high.m3u:MDR Kultur
+#DESCRIPTION MDR Kultur
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mdr-284310-0.sslcast.mdr.de/mdr/284310/0/mp3/high/stream.mp3:MDR Kultur
+#DESCRIPTION MDR Kultur
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284311-0_mp3_max.m3u:MDR Kultur - Webchannel "Klassik im Konzert"
+#DESCRIPTION MDR Kultur - Webchannel "Klassik im Konzert"
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mdr-990801-0.cast.mdr.de/mdr/990801/0/mp3/high/stream.mp3:MDR Schlagerwelt Sachsen
 #DESCRIPTION MDR Schlagerwelt Sachsen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mdr-990701-0.cast.mdr.de/mdr/990701/0/mp3/high/stream.mp3:MDR Schlagerwelt Sachsen-Anhalt
@@ -115,7 +121,7 @@
 #DESCRIPTION NDR 1 Niedersachsen - Region Lüneburg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.ndr.de/ndr/ndr1niedersachsen/oldenburg/mp3/128/stream.mp3?1750097837876&aggregator=web:NDR 1 Niedersachsen - Region Oldenburg
 #DESCRIPTION NDR 1 Niedersachsen - Region Oldenburg
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3?1750097887190&aggregator=web:NDR 1 Niedersachsen - Region Osnabrück
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.ndr.de/ndr/ndr1niedersachsen/osnabrueck/mp3/128/stream.mp3:NDR 1 Niedersachsen - Region Osnabrück
 #DESCRIPTION NDR 1 Niedersachsen - Region Osnabrück
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d131.rndfnk.com/ard/ndr/ndr1radiomv/schwerin/aac/64/stream.aac?aggregator=onlineradiobox-com&cid=01FBQ257S6EFPR7ANEZ7PWPK3H&sid=2ybJSn5WLzGo3wrwPlzPhV7quYc&token=R_J-OTJTUDgGPm8zgBIIerscpvRt0IU8__qHE-_8tpw&tvf=3j8sk-erSRhkMTMxLnJuZGZuay5jb20:NDR 1 Radio MV
 #DESCRIPTION NDR 1 Radio MV
@@ -401,7 +407,7 @@
 #DESCRIPTION WDR - Die Maus
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d111.rndfnk.com/ard/wdr/wdr/event/mp3/128/stream.mp3?aggregator=web&cid=01FC1VHKSA446AN8QN07VP9XCQ&sid=2ybYp4rkZQYGZqF9unyS5vOoysF&token=UUvyv6LfiWRw8EqR3BlIHzlAM-MSV3Rq7Z1gxDYazMU&tvf=Jsnh9cuySRhkMTExLnJuZGZuay5jb20:WDR - Event
 #DESCRIPTION WDR - Event
-#SERVICE 1:64:43a:0:0:0:0:0:0:0:
+#SERVICE 1:64:50f:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667:80s80s
 #DESCRIPTION 80s80s
@@ -609,8 +615,12 @@
 #DESCRIPTION Ambient-Art-Foundation
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//annafm.ip-streaming.net/annafm:Anna FM
 #DESCRIPTION Anna FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//81.201.157.218%3a80/stream1/livestream.mp3:Antenne 1 Hit-Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//konsolelabs.streamabc.net/94-a1stg-mp3-192-7580453:Antenne 1 Hit-Radio
 #DESCRIPTION Antenne 1 Hit-Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//konsolelabs.streamabc.net/94-a1nbg-mp3-128-9003040:Antenne 1 Nackerburg
+#DESCRIPTION Antenne 1 Nackerburg
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//antenneac--di--nacs-ais-lgc--03--cdn.cast.addradio.de/antenneac/live/mp3/high:Antenne AC
+#DESCRIPTION Antenne AC
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mp3channels.webradio.de/antenne?&amsparams=playerid%3aAntenneBayernWebPlayer;skey%3a1506758839;&context=fHA6LTE=&lat=51.06577&lon=5.98826&listenerid=6d512b5d0553f5ebd5b75d842817f9cb&awparams=companionAds%3atrue:Antenne Bayern
 #DESCRIPTION Antenne Bayern
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mp3.antennebadkreuznach.c.nmdn.net/fs_antennebadkreuznach/livestream.mp3:Antenne Bad Kreuznach
@@ -809,10 +819,16 @@
 #DESCRIPTION badenfm
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.bmr-radio.de:Ballermann Radio
 #DESCRIPTION Ballermann Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//country.bmr-radio.com%3a8000:Ballermann Radio - Country
-#DESCRIPTION Ballermann Radio - Country
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//top100.bmr-radio.com%3a8000:Ballermann Radio - Top100
-#DESCRIPTION Ballermann Radio - Top100
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.bmr-radio.de/bmr-ab18.mp3:Ballermann Radio - Ab18
+#DESCRIPTION Ballermann Radio - Ab18
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.bmr-radio.de/apresski/mp3-192/Webplayer:Ballermann Radio - Après Ski
+#DESCRIPTION Ballermann Radio - Après Ski
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.bmr-radio.de/bmr-classic.mp3:Ballermann Radio - Classics
+#DESCRIPTION Ballermann Radio - Classics
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.bmr-radio.de/bmr-clubstyle.mp3:Ballermann Radio - ClubStyle
+#DESCRIPTION Ballermann Radio - ClubStyle
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.bmr-radio.de/bmr-top30.mp3:Ballermann Radio - Top 30
+#DESCRIPTION Ballermann Radio - Top 30
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//barbaradio.hoerradar.de/barbaradio-live-mp3-hq:Barbaradio
 #DESCRIPTION Barbaradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//barbaradio.hoerradar.de/barbaradio-gerliebeslieder-mp3-hq:Barbaradio - Deutsche Liebeslieder
@@ -1669,6 +1685,8 @@
 #DESCRIPTION ICE-Radio-Waldkraiburg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server33109.streamplus.de:Ichtys Radio
 #DESCRIPTION Ichtys Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge06.streamonkey.net/radio-illerlive/stream/mp3:illerlive
+#DESCRIPTION illerlive
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//illertalfm.stream.laut.fm%3a8080/illertalfm:Illertal FM
 #DESCRIPTION Illertal FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.ilmwelle.de/radio-ilmwelle-192.mp3:Ilmwelle-90s
@@ -1845,6 +1863,8 @@
 #DESCRIPTION klassikcom-Neuheiten-Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//koelncampus.uni-koeln.de%3a80/hq:Klncampus---Das-Klner-Hochschulradio-Kln
 #DESCRIPTION Klncampus---Das-Klner-Hochschulradio-Kln
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge82.streamonkey.net/koelschradio-live:Kölsch Radio
+#DESCRIPTION Kölsch Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s1.knixx.fm/dein_webradio_128.mp3:knixxfm
 #DESCRIPTION knixxfm
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.multhielemedia.de/listen/kontrafunk/radio.mp3:Kontrafunk
@@ -2911,7 +2931,7 @@
 #DESCRIPTION Radio Paranoid
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//37.221.192.109%3a21085/stream:Radio Plattenkisten
 #DESCRIPTION Radio Plattenkisten
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mp3.radiopotsdam.c.nmdn.net/fs_radiopotsdam/livestream.mp3:Radio Potsdam
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiogroup.stream09.radiohost.de/radio-potsdam_mp3-192:Radio Potsdam
 #DESCRIPTION Radio Potsdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mp3ad.radioprimavera.c.nmdn.net/fs_radioprimavera/livestream.mp3:Radio Primavera Aschaffenburg
 #DESCRIPTION Radio Primavera Aschaffenburg
