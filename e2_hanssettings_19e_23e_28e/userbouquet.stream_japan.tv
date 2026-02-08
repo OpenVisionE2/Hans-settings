@@ -1,5 +1,5 @@
 #NAME Stream Japan (JP)
-#SERVICE 1:64:411:0:0:0:0:0:0:0:
+#SERVICE 1:64:429:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fujitv4.mov3.co/hls/fujitv.m3u8:Fuji TV
 #DESCRIPTION Fuji TV
@@ -9,6 +9,8 @@
 #DESCRIPTION JOIX-DTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vthanh.utako.moe/TV_Tokyo/index.m3u8:JOTX-DTV
 #DESCRIPTION JOTX-DTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs11:NHK BS
+#DESCRIPTION NHK BS
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nhk4.mov3.co/hls/nhk.m3u8:NHK G Tokio
 #DESCRIPTION NHK G Tokio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8:NHK World Japan
@@ -25,7 +27,11 @@
 #DESCRIPTION Nippon TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tbs5.mov3.co/hls/tbs.m3u8:TBS
 #DESCRIPTION TBS
-#SERVICE 1:64:412:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tbs5.mov3.co/hls/tbs.m3u8:TBS JORX
+#DESCRIPTION TBS JORX
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=bs20:WOWOW Live
+#DESCRIPTION WOWOW Live
+#SERVICE 1:64:42a:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//43.100.9.67/api/streams/live/cs312/1080p/mpegts:Dlife
 #DESCRIPTION Dlife
@@ -37,6 +43,8 @@
 #DESCRIPTION GSTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8:Home & Shopping
 #DESCRIPTION Home & Shopping
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd02:JOAB-DTV
+#DESCRIPTION JOAB-DTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mt01.utako.moe/ytv/index.m3u8:JOIX-DTV
 #DESCRIPTION JOIX-DTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8:Lotte Home Shopping

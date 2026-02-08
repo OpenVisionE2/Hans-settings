@@ -1,5 +1,5 @@
 #NAME Stream Italië (IT)
-#SERVICE 1:64:5ea:0:0:0:0:0:0:0:
+#SERVICE 1:64:541:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rai++
 #SERVICE 4097:0:2:5:0:0:0:0:0:0:http%3a//icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast:Rai Radio 1
 #DESCRIPTION Rai Radio 1
@@ -43,7 +43,7 @@
 #DESCRIPTION Radio Serie A con RDS
 #SERVICE 4097:0:2:355:0:0:0:0:0:0:https%3a//stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index_14.m3u8:Radio TV Serie A
 #DESCRIPTION Radio TV Serie A
-#SERVICE 1:64:5eb:0:0:0:0:0:0:0:
+#SERVICE 1:64:542:0:0:0:0:0:0:0:
 #DESCRIPTION ++festival San Remo, themazenders++
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icecast.unitedradio.it/um049.mp3:Music Radio Festival Le Canzoni Vincitrici
 #DESCRIPTION Music Radio Festival Le Canzoni Vincitrici
@@ -53,7 +53,7 @@
 #DESCRIPTION United Music Radio Festival 1951-1999
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icecast.unitedradio.it/um112.mp3:United Music Radio Festival 2000-2021
 #DESCRIPTION United Music Radio Festival 2000-2021
-#SERVICE 1:64:5ec:0:0:0:0:0:0:0:
+#SERVICE 1:64:543:0:0:0:0:0:0:0:
 #DESCRIPTION ++overig Italiaans++
 #SERVICE 4097:0:2:273:0:0:0:0:0:0:https%3a//onair18.xdevel.com/proxy/7080it?mp=/stream:70-80.it 
 #DESCRIPTION 70-80.it 
@@ -527,8 +527,8 @@
 #DESCRIPTION RADIO QUEEN
 #SERVICE 4097:0:2:415:0:0:0:0:0:0:http%3a//178.32.136.9%3a9013/;:RADIO R9 TERAMO
 #DESCRIPTION RADIO R9 TERAMO
-#SERVICE 4097:0:2:243:0:0:0:0:0:0:http%3a//livemp3.radioradicale.it/live.mp3:RADIO RADICALE
-#DESCRIPTION RADIO RADICALE
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//livemp3.radioradicale.it/live.mp3:Radio Radicale
+#DESCRIPTION Radio Radicale
 #SERVICE 4097:0:2:407:0:0:0:0:0:0:http%3a//mp3.radioradio.it%3a8102:RADIO RADIO 104 FM ROMA
 #DESCRIPTION RADIO RADIO 104 FM ROMA
 #SERVICE 4097:0:2:363:0:0:0:0:0:0:http%3a//46.37.20.205%3a8000/ram:RADIO RAM POWER
@@ -561,8 +561,10 @@
 #DESCRIPTION Radio rsi rete 3
 #SERVICE 4097:0:2:377:0:0:0:0:0:0:http%3a//onair15.xdevel.com%3a8672/:RADIO SABBIA
 #DESCRIPTION RADIO SABBIA
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//91.121.118.99%3a8169/stream:Radio Sange (Italië)
-#DESCRIPTION Radio Sange (Italië)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//server10.reliastream.com/proxy/glocalme?mp=/live:Radiosanremo
+#DESCRIPTION Radiosanremo
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//nr12.newradio.it/stream/8838:Radiosanremo DAB
+#DESCRIPTION Radiosanremo DAB
 #SERVICE 4097:0:2:331:0:0:0:0:0:0:http%3a//audio1.meway.tv%3a8032/;stream.nsv?1486762246654.mp3:RADIO SELENE
 #DESCRIPTION RADIO SELENE
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream2.vivafm.it%3a8000/:Radio SempreViva
@@ -639,6 +641,10 @@
 #DESCRIPTION RADIO VATICANA
 #SERVICE 4097:0:2:253:0:0:0:0:0:0:http%3a//onair18.xdevel.com%3a8018/;stream.m4a:RADIO VENERE
 #DESCRIPTION RADIO VENERE
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.streamshow.it/proxy/rveradiocheballa?mp=/stream:Radio Venezia
+#DESCRIPTION Radio Venezia
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//nr12.newradio.it/stream/8836:Radio Venezia DAB
+#DESCRIPTION Radio Venezia DAB
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wma02.fluidstream.net%3a9980/;stream/1:Radio Verona
 #DESCRIPTION Radio Verona
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream2.vivafm.it%3a9002/stream.mp3:Radio Viva FM
@@ -685,7 +691,9 @@
 #DESCRIPTION Rete Toscana Classica
 #SERVICE 4097:0:2:109:0:0:0:0:0:0:http%3a//sr9.inmystream.info%3a8006:RIN RADIO ITALIA NETWORK
 #DESCRIPTION RIN RADIO ITALIA NETWORK
-#SERVICE 1:64:5ed:0:0:0:0:0:0:0:
+#SERVICE 4097:0:2:109:0:0:0:0:0:0:https%3a//rh.fluidstream.eu/ritmo80.mp3:Ritmo 80
+#DESCRIPTION Ritmo 80
+#SERVICE 1:64:544:0:0:0:0:0:0:0:
 #DESCRIPTION ++RMC= Radio Monte Carlo, zie Monaco++
 #SERVICE 4097:0:2:355:0:0:0:0:0:0:https%3a//streamcdnb2-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S26743519/49ksH8apMKou/chunklist_b2816000.m3u8:RTL 102.5 + Plus
 #DESCRIPTION RTL 102.5 + Plus

@@ -1,26 +1,24 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:245:0:0:0:0:0:0:0:
-#DESCRIPTION ++NPO: geen goede stream url gevonden++
-#SERVICE 1:64:246:0:0:0:0:0:0:0:
+#SERVICE 1:64:223:0:0:0:0:0:0:0:
+#DESCRIPTION ++NPO: niet 100% zeker++
+#SERVICE 4097:0:1:5225:c99:3:eb0000:0:0:0:https%3a//rbtvlive.cdn.tele2portal.com/live/NPO1/NPO1.isml/.m3u8:NPO1
+#DESCRIPTION NPO1
+#SERVICE 4097:0:1:17c0:c82:3:eb0000:0:0:0:https%3a//rbtvlive.cdn.tele2portal.com/live/NPO2/NPO2.isml/.m3u8:NPO2
+#DESCRIPTION NPO2
+#SERVICE 4097:0:1:5230:c99:3:eb0000:0:0:0:https%3a//rbtvlive.cdn.tele2portal.com/live/NPO3/NPO3.isml/.m3u8:NPO3
+#DESCRIPTION NPO3
+#SERVICE 1:64:224:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-streaming.dpgmedia.net/aldag-clipstream-srt-zk7kiq36v0lq88zpv1p064/index_720.m3u8:AD.nl - Nieuwsupdate
 #DESCRIPTION AD.nl - Nieuwsupdate
 #SERVICE 4097:0:1:4ed1:c99:3:eb0000:0:0:0:https%3a//bnr-cache-cdp.triple-it.nl/studio/index.m3u8:BNR Nieuwsradio
 #DESCRIPTION BNR Nieuwsradio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/bvn/browser-HLS8/bvn.m3u8:BVN
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/bvn/browser-dash/bvn.mpd:BVN
 #DESCRIPTION BVN
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/bvn/browser-dash/bvn.mpd:BVN (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=163334&extension=ts:BVN (#)
 #DESCRIPTION BVN (#)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c51-nlziet-nl-8601.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramabenelux-nlzietnl/playlist.m3u8:BBC Drama voor NL
-#DESCRIPTION BBC Drama voor NL
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c20-nlziet-nl-10251.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbcearthbenelux-nlzietnl/playlist.m3u8:BBC Earth voor NL
-#DESCRIPTION BBC Earth voor NL
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c52-nlziet-nl-10250.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbceastendersbenelux-nlzietnl/playlist.m3u8:BBC EastEnders voor NL
-#DESCRIPTION BBC EastEnders voor NL
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c56-nlziet-nl-10249.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbclifestylebenelux-nlzietnl/playlist.m3u8:BBC Lifestyle voor NL
-#DESCRIPTION BBC Lifestyle voor NL
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c16-nlziet-nl-8602.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearbenelux-nlzietnl/playlist.m3u8:BBC TopGear voor NL
-#DESCRIPTION BBC TopGear voor NL
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=1253&extension=ts:BVN (#)
+#DESCRIPTION BVN (#)
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//m2b2.worldcast.tv%3a7443/dancetelevisionfour/2/dancetelevisionfour.m3u8:Dance TV%3a Algorhythm
 #DESCRIPTION Dance TV: Algorhythm
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8:Dance TV%3a Best of Dance TV
@@ -65,11 +63,23 @@
 #DESCRIPTION SBS6 Classics
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tv01.cdn.snkmedia.nl/tukkertv/1080p.m3u8:Tukker TV
 #DESCRIPTION Tukker TV
-#SERVICE 1:64:247:0:0:0:0:0:0:0:
+#SERVICE 1:64:225:0:0:0:0:0:0:0:
+#DESCRIPTION ++BBC voor Nederland++
+#SERVICE 4097:0:1:1d:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c51-nlziet-nl-8601.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramabenelux-nlzietnl/playlist.m3u8:BBC Drama
+#DESCRIPTION BBC Drama
+#SERVICE 4097:0:1:1c:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c52-nlziet-nl-10250.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbceastendersbenelux-nlzietnl/playlist.m3u8:BBC EastEnders
+#DESCRIPTION BBC EastEnders
+#SERVICE 4097:0:1:1a:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c20-nlziet-nl-10251.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbcearthbenelux-nlzietnl/playlist.m3u8:BBC Earth
+#DESCRIPTION BBC Earth
+#SERVICE 4097:0:1:1b:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c56-nlziet-nl-10249.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbclifestylebenelux-nlzietnl/playlist.m3u8:BBC Lifestyle
+#DESCRIPTION BBC Lifestyle
+#SERVICE 4097:0:1:1f:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c16-nlziet-nl-8602.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearbenelux-nlzietnl/playlist.m3u8:BBC Topgear
+#DESCRIPTION BBC Topgear
+#SERVICE 1:64:226:0:0:0:0:0:0:0:
 #DESCRIPTION ++via YouTube++
-#SERVICE 5002:0:1:31b:ed7d:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/QIrMmNYltkA:Spreekbuis TV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/bdHOZI9IM90:Spreekbuis TV
 #DESCRIPTION Spreekbuis TV
-#SERVICE 1:64:248:0:0:0:0:0:0:0:
+#SERVICE 1:64:227:0:0:0:0:0:0:0:
 #DESCRIPTION +++Radio Toppers+++
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-67.stream-server.nl%3a1936/RadioToppers/RadioToppers/playlist.m3u8:Radio Toppers
 #DESCRIPTION Radio Toppers
@@ -77,9 +87,9 @@
 #DESCRIPTION Magic Power Radio
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-67.stream-server.nl%3a1936/PoesjesTV/PoesjesTV/playlist.m3u8:Poesjes TV
 #DESCRIPTION Poesjes TV
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-23.stream-server.nl%3a1936/WinkRadio/WinkRadio/playlist.m3u8:Wink Radio
-#DESCRIPTION Wink Radio
-#SERVICE 1:64:249:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-67.stream-server.nl%3a1936/winktv/winktv/chunklist.m3u8:Wink Radio (Waalre)
+#DESCRIPTION Wink Radio (Waalre)
+#SERVICE 1:64:228:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL amateur-tv++
 #SERVICE 5002:0:1:0:0:31:abcd0000:0:0:0:http%3a//stream.pi6atv.com%3a8081/scoop/pi6atv-hd/playlist.m3u8  :PI6ATV HD
 #DESCRIPTION PI6ATV HD

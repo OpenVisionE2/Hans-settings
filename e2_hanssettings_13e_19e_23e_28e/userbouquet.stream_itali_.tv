@@ -1,5 +1,5 @@
 #NAME Stream Italië (IT)
-#SERVICE 1:64:47b:0:0:0:0:0:0:0:
+#SERVICE 1:64:493:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8:RAI 1
 #DESCRIPTION RAI 1
@@ -37,8 +37,6 @@
 #DESCRIPTION RAI News 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rainews/browser-dash/rainews.mpd:RAI News 24 (#)
 #DESCRIPTION RAI News 24 (#)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.raiplay.it/dirette/rainews24:Rai News24
-#DESCRIPTION Rai News24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=177574&extension=ts:RAI Premium
 #DESCRIPTION RAI Premium
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1167262&extension=ts:RAI Scuola
@@ -85,9 +83,9 @@
 #DESCRIPTION La 7
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/la7/browser-dash/la7.mpd:La 7 (#)
 #DESCRIPTION La 7 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=177614&extension=ts:La 7 Cinema
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd:La 7 Cinema
 #DESCRIPTION La 7 Cinema
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd:La 7 Cinema (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=177614&extension=ts:La 7 Cinema (#)
 #DESCRIPTION La 7 Cinema (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=177587&extension=ts:TV 8
 #DESCRIPTION TV 8
@@ -107,8 +105,10 @@
 #DESCRIPTION TG Norba 24
 #SERVICE 4097:0:1:2bac:19c8:fbff:820000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=177617&extension=ts:TV 2000
 #DESCRIPTION TV 2000
-#SERVICE 1:64:47c:0:0:0:0:0:0:0:
+#SERVICE 1:64:494:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.132.71.134%3a1935/live/cdn5/manifest.mpd:2Settanta TV
+#DESCRIPTION 2Settanta TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8:7 RadioVisione
 #DESCRIPTION 7 RadioVisione
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream10.xdevel.com/video2s976543-2104/stream/playlist.m3u8:7 Storia
@@ -129,6 +129,8 @@
 #DESCRIPTION ACI Sport TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8:Alto Adige TV
 #DESCRIPTION Alto Adige TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5db313b643fd8.streamlock.net/amatv/amatv/playlist.m3u:Ama TV
+#DESCRIPTION Ama TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58f12ffd2447a.streamlock.net/Antenna2/livestream/playlist.m3u8:Antenna 2 Bergamo
 #DESCRIPTION Antenna 2 Bergamo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/chunklist_.m3u8:Antenna 3 Veneto
@@ -139,6 +141,8 @@
 #DESCRIPTION Antenna Sud Extra
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.antennasudwebtv.it%3a9443/hls/vod92.m3u8:Antenna Sud Extra 92
 #DESCRIPTION Antenna Sud Extra 92
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/apchannel/apchannel/playlist.m3u:AP Channel
+#DESCRIPTION AP Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tsw.streamingwebtv24.it%3a1936/artenetwork/artenetwork/chunklist_.m3u8:Arte Network Orler Canale Uno
 #DESCRIPTION Arte Network Orler Canale Uno
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tsw.streamingwebtv24.it%3a1936/artepertutti/artepertutti/chunklist_.m3u8:Arte Network Orler Canale Due
@@ -151,8 +155,8 @@
 #DESCRIPTION Azzurra TV Italia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c41-rakuten-it-5445.playouts.now.amagi.tv/playlist.m3u8:BBC Drama
 #DESCRIPTION BBC Drama
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/bejoy/bejoy/playlist.m3u8:BeJoy.kids
-#DESCRIPTION BeJoy.kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/bejoy/bejoy/playlist.m3u:BeJoy.Kids
+#DESCRIPTION BeJoy.Kids
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist_dvr.m3u8:Bergamo TV
 #DESCRIPTION Bergamo TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/tracks-v1a1/mono.m3u8:Bike Channel
@@ -165,6 +169,10 @@
 #DESCRIPTION Bom Channel Canal 68
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srvx1.selftv.video/cafe/live/playlist.m3u8:Cafe TV 24
 #DESCRIPTION Cafe TV 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/calabriatv/calabriatv/playlist.m3u:Calabria TV
+#DESCRIPTION Calabria TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nrvideo1.newradio.it/calimafm/calimafm/manifest.mpd:Calima TV
+#DESCRIPTION Calima TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d7d6f47d7fc.streamlock.net/canale2/canale2/chunklist_w811855890.m3u8:Canale 2 TV Altamura
 #DESCRIPTION Canale 2 TV Altamura
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d7d6f47d7fc.streamlock.net/canale2/canale2/chunklist_w1077249051.m3u8:Canale 2 TV Puglia 
@@ -197,12 +205,16 @@
 #DESCRIPTION Cusano News 7
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8:Deejay TV
 #DESCRIPTION Deejay TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d7d6f47d7fc.streamlock.net/pierstyle/pierstyle/playlist.m3u:Deluxe 139
+#DESCRIPTION Deluxe 139
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/ditv80/ditv80/chunklist_.m3u8:Di.TV 80
 #DESCRIPTION Di.TV 80
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media2021.rtvweb.com/di_tv_92/live/chunklist_.m3u8:Di.TV 92
 #DESCRIPTION Di.TV 92
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//streaming.senecadot.com/live/flv%3atv7.sdp/chunklist_w132253248.m3u8:Digital TV 7 Benevento 
 #DESCRIPTION Digital TV 7 Benevento 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//host1.momentotv.live%3a29443/divafutura/divafutura/manifest.mpd:Divafutura
+#DESCRIPTION Divafutura
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//59d7d6f47d7fc.streamlock.net%3a1935/elivebresciatv/elivebresciatv/playlist.m3u8:Elive Brescia TV
 #DESCRIPTION Elive Brescia TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/EntellaTV/EntellaTV/playlist.m3u8:Entella TV
@@ -227,10 +239,14 @@
 #DESCRIPTION Euronews Italiano
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rst2.saiuzwebnetwork.it%3a8081/extratvlive/tracks-v1a1/mono.ts.m3u8:Extra TV
 #DESCRIPTION Extra TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/canale157/canale157/chunklist_.m3u8:Fascino TV
-#DESCRIPTION Fascino TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//diretta.arcapuglia.it%3a8080/live/fanotv/index.m3u8:Fano TV 19
 #DESCRIPTION Fano TV 19
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/canale165/canale165/manifest.mpd:Fascino TV 165
+#DESCRIPTION Fascino TV 165
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/canale168/canale168/manifest.mpd:Fascino TV 168
+#DESCRIPTION Fascino TV 168
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/canale169/canale169/manifest.mpd:Fascino TV 169
+#DESCRIPTION Fascino TV 169
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bbtv.intvstream.net%3a3988/hybrid/play.m3u8:FM TV 75
 #DESCRIPTION FM TV 75
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media2021.rtvweb.com/giovannipaolotv/web/chunklist_.m3u8:Giovanni Paolo TV
@@ -271,6 +287,8 @@
 #DESCRIPTION Kiss Kiss Napoli TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58f12ffd2447a.streamlock.net/KKTV01/livestream/playlist.m3u8:Kiss Kiss TV
 #DESCRIPTION Kiss Kiss TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//kk.fluid.stream/KKMulti/smil%3aKissKissTV.smil/playlist.m3u:Kiss Kiss TV (#)
+#DESCRIPTION Kiss Kiss TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamcdnb1-52ee6512fee4427889eba89957975fa0.msvdn.net/live/S24350460/BEj8ZmQiQ9UG/chunklist_b1128000.m3u8:L'altro Corriere TV
 #DESCRIPTION L'altro Corriere TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/chunklist_b3228000.m3u8:La C Network
@@ -287,22 +305,36 @@
 #DESCRIPTION Le Cronache Lucane TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8:Lira TV
 #DESCRIPTION Lira TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8:Lombardia TV
+#DESCRIPTION Lombardia TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/fascinodiego/fascinodiego/playlist.m3u:Lotto Diego
+#DESCRIPTION Lotto Diego
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/fascinocorrado/fascinocorrado/playlist.m3u:Lotto Corrado
+#DESCRIPTION Lotto Corrado
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/fascinoroberto/fascinoroberto/playlist.m3u:Lotto Roberto
+#DESCRIPTION Lotto Roberto
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/lunatv/lunatv/playlist.m3u8:Luna TV
 #DESCRIPTION Luna TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8:M2o TV
 #DESCRIPTION M2o TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srvx1.selftv.video/dmchannel/live/playlist.m3u8:Made in BO
 #DESCRIPTION Made in BO
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/playlist.m3u:Man-ga
+#DESCRIPTION Man-ga
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5a1178b42cc03.streamlock.net/goldsat/goldsat/chunklist_.m3u8:MarcoPolo Travel TV
 #DESCRIPTION MarcoPolo Travel TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1601580044.rsc.cdn77.org/live/_jcn_/amls%3aCHANNEL_2/chunklist.m3u8:Maria+Visión Italia
 #DESCRIPTION Maria+Visión Italia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8:Mediasud
+#DESCRIPTION Mediasud
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playlist.m3u8:Medjugorje Italia TV
 #DESCRIPTION Medjugorje Italia TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/servizio01/servizio01/chunklist_.m3u8:Motori TV
 #DESCRIPTION Motori TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5db313b643fd8.streamlock.net%3a443/MinformoTV/MinformoTV/playlist.m3u8:Minformo TV
 #DESCRIPTION Minformo TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/nexumchannel/nexumchannel/manifest.mpd:Nexum Channel
+#DESCRIPTION Nexum Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//customer-gllhkkbamkskdl1p.cloudflarestream.com/eyJhbGciOiJSUzI1NiIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIn0.eyJzdWIiOiI3OWQwZTNjM2FhOGZjN2Q0NmIwYmYzYTVmZjZmODEyYyIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIiwiZXhwIjoxNzU1MzQ5MzA2LCJhY2Nlc3NSdWxlcyI6W3sidHlwZSI6ImlwLmdlb2lwLmNvdW50cnkiLCJhY3Rpb24iOiJibG9jayIsImNvdW50cnkiOlsiUlUiLCJCWSJdfV19.Vj5FR0B0RjhkNkwJGIM8CTgC-L-kZyWeGIscQfSCXlL3CNqMrC7TUtkoS7dztOhFqcfTUq5Ov_kCTWBaN4lYOHJdmyQ1PvJVKB7ZwDTYplif2wxPS5ER08FhNiBtEi8Fe1UMlQaiamKjUTs1pQZlFowm-PdI0U9RS6zsWGBbtzeAx5gS8fbg_33jSf7Ps0wQOjwq-rsH5U9mRb_6DYjORPU0Kv9E7NN2nzzAKusluaNcjTFX74uSE9omb6gPlQga8kkivwoSvBKJ5-y__jcAun6FJ-lWp-jX7WBy23azD72K5aGLD2A73cc4Er5R2oz9wOOZGG6cjpkaNTPOLApDAg/manifest/stream_taf19d6a53dad2d0afa47ddef70a8e54c_r1163407324.m3u8:Noi TV
 #DESCRIPTION Noi TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=2380:Novelisima
@@ -331,10 +363,16 @@
 #DESCRIPTION Parole di Vita
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//diretta.arcapuglia.it%3a8080/live/partenope/index.m3u8:Partenope TV
 #DESCRIPTION Partenope TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbbtv.momentotv.live%3a29935/petmania/petmania/manifest.mpd:Pet Mania TV
+#DESCRIPTION Pet Mania TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5db313b643fd8.streamlock.net/piuvallitv/piuvallitv/chunklist_.m3u8:Più Valli TV
 #DESCRIPTION Più Valli TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/pianetasalutetv/pianetasalutetv/playlist.m3u:Pianeta Salute TV
+#DESCRIPTION Pianeta Salute TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/primafree/primafree/playlist.m3u8:PrimaFree Canale 170
 #DESCRIPTION PrimaFree Canale 170
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/primatv/primatv/playlist.m3u:Prima TV
+#DESCRIPTION Prima TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5db313b643fd8.streamlock.net/PrimaTV/PrimaTV/playlist.m3u8:Prima TV Sicilia
 #DESCRIPTION Prima TV Sicilia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/primantenna14/primantenna14/chunklist_.m3u8:Primantenna
@@ -345,8 +383,16 @@
 #DESCRIPTION Promovideo TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.mariatvcdn.com/dialogos/171e41deedf405f10c7dd6311387fb43.sdp/playlist.m3u8:Quarto Canale Flegreo
 #DESCRIPTION Quarto Canale Flegreo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5db313b643fd8.streamlock.net/quants/quants/playlist.m3u:Quants
+#DESCRIPTION Quants
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//load-balancer.azotosolutions.com/cdnedge6/smil%3alive6.smil/playlist.m3u:Qui Radio Londra TV
+#DESCRIPTION Qui Radio Londra TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8:QVC Italia
 #DESCRIPTION QVC Italia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live02-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/index.m3u8:R101 TV
+#DESCRIPTION R101 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live02-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8:Radio 105 TV
+#DESCRIPTION Radio 105 TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8:Radio TV 51
 #DESCRIPTION Radio TV 51
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8:Radio Birikina TV
@@ -375,12 +421,16 @@
 #DESCRIPTION Radio Kiss Kiss TV
 #SERVICE 4097:0:1:43:2:6:0:0:0:0:https%3a//5926fc9c7c5b2.streamlock.net/9044/9044/playlist.m3u8:Radio Mambo TV
 #DESCRIPTION Radio Mambo TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//648026e87a75e.streamlock.net/radiomargherita/radiomargherita/manifest.mpd:Radio Margherita Più
+#DESCRIPTION Radio Margherita Più
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8:Radio Norba TV
 #DESCRIPTION Radio Norba TV
 #SERVICE 4097:0:1:41:0:0:0:0:0:0:https%3a//56b50ada2d659.streamlock.net/RN1TV/livestream/playlist.m3u8:Radio Number One TV
 #DESCRIPTION Radio Number One TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/playlist.m3u8:Radio Piter Pan TV
 #DESCRIPTION Radio Piter Pan TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_abeef7b0903711eeb7c62796fbf7de76/index.m3u8:Radio Radio TV
+#DESCRIPTION Radio Radio TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radioromanews.m3u8:Radio Roma News
 #DESCRIPTION Radio Roma News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/radioromatv.m3u8:Radio Roma Television
@@ -395,6 +445,8 @@
 #DESCRIPTION Radio Zeta TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index_7.m3u8:RDS Social TV
 #DESCRIPTION RDS Social TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn10.streamshow.it/cloud-reggiotv/reggiotv/manifest.mpd:Reggio TV
+#DESCRIPTION Reggio TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/reitv/reitv/chunklist_.m3u8:Rei TV
 #DESCRIPTION Rei TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8:Reggio TV
@@ -409,6 +461,8 @@
 #DESCRIPTION Rete Biella TV 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8:Rete Oro
 #DESCRIPTION Rete Oro
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5a1178b42cc03.streamlock.net/ReteoroRoma/ReteoroRoma/manifest.mpd:Rete Oro (#)
+#DESCRIPTION Rete Oro (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//57068da1deb21.streamlock.net/retetvitalia/retetvitalia/playlist.m3u8:Rete TV Italia
 #DESCRIPTION Rete TV Italia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wms.shared.streamshow.it/reteveneta/reteveneta/chunklist_w1047580983.m3u8:Rete Veneta
@@ -471,8 +525,12 @@
 #DESCRIPTION San Marino RTV HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8:Sardegna 1
 #DESCRIPTION Sardegna 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream10.xdevel.com/video22s975955-2186/stream/playlist.m3u8:Satisfaction TV
+#DESCRIPTION Satisfaction TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream10.xdevel.com/video0s977089-1792/stream/chunks.m3u8:Sesta Rete
 #DESCRIPTION Sesta Rete
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//host1.momentotv.live%3a29443/sexfactor/sexfactor/manifest.mpd:Sex Factor TV
+#DESCRIPTION Sex Factor TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.castr.com/654ecc8bcbe98f2b27b59b8d/live_0f7890a0802c11eea3d485758bf6a333/tracks-v1/index.fmp4.m3u8?start=15:Sharing TV
 #DESCRIPTION Sharing TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/sicilia24/sicilia24/chunklist_.m3u8:Sicilia 242
@@ -481,10 +539,22 @@
 #DESCRIPTION Siena TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/playlist.m3u8:Sportitalia
 #DESCRIPTION Sportitalia
+#SERVICE 4097:0:19:50:7918:217c:5a0000:0:0:0:https%3a//amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8:Sportitalia (#)
+#DESCRIPTION Sportitalia (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//di-kzbhv8pw.vo.lswcdn.net/sportitalia/smil%3asilive24.smil/playlist.m3u8:Sportitalia Live
 #DESCRIPTION Sportitalia Live
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8:Sportitalia Solocalcio
 #DESCRIPTION Sportitalia Solocalcio
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8:SuperTennis
+#DESCRIPTION SuperTennis
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//421b2081187a40368f24e4fb496bfc26.msvdn.net/channel4/manifest.mpd:SuperTennis Plus - Feed 4
+#DESCRIPTION SuperTennis Plus - Feed 4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd:SuperTennis Plus - Feed 1
+#DESCRIPTION SuperTennis Plus - Feed 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//421b2081187a40368f24e4fb496bfc26.msvdn.net/channel2/manifest.mpd:SuperTennis Plus - Feed 2
+#DESCRIPTION SuperTennis Plus - Feed 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//421b2081187a40368f24e4fb496bfc26.msvdn.net/channel3/manifest.mpd:SuperTennis Plus - Feed 3
+#DESCRIPTION SuperTennis Plus - Feed 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8:ST Europe Channel
 #DESCRIPTION ST Europe Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream1.aswifi.it/stereo5/live/index.m3u8:Stereo 5 TV
@@ -495,12 +565,16 @@
 #DESCRIPTION Studio 100
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8:Super!
 #DESCRIPTION Super!
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/supersixnew/supersixnew/manifest.mpd:SuperSix
+#DESCRIPTION SuperSix
 #SERVICE 4097:0:1:73:0:0:0:0:0:0:https%3a//59d39900ebfb8.streamlock.net/SuperJtv/SuperJtv/chunklist_.m3u8:Super J
 #DESCRIPTION Super J
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8:Super Six Lombardia
 #DESCRIPTION Super Six Lombardia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wms.shared.streamshow.it/supertv/mp4%3asupertv/playlist.m3u8:Super TV Brescia
 #DESCRIPTION Super TV Brescia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn12.streamshow.it/hbbtv-supertv/supertv/manifest.mpd:Super TV Canal 787
+#DESCRIPTION Super TV Canal 787
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5a1178b42cc03.streamlock.net/t9/t9/chunklist_.m3u8:T9
 #DESCRIPTION T9
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/taurianovatv/taurianovatv/playlist.m3u8:Taurianova TV
@@ -561,6 +635,12 @@
 #DESCRIPTION Tele TusciaSabina 2000
 #SERVICE 4097:0:1:109:0:0:0:0:0:0:http%3a//uk4.streamingpulse.com%3a1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8:Teleabruzzo TV 
 #DESCRIPTION Teleabruzzo TV 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/teleambiente3/teleambiente3/playlist.m3u:TeleAmbiente
+#DESCRIPTION TeleAmbiente
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d7d6f47d7fc.streamlock.net/telefoggia/telefoggia/playlist.m3u:TeleFoggia
+#DESCRIPTION TeleFoggia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn13.streamshow.it/hbbtv-teleleonessa/teleleonessa/playlist.m3u:Teleleonessa
+#DESCRIPTION Teleleonessa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream12.xdevel.com/video2s976570-2526/stream/chunks_dvr.m3u8:Telenorba
 #DESCRIPTION Telenorba
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/telenord/telenord/chunklist_.m3u8:Telenord
@@ -579,6 +659,10 @@
 #DESCRIPTION TelePace 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8:TelePace Trento
 #DESCRIPTION TelePace Trento
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srvx1.selftv.video/teleregionetoscana/live/manifest.mpd:Teleregione Toscana
+#DESCRIPTION Teleregione Toscana
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/manifest.mpd:Telespazio TV
+#DESCRIPTION Telespazio TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//televisa-televisa-1-it.samsung.wurl.tv/playlist.m3u8:Televisa Telenovelas
 #DESCRIPTION Televisa Telenovelas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetr.teleromagna.it/mia/live/playlist.m3u8:TR Sport
@@ -613,10 +697,16 @@
 #DESCRIPTION Umbria TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8:Uninettuno University TV
 #DESCRIPTION Uninettuno University TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//69d6d7eab63943c4810c4098feaa0d9c.msvdn.net/live/S76542633/a8BwWIUxagF6/manifest.mpd:Urania
+#DESCRIPTION Urania
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/636a4173e34fd50007534542/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY:VH1+ Rock Italy
 #DESCRIPTION VH1+ Rock Italy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/videolina/videolina_live/videolina_live/video.m3u8:Videolina 
 #DESCRIPTION Videolina 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream3.ondaweb.tv/hls/villagetv/index.m3u:Village TV
+#DESCRIPTION Village TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live02-col.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8:Virgin Radio TV
+#DESCRIPTION Virgin Radio TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wms.shared.streamshow.it%3a1935/visualradio/visualradio/live.m3u8:Visual Radio
 #DESCRIPTION Visual Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//5db313b643fd8.streamlock.net%3a1935/HITTV/HITTV/chunklist.m3u8:Vuemme

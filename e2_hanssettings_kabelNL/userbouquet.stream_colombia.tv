@@ -1,5 +1,5 @@
 #NAME Stream Colombia (CO)
-#SERVICE 1:64:2dd:0:0:0:0:0:0:0:
+#SERVICE 1:64:2fc:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tls-cl.cdnz.cl/canal21tv/live/playlist.m3u8:Canal 1
 #DESCRIPTION Canal 1
@@ -57,6 +57,8 @@
 #DESCRIPTION Net TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//138.186.23.7%3a22281/nstv/nstv/playlist.m3u8:NSTV
 #DESCRIPTION NSTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sistemastr.tropicalmoonmedia.com/live/2C7CA6CECC9B8F8C3A07315FDA110936/21.m3u8:NSTV (#)
+#DESCRIPTION NSTV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamunoapp.com%3a3255/live/palmartvlive.m3u8:Palmar TV
 #DESCRIPTION Palmar TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8:RCN Más
@@ -75,10 +77,12 @@
 #DESCRIPTION Telepacifico
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//inliveserver.com%3a1936/18506/18506/playlist.m3u8:Telerumba
 #DESCRIPTION Telerumba
-#SERVICE 1:64:2de:0:0:0:0:0:0:0:
+#SERVICE 1:64:2fd:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming5.globalhostla.com/rtplive/atntelevision/playlist.m3u8:ATN Televisión
 #DESCRIPTION ATN Televisión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s.emisoras.tv%3a8081/bendicionchannel/index.m3u8:Bendicion Channel
+#DESCRIPTION Bendicion Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ab772334c39c.streamlock.net/live-calitv/calitv1/playlist.m3u8:Canal Cali TV
 #DESCRIPTION Canal Cali TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.amelbasoluciones.co%3a8081/calimalive/index.m3u8:Canal Calima
@@ -99,6 +103,8 @@
 #DESCRIPTION CMB Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videohls2.cosmovision.tv/hls/sd.m3u8:Cosmovision
 #DESCRIPTION Cosmovision
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.199.6.1%3a17001/play/a04u/index.m3u8:FX Latin America
+#DESCRIPTION FX Latin America
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/abbftuhxxs/abbftuhxxs.m3u8:Josué TV
 #DESCRIPTION Josué TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtv.fullhd-streaming.com%3a19360/heliconiaradiotv/heliconiaradiotv.m3u8:Heliconia Radio TV
@@ -119,6 +125,8 @@
 #DESCRIPTION Más TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.arnoproducciones.com/hls/norte.m3u8:Mas Norte TV
 #DESCRIPTION Mas Norte TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.199.6.1%3a17001/play/a0pb/index.m3u8:Nick Jr. Latin America
+#DESCRIPTION Nick Jr. Latin America
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5e85d90130e77.streamlock.net/6020/6020/playlist.m3u8:Oasis Channel
 #DESCRIPTION Oasis Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8:Parranda Vallenata

@@ -1,5 +1,5 @@
 #NAME Stream Spaans (ES)
-#SERVICE 1:64:603:0:0:0:0:0:0:0:
+#SERVICE 1:64:55a:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rne1/main/mp3/high:RNE Radio Nacional
 #DESCRIPTION RNE Radio Nacional
@@ -25,11 +25,11 @@
 #DESCRIPTION RNE Exterior
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_re_main.m3u8:RNE Exterior
 #DESCRIPTION RNE Exterior
-#SERVICE 1:64:604:0:0:0:0:0:0:0:
+#SERVICE 1:64:55b:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL-talig - Canarische Eilanden en costas/NL++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//panel.amediastream.eu%3a8500/live:Holland FM
 #DESCRIPTION Holland FM
-#SERVICE 1:64:605:0:0:0:0:0:0:0:
+#SERVICE 1:64:55c:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL-talig - Canarische Eilanden en costas/BE++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//opsinjoor2.live-streams.nl/:Mooi Radio Tenerife
 #DESCRIPTION Mooi Radio Tenerife
@@ -37,15 +37,19 @@
 #DESCRIPTION Radio 7 Costa Blanca
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.wradio.es%3a9000/;?type=http&nocache=1239603:Wradio (Westhoek%3a Ieper, Roeselare en Zonnebeke + Costa Blanca)
 #DESCRIPTION Wradio (Westhoek: Ieper, Roeselare en Zonnebeke + Costa Blanca)
-#SERVICE 1:64:606:0:0:0:0:0:0:0:
+#SERVICE 1:64:55d:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL-talig Ibiza++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-15.aiir.com/a85tlgriuzyuv:SAM
 #DESCRIPTION SAM
-#SERVICE 1:64:607:0:0:0:0:0:0:0:
+#SERVICE 1:64:55e:0:0:0:0:0:0:0:
 #DESCRIPTION ++België voor Tenerife++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.fmgoud.be/fm-goud-tenerife:FM Goud Tenerife
 #DESCRIPTION FM Goud Tenerife
-#SERVICE 1:64:608:0:0:0:0:0:0:0:
+#SERVICE 1:64:55f:0:0:0:0:0:0:0:
+#DESCRIPTION ++Duitstalig voor Mallorca++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.malle.radio/malle.radio.mp3:Malle.Radio
+#DESCRIPTION Malle.Radio
+#SERVICE 1:64:560:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.10.10.225/zaragoza/live-web/chunklist_b128000.m3u8?GKID=dc544ece277711e9809800163e914f69:Aragón Radio
 #DESCRIPTION Aragón Radio
@@ -113,6 +117,8 @@
 #DESCRIPTION Holland FM (Gran Canaria)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radioserver1.us%3a7088/;:I Love FM
 #DESCRIPTION I Love FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.ib3radio.com/ib3radio.mp3:IB3 Ràdio (Balearen)
+#DESCRIPTION IB3 Ràdio (Balearen)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nodo05-cloud01.streaming-pro.com%3a8025/ibizaglobalradio.mp3:Ibiza Global Radio
 #DESCRIPTION Ibiza Global Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listenssl.ibizaglobalradio.com%3a8024/stream:Ibiza Global Radio
@@ -131,6 +137,8 @@
 #DESCRIPTION La Veu
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//usa10.fastcast4u.com/latineoradio:Latineo Radio (Sevilla)
 #DESCRIPTION Latineo Radio (Sevilla)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-low.mp3:Libertad
+#DESCRIPTION Libertad
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//likeradiostream.com/likeonespain:Like One Spain
 #DESCRIPTION Like One Spain
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//audio-online.net%3a2300/live:Loca FM

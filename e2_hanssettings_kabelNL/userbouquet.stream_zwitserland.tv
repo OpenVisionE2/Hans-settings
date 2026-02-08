@@ -1,5 +1,5 @@
 #NAME Stream Zwitserland (CH)
-#SERVICE 1:64:39e:0:0:0:0:0:0:0:
+#SERVICE 1:64:3b8:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2454&extension=ts:RSI La 1
 #DESCRIPTION RSI La 1
@@ -23,6 +23,8 @@
 #DESCRIPTION SRF 1 (#)
 #SERVICE 4097:0:1:4332:300c:13e:820000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2448&extension=ts:SRF 2
 #DESCRIPTION SRF 2
+#SERVICE 4097:0:1:426a:2db4:13e:820000:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8:SRF 2 (#)
+#DESCRIPTION SRF 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2446&extension=ts:SRF Info
 #DESCRIPTION SRF Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srfinfo/browser-dash/srfinfo.mpd:SRF Info (#)
@@ -37,32 +39,56 @@
 #DESCRIPTION 6+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2436&extension=ts:6+ (#)
 #DESCRIPTION 6+ (#)
+#SERVICE 4097:0:1:5377:4592:ec:0:0:0:0:http%3a//viamotionhsi.netplus.ch/live/eds/comedycentralnick/browser-HLS8/comedycentralnick.m3u8:7+ / Nick Schweiz
+#DESCRIPTION 7+ / Nick Schweiz
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2435&extension=ts:6ter
 #DESCRIPTION 6ter
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8:Canal 9 en Français
+#DESCRIPTION Canal 9 en Français
+#SERVICE 4097:0:1:ff57:a9e8:ec:0:0:0:0:https%3a//edge14.vedge.infomaniak.com/livecast/ik%3alivesd2/manifest.m3u8:Kanal 9
+#DESCRIPTION Kanal 9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2430&extension=ts:W9
+#DESCRIPTION W9
+#SERVICE 4097:0:1:67:3264:13e:820000:0:0:0:http%3a//viamotionhsi.netplus.ch/live/eds/tv24/browser-HLS8/tv24.m3u8:TV 24
+#DESCRIPTION TV 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/bluezoomfr/browser-HLS8/bluezoomfr.m3u8:Blue Zoom F
 #DESCRIPTION Blue Zoom F
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge13.vedge.infomaniak.com/livecast/ik%3aevent/manifest.m3u8:Carac 1
 #DESCRIPTION Carac 1
+#SERVICE 4097:0:1:f44:d864:ec:0:0:0:0:https%3a//rougetv.vedge.infomaniak.com/livecast/rougetv/playlist.m3u8:Carac 1 (#)
+#DESCRIPTION Carac 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//onefmhd.vedge.infomaniak.com/livecast/ik%3aonefmhd/manifest.m3u8:Carac 2
 #DESCRIPTION Carac 2
+#SERVICE 4097:0:1:bab6:8207:ec:0:0:0:0:https%3a//edge14.vedge.infomaniak.com/livecast/ik%3aonefmmd/manifest.m3u8:Carac 2 (#)
+#DESCRIPTION Carac 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lfmhd.vedge.infomaniak.com/livecast/lfmhd/master.m3u8:Carac 3
 #DESCRIPTION Carac 3
+#SERVICE 4097:0:1:285e:88fe:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//edge14.vedge.infomaniak.com/livecast/ik%3alfmmd/manifest.m3u8:Carac 3 (#)
+#DESCRIPTION Carac 3 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge17.vedge.infomaniak.com/livecast/ik%3acompack_media_1/playlist.m3u8:Carac 4
 #DESCRIPTION Carac 4
+#SERVICE 4097:0:1:ed03:18fb:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//edge18.vedge.infomaniak.com/livecast/ik%3acompack_media_1/manifest.m3u8?:Carac 4 (#)
+#DESCRIPTION Carac 4 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/teleswizz/browser-dash/teleswizz.mpd:Carac 5
 #DESCRIPTION Carac 5
+#SERVICE 4097:0:1:22b8:1:aa:5a0000:0:0:0:http%3a//viamotionhsi.netplus.ch/live/eds/teleswizz/browser-HLS8/teleswizz.m3u8:Carac 5 (#)
+#DESCRIPTION Carac 5 (#)
+#SERVICE 4097:0:1:2d8:c52:ec:0:0:0:0:https%3a//latele2.vedge.infomaniak.com/livecast/ik%3alatele2/manifest.m3u8:La Télé
+#DESCRIPTION La Télé
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.meteonews.net/hls/stream.m3u8:Meteonews
 #DESCRIPTION Meteonews
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_xias5bqq/format/applehttp/protocol/https/a.m3u8:Tele 1
 #DESCRIPTION Tele 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_ljzy3evp/format/applehttp/protocol/https/a.m3u8:Tele M1
+#DESCRIPTION Tele M1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livevideo.infomaniak.com/streaming/livecast/tvm3/playlist.m3u8:TVM 3
 #DESCRIPTION TVM 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8:Canal 9 en Français
-#DESCRIPTION Canal 9 en Français
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2430&extension=ts:W9
-#DESCRIPTION W9
-#SERVICE 1:64:39f:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:fe12:7533:ec:0:0:0:0:https%3a//edge12.vedge.infomaniak.com/livecast/ik%3atvm3/manifest.m3u8:TVM 3 (#)
+#DESCRIPTION TVM 3 (#)
+#SERVICE 1:64:3b9:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
+#SERVICE 5002:0:1:4234:160:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/5ad84e6a-299b-11ec-b414-948e0b8da07d/0/master.m3u8?uid={PSID}&optout={TARGETOPT}&country=DE&vendor=samsung&ads%3aapp_domain={APP_DOMAIN}&ads%3aapp_name={APP_NAME}&coppa=1&ads%3atcf={TC_STRING}:Bergblick Free
+#DESCRIPTION Bergblick Free
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canalalpha.vedge.infomaniak.com/livecast/smil%3acanalalpha.smil/manifest.m3u8:Canal Alpha
 #DESCRIPTION Canal Alpha
 #SERVICE 4097:0:1:19:0:0:0:0:0:0:http%3a//canalalphaju.vedge.infomaniak.com/livecast/canalalphaju/playlist.m3u8:Canal Alpha Jura
@@ -73,10 +99,16 @@
 #DESCRIPTION Diaspora Channel
 #SERVICE 4097:0:1:19:0:0:0:0:0:0:https%3a//bild-und-ton.stream/die-neue-zeit-tv-live/smil%3adnz-de.smil/playlist.m3u8:Die Neue Zeit TV
 #DESCRIPTION Die Neue Zeit TV
+#SERVICE 4097:0:1:aa26:84d6:ec:0:0:0:0:https%3a//cdn.katapy.io/cache/stream/katapytv/dieu/playlist.m3u8:Dieu TV
+#DESCRIPTION Dieu TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//everest.pa-hosting.de%3a3591/live/joseflive.m3u8:KIT-TV
 #DESCRIPTION KIT-TV
+#SERVICE 4097:0:1:b1c3:9091:ec:0:0:0:0:http%3a//viamotionhsi.netplus.ch/live/eds/nrtv/browser-HLS8/nrtv.m3u8:Nyon Région Télévision
+#DESCRIPTION Nyon Région Télévision
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/nrtv/browser-HLS8/nrtv.m3u8:NRTV
 #DESCRIPTION NRTV
+#SERVICE 4097:0:1:dda7:c62e:ec:0:0:0:0:https%3a//h030.video-stream-hosting.de/quantisana-live/_definst_/smil%3alivestream.smil/playlist.m3u8:QS24
+#DESCRIPTION QS24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pmcrohls.wns.live/hls/stream.m3u8:PMC Royale
 #DESCRIPTION PMC Royale
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vstream-cdn.ch/hls/radio3i.m3u8:Radio 3i
@@ -87,21 +119,29 @@
 #DESCRIPTION RTV Islam 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/startv/browser-HLS8/startv.m3u8:Star TV
 #DESCRIPTION Star TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_ljzy3evp/format/applehttp/protocol/https/a.m3u8:Tele M1
-#DESCRIPTION Tele M1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_obr1n222/protocol/https/format/applehttp/flavorIds/1_ilmyd94i,1_ndclh5za,1_y4atcpo4/a.m3u8:TeleBarn
 #DESCRIPTION TeleBarn
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/telebaern/browser-HLS8/telebaern.m3u8:TeleBarn (#)
 #DESCRIPTION TeleBarn (#)
+#SERVICE 4097:0:1:d30d:a9a6:ec:0:0:0:0:https%3a//tb-simplex-cdn-live.akamaized.net/smsla-o-1080-720-360/ngrp%3asimplex-live-srt-49166.stream_all/playlist.m3u8:TeleBasel
+#DESCRIPTION TeleBasel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge20.vedge.infomaniak.com/livecast/ik%3atelebielinguech/manifest.m3u8:TeleBielingue
 #DESCRIPTION TeleBielingue
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/telebielingue/browser-HLS8/telebielingue.m3u8:TeleBielingue (#)
 #DESCRIPTION TeleBielingue (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vstream-cdn.ch/hls/teleticino.m3u8:TeleTicino
 #DESCRIPTION TeleTicino
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_se36k3uk/protocol/https/format/applehttp/flavorIds/1_i4zc9zv3,1_2vzxm8zl,1_yjohpwzj/a.m3u8:TeleZuri
-#DESCRIPTION TeleZuri
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_se36k3uk/protocol/https/format/applehttp/flavorIds/1_i4zc9zv3,1_2vzxm8zl,1_yjohpwzj/a.m3u8:TeleZüri
+#DESCRIPTION TeleZüri
+#SERVICE 5002:0:1:5cbb:779:ec:0:0:0:0:https%3a//cflive.kaltura.com/env/d.live.nvp1/live/hls/p/1719221/e/1_se36k3uk/tl/main/st/0/t/VhYG1bBAxmL8o2oDQj_gPg/index-s32.m3u8:TeleZüri (#)
+#DESCRIPTION TeleZüri (#)
+#SERVICE 4097:0:1:c07:5808:ec:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8:TV Ostschweiz
+#DESCRIPTION TV Ostschweiz
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp-vm.fidion.de/live/tvrt.m3u8:TV Rheintal
 #DESCRIPTION TV Rheintal
+#SERVICE 5002:0:1:ba4d:d92:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//rtmp-vm.fidion.de/live/tvrt.m3u8:TV Rheintal (#)
+#DESCRIPTION TV Rheintal (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8:TVO
 #DESCRIPTION TVO
+#SERVICE 4097:0:1:a9a6:a199:ec:0:0:0:0:http%3a//viamotionhsi.netplus.ch/live/eds/valtv/browser-HLS8/valtv.m3u8:Val TV - Vallée de Joux
+#DESCRIPTION Val TV - Vallée de Joux

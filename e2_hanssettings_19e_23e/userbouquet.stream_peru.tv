@@ -1,5 +1,5 @@
 #NAME Stream Peru (PE)
-#SERVICE 1:64:3ff:0:0:0:0:0:0:0:
+#SERVICE 1:64:416:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamtv.onliv3.online%3a1936/karibtv/karibtv/playlist.m3u8:TV One Peru
 #DESCRIPTION TV One Peru
@@ -21,13 +21,15 @@
 #DESCRIPTION TV Peru Noticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnhd.iblups.com/hls/ee2450c81e554f4cae0e6292106993c27.m3u8:TV Peru Internacional
 #DESCRIPTION TV Peru Internacional
-#SERVICE 1:64:400:0:0:0:0:0:0:0:
+#SERVICE 1:64:417:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudpro.servidoresdestream.com%3a8081/8010/index.m3u8:Antena SUR
 #DESCRIPTION Antena SUR
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video2.lhdserver.es/asiritv/live.m3u8:Asiri
 #DESCRIPTION Asiri
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2qsan2ut81n2k.cloudfront.net/live/77eece7f-8de5-4406-9f7e-7be16d81f2ce/medialist_15609871089997455276_hls.m3u8:ATV+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2qsan2ut81n2k.cloudfront.net/live/25046411-8673-4dec-8ae8-5b41984f34e1/ts%3aabr.m3u8:ATV
+#DESCRIPTION ATV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2qsan2ut81n2k.cloudfront.net/live/77eece7f-8de5-4406-9f7e-7be16d81f2ce/ts%3aabr.m3u8:ATV+
 #DESCRIPTION ATV+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2qsan2ut81n2k.cloudfront.net/live/1dedd057-0bc1-44a7-a747-bd52e12166b3/medialist_15609871089997455276_hls.m3u8:ATV Sur
 #DESCRIPTION ATV Sur
@@ -55,6 +57,8 @@
 #DESCRIPTION CR Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.opencaster.com/resources/hls_stream/cultura24.m3u8:Cultura 24 TV
 #DESCRIPTION Cultura 24 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ecoperu.tv/ECOTV/tracks-v1a1/mono.m3u8:ECO Television
+#DESCRIPTION ECO Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8:Exitosa
 #DESCRIPTION Exitosa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.opencaster.com/resources/hls_stream/hipodromojcp2.m3u8:Hipódromo de Monterrico

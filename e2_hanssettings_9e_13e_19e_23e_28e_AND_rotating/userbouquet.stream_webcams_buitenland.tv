@@ -1,21 +1,171 @@
 #NAME Stream webcams buitenland
-#SERVICE 1:64:279:0:0:0:0:0:0:0:
+#SERVICE 1:64:257:0:0:0:0:0:0:0:
 #DESCRIPTION ++België++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//livecam.brucity.be/LiveBrusselsWebcams/streams/fDdnnEmqOn6Kyy3E1701416388577.m3u8:Brussel - de Brouckèreplein - dak Hôtel Continental
 #DESCRIPTION Brussel - de Brouckèreplein - dak Hôtel Continental
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//livecam.brucity.be/LiveBrusselsWebcams/streams/vTm9wYDlwkAEO8mH1746783018793.m3u8:Brussel - Grote Markt
 #DESCRIPTION Brussel - Grote Markt
-#SERVICE 1:64:27a:0:0:0:0:0:0:0:
+#SERVICE 1:64:258:0:0:0:0:0:0:0:
+#DESCRIPTION ++verkeerscamera's Vlaanderen++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W9085_A11_ROSKAMBRUG_152.9_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:A11 - Roskambrug
+#DESCRIPTION A11 - Roskambrug
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_K_O5027_A11_ZELZATETNL__103.7_A.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:A11 - Zelzatetunnel
+#DESCRIPTION A11 - Zelzatetunnel
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_1__A0086_A12_ANTWERPEN-HAVEN_45.1__2.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:A12 - Antwerpen Haven --> NL
+#DESCRIPTION A12 - Antwerpen Haven --> NL
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A0439_A12_PUURS_19.6_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:A12 - Puurs
+#DESCRIPTION A12 - Puurs
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS86_W8828_A19_MOORSELE_3.6.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:A19 - Moorsele
+#DESCRIPTION A19 - Moorsele
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS28_O4777_A14_DE_PINTE_45.0_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E17 - De Pinte
+#DESCRIPTION E17 - De Pinte
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS27_O4623_A14_DESTELBERGEN_59.5_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E17 - Destelbergen
+#DESCRIPTION E17 - Destelbergen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS85_W8373_A14_KORTRIJK-OOST_12.6_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E17 - Kortrijk-Oost
+#DESCRIPTION E17 - Kortrijk-Oost
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_O4597_A14_P-KRUIBEKE_94.6.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E17 - Parking Kruibeke
+#DESCRIPTION E17 - Parking Kruibeke
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W8423_A14_MOESKROEN_1.1_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E17 - Rekkem
+#DESCRIPTION E17 - Rekkem
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_O4603_A14_ST-NIKLAAS-CENTRUM_85.2_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E17 - Sint-Niklaas
+#DESCRIPTION E17 - Sint-Niklaas
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W8303_A14_WAREGEM_22.8_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E17 - Waregem
+#DESCRIPTION E17 - Waregem
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A3310_A14_ZWIJNDRECHT_98.3_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E17 - Zwijndrecht
+#DESCRIPTION E17 - Zwijndrecht
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W8800_A17_AALBEKE_23.9_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E17/E403 - Aalbeke
+#DESCRIPTION E17/E403 - Aalbeke
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_2_A0118_R1_ANTWERPEN-NOORD_0.3__1.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E19 - Antwerpen-Noord --> NL
+#DESCRIPTION E19 - Antwerpen-Noord --> NL
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_N__A0227_A1_KLEINE_BAREEL_47.8__A.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E19 - Kleine Bareel --> Antwerpen
+#DESCRIPTION E19 - Kleine Bareel --> Antwerpen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A0891_A1_LOENHOUT__67.9_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E19 - Loenhout
+#DESCRIPTION E19 - Loenhout
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A0775_MECHELEN-NOORD_16.9_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E19 - Mechelen
+#DESCRIPTION E19 - Mechelen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS74_V6141_A1_VILVOORDE-CARGO_1.3_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E19 - Vilvoorde
+#DESCRIPTION E19 - Vilvoorde
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_B__A0189_A1_WILRIJK_32.0__A.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E19 - Wilrijk --> Antwerpen
+#DESCRIPTION E19 - Wilrijk --> Antwerpen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A__A0159_A13_ANTWERPEN-OOST_1.7__H.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E313 - Antwerpen-Oost --> Ranst
+#DESCRIPTION E313 - Antwerpen-Oost --> Ranst
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEBL2096A13BERINGEN575PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E313 - Beringen
+#DESCRIPTION E313 - Beringen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A0899_A13_GEEL-WEST_35.9_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E313 - Geel-West
+#DESCRIPTION E313 - Geel-West
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_H__A0174_A13_RANST_8.7__A.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E313 - Ranst --> Antwerpen
+#DESCRIPTION E313 - Ranst --> Antwerpen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A0449_A13_3.6_X_R11_1.3_WOMMELGEM_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E313 - Ranst --> Wommelgem
+#DESCRIPTION E313 - Ranst --> Wommelgem
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS32_L2022_A13_INDUSTRIE_ZOLDER_66.6_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E313 - Zolder-Industrie
+#DESCRIPTION E313 - Zolder-Industrie
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_L2038_A2_X_A13_LUMMEN_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E313/E314 - Lummen
+#DESCRIPTION E313/E314 - Lummen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V6402_A2_AARSCHOT_68.5_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E314 - Aarschot
+#DESCRIPTION E314 - Aarschot
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V6177_A2_HERENT_81.6_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E314 - Herent
+#DESCRIPTION E314 - Herent
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_L2027_A2_PARK_MIDDEN_LIMBURG_22.3_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E314 - Park Midden-Limburg
+#DESCRIPTION E314 - Park Midden-Limburg
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A0893_A21_ZOERSEL_19.8_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E34 - Zoersel
+#DESCRIPTION E34 - Zoersel
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_O4005_A10_AALST_19.2_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Aalst
+#DESCRIPTION E40 - Aalst
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_O4409_A10_AALTER_64.5_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Aalter
+#DESCRIPTION E40 - Aalter
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W8273_A18_ADINKERKE_8.6_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Adinkerke
+#DESCRIPTION E40 - Adinkerke
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V7997_A10_AFFLIGEM_12.5_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Affligem
+#DESCRIPTION E40 - Affligem
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W8101_A10_BRUGGE_83.6_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Brugge
+#DESCRIPTION E40 - Brugge
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS29_O4367_A10_ST-SENIJS-WESTREM_48.5_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Drongen
+#DESCRIPTION E40 - Drongen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_L__V6256_A3_HAASRODE_24.6__B.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Haasrode --> Brussel
+#DESCRIPTION E40 - Haasrode --> Brussel
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W8133_A10_JABBEKE_46.3_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Jabbeke
+#DESCRIPTION E40 - Jabbeke
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W8133_A10_JABBEKE_46.3_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Merelbeke
+#DESCRIPTION E40 - Merelbeke
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W8071_A10_OOSTKAMP_80.4_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Oostkamp
+#DESCRIPTION E40 - Oostkamp
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V6186_A3_ST-STEVENS-WOLUWE_6.5_PTZ_.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Sint-Stevens-Woluwe
+#DESCRIPTION E40 - Sint-Stevens-Woluwe
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_B__V6209_A3_STERREBEEK_7.8__L.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Sterrebeek --> Leuven
+#DESCRIPTION E40 - Sterrebeek --> Leuven
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V6357_A10_TERNAT_5.1_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Ternat
+#DESCRIPTION E40 - Ternat
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_O4329_A10_ZWIJNAARDE_44.0_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40 - Zwijnaarde
+#DESCRIPTION E40 - Zwijnaarde
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_L__V6240_A3_HEVERLEE_18.7__B.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E40/E314 - Heverlee --> Brussel
+#DESCRIPTION E40/E314 - Heverlee --> Brussel
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS87_W8748_A17_MOORSELE_31.2_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E403 - Moorsele
+#DESCRIPTION E403 - Moorsele
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W8695_A17_ROESELARE-BEVEREN_45.6_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E403 - Roeselare-Beveren
+#DESCRIPTION E403 - Roeselare-Beveren
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V6444_A4_JEZUS-EIK_5.7_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E411 - Jezus-Eik
+#DESCRIPTION E411 - Jezus-Eik
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V6440_A4_OVERIJSE_11.6_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:E411 - Overijse
+#DESCRIPTION E411 - Overijse
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS92_O5120_A11_MALDEGEM_129.4_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:N49 - Maldegem
+#DESCRIPTION N49 - Maldegem
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V6343_R0_GRIMBERGEN_40.9_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R0 - Brusselse Ring - Grimbergen
+#DESCRIPTION R0 - Brusselse Ring - Grimbergen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS66_V6133_R0_GROOT-BIJGAARDEN_50.0_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R0 - Brusselse Ring - Groot-Bijgaarden
+#DESCRIPTION R0 - Brusselse Ring - Groot-Bijgaarden
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V6595_R0_LEONARD_22.5_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R0 - Brusselse Ring - Leonard
+#DESCRIPTION R0 - Brusselse Ring - Leonard
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V6185_R0_35.3_X_A1_MACHELEN_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R0 - Brusselse Ring - Machelen
+#DESCRIPTION R0 - Brusselse Ring - Machelen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_H__V6008_R0_WEMMEL_44.3__J.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R0 - Brusselse Ring - Wemmel --> Zaventem
+#DESCRIPTION R0 - Brusselse Ring - Wemmel --> Zaventem
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_J__V6029_R0_WEZEMBEEK_27.9__H.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R0 - Brusselse Ring - Wezembeek --> Zaventem
+#DESCRIPTION R0 - Brusselse Ring - Wezembeek --> Zaventem
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS64_V6146_R0_HALLE_69.3_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R0 - Halle
+#DESCRIPTION R0 - Halle
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_V6403_R0_ZAVENTEM-HENNEAU_32.0_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R0 - Zaventem-Henneaulaan
+#DESCRIPTION R0 - Zaventem-Henneaulaan
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_2__A0006_R1_ANTWERPEN-CENTRUM_12.6__1.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Centrum --> Gent
+#DESCRIPTION R1 - Antwerpse Ring - Centrum --> Gent
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_2__A0062_R1_DEURNE_5.3__1.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Deurne --> NL
+#DESCRIPTION R1 - Antwerpse Ring - Deurne --> NL
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A3428_R1_DEURNE_35_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Deurne
+#DESCRIPTION R1 - Antwerpse Ring - Deurne
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A3431_R1_DEURNE_40_PTZ.stream/playlist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Deurne-2
+#DESCRIPTION R1 - Antwerpse Ring - Deurne-2
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A3394_R1_LINKEROEVER_14.7_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Linkeroever
+#DESCRIPTION R1 - Antwerpse Ring - Linkeroever
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB__1_A0104_R1_MERKSEM_2.5__2.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Merksem --> NL
+#DESCRIPTION R1 - Antwerpse Ring - Merksem --> NL
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A3150_A11_ST-ANNA_64.45_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Sint-Anna - Linkeroever
+#DESCRIPTION R1 - Antwerpse Ring - Sint-Anna - Linkeroever
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_2_A0116_R1_ANTWERPEN-NOORD_07_1.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Noord --> Gent
+#DESCRIPTION R1 - Antwerpse Ring - Noord --> Gent
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A0050_R1_ANTWERPEN-OOST_6.9__2.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Oost --> NL
+#DESCRIPTION R1 - Antwerpse Ring - Oost --> NL
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_A3340_A14_ANTW-WEST_99.9_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - West
+#DESCRIPTION R1 - Antwerpse Ring - West
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_2__A0026_R1_ANTWERPEN-ZUID_9.7__1.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Zuid --> Gent
+#DESCRIPTION R1 - Antwerpse Ring - Zuid --> Gent
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_2__A0001_R1_ANTWERPEN-CENTRUM_13.4__1.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R1 - Antwerpse Ring - Kennedytunnel --> Gent
+#DESCRIPTION R1 - Antwerpse Ring - Kennedytunnel --> Gent
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_2_A0074_R2_LILLO_86.2_1.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R2 - Lillo --> Stabroek
+#DESCRIPTION R2 - Lillo --> Stabroek
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_VMS133_O4531_R2_WAASLANDHAVEN-N_83.2_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R2 - Waaslandhaven-Noord
+#DESCRIPTION R2 - Waaslandhaven-Noord
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_1_O4532_R2_WAASLANDHAVEN-ZUID_79.8_2.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R2 - Waaslandhaven-Zuid --> Beveren
+#DESCRIPTION R2 - Waaslandhaven-Zuid --> Beveren
+#SERVICE 1:64:259:0:0:0:0:0:0:0:
 #DESCRIPTION ++Brazilië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//video2archives.earthcam.com/archives/_definst_/MP4%3apermanent/6593/2017/10/01/1300.mp4/playlist.m3u8:Rio de Janeiro (Copacabana Beach)
 #DESCRIPTION Rio de Janeiro (Copacabana Beach)
-#SERVICE 1:64:27b:0:0:0:0:0:0:0:
+#SERVICE 1:64:25a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Canada++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//media.gpei.ca/islandcam/guild.stream/HasBahCa.m3u8:Charlottetown
 #DESCRIPTION Charlottetown
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video2archives.earthcam.com/archives/_definst_/MP4%3apermanent/4559/2019/08/11/1300.mp4/chunklist_w1595912559.m3u8:Toronto - Niagara Falls (Canada)
 #DESCRIPTION Toronto - Niagara Falls (Canada)
-#SERVICE 1:64:27c:0:0:0:0:0:0:0:
+#SERVICE 1:64:25b:0:0:0:0:0:0:0:
 #DESCRIPTION +++Duitsland+++
 #SERVICE 4097:0:1:b76d:2c26:ec:0:0:0:0:https%3a//cdn.livespotting.com/vpu/ehlpzb4g/nkw9elfh.m3u8:Berlin Alexanderplatz
 #DESCRIPTION Berlin Alexanderplatz
@@ -215,13 +365,13 @@
 #DESCRIPTION Wittmund Nordseebad Carolinensiel-Harlesiel
 #SERVICE 4097:0:1:99c0:eec6:ec:0:0:0:0:https%3a//cdn.livespotting.com/vpu/s5r7oxxz/2mmubfyp.m3u8:Livespotting TV De 100 kamera
 #DESCRIPTION Livespotting TV De 100 kamera
-#SERVICE 1:64:27d:0:0:0:0:0:0:0:
+#SERVICE 1:64:25c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Denemarken++
 #SERVICE 4097:0:1:1621:6a38:ec:0:0:0:0:https%3a//stream.sob.m-dn.net/live/sb1/index.m3u8:Storebaelt 1
 #DESCRIPTION Storebaelt 1
 #SERVICE 4097:0:1:d18:ae69:ec:0:0:0:0:https%3a//stream.sob.m-dn.net/live/sb2/index.m3u8:Storebaelt 2
 #DESCRIPTION Storebaelt 2
-#SERVICE 1:64:27e:0:0:0:0:0:0:0:
+#SERVICE 1:64:25d:0:0:0:0:0:0:0:
 #DESCRIPTION +++Engeland (UK)+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//camsecure.co/HLS/arnside.m3u8:Arnside - beach
 #DESCRIPTION Arnside - beach
@@ -315,7 +465,7 @@
 #DESCRIPTION UK rail - York – Buckfastleigh
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//paxman.railcam.co.uk/York2_59285/tracks-v1a1/mono.m3u8:UK rail - York – North
 #DESCRIPTION UK rail - York – North
-#SERVICE 1:64:27f:0:0:0:0:0:0:0:
+#SERVICE 1:64:25e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Frankrijk++
 #SERVICE 5002:0:1:9af0:48ea:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/auvergne-rhone-alpes/arbusigny/les-aravis-mont-blanc.html:Arbusigny
 #DESCRIPTION Arbusigny
@@ -349,7 +499,7 @@
 #DESCRIPTION Vendays-Montalivet - strand
 #SERVICE 5002:0:1:4e47:a022:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/normandie/veulettes-sur-mer/veulettes-sur-mer.html:Veulettes-sur-Mer
 #DESCRIPTION Veulettes-sur-Mer
-#SERVICE 1:64:280:0:0:0:0:0:0:0:
+#SERVICE 1:64:25f:0:0:0:0:0:0:0:
 #DESCRIPTION +++Italië+++
 #SERVICE 4097:0:1:aabc:680f:ec:0:0:0:0:http%3a//stream-meteoproject.eu/data/21/master.m3u8:Cervinia Valtournenche
 #DESCRIPTION Cervinia Valtournenche
@@ -375,7 +525,7 @@
 #DESCRIPTION Sardinija Palau Isola dei Gabbiani 505
 #SERVICE 4097:0:1:1558:2868:ec:0:0:0:0:http%3a//cdn-005.whatsupcams.com/hls/it_trieste02.m3u8:Trst pogled na dvorac Miramare
 #DESCRIPTION Trst pogled na dvorac Miramare
-#SERVICE 1:64:281:0:0:0:0:0:0:0:
+#SERVICE 1:64:260:0:0:0:0:0:0:0:
 #DESCRIPTION +++Noorwegen+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream1.vossaskyen.no/bt/Danmarksplass.stream/playlist.m3u8:Bergen - Danmarks plass
 #DESCRIPTION Bergen - Danmarks plass
@@ -403,7 +553,7 @@
 #DESCRIPTION Skulestadmo
 #SERVICE 4097:0:1:ef3e:3beb:ec:0:0:0:0:https%3a//svplive-lh.akamaized.net/hls/live/2039444/sa/r3DxvH89PN7RPhufi3QvC/master.m3u8:Stavanger Vågen i Stavanger @
 #DESCRIPTION Stavanger Vågen i Stavanger @
-#SERVICE 1:64:282:0:0:0:0:0:0:0:
+#SERVICE 1:64:261:0:0:0:0:0:0:0:
 #DESCRIPTION +++Oostenrijk+++
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//badbleiberg.it-wms.com/clip_current_720p.mp4:Bad Bleiberg
 #DESCRIPTION Bad Bleiberg
@@ -451,7 +601,7 @@
 #DESCRIPTION Wagrain Markt
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s1.live-panorama.com/keblivestreaming/streams/schmittenTVLow.sdp.stream.m3u8:Zell am See
 #DESCRIPTION Zell am See
-#SERVICE 1:64:283:0:0:0:0:0:0:0:
+#SERVICE 1:64:262:0:0:0:0:0:0:0:
 #DESCRIPTION +++Polen+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hoktastream2.webcamera.pl/tv_cam_656df8/tv_cam_656df8.stream/chunks.m3u8:webcamera.pl
 #DESCRIPTION webcamera.pl
@@ -567,7 +717,7 @@
 #DESCRIPTION Zakopane - Polana Szymoszkowa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hstream2.webcamera.pl/poreba_cam_e71a81/poreba_cam_e71a81.stream/playlist.m3u8:Zalew Świnna Poręba
 #DESCRIPTION Zalew Świnna Poręba
-#SERVICE 1:64:284:0:0:0:0:0:0:0:
+#SERVICE 1:64:263:0:0:0:0:0:0:0:
 #DESCRIPTION +++Rusland+++
 #SERVICE 4097:0:1:866:0:0:0:0:0:0:http%3a//62.213.36.148%3a1935/live/kkd2-bot.stream/chunklist.m3u8:Красноярск -  Г/K «Бобровый лог» (Russisch)
 #DESCRIPTION Красноярск -  Г/K «Бобровый лог» (Russisch)
@@ -597,19 +747,19 @@
 #DESCRIPTION Псков - Площадь Ленина
 #SERVICE 4097:0:1:1348:0:0:0:0:0:0:http%3a//citycams.pskovline.ru%3a8080/cam5/index.m3u8:Псков - Площадь победы
 #DESCRIPTION Псков - Площадь победы
-#SERVICE 1:64:285:0:0:0:0:0:0:0:
+#SERVICE 1:64:264:0:0:0:0:0:0:0:
 #DESCRIPTION +++Spanje+++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//6162417352ffd.streamlock.net/live-cam/marco/chunklist_w.m3u8:Vakantiehuis Altea
 #DESCRIPTION Vakantiehuis Altea
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//5b8d2cbe62ad6.streamlock.net/live/spanje.stream/chunklist.m3u8:Vakantiehuis Jalon boven Benidorm
 #DESCRIPTION Vakantiehuis Jalon boven Benidorm
-#SERVICE 1:64:286:0:0:0:0:0:0:0:
+#SERVICE 1:64:265:0:0:0:0:0:0:0:
 #DESCRIPTION +++Tsjechië+++
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/jablunkov.m3u8:Jablunkov
 #DESCRIPTION Jablunkov
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.hqv.cz/ratibor.obecni.net/index.m3u8:Ratibor/Ratiboř
 #DESCRIPTION Ratibor/Ratiboř
-#SERVICE 1:64:287:0:0:0:0:0:0:0:
+#SERVICE 1:64:266:0:0:0:0:0:0:0:
 #DESCRIPTION +++United States of America (USA)+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live/greeneville.stream/playlist.m3u8:Greeneville
 #DESCRIPTION Greeneville
@@ -635,7 +785,7 @@
 #DESCRIPTION WFMZ Traffic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com%3a80/live/madelineisland.stream/playlist.m3u8:Wisconsin - Madeline Island
 #DESCRIPTION Wisconsin - Madeline Island
-#SERVICE 1:64:288:0:0:0:0:0:0:0:
+#SERVICE 1:64:267:0:0:0:0:0:0:0:
 #DESCRIPTION +++Zwisterland+++
 #SERVICE 4097:0:1:ae49:754:ec:0:0:0:0:https%3a//5889e7d0d6e28.streamlock.net/vocom-live/_definst_/livestream/chunklist.m3u8:Rhätische Bahn
 #DESCRIPTION Rhätische Bahn

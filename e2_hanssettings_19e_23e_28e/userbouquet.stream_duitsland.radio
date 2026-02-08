@@ -1,5 +1,5 @@
 #NAME Stream Duitsland (DE)
-#SERVICE 1:64:624:0:0:0:0:0:0:0:
+#SERVICE 1:64:573:0:0:0:0:0:0:0:
 #DESCRIPTION ++ARD-zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/br/br1/franken/mp3/mid:BR - Bayern 1 - Franken
 #DESCRIPTION BR - Bayern 1 - Franken
@@ -23,8 +23,6 @@
 #DESCRIPTION BR - Heimat
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/br/brklassik/live/mp3/high:BR - Klassik
 #DESCRIPTION BR - Klassik
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/br/puls/live/mp3/mid:BR - BR Puls
-#DESCRIPTION BR - BR Puls
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/br/brschlager/live/mp3/mid:BR - BR Schlager
 #DESCRIPTION BR - BR Schlager
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hlshr1.akamaized.net/hls/live/2016533/hr1rheinmain/96/seg.m3u8:HR - HR 1
@@ -407,7 +405,7 @@
 #DESCRIPTION WDR - Die Maus
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d111.rndfnk.com/ard/wdr/wdr/event/mp3/128/stream.mp3?aggregator=web&cid=01FC1VHKSA446AN8QN07VP9XCQ&sid=2ybYp4rkZQYGZqF9unyS5vOoysF&token=UUvyv6LfiWRw8EqR3BlIHzlAM-MSV3Rq7Z1gxDYazMU&tvf=Jsnh9cuySRhkMTExLnJuZGZuay5jb20:WDR - Event
 #DESCRIPTION WDR - Event
-#SERVICE 1:64:625:0:0:0:0:0:0:0:
+#SERVICE 1:64:574:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667:80s80s
 #DESCRIPTION 80s80s
@@ -859,7 +857,7 @@
 #DESCRIPTION BB Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//beatdownx.stream.laut.fm/beatdownx?t302=2017-12-02_23-00-21&uuid=b42fd430-7410-4f0c-adfa-0f45bc2e425f:beatdownx
 #DESCRIPTION beatdownx
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//klassikr.streamabc.net/klr-beatsnational-mp3-192-9584635:Beats Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//klassikr.streamabc.net/klr-beatsnational-aac-128-2492555:Beats Radio
 #DESCRIPTION Beats Radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.berliner-rundfunk.de/brf/mp3-128/internetradio/:Berliner Rundfunk
 #DESCRIPTION Berliner Rundfunk
@@ -1175,8 +1173,102 @@
 #DESCRIPTION Electro Swing Revolution Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//emc.stream.laut.fm/emc?t302=2017-12-07_09-30-33&uuid=97ac87c6-e043-47b6-ae4e-7ce21203031a:electronic-music-club
 #DESCRIPTION electronic-music-club
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ella.stream45.radiohost.de/ella-livestream_mp3-192:Ella Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-livestream_mp3-192/:Ella Radio
 #DESCRIPTION Ella Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-afro-jazz/mp3-192/:Ella Radio - Afro Jazz
+#DESCRIPTION Ella Radio - Afro Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-bass-jazz/mp3-192/:Ella Radio - Bass Jazz
+#DESCRIPTION Ella Radio - Bass Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-bebop/mp3-192/:Ella Radio - Bebop
+#DESCRIPTION Ella Radio - Bebop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-berlin-jazz/mp3-192/:Ella Radio - Berlin Jazz
+#DESCRIPTION Ella Radio - Berlin Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-blues/mp3-192/:Ella Radio - Blues
+#DESCRIPTION Ella Radio - Blues
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-blues-rock/mp3-192/:Ella Radio - Blues Rock
+#DESCRIPTION Ella Radio - Blues Rock
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-bossa/mp3-192/:Ella Radio - Bossa
+#DESCRIPTION Ella Radio - Bossa
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-classic-jazz/mp3-192/:Ella Radio - Classic Jazz
+#DESCRIPTION Ella Radio - Classic Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-cocktail-jazz/mp3-192/:Ella Radio - Cocktail Jazz
+#DESCRIPTION Ella Radio - Cocktail Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-coffee-jazz/mp3-192/:Ella Radio - Coffee Jazz
+#DESCRIPTION Ella Radio - Coffee Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-cool-jazz/mp3-192/:Ella Radio - Cool Jazz
+#DESCRIPTION Ella Radio - Cool Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-current-jazz/mp3-192/:Ella Radio - Current Jazz
+#DESCRIPTION Ella Radio - Current Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-dave-coz-and-friends/mp3-192/:Ella Radio - Dave Koz & Friends
+#DESCRIPTION Ella Radio - Dave Koz & Friends
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-fusion-lounge/mp3-192/:Ella Radio - Fusion Lounge
+#DESCRIPTION Ella Radio - Fusion Lounge
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-guitar-jazz/mp3-192/:Ella Radio - Guitar Jazz
+#DESCRIPTION Ella Radio - Guitar Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-gypsy-jazz/mp3-192/:Ella Radio - Gypsy Jazz
+#DESCRIPTION Ella Radio - Gypsy Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-hard-bop/mp3-192/:Ella Radio - Hard Bop
+#DESCRIPTION Ella Radio - Hard Bop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-jazz-ballads/mp3-192/:Ella Radio - Jazz Balads
+#DESCRIPTION Ella Radio - Jazz Balads
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-jazz-hop/mp3-192/:Ella Radio - Jazz Hop
+#DESCRIPTION Ella Radio - Jazz Hop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-late-night-jazz/mp3-192/:Ella Radio - Late Night Jazz
+#DESCRIPTION Ella Radio - Late Night Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-latin-jazz/mp3-192/:Ella Radio - Latin Jazz
+#DESCRIPTION Ella Radio - Latin Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-live-jazz/mp3-192/:Ella Radio - Live Jazz
+#DESCRIPTION Ella Radio - Live Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-love-smooth-jazz/mp3-192/:Ella Radio - Love Smooth Jazz
+#DESCRIPTION Ella Radio - Love Smooth Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-mellow-jazz/mp3-192/:Ella Radio - Mellow Jazz
+#DESCRIPTION Ella Radio - Mellow Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-mellow-piano-jazz/mp3-192/:Ella Radio - Mellow Piano Jazz
+#DESCRIPTION Ella Radio - Mellow Piano Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-mellow-smooth-jazz/mp3-192/:Ella Radio - Mellow Smooth Jazz
+#DESCRIPTION Ella Radio - Mellow Smooth Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-modern-big-band/mp3-192/:Ella Radio - Modern Big Band
+#DESCRIPTION Ella Radio - Modern Big Band
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-modern-vocal-jazz/mp3-192/:Ella Radio - Modern Vocal Jazz
+#DESCRIPTION Ella Radio - Modern Vocal Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-paris-cafe/mp3-192/:Ella Radio - Paris Café
+#DESCRIPTION Ella Radio - Paris Café
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-piano-jazz/mp3-192/:Ella Radio - Piano Jazz
+#DESCRIPTION Ella Radio - Piano Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-piano-trios/mp3-192/:Ella Radio - Piano Trios
+#DESCRIPTION Ella Radio - Piano Trios
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-saxophon-jazz/mp3-192/:Ella Radio - Saxophon Jazz
+#DESCRIPTION Ella Radio - Saxophon Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-sinatra-style/mp3-192/:Ella Radio - Sinatra Style
+#DESCRIPTION Ella Radio - Sinatra Style
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-smooth-bossa-nova/mp3-192/:Ella Radio - Smooth Bossa Nova
+#DESCRIPTION Ella Radio - Smooth Bossa Nova
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-smooth-jazz/mp3-192/:Ella Radio - Smooth Jazz
+#DESCRIPTION Ella Radio - Smooth Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-smooth-jazz-247/mp3-192/:Ella Radio - Smooth Jazz 24/7
+#DESCRIPTION Ella Radio - Smooth Jazz 24/7
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-smooth-lounge/mp3-192/:Ella Radio - Smooth Lounge
+#DESCRIPTION Ella Radio - Smooth Lounge
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-smooth-uptempo/mp3-192/:Ella Radio - Smooth Uptempo
+#DESCRIPTION Ella Radio - Smooth Uptempo
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-smooth-vocals/mp3-192/:Ella Radio - Smooth Vocals
+#DESCRIPTION Ella Radio - Smooth Vocals
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-soul/mp3-192/:Ella Radio - Soul
+#DESCRIPTION Ella Radio - Soul
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-straight-ahead/mp3-192/:Ella Radio - Straight-Ahead
+#DESCRIPTION Ella Radio - Straight-Ahead
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-swing-and-bigband/mp3-192/:Ella Radio - Swing & Big Band
+#DESCRIPTION Ella Radio - Swing & Big Band
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-till-bronner/mp3-192/:Ella Radio - Till Brönner
+#DESCRIPTION Ella Radio - Till Brönner
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-timeless-classics/mp3-192/:Ella Radio - Timeless Classics
+#DESCRIPTION Ella Radio - Timeless Classics
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-trumpet-jazz/mp3-192/:Ella Radio - Trumpet Jazz
+#DESCRIPTION Ella Radio - Trumpet Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-vibraphone-jazz/mp3-192/:Ella Radio - Vibraphone Jazz
+#DESCRIPTION Ella Radio - Vibraphone Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.ella-radio.de/ella-vocal-legends/mp3-192/:Ella Radio - Vocal Legends
+#DESCRIPTION Ella Radio - Vocal Legends
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radio-aktiv.de/evw.mp3:Ems-Vechte-Welle (Lingen)
 #DESCRIPTION Ems-Vechte-Welle (Lingen)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33051/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b1:Energy Acoustic
@@ -1719,16 +1811,48 @@
 #DESCRIPTION ISN-Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icepool.silvacast.com/JACKFM.mp3:Jack-FM---Berlin
 #DESCRIPTION Jack-FM---Berlin
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rtlberlin.streamabc.net/rtlb-jamfmlive-mp3-192-2163760:Jam FM Berlin
-#DESCRIPTION Jam FM Berlin
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rtlberlin.streamabc.net/rtlb-jamfmblack-mp3-192-7475360:Jam FM Black Label
-#DESCRIPTION Jam FM Black Label
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rtlberlin.streamabc.net/rtlb-jamfmkpop-mp3-192-9474790:Jam FM KPop
-#DESCRIPTION Jam FM KPop
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rtlberlin.streamabc.net/rtlb-turk-mp3-192-5719410:Jam FM Turk
-#DESCRIPTION Jam FM Turk
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rtlberlin.streamabc.net/rtlb-jamfmnmr-mp3-192-9624370:Jam FM
 #DESCRIPTION Jam FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfm2000er-mp3-192-1030612:Jam FM 2000er
+#DESCRIPTION Jam FM 2000er
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfm2010er-mp3-192-6539466:Jam FM 2010er
+#DESCRIPTION Jam FM 2010er
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfm90er-mp3-192-8536489:Jam FM 90er
+#DESCRIPTION Jam FM 90er
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb_iighjnnjrq_m9yo-mp3-192-7911418?:Jam FM Afrobeats
+#DESCRIPTION Jam FM Afrobeats
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmapresskihits-mp3-192-3743610:Jam FM Apres Ski
+#DESCRIPTION Jam FM Apres Ski
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmlive-mp3-192-2163760:Jam FM Berlin
+#DESCRIPTION Jam FM Berlin
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmblack-mp3-192-3211777:Jam FM Black
+#DESCRIPTION Jam FM Black
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmcharts-mp3-192-5594520?:Jam FM Charts
+#DESCRIPTION Jam FM Charts
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmchill-mp3-192-8693458?:Jam FM Chill
+#DESCRIPTION Jam FM Chill
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmdeutschrap-mp3-192-2703216:Jam FM Deutsche Rap
+#DESCRIPTION Jam FM Deutsche Rap
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmcooper-mp3-192-9354876:Jam FM DJ Cooper
+#DESCRIPTION Jam FM DJ Cooper
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmelektro-mp3-192-8706218:Jam FM Elektro
+#DESCRIPTION Jam FM Elektro
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmkpop-mp3-192-9474790:Jam FM KPop
+#DESCRIPTION Jam FM KPop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmmallorcahits-mp3-192-7850649:Jam FM Mallorca
+#DESCRIPTION Jam FM Mallorca
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmparty-mp3-192-8898409:Jam FM Party
+#DESCRIPTION Jam FM Party
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jampride-mp3-192-5311705:Jam FM Pride
+#DESCRIPTION Jam FM Pride
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmrap-mp3-192-5408111:Jam FM Rap
+#DESCRIPTION Jam FM Rap
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmstudy-mp3-192-1312222:Jam FM Study
+#DESCRIPTION Jam FM Study
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmblack-mp3-192-3211777:Jam FM Turk
+#DESCRIPTION Jam FM Turk
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlberlin.streamabc.net/rtlb-jamfmworkout-mp3-192-2423351:Jam FM Workout
+#DESCRIPTION Jam FM Workout
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//jazzloft.stream.laut.fm/jazzloft?pl=m3u&t302=2017-12-09_17-20-34&uuid=3067d2fa-c465-42ec-80a4-48df941168ec:Jazz-Loft-Radio
 #DESCRIPTION Jazz-Loft-Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.radio.co/s774887f7b/listen:Jazzradio Berlin
@@ -2107,6 +2231,8 @@
 #DESCRIPTION MAGIC-Top100
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server8.blitz-stream.de%3a9900/;listen.pls:Main-Kinzig-Welle
 #DESCRIPTION Main-Kinzig-Welle
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.malle.radio/malle.radio.mp3:Malle.Radio
+#DESCRIPTION Malle.Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge14.streamonkey.net/mallorcaeins-1:Mallora E1NS
 #DESCRIPTION Mallora E1NS
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream06.iloveradio.de/iloveradio5.mp3:Mashup-Radio
@@ -2291,10 +2417,6 @@
 #DESCRIPTION Plattenleger (DE/Zwit.)
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.pn-eins.de%3a80/pneins-dance-192.mp3:pn-eins-dance
 #DESCRIPTION pn-eins-dance
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.35.250.101%3a8000/popEXPRESS:popEXPRESS
-#DESCRIPTION popEXPRESS
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.radioforge.com%3a4272/popEXPRESS:popEXPRESS
-#DESCRIPTION popEXPRESS
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//91.250.77.9%3a8050/:PopStop
 #DESCRIPTION PopStop
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.power-radio.de%3a8020/:Power-Radio
@@ -2325,8 +2447,6 @@
 #DESCRIPTION PsyStation - Progressive-Psy-Trance
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//hestia2.cdnstream.com/1451_64:PsyStation - SuomiSoundi
 #DESCRIPTION PsyStation - SuomiSoundi
-#SERVICE 5002:0:2:0:0:0:0:0:0:0:http%3a//br-puls-live.cast.addradio.de/br/puls/live/mp3/128/stream.mp3:PULS
-#DESCRIPTION PULS
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.punkrockers-radio.de%3a8000/mp3:punkrockers-radio
 #DESCRIPTION punkrockers-radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//83.125.45.214%3a8000/punk:Punksender
@@ -2545,6 +2665,8 @@
 #DESCRIPTION Radio Bonn/Rhein-Sieg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fhhalle.streamabc.net/fhhal-rblive-mp3-256-3654873:Radio Brocken
 #DESCRIPTION Radio Brocken
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//fhhalle.streamabc.net/fhhal-rb70er-mp3-256-5778338:Radio Brocken 70er
+#DESCRIPTION Radio Brocken 70er
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//fhhalle.streamabc.net/fhhal-brocken80er-mp3-256-3155073?sABC=6335rrs1%25230%25236r174o4rn2s1q72pp4194qq0n591npps%2523zrqvnH&aw_0_1st.playerid=mediaU&amsparams=playerid%3amediaU;skey%3a1664478961:Radio Brocken 80er
 #DESCRIPTION Radio Brocken 80er
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fhhalle.streamabc.net/fhhal-brocken90er-mp3-256-1012329?sABC=62q05348%25230%25236rso9320885pp0rq82o1r4379sor26os%2523zrqvnH&aw_0_1st.playerid=mediaU&amsparams=playerid%3amediaU;skey%3a1657819976:Radio Brocken 90er
@@ -2553,6 +2675,8 @@
 #DESCRIPTION Radio Brocken Chart Hits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fhhalle.streamabc.net/fhhal-brockenweihnachten-mp3-256-6179142?sABC=62q0535p%25230%25236rso9320885pp0rq82o1r4379sor26os%2523zrqvnH&aw_0_1st.playerid=mediaU&amsparams=playerid%3amediaU;skey%3a1657819996:Radio Brocken Christmas Radio
 #DESCRIPTION Radio Brocken Christmas Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//fhhalle.streamabc.net/fhhal-rb100musik-mp3-256-5490816:Radio Brocken Disco
+#DESCRIPTION Radio Brocken Disco
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fhhalle.streamabc.net/fhhal-rbfete-mp3-256-8968129?sABC=62q0534o%25230%25236rso9320885pp0rq82o1r4379sor26os%2523zrqvnH&aw_0_1st.playerid=mediaU&amsparams=playerid%3amediaU;skey%3a1657819979:Radio Brocken Fetenhits
 #DESCRIPTION Radio Brocken Fetenhits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fhhalle.streamabc.net/fhhal-brockenkinderzeit-mp3-256-7589034?sABC=62q05347%25230%25236rso9320885pp0rq82o1r4379sor26os%2523zrqvnH&aw_0_1st.playerid=mediaU&amsparams=playerid%3amediaU;skey%3a1657819975:Radio Brocken Kinderzeit
@@ -2561,6 +2685,8 @@
 #DESCRIPTION Radio Brocken Kulthits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fhhalle.streamabc.net/fhhal_rbrockenl_1rdw-mp3-256-1628713?sABC=62q0535o%25230%25236rso9320885pp0rq82o1r4379sor26os%2523zrqvnH&aw_0_1st.playerid=mediaU&amsparams=playerid%3amediaU;skey%3a1657819995:Radio Brocken Lovesongs
 #DESCRIPTION Radio Brocken Lovesongs
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//fhhalle.streamabc.net/fhhal-rbmalle-mp3-256-2377368:Radio Brocken Malle Hits
+#DESCRIPTION Radio Brocken Malle Hits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fhhalle.streamabc.net/fhhal-rbosthits-mp3-256-7909463?sABC=62q0535r%25230%25236rso9320885pp0rq82o1r4379sor26os%2523zrqvnH&aw_0_1st.playerid=mediaU&amsparams=playerid%3amediaU;skey%3a1657819998:Radio Brocken Osthits
 #DESCRIPTION Radio Brocken Osthits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fhhalle.streamabc.net/fhhal-rbchill-mp3-256-2656307?sABC=62q05344%25230%25236rso9320885pp0rq82o1r4379sor26os%2523zrqvnH&aw_0_1st.playerid=mediaU&amsparams=playerid%3amediaU;skey%3a1657819972:Radio Brocken Relax
@@ -2663,12 +2789,8 @@
 #DESCRIPTION Radio Euskirchen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//88.198.175.30%3a5011/;:Radio Evergreen Munich
 #DESCRIPTION Radio Evergreen Munich
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dg-ais-eco-https-fra-eco-cdn.cast.addradio.de/radiof/italohits/mp3/high?listenerid=61fcfced50ea1e27d1ee79cfce5ed4f1&awparams=companionAds%253Atrue&aw_0_req.gdpr=true:Radio F - Coppa Italiano 
-#DESCRIPTION Radio F - Coppa Italiano 
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dg-ais-eco-https-fra-eco-cdn.cast.addradio.de/radiof/madeingermany/mp3/high?listenerid=61fcfced50ea1e27d1ee79cfce5ed4f1&awparams=companionAds%253Atrue&aw_0_req.gdpr=true:Radio F - Made in Germany
-#DESCRIPTION Radio F - Made in Germany
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//dg-ais-eco-https-fra-eco-cdn.cast.addradio.de/radiof/live/mp3/high?listenerid=61fcfced50ea1e27d1ee79cfce5ed4f1&awparams=companionAds%253Atrue&aw_0_req.gdpr=true:Radio F algemeen
-#DESCRIPTION Radio F algemeen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge16.streamonkey.net/fhn-radiof945/stream/mp3:Radio F 
+#DESCRIPTION Radio F 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.fantasy.de/fantasy.mp3:Radio Fantasy - Augsburg
 #DESCRIPTION Radio Fantasy - Augsburg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.fantasy.de/fantasydance.mp3:Radio Fantasy - Dance
@@ -4109,10 +4231,10 @@
 #DESCRIPTION uptheirons
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//veedelsradio.stream.laut.fm/veedelsradio?t302=2017-12-18_23-10-11&uuid=5cb740ac-ce45-4e58-aaaf-b39b755daedd:Veedelsradio
 #DESCRIPTION Veedelsradio
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//78.46.38.39%3a9000/:Veggie-Radio
-#DESCRIPTION Veggie-Radio
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//vogtlandradio.mp3.green.ch%3a8080/vogtland_128k_mp3:Vogtland-Radio
-#DESCRIPTION Vogtland-Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//78.46.38.39%3a9000/:Veggie Radio
+#DESCRIPTION Veggie Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge84.streamonkey.net/vr-vogtland:Vogtland Radio
+#DESCRIPTION Vogtland Radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//vogtlandradio.mp3.green.ch/vogtland_128k_mp3:VOGTLAND-RADIO-128k
 #DESCRIPTION VOGTLAND-RADIO-128k
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//vogtlandradio.mp3.green.ch/vogtland_48k_mp3:VOGTLAND-RADIO-48k

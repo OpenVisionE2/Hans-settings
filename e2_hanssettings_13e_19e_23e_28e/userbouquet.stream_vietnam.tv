@@ -1,5 +1,5 @@
 #NAME Stream Vietnam (VN)
-#SERVICE 1:64:4fa:0:0:0:0:0:0:0:
+#SERVICE 1:64:50e:0:0:0:0:0:0:0:
 #DESCRIPTION ++HTV / VTC / VTV-hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=901275&extension=ts:VTV 1
 #DESCRIPTION VTV 1
@@ -13,8 +13,14 @@
 #DESCRIPTION VTV Cab ON Style TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dvrfl05.bozztv.com/vch_vchannel18/index.m3u8:VTV Cab ON Vie Drama
 #DESCRIPTION VTV Cab ON Vie Drama
-#SERVICE 1:64:4fb:0:0:0:0:0:0:0:
+#SERVICE 1:64:50f:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.angiangtv.vn/live/kgtv/kgtv.m3u8:An Giang TV 1
+#DESCRIPTION An Giang TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.angiangtv.vn/live/kgtv2/kgtv2.m3u8:An Giang TV 2
+#DESCRIPTION An Giang TV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8:An Giang TV 3
+#DESCRIPTION An Giang TV 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ott1.nethubtv.vn/live/antv/playlist.m3u8:An Ninh TV
 #DESCRIPTION An Ninh TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=901218&extension=ts:Bac Ninh TV
@@ -33,27 +39,79 @@
 #DESCRIPTION Da Nang TV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//118.107.85.4%3a1935/live/smil%3aDNTV2.smil/playlist.m3u8:Da Nang TV 2
 #DESCRIPTION Da Nang TV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.drt.vn/live/285a27750861b964c27af22091662a74f2f/chunklist.m3u8:Dak Lak TV
+#DESCRIPTION Dak Lak TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//truyenhinh.vnptvas.vn/live.m3u8?c=vstv362&q=high&type=tv&token=LX-ibJYRUq9pflRtYAxfYQ&time=1586395820&gcId=1532&userId=&deviceId=&deviceType=&location=NA&requestTime=1586309420781&pkg=pkg11.hni:Dien Bien TV
 #DESCRIPTION Dien Bien TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//megasystems-6c680321cd.gw-dthcdn.com/thdt1/thdt1.m3u8:Dong Thap TV 1
+#DESCRIPTION Dong Thap TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//618b88f69e53b.streamlock.net/THDT2/thdttv2/chunklist_.m3u8:Dong Thap TV 1
+#DESCRIPTION Dong Thap TV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/gooditv.sdp/playlist.m3u8:Gia Lai TV
 #DESCRIPTION Gia Lai TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-hq.evgcdn.net/live/285a4c99665fdf84e94956c66bc7dc7eb5d/chunklist.m3u8:Hai Phong TV
+#DESCRIPTION Hai Phong TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/284703:Hmong USA TV
+#DESCRIPTION Hmong USA TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/145013:Hoa Binh TV
+#DESCRIPTION Hoa Binh TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wse.hatinhtv.net/live/httv1/playlist.m3u8:HTTV
 #DESCRIPTION HTTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/284705:ISTV
+#DESCRIPTION ISTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/lstv2.sdp/playlist.m3u8:Khomsanh TV
+#DESCRIPTION Khomsanh TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/145019:Kien Giang
+#DESCRIPTION Kien Giang
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.langsontv.vn/live/285c78da0c246524c90917842f8de03bd21/chunklist.m3u8:Lang Son TV
+#DESCRIPTION Lang Son TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.baolaocai.vn/channel2/stream.m3u8:Lao Cai TV
+#DESCRIPTION Lao Cai TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/284712:Lao Champa TV 1
+#DESCRIPTION Lao Champa TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/284713:Lao Champa TV 2
+#DESCRIPTION Lao Champa TV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/284714:Lao Champa TV 3
+#DESCRIPTION Lao Champa TV 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/laoheritagetv.sdp/playlist.m3u8:Lao Heritage Foundation TV
+#DESCRIPTION Lao Heritage Foundation TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.streambrothers.com%3a1936/8228/8228/playlist.m3u8:LS TV
+#DESCRIPTION LS TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//118.107.85.5%3a1935/live/smil%3aLTV.smil/playlist.m3u8:LTV
 #DESCRIPTION LTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/chunklist.m3u8:Nghe An TV
 #DESCRIPTION Nghe An TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.mediatech.vn/live/285391a08f01f83458793b293c5e9517265/chunklist.m3u8:Ninh Binh TV
+#DESCRIPTION Ninh Binh TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/playlist.m3u8:NTV Vietnam
 #DESCRIPTION NTV Vietnam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.3ssoft.vn/live/phuthotv/phuthotv/index.m3u8:Phu Tho TV
+#DESCRIPTION Phu Tho TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudstreamthdn.tek4tv.vn/live/smil%3adaknong.smil/chunklist_w603847993_b3128000_sleng.m3u8:PTD
 #DESCRIPTION PTD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ott1.nethubtv.vn/live/qpvn/playlist.m3u8:QPVN
 #DESCRIPTION QPVN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.mediatech.vn/live/285aaa79b4b265a457d81bb72bc32e2c114/chunklist.m3u8:Quang Ngai TV 1
+#DESCRIPTION Quang Ngai TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.baoquangninh.vn/qtvlive/tv1live.m3u8:Quang Ninh TV 1
+#DESCRIPTION Quang Ninh TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.baoquangninh.vn/qtvlive/tv3live.m3u8:Quang Ninh TV 3
+#DESCRIPTION Quang Ninh TV 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.canthotv.vn/live/tv/chunklist_.m3u8:Soc Trang TV 1
+#DESCRIPTION Soc Trang TV 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.canthotv.vn/live/cs3/chunklist_.m3u8:Soc Trang TV 2
+#DESCRIPTION Soc Trang TV 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.sonlatv.vn/live/28595222e707a364251b8724717894baa46/chunklist.m3u8:Son La TV
+#DESCRIPTION Son La TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cmcdp3.vtvdigital.vn/hls/THANHHOATV/03.m3u8:Thanh Hoa TV
 #DESCRIPTION Thanh Hoa TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-hq.evgcdn.net/live/285a4c99665fdf84e94956c66bc7dc7eb5d/chunklist.m3u8:THP+
+#DESCRIPTION THP+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.thainguyentv.vn/hls/livestream.m3u8:TN 1
 #DESCRIPTION TN 1
-#SERVICE 1:64:4fc:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vtvgolivemh-plus.vtvdigital.vn/CnpvOv42fjMuD59MXojG_A/1767753797/manifest/vietnamtoday/playlist-pre_1080p.m3u8:Vietnam Today
+#DESCRIPTION Vietnam Today
+#SERVICE 1:64:510:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/airtv.sdp/playlist.m3u8:Air Lao TV
 #DESCRIPTION Air Lao TV
@@ -95,89 +153,3 @@
 #DESCRIPTION Vati Lao TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tgn.bozztv.com/vbstvcdn/vbstv/ngrp%3avbstv_all/playlist.m3u8:VBS
 #DESCRIPTION VBS
-#SERVICE 1:64:4fd:0:0:0:0:0:0:0:
-#DESCRIPTION ...............
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.angiangtv.vn/live/kgtv/kgtv.m3u8:An Giang TV 1
-#DESCRIPTION An Giang TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.angiangtv.vn/live/kgtv2/kgtv2.m3u8:An Giang TV 2
-#DESCRIPTION An Giang TV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8:An Giang TV 3
-#DESCRIPTION An Giang TV 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.drt.vn/live/285a27750861b964c27af22091662a74f2f/chunklist.m3u8:Dak Lak TV
-#DESCRIPTION Dak Lak TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//megasystems-6c680321cd.gw-dthcdn.com/thdt1/thdt1.m3u8:Dong Thap TV 1
-#DESCRIPTION Dong Thap TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//618b88f69e53b.streamlock.net/THDT2/thdttv2/chunklist_.m3u8:Dong Thap TV 1
-#DESCRIPTION Dong Thap TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-hq.evgcdn.net/live/285a4c99665fdf84e94956c66bc7dc7eb5d/chunklist.m3u8:Hai Phong TV
-#DESCRIPTION Hai Phong TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.langsontv.vn/live/285c78da0c246524c90917842f8de03bd21/chunklist.m3u8:Lang Son TV
-#DESCRIPTION Lang Son TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.baolaocai.vn/channel2/stream.m3u8:Lao Cai TV
-#DESCRIPTION Lao Cai TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.mediatech.vn/live/285391a08f01f83458793b293c5e9517265/chunklist.m3u8:Ninh Binh TV
-#DESCRIPTION Ninh Binh TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.3ssoft.vn/live/phuthotv/phuthotv/index.m3u8:Phu Tho TV
-#DESCRIPTION Phu Tho TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.mediatech.vn/live/285aaa79b4b265a457d81bb72bc32e2c114/chunklist.m3u8:Quang Ngai TV 1
-#DESCRIPTION Quang Ngai TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.baoquangninh.vn/qtvlive/tv1live.m3u8:Quang Ninh TV 1
-#DESCRIPTION Quang Ninh TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.baoquangninh.vn/qtvlive/tv3live.m3u8:Quang Ninh TV 3
-#DESCRIPTION Quang Ninh TV 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.canthotv.vn/live/tv/chunklist_.m3u8:Soc Trang TV 1
-#DESCRIPTION Soc Trang TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.canthotv.vn/live/cs3/chunklist_.m3u8:Soc Trang TV 2
-#DESCRIPTION Soc Trang TV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.sonlatv.vn/live/28595222e707a364251b8724717894baa46/chunklist.m3u8:Son La TV
-#DESCRIPTION Son La TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-hq.evgcdn.net/live/285a4c99665fdf84e94956c66bc7dc7eb5d/chunklist.m3u8:THP+
-#DESCRIPTION THP+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vtvgolivemh-plus.vtvdigital.vn/CnpvOv42fjMuD59MXojG_A/1767753797/manifest/vietnamtoday/playlist-pre_1080p.m3u8:Vietnam Today
-#DESCRIPTION Vietnam Today
-#SERVICE 1:64:4fe:0:0:0:0:0:0:0:
-#DESCRIPTION .............
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/284703:Hmong USA TV
-#DESCRIPTION Hmong USA TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/145013:Hoa Binh TV
-#DESCRIPTION Hoa Binh TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/284705:ISTV
-#DESCRIPTION ISTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/lstv2.sdp/playlist.m3u8:Khomsanh TV
-#DESCRIPTION Khomsanh TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvmedia.live%3a8080/faucontv/P3Mos2c14uCyG0E6jC5K/145019:Kien Giang
-#DESCRIPTION Kien Giang
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/284712:Lao Champa TV 1
-#DESCRIPTION Lao Champa TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/284713:Lao Champa TV 2
-#DESCRIPTION Lao Champa TV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/284714:Lao Champa TV 3
-#DESCRIPTION Lao Champa TV 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/laoheritagetv.sdp/playlist.m3u8:Lao Heritage Foundation TV
-#DESCRIPTION Lao Heritage Foundation TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.streambrothers.com%3a1936/8228/8228/playlist.m3u8:LS TV
-#DESCRIPTION LS TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/284721:NAT TV
-#DESCRIPTION NAT TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.nhandan.thienvietjsc.net/live/nhandan720/playlist.m3u8:Nhan Dan TV
-#DESCRIPTION Nhan Dan TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/pntv.sdp/playlist.m3u8:PNTV
-#DESCRIPTION PNTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvodqh.tek4tv.vn/live/quochoi_abr.m3u8:Quốc Hội
-#DESCRIPTION Quốc Hội
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5dcab9aed5331.streamlock.net/SET1/livestream/chunklist_.m3u8:SET 57.4 TV
-#DESCRIPTION SET 57.4 TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5dcab9aed5331.streamlock.net/SET1/livestream/playlist.m3u8:SET TV 1
-#DESCRIPTION SET TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5dcabf026b188.streamlock.net/SET22/livestream/playlist.m3u8:SET TV 2
-#DESCRIPTION SET TV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8:Tea TV 2
-#DESCRIPTION Tea TV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/284730:Uniquely Thai
-#DESCRIPTION Uniquely Thai
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livefta.malimarcdn.com/ftaedge00/vanphenhtv.sdp/playlist.m3u8:Vanphenh TV
-#DESCRIPTION Vanphenh TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//myteve.online%3a8080/34223073/2cdb1b8d70/299384:Viet MTV
-#DESCRIPTION Viet MTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d39900ebfb8.streamlock.net/8478/8478/playlist.m3u8:Vietmedia
-#DESCRIPTION Vietmedia

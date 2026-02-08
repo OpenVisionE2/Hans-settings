@@ -1,8 +1,10 @@
 #NAME Stream Costa Rica (CR)
-#SERVICE 1:64:2df:0:0:0:0:0:0:0:
+#SERVICE 1:64:2fe:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//directo.tuwebtv.es/canal1.m3u8:Canal 1
 #DESCRIPTION Canal 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vid.canal1cr.com%3a3424/multi_live/play_720.m3u8:Canal 1 (#)
+#DESCRIPTION Canal 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.teleunotv.cr%3a1935/TVUNO/TVUNO/playlist.m3u8:Tele 1 TV
 #DESCRIPTION Tele 1 TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8:Canal 3 KMK
@@ -27,10 +29,14 @@
 #DESCRIPTION CristoVisión Canal 31
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8:¡OPA! Canal 38
 #DESCRIPTION ¡OPA! Canal 38
-#SERVICE 1:64:2e0:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video0.rogohosting.com%3a19360/8006/8006.m3u8:Costa Rica Channel
+#DESCRIPTION Costa Rica Channel
+#SERVICE 1:64:2ff:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//acceso.mediosdecostarica.com%3a3638/live/360rftvcrlive.m3u8:360 RFTV
 #DESCRIPTION 360 RFTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//acceso.mediosdecostarica.com%3a3511/live/cartagomediostvlive.m3u8:Cartago Medios TV
+#DESCRIPTION Cartago Medios TV
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//tv.ticosmedia.com%3a1935/COLOSAL/COLOSAL/playlist.m3u8:Colosal TV HD
 #DESCRIPTION Colosal TV HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudvideo.servers10.com%3a8081/8030/index.m3u8:Coto Brus TV
@@ -43,6 +49,8 @@
 #DESCRIPTION GAM TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59ef525c24caa.streamlock.net/garabitoTV/garabitotv/playlist.m3u8:Garabito TV
 #DESCRIPTION Garabito TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8:Gex TV
+#DESCRIPTION Gex TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//k4.usastreams.com/limontv1/limontv1/playlist.m3u8:Limón TV
 #DESCRIPTION Limón TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lstv.duckdns.org%3a449/hls/lstv.m3u8:Los Santos TV
@@ -51,6 +59,8 @@
 #DESCRIPTION Norte Informativo TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//k3.usastreams.com%3a1935/CableLatino/88stereo/chunklist_w1223558379.m3u8:Radio 88 Stereo
 #DESCRIPTION Radio 88 Stereo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server2.cloundmediacp.in/turrialbatv/turrialbatv/playlist.m3u8:Radio Turrialba TV
+#DESCRIPTION Radio Turrialba TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live21.bozztv.com/akamaissh101/ssh101/retroxcrtv/playlist.m3u8:Retrox TV
 #DESCRIPTION Retrox TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp.info/sanjosetv/envivo/playlist.m3u8:San José TV
@@ -59,6 +69,8 @@
 #DESCRIPTION Sarapiqui TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59ef525c24caa.streamlock.net/telebrunca/telebrunca/playlist.m3u8:Tele Brunca
 #DESCRIPTION Tele Brunca
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5eac7b031d945.streamlock.net/TICAVISION/TICAVISION/playlist.m3u8:TicaVision
+#DESCRIPTION TicaVision
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8:Urbano TV
 #DESCRIPTION Urbano TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//k4.usastreams.com/videotour/videotour/playlist.m3u8:Video Tour Channel
