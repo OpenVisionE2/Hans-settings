@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:20c:0:0:0:0:0:0:0:
+#SERVICE 1:64:1db:0:0:0:0:0:0:0:
 #DESCRIPTION ++NPO: niet 100% zeker++
 #SERVICE 4097:0:1:5225:c99:3:eb0000:0:0:0:https%3a//rbtvlive.cdn.tele2portal.com/live/NPO1/NPO1.isml/.m3u8:NPO1
 #DESCRIPTION NPO1
@@ -7,7 +7,7 @@
 #DESCRIPTION NPO2
 #SERVICE 4097:0:1:5230:c99:3:eb0000:0:0:0:https%3a//rbtvlive.cdn.tele2portal.com/live/NPO3/NPO3.isml/.m3u8:NPO3
 #DESCRIPTION NPO3
-#SERVICE 1:64:20d:0:0:0:0:0:0:0:
+#SERVICE 1:64:1dc:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-streaming.dpgmedia.net/aldag-clipstream-srt-zk7kiq36v0lq88zpv1p064/index_720.m3u8:AD.nl - Nieuwsupdate
 #DESCRIPTION AD.nl - Nieuwsupdate
@@ -63,7 +63,7 @@
 #DESCRIPTION SBS6 Classics
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tv01.cdn.snkmedia.nl/tukkertv/1080p.m3u8:Tukker TV
 #DESCRIPTION Tukker TV
-#SERVICE 1:64:20e:0:0:0:0:0:0:0:
+#SERVICE 1:64:1dd:0:0:0:0:0:0:0:
 #DESCRIPTION ++BBC voor Nederland++
 #SERVICE 4097:0:1:1d:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c51-nlziet-nl-8601.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramabenelux-nlzietnl/playlist.m3u8:BBC Drama
 #DESCRIPTION BBC Drama
@@ -75,11 +75,11 @@
 #DESCRIPTION BBC Lifestyle
 #SERVICE 4097:0:1:1f:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c16-nlziet-nl-8602.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearbenelux-nlzietnl/playlist.m3u8:BBC Topgear
 #DESCRIPTION BBC Topgear
-#SERVICE 1:64:20f:0:0:0:0:0:0:0:
+#SERVICE 1:64:1de:0:0:0:0:0:0:0:
 #DESCRIPTION ++via YouTube++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/bdHOZI9IM90:Spreekbuis TV
 #DESCRIPTION Spreekbuis TV
-#SERVICE 1:64:210:0:0:0:0:0:0:0:
+#SERVICE 1:64:1df:0:0:0:0:0:0:0:
 #DESCRIPTION +++Radio Toppers+++
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-67.stream-server.nl%3a1936/RadioToppers/RadioToppers/playlist.m3u8:Radio Toppers
 #DESCRIPTION Radio Toppers
@@ -89,7 +89,7 @@
 #DESCRIPTION Poesjes TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-67.stream-server.nl%3a1936/winktv/winktv/chunklist.m3u8:Wink Radio (Waalre)
 #DESCRIPTION Wink Radio (Waalre)
-#SERVICE 1:64:211:0:0:0:0:0:0:0:
+#SERVICE 1:64:1e0:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL amateur-tv++
 #SERVICE 5002:0:1:0:0:31:abcd0000:0:0:0:http%3a//stream.pi6atv.com%3a8081/scoop/pi6atv-hd/playlist.m3u8  :PI6ATV HD
 #DESCRIPTION PI6ATV HD
@@ -97,3 +97,5 @@
 #DESCRIPTION PI6ATV
 #SERVICE 5002:0:1:0:0:31:abcd0000:0:0:0:https%3a//hls.batc.org.uk/pi6mep/index.m3u8:PI6MEP (Meppel)
 #DESCRIPTION PI6MEP (Meppel)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/pi6ehv_official:PI6EHV
+#DESCRIPTION PI6EHV

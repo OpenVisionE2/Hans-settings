@@ -1,24 +1,42 @@
 #NAME Stream NL webcams
-#SERVICE 1:64:243:0:0:0:0:0:0:0:
+#SERVICE 1:64:211:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nuenen++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/lon/clemenskerk-toren-04.stream/chunklist_w574126017.m3u8:Toren Clemenskerk noord
-#DESCRIPTION Toren Clemenskerk noord
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/lon/clemenskerk-toren-02.stream/playlist.m3u8:Toren Clemenskerk oost
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/parochienuenen/live/chunklist_w236667763.m3u8:Clemenskerk binnen
+#DESCRIPTION Clemenskerk binnen
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/lon/clemenskerk-toren-02.stream/chunklist_w1236827215.m3u8:Toren Clemenskerk oost
 #DESCRIPTION Toren Clemenskerk oost
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/lon/clemenskerk-toren-01.stream/playlist.m3u8:Toren Clemenskerk west
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/lon/clemenskerk-toren-01.stream/playlist.m3u8:Toren Clemenskerk west
 #DESCRIPTION Toren Clemenskerk west
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/lon/clemenskerk-toren-03.stream/chunklist_w301464224.m3u8:Toren Clemenskerk zuid
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//streamingserver02.omroepnuenen.nl/lon/clemenskerk-toren-03.stream/chunklist_w301464224.m3u8:Toren Clemenskerk zuid
 #DESCRIPTION Toren Clemenskerk zuid
-#SERVICE 1:64:244:0:0:0:0:0:0:0:
+#SERVICE 1:64:212:0:0:0:0:0:0:0:
 #DESCRIPTION --Rotterdam--
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn22d.streampartner.nl/berartvd/berartvd.stream/chunklist_w1217637226.m3u8:Rotterdam - Haven panorama
 #DESCRIPTION Rotterdam - Haven panorama
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//5f9796575af00.streamlock.net/live/rotterdam4.stream/playlist.m3u8:Rotterdam - Ridderkerk
 #DESCRIPTION Rotterdam - Ridderkerk
-#SERVICE 1:64:245:0:0:0:0:0:0:0:
+#SERVICE 1:64:213:0:0:0:0:0:0:0:
 #DESCRIPTION --overige steden NL--
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//6162417352ffd.streamlock.net/live/duinoord.stream/playlist.m3u8:Ameland - Camping Duinoord
+#DESCRIPTION Ameland - Camping Duinoord
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//6162417352ffd.streamlock.net/live/amelandgolf.stream/playlist.m3u8:Ameland - Golfbaan Ameland
+#DESCRIPTION Ameland - Golfbaan Ameland
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5b8d2cbe62ad6.streamlock.net/live/nes-waddenhaven.stream/playlist.m3u8:Ameland - Nes - haven
+#DESCRIPTION Ameland - Nes - haven
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s1.ipcamlive.com/streams/01a8f2nszulg15xcc/stream.m3u8:Breda - TC Breda - baan 1, 2, 3
+#DESCRIPTION Breda - TC Breda - baan 1, 2, 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s17.ipcamlive.com/streams/11zdz3lnocirohdbl/stream.m3u8:Breda - TC Breda - baan 7 en 8
+#DESCRIPTION Breda - TC Breda - baan 7 en 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s4.ipcamlive.com/streams/04kltkxcp1jqz3sts/stream.m3u8:Buren - Strandhotel Buren aan Zee
+#DESCRIPTION Buren - Strandhotel Buren aan Zee
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s86.ipcamlive.com/streams/56dpymgueoalatjmg/stream.m3u8:Drimmelen - Jachthaven Biesbosch
+#DESCRIPTION Drimmelen - Jachthaven Biesbosch
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s101.ipcamlive.com/streams/65c12lcinap8hqy4e/stream.m3u8:Drimmelen - rivier Amer
+#DESCRIPTION Drimmelen - rivier Amer
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//6162417352ffd.streamlock.net/live/enkhuizen.stream/playlist.m3u8:Enkhuizen
 #DESCRIPTION Enkhuizen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s110.ipcamlive.com/streams/6elnsrhahk1vdiwwj/stream.m3u8:Gennep - ooievaarsnest
+#DESCRIPTION Gennep - ooievaarsnest
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.rtvnoord.nl/live/rtvnoord/webcam/index.m3u8:Groningen - centrum stad Groningen - RTV Noord
 #DESCRIPTION Groningen - centrum stad Groningen - RTV Noord
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//584b389d712f9.streamlock.net/live/rec.stream/playlist.m3u8:Harlingen - Afvaloven cam
@@ -39,13 +57,25 @@
 #DESCRIPTION Maastricht - Sint Servaasbrug
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//565c3c746b763.streamlock.net/live/maastricht2.stream/chunklist.m3u8:Maastricht - Vrijthof
 #DESCRIPTION Maastricht - Vrijthof
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-eu1-bravo.dropcam.com/nexus_aac/286d4c583f994a0480828374dfc8aa9c/playlist.m3u8?public=8wBqa1Pf1R:Schiermonnikoog - Reeweg
-#DESCRIPTION Schiermonnikoog - Reeweg
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s159.ipcamlive.com/streams/9ffc6woqssbuewv4h/stream.m3u8:Roosendaal - Stadsoevers (bouw)
+#DESCRIPTION Roosendaal - Stadsoevers (bouw)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5b8d2cbe62ad6.streamlock.net/live/schier.stream/playlist.m3u8:Schiermonnikoog - Jachthaven Schier
+#DESCRIPTION Schiermonnikoog - Jachthaven Schier
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f27cc8163c2e.streamlock.net/1184/1184.stream/chunklist_w532740939.m3u8:Sittard - Markt
+#DESCRIPTION Sittard - Markt
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//584b389d712f9.streamlock.net/live/sneek.stream/playlist.m3u8:Sneek - De Houkesloot
 #DESCRIPTION Sneek - De Houkesloot
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//www.weerenmeer.nl/WeatherCat1hrMovie.mp4:Son en Breugel weerstation
 #DESCRIPTION Son en Breugel weerstation
-#SERVICE 1:64:246:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//live.skylgenet.nl/hls/dellewalbaai.m3u8:Terschelling - Dellewal - baai
+#DESCRIPTION Terschelling - Dellewal - baai
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//live.skylgenet.nl/hls/debranding-strand.m3u8:Terschelling - Strand Midsland aan Zee - noord
+#DESCRIPTION Terschelling - Strand Midsland aan Zee - noord
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//live.skylgenet.nl/hls/debranding-strand.m3u8:Terschelling - Strandpaviljoen De Branding
+#DESCRIPTION Terschelling - Strandpaviljoen De Branding
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//www.tbandsma.nl%3a8443/:Terschelling - VC Brandaris, Marifoon kanaal 02 (audio)
+#DESCRIPTION Terschelling - VC Brandaris, Marifoon kanaal 02 (audio)
+#SERVICE 1:64:214:0:0:0:0:0:0:0:
 #DESCRIPTION -- LiveWebcams kust/strand Groningen--
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//584b389d712f9.streamlock.net/live2/delfzijl1.stream/playlist.m3u8:Delfzijl - Eems noordzijde
 #DESCRIPTION Delfzijl - Eems noordzijde
@@ -55,7 +85,7 @@
 #DESCRIPTION Delfzijl - haven
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//584b389d712f9.streamlock.net/live2/hoogwatum.stream/playlist.m3u8:Delfzijl - Hoogwatum
 #DESCRIPTION Delfzijl - Hoogwatum
-#SERVICE 1:64:247:0:0:0:0:0:0:0:
+#SERVICE 1:64:215:0:0:0:0:0:0:0:
 #DESCRIPTION -- LiveWebcams kust/strand Friesland--
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5b8d2cbe62ad6.streamlock.net/live/eernewoude.stream/playlist.m3u8:De Friese Meren - Eernewoude
 #DESCRIPTION De Friese Meren - Eernewoude
@@ -69,7 +99,7 @@
 #DESCRIPTION Joure - haven
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5b8d2cbe62ad6.streamlock.net/live/schier.stream/chunklist.m3u8:Schiermonnikoog
 #DESCRIPTION Schiermonnikoog
-#SERVICE 1:64:248:0:0:0:0:0:0:0:
+#SERVICE 1:64:216:0:0:0:0:0:0:0:
 #DESCRIPTION -- LiveWebcams kust/strand Noord-Holland--
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//6162417352ffd.streamlock.net/live/denoever.stream/playlist.m3u8:Den Oever - haven
 #DESCRIPTION Den Oever - haven
@@ -77,79 +107,17 @@
 #DESCRIPTION Texel - Cocksdorp - Vuurtoren
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5b8d2cbe62ad6.streamlock.net/live/denhoornTX.stream/playlist.m3u8:Texel - Den Hoorn - Hoge Achterom 
 #DESCRIPTION Texel - Den Hoorn - Hoge Achterom 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//6162417352ffd.streamlock.net/live/volendam.stream/playlist.m3u8:Volendam - haven
-#DESCRIPTION Volendam - haven
-#SERVICE 1:64:249:0:0:0:0:0:0:0:
+#SERVICE 1:64:217:0:0:0:0:0:0:0:
 #DESCRIPTION -- LiveWebcams kust/strand Zuid-Holland--
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//584b389d712f9.streamlock.net/stream/hvh3.stream/chunklist.m3u8:Hoek van Holland - Nieuwe Waterweg
 #DESCRIPTION Hoek van Holland - Nieuwe Waterweg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//584b389d712f9.streamlock.net/live2/scheveningen.stream/playlist.m3u8:Scheveningen Pier (noord)
 #DESCRIPTION Scheveningen Pier (noord)
-#SERVICE 1:64:24a:0:0:0:0:0:0:0:
+#SERVICE 1:64:218:0:0:0:0:0:0:0:
 #DESCRIPTION -- LiveWebcams kust/strand Zeeland-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//565c3c746b763.streamlock.net/live/vlissingen5.stream/chunklist.m3u8:Vlissingen - strand
 #DESCRIPTION Vlissingen - strand
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5b8d2cbe62ad6.streamlock.net/live/vlissingen4.stream/chunklist.m3u8:Vlissingen - Westerschelde ferry
 #DESCRIPTION Vlissingen - Westerschelde ferry
-#SERVICE 1:64:24b:0:0:0:0:0:0:0:
-#DESCRIPTION ++verkeer++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/GRP_01.stream/playlist.m3u8:Grote polder - A4 richting Amsterdam
-#DESCRIPTION Grote polder - A4 richting Amsterdam
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/GRP_03.stream/playlist.m3u8:Grote polder - A4 richting Den Haag
-#DESCRIPTION Grote polder - A4 richting Den Haag
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/GRP_02.stream/playlist.m3u8:Grote polder - N11 richting Alphen
-#DESCRIPTION Grote polder - N11 richting Alphen
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_55.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A1 Amersfoort
-#DESCRIPTION Rijkswaterstaat A1 Amersfoort
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_1.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A1 Diemen
-#DESCRIPTION Rijkswaterstaat A1 Diemen
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_69.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A2 Vianen
-#DESCRIPTION Rijkswaterstaat A2 Vianen
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_26.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A2 Zaltbommel
-#DESCRIPTION Rijkswaterstaat A2 Zaltbommel
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_94.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A4 Amsterdam-Sloten
-#DESCRIPTION Rijkswaterstaat A4 Amsterdam-Sloten
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_99.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A4 De Hoek
-#DESCRIPTION Rijkswaterstaat A4 De Hoek
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_28.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A4 Leiden
-#DESCRIPTION Rijkswaterstaat A4 Leiden
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_64.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A4 Roelofarendsveen
-#DESCRIPTION Rijkswaterstaat A4 Roelofarendsveen
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_70.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A4 Vlaardingen
-#DESCRIPTION Rijkswaterstaat A4 Vlaardingen
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_37.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A6 Almere-Stad
-#DESCRIPTION Rijkswaterstaat A6 Almere-Stad
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_207.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A9 Amstelveen
-#DESCRIPTION Rijkswaterstaat A9 Amstelveen
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_14.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A9 Holendrecht
-#DESCRIPTION Rijkswaterstaat A9 Holendrecht
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_45.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A9 Rottepolderplein
-#DESCRIPTION Rijkswaterstaat A9 Rottepolderplein
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_100.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A10 Amstel
-#DESCRIPTION Rijkswaterstaat A10 Amstel
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_19.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A10 Coenplein Noord
-#DESCRIPTION Rijkswaterstaat A10 Coenplein Noord
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_33.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A10 Watergraafsmeer
-#DESCRIPTION Rijkswaterstaat A10 Watergraafsmeer
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_16.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A10 Westpoort
-#DESCRIPTION Rijkswaterstaat A10 Westpoort
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_91.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A12 Lunetten
-#DESCRIPTION Rijkswaterstaat A12 Lunetten
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_201.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A12 Oudenrijn
-#DESCRIPTION Rijkswaterstaat A12 Oudenrijn
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_20.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A13 Delft
-#DESCRIPTION Rijkswaterstaat A13 Delft
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_50.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A16 Dordrecht
-#DESCRIPTION Rijkswaterstaat A16 Dordrecht
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_205.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A16 Van Brienenoordbrug
-#DESCRIPTION Rijkswaterstaat A16 Van Brienenoordbrug
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_41.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A16 Zwijndrecht
-#DESCRIPTION Rijkswaterstaat A16 Zwijndrecht
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_32.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A20 Kethelplein
-#DESCRIPTION Rijkswaterstaat A20 Kethelplein
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_22a.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A27 Gorinchem
-#DESCRIPTION Rijkswaterstaat A27 Gorinchem
-#SERVICE 1:64:24c:0:0:0:0:0:0:0:
-#DESCRIPTION ++schepen++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//5b8d2cbe62ad6.streamlock.net/live/bontekoe.stream/chunklist_w.m3u8:Bontekoe (zeilklipper)
-#DESCRIPTION Bontekoe (zeilklipper)
+#SERVICE 1:64:219:0:0:0:0:0:0:0:
+#DESCRIPTION ++verkeer: zie Stream verkeerscamera's++

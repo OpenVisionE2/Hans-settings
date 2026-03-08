@@ -351,9 +351,6 @@ ffff0000:0814:0600
 ffff0000:080b:0600
 	c 330000:6900000:2:5:0:0:0
 /
-ffff0000:0834:0600
-	c 450000:6900000:2:5:0:0:0
-/
 ffff0000:0835:0600
 	c 458000:6900000:2:5:0:0:0
 /
@@ -461,6 +458,9 @@ ffff0000:0021:25a8
 /
 ffff0000:000a:25a8
 	c 354000:6875000:2:3:0:0:0
+/
+ffff0000:0834:0600
+	c 450000:6900000:2:5:0:0:0
 /
 ffff0000:001c:25a8
 	c 450000:6875000:2:3:0:0:0
@@ -4022,9 +4022,6 @@ p:Ziggo
 4696:ffff0000:0808:0600:2:0
 Ziggo Dome
 p:Ziggo
-4a75:ffff0000:0808:0600:22:0
-Veronica / Disney Jr.
-p:Ziggo,c:050001,c:098800
 4a76:ffff0000:0808:0600:25:0
 Discovery
 p:Ziggo
@@ -4121,9 +4118,6 @@ p:Ziggo
 27e9:ffff0000:0806:0600:2:0
 FunX
 p:Ziggo
-4a53:ffff0000:0806:0600:22:0
-SBS6
-p:Ziggo,c:050001,c:098800
 4a50:ffff0000:0806:0600:25:0
 Net5
 p:Ziggo,c:050001,c:090202
@@ -4502,27 +4496,6 @@ p:Ziggo,c:050001
 4aba:ffff0000:080b:0600:25:0
 SBS6
 p:Ziggo,c:050001,c:090202
-4bf8:ffff0000:0834:0600:22:0
-Net5
-p:Ziggo,c:050001,c:098800
-76e9:ffff0000:0834:0600:25:0
-ESPN
-p:Ziggo,c:050001,c:098800
-4bf1:ffff0000:0834:0600:25:0
-ESPN
-p:Ziggo,c:050001,c:098800
-4bf2:ffff0000:0834:0600:25:0
-Veronica / Disney Jr.
-p:Ziggo,c:050001,c:090202
-4bf3:ffff0000:0834:0600:25:0
-Paramount Network
-p:Ziggo
-4bf4:ffff0000:0834:0600:25:0
-Ziggo Sport 3
-p:Ziggo
-4bf7:ffff0000:0834:0600:25:0
-CNN
-p:Ziggo,c:050001
 4c05:ffff0000:0835:0600:25:0
 RTL 4
 p:Ziggo,c:050001,c:098800
@@ -4753,7 +4726,7 @@ Eurosport 2
 p:Ziggo,c:050001
 4c7e:ffff0000:083b:0600:25:0
 L1 TV
-p:Ziggo
+p:Ziggo,c:050001
 4c7f:ffff0000:083b:0600:25:0
 RTV Noord
 p:Ziggo,c:050001
@@ -4948,13 +4921,13 @@ NPO 1
 p:Ziggo,c:050001,c:098800
 4bca:ffff0000:0832:0600:25:0
 NPO 2
-p:Ziggo,c:050001,c:098800
+p:Ziggo,c:050001,c:090202
 4bcd:ffff0000:0832:0600:25:0
 NPO 3
 p:Ziggo,c:050001,c:098800
 4bce:ffff0000:0832:0600:25:0
 NPO 2 extra
-p:Ziggo
+p:Ziggo,c:050001
 4bcf:ffff0000:0832:0600:25:0
 NPO Politiek en Nieuws
 p:Ziggo,c:050001
@@ -5024,6 +4997,24 @@ p:SKV
 03eb:ffff0000:000a:25a8:25:0
 Net 5 HD
 p:SKV
+76e9:ffff0000:0834:0600:25:0
+ESPN
+p:Ziggo,c:050001,c:098800
+4bf1:ffff0000:0834:0600:25:0
+ESPN
+p:Ziggo,c:050001,c:098800
+4bf2:ffff0000:0834:0600:25:0
+Veronica / Disney Jr.
+p:Ziggo,c:050001,c:090202
+4bf3:ffff0000:0834:0600:25:0
+Paramount Network
+p:Ziggo
+4bf4:ffff0000:0834:0600:25:0
+Ziggo Sport 3
+p:Ziggo
+4bf7:ffff0000:0834:0600:25:0
+CNN
+p:Ziggo,c:050001
 0af1:ffff0000:001c:25a8:25:0
 RTL 4 HD
 p:SKV

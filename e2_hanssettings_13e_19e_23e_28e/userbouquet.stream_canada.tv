@@ -1,5 +1,5 @@
 #NAME Stream Canada (CA)
-#SERVICE 1:64:451:0:0:0:0:0:0:0:
+#SERVICE 1:64:50d:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=177364&extension=ts&play_token=X5Zjb5SCHi:CBC Edmonton
 #DESCRIPTION CBC Edmonton
@@ -143,7 +143,7 @@
 #DESCRIPTION TSN 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/TSN_5/index.m3u8:TSN 5
 #DESCRIPTION TSN 5
-#SERVICE 1:64:452:0:0:0:0:0:0:0:
+#SERVICE 1:64:50e:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3abn.bozztv.com/3abncanada/3ABN/master.m3u8:3ABN Canada
 #DESCRIPTION 3ABN Canada
@@ -265,6 +265,10 @@
 #DESCRIPTION NTV+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.pardesitv.online/pardesi/index.m3u8:Pardesi TV
 #DESCRIPTION Pardesi TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d30au7974f7qoa.cloudfront.net/scheduler/scheduleMaster/419.m3u8:Plymouth Rock TV
+#DESCRIPTION Plymouth Rock TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//158.69.24.53%3a8080/probashi_tv/index.m3u8:Probashi TV News
+#DESCRIPTION Probashi TV News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8:Sooriyan TV
 #DESCRIPTION Sooriyan TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8:Stingray CMusic
@@ -281,3 +285,5 @@
 #DESCRIPTION Talkin Live Classics TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn3.toronto360.tv%3a8081/toronto360/hd/playlist.m3u8:Toronto 360 TV
 #DESCRIPTION Toronto 360 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//origin-cae-m462953.toober.com/4c3caf7294b3/c8bf99484885/playlist.m3u8:Zee TV Canada
+#DESCRIPTION Zee TV Canada
