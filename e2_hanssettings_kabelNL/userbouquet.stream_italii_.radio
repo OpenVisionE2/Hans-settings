@@ -1,5 +1,5 @@
 #NAME Stream Italië (IT)
-#SERVICE 1:64:5bd:0:0:0:0:0:0:0:
+#SERVICE 1:64:60a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rai++
 #SERVICE 4097:0:2:5:0:0:0:0:0:0:http%3a//icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast:Rai Radio 1
 #DESCRIPTION Rai Radio 1
@@ -39,7 +39,7 @@
 #DESCRIPTION Rai Radio TRST A 
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icestreaming.rai.it/4.mp3:Rai Radio Tutta Italiana
 #DESCRIPTION Rai Radio Tutta Italiana
-#SERVICE 1:64:5be:0:0:0:0:0:0:0:
+#SERVICE 1:64:60b:0:0:0:0:0:0:0:
 #DESCRIPTION ++festival San Remo, themazenders++
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icecast.unitedradio.it/um049.mp3:Music Radio Festival Le Canzoni Vincitrici
 #DESCRIPTION Music Radio Festival Le Canzoni Vincitrici
@@ -49,7 +49,7 @@
 #DESCRIPTION United Music Radio Festival 1951-1999
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icecast.unitedradio.it/um112.mp3:United Music Radio Festival 2000-2021
 #DESCRIPTION United Music Radio Festival 2000-2021
-#SERVICE 1:64:5bf:0:0:0:0:0:0:0:
+#SERVICE 1:64:60c:0:0:0:0:0:0:0:
 #DESCRIPTION ++overig Italiaans++
 #SERVICE 4097:0:2:273:0:0:0:0:0:0:https%3a//onair18.xdevel.com/proxy/7080it?mp=/stream:70-80.it 
 #DESCRIPTION 70-80.it 
@@ -167,6 +167,8 @@
 #DESCRIPTION MC2 Tiffany Channel
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rcs.revma.com/nt1qhvnp81uvv:MC2 Unforgattable Channel
 #DESCRIPTION MC2 Unforgattable Channel
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nr12.newradio.it/stream/8818:Musicavera
+#DESCRIPTION Musicavera
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//klasse1.fluidstream.eu/rete8fm.aac:Otto FM
 #DESCRIPTION Otto FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nr15.newradio.it%3a9132/stream?ext=.mp3:Q8
@@ -329,6 +331,8 @@
 #DESCRIPTION Radio Margherita Giovane
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wma01.fluidstream.net%3a8210/;stream/1:Radio Marilù
 #DESCRIPTION Radio Marilù
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast3.server89.com%3a8070/radio.mp3:Radio Maristella
+#DESCRIPTION Radio Maristella
 #SERVICE 4097:0:2:81:0:0:0:0:0:0:http%3a//onair18.xdevel.com%3a8212/:RADIO MARTE
 #DESCRIPTION RADIO MARTE
 #SERVICE 4097:0:2:355:0:0:0:0:0:0:http%3a//ice12.fluidstream.net/millenote.mp3:RADIO MILLE NOTE
@@ -425,6 +429,8 @@
 #DESCRIPTION RADIO STEREO CITTA'
 #SERVICE 4097:0:2:241:0:0:0:0:0:0:http%3a//trsw.inmystream.info%3a8068/;stream.nsv:RADIO STEREO
 #DESCRIPTION RADIO STEREO
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//studioduecen.radioca.st/stream:Radio StudioDue
+#DESCRIPTION Radio StudioDue
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rsd.streamingmedia.it/play.mp3:Radio Studio Delta
 #DESCRIPTION Radio Studio Delta
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//www.studiopiu.net%3a8000/:RADIO STUDIO PIU'
@@ -459,6 +465,8 @@
 #DESCRIPTION Radio Yacht Sunsation
 #SERVICE 4097:0:2:49:0:0:0:0:0:0:http%3a//shoutcast.rtl.it%3a3030/stream/1/:Radio Zeta LItaliana
 #DESCRIPTION Radio Zeta LItaliana
+#SERVICE 4097:0:2:49:0:0:0:0:0:0:https%3a//server4.streamserver24.com%3a41505/stream:RBI Radio
+#DESCRIPTION RBI Radio
 #SERVICE 4097:0:2:45:0:0:0:0:0:0:https%3a//stream.rds.radio/audio/rds.stream_aac/chunklist.m3u8:RDS
 #DESCRIPTION RDS
 #SERVICE 4097:0:2:45:0:0:0:0:0:0:https%3a//stream.rds.radio/audio/rdsactive.stream_aac/chunklist.m3u8:RDS Active
@@ -479,7 +487,7 @@
 #DESCRIPTION Rete Toscana Classica
 #SERVICE 4097:0:2:109:0:0:0:0:0:0:https%3a//rh.fluidstream.eu/ritmo80.mp3:Ritmo 80
 #DESCRIPTION Ritmo 80
-#SERVICE 1:64:5c0:0:0:0:0:0:0:0:
+#SERVICE 1:64:60d:0:0:0:0:0:0:0:
 #DESCRIPTION ++RMC= Radio Monte Carlo, zie Monaco++
 #SERVICE 4097:0:2:27:0:0:0:0:0:0:http%3a//shoutcast.rtl.it%3a3020/:RTL Best
 #DESCRIPTION RTL Best

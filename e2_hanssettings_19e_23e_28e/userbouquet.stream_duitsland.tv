@@ -1,20 +1,26 @@
 #NAME Stream Duitsland (DE)
-#SERVICE 1:64:1b1:0:0:0:0:0:0:0:
+#SERVICE 1:64:1ca:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders-publieke omroepen++
 #SERVICE 4097:0:1:283d:3fb:1:c00000:0:0:0:https%3a//daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8:ARD
 #DESCRIPTION ARD
 #SERVICE 4097:0:1:283d:3fb:1:c00000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=449&extension=ts:ARD (#)
 #DESCRIPTION ARD (#)
-#SERVICE 4097:0:1:283d:3fb:1:c00000:0:0:0:https%3a//s6.hopslan.com/ardX/tracks-v1a1/mono.m3u8:ARD (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s6.hopslan.com/ardX/tracks-v1a1/mono.m3u8:ARD (#)
+#DESCRIPTION ARD (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/daserstehd/browser-dash/daserstehd.mpd:ARD (#)
 #DESCRIPTION ARD (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025183&extension=ts:ARD Alpha
 #DESCRIPTION ARD Alpha
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/bralpha/browser-HLS8/bralpha.m3u8:ARD Alpha (#)
 #DESCRIPTION ARD Alpha (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8:ARD-Alpha (#)
+#DESCRIPTION ARD-Alpha (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025138&extension=ts:ARD One
 #DESCRIPTION ARD One
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/onehd/browser-HLS8/onehd.m3u8:ARD One (#)
 #DESCRIPTION ARD One (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/phoenixhd/browser-dash/phoenixhd.mpd:Phoenix
+#DESCRIPTION Phoenix
 #SERVICE 4097:0:1:2887:40f:1:c00000:0:0:0:https%3a//tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8:Tagesschau 24
 #DESCRIPTION Tagesschau 24
 #SERVICE 4097:0:1:2856:401:1:c00000:0:0:0:https%3a//mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8:BR Fernsehen Nord
@@ -51,6 +57,8 @@
 #DESCRIPTION MDR Fernsehen Thuringen (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/mdr/browser-HLS8/mdr.m3u8:MDR Fernsehen Thuringen (#)
 #DESCRIPTION MDR Fernsehen Thuringen (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/mdr/browser-HLS8/mdr.m3u8:MDR Fernsehen Thuringen (#)
+#DESCRIPTION MDR Fernsehen Thuringen (#)
 #SERVICE 4097:0:1:2859:401:1:c00000:0:0:0:https%3a//mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8:NDR Fernsehen Hamburg
 #DESCRIPTION NDR Fernsehen Hamburg
 #SERVICE 4097:0:1:2859:401:1:c00000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1280711&extension=ts:NDR Fernsehen Hamburg (#)
@@ -67,6 +75,8 @@
 #DESCRIPTION NDR Fernsehen Schleswig-Holstein
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025416&extension=ts:NDR Fernsehen Schleswig-Holstein (#)
 #DESCRIPTION NDR Fernsehen Schleswig-Holstein (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rbb/browser-HLS8/rbb.m3u8:RBB Fernsehen
+#DESCRIPTION RBB Fernsehen
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025171&extension=ts:RBB Berlin
 #DESCRIPTION RBB Berlin
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_rbb_tizen/playlist.m3u8:RBB Berlin (#)
@@ -139,12 +149,18 @@
 #DESCRIPTION KiKA (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8:KiKA (#)
 #DESCRIPTION KiKA (#)
-#SERVICE 1:64:1b2:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8:KiKA (#)
+#DESCRIPTION KiKA (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8:KiKA (#)
+#DESCRIPTION KiKA (#)
+#SERVICE 1:64:1cb:0:0:0:0:0:0:0:
 #DESCRIPTION ++commerciële zenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ma.anixa.tv/clips/stream/anixehd/index.m3u8:Anixe
 #DESCRIPTION Anixe
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025140&extension=ts:Anixe Serie
 #DESCRIPTION Anixe Serie
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//c3921155.edmonst.net/iptv/65C7UBRRW8GHQVYPH2MQT3SA/15171/index.m3u8:ARTE
+#DESCRIPTION ARTE
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025372&extension=ts:Deluxe Dance
 #DESCRIPTION Deluxe Dance
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/95d6544c-4164-11ec-9c7c-2cf753b8a203/0/master.m3u8?uid=%257BPSID%257D&optout=%257BTARGETOPT%257D&country=DE&vendor=samsung:Deluxe Deutsche Pop
@@ -154,6 +170,8 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025297&extension=ts:Deluxe Music
 #DESCRIPTION Deluxe Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8:Deluxe Music (#)
+#DESCRIPTION Deluxe Music (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/deluxemusic/browser-HLS8/deluxemusic.m3u8:Deluxe Music (#)
 #DESCRIPTION Deluxe Music (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8:Deluxe Rap
 #DESCRIPTION Deluxe Rap
@@ -175,6 +193,8 @@
 #DESCRIPTION K-TV
 #SERVICE 4097:0:1:ef76:3f9:1:c00000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025129&extension=ts:Kabel 1
 #DESCRIPTION Kabel 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8:Kabel 1 (#)
+#DESCRIPTION Kabel 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025155&extension=ts:Kabel 1 Classics
 #DESCRIPTION Kabel 1 Classics
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025268&extension=ts:Kabel 1 Doku
@@ -211,16 +231,20 @@
 #DESCRIPTION RTL 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rtl2/browser-HLS8/rtl2.m3u8:RTL 2 (#)
 #DESCRIPTION RTL 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025142&extension=ts:RTL Crime
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//c3921155.edmonst.net/iptv/65C7UBRRW8GHQVYPH2MQT3SA/15178/index.m3u8:RTL Crime
 #DESCRIPTION RTL Crime
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025142&extension=ts:RTL Crime (#)
+#DESCRIPTION RTL Crime (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025158&extension=ts:RTL Living
 #DESCRIPTION RTL Living
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025143&extension=ts:RTL Nitro
 #DESCRIPTION RTL Nitro
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rtlnitro/browser-HLS8/rtlnitro.m3u8:RTL Nitro (#)
 #DESCRIPTION RTL Nitro (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025157&extension=ts:RTL Passion
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//c3921155.edmonst.net/iptv/65C7UBRRW8GHQVYPH2MQT3SA/31369/index.m3u8:RTL Passion
 #DESCRIPTION RTL Passion
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025157&extension=ts:RTL Passion (#)
+#DESCRIPTION RTL Passion (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025192&extension=ts:RTL Super
 #DESCRIPTION RTL Super
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/superrtl/browser-dash/superrtl.mpd:RTL Super (#)
@@ -237,10 +261,14 @@
 #DESCRIPTION SAT 1 Gold
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strm.hdtvizlecanli.com/live/sat1gold.m3u8:SAT 1 Gold (#)
 #DESCRIPTION SAT 1 Gold (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_sat_eins_gold_tizen/playlist.m3u8:SAT.1 Gold (#)
+#DESCRIPTION SAT.1 Gold (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025296&extension=ts:Schlager Deluxe
 #DESCRIPTION Schlager Deluxe
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//euvia.cdn.ses-ps.com/HLS-Live/index.m3u8:Sonnenklar TV
 #DESCRIPTION Sonnenklar TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live20.bozztv.com/akamaissh101/ssh101/sportdigtal1/playlist.m3u8:Sportdigital FUSSBALL
+#DESCRIPTION Sportdigital FUSSBALL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1025135&extension=ts:Tele 5
 #DESCRIPTION Tele 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strm.hdtvizlecanli.com/live/tele5.m3u8:Tele 5 (#)
@@ -265,7 +293,7 @@
 #DESCRIPTION Welt (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8:Welt der Wunder
 #DESCRIPTION Welt der Wunder
-#SERVICE 1:64:1b3:0:0:0:0:0:0:0:
+#SERVICE 1:64:1cc:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//123tv.cdn.ses-ps.com/index.m3u8:1-2-3 TV 
 #DESCRIPTION 1-2-3 TV 
@@ -315,6 +343,8 @@
 #DESCRIPTION Parlamentsfernsehen 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8:RiC
 #DESCRIPTION RiC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/ric/browser-HLS8/ric.m3u8:RiC (#)
+#DESCRIPTION RiC (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58de7a369a9c4.streamlock.net/salvetv/stream_720p/playlist.m3u8:Salve TV 
 #DESCRIPTION Salve TV 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bild-und-ton.stream/snj-de/snj-de.smil/.m3u8:Sender Neu Jerusalem
@@ -331,7 +361,7 @@
 #DESCRIPTION VISIT-X.tv 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-ue1-prod.tsv2.amagi.tv/linear/xiteaaaaa-xite-samsung-de/playlist.m3u8:Xite
 #DESCRIPTION Xite
-#SERVICE 1:64:1b4:0:0:0:0:0:0:0:
+#SERVICE 1:64:1cd:0:0:0:0:0:0:0:
 #DESCRIPTION ++lokale zenders++
 #SERVICE 4097:0:1:16a8:3ff:1:c00000:0:0:0:http%3a//178.248.241.103/iptv/atv.ts:a.tv Augsburg
 #DESCRIPTION a.tv Augsburg
@@ -431,7 +461,7 @@
 #DESCRIPTION OK Rhein-Main
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4%3aok-salzwedel_high/playlist.m3u8:OK Salzwedel
 #DESCRIPTION OK Salzwedel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//58bd5b7a98e04.streamlock.net/medienasa-live/mp4%3aok-stendal_high/playlist.m3u8:OK Stendal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//58bd5b7a98e04.streamlock.net/medienasa-live/ok-stendal_high/playlist.m3u8:OK Stendal
 #DESCRIPTION OK Stendal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4%3aok-wernigerode_high/playlist.m3u8:OK Wernigerode
 #DESCRIPTION OK Wernigerode

@@ -1,5 +1,5 @@
 #NAME Stream Duitsland (DE)
-#SERVICE 1:64:5ad:0:0:0:0:0:0:0:
+#SERVICE 1:64:60f:0:0:0:0:0:0:0:
 #DESCRIPTION ++ARD-zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/br/br1/franken/mp3/mid:BR - Bayern 1 - Franken
 #DESCRIPTION BR - Bayern 1 - Franken
@@ -43,12 +43,6 @@
 #DESCRIPTION MDR Jump
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mdr-284320-0.cast.mdr.de/mdr/284320/0/mp3/high/stream.mp3:MDR Jump
 #DESCRIPTION MDR Jump
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284321-2_mp3_high.m3u:MDR Jump -Iin the mix
-#DESCRIPTION MDR Jump -Iin the mix
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284321-1_mp3_high.m3u:MDR Jump Rockchannel
-#DESCRIPTION MDR Jump Rockchannel
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284321-0_mp3_high.m3u:MDR Jump Trendchannel
-#DESCRIPTION MDR Jump Trendchannel
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//avw.mdr.de/streams/284350-0_mp3_max.m3u:MDR Klassik
 #DESCRIPTION MDR Klassik
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mdr-284350-0.sslcast.mdr.de/mdr/284350/0/mp3/high/stream.mp3:MDR Klassik
@@ -293,20 +287,16 @@
 #DESCRIPTION SWR - SWR 2 Kultur Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr3/play.mp3:SWR - SWR 3
 #DESCRIPTION SWR - SWR 3
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw331ch/raka08/play.aac:SWR - SWR 3 Gottschalk & Zoller
-#DESCRIPTION SWR - SWR 3 Gottschalk & Zoller
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw331ch/raka08/play.aac:SWR - SWR 3 80er
+#DESCRIPTION SWR - SWR 3 80er
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw331ch/raka03/:SWR - SWR 3 Lyrix
 #DESCRIPTION SWR - SWR 3 Lyrix
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw331ch/raka08/:SWR - SWR 3 Mottotage
-#DESCRIPTION SWR - SWR 3 Mottotage
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw331ch/raka09/play.aac:SWR - SWR 3 New Pop%3a Das Best Of Im Radio
-#DESCRIPTION SWR - SWR 3 New Pop: Das Best Of Im Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw331ch/raka09/play.aac:SWR - SWR 3 Musik jahr 2025       
+#DESCRIPTION SWR - SWR 3 Musik jahr 2025       
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw331ch/raka06/:SWR - SWR 3 Party
 #DESCRIPTION SWR - SWR 3 Party
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw331ch/raka05/:SWR - SWR 3 Rock
 #DESCRIPTION SWR - SWR 3 Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw331ch/raka09/:SWR - SWR 3 Specials
-#DESCRIPTION SWR - SWR 3 Specials
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4bw/play.mp3:SWR - SWR 4 Baden-Württemberg
 #DESCRIPTION SWR - SWR 4 Baden-Württemberg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4fn/play.mp3:SWR - SWR 4 Baden-Württemberg Friedrichshafen
@@ -337,22 +327,24 @@
 #DESCRIPTION SWR - SWR 4 Rheinland-Pfalz Mainz
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4tr/play.mp3:SWR - SWR 4 Rheinland-Pfalz Trier
 #DESCRIPTION SWR - SWR 4 Rheinland-Pfalz Trier
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3:WDR - 1 Live
-#DESCRIPTION WDR - 1 Live
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//addrad.io/4WRMHS:WDR - 1 Live Diggi
-#DESCRIPTION WDR - 1 Live Diggi
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3:WDR - 1 Live Diggi (#)
-#DESCRIPTION WDR - 1 Live Diggi (#)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3:WDR - 1 Live DJ-Session
-#DESCRIPTION WDR - 1 Live DJ-Session
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-fiehe.icecast.wdr.de/wdr/1live/fiehe/mp3/128/stream.mp3:WDR - 1 Live Fiehe
-#DESCRIPTION WDR - 1 Live Fiehe
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-hiphop.icecast.wdr.de/wdr/1live/hiphop/mp3/128/stream.mp3:WDR - 1 Live HipHop
-#DESCRIPTION WDR - 1 Live HipHop
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-neufuerdensektor.icecast.wdr.de/wdr/1live/neufuerdensektor/mp3/128/stream.mp3:WDR - 1 Live Neu Für Den Sektor
-#DESCRIPTION WDR - 1 Live Neu Für Den Sektor
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-planb.icecast.wdr.de/wdr/1live/planb/mp3/128/stream.mp3:WDR - 1 Live Plan B
-#DESCRIPTION WDR - 1 Live Plan B
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3:WDR - 1Live
+#DESCRIPTION WDR - 1Live
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//addrad.io/4WRMHS:WDR - 1Live Diggi
+#DESCRIPTION WDR - 1Live Diggi
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3:WDR - 1Live Diggi (#)
+#DESCRIPTION WDR - 1Live Diggi (#)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//wdr-1live-dancehits.icecast.wdr.de/wdr/1live/dancehits/mp3/128/stream.mp3:WDR - 1Live Dance Hits
+#DESCRIPTION WDR - 1Live Dance Hits
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//wdr-1live-rockhits.icecast.wdr.de/wdr/1live/rockhits/mp3/128/stream.mp3:WDR - 1Live Rock Hits
+#DESCRIPTION WDR - 1Live Rock Hits
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//wdr-1live-chillout.icecast.wdr.de/wdr/1live/chillout/mp3/128/stream.mp3:WDR - 1Live Chillout
+#DESCRIPTION WDR - 1Live Chillout
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//wdr-1live-mixderwoche.icecast.wdr.de/wdr/1live/mixderwoche/mp3/128/stream.mp3:WDR - 1Live Originale
+#DESCRIPTION WDR - 1Live Originale
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//wdr-1live-hiphoprnb.icecast.wdr.de/wdr/1live/hiphoprnb/mp3/128/stream.mp3:WDR - 1Live RnB & Hip Hop
+#DESCRIPTION WDR - 1Live RnB & Hip Hop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//wdr-1live-tophits.icecast.wdr.de/wdr/1live/tophits/mp3/128/stream.mp3:WDR - 1Live Top hits
+#DESCRIPTION WDR - 1Live Top hits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-specials.icecast.wdr.de/wdr/1live/specials/mp3/128/stream.mp3:WDR - 1 Live Special
 #DESCRIPTION WDR - 1 Live Special
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//wdrhf.akamaized.net/hls/live/2027966/wdr2rheinland/96/seglist.m3u8:WDR - WDR 2
@@ -405,7 +397,7 @@
 #DESCRIPTION WDR - Die Maus
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d111.rndfnk.com/ard/wdr/wdr/event/mp3/128/stream.mp3?aggregator=web&cid=01FC1VHKSA446AN8QN07VP9XCQ&sid=2ybYp4rkZQYGZqF9unyS5vOoysF&token=UUvyv6LfiWRw8EqR3BlIHzlAM-MSV3Rq7Z1gxDYazMU&tvf=Jsnh9cuySRhkMTExLnJuZGZuay5jb20:WDR - Event
 #DESCRIPTION WDR - Event
-#SERVICE 1:64:5ae:0:0:0:0:0:0:0:
+#SERVICE 1:64:610:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667:80s80s
 #DESCRIPTION 80s80s
@@ -561,6 +553,8 @@
 #DESCRIPTION Absolut Radio - AI
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge05.live-sm.absolutradio.de/absolut-bella/stream/mp3:Absolut Radio - Bella
 #DESCRIPTION Absolut Radio - Bella
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge80.live-sm.absolutradio.de/absolut-oldieclassics/stream/aacp:Absolut Radio - Classics
+#DESCRIPTION Absolut Radio - Classics
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge10.live-sm.absolutradio.de/absolut-germany:Absolut Radio - Germany
 #DESCRIPTION Absolut Radio - Germany
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge04.live-sm.absolutradio.de/absolut-hot/stream/mp3:Absolut Radio - Hot
@@ -569,8 +563,6 @@
 #DESCRIPTION Absolut Radio - Love Songs
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge02.live-sm.absolutradio.de/absolut-musicxl/stream/mp3:Absolut Radio - Music XL
 #DESCRIPTION Absolut Radio - Music XL
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge04.live-sm.absolutradio.de/absolut-oldieclassics/stream/mp3:Absolut Radio - Oldie Classics
-#DESCRIPTION Absolut Radio - Oldie Classics
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge04.live-sm.absolutradio.de/absolut-relax/stream/mp3:Absolut Radio - Relax
 #DESCRIPTION Absolut Radio - Relax
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge03.live-sm.absolutradio.de/absolut-top/stream/mp3:Absolut Radio - Top 
@@ -1465,8 +1457,8 @@
 #DESCRIPTION FFN - Rockt!
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//ffn-de-hz-fal-stream07-cluster01.radiohost.de/tannenbaum_mp3-192:FFN - Tannenbaum
 #DESCRIPTION FFN - Tannenbaum
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n31a-eu.rcs.revma.com/8actzfn0742vv.mp3:FG Chic
-#DESCRIPTION FG Chic
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n31a-eu.rcs.revma.com/8actzfn0742vv.mp3:FG Chic Berlin
+#DESCRIPTION FG Chic Berlin
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//213.238.33.199%3a8000/theflavormixHIGH:FlavorMix
 #DESCRIPTION FlavorMix
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fluxfm.hoerradar.de/fluxfmberlin-live-mp3-hq:FluxFM

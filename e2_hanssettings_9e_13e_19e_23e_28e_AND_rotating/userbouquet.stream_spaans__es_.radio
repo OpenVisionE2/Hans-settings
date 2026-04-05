@@ -1,5 +1,5 @@
 #NAME Stream Spaans (ES)
-#SERVICE 1:64:1973:0:0:0:0:0:0:0:
+#SERVICE 1:64:1978:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/crtve/rne1/main/mp3/high:RNE Radio Nacional
 #DESCRIPTION RNE Radio Nacional
@@ -25,11 +25,11 @@
 #DESCRIPTION RNE Exterior
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtvelivestream.akamaized.net/rtvesec/rne/rne_re_main.m3u8:RNE Exterior
 #DESCRIPTION RNE Exterior
-#SERVICE 1:64:1974:0:0:0:0:0:0:0:
+#SERVICE 1:64:1979:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL-talig - Canarische Eilanden en costas/NL++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//panel.amediastream.eu%3a8500/live:Holland FM
 #DESCRIPTION Holland FM
-#SERVICE 1:64:1975:0:0:0:0:0:0:0:
+#SERVICE 1:64:197a:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL-talig - Canarische Eilanden en costas/BE++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//opsinjoor2.live-streams.nl/:Mooi Radio Tenerife
 #DESCRIPTION Mooi Radio Tenerife
@@ -37,19 +37,33 @@
 #DESCRIPTION Radio 7 Costa Blanca
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.wradio.es%3a9000/;?type=http&nocache=1239603:Wradio (Westhoek%3a Ieper, Roeselare en Zonnebeke + Costa Blanca)
 #DESCRIPTION Wradio (Westhoek: Ieper, Roeselare en Zonnebeke + Costa Blanca)
-#SERVICE 1:64:1976:0:0:0:0:0:0:0:
+#SERVICE 1:64:197b:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL-talig Ibiza++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-15.aiir.com/a85tlgriuzyuv:SAM
 #DESCRIPTION SAM
-#SERVICE 1:64:1977:0:0:0:0:0:0:0:
+#SERVICE 1:64:197c:0:0:0:0:0:0:0:
 #DESCRIPTION ++België voor Tenerife++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.fmgoud.be/fm-goud-tenerife:FM Goud Tenerife
 #DESCRIPTION FM Goud Tenerife
-#SERVICE 1:64:1978:0:0:0:0:0:0:0:
+#SERVICE 1:64:197d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Duitstalig voor Mallorca++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.malle.radio/malle.radio.mp3:Malle.Radio
 #DESCRIPTION Malle.Radio
-#SERVICE 1:64:1979:0:0:0:0:0:0:0:
+#SERVICE 1:64:197e:0:0:0:0:0:0:0:
+#DESCRIPTION ++Baskenland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdn-euskadi-musika.guau.eus/out/v1/66528a40a529471ba74c9d2e799697ac/index_3.m3u8:EITB Musika
+#DESCRIPTION EITB Musika
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdn-euskadi-irratia.guau.eus/out/v1/bd5d98d4ed334b528ef81d7a574aca78/index.mpd:Euskadi Irratia
+#DESCRIPTION Euskadi Irratia
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdn-euskal-kantak.guau.eus/out/v1/07b4c849792f49a9aaf7a2fe0e1ba507/index.mpd:Euskal Kantak
+#DESCRIPTION Euskal Kantak
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdn-gaztea.guau.eus/out/v1/0631a44f3985495786d6cba9beff568c/index_8.m3u8:Gaztea
+#DESCRIPTION Gaztea
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdn-radio-euskadi.guau.eus/out/v1/fe189660d576437b92aae7c7a9de9be0/index.mpd:Radio Euskadi
+#DESCRIPTION Radio Euskadi
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdn-radio-vitoria.guau.eus/out/v1/4ef94e0968ff400fad0b7ea8739ae813/index.mpd:Radio Vitoria
+#DESCRIPTION Radio Vitoria
+#SERVICE 1:64:197f:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.10.10.225/zaragoza/live-web/chunklist_b128000.m3u8?GKID=dc544ece277711e9809800163e914f69:Aragón Radio
 #DESCRIPTION Aragón Radio
@@ -85,9 +99,7 @@
 #DESCRIPTION Coast FM - Tenerife North (Canarische eilanden - Spanje)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.costahitradio.com%3a8134/stream:Costa Hit Radio NL
 #DESCRIPTION Costa Hit Radio NL
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cadena100-cope.flumotion.com/playlist.m3u8:Cope
-#DESCRIPTION Cope
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//flucast-b02-05.flumotion.com/cope/net2.mp3:COPE Nacional
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//flucast11-o-cloud.flumotion.com/cope/net1.mp3:COPE Nacional
 #DESCRIPTION COPE Nacional
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wecast17-h-cloud.flumotion.com/copesedes/barcelona.mp3:COPE Barcelona
 #DESCRIPTION COPE Barcelona

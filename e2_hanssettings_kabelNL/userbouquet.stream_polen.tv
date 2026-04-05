@@ -1,6 +1,8 @@
 #NAME Stream Polen (PL)
-#SERVICE 1:64:422:0:0:0:0:0:0:0:
+#SERVICE 1:64:46d:0:0:0:0:0:0:0:
 #DESCRIPTION ++TVP++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.130.250.2%3a8023/play/a03a/index.m3u8:TVP HD
+#DESCRIPTION TVP HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227463&extension=ts:TVP 1
 #DESCRIPTION TVP 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ec06-krk3.cache.orange.pl/dai4/org1/vb/104/tvp1hd/index.m3u8:TVP 1 (#)
@@ -15,6 +17,8 @@
 #DESCRIPTION TVP 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdndai.pl/tvp2hd/index.m3u8:TVP 2 (#)
 #DESCRIPTION TVP 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lowa8026-cmyk.github.io/tvpvod/399698.m3u8:TVP 2 (#)
+#DESCRIPTION TVP 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227461&extension=ts:TVP 3
 #DESCRIPTION TVP 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdndai.pl/tvp3warszawasd/index.m3u8:TVP 3 (#)
@@ -25,36 +29,56 @@
 #DESCRIPTION TVP Polonia (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_tvp_polonia/playlist.m3u8:TVP Polonia (#)
 #DESCRIPTION TVP Polonia (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/tvpolonia/browser-dash/tvpolonia.mpd:TVP Polonia (#)
+#DESCRIPTION TVP Polonia (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227285&extension=ts:TVP Sport
 #DESCRIPTION TVP Sport
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//estreams.tv.nej.cz/dash/CH_TVP_SPORT_Portable.ism/playlist.mpd:TVP Sport (#)
+#DESCRIPTION TVP Sport (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.129.193.20/tsstreamer/TVP_SD.ts:TVP World
 #DESCRIPTION TVP World
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227360&extension=ts:TVP ABC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=tv4_:TVP ABC
 #DESCRIPTION TVP ABC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227329&extension=ts:TVP Historia
 #DESCRIPTION TVP Historia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lowa8026-cmyk.github.io/tvpvod/399702.m3u8:TVP Historia (#)
+#DESCRIPTION TVP Historia (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227275&extension=ts:TVP Info
 #DESCRIPTION TVP Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_tvp_info/playlist.m3u8:TVP Info (#)
 #DESCRIPTION TVP Info (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227405&extension=ts:TVP Kultura
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lowa8026-cmyk.github.io/tvpvod/399699.m3u8:TVP Info (#)
+#DESCRIPTION TVP Info (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.130.250.2%3a8023/play/a03b/index.m3u8:TVP Info (#)
+#DESCRIPTION TVP Info (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=fox_comedy24tv:TVP Kultura
 #DESCRIPTION TVP Kultura
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227367&extension=ts:TVP Rozrywka
 #DESCRIPTION TVP Rozrywka
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227412&extension=ts:TVP Seriale
 #DESCRIPTION TVP Seriale
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227285&extension=ts:TVP Sport
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=sportTVP_channeed:TVP Sport
 #DESCRIPTION TVP Sport
-#SERVICE 1:64:423:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lowa8026-cmyk.github.io/tvpvod/399702.m3u8:TVP Sport (#)
+#DESCRIPTION TVP Sport (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_tvp_world/playlist.m3u8:TVP World
+#DESCRIPTION TVP World
+#SERVICE 1:64:46e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Polsat++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227455&extension=ts:Polsat
 #DESCRIPTION Polsat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-s-lb2.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd:Polsat (#)
+#DESCRIPTION Polsat (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227454&extension=ts:Polsat 2
 #DESCRIPTION Polsat 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227359&extension=ts:Polsat Cafe
 #DESCRIPTION Polsat Cafe
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227273&extension=ts:Polsat Comedy Central
 #DESCRIPTION Polsat Comedy Central
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=comedyfamily_sd:Polsat Comedy Central Extra
+#DESCRIPTION Polsat Comedy Central Extra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh011.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc107/polsatcihdraw/polsatcihdraw.m3u8:Polsat Crime + Investigation Polsat
+#DESCRIPTION Polsat Crime + Investigation Polsat
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227326&extension=ts:Polsat Doku
 #DESCRIPTION Polsat Doku
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227345&extension=ts:Polsat Film
@@ -67,8 +91,8 @@
 #DESCRIPTION Polsat Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227280&extension=ts:Polsat News
 #DESCRIPTION Polsat News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-s-lb2.pluscdn.pl/lv/1517830/349/dash/81ec4c32/live.mpd:Polsat News
-#DESCRIPTION Polsat News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-s-lb2.pluscdn.pl/lv/1517830/349/hls/f03a76f3/masterlist.m3u8:Polsat News (#)
+#DESCRIPTION Polsat News (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227279&extension=ts:Polsat News 2
 #DESCRIPTION Polsat News 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=190682&extension=ts:Polsat News Polityka
@@ -97,11 +121,13 @@
 #DESCRIPTION Polsat Viasat History (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227314&extension=ts:Polsat Viasat Nature
 #DESCRIPTION Polsat Viasat Nature
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh011.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc104/polsatviasatnaturehdraw/polsatviasatnaturehdraw.m3u8:Polsat Viasat Nature (#)
+#DESCRIPTION Polsat Viasat Nature (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227332&extension=ts:CI Polsat
 #DESCRIPTION CI Polsat
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227453&extension=ts:Super Polsat
 #DESCRIPTION Super Polsat
-#SERVICE 1:64:424:0:0:0:0:0:0:0:
+#SERVICE 1:64:46f:0:0:0:0:0:0:0:
 #DESCRIPTION ++TVN++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227452&extension=ts:TVN
 #DESCRIPTION TVN
@@ -119,7 +145,7 @@
 #DESCRIPTION TVN Turbo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227269&extension=ts:iTVN
 #DESCRIPTION iTVN
-#SERVICE 1:64:425:0:0:0:0:0:0:0:
+#SERVICE 1:64:470:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.4fun.tv%3a8889/hls/4fk_high/index.m3u8:4 Fun Kids
 #DESCRIPTION 4 Fun Kids
@@ -131,12 +157,16 @@
 #DESCRIPTION Eska Rock Dobrze Rockuje
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227337&extension=ts:Eska TV
 #DESCRIPTION Eska TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh009.cda.pl/2mwlMj_cpciQwY9XKkuwooIeujskIie828C5uElA/1760154894/24372638/enc024/espresotvraw/espresotvraw.m3u8:Espreso TV
+#DESCRIPTION Espreso TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-s-lb2.pluscdn.pl/ch/1580235/3496/hls/a149fc4b/masterlist.m3u8:Mango
+#DESCRIPTION Mango
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live20.bozztv.com/giatvplayout7/giatv-211328/playlist.m3u8:Mazowsze.tv
+#DESCRIPTION Mazowsze.tv
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cbxedge.synapsetv.com/picker/tsstreamer/?f=RedCarpetTVLDAI_SD&sessionID=IOOlOK0MLN0ytoF0qULYt8LtoJ6z.qu9Z9P72ST7e3qooF-1745345173079:Red Carpet TV
 #DESCRIPTION Red Carpet TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa-40c6-41b8-8634-595c424f856e/21f67fd1-4d21-43ba-8ad8-3afac9982c25/master.m3u8:Red Carpet TV International
 #DESCRIPTION Red Carpet TV International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.4vod.tv/playout/repl-abr/index.m3u8:Remonty TV
-#DESCRIPTION Remonty TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/sepl-abr/index.m3u8:Super Express
 #DESCRIPTION Super Express
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227459&extension=ts:TV 4
@@ -155,7 +185,9 @@
 #DESCRIPTION Power TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227448&extension=ts:TV Puls
 #DESCRIPTION TV Puls
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227391&extension=ts:Puls 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge06.cdn.emitel.pl/bpk-tv/Puls_HD/hbbtv-hls/index.m3u8:TV Puls (#)
+#DESCRIPTION TV Puls (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge06.cdn.emitel.pl/bpk-tv/Puls2_HD/hbbtv-hls/index.m3u8:Puls 2
 #DESCRIPTION Puls 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.raciborz24.pl/hls/test_high/index.m3u8:Raciborz 24
 #DESCRIPTION Raciborz 24
@@ -167,11 +199,15 @@
 #DESCRIPTION TVT
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//str.onnetwork.tv/hls/onnet-358726_hi/index.m3u8:W Polsce 24
 #DESCRIPTION W Polsce 24
-#SERVICE 1:64:426:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh011.cda.pl/P8IjbpepCvx7lF8FyJcdAQ/1755751084/2430238/enc109/wphdraw/wphdraw.m3u8:WP TV
+#DESCRIPTION WP TV
+#SERVICE 1:64:471:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
+#SERVICE 1:64:472:0:0:0:0:0:0:0:
+#DESCRIPTION POLEN
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh011.cda.pl/enc117/2x2hdraw/2x2hdraw.m3u8:2x2
 #DESCRIPTION 2x2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=227414&extension=ts:13 Ulica
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=nowa_tvhv:13 Ulica
 #DESCRIPTION 13 Ulica
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh009.cda.pl/enc114/antenatvhdraw/antenatvhdraw.m3u8:Antena
 #DESCRIPTION Antena
@@ -181,28 +217,44 @@
 #DESCRIPTION BTB Music
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8:Cartoon Classics
 #DESCRIPTION Cartoon Classics
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8?ads.vf=7TNIxrkadpW:Cartoon Classics (#)
+#DESCRIPTION Cartoon Classics (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh010.cda.pl/enc006/comedycentralhdraw/comedycentralhdraw.m3u8:Comedy Central
 #DESCRIPTION Comedy Central
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=comedycentralpl:Comedy Central (#)
+#DESCRIPTION Comedy Central (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh011.cda.pl/enc103/disneychannelhdraw/disneychannelhdraw.m3u8:Disney Channel
 #DESCRIPTION Disney Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=eska__tvmusic:Eska TV
 #DESCRIPTION Eska TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdn-s-lb2.pluscdn.pl/lv/1517832/351/dash/2699af69/live.mpd:Gramy Dalej
+#DESCRIPTION Gramy Dalej
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/hdpl-abr/index.m3u8:HiDance
 #DESCRIPTION HiDance
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/hmpl-abr/index.m3u8:HiMusic
 #DESCRIPTION HiMusic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh011.cda.pl/enc117/topkidsjrhdraw/topkidsjrhdraw.m3u8:Junior Music
 #DESCRIPTION Junior Music
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=kino_polska_tv:Kino Polska
+#DESCRIPTION Kino Polska
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=filmbox_kinotv:Kino TV
+#DESCRIPTION Kino TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh009.cda.pl/enc116/motowizjahdraw/motowizjahdraw.m3u8:Motowizja
 #DESCRIPTION Motowizja
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/mupl-abr/index.m3u8:Muratorplus.
 #DESCRIPTION Muratorplus.
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1409502578.rsc.cdn77.org/live/stream-1/chunklist.m3u8:New TV
 #DESCRIPTION New TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=sportta:Paramount Network
+#DESCRIPTION Paramount Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/pzpl-abr/index.m3u8:Poradnik Zdrowie
 #DESCRIPTION Poradnik Zdrowie
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8:Radio Czworka
 #DESCRIPTION Radio Czworka
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1888165924.rsc.cdn77.org/live/RadioRAM/playlist.m3u8:Radio RAM
+#DESCRIPTION Radio RAM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//prx-y5cf8.4vod.tv/playout/repl-abr67/index.m3u8:Remonty TV
+#DESCRIPTION Remonty TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s-pl-01.mediatool.tv/playout/shpl-abr/index.m3u8:SAYHi
 #DESCRIPTION SAYHi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.sferatv.pl/sferatvlive/live.m3u8:Sfera TV
@@ -229,6 +281,8 @@
 #DESCRIPTION TV Mazowsze
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lb2-e3-20.pluscdn.pl/ch/1523532/366/dash/2cf383bb/live.mpd:TV Okazje
 #DESCRIPTION TV Okazje
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=jtv6:TV Republika
+#DESCRIPTION TV Republika
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//217.173.176.107%3a1935/live/tvk.stream/playlist.m3u8:TV Toruń
 #DESCRIPTION TV Toruń
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveovh010.cda.pl/enc118/tvchdraw/tvchdraw.m3u8:TVC

@@ -1,26 +1,48 @@
 #NAME Stream Portugal (PT)
-#SERVICE 1:64:427:0:0:0:0:0:0:0:
+#SERVICE 1:64:473:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959254&extension=ts:RTP 1
+#SERVICE 4097:0:1:65:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artp1HD.smil/playlist.m3u8:RTP 1
 #DESCRIPTION RTP 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959257&extension=ts:RTP 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8:RTP 1 (#)
+#DESCRIPTION RTP 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959254&extension=ts:RTP 1 (#)
+#DESCRIPTION RTP 1 (#)
+#SERVICE 4097:0:1:66:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd:RTP 2
 #DESCRIPTION RTP 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959257&extension=ts:RTP 2 (#)
+#DESCRIPTION RTP 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8:RTP 2 (#)
+#DESCRIPTION RTP 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107449&extension=ts&play_token=bYZgY5bVOP:RTP 2 (#)
 #DESCRIPTION RTP 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959260&extension=ts:RTP 3
 #DESCRIPTION RTP 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959282&extension=ts:RTP África
+#SERVICE 4097:0:1:a6:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpafrica.smil/playlist.m3u8:RTP África
 #DESCRIPTION RTP África
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959280&extension=ts:RTP Madeira
-#DESCRIPTION RTP Madeira
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959278&extension=ts:RTP Açores
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959282&extension=ts:RTP África (#)
+#DESCRIPTION RTP África (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rtpi/browser-HLS8/rtpi.m3u8:RTP Internacional
+#DESCRIPTION RTP Internacional
+#SERVICE 4097:0:1:69:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8:RTP Notícias
+#DESCRIPTION RTP Notícias
+#SERVICE 4097:0:1:a3:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpmem.smil/playlist.m3u8:RTP Memória
+#DESCRIPTION RTP Memória
+#SERVICE 4097:0:1:a7:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpacoresHD.smil/playlist.m3u8:RTP Açores
 #DESCRIPTION RTP Açores
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959278&extension=ts:RTP Açores (#)
+#DESCRIPTION RTP Açores (#)
+#SERVICE 4097:0:1:6a:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpmadeira.smil/playlist.m3u8:RTP Madeira
+#DESCRIPTION RTP Madeira
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959280&extension=ts:RTP Madeira (#)
+#DESCRIPTION RTP Madeira (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959283&extension=ts:RTP Memória
 #DESCRIPTION RTP Memória
+#SERVICE 4097:0:1:2c9:1b58:13e:820000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpi.smil/playlist.m3u8:RTP Mundo
+#DESCRIPTION RTP Mundo
+#SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpzigzag.smil/playlist.m3u8:RTP ZigZag
+#DESCRIPTION RTP ZigZag
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959329&extension=ts:Canal 11
 #DESCRIPTION Canal 11
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//60.246.171.122%3a8891/bysid/92:Canal Macau
-#DESCRIPTION Canal Macau
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8:NPC Rádio e TV 
 #DESCRIPTION NPC Rádio e TV 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8:SIC
@@ -49,13 +71,13 @@
 #DESCRIPTION SIC Radical
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8:SIC Replay
 #DESCRIPTION SIC Replay
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8:TVI
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/TVI.m3u:TVI
 #DESCRIPTION TVI
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959269&extension=ts:TVI (#)
 #DESCRIPTION TVI (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8:TVI Afrika
 #DESCRIPTION TVI Afrika
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tviint.m3u8:TVI International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/TVI_Internacional.m3u:TVI International
 #DESCRIPTION TVI International
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8:TVI Ficção
 #DESCRIPTION TVI Ficção
@@ -63,7 +85,7 @@
 #DESCRIPTION TVI Reality
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8:TVI V+
 #DESCRIPTION TVI V+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8:CNN Portugal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/CNN_Portugal.m3u:CNN Portugal
 #DESCRIPTION CNN Portugal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959301&extension=ts:Euronews Portugal
 #DESCRIPTION Euronews Portugal
@@ -73,7 +95,7 @@
 #DESCRIPTION Record News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.vivatele.com%3a443/live/viva_padrao/viva2384/13.m3u8:Record TV
 #DESCRIPTION Record TV
-#SERVICE 1:64:428:0:0:0:0:0:0:0:
+#SERVICE 1:64:474:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959446&extension=ts:A Bola TV
 #DESCRIPTION A Bola TV
@@ -101,8 +123,6 @@
 #DESCRIPTION Globo News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959610&extension=ts:Globo Now
 #DESCRIPTION Globo Now
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959609&extension=ts:Globo Premium
-#DESCRIPTION Globo Premium
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959496&extension=ts:Hollywood
 #DESCRIPTION Hollywood
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w1.manasat.com/igrejaonline/smil%3aigrejaonline.smil/playlist.m3u8:Igreja Online
@@ -143,5 +163,5 @@
 #DESCRIPTION Travel Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8:TV Cancao Nova
 #DESCRIPTION TV Cancao Nova
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.novotempo.com%3a1935/tv/tvnovotempo.smil/live.m3u8:TV Novo Tempo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.live.novotempo.com/tv/smil%3atvnovotempo.smil/chunklist_b878000_slpor.m3u8:TV Novo Tempo
 #DESCRIPTION TV Novo Tempo
