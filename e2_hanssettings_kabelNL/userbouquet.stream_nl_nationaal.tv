@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:9e:0:0:0:0:0:0:0:
+#SERVICE 1:64:b2:0:0:0:0:0:0:0:
 #DESCRIPTION ++NPO: niet 100% zeker++
 #SERVICE 4097:0:1:5225:c99:3:eb0000:0:0:0:https%3a//rbtvlive.cdn.tele2portal.com/live/NPO1/NPO1.isml/.m3u8:NPO1
 #DESCRIPTION NPO1
@@ -7,7 +7,7 @@
 #DESCRIPTION NPO2
 #SERVICE 4097:0:1:5230:c99:3:eb0000:0:0:0:https%3a//rbtvlive.cdn.tele2portal.com/live/NPO3/NPO3.isml/.m3u8:NPO3
 #DESCRIPTION NPO3
-#SERVICE 1:64:9f:0:0:0:0:0:0:0:
+#SERVICE 1:64:b3:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-streaming.dpgmedia.net/aldag-clipstream-srt-zk7kiq36v0lq88zpv1p064/index_720.m3u8:AD.nl - Nieuwsupdate
 #DESCRIPTION AD.nl - Nieuwsupdate
@@ -19,6 +19,8 @@
 #DESCRIPTION BVN (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=1253&extension=ts:BVN (#)
 #DESCRIPTION BVN (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8:Dance Television
+#DESCRIPTION Dance Television
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//m2b2.worldcast.tv%3a7443/dancetelevisionfour/2/dancetelevisionfour.m3u8:Dance TV%3a Algorhythm
 #DESCRIPTION Dance TV: Algorhythm
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8:Dance TV%3a Best of Dance TV
@@ -63,7 +65,7 @@
 #DESCRIPTION SBS6 Classics
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tv01.cdn.snkmedia.nl/tukkertv/1080p.m3u8:Tukker TV
 #DESCRIPTION Tukker TV
-#SERVICE 1:64:a0:0:0:0:0:0:0:0:
+#SERVICE 1:64:b4:0:0:0:0:0:0:0:
 #DESCRIPTION ++BBC voor Nederland++
 #SERVICE 4097:0:1:1d:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c51-nlziet-nl-8601.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramabenelux-nlzietnl/playlist.m3u8:BBC Drama
 #DESCRIPTION BBC Drama
@@ -75,7 +77,21 @@
 #DESCRIPTION BBC Lifestyle
 #SERVICE 4097:0:1:1f:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c16-nlziet-nl-8602.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearbenelux-nlzietnl/playlist.m3u8:BBC Topgear
 #DESCRIPTION BBC Topgear
-#SERVICE 1:64:a1:0:0:0:0:0:0:0:
+#SERVICE 1:64:b5:0:0:0:0:0:0:0:
+#DESCRIPTION ++via Rakuten TV++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//pr1de-free-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-8-restreaming/8f31d9de-0ee1-4b7f-8780-bd2d0b2b17bc/0.m3u8:PR1DE free
+#DESCRIPTION PR1DE free
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//telegraaftv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-1-restreaming/b55c0195-03d0-46f2-96b5-11e50b6b8140/0.m3u8:TelegraafTV
+#DESCRIPTION TelegraafTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmf-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/a7ae8748-ca07-43fe-843e-41c2759d3463/0.m3u8:TMF
+#DESCRIPTION TMF
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//vi-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-2-restreaming/10c14aa1-7513-4219-b46d-d5a03501b921/0.m3u8:VI TV
+#DESCRIPTION VI TV
+#SERVICE 1:64:b6:0:0:0:0:0:0:0:
+#DESCRIPTION ++via YouTube++
+#SERVICE 5002:0:1:31b:ed7d:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/QIrMmNYltkA:Spreekbuis TV
+#DESCRIPTION Spreekbuis TV
+#SERVICE 1:64:b7:0:0:0:0:0:0:0:
 #DESCRIPTION +++Radio Toppers+++
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-67.stream-server.nl%3a1936/RadioToppers/RadioToppers/playlist.m3u8:Radio Toppers
 #DESCRIPTION Radio Toppers
@@ -83,17 +99,13 @@
 #DESCRIPTION Magic Power Radio
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-67.stream-server.nl%3a1936/PoesjesTV/PoesjesTV/playlist.m3u8:Poesjes TV
 #DESCRIPTION Poesjes TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-67.stream-server.nl%3a1936/winktv/winktv/chunklist.m3u8:Wink Radio (Waalre)
-#DESCRIPTION Wink Radio (Waalre)
-#SERVICE 1:64:a2:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-23.stream-server.nl%3a1936/WinkRadio/WinkRadio/playlist.m3u8:Wink Radio
+#DESCRIPTION Wink Radio
+#SERVICE 1:64:b8:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL amateur-tv++
 #SERVICE 5002:0:1:0:0:31:abcd0000:0:0:0:http%3a//stream.pi6atv.com%3a8081/scoop/pi6atv-hd/playlist.m3u8  :PI6ATV HD
 #DESCRIPTION PI6ATV HD
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//stream.pi6atv.com%3a8443/scoop/pi6atv-sd/manifest.mpd:PI6ATV
 #DESCRIPTION PI6ATV
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/pi6atv:PI6ATV (vanaf Gerbrandy mediatoren te IJsselstein)
-#DESCRIPTION PI6ATV (vanaf Gerbrandy mediatoren te IJsselstein)
 #SERVICE 5002:0:1:0:0:31:abcd0000:0:0:0:https%3a//hls.batc.org.uk/pi6mep/index.m3u8:PI6MEP (Meppel)
 #DESCRIPTION PI6MEP (Meppel)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/pi6ehv_official:PI6EHV
-#DESCRIPTION PI6EHV

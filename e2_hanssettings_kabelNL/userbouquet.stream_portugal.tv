@@ -1,19 +1,15 @@
 #NAME Stream Portugal (PT)
-#SERVICE 1:64:473:0:0:0:0:0:0:0:
+#SERVICE 1:64:4b4:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:65:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artp1HD.smil/playlist.m3u8:RTP 1
 #DESCRIPTION RTP 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8:RTP 1 (#)
-#DESCRIPTION RTP 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959254&extension=ts:RTP 1 (#)
 #DESCRIPTION RTP 1 (#)
-#SERVICE 4097:0:1:66:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd:RTP 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8:RTP 1 (#)
+#DESCRIPTION RTP 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959257&extension=ts:RTP 2
 #DESCRIPTION RTP 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959257&extension=ts:RTP 2 (#)
-#DESCRIPTION RTP 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8:RTP 2 (#)
-#DESCRIPTION RTP 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107449&extension=ts&play_token=bYZgY5bVOP:RTP 2 (#)
 #DESCRIPTION RTP 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959260&extension=ts:RTP 3
 #DESCRIPTION RTP 3
@@ -21,16 +17,10 @@
 #DESCRIPTION RTP África
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959282&extension=ts:RTP África (#)
 #DESCRIPTION RTP África (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rtpi/browser-HLS8/rtpi.m3u8:RTP Internacional
-#DESCRIPTION RTP Internacional
 #SERVICE 4097:0:1:69:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8:RTP Notícias
 #DESCRIPTION RTP Notícias
-#SERVICE 4097:0:1:a3:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpmem.smil/playlist.m3u8:RTP Memória
-#DESCRIPTION RTP Memória
 #SERVICE 4097:0:1:a7:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpacoresHD.smil/playlist.m3u8:RTP Açores
 #DESCRIPTION RTP Açores
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959278&extension=ts:RTP Açores (#)
-#DESCRIPTION RTP Açores (#)
 #SERVICE 4097:0:1:6a:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpmadeira.smil/playlist.m3u8:RTP Madeira
 #DESCRIPTION RTP Madeira
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959280&extension=ts:RTP Madeira (#)
@@ -39,8 +29,6 @@
 #DESCRIPTION RTP Memória
 #SERVICE 4097:0:1:2c9:1b58:13e:820000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpi.smil/playlist.m3u8:RTP Mundo
 #DESCRIPTION RTP Mundo
-#SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpzigzag.smil/playlist.m3u8:RTP ZigZag
-#DESCRIPTION RTP ZigZag
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959329&extension=ts:Canal 11
 #DESCRIPTION Canal 11
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8:NPC Rádio e TV 
@@ -51,8 +39,6 @@
 #DESCRIPTION SIC (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index_5.m3u8:SIC (#)
 #DESCRIPTION SIC (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=863881&extension=ts&play_token=b4KaeluVgy:SIC International
-#DESCRIPTION SIC International
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8:SIC Alta Definição
 #DESCRIPTION SIC Alta Definição
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959517&extension=ts:SIC Caras
@@ -65,8 +51,6 @@
 #DESCRIPTION SIC Noticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959295&extension=ts:SIC Notícias (#)
 #DESCRIPTION SIC Notícias (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=1430557&extension=ts&play_token=ZL81yJMqqQ:SIC Novelas
-#DESCRIPTION SIC Novelas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959529&extension=ts:SIC Radical
 #DESCRIPTION SIC Radical
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8:SIC Replay
@@ -75,16 +59,10 @@
 #DESCRIPTION TVI
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959269&extension=ts:TVI (#)
 #DESCRIPTION TVI (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8:TVI Afrika
-#DESCRIPTION TVI Afrika
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8:TVI (#)
+#DESCRIPTION TVI (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/TVI_Internacional.m3u:TVI International
 #DESCRIPTION TVI International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8:TVI Ficção
-#DESCRIPTION TVI Ficção
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8:TVI Reality
-#DESCRIPTION TVI Reality
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8:TVI V+
-#DESCRIPTION TVI V+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/CNN_Portugal.m3u:CNN Portugal
 #DESCRIPTION CNN Portugal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959301&extension=ts:Euronews Portugal
@@ -95,10 +73,12 @@
 #DESCRIPTION Record News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.vivatele.com%3a443/live/viva_padrao/viva2384/13.m3u8:Record TV
 #DESCRIPTION Record TV
-#SERVICE 1:64:474:0:0:0:0:0:0:0:
+#SERVICE 1:64:4b5:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959446&extension=ts:A Bola TV
 #DESCRIPTION A Bola TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8:ADB TV
+#DESCRIPTION ADB TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959500&extension=ts:AMC
 #DESCRIPTION AMC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959476&extension=ts:AXN
@@ -117,12 +97,8 @@
 #DESCRIPTION Globo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959612&extension=ts:Globo Brasilia
 #DESCRIPTION Globo Brasilia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=79655&extension=ts&play_token=W4g0MBRFE0:Globo International
-#DESCRIPTION Globo International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=1466296&extension=ts&play_token=pRablcakP5:Globo News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959610&extension=ts:Globo News
 #DESCRIPTION Globo News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959610&extension=ts:Globo Now
-#DESCRIPTION Globo Now
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959496&extension=ts:Hollywood
 #DESCRIPTION Hollywood
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w1.manasat.com/igrejaonline/smil%3aigrejaonline.smil/playlist.m3u8:Igreja Online
@@ -139,24 +115,12 @@
 #DESCRIPTION MTV Portugal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959490&extension=ts:Nos Studios
 #DESCRIPTION Nos Studios
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107458&extension=ts&play_token=1155PpU9Ow:Odisseia
-#DESCRIPTION Odisseia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil%3apc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8:Porto Canal
 #DESCRIPTION Porto Canal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//load-balancer.azotosolutions.com/cdnedge19/smil%3alive19.smil/playlist.m3u8:Rádio Sines
 #DESCRIPTION Rádio Sines
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959313&extension=ts:Record News
 #DESCRIPTION Record News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107484&extension=ts&play_token=U2iTrv6Fd2:Star Channel
-#DESCRIPTION Star Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=951549&extension=ts&play_token=sEmexED5vT:Star Comedy
-#DESCRIPTION Star Comedy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107485&extension=ts&play_token=q2ytNAZwZq:Star Crime
-#DESCRIPTION Star Crime
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107413&extension=ts&play_token=Suta0BMeo4:Star Life
-#DESCRIPTION Star Life
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=107482&extension=ts&play_token=7SQHQ09psp:Star Movies
-#DESCRIPTION Star Movies
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959504&extension=ts:Syfy
 #DESCRIPTION Syfy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960025&extension=ts:Travel Channel

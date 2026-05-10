@@ -1,5 +1,5 @@
 #NAME Stream Turkije (TR)
-#SERVICE 1:64:62f:0:0:0:0:0:0:0:
+#SERVICE 1:64:68c:0:0:0:0:0:0:0:
 #DESCRIPTION ++TRT-hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//95.174.71.114%3a80/TR-TRT1/index.m3u8:TRT 1
 #DESCRIPTION TRT 1
@@ -43,7 +43,7 @@
 #DESCRIPTION TRT World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_trt_world_atktv/playlist.m3u8:TRT World (#)
 #DESCRIPTION TRT World (#)
-#SERVICE 1:64:630:0:0:0:0:0:0:0:
+#SERVICE 1:64:68d:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders 1 overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8:24 TV
 #DESCRIPTION 24 TV
@@ -65,6 +65,8 @@
 #DESCRIPTION ATV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//95.174.71.114%3a80/TR-ATV/index.m3u8:ATV (#)
 #DESCRIPTION ATV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.187.191.41/ATV-HD-TR/video.m3u8:ATV (#)
+#DESCRIPTION ATV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//162.212.179.33/dvrfl05/gin-atvavrupa/playlist.m3u8:ATV Avrupa
 #DESCRIPTION ATV Avrupa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8:A2
@@ -72,6 +74,8 @@
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ciner.daioncdn.net/bloomberght/bloomberght.m3u8:Bloomberg HT 
 #DESCRIPTION Bloomberg HT 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.ensonhaber.com/bloomberght/bloomberght.m3u8:Bloomberg HT (#)
+#DESCRIPTION Bloomberg HT (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ciner.daioncdn.net/bloomberght/bloomberght.m3u8:Bloomberg HT (#)
 #DESCRIPTION Bloomberg HT (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//canbroadcast.com%3a7000/canlican/tv.m3u8:Can TV
 #DESCRIPTION Can TV
@@ -111,7 +115,7 @@
 #DESCRIPTION Kanal D (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8:Euro D
 #DESCRIPTION Euro D
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/eurod/browser-HLS8/eurod.m3u8:Euro D (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/eurod/browser-dash/eurod.mpd:Euro D (#)
 #DESCRIPTION Euro D (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//api-tv27.yayin.com.tr/kanalavrupa/index.m3u8:Kanal Avrupa
 #DESCRIPTION Kanal Avrupa
@@ -197,7 +201,7 @@
 #DESCRIPTION TV Net
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-tytturk.yayin.com.tr/tytturk/index.m3u8:TYT Türk
 #DESCRIPTION TYT Türk
-#SERVICE 1:64:631:0:0:0:0:0:0:0:
+#SERVICE 1:64:68e:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders 2 overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tele1-live.ercdn.net/tele1/tele1.m3u8:Tele 1
 #DESCRIPTION Tele 1
@@ -243,11 +247,13 @@
 #DESCRIPTION Kocaeli TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist_dvr.m3u8:Sat 7 Türk
 #DESCRIPTION Sat 7 Türk
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8:Sat 7 Türk (#)
+#DESCRIPTION Sat 7 Türk (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//duhnet.hipodrom.com/S2/HLS_LIVE/mislitaynp/playlist.m3u8:Tay TV
 #DESCRIPTION Tay TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//canli.tvden.com.tr/hls/live.m3u8:TV Den
 #DESCRIPTION TV Den
-#SERVICE 1:64:632:0:0:0:0:0:0:0:
+#SERVICE 1:64:68f:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8:Afroturk TV
 #DESCRIPTION Afroturk TV
@@ -285,6 +291,8 @@
 #DESCRIPTION Diyanet TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8:Diyar TV
 #DESCRIPTION Diyar TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canli.edessatv.com/hls/stream.m3u8:Edessa TV
+#DESCRIPTION Edessa TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8:ETV Kayseri
 #DESCRIPTION ETV Kayseri
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.finest.tv/hls/live.m3u8:Finest TV
@@ -297,6 +305,8 @@
 #DESCRIPTION GZT
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8:Hunat TV
 #DESCRIPTION Hunat TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ilketv.com.tr/hls/ilkecanli.m3u8:Ilke TV
+#DESCRIPTION Ilke TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8:Kent Türk
 #DESCRIPTION Kent Türk
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8:Konya Olay TV

@@ -1,5 +1,5 @@
 #NAME Stream Duitsland (DE)
-#SERVICE 1:64:1880:0:0:0:0:0:0:0:
+#SERVICE 1:64:183c:0:0:0:0:0:0:0:
 #DESCRIPTION ++ARD-zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/br/br1/franken/mp3/mid:BR - Bayern 1 - Franken
 #DESCRIPTION BR - Bayern 1 - Franken
@@ -397,7 +397,7 @@
 #DESCRIPTION WDR - Die Maus
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d111.rndfnk.com/ard/wdr/wdr/event/mp3/128/stream.mp3?aggregator=web&cid=01FC1VHKSA446AN8QN07VP9XCQ&sid=2ybYp4rkZQYGZqF9unyS5vOoysF&token=UUvyv6LfiWRw8EqR3BlIHzlAM-MSV3Rq7Z1gxDYazMU&tvf=Jsnh9cuySRhkMTExLnJuZGZuay5jb20:WDR - Event
 #DESCRIPTION WDR - Event
-#SERVICE 1:64:1881:0:0:0:0:0:0:0:
+#SERVICE 1:64:183d:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667:80s80s
 #DESCRIPTION 80s80s
@@ -1459,6 +1459,8 @@
 #DESCRIPTION FFN - Tannenbaum
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n31a-eu.rcs.revma.com/8actzfn0742vv.mp3:FG Chic Berlin
 #DESCRIPTION FG Chic Berlin
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge06.streamonkey.net/fhn-fiestamaniaradio/stream/mp3:Fiesta Mania Radio
+#DESCRIPTION Fiesta Mania Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//213.238.33.199%3a8000/theflavormixHIGH:FlavorMix
 #DESCRIPTION FlavorMix
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fluxfm.hoerradar.de/fluxfmberlin-live-mp3-hq:FluxFM
@@ -1591,7 +1593,7 @@
 #DESCRIPTION HBR1 - Tronic Lounge [AAC]
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radio.hbr1.com%3a19800/tronic.ogg:HBR1 - Tronic Lounge Ogg Vorbis
 #DESCRIPTION HBR1 - Tronic Lounge Ogg Vorbis
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//dg-ais-eco-http-fra-eco-cdn.cast.addradio.de/hellwegradio/west/mp3/high:Hellweg Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dg-ais-eco-http-fra-eco-cdn.cast.addradio.de/hellwegradio/west/mp3/high:Hellweg Radio
 #DESCRIPTION Hellweg Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//hertz-stream.dhcp.uni-bielefeld.de/stream/hertz-lq.ogg:Hertz 879
 #DESCRIPTION Hertz 879
@@ -1873,6 +1875,8 @@
 #DESCRIPTION KCRW-Berlin-1041-FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//listen.kibo.fm%3a8000/kibofm:KiboFM
 #DESCRIPTION KiboFM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.kickfm.eu/mp3-hq:kick!fm
+#DESCRIPTION kick!fm
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.kickfm.eu/mp3-hq:kick!fm
 #DESCRIPTION kick!fm
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//radio.oksh.de%3a8000/kielfm.mp3:Kiel-FM
@@ -2363,6 +2367,8 @@
 #DESCRIPTION Okerwelle-1046
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//radio.oeins.de%3a8000/oeins:Oldenburg-Eins
 #DESCRIPTION Oldenburg-Eins
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s2-webradio.oldie-antenne.de/oldie-antenne/stream/mp3:80er, 90er OLDIE ANTENNE 
+#DESCRIPTION 80er, 90er OLDIE ANTENNE 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s2-webradio.oldie-antenne.de/oldie-antenne-60er-hits/stream/mp3:Oldie Antenne - 60er Hits
 #DESCRIPTION Oldie Antenne - 60er Hits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s6-webradio.oldie-antenne.de/oldie-antenne-70er-hits/stream/mp3:Oldie Antenne - 70er Hits
@@ -2371,13 +2377,11 @@
 #DESCRIPTION Oldie Antenne - 80er Hits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s2-webradio.oldie-antenne.de/oldie-antenne-90er-hits/stream/mp3:Oldie Antenne - 90er Hits
 #DESCRIPTION Oldie Antenne - 90er Hits
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s2-webradio.antenne.de/antenne-nrw/stream:Oldie Antenne
-#DESCRIPTION Oldie Antenne
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//37.187.93.104%3a8368:Oldiewelle Roding
 #DESCRIPTION Oldiewelle Roding
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//osr.rcm-hosting.de%3a8500/;stream/1:osradio 1048
 #DESCRIPTION osradio 1048
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ostseewelle.stream43.radiohost.de/ostseewelle-nord_mp3-192:Ostseewelle Hit Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ostseewelle.stream30.radiohost.de/ostseewelle-nord_mp3-192:Ostseewelle Hit Radio
 #DESCRIPTION Ostseewelle Hit Radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//radio.yas-online.net/listen/osustation:osustation
 #DESCRIPTION osustation
@@ -3135,8 +3139,6 @@
 #DESCRIPTION Radio Regenbogen - Workout
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rs13.stream24.org%3a9260/:Radio Regentrude
 #DESCRIPTION Radio Regentrude
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.radio-rheinfm.de%3a8000/rheinfm:Radio Rhein FM
-#DESCRIPTION Radio Rhein FM
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//www.s2.onlinestream.de%3a6640/:Radio Rheinwelle
 #DESCRIPTION Radio Rheinwelle
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//ffn-de-hz-fal-stream01-cluster01.radiohost.de%3a80/radioroland_192:Radio Roland
@@ -3270,6 +3272,8 @@
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.blpn.de%3a8443/r3we_128:Radio Welle West Wetterau
 #DESCRIPTION Radio Welle West Wetterau
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radio-wellenrausch.de/rwrlive/mp3-192/stream.radio-wellenrausch.de/:Radio Wellenrausch
+#DESCRIPTION Radio Wellenrausch
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//wellenrausch.streamabc.net/95-radiowellenrausch-mp3-192-8870646:Radio Wellenrausch
 #DESCRIPTION Radio Wellenrausch
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiowesterwald.de%3a8000/live:Radio Westerwald 
 #DESCRIPTION Radio Westerwald 
@@ -4151,8 +4155,8 @@
 #DESCRIPTION Technoclub
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream1.ml0.t4e.dj%3a80/technolovers_high.mp3:Technolovers
 #DESCRIPTION Technolovers
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//telstar.stream.laut.fm/telstar?t302=2017-12-18_23-00-03&uuid=5e045313-f545-4031-9d89-21d8dd740741:Telstar-Radio
-#DESCRIPTION Telstar-Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.laut.fm/telstar-radio:Telsatar Radio
+#DESCRIPTION Telsatar Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//teuto.stream.vip/live/mp3-192:teutoRADIO
 #DESCRIPTION teutoRADIO
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//radio.radiohelgoland.de%3a8000/live:The Rock Radio Helgoland

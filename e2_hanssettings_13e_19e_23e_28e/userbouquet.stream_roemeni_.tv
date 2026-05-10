@@ -1,18 +1,36 @@
 #NAME Stream Roemenië (RO)
-#SERVICE 1:64:5eb:0:0:0:0:0:0:0:
+#SERVICE 1:64:645:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1444059&extension=ts:TVR 1
 #DESCRIPTION TVR 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-1.lg.mncdn.com/tvr1/smil%3atvr1.smil/chunklist_b5160000.m3u8:TVR 1 (#)
+#DESCRIPTION TVR 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1444063&extension=ts:TVR 2
 #DESCRIPTION TVR 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2643&extension=ts:TVR 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-2.lg.mncdn.com/tvr2/smil%3atvr2.smil/chunklist_b5160000.m3u8:TVR 2 (#)
+#DESCRIPTION TVR 2 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-3.lg.mncdn.com/tvr3/smil%3atvr3.smil/chunklist_b5160000.m3u8:TVR 3
 #DESCRIPTION TVR 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//61451b63d0dfe.streamlock.net/extern/tvri.stream/chunklist_.m3u8:TVR International
-#DESCRIPTION TVR International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/tvrinternational/browser-dash/tvrinternational.mpd:TVR International (#)
-#DESCRIPTION TVR International (#)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tvr-cluj.lg.mncdn.com/tvrcluj/smil%3atvrcluj.smil/chunklist_b5160000.m3u8:TVR Cluj
+#DESCRIPTION TVR Cluj
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tvr-craiova.lg.mncdn.com/tvrcraiova/smil%3atvrcraiova.smil/chunklist_b5160000.m3u8:TVR Craiova
+#DESCRIPTION TVR Craiova
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tvr-cultural.lg.mncdn.com/tvrcultural/smil%3atvrcultural.smil/chunklist_b5160000.m3u8:TVR Cultural
+#DESCRIPTION TVR Cultural
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tvr-folclor.lg.mncdn.com/tvrfolclor/smil%3atvrfolclor.smil/playlist.m3u8:TVR Folklor / geen beeld? groene toets, lager videoformaat kiezen
+#DESCRIPTION TVR Folklor / geen beeld? groene toets, lager videoformaat kiezen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//61451b63d0dfe.streamlock.net/extern/tvri.stream/chunklist_.m3u8:TVR Info
+#DESCRIPTION TVR Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//82.208.141.70%3a8778/1.m3u8:TVR Iasi
 #DESCRIPTION TVR Iasi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-moldova.lg.mncdn.com/tvrmoldova/smil%3atvrmoldova.smil/chunklist.m3u8:TVR Moldova
+#DESCRIPTION TVR Moldova
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-sport.lg.mncdn.com/tvrsport/smil%3atvrsport.smil/chunklist_b5160000.m3u8:TVR Sport
+#DESCRIPTION TVR Sport
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-tgmures.lg.mncdn.com/tvrtgmures/smil%3atvrtgmures.smil/playlist.m3u8:TVR Targu-Mures
+#DESCRIPTION TVR Targu-Mures
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil%3atvrtimisoara.smil/chunklist_b5160000.m3u8:TVR Timisoara
+#DESCRIPTION TVR Timisoara
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a7tvlive.ro/A7TV/A7TV/playlist.m3u8:A7TV
 #DESCRIPTION A7TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//agrotv.streamnet.ro/mobile_tv/agrotv.m3u8:Agro TV
@@ -23,34 +41,18 @@
 #DESCRIPTION Aleph News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aom-live.maghost.ro/aomTV/streams/OOztu5o9Fx6dh9mD1711027803849.m3u8:Alfa Omega TV
 #DESCRIPTION Alfa Omega TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1443991&extension=ts:Antena 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live1ag.antenaplay.ro/live_a1ro/live_a1ro.m3u8:Antena 1
 #DESCRIPTION Antena 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.rundletv.eu.org/LIVE$Antena1/6.m3u8/Level/300720051?end=END&start=LIVE:Antena 1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hokrus113.zokares1.cfd/ah1/usergenx304Jtlrnd.m3u8:Antena 1 (#)
 #DESCRIPTION Antena 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1443992&extension=ts:Antena 1 Fibra
 #DESCRIPTION Antena 1 Fibra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1443994&extension=ts:Antena 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live3vox.antenaplay.ro/a3free/a3free.m3u8:Antena 3
 #DESCRIPTION Antena 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live3vox.antenaplay.ro/a3free/a3free.m3u8:Antena 3 (#)
-#DESCRIPTION Antena 3 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1444001&extension=ts:Antena Stars
-#DESCRIPTION Antena Stars
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.rundletv.eu.org/LIVE$AntenaStars/6.m3u8/Level/300720051?end=END&start=LIVE:Antena Stars (#)
-#DESCRIPTION Antena Stars (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2626&extension=ts:B1 TV
-#DESCRIPTION B1 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//187.190.55.136%3a5501/udp/225.1.1.101%3a5101:Antena 3 Internacional
+#DESCRIPTION Antena 3 Internacional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge-ar.rcs-rds.ro/digi24ar/index.m3u8:Digi 24
 #DESCRIPTION Digi 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2560&extension=ts:Digi World
-#DESCRIPTION Digi World
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=393754&extension=ts:Diva
-#DESCRIPTION Diva
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2543&extension=ts:Favorit
-#DESCRIPTION Favorit
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.rundletv.eu.org/LIVE$HappyChannel/6.m3u8/Level/300720051?end=END&start=LIVE:Happy Channel
-#DESCRIPTION Happy Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2632&extension=ts:Happy Channel (#)
-#DESCRIPTION Happy Channel (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jobtvserver.eu/hls/stream.m3u8:JOB TV
 #DESCRIPTION JOB TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1444009&extension=ts:Kanal D
@@ -73,21 +75,21 @@
 #DESCRIPTION Prima TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1443984&extension=ts:Pro TV
 #DESCRIPTION Pro TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.rundletv.eu.org/LIVE$ProTV/Level/300720051?end=END&start=LIVE:Pro TV (#)
-#DESCRIPTION Pro TV (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a93%3a52%3a86&stream=31326&extension=ts:Pro TV International
-#DESCRIPTION Pro TV International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0:Pro TV News
+#DESCRIPTION Pro TV News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//owncast-jjg42-u20330.vm.elestio.app/hls/0/stream.m3u8:Profi 24
 #DESCRIPTION Profi 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.realitatea.net/realitatea/plus_md/ts%3aplaylist.m3u8:Realitatea Plus
+#DESCRIPTION Realitatea Plus
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.realitatea.net/realitatea/star_md/ts%3aplaylist.m3u8:Realitatea Star
+#DESCRIPTION Realitatea Star
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2627&extension=ts:Romania TV
 #DESCRIPTION Romania TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.tele7abc.ro/hls/stream/index.m3u8:Tele 7 ABC
 #DESCRIPTION Tele 7 ABC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.tele7music.ro/hls/stream/index.m3u8:Tele 7 Music
 #DESCRIPTION Tele 7 Music
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=2554&extension=ts:TV Paprika
-#DESCRIPTION TV Paprika
-#SERVICE 1:64:5ec:0:0:0:0:0:0:0:
+#SERVICE 1:64:646:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.angelustv.ro/hls/angelustv.m3u8:Angelus TV
 #DESCRIPTION Angelus TV
@@ -107,8 +109,6 @@
 #DESCRIPTION Impact TV Dance
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//informatia.streamnet.ro/mobile_tv/informatiatv.m3u8:Informatia TV
 #DESCRIPTION Informatia TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//v2.catcast.tv/content/44051/index.m3u8:MGM
-#DESCRIPTION MGM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8:Kiss TV
 #DESCRIPTION Kiss TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream1.antenaplay.ro/live/MediCOOLTV/chunklist.m3u8:MediCOOL TV
@@ -131,8 +131,6 @@
 #DESCRIPTION Rock TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jstre.am/live/jsl%3a2gNjpghXRLE.m3u8:Speranta TV
 #DESCRIPTION Speranta TV
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//89.137.197.15%3a8085/udp/239.31.0.3%3a4000:TeleM Botosani
-#DESCRIPTION TeleM Botosani
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//85.186.146.34%3a8080:TV Plus Regional
 #DESCRIPTION TV Plus Regional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//85.186.22.140/testing/pl5/playlist/ram/playlist.m3u8:TV Plus Suceava
@@ -141,5 +139,3 @@
 #DESCRIPTION TV Sat
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//89.38.8.130%3a39419:TV SudEst
 #DESCRIPTION TV SudEst
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//storage.voceabasarabiei.md/vocea/vocea.m3u8:Vocea Basarabiei TV
-#DESCRIPTION Vocea Basarabiei TV

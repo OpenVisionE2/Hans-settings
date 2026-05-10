@@ -1,6 +1,6 @@
 #NAME Stream Libanon (LB)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming-a-1035.cdn.nextologies.com/6zj8y5nemi8a32vyjjbkv0oqx/77pcakd8reik3g8qdqnexlkmq/playlist.m3u8:Aghani
-#DESCRIPTION Aghani
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.streamlane.tv/hls/aghanitv/index.m3u8:Aghani Aghani
+#DESCRIPTION Aghani Aghani
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.105.4.151%3a8080/_defapp_/ittihad/index.m3u8:Al Ittihad
 #DESCRIPTION Al Ittihad
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.9.2.18/chid_391/mono.m3u8:Al Jadeed
@@ -17,14 +17,22 @@
 #DESCRIPTION Arabica
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//652930de05533.streamlock.net/live/ngrp%3alivestream_all/playlist.m3u8:Charity TV
 #DESCRIPTION Charity TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8:Future TV
-#DESCRIPTION Future TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.105.4.236%3a1935/live/ngrp%3alivestream_all/live.m3u8:Charity TV (#)
+#DESCRIPTION Charity TV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8:Future International
+#DESCRIPTION Future International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.streamlane.tv/hls/ltv/master.m3u8:Lana TV
+#DESCRIPTION Lana TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.9.2.18/chid_327/mono.m3u8:LBC
 #DESCRIPTION LBC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.9.2.18/chid_521/index.m3u8:LBC International
 #DESCRIPTION LBC International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/nour9satlive/livestream/chunks.m3u8:Mariam TV
+#DESCRIPTION Mariam TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hms.pfs.gdn/v1/broadcast/mtv/playlist.m3u8:MTV Lebanon
 #DESCRIPTION MTV Lebanon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-mtv-lebanon/b8ebb2a5affb812f1541712adde10e26/index.m3u8:MTV Lebanon (#)
+#DESCRIPTION MTV Lebanon (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hms.pfs.gdn/v1/broadcast/one/playlist.m3u8:MTV Lebanon One
 #DESCRIPTION MTV Lebanon One
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=660501&extension=ts:Nabaa TV
@@ -35,21 +43,21 @@
 #DESCRIPTION Nour Al Koddas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/nour8satlive/livestream/playlist.m3u8:Nour Al Sharq
 #DESCRIPTION Nour Al Sharq
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/nour1satlive/livestream/playlist.m3u8:Nour Koddass
-#DESCRIPTION Nour Koddass
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/nour3satlive/livestream/playlist.m3u8:Nour El Shabeb
+#DESCRIPTION Nour El Shabeb
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/nour9satlive/livestream/playlist.m3u8:Nour Mariam
 #DESCRIPTION Nour Mariam
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.bestream.io%3a19360/elfaro4/elfaro4.m3u8:Nour TV
-#DESCRIPTION Nour TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/noursatenglive/noursateng.smil/playlist.m3u8:Noursat
-#DESCRIPTION Noursat
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8:NourSAT
+#DESCRIPTION NourSAT
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/noursatenglive/noursateng.smil/playlist.m3u8:NourSAT ENG
+#DESCRIPTION NourSAT ENG
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//otv.hibridcdn.net/otv/tv_abr/playlist.m3u8:OTV
 #DESCRIPTION OTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//31.14.41.69%3a8080/hls/sensesonline/index.m3u8:Senses
 #DESCRIPTION Senses
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media1.livaat.com/static/TAHA_TV/playlist.m3u8:Taha TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.starmenajo.com/hls/app/live/ts%3afhd.m3u8:Taha TV
 #DESCRIPTION Taha TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=660503&extension=ts:Tele Liban
 #DESCRIPTION Tele Liban
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.catiacast.video/abr/ed8f807e2548db4507d2a6f4ba0c4a06/playlist.m3u8:Tele Liban (#)
-#DESCRIPTION Tele Liban (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alittihad.tv%3a444/ittihad/chunklist_.m3u8:TV Alittihad
+#DESCRIPTION TV Alittihad

@@ -1,14 +1,16 @@
 #NAME Stream Iran (IR)
-#SERVICE 1:64:5c1:0:0:0:0:0:0:0:
+#SERVICE 1:64:61f:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders buiten Iran aangeboden++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.irannrtv.live/hls/stream.m3u8:Iran National Revolution TV
 #DESCRIPTION Iran National Revolution TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pleonhls.wns.live/hls/stream.m3u8:Project Leon
 #DESCRIPTION Project Leon
-#SERVICE 1:64:5c2:0:0:0:0:0:0:0:
+#SERVICE 1:64:620:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tv1/live/playlist.m3u8:IRIB 1
 #DESCRIPTION IRIB 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tv1plus/live/playlist.m3u8:IRIB 1+
+#DESCRIPTION IRIB 1+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tv2/live/playlist.m3u8:IRIB 2
 #DESCRIPTION IRIB 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tv3/live/playlist.m3u8:IRIB 3
@@ -23,6 +25,14 @@
 #DESCRIPTION Iran TV Network
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.presstv.ir/hls/ifilmfa_4_482/index.m3u8:IRIB iFilm
 #DESCRIPTION IRIB iFilm
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.presstv.ir/hls/ifilmfa_4_482/index.m3u8:IRIB IFILM Fars
+#DESCRIPTION IRIB IFILM Fars
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/irinn/live/playlist.m3u8:IRINN Live Farsi News
+#DESCRIPTION IRINN Live Farsi News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/irinn2/live/playlist.m3u8:IRINN 2 Live Farsi News
+#DESCRIPTION IRINN 2 Live Farsi News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.iraniancongress.com/stream/tv.m3u8:National Iranian Congress TV
+#DESCRIPTION National Iranian Congress TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//oitnhls.wns.live/hls/stream.m3u8:Omide Iran
 #DESCRIPTION Omide Iran
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media2.streambrothers.com%3a1936/8218/8218/playlist.m3u8:Payam TV
@@ -31,26 +41,36 @@
 #DESCRIPTION Press TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.salaamtv.org/salaam/playlist.m3u8:Salaam TV
 #DESCRIPTION Salaam TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tehran/live/playlist.m3u8:Tehran
+#DESCRIPTION Tehran
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//itnhls.wns.live/hls/stream.m3u8:TV ITN
 #DESCRIPTION TV ITN
-#SERVICE 1:64:5c3:0:0:0:0:0:0:0:
+#SERVICE 1:64:621:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.4utv.live/hls/stream.m3u8:4U TV
 #DESCRIPTION 4U TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.247box.live/hls/stream.m3u8:247 Box TV
 #DESCRIPTION 247 Box TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/abadan/live/playlist.m3u8:Abadan
+#DESCRIPTION Abadan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/aflak/live/playlist.m3u8:Aflak
+#DESCRIPTION Aflak
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8:AFN TV
 #DESCRIPTION AFN TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//afrafhls.wns.live/hls/stream.m3u8:Afra Film
 #DESCRIPTION Afra Film
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//afrashls.wns.live/hls/stream.m3u8:Afra Series
 #DESCRIPTION Afra Series
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/aftab/live/playlist.m3u8:Aftab
+#DESCRIPTION Aftab
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live2.alalam.ir/alalam.m3u8:Al Alam
 #DESCRIPTION Al Alam
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nl.livekadeh.com/hls2/alwilayah_tv.m3u8:Al Wilayah
 #DESCRIPTION Al Wilayah
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/alborz/live/playlist.m3u8:Alborz
 #DESCRIPTION Alborz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/amouzesh/live/playlist.m3u8:Amouzesh
+#DESCRIPTION Amouzesh
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//araxhls.wns.live/hls/stream.m3u8:Arax TV
 #DESCRIPTION Arax TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//arkhls.wns.live/hls/stream.m3u8:Arko TV
@@ -71,6 +91,10 @@
 #DESCRIPTION AVA Series
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.avang.live/hls/stream.m3u8:Avang TV
 #DESCRIPTION Avang TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8:Azerbaijan Gharbi
+#DESCRIPTION Azerbaijan Gharbi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/baran/live/playlist.m3u8:Baran
+#DESCRIPTION Baran
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn%3abbc%3apips%3aservice%3abbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8:BBC Persian
 #DESCRIPTION BBC Persian
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.beitolabbas.tv/live/beitolabbastv.m3u8:Beitol Abbas TV
@@ -109,6 +133,8 @@
 #DESCRIPTION Erfan Halgheh TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/eshragh/live/playlist.m3u8:Eshragh
 #DESCRIPTION Eshragh
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/fars/live/playlist.m3u8:Fars
+#DESCRIPTION Fars
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fxtvhls.wns.live/hls/stream.m3u8:FX TV 1
 #DESCRIPTION FX TV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//toonixhls.wns.live/hls/stream.m3u8:FX TV 2
@@ -207,8 +233,8 @@
 #DESCRIPTION Iran Nama
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.iranfarda.live/hls/stream.m3u8:Irane Farda TV
 #DESCRIPTION Irane Farda TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.presstv.ir/hls/ifilmfa_4_482/index.m3u8:IRIB IFILM Fars
-#DESCRIPTION IRIB IFILM Fars
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/esfahan/live/playlist.m3u8:Isfahan
+#DESCRIPTION Isfahan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/jahanbin/live/playlist.m3u8:Jahanbin
 #DESCRIPTION Jahanbin
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//klmhls.wns.live/hls/stream.m3u8:Kalemeh TV
@@ -217,6 +243,8 @@
 #DESCRIPTION Kanal Jadid
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/karoon/live/playlist.m3u8:Karoon TV
 #DESCRIPTION Karoon TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/kerman/live/playlist.m3u8:Kerman
+#DESCRIPTION Kerman
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//khbhls.wns.live/hls/stream.m3u8:Khabarbin TV
 #DESCRIPTION Khabarbin TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//khalijhls.wns.live/hls/stream.m3u8:Khalij TV
@@ -227,10 +255,14 @@
 #DESCRIPTION Khavaran
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/khorasanrazavi/live/playlist.m3u8:Khorasan Razavi
 #DESCRIPTION Khorasan Razavi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/khoozestan/live/playlist.m3u8:Khozestan
+#DESCRIPTION Khozestan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//komhls.wns.live/hls/stream.m3u8:Komala TV
 #DESCRIPTION Komala TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//kurdchhls.wns.live/hls/stream.m3u8:Kurd Channel
 #DESCRIPTION Kurd Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/kordestan/live/playlist.m3u8:Kordestan
+#DESCRIPTION Kordestan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.maahtv.live/hls/stream.m3u8:Maah TV
 #DESCRIPTION Maah TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/mahabad/live/playlist.m3u8:Mahabad
@@ -247,14 +279,26 @@
 #DESCRIPTION Mihan TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//204.11.235.251%3a1935/live_transcoder/ngrp%3amohabat.stream_all/playlist.m3u8:Mohabat TV
 #DESCRIPTION Mohabat TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/mostanad/live/playlist.m3u8:Mostanad
+#DESCRIPTION Mostanad
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mtchls.wns.live/hls/stream.m3u8:MTC
 #DESCRIPTION MTC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/namayesh/live/playlist.m3u8:Namayesh
+#DESCRIPTION Namayesh
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/nasim/live/playlist.m3u8:Nasim
+#DESCRIPTION Nasim
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.navahang.live/hls/stream.m3u8:Navahang TV
 #DESCRIPTION Navahang TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/nesfejahan/live/playlist.m3u8:Nesfejahan
+#DESCRIPTION Nesfejahan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//newfhls.wns.live/hls/stream.m3u8:Newflix
 #DESCRIPTION Newflix
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.bestream.io%3a19360/elfaro4/elfaro4.m3u8:Nour
 #DESCRIPTION Nour
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/ofogh/live/playlist.m3u8:Ofogh
+#DESCRIPTION Ofogh
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/omid/live/playlist.m3u8:Omid
+#DESCRIPTION Omid
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//oitnhls.wns.live/hls/stream.m3u8:Omide Iran
 #DESCRIPTION Omide Iran
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.oxir.live/hls/stream.m3u8:Oxir TV
@@ -265,6 +309,8 @@
 #DESCRIPTION Payame Aramesh TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8:Payvand TV
 #DESCRIPTION Payvand TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tgn.bozztv.com/cus01/ucur1/Payvand/index.m3u8:Payvand TV (#)
+#DESCRIPTION Payvand TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptv.tapesh.tv/tapesh/playlist.m3u8:PBC Tapesh TV
 #DESCRIPTION PBC Tapesh TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//euhls.persiana.live/hls/stream.m3u8:Persiana+
@@ -321,6 +367,8 @@
 #DESCRIPTION Press TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//proshls.wns.live/hls/stream.m3u8:PRO Sport International
 #DESCRIPTION PRO Sport International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/pooya/live/playlist.m3u8:Pooya & Nahal
+#DESCRIPTION Pooya & Nahal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/qazvin/live/playlist.m3u8:Qazvin
 #DESCRIPTION Qazvin
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/quran/live/playlist.m3u8:Quran
@@ -363,12 +411,16 @@
 #DESCRIPTION T2 TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tabarestan/live/playlist.m3u8:Tabarestan
 #DESCRIPTION Tabarestan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/taftan/live/playlist.m3u8:Taftan
+#DESCRIPTION Taftan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/hdtest/live/playlist.m3u8:Tamasha
+#DESCRIPTION Tamasha
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tehran/live/playlist.m3u8:Tehran
+#DESCRIPTION Tehran
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/hdtest/live/playlist.m3u8:Tamasha
 #DESCRIPTION Tamasha
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.nejat.live/hls/stream.m3u8:TBN Nejat TV
 #DESCRIPTION TBN Nejat TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tehran/live/playlist.m3u8:Tehran
-#DESCRIPTION Tehran
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8:Tekyemadahi
 #DESCRIPTION Tekyemadahi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8:Tin TV

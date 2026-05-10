@@ -1,68 +1,66 @@
 #NAME Stream Tsjechië (CZ)
-#SERVICE 1:64:652:0:0:0:0:0:0:0:
+#SERVICE 1:64:688:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.27/live/test_ct1_25p/playlist.m3u8:ČT 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960442&extension=ts:ČT 1
 #DESCRIPTION ČT 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.27/live/test_ct2_25p/playlist.m3u8:ČT 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960447&extension=ts:ČT 2
 #DESCRIPTION ČT 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.27/live/test_ct24_hevc/playlist.m3u8:ČT 24
-#DESCRIPTION ČT 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.27/live/ct_art_avc_25p/playlist.m3u8:ČT%3aD / ČT Art
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/ct24_avc_25p/playlist.m3u8:CT 24
+#DESCRIPTION CT 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960449&extension=ts:ČT%3aD / ČT Art
 #DESCRIPTION ČT:D / ČT Art
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.27/live/test_ctsport_25p/playlist.m3u8:ČT Sport
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960450&extension=ts:ČT Sport
 #DESCRIPTION ČT Sport
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.27/live/test_trojka_25p/playlist.m3u8:%3a24
-#DESCRIPTION :24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8:%3aŠport
-#DESCRIPTION :Šport
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//echo24new.pl/LiveAppStreamECHO24/streams/GL0VksiIgQUS1672825288490.m3u8?token=undefined&subscriberId=undefined&subscriberCode=undefined:Echo 24
-#DESCRIPTION Echo 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.11.199%3a5000/live/test_joj_hd_high_hevc/playlist.m3u8:JOJ
-#DESCRIPTION JOJ
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=63211&extension=ts:JOJ Cinema
-#DESCRIPTION JOJ Cinema
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.27/live/nova_avc_25p/playlist.m3u8:Bova
-#DESCRIPTION Bova
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.7.10/live/nova_avc_25p/playlist.m3u8:Nova (#)
-#DESCRIPTION Nova (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=63226&extension=ts:Nova 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash3.antik.sk/live/test_current_time_atktv/playlist.m3u8:Current Time TV
+#DESCRIPTION Current Time TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//prima-ott-live-sec.ssl.cdn.cra.cz/3rb1SoRbifHmKsvaD9Pi7A==,1767556959/channels/prima_cnn/playlist/cze/live_lq.m3u8?offsetSeconds=0&url=0:CNN Prima News
+#DESCRIPTION CNN Prima News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960409&extension=ts:Nova
+#DESCRIPTION Nova
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960412&extension=ts:Nova 2
 #DESCRIPTION Nova 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=63229&extension=ts:Nova Gold
-#DESCRIPTION Nova Gold
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=63232&extension=ts:Nova Sport 1
-#DESCRIPTION Nova Sport 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960417&extension=ts:Nova Action
+#DESCRIPTION Nova Action
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960415&extension=ts:Nova Cinema
+#DESCRIPTION Nova Cinema
 #SERVICE 4097:0:1:1451:c98:3:eb0000:0:0:0:https%3a//ocko-live-dash.ssl.cdn.cra.cz/cra_live2/ocko.stream.1.smil/master.m3u8:Ocko TV
 #DESCRIPTION Ocko TV
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8:Ocko Expres
 #DESCRIPTION Ocko Expres
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:https%3a//ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8:Ocko Gold
-#DESCRIPTION Ocko Gold
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8:Óčko Gold
+#DESCRIPTION Óčko Gold
 #SERVICE 4097:0:1:1335:ca2:3:eb0000:0:0:0:http%3a//ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8:Ocko Star
 #DESCRIPTION Ocko Star
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.polar.cz/polar/polarlive-1/playlist.m3u8:Polar
 #DESCRIPTION Polar
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.polar.cz%3a1935/polar2/polarlive2-1/playlist.m3u8:Polar 2
 #DESCRIPTION Polar 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.polar.cz%3a1935/prahatv/prahatvlive-1/playlist.m3u8:Praha TV HD
-#DESCRIPTION Praha TV HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=173971&extension=ts:Prima
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960423&extension=ts:Prima
 #DESCRIPTION Prima
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=173972&extension=ts:Prima Love
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960429&extension=ts:Prima Cool
+#DESCRIPTION Prima Cool
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960434&extension=ts:Prima Love
 #DESCRIPTION Prima Love
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=63239&extension=ts:Prima Max
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960428&extension=ts:Prima Max
 #DESCRIPTION Prima Max
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960441&extension=ts:Prima Show
+#DESCRIPTION Prima Show
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960439&extension=ts:Prima Star
+#DESCRIPTION Prima Star
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960431&extension=ts:Prima Zoom
+#DESCRIPTION Prima Zoom
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vysilani.zaktv.cz/broadcast/hls/utv/index.m3u8:ÚTV
 #DESCRIPTION ÚTV
-#SERVICE 1:64:653:0:0:0:0:0:0:0:
+#SERVICE 1:64:689:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ferncast.plzen.eduradio.cz%3a8000/default:EDU Rádio
+#DESCRIPTION EDU Rádio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//rtmp.elektrika.cz/live/myStream.sdp/HasBahCa.m3u8:Elektrika TV
 #DESCRIPTION Elektrika TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.streaming.sk/fashiontv/stream/playlist.m3u8:Fashion TV Czech & Slovak
 #DESCRIPTION Fashion TV Czech & Slovak
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=173976&extension=ts:Minimax
-#DESCRIPTION Minimax
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a13%3a54%3a4C&stream=63219&extension=ts:Mňam
-#DESCRIPTION Mňam
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8:Nastoyashcheye Vremya
+#DESCRIPTION Nastoyashcheye Vremya
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vysilani.zaktv.cz/broadcast/hls/ptv/index.m3u8:Plzeň
 #DESCRIPTION Plzeň
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8:Retro Music Television
@@ -73,10 +71,6 @@
 #DESCRIPTION Slágr 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.tvlux.sk%3a1935/lux/lux.stream/HasBahCa.m3u8:TV Lux
 #DESCRIPTION TV Lux
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n105.quickmedia.tv/noe-abr/noe-abr/playlist_dvr.m3u8:TV Noe
-#DESCRIPTION TV Noe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n105.quickmedia.tv/noe-2-abr/noe-2-abr/playlist_dvr.m3u8:TV Noe+
-#DESCRIPTION TV Noe+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.streaming.sk/tvruzinov/stream/playlist.m3u8:TV Ruzinov
 #DESCRIPTION TV Ruzinov
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.polar.cz/vctv/vctvlive-1/playlist.m3u8:Východočeská TV

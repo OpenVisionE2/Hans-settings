@@ -1,27 +1,101 @@
 #NAME Stream Paraguay (PY)
-#SERVICE 1:64:5f1:0:0:0:0:0:0:0:
+#SERVICE 1:64:64f:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.wilohosting.com%3a19360/tvmax/tvmax.m3u8:Canal 5 TV Max
 #DESCRIPTION Canal 5 TV Max
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.desde-paraguay.com/mega.m3u8:Mega TV 5
+#DESCRIPTION Mega TV 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.obslivestream.com/canal8/tracks-v1a1/mono.m3u8:Canal 8 C&C Producciones
 #DESCRIPTION Canal 8 C&C Producciones
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2qsan2ut81n2k.cloudfront.net/live/48f53430-9014-4459-a048-6169dac14140/medialist_4276517416086298479_hls.m3u8:C9N
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/canal8cvs/canal8cvs.m3u8:Canal 8 C&C Producciones (#)
+#DESCRIPTION Canal 8 C&C Producciones (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1y0t05eznkmpn.cloudfront.net/index.m3u8:C9N
 #DESCRIPTION C9N
-#SERVICE 1:64:5f2:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//alba-py-c9n-c9n.stream.mediatiquestream.com/index.m3u8:C9N (#)
+#DESCRIPTION C9N (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2qsan2ut81n2k.cloudfront.net/live/2e1f1b6a-9d03-4194-8559-2eabe61a1555/ts%3aabr.m3u8:SNT Canal 20.1
+#DESCRIPTION SNT Canal 20.1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/tvairepy/tvairepy.m3u8:TV Aire Canal 26.1
+#DESCRIPTION TV Aire Canal 26.1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1596.m3u8:SUR TV Itapua Canal 31.1
+#DESCRIPTION SUR TV Itapua Canal 31.1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion:E40
+#DESCRIPTION E40
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.wilohosting.com%3a19360/oviedotv/oviedotv.m3u8:Oviedo TV Canal 59
+#DESCRIPTION Oviedo TV Canal 59
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/6.m3u8:A24 Paraguay
+#DESCRIPTION A24 Paraguay
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/7.m3u8:ABC Paraguay
+#DESCRIPTION ABC Paraguay
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion:Latele
+#DESCRIPTION Latele
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8:Mi TV
+#DESCRIPTION Mi TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//copacogen.desdeparaguay.net/npy/npy_py_alta/playlist.m3u8?admin=tvaccion:N PY
+#DESCRIPTION N PY
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8:Paraguay TV
+#DESCRIPTION Paraguay TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/reddigitalsanpedro/reddigitalsanpedro.m3u8:Red Digital
+#DESCRIPTION Red Digital
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.wilohosting.com%3a19360/redinteriortv/redinteriortv.m3u8:Red Interior TV
+#DESCRIPTION Red Interior TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//copacogen.desdeparaguay.net/telefuturo/telefuturo_py_alta/media.m3u8?admin=tvaccion:Telefuturo
+#DESCRIPTION Telefuturo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/telequince/telequince.m3u8:Telequince
+#DESCRIPTION Telequince
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8:UCL
+#DESCRIPTION UCL
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/72.m3u8:Unicanal
+#DESCRIPTION Unicanal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tigocloud.desdeparaguay.net/800tv/800tv/playlist.m3u8:Union TV
+#DESCRIPTION Union TV
+#SERVICE 1:64:650:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/almayatv/almayatv.m3u8:Almaya TV
 #DESCRIPTION Almaya TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rds3.desdeparaguay.net/brunomasitv/brunomasitv/playlist.m3u8:Bruno Masi TV
 #DESCRIPTION Bruno Masi TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rds3.desdeparaguay.net/caritastv/caritastv/playlist.m3u8:Cáritas TV
-#DESCRIPTION Cáritas TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rds3.desdeparaguay.net/caritastv/caritastv/playlist.m3u8:CC!ritas TV
+#DESCRIPTION CC!ritas TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/cosmostv/cosmostv.m3u8:Cosmos TV
 #DESCRIPTION Cosmos TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudtv.streaming.com.py/lenguasdesenas/lenguasdesenas/chunklist.m3u8:En Lengua de Senas TV
+#DESCRIPTION En Lengua de Senas TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gentvpeer.desdeparaguay.net/gentvpeer/gentv_py_baja/playlist.m3u8:Gen
 #DESCRIPTION Gen
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8:Mi TV
-#DESCRIPTION Mi TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tigocloud.desdeparaguay.net/800tv/800tv/playlist.m3u8:Union TV
-#DESCRIPTION Union TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/nandeportetepe/nandeportetepe.m3u8:Nande Portetepe TV
+#DESCRIPTION Nande Portetepe TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//copacogen.desdeparaguay.net/nandejaraneetv/nandejaraneetv/playlist.m3u8?admin=tvaccion:Nandejara Ne'e TV
+#DESCRIPTION Nandejara Ne'e TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zn1tf.desdeparaguay.net/nandutitv/nandutitv_alta/playlist.m3u8:Nanduti
+#DESCRIPTION Nanduti
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/oasistv/oasistv.m3u8:Oasis TV
+#DESCRIPTION Oasis TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/obediratv/obediratv.m3u8:Obedira TV
+#DESCRIPTION Obedira TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.wilohosting.com%3a19360/occidentaltv/occidentaltv.m3u8:Occidental TV
+#DESCRIPTION Occidental TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//copacoradios.desdeparaguay.net/productivatv/productivatv_baja/playlist.m3u8?admin=nacion:Productiva TV
+#DESCRIPTION Productiva TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.paraguaytv.gov.py/memfs/ea8a90e9-10f7-4b00-8e88-42f4a838d74b.m3u8:Radio Nacional del Paraguay
+#DESCRIPTION Radio Nacional del Paraguay
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.wilohosting.com%3a19360/sancristobalfm/sancristobalfm.m3u8:Radio San Cristobal 88.7 FM
+#DESCRIPTION Radio San Cristobal 88.7 FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//copacoradios.desdeparaguay.net/rcctv/rcctv/playlist.m3u8?admin=nacion:RCC
+#DESCRIPTION RCC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/regionaltv/regionaltv.m3u8:Regional TV Yaguaron
+#DESCRIPTION Regional TV Yaguaron
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.enhdtv.com%3a8081/8160/index.m3u8:Tigo Sports
+#DESCRIPTION Tigo Sports
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.170.130.224%3a8000/play/a04i/index.m3u8:Tigo Sports+
+#DESCRIPTION Tigo Sports+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/119.m3u8:TV Camara
+#DESCRIPTION TV Camara
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/tvcanindeyu/tvcanindeyu.m3u8:TV Canindeyu
+#DESCRIPTION TV Canindeyu
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.hostingcaaguazu.com%3a19360/uniradiotv/uniradiotv.m3u8:UniRadio TV
+#DESCRIPTION UniRadio TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8:Urbano TV
 #DESCRIPTION Urbano TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8:Venus Media
+#DESCRIPTION Venus Media

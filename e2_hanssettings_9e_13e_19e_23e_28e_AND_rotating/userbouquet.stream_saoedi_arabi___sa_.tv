@@ -1,5 +1,5 @@
 #NAME Stream Saoedi-Arabië (SA)
-#SERVICE 1:64:600:0:0:0:0:0:0:0:
+#SERVICE 1:64:65d:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-globecast.akamaized.net/live/eds/saudi_tv/hls_roku/index.m3u8:Saudi 1
 #DESCRIPTION Saudi 1
@@ -13,9 +13,9 @@
 #DESCRIPTION Rotana Cinema
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Cinema Egypt
 #DESCRIPTION Rotana Cinema Egypt
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/rotana/cinemamasr_1080p/chunks.m3u8:Rotana Cinemamasr
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Cinemamasr
 #DESCRIPTION Rotana Cinemamasr
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/rotana/classical_1080p/chunks.m3u8:Rotana Classic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Classic
 #DESCRIPTION Rotana Classic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rotana.hibridcdn.net/rotananet/clip_net-7Y83PP5adWixDF93/playlist.m3u8:Rotana Clip
 #DESCRIPTION Rotana Clip
@@ -43,8 +43,10 @@
 #DESCRIPTION Rotana Tarab Jordan City View
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8:SBC
 #DESCRIPTION SBC
-#SERVICE 1:64:601:0:0:0:0:0:0:0:
+#SERVICE 1:64:65e:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8:Aflam
+#DESCRIPTION Aflam
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=5616:Al Arabiya
 #DESCRIPTION Al Arabiya
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=5617:Al Arabiya 2
@@ -53,40 +55,30 @@
 #DESCRIPTION Al Arabiya Al Hadath
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8:Al Arabiya Business
 #DESCRIPTION Al Arabiya Business
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-enc.edgenextcdn.net/out/v1/07a6ab2d57b2453a91bbdd2d46b5865a/index.m3u8:Al Arabiya English
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8:Al Arabiya English
 #DESCRIPTION Al Arabiya English
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1j4r34gq3qw9y.cloudfront.net/out/v1/96804f3a14864641a21c25e8ca9afb74/index.m3u8:Al Arabiya Programs
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8:Al Arabya Hadath
+#DESCRIPTION Al Arabya Hadath
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8:Al Arabiya Programs
 #DESCRIPTION Al Arabiya Programs
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8:Al Ekhbariya
 #DESCRIPTION Al Ekhbariya
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8:Al Hadath
-#DESCRIPTION Al Hadath
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//mn-nl.mncdn.com/khalij/khalij/chunklist.m3u8:Al Khalij
 #DESCRIPTION Al Khalij
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8:Al Quran Al Kareem TV
 #DESCRIPTION Al Quran Al Kareem TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8:Al Riyadh Radio
-#DESCRIPTION Al Riyadh Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8:Al Saudiya Alaan
 #DESCRIPTION Al Saudiya Alaan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8:Al Sunnah Al Nabawiyah
 #DESCRIPTION Al Sunnah Al Nabawiyah
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//htvmada.mada.ps%3a8888/ajyal/index.m3u8:Ajyal TV
 #DESCRIPTION Ajyal TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8:Alkhuzama Radio
-#DESCRIPTION Alkhuzama Radio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-enc.edgenextcdn.net/out/v1/e7350ddf46c94dddafe14b099394ff56/index.m3u8:Anime
-#DESCRIPTION Anime
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8:Asharq Documentary
 #DESCRIPTION Asharq Documentary
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/bloomberarlive/bloomberg.smil/playlist.m3u8:Asharq News
 #DESCRIPTION Asharq News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8:Asharq News (#)
-#DESCRIPTION Asharq News (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-asharq/10ae30c64e21402c8116a7fb1e5aa789/index.m3u8:Asharq News (#)
 #DESCRIPTION Asharq News (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/asharqradiovlive/asharqradiov/playlist.m3u8:Asharq Radio
-#DESCRIPTION Asharq Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5d658d7e9f562.streamlock.net/atfal1.com/atfal2/playlist.m3u8:Atfal Wa Mawaheb
 #DESCRIPTION Atfal Wa Mawaheb
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-big-time-plus/924283f994779a311c1389698ff7e736/index.m3u8:Big Time Plus
@@ -99,14 +91,8 @@
 #DESCRIPTION Iqraa 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8:Iqraa 3
 #DESCRIPTION Iqraa 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8:Iqraa Africa & Europe
-#DESCRIPTION Iqraa Africa & Europe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8:Iqraa Arabic
-#DESCRIPTION Iqraa Arabic
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8:Iqraa Quran
-#DESCRIPTION Iqraa Quran
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-enc.edgenextcdn.net/out/v1/ea4275b6dc0840c198c17f6dc6f1ec49/index.m3u8:Khaliji Comedy
-#DESCRIPTION Khaliji Comedy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8:Jeddah Radio
+#DESCRIPTION Jeddah Radio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=660690&extension=ts:KSA Sports 1
 #DESCRIPTION KSA Sports 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=660689&extension=ts:KSA Sports 2
@@ -119,11 +105,11 @@
 #DESCRIPTION Makkah TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksanedaradiolive/srpksanedaradio/playlist.m3u8:Nidae AlIslam Radio
 #DESCRIPTION Nidae AlIslam Radio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d6izdil55uftn.cloudfront.net/out/v1/0a06d1d6377c47edbd48721ed724bd08/index.m3u8:Panorama FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-panorama-fm/ea22f3856a1b772f793c43eb5d1c0636/index.m3u8:Panorama FM
 #DESCRIPTION Panorama FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8:Quran Radio
 #DESCRIPTION Quran Radio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-live-enc.edgenextcdn.net/out/v1/18cffab0757d448ca6c1a686d330b346/index.m3u8:Spooky Nights
-#DESCRIPTION Spooky Nights
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index_1.m3u8:Wanasah
-#DESCRIPTION Wanasah
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-amg-fast.edgenextcdn.net/tx004/playlist.m3u8:Rabeh Saqer
+#DESCRIPTION Rabeh Saqer
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8:SBC
+#DESCRIPTION SBC

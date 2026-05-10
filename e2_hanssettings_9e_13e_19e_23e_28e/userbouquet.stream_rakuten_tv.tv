@@ -1,8 +1,24 @@
 #NAME Stream Rakuten TV
-#SERVICE 1:64:52e:0:0:0:0:0:0:0:
+#SERVICE 1:64:587:0:0:0:0:0:0:0:
+#DESCRIPTION ++voor NL++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//bright-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-7-restreaming/f1d1bdf4-d7f9-4e65-b710-ae2c03bd9b0d/0.m3u8:Bright TV
+#DESCRIPTION Bright TV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//pr1de-free-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-8-restreaming/8f31d9de-0ee1-4b7f-8780-bd2d0b2b17bc/0.m3u8:PR1DE free
+#DESCRIPTION PR1DE free
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//telegraaftv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-1-restreaming/b55c0195-03d0-46f2-96b5-11e50b6b8140/0.m3u8:TelegraafTV
+#DESCRIPTION TelegraafTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmf-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/a7ae8748-ca07-43fe-843e-41c2759d3463/0.m3u8:TMF
+#DESCRIPTION TMF
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//vi-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-2-restreaming/10c14aa1-7513-4219-b46d-d5a03501b921/0.m3u8:VI TV
+#DESCRIPTION VI TV
+#SERVICE 1:64:588:0:0:0:0:0:0:0:
+#DESCRIPTION ++voor BE++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//proef-njam-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-4-restreaming/cbdea81e-a2cc-42a5-8e2b-b2abd1a3625b/0.m3u8:proef njam!
+#DESCRIPTION proef njam!
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//studio100-hits-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-11-restreaming/b4c2de71-85e9-42a4-8474-910c792d81dc/0.m3u8:Studio100 Hits
+#DESCRIPTION Studio100 Hits
+#SERVICE 1:64:589:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rakuten TV met NL ondertiteling++
-#SERVICE 4097:0:1:1:1000:31:cccc0000:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/93dd98fd-3c16-4b38-ae42-46a6f3cce68e/5.m3u8:Car City Adventures
-#DESCRIPTION Car City Adventures
 #SERVICE 4097:0:1:2:1000:31:cccc0000:0:0:0:https%3a//db2b248fd4144eaeb7c4f13169dca7a8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_ComedyStation/playlist.m3u8:Comedy Station
 #DESCRIPTION Comedy Station
 #SERVICE 4097:0:1:3:1000:31:cccc0000:0:0:0:https%3a//be23a3aa4c7c4dd2b6221ba7ca51283e.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_GrjngoWesternFilms/playlist.m3u8:Grjngo
@@ -13,7 +29,7 @@
 #DESCRIPTION NatureTime
 #SERVICE 4097:0:1:6:1000:31:cccc0000:0:0:0:https%3a//action-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6073/master.m3u8:Rakuten TV Action
 #DESCRIPTION Rakuten TV Action
-#SERVICE 4097:0:1:7:1000:31:cccc0000:0:0:0:https%3a//documentaries-rakuten-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6221/50524d5d-8f70-48e7-b557-cbabe92eb82b/4.m3u8:Rakuten TV Documentaires
+#SERVICE 4097:0:1:7:1000:31:cccc0000:0:0:0:https%3a//documentaries-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6221/master.m3u8:Rakuten TV Documentaires
 #DESCRIPTION Rakuten TV Documentaires
 #SERVICE 4097:0:1:8:1000:31:cccc0000:0:0:0:https%3a//drama-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6097/master.m3u8:Rakuten TV Drama
 #DESCRIPTION Rakuten TV Drama
@@ -27,7 +43,7 @@
 #DESCRIPTION Rakuten TV Top Films
 #SERVICE 4097:0:1:d:1000:31:cccc0000:0:0:0:https%3a//b688f77a784646d0b2daeb4d55ea9950.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_Travelxp/playlist.m3u8:TravelXP
 #DESCRIPTION TravelXP
-#SERVICE 1:64:52f:0:0:0:0:0:0:0:
+#SERVICE 1:64:58a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rakuten TV - muziek++
 #SERVICE 4097:0:1:1:1000:44:cccc0000:0:0:0:https%3a//lightning-now70s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now70s-rakuten/CDN/playlist.m3u8:That’s 70s
 #DESCRIPTION That’s 70s
@@ -37,7 +53,29 @@
 #DESCRIPTION That’s 90s & 00s
 #SERVICE 4097:0:1:4:1000:44:cccc0000:0:0:0:https%3a//lightning-now90s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now90s-rakuten/CDN/playlist.m3u8:That's Rock
 #DESCRIPTION That's Rock
-#SERVICE 1:64:530:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmf-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/a7ae8748-ca07-43fe-843e-41c2759d3463/0.m3u8:TMF
+#DESCRIPTION TMF
+#SERVICE 1:64:58b:0:0:0:0:0:0:0:
+#DESCRIPTION ++Rakuten TV nieuws++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//euronews-live-eng-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6503-restreaming/75db5624-48a4-4e05-8ea7-e9fa70770127/5.m3u8:Euronews
+#DESCRIPTION Euronews
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//africanews-eng-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576-restreaming/d7be42ce-19b5-4d6a-9c8d-26ac4a6b9b3c/5.m3u8:Africanews
+#DESCRIPTION Africanews
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//86ebec83.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ1RWUGx1c19ITFM/612c11b6-823f-4ac2-9672-4de5ee7292f3/0.m3u8:Bloomberg TV+
+#DESCRIPTION Bloomberg TV+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master1080p.m3u8:CGTN
+#DESCRIPTION CGTN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-cgtn-amg01314c6-rakuten-gb-10205.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01314-cgtn-cgtnglobalbiz-rakutengb/cb7d3e1e7b736f8fc9ca3f6cd4a548f1d1526381573add303caf5e9674c21e5384bea597e718ed3c5abd7fa33e40340d0136d41cc07c11dfb923f6056b3b5464e4fca27ad9871202a2bf56742cb7710e19f80a1ec067152888bc4a46d574f55e0010e306210462dced59ac7653d5f653c92a7fd4e5c2603c7d445f8d490fe3f357a5fce25858dc3da0b90149947944fad34bc88201ed86805c9f11d075a342cec6faaae927d3d2d20cfc09f4466f32466d8b8f7dc98937cedb9e7a068e653e791d5ae8b796f05a038a464d5bedfeccba179b79ac8c2bdb185dd4019c5cbb348f7da30aa2de5ab9bdbead272b5ab3c1593b63ca89a18ee80a23b262c4b6f0cd760eed9c66684bc874dd303b3997f8f4198dc70799ba2fdfcd037239c4827a9f98a48aecb5b2539924d8b592f2591317345458d437ca9b69c816cd68a1ca6167360913fec300978789087d374ad6851380171aea9689d489577699384d5fbc36880c5235cd62363a8f5bf89e2f538a2904913033ef67368156f9bf23e7aedef67457dfb4ee63dd3ea39c2bf0a750f316562803b7e1134f494d64d5fc59053570c44df0a1ac8b135850b4a79783aa3e39032a28471f8ef0d864829ec55b717c:CGTN Global BIZ
+#DESCRIPTION CGTN Global BIZ
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01082-cna-amg01082c1-rakuten-us-8337.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01082-cnafast-cnanews-rakutenus/cb7d3e1e7b736f8fc9ca3f6cd4a548f1d1526381573add303caf5e9674c21e5384bea597e718ed3c5abd7fa33e40340d0136d41cc07c11dfb923f6056b3b5464e4fca27ad9871202a2bf56742cb7710e19f80a1ec067152888bc4a46d574f55e0010e306210462dced59ac7653d5f653c92a7fd4e5c2603c7d445f8d495ab3f45ca4aae05558dc3da0b90149947944fad014c88101bdd1d60acf158023f6139c95faa7e92fd3d2d20cfd02f43d0a5d1d70988b7ce1a037d1dc937b3c9a7e301c593f97a297ed713f89495759f6ebf4b860f101cbfb57eb1033b4038d42813e9e6ab810ebef4bb7bee129242b49a5c0485e20a4f5b2b5f83a3dae63f5b69b3c1516079337494d9858f4031a32c1c8e735a5c034b4940da9976d3b2be1a17a9cbc97b3e891ae43ad09ced4c6801e174d573324815896b03cea05ce5dadf722090d5e65aa9d5ee5a7f87f13406e8fa17cf7373a9cf2a9b2fe0922ef67367bdb41fb7a244fed16455dcc0fdbb81d5da82d29a41418da7d14a163d5990dd686f9cc2f1a96ffd060de46c69428f3d7208c4f1d782092d10d7e666d5cf1cf472c1350c442c5e5ebc052280bcdd6e8dfe6781d261c36732daac3c45190afc7083c37e0720:CNA
+#DESCRIPTION CNA
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00106-amg00106c1-rakuten-uk-4654.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00106-france24fast-france24-rakutenuk/dd1e0799-4a18-11f1-8a7b-e6f1b45eedb1/90/1920x1080_6046040/index.m3u8:France24 Fast English
+#DESCRIPTION France24 Fast English
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg01076-lightning-newsworld-rakutenus/cb7d3e1e7b736f8fc9ca3f6cd4a548f1d1526381573add303caf5e9674c21e5384bea597e718ed3c5abd7fa33e40340d0136d41cc07c11dfb923f6056b3b5464e4fca27ad9871202a2bf56742cb7710e19f80a1ec067152888bc4a46d574f55e0010e306210462dced59ac7653d5f653c92a7fd4e5c2603c7d445f8d4959ecf658f2f9e75a58dc3da0b90149947944fa8b429bdd01efd1875a9a42d37ea740ccc1faa0e931d3d2d20ce90be32d0c4a1d759c897e9bdd2fd0b0fe3869c421723b7425e7a780c14a39904e4059c7f2c4bb60f361a7e342a645199e32b16cdec6ec01da08a3f271a7a9abcd7d4236aad75e6f33d204c6e06550108c6caa97c5fc4276c8c3385966ca4cfa000514b3f9ed07a5f32a919706b5b3483e31f1bd4188afaaa0bab3b97dba22cff3dec90c6e5d46013bb775f3894cdc2ed65989ef32027e6c4d8cb876e0a7fc7712536e81997bd33e3a8afaa9a2fe2d1ae8493a73ca42fb7a344dc7174d5dc00cdcbb1d4da0072ba6141fd27114a363eb9a0ddc8efac7271a97fbe563de4dce962bf3d523884c1d782390db2b58647a5cf1cb47061158e664c2f8efc0522821cdd6ecdde15819001836732daac3c651baafe90:NewsWorld
+#DESCRIPTION NewsWorld
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/ts-us-w2-n1/playlist/amg00453-reuters-reuters-rakutenuk/cb7d3e1e7b736f8fc9ca3f6cd4a548f1d1526381573add303caf5e9674c21e5384bea597e718ed3c5abd7fa33e40340d0136d41cc07c11dfb923f6056b3b5464e4fca27ad9871202a2bf56742cb7710e19f80a1ec067152888bc4a46d574f55e0010e306210462dced59ac7653d5f653c92a7fd4e5c2603c7d445f8d490fe6a65ea4fcb05458dc3da0b60149947944fad345c08701e886dc5c97168e20a31299c3faa9e92ad3d2d20cf406f03f0c4c5019f3e2779f9319dcb69b6d2aa36127422141ffb3968c3a56f4574f5de1fad9af64f816f1842c857238b70cc234ee418b6fb936a4ee40b4a8b5cb7d463caad65e1341ca81ae8fec2669fa0c89a3edce4c7b98fb2b7b48db7fdd2e2a2c9fefb965eeac46c7e775dde33e446197c11cc8c8e4d919d6e73a9d21d9f8f39c2d5071600b0c9558ac8e1f3a4fb7e6cded222b0d78688cab5f95b3f57f11616ea4a270f8301f9fc8aab3e0091aef501c7bcb69e877017ffe2c4f29e619cebc3b69bd0c5bb4192ede5d0cb16aadab0df2a0d0c4271a94fde563f64ecd962ef3d32b8b5c1d5e1b96f5017e766d5ff1cf452c1250e26cc6f1e8c046280bcfd6ecdbe1761926183e732da8c3c559b2afe3080a34e:Reuters
+#DESCRIPTION Reuters
+#SERVICE 1:64:58c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rakuten TV Duitsland++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c44-rakuten-de-5538.playouts.now.amagi.tv/playlist.m3u8:BBC Top Gear Germany
 #DESCRIPTION BBC Top Gear Germany
@@ -129,7 +167,7 @@
 #DESCRIPTION Wicked Tuna Germany
 #SERVICE 5001:0:1:2970:130:0:0:0:0:0:https%3a//xite-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-xite-rakuten/CDN/master.m3u8?ads_amagi_channel=736&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_version=&ads_brand_name=&ads_content_classification=0&ads_device_lmt=0&ads_device_make=firefox&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_gam_correlator=&ads_gdpr_consent=&ads_market=de&ads_os_language=&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=09bef241-987c-45b2-b024-acc61a336afa&ads_rtv_content_id=2970&ads_rtv_content_language=eng&ads_rtvid=271862&ads_streaming_id=31e06715-cb9f-400b-b313-05c57a597834&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor:XITE Deutschland
 #DESCRIPTION XITE Deutschland
-#SERVICE 1:64:531:0:0:0:0:0:0:0:
+#SERVICE 1:64:58d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rakuten TV Finland++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c49-rakuten-fi-5848.playouts.now.amagi.tv/playlist.m3u8:BBC Top Gear Finland
 #DESCRIPTION BBC Top Gear Finland
@@ -147,7 +185,7 @@
 #DESCRIPTION Rakuten TV Romance Movies Finland
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:https%3a//1d1b0d4cb6ae4c31985d13221795695b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6057/master.m3u8:Rakuten TV Top Movies
 #DESCRIPTION Rakuten TV Top Movies
-#SERVICE 1:64:532:0:0:0:0:0:0:0:
+#SERVICE 1:64:58e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rakuten TV Frankrijk++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c45-rakuten-fr-5539.playouts.now.amagi.tv/playlist.m3u8:BBC Top Gear France
 #DESCRIPTION BBC Top Gear France
@@ -203,7 +241,7 @@
 #DESCRIPTION Rakuten TV Top Films (#)
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:https%3a//a01cb16df2c946afa72d661622953cad.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-4546/master.m3u8:Rakuten TV Trailers
 #DESCRIPTION Rakuten TV Trailers
-#SERVICE 1:64:533:0:0:0:0:0:0:0:
+#SERVICE 1:64:58f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rakuten TV Groot-Brittanië++
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//cb562753.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1XzIxSnVtcFN0cmVldF9ITFM/playlist.m3u8:21 Jump Street
 #DESCRIPTION 21 Jump Street
@@ -351,7 +389,7 @@
 #DESCRIPTION XITE
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8:Yu-Gi-Oh!
 #DESCRIPTION Yu-Gi-Oh!
-#SERVICE 1:64:534:0:0:0:0:0:0:0:
+#SERVICE 1:64:590:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rakuten TV Italië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c17-rakuten-it-5361.playouts.now.amagi.tv/playlist.m3u8:BBC Doctor Who Italy
 #DESCRIPTION BBC Doctor Who Italy
@@ -409,11 +447,11 @@
 #DESCRIPTION Vive Kanal D Drama
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01796-amg01796c17-rakuten-it-7492.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh3it-rakutenit/playlist.m3u8:Yu-Gi-Oh! Italy
 #DESCRIPTION Yu-Gi-Oh! Italy
-#SERVICE 1:64:535:0:0:0:0:0:0:0:
+#SERVICE 1:64:591:0:0:0:0:0:0:0:
 #DESCRIPTION ++Raluten TV Portugal++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8:Rakuten TV Family
 #DESCRIPTION Rakuten TV Family
-#SERVICE 1:64:536:0:0:0:0:0:0:0:
+#SERVICE 1:64:592:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rakuten TV Spanje++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c15-rakuten-es-5359.playouts.now.amagi.tv/playlist.m3u8:BBC Doctor Who
 #DESCRIPTION BBC Doctor Who
@@ -473,7 +511,7 @@
 #DESCRIPTION Yu-Gi-Oh! En Espanol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zylo-cinefriki-rakuten.amagi.tv/playlist.m3u8:Zylo Cine Friki
 #DESCRIPTION Zylo Cine Friki
-#SERVICE 1:64:537:0:0:0:0:0:0:0:
+#SERVICE 1:64:593:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rakuten TV USA++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00170-curiositystream-amg00170c3-rakuten-us-2289.playouts.now.amagi.tv/playlist/amg00170-curiositystreamllcfast-curiositynowrow-rakutenus/playlist.m3u8:Curiosity Now
 #DESCRIPTION Curiosity Now

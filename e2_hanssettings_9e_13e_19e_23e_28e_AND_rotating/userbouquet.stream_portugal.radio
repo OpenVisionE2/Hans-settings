@@ -1,33 +1,37 @@
 #NAME Stream Portugal (PT)
-#SERVICE 1:64:8d6:0:0:0:0:0:0:0:
+#SERVICE 1:64:19e0:0:0:0:0:0:0:0:
 #DESCRIPTION ++RDP-zenders++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena180a/chunklist.m3u8:RDP Antena 1
-#DESCRIPTION RDP Antena 1
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocast.rtp.pt/antena1acores80a.mp3:RDP Antena 1 Açores
-#DESCRIPTION RDP Antena 1 Açores
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/antena1fado80a/chunklist.m3u8:RDP Antena 1 Fado
-#DESCRIPTION RDP Antena 1 Fado
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/antena1madeira80a/chunklist.m3u8:RDP Antena 1 Madeira
-#DESCRIPTION RDP Antena 1 Madeira
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena280a/chunklist.m3u8:RDP Antena 2
-#DESCRIPTION RDP Antena 2
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocast.rtp.pt/antena380a.mp3:RDP Antena 3
-#DESCRIPTION RDP Antena 3
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/antena3madeira80a/chunklist.m3u8:RDP Antena 3 Madeira
-#DESCRIPTION RDP Antena 3 Madeira
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/antena1acores80a/chunklist.m3u8:RDP Acores
-#DESCRIPTION RDP Acores
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/rdpafrica80a/chunklist.m3u8:RDP África
-#DESCRIPTION RDP África
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/rdpafrica80a/chunklist_DVR.m3u8:RDP África Cabe Verde
-#DESCRIPTION RDP África Cabe Verde
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/rdpafrica80a/chunklist.m3u8:RDP África Guinee
-#DESCRIPTION RDP África Guinee
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/rdpafrica80a/chunklist.m3u8:RDP África Mocambique
-#DESCRIPTION RDP África Mocambique
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/rdpint80a/chunklist.m3u8:RDP Internacional
-#DESCRIPTION RDP Internacional
-#SERVICE 1:64:8d7:0:0:0:0:0:0:0:
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8:RTP Antena 1
+#DESCRIPTION RTP Antena 1
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8:RTP Antena 2
+#DESCRIPTION RTP Antena 2
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena380a/playlist.m3u8:RTP Antena 3
+#DESCRIPTION RTP Antena 3
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena1acores80a/playlist.m3u8:RTP Antena 1 Açores
+#DESCRIPTION RTP Antena 1 Açores
+#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena1madeira80a/playlist.m3u8:RTP Antena 1 Madeira
+#DESCRIPTION RTP Antena 1 Madeira
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena3madeira80a/playlist.m3u8:RTP Antena 3 Madeira
+#DESCRIPTION RTP Antena 3 Madeira
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena1fado80a/playlist.m3u8?DVR:RTP Fado
+#DESCRIPTION RTP Fado
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena2jazzin80a/playlist.m3u8:RTP Jazz In
+#DESCRIPTION RTP Jazz In
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/lusitania80a/playlist.m3u8?DVR:RTP Lusitânia
+#DESCRIPTION RTP Lusitânia
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8:RTP Mundo
+#DESCRIPTION RTP Mundo
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/antena2opera80a/playlist.m3u8:RTP Ópera
+#DESCRIPTION RTP Ópera
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8:RTP Zig Zag
+#DESCRIPTION RTP Zig Zag
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8:RTP África
+#DESCRIPTION RTP África
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioip.rtp.pt/liveradio/rdpafrica80a/chunklist.m3u8:RTP África Guinee
+#DESCRIPTION RTP África Guinee
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liveradio/rdpafrica80a/chunklist.m3u8:RTP África Mocambique
+#DESCRIPTION RTP África Mocambique
+#SERVICE 1:64:19e1:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//play.radioregional.pt/stream/10/:100$ Dance
 #DESCRIPTION 100$ Dance
