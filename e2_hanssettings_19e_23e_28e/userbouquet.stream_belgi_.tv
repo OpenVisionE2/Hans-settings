@@ -1,18 +1,12 @@
 #NAME Stream België (BE)
-#SERVICE 1:64:1ed:0:0:0:0:0:0:0:
+#SERVICE 1:64:1ce:0:0:0:0:0:0:0:
 #DESCRIPTION +++Vlaanderen - landelijk+++
-#SERVICE 4097:0:1:5221:c99:3:0:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=40411&extension=ts:VRT 1
-#DESCRIPTION VRT 1
-#SERVICE 4097:0:1:5221:c99:3:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=368515&extension=ts:VRT 1 (#)
-#DESCRIPTION VRT 1 (#)
-#SERVICE 4097:0:1:5226:c99:3:0:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=163325&extension=ts:VRT Canvas
+#SERVICE 4097:0:1:5221:c99:3:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=368515&extension=ts:VRT1
+#DESCRIPTION VRT1
+#SERVICE 4097:0:1:5226:c99:3:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=1420209&extension=ts:VRT Canvas
 #DESCRIPTION VRT Canvas
-#SERVICE 4097:0:1:5226:c99:3:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=1420209&extension=ts:VRT Canvas (#)
-#DESCRIPTION VRT Canvas (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=4063&extension=ts:VRT Ketnet
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=368547&extension=ts:VRT Ketnet
 #DESCRIPTION VRT Ketnet
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=368547&extension=ts:VRT Ketnet (#)
-#DESCRIPTION VRT Ketnet (#)
 #SERVICE 4097:0:19:1b76:c88:3:eb0000:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=40406&extension=ts:VTM
 #DESCRIPTION VTM
 #SERVICE 4097:0:19:1b76:c88:3:eb0000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=1420210&extension=ts:VTM (#)
@@ -49,7 +43,7 @@
 #DESCRIPTION Trends Z Vlaanderen
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.thomasmore.be/elemental_hls/hls_stream.m3u8:ZooMedia
 #DESCRIPTION ZooMedia
-#SERVICE 1:64:1ee:0:0:0:0:0:0:0:
+#SERVICE 1:64:1cf:0:0:0:0:0:0:0:
 #DESCRIPTION +++Vlaanderen - regionaal+++
 #SERVICE 5002:0:1:d3:2:1:ffff0000:0:0:0:https%3a//live.zendzend.com/mpegts/29375_107244/master_mpegts.m3u8:ATV (Antwerpen)
 #DESCRIPTION ATV (Antwerpen)
@@ -69,7 +63,7 @@
 #DESCRIPTION TV OOST (Oost-Vlaanderen)
 #SERVICE 4097:0:1:1ff:5:1:ffff0000:0:0:0:https%3a//hls-origin01-focus-wtv.cdn01.rambla.be/main/adliveorigin-focus-wtv/_definst_/ALogzX.smil/chunklist_b6000000.m3u8:WTV (West-Vlaanderen)
 #DESCRIPTION WTV (West-Vlaanderen)
-#SERVICE 1:64:1ef:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d0:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen radio webcams++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//takeoff.jetstre.am/?account=fmbrussel&file=BruzzIceVideo&type=live&service=wowza&protocol=https&output=playlist.m3u8:BRUZZ ICE
 #DESCRIPTION BRUZZ ICE
@@ -77,7 +71,7 @@
 #DESCRIPTION Qmusic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.thomasmore.be/elemental_hls3/hls_stream.m3u8:ZooMedia
 #DESCRIPTION ZooMedia
-#SERVICE 1:64:1f0:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d1:0:0:0:0:0:0:0:
 #DESCRIPTION ++Belgie Vlaanderen landelijk++
 #SERVICE 4097:0:1:101a:451:35:c00000:0:0:0:https%3a//live-radio.vrtcdn.be/groupa/live/3c3a12b5-093d-4a19-ae1f-3e775433286e/live.isml/live-audio_track_0_0_dut=128000-video_track=3300000.m3u8:VRT Radio 1
 #DESCRIPTION VRT Radio 1
@@ -97,15 +91,17 @@
 #DESCRIPTION Radio PROS Heldergem
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//takeoff.jetstre.am/?account=TopRadio&file=kijklive&type=live&service=wowza&protocol=https&output=playlist.m3u8:TOP
 #DESCRIPTION TOP
-#SERVICE 1:64:1f1:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d2:0:0:0:0:0:0:0:
 #DESCRIPTION ++via Rakuten TV++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//proef-njam-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-4-restreaming/cbdea81e-a2cc-42a5-8e2b-b2abd1a3625b/0.m3u8:proef njam!
 #DESCRIPTION proef njam!
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//studio100-hits-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-11-restreaming/b4c2de71-85e9-42a4-8474-910c792d81dc/0.m3u8:Studio100 Hits
 #DESCRIPTION Studio100 Hits
-#SERVICE 1:64:1f2:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//studio100-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-12-restreaming/bitok/eyJzdGlkIjoiYWIxZmM4ZDAtNmJiZi00YjI2LTkzNjAtMWVjODZhYTczYmZmIiwibWt0IjoibmwiLCJjaCI6IjEyIiwicHRmIjo1fQ%253D%253D/mpgmedia/Studio100TV/Studio100TV_NL/Studio100TV_NL.m3u8:Studio100 TV
+#DESCRIPTION Studio100 TV
+#SERVICE 1:64:1d3:0:0:0:0:0:0:0:
 #DESCRIPTION ++verkeer: zie Stream verkeerscamera's++
-#SERVICE 1:64:1f3:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d4:0:0:0:0:0:0:0:
 #DESCRIPTION +++Bruxelles/Wallonie - hoofdzenders+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=40340&extension=ts:RTBF La Une
 #DESCRIPTION RTBF La Une
@@ -137,7 +133,7 @@
 #DESCRIPTION AB 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/ab3/browser-HLS8/ab3.m3u8:AB 3 (#)
 #DESCRIPTION AB 3 (#)
-#SERVICE 1:64:1f4:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d5:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8:BEL RTL
 #DESCRIPTION BEL RTL
@@ -147,7 +143,7 @@
 #DESCRIPTION Radio Contact
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1hz1p2gea2zy4.cloudfront.net/live/rmgtv/RMG-TRENDSZFR-LIVE/index.m3u8:Trends Z Wallonië
 #DESCRIPTION Trends Z Wallonië
-#SERVICE 1:64:1f5:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d6:0:0:0:0:0:0:0:
 #DESCRIPTION ++Regionaal++
 #SERVICE 4097:0:1:d8:2:1:ffff0000:0:0:0:https%3a//59959724487e3.streamlock.net/stream/live/playlist.m3u8:BX1
 #DESCRIPTION BX1

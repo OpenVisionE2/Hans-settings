@@ -1,33 +1,59 @@
 #NAME Stream China (CN)
-#SERVICE 1:64:5d5:0:0:0:0:0:0:0:
+#SERVICE 1:64:5db:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//198.204.240.250%3a82/live/cctv4k.m3u8:CCTV-4K
+#DESCRIPTION CCTV-4K
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//198.204.240.250%3a82/live/cctv8k.m3u8:CCTV-8K
+#DESCRIPTION CCTV-8K
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv1hd.m3u8:CCTV-1
 #DESCRIPTION CCTV-1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.30.245.50/live/cctv1.m3u8:CCTV-1 (#)
+#DESCRIPTION CCTV-1 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//198.204.240.250%3a82/live/cctv1.m3u8:CCTV-1 (#)
+#DESCRIPTION CCTV-1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv2hd.m3u8:CCTV-2
 #DESCRIPTION CCTV-2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.30.245.50/live/cctv2.m3u8:CCTV-2 (#)
+#DESCRIPTION CCTV-2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv3hd.m3u8:CCTV-3
 #DESCRIPTION CCTV-3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.30.245.50/live/cctv3.m3u8:CCTV-3 (#)
+#DESCRIPTION CCTV-3 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv4hd.m3u8:CCTV-4
 #DESCRIPTION CCTV-4
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.30.245.50/live/cctv4.m3u8:CCTV-4 (#)
+#DESCRIPTION CCTV-4 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8:CCTV-4 America
 #DESCRIPTION CCTV-4 America
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/cctv4/browser-dash/cctv4.mpd:CCTV-4 Europe
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8:CCTV-4 Europe
 #DESCRIPTION CCTV-4 Europe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8:CCTV-4 Europe (#)
-#DESCRIPTION CCTV-4 Europe (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv5hd.m3u8:CCTV-5
 #DESCRIPTION CCTV-5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.30.245.50/live/cctv5.m3u8:CCTV-5 (#)
+#DESCRIPTION CCTV-5 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//192.151.150.154/live/cctv5p.m3u8:CCTV-5+
+#DESCRIPTION CCTV-5+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv6hd.m3u8:CCTV-6
 #DESCRIPTION CCTV-6
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//198.204.240.250%3a82/live/cctv6.m3u8:CCTV-6 (#)
+#DESCRIPTION CCTV-6 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.30.245.50/live/cctv6.m3u8:CCTV-6 (#)
+#DESCRIPTION CCTV-6 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv7hd.m3u8:CCTV-7
 #DESCRIPTION CCTV-7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.30.245.50/live/cctv7.m3u8:CCTV-7 (#)
+#DESCRIPTION CCTV-7 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv8hd.m3u8:CCTV-8
 #DESCRIPTION CCTV-8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.30.245.50/live/cctv8.m3u8:CCTV-8 (#)
+#DESCRIPTION CCTV-8 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv9hd.m3u8:CCTV-9
 #DESCRIPTION CCTV-9
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.30.245.50/live/cctv9.m3u8:CCTV-9 (#)
+#DESCRIPTION CCTV-9 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv10hd.m3u8:CCTV-10
 #DESCRIPTION CCTV-10
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//42.225.117.174%3a11199/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0$LR%25E2%2580%25A2315%25E2%2580%25A2IPV4%25E3%2580%258E%25E7%25BA%25BF%25E8%25B7%25AF13%25E3%2580%258F:CCTV-10 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.30.245.50/live/cctv10.m3u8:CCTV-10 (#)
 #DESCRIPTION CCTV-10 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv11hd.m3u8:CCTV-11
 #DESCRIPTION CCTV-11
@@ -39,10 +65,14 @@
 #DESCRIPTION CCTV-13 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn3.163189.xyz/163189/cctv13:CCTV-13 (#)
 #DESCRIPTION CCTV-13 (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//go.bkpcp.top/mg/cctv13:CCTV-13 (#)
+#DESCRIPTION CCTV-13 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv14hd.m3u8:CCTV-14
 #DESCRIPTION CCTV-14
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv15hd.m3u8:CCTV-15
 #DESCRIPTION CCTV-15
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xykt-fix.github.io/play/a02e/index.m3u8:CCTV-15 (#)
+#DESCRIPTION CCTV-15 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv16hd.m3u8:CCTV-16
 #DESCRIPTION CCTV-16
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv17hd.m3u8:CCTV-17
@@ -65,22 +95,22 @@
 #DESCRIPTION CGTN Documentary (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8:CGTN English
 #DESCRIPTION CGTN English
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8:CGTN Español
-#DESCRIPTION CGTN Español
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8:CGTN Español (#)
-#DESCRIPTION CGTN Español (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8:CGTN EspaC1ol
+#DESCRIPTION CGTN EspaC1ol
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8:CGTN EspaC1ol (#)
+#DESCRIPTION CGTN EspaC1ol (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/cgtneurope.m3u8:CGTN Europe
 #DESCRIPTION CGTN Europe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8:CGTN Français
-#DESCRIPTION CGTN Français
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8:CGTN Français (#)
-#DESCRIPTION CGTN Français (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_cgtn_fra_tizen/playlist.m3u8:CGTN Français (#)
-#DESCRIPTION CGTN Français (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8:CGTN Français (#)
-#DESCRIPTION CGTN Français (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8:CGTN Français (#)
-#DESCRIPTION CGTN Français (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8:CGTN FranC'ais
+#DESCRIPTION CGTN FranC'ais
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8:CGTN FranC'ais (#)
+#DESCRIPTION CGTN FranC'ais (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_cgtn_fra_tizen/playlist.m3u8:CGTN FranC'ais (#)
+#DESCRIPTION CGTN FranC'ais (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8:CGTN FranC'ais (#)
+#DESCRIPTION CGTN FranC'ais (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8:CGTN FranC'ais (#)
+#DESCRIPTION CGTN FranC'ais (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnglobalbiz-distrotvus/playlist.m3u8:CGTN Global Biz
 #DESCRIPTION CGTN Global Biz
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8:CGTN Russian
@@ -93,7 +123,33 @@
 #DESCRIPTION CGTN Spanish
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.ntdtv.com/cnlive900/playlist.m3u8:NTD TV China
 #DESCRIPTION NTD TV China
-#SERVICE 1:64:5d6:0:0:0:0:0:0:0:
+#SERVICE 1:64:5dc:0:0:0:0:0:0:0:
+#DESCRIPTION ++CCTV-themazenders++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/ystq.m3u8?auth=testpub:CCTV-Billiards
+#DESCRIPTION CCTV-Billiards
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/ysjp.m3u8?auth=testpub:CCTV-Culture of Quality
+#DESCRIPTION CCTV-Culture of Quality
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/gefwq.m3u8?auth=testpub:CCTV-Golf & Tennis
+#DESCRIPTION CCTV-Golf & Tennis
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/wsjk.m3u8?auth=testpub:CCTV-Health
+#DESCRIPTION CCTV-Health
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/hjjc.m3u8?auth=testpub:CCTV-Nostalgia Theater
+#DESCRIPTION CCTV-Nostalgia Theater
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/fyzq.m3u8?auth=testpub:CCTV-Storm Football
+#DESCRIPTION CCTV-Storm Football
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/fyyy.m3u8?auth=testpub:CCTV-Storm Music
+#DESCRIPTION CCTV-Storm Music
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/fyjc.m3u8?auth=testpub:CCTV-Storm Theater
+#DESCRIPTION CCTV-Storm Theater
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/dyjc.m3u8?auth=testpub:CCTV-The First Theater
+#DESCRIPTION CCTV-The First Theater
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/gfjs.m3u8?auth=testpub:CCTV-Weapon & Technology
+#DESCRIPTION CCTV-Weapon & Technology
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/nxss.m3u8?auth=testpub:CCTV-Women's Fashion
+#DESCRIPTION CCTV-Women's Fashion
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/sjdl.m3u8?auth=testpub:CCTV-World Geography
+#DESCRIPTION CCTV-World Geography
+#SERVICE 1:64:5dd:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp2.abnvideos.com/hls/abnchina.m3u8:ABN China
 #DESCRIPTION ABN China
@@ -105,14 +161,16 @@
 #DESCRIPTION Australian Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//z88.ubtvfans.com/live/rx1/1066/917914fbe52d479116c9ab03e3045dca/index.m3u8:AXN China HD
 #DESCRIPTION AXN China HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/baicheng1/sd/live.m3u8:Báichéng Xīnwén Zònghé
-#DESCRIPTION Báichéng Xīnwén Zònghé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/baicheng1/sd/live.m3u8:BC!ichC)ng XD+nwC)n ZC2nghC)
+#DESCRIPTION BC!ichC)ng XD+nwC)n ZC2nghC)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225682/index.m3u8:Beijing Has Shopping
 #DESCRIPTION Beijing Has Shopping
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8:Blackberry Animation
 #DESCRIPTION Blackberry Animation
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8:BRTV
 #DESCRIPTION BRTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//go.bkpcp.top/mg/bjws:BRTV Beijing TV
+#DESCRIPTION BRTV Beijing TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//223.111.191.105/downflv.brtvcloud.com/kkkkasd/winfr.m3u8:BRTV Kaku Childrens Channel
 #DESCRIPTION BRTV Kaku Childrens Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//180.213.174.225%3a9901/tsfile/live/1037_1.m3u8?authid=0&key=txiptv&playlive=1:Channel Max
@@ -127,8 +185,8 @@
 #DESCRIPTION China Travel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/index.m3u8:Chongqing Satellite TV
 #DESCRIPTION Chongqing Satellite TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.deepcore.online/hlsme/ctv_hk.m3u8:Chuàngshì Diànshì
-#DESCRIPTION Chuàngshì Diànshì
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.deepcore.online/hlsme/ctv_hk.m3u8:ChuC ngshC, DiC nshC,
+#DESCRIPTION ChuC ngshC, DiC nshC,
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/playlist.m3u8:Discovering China
 #DESCRIPTION Discovering China
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//180.213.174.225%3a9901/tsfile/live/1032_1.m3u8?authid=0&key=txiptv&playlive=1:DOX Surround
@@ -139,8 +197,8 @@
 #DESCRIPTION DOX Yijia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225735/index.m3u8:Dragon TV
 #DESCRIPTION Dragon TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//r.jdshipin.com/62WM7:Fěicuì Tái
-#DESCRIPTION Fěicuì Tái
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//r.jdshipin.com/62WM7:FD%1bicuC, TC!i
+#DESCRIPTION FDicuC, TC!i
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream8.jlntv.cn/fs/sd/live.m3u8:Fusung News TV
 #DESCRIPTION Fusung News TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225633/index.m3u8:Gansu Satellite TV
@@ -149,42 +207,42 @@
 #DESCRIPTION Golden Eagle Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//1.24.190.98%3a10080/hls/51/index.m3u8:Golden Eagle Cartoon (#)
 #DESCRIPTION Golden Eagle Cartoon (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.wiseqx.com/live/qxzh.m3u8:Guǎngdōng‖ Qīngxīn Zònghé Tái 
-#DESCRIPTION Guǎngdōng‖ Qīngxīn Zònghé Tái 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livelyws.chinamcache.com/lyws/zb01.m3u8?auth_key=1593241343-0-0-90b80e74457c94b2015f9428a1cb9b0e:Hǎinán Wèishì
-#DESCRIPTION Hǎinán Wèishì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8:Hándān Gōnggòng
-#DESCRIPTION Hándān Gōnggòng
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8:Hándān Kējiào
-#DESCRIPTION Hándān Kējiào
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwliveqxzb.hebyun.com.cn/hdxwzh/hdxwzh.m3u8:Hándān Xīnwén
-#DESCRIPTION Hándān Xīnwén
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbfc.chinashadt.com%3a2036/live/6.stream/playlist.m3u8:Héběi Jīngjì
-#DESCRIPTION Héběi Jīngjì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pili-live-hls.hebitv.com/hebi/hebi.m3u8:Hèbì Xīnwén Zònghé
-#DESCRIPTION Hèbì Xīnwén Zònghé
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmpstream.hyrtv.cn/hygg/sd/live.m3u8:Héyuán Gōnggòng
-#DESCRIPTION Héyuán Gōnggòng
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmpstream.hyrtv.cn/xwzh/sd/live.m3u8:Héyuán Zònghé
-#DESCRIPTION Héyuán Zònghé
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283445:Hóng Yǎ Xīnwén Zònghé
-#DESCRIPTION Hóng Yǎ Xīnwén Zònghé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.wiseqx.com/live/qxzh.m3u8:GuG%0engdE%0dng
+#DESCRIPTION GuGngdEng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livelyws.chinamcache.com/lyws/zb01.m3u8?auth_key=1593241343-0-0-90b80e74457c94b2015f9428a1cb9b0e:HG%0einC!n WC(ishC,
+#DESCRIPTION HGinC!n WC(ishC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8:HC!ndD%01n GE%0dnggC2ng
+#DESCRIPTION HC!ndDn GEnggC2ng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8:HC!ndD%01n KD%13jiC o
+#DESCRIPTION HC!ndDn KDjiC o
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwliveqxzb.hebyun.com.cn/hdxwzh/hdxwzh.m3u8:HC!ndD%01n XD+nwC)n
+#DESCRIPTION HC!ndDn XD+nwC)n
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbfc.chinashadt.com%3a2036/live/6.stream/playlist.m3u8:HC)bD%1bi JD+ngjC,
+#DESCRIPTION HC)bDi JD+ngjC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pili-live-hls.hebitv.com/hebi/hebi.m3u8:HC(bC, XD+nwC)n ZC2nghC)
+#DESCRIPTION HC(bC, XD+nwC)n ZC2nghC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmpstream.hyrtv.cn/hygg/sd/live.m3u8:HC)yuC!n GE%0dnggC2ng
+#DESCRIPTION HC)yuC!n GEnggC2ng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmpstream.hyrtv.cn/xwzh/sd/live.m3u8:HC)yuC!n ZC2nghC)
+#DESCRIPTION HC)yuC!n ZC2nghC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283445:HC3ng YG%0e XD+nwC)n ZC2nghC)
+#DESCRIPTION HC3ng YG XD+nwC)n ZC2nghC)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/index.m3u8:Hunan Satellite TV
 #DESCRIPTION Hunan Satellite TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8:Hunan TV
 #DESCRIPTION Hunan TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//uc6.i-cable.com/live_freedirect/freehd209_h.live/playlist.m3u8:Ii-Cable 24-Hour News Channel
 #DESCRIPTION Ii-Cable 24-Hour News Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/ja/sd/live.m3u8:Jí Än Zònghé
-#DESCRIPTION Jí Än Zònghé
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.dxhmt.cn%3a9081/tv/11003-1.m3u8:Jiàn'ān Diànshìtái
-#DESCRIPTION Jiàn'ān Diànshìtái
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/ja/sd/live.m3u8:JC- C%04n ZC2nghC)
+#DESCRIPTION JC- Cn ZC2nghC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.dxhmt.cn%3a9081/tv/11003-1.m3u8:JiC n'D%01n DiC nshC,tC!i
+#DESCRIPTION JiC n'Dn DiC nshC,tC!i
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225757/index.m3u8:Jiangsu Haoxiang Shopping
 #DESCRIPTION Jiangsu Haoxiang Shopping
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.lyg1.com/ggpd/sd/live.m3u8:Jiāngsū Ⅰ Liányúngǎng Gōnggòng 
-#DESCRIPTION Jiāngsū Ⅰ Liányúngǎng Gōnggòng 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.lyg1.com/zhpd/sd/live.m3u8:Jiāngsū Ⅰ Liányúngǎng Zònghé 
-#DESCRIPTION Jiāngsū Ⅰ Liányúngǎng Zònghé 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.lyg1.com/ggpd/sd/live.m3u8:JiD%01ngsE+ b%05  LiC!nyC%3angG%0eng GE%0dnggC2ng 
+#DESCRIPTION JiDngsE+ b  LiC!nyC:ngGng GEnggC2ng 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.lyg1.com/zhpd/sd/live.m3u8:JiD%01ngsE+ b%05  LiC!nyC%3angG%0eng ZC2nghC) 
+#DESCRIPTION JiDngsE+ b  LiC!nyC:ngGng ZC2nghC) 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225613/index.m3u8:Jiangsu Satellite TV
 #DESCRIPTION Jiangsu Satellite TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225679/index.m3u8:Jiangxi Fashion Shopping
@@ -213,12 +271,12 @@
 #DESCRIPTION Jilin Public News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lsfb.avap.jilintv.cn/zqvk7vpj/channel/3ffc4824dce54b92be185555923ce382/index.m3u8:Jilin Rural Channel
 #DESCRIPTION Jilin Rural Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/jilin1/sd/live.m3u8:Jílín Shì Xīnwén Zònghé
-#DESCRIPTION Jílín Shì Xīnwén Zònghé
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream1.jlntv.cn/xcpd/sd/live.m3u8:Jílín Xiāngcūn
-#DESCRIPTION Jílín Xiāngcūn
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283326:Jízhōu Xīnwén Zònghé
-#DESCRIPTION Jízhōu Xīnwén Zònghé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/jilin1/sd/live.m3u8:JC-lC-n ShC, XD+nwC)n ZC2nghC)
+#DESCRIPTION JC-lC-n ShC, XD+nwC)n ZC2nghC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream1.jlntv.cn/xcpd/sd/live.m3u8:JC-lC-n XiD%01ngcE+n
+#DESCRIPTION JC-lC-n XiDngcE+n
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283326:JC-zhE%0du XD+nwC)n ZC2nghC)
+#DESCRIPTION JC-zhEu XD+nwC)n ZC2nghC)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225708/index.m3u8:Jusha Global Selection
 #DESCRIPTION Jusha Global Selection
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225654/index.m3u8:Kaku Kids
@@ -231,30 +289,30 @@
 #DESCRIPTION Lianyungang Comprehensive
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.lyg1.com/ggpd/sd/live.m3u8:Lianyungang Public
 #DESCRIPTION Lianyungang Public
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/liaoyuan1/sd/live.m3u8:Liáoyuán Xīnwén Zònghé
-#DESCRIPTION Liáoyuán Xīnwén Zònghé
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hblh.chinashadt.com%3a2036/live/stream%3alh2.stream/playlist.m3u8:Lóng Huà Yǐngshì
-#DESCRIPTION Lóng Huà Yǐngshì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283662:Lóudǐ Zònghé
-#DESCRIPTION Lóudǐ Zònghé
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc2022.stream-link.org/tv2306.php?id=c05:MTV Cèshì China
-#DESCRIPTION MTV Cèshì China
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.nntv.cn/nnlive/NNTV_METRO_A.m3u8:Nánníng Dūshì Shēnghuó
-#DESCRIPTION Nánníng Dūshì Shēnghuó
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.nntv.cn/nnlive/NNTV_PUB_A.m3u8:Nánníng Gōnggòng
-#DESCRIPTION Nánníng Gōnggòng
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.nntv.cn/nnlive/NNTV_NEWS_A.m3u8:Nánníng Xīnwén Zònghé
-#DESCRIPTION Nánníng Xīnwén Zònghé
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.nntv.cn/nnlive/NNTV_VOD_A.m3u8:Nánníng Yǐngshì Yúlè
-#DESCRIPTION Nánníng Yǐngshì Yúlè
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.nbs.cn/channels/njtv/sepd/m3u8%3a500k/live.m3u8:NBS Nánjīng Shào'ér
-#DESCRIPTION NBS Nánjīng Shào'ér
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.nbs.cn/channels/njtv/sbpd/m3u8%3a500k/live.m3u8:NBS Nánjīng Shíbā
-#DESCRIPTION NBS Nánjīng Shíbā
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.nbs.cn/channels/njtv/xxpd/m3u8%3a500k/live.m3u8:NBS Nánjīng Xìnxī
-#DESCRIPTION NBS Nánjīng Xìnxī
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.nbs.cn/channels/njtv/ylpd/m3u8%3a500k/live.m3u8:NBS Nánjīng Yúlè
-#DESCRIPTION NBS Nánjīng Yúlè
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/liaoyuan1/sd/live.m3u8:LiC!oyuC!n XD+nwC)n ZC2nghC)
+#DESCRIPTION LiC!oyuC!n XD+nwC)n ZC2nghC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hblh.chinashadt.com%3a2036/live/stream%3alh2.stream/playlist.m3u8:LC3ng HuC  YG%10ngshC,
+#DESCRIPTION LC3ng HuC  YGngshC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283662:LC3udG%10 ZC2nghC)
+#DESCRIPTION LC3udG ZC2nghC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sc2022.stream-link.org/tv2306.php?id=c05:MTV CC(shC, China
+#DESCRIPTION MTV CC(shC, China
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.nntv.cn/nnlive/NNTV_METRO_A.m3u8:NC!nnC-ng DE+shC, ShD%13nghuC3
+#DESCRIPTION NC!nnC-ng DE+shC, ShDnghuC3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.nntv.cn/nnlive/NNTV_PUB_A.m3u8:NC!nnC-ng GE%0dnggC2ng
+#DESCRIPTION NC!nnC-ng GEnggC2ng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.nntv.cn/nnlive/NNTV_NEWS_A.m3u8:NC!nnC-ng XD+nwC)n ZC2nghC)
+#DESCRIPTION NC!nnC-ng XD+nwC)n ZC2nghC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.nntv.cn/nnlive/NNTV_VOD_A.m3u8:NC!nnC-ng YG%10ngshC, YC%3alC(
+#DESCRIPTION NC!nnC-ng YGngshC, YC:lC(
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.nbs.cn/channels/njtv/sepd/m3u8%3a500k/live.m3u8:NBS NC!njD+ng ShC o'C)r
+#DESCRIPTION NBS NC!njD+ng ShC o'C)r
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.nbs.cn/channels/njtv/sbpd/m3u8%3a500k/live.m3u8:NBS NC!njD+ng ShC-bD%01
+#DESCRIPTION NBS NC!njD+ng ShC-bD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.nbs.cn/channels/njtv/xxpd/m3u8%3a500k/live.m3u8:NBS NC!njD+ng XC,nxD+
+#DESCRIPTION NBS NC!njD+ng XC,nxD+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.nbs.cn/channels/njtv/ylpd/m3u8%3a500k/live.m3u8:NBS NC!njD+ng YC%3alC(
+#DESCRIPTION NBS NC!njD+ng YC:lC(
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8:NewTV Action Movie
 #DESCRIPTION NewTV Action Movie
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8:NewTV Agriculture Gets Rich
@@ -319,60 +377,60 @@
 #DESCRIPTION Panzihihua News Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//210.210.155.37/qwr9ew/s/s21/index.m3u8:Phoenix InfoNews Channel
 #DESCRIPTION Phoenix InfoNews Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UCd9dPMYgV9-IQaZG491TaRw.m3u8:Phoenix InfoNews Channel (Fènghuáng Wèishì Zīxùn)
-#DESCRIPTION Phoenix InfoNews Channel (Fènghuáng Wèishì Zīxùn)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283657:Qímiào Diànshì
-#DESCRIPTION Qímiào Diànshì
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ythls.armelin.one/channel/UCd9dPMYgV9-IQaZG491TaRw.m3u8:Phoenix InfoNews Channel (FC(nghuC!ng WC(ishC, ZD+xC9n)
+#DESCRIPTION Phoenix InfoNews Channel (FC(nghuC!ng WC(ishC, ZD+xC9n)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283657:QC-miC o DiC nshC,
+#DESCRIPTION QC-miC o DiC nshC,
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225628/index.m3u8:Qinghai TV
 #DESCRIPTION Qinghai TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/qg/sd/live.m3u8:Qián Guō Zònghé 1
-#DESCRIPTION Qián Guō Zònghé 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwcdnqx.hebyun.com.cn/live/rqtv2/1500k/tzwj_video.m3u8:Rèn Qiū Wényú
-#DESCRIPTION Rèn Qiū Wényú
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/qg/sd/live.m3u8:QiC!n GuE%0d ZC2nghC) 1
+#DESCRIPTION QiC!n GuE ZC2nghC) 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwcdnqx.hebyun.com.cn/live/rqtv2/1500k/tzwj_video.m3u8:RC(n QiE+ WC)nyC%3a
+#DESCRIPTION RC(n QiE+ WC)nyC:
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8:RTHK TV 31
 #DESCRIPTION RTHK TV 31
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_1080_av-b.m3u8:RTHK TV 32
 #DESCRIPTION RTHK TV 32
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sanlihalive1-a.akamaihd.net/4c3bb0ccad574d0e9b507c2dcd2dfabc/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678487~exp=9007200919419478~acl=/4c3bb0ccad574d0e9b507c2dcd2dfabc/*/profile_0/chunklist.m3u8*~hmac=1a3986bd8fb660eacbcc9954c67fb674fa810779ddc2fab5fa77188868ca3686:Sānlì Dūhuì
-#DESCRIPTION Sānlì Dūhuì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.smntv.cn/smtv2/playlist.m3u8:Sānmíng Gōnggòng 2
-#DESCRIPTION Sānmíng Gōnggòng 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.smntv.cn/smtv1/playlist.m3u8:Sānmíng Xīnwén Zònghé 1
-#DESCRIPTION Sānmíng Xīnwén Zònghé 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sanlihalive1-a.akamaihd.net/4c3bb0ccad574d0e9b507c2dcd2dfabc/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678487~exp=9007200919419478~acl=/4c3bb0ccad574d0e9b507c2dcd2dfabc/*/profile_0/chunklist.m3u8*~hmac=1a3986bd8fb660eacbcc9954c67fb674fa810779ddc2fab5fa77188868ca3686:SD%01nlC, DE+huC,
+#DESCRIPTION SDnlC, DE+huC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.smntv.cn/smtv2/playlist.m3u8:SD%01nmC-ng GE%0dnggC2ng 2
+#DESCRIPTION SDnmC-ng GEnggC2ng 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.smntv.cn/smtv1/playlist.m3u8:SD%01nmC-ng XD+nwC)n ZC2nghC) 1
+#DESCRIPTION SDnmC-ng XD+nwC)n ZC2nghC) 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//223.166.234.114%3a7777/tsfile/live/1033_1.m3u8:Shanghai Education Television Station
 #DESCRIPTION Shanghai Education Television Station
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.mudu.tv/watch/4zbn2f.m3u8:Shànghǎi Jīnshān Diànshìtái 
-#DESCRIPTION Shànghǎi Jīnshān Diànshìtái 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/290447:Shànghǎi Jìshí
-#DESCRIPTION Shànghǎi Jìshí
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8:Shàngyú 1 Xīnwén Zònghé
-#DESCRIPTION Shàngyú 1 Xīnwén Zònghé
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8:Shàngyú 3 Xin Shāngdū
-#DESCRIPTION Shàngyú 3 Xin Shāngdū
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8:Shàngyú Jīngjì Wénhuà
-#DESCRIPTION Shàngyú Jīngjì Wénhuà
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/54/live.m3u8:Shānxī Fǎzhì
-#DESCRIPTION Shānxī Fǎzhì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/52/live.m3u8:Shānxī Jīngjì
-#DESCRIPTION Shānxī Jīngjì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/55/live.m3u8:Shānxī Wéntǐ
-#DESCRIPTION Shānxī Wéntǐ
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/53/live.m3u8:Shānxī Yǐngshì
-#DESCRIPTION Shānxī Yǐngshì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8:Shèngzhōu Zònghé
-#DESCRIPTION Shèngzhōu Zònghé
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbsz.chinashadt.com%3a2036/live/stream%3asztv.stream/playlist.m3u8:Shēngzhōu Zònghé Píndào
-#DESCRIPTION Shēngzhōu Zònghé Píndào
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.mudu.tv/watch/4zbn2f.m3u8:ShC nghG%0ei JD+nshD%01n DiC nshC,tC!i 
+#DESCRIPTION ShC nghGi JD+nshDn DiC nshC,tC!i 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/290447:ShC nghG%0ei JC,shC-
+#DESCRIPTION ShC nghGi JC,shC-
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8:ShC ngyC%3a 1 XD+nwC)n ZC2nghC)
+#DESCRIPTION ShC ngyC: 1 XD+nwC)n ZC2nghC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8:ShC ngyC%3a 3 Xin ShD%01ngdE+
+#DESCRIPTION ShC ngyC: 3 Xin ShDngdE+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8:ShC ngyC%3a JD+ngjC, WC)nhuC 
+#DESCRIPTION ShC ngyC: JD+ngjC, WC)nhuC 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/54/live.m3u8:ShD%01nxD+ FG%0ezhC,
+#DESCRIPTION ShDnxD+ FGzhC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/52/live.m3u8:ShD%01nxD+ JD+ngjC,
+#DESCRIPTION ShDnxD+ JD+ngjC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/55/live.m3u8:ShD%01nxD+ WC)ntG%10
+#DESCRIPTION ShDnxD+ WC)ntG
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.194.178.58%3a8888/newlive/live/hls/53/live.m3u8:ShD%01nxD+ YG%10ngshC,
+#DESCRIPTION ShDnxD+ YGngshC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8:ShC(ngzhE%0du ZC2nghC)
+#DESCRIPTION ShC(ngzhEu ZC2nghC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbsz.chinashadt.com%3a2036/live/stream%3asztv.stream/playlist.m3u8:ShD%13ngzhE%0du ZC2nghC) PC-ndC o
+#DESCRIPTION ShDngzhEu ZC2nghC) PC-ndC o
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225739/index.m3u8:Shenzhen Satellite TV
 #DESCRIPTION Shenzhen Satellite TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pluslive1.sjzntv.cn/dushi/playlist.m3u8:Shíjiāzhuāng Dūshì
-#DESCRIPTION Shíjiāzhuāng Dūshì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pluslive1.sjzntv.cn/shenghuo/playlist.m3u8:Shíjiāzhuāng Shēnghuó
-#DESCRIPTION Shíjiāzhuāng Shēnghuó
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pluslive1.sjzntv.cn/yule/playlist.m3u8:Shíjiāzhuāng Yúlè
-#DESCRIPTION Shíjiāzhuāng Yúlè
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.sjsrm.com/bjsjs/sd/live.m3u8:Shíjǐngshān Diànshìtái
-#DESCRIPTION Shíjǐngshān Diànshìtái
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pluslive1.sjzntv.cn/dushi/playlist.m3u8:ShC-jiD%01zhuD%01ng DE+shC,
+#DESCRIPTION ShC-jiDzhuDng DE+shC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pluslive1.sjzntv.cn/shenghuo/playlist.m3u8:ShC-jiD%01zhuD%01ng ShD%13nghuC3
+#DESCRIPTION ShC-jiDzhuDng ShDnghuC3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//pluslive1.sjzntv.cn/yule/playlist.m3u8:ShC-jiD%01zhuD%01ng YC%3alC(
+#DESCRIPTION ShC-jiDzhuDng YC:lC(
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.sjsrm.com/bjsjs/sd/live.m3u8:ShC-jG%10ngshD%01n DiC nshC,tC!i
+#DESCRIPTION ShC-jGngshDn DiC nshC,tC!i
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//220.182.45.198%3a20088/tsfile/live/0134_1.m3u8?key=txiptv&playlive=1&authid=0:Sichuan Kangba Tibetan TV
 #DESCRIPTION Sichuan Kangba Tibetan TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598:Siping TV
@@ -381,8 +439,8 @@
 #DESCRIPTION SMTV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.smntv.cn/smtv2/sd/live.m3u8:SMTV 2
 #DESCRIPTION SMTV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/sytv/sd/live.m3u8:Sōngyuán Xīnwén Zònghé
-#DESCRIPTION Sōngyuán Xīnwén Zònghé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/sytv/sd/live.m3u8:SE%0dngyuC!n XD+nwC)n ZC2nghC)
+#DESCRIPTION SEngyuC!n XD+nwC)n ZC2nghC)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225620/index.m3u8:Southeast TV
 #DESCRIPTION Southeast TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//uvotv-aniview.global.ssl.fastly.net/hls/live/2119691/stbongo/playlist.m3u8:ST Bongo
@@ -397,48 +455,48 @@
 #DESCRIPTION Tianjin Satellite TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8:Tonghua TV
 #DESCRIPTION Tonghua TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/tonghua1/sd/live.m3u8:Tōnghuà Xīnwén 1
-#DESCRIPTION Tōnghuà Xīnwén 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/tonghua1/sd/live.m3u8:TE%0dnghuC  XD+nwC)n 1
+#DESCRIPTION TEnghuC  XD+nwC)n 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283337:TV Brics Chinese
 #DESCRIPTION TV Brics Chinese
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//z88.ubtvfans.com/live/rx3/2288/6e627b4e8a65eec3773d6f8a33c9648d/index.m3u8:TvN (Táiwān Bǎn)
-#DESCRIPTION TvN (Táiwān Bǎn)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8:VOA Měiguó Zhī Yīn
-#DESCRIPTION VOA Měiguó Zhī Yīn
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//z88.ubtvfans.com/live/rx3/2288/6e627b4e8a65eec3773d6f8a33c9648d/index.m3u8:TvN (TC!iwD%01n BG%0en)
+#DESCRIPTION TvN (TC!iwDn BGn)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8:VOA MD%1biguC3 ZhD+ YD+n
+#DESCRIPTION VOA MDiguC3 ZhD+ YD+n
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//123.146.162.24%3a8013/tslslive/vWlnEzU/hls/live_sd.m3u8:Wanzhou Television
 #DESCRIPTION Wanzhou Television
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//123.146.162.24%3a8013/tslslive/PU2vzMI/hls/live_sd.m3u8:Wanzhou Three Gorges Migrants
 #DESCRIPTION Wanzhou Three Gorges Migrants
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283670:Wànzhōu Yǐngshì
-#DESCRIPTION Wànzhōu Yǐngshì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283672:Wànzhōu Zònghé
-#DESCRIPTION Wànzhōu Zònghé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283670:WC nzhE%0du YG%10ngshC,
+#DESCRIPTION WC nzhEu YGngshC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283672:WC nzhE%0du ZC2nghC)
+#DESCRIPTION WC nzhEu ZC2nghC)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//l1.weihai.tv%3a8081/hls/969O76hb22.m3u8:Weihai 1
 #DESCRIPTION Weihai 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//l2.weihai.tv%3a8081/hls/g16E3482eM.m3u8:Weihai 2
 #DESCRIPTION Weihai 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//l2.weihai.tv%3a8081/hls/x8b19NoyEG.m3u8:Weihai 3
 #DESCRIPTION Weihai 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8:Wéixīn Diànshì
-#DESCRIPTION Wéixīn Diànshì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.wjyanghu.com/live/CH2.m3u8:Wǔjìn Shēnghuó 2
-#DESCRIPTION Wǔjìn Shēnghuó 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.wjyanghu.com/live/CH1.m3u8:Wǔjìn Xīnwén 1
-#DESCRIPTION Wǔjìn Xīnwén 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8:Xiāoshān Shēnghuó Píndào 2
-#DESCRIPTION Xiāoshān Shēnghuó Píndào 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8:Xiāoshān Xīnwén Zònghé 1
-#DESCRIPTION Xiāoshān Xīnwén Zònghé 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8:WC)ixD+n DiC nshC,
+#DESCRIPTION WC)ixD+n DiC nshC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.wjyanghu.com/live/CH2.m3u8:WG%14jC,n ShD%13nghuC3 2
+#DESCRIPTION WGjC,n ShDnghuC3 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.wjyanghu.com/live/CH1.m3u8:WG%14jC,n XD+nwC)n 1
+#DESCRIPTION WGjC,n XD+nwC)n 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8:XiD%01oshD%01n ShD%13nghuC3 PC-ndC o 2
+#DESCRIPTION XiDoshDn ShDnghuC3 PC-ndC o 2
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8:XiD%01oshD%01n XD+nwC)n ZC2nghC) 1
+#DESCRIPTION XiDoshDn XD+nwC)n ZC2nghC) 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//210.210.155.37/x6bnqe/s/s94/index2.m3u8:Xing Kong International (360p)
 #DESCRIPTION Xing Kong International (360p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8:Xīnglóng Zònghé
-#DESCRIPTION Xīnglóng Zònghé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8:XD+nglC3ng ZC2nghC)
+#DESCRIPTION XD+nglC3ng ZC2nghC)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//klmysjtzb.rcsxzx.com/hls/klmy2.m3u8:Xinjiang TV 1
 #DESCRIPTION Xinjiang TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//222.223.119.21%3a8888/newlive/live/hls/55/live.m3u8:Xíngtái Chéng Shēng
-#DESCRIPTION Xíngtái Chéng Shēng
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//222.223.119.21%3a8888/newlive/live/hls/54/live.m3u8:Xíngtái Zònghé
-#DESCRIPTION Xíngtái Zònghé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//222.223.119.21%3a8888/newlive/live/hls/55/live.m3u8:XC-ngtC!i ChC)ng ShD%13ng
+#DESCRIPTION XC-ngtC!i ChC)ng ShDng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//222.223.119.21%3a8888/newlive/live/hls/54/live.m3u8:XC-ngtC!i ZC2nghC)
+#DESCRIPTION XC-ngtC!i ZC2nghC)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//php.jdshipin.com/xztv.php?id=ws:Xizang TV
 #DESCRIPTION Xizang TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//php.jdshipin.com%3a8880/xztv.php?id=zy:Xizang TV Tibetan
@@ -447,41 +505,41 @@
 #DESCRIPTION Yanbian TV 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.ybtvyun.com/video/s10006-04819ee234a7/index.m3u8:Yanbian TV 2
 #DESCRIPTION Yanbian TV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/jlyb/sd/live.m3u8:Yánbiān Xīnwén Zònghé
-#DESCRIPTION Yánbiān Xīnwén Zònghé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.jlntv.cn/jlyb/sd/live.m3u8:YC!nbiD%01n XD+nwC)n ZC2nghC)
+#DESCRIPTION YC!nbiDn XD+nwC)n ZC2nghC)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.ybtvyun.com/video/s10006-ff4eb5dba33d/index.m3u8:YBTV-1
 #DESCRIPTION YBTV-1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.ybtvyun.com/video/s10006-e9c6f9e4d53b/index.m3u8:YBTV-2
 #DESCRIPTION YBTV-2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hnyz.chinashadt.com%3a2036/live/stream%3atv1.stream_360p/playlist.m3u8:Yí Zhāng Xīnwén Zònghé
-#DESCRIPTION Yí Zhāng Xīnwén Zònghé
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1-fss24-s0.streamhoster.com/lv_uchannel/_definst_/broadcast1/chunklist.m3u8:Yōu Shì
-#DESCRIPTION Yōu Shì
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hnyz.chinashadt.com%3a2036/live/stream%3atv1.stream_360p/playlist.m3u8:YC- ZhD%01ng XD+nwC)n ZC2nghC)
+#DESCRIPTION YC- ZhDng XD+nwC)n ZC2nghC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1-fss24-s0.streamhoster.com/lv_uchannel/_definst_/broadcast1/chunklist.m3u8:YE%0du ShC,
+#DESCRIPTION YEu ShC,
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225656/index.m3u8:Youman Cartoon
 #DESCRIPTION Youman Cartoon
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8:Yúyáo Yáo Jiāng Wénhuà
-#DESCRIPTION Yúyáo Yáo Jiāng Wénhuà
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283749:Yúnnán Ⅰ Hónghé Zònghé Tái
-#DESCRIPTION Yúnnán Ⅰ Hónghé Zònghé Tái
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283748:Yúnnán Ⅰ Wénshān Zònghé Tái
-#DESCRIPTION Yúnnán Ⅰ Wénshān Zònghé Tái
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8:Yúyáo Xīnwén Zònghé
-#DESCRIPTION Yúyáo Xīnwén Zònghé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8:YC%3ayC!o YC!o JiD%01ng WC)nhuC 
+#DESCRIPTION YC:yC!o YC!o JiDng WC)nhuC 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283749:YC%3annC!n b%05  HC3nghC) ZC2nghC) TC!i
+#DESCRIPTION YC:nnC!n b  HC3nghC) ZC2nghC) TC!i
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptvtree.net%3a8080/Vladisergeevic/2f71144da3/283748:YC%3annC!n b%05  WC)nshD%01n ZC2nghC) TC!i
+#DESCRIPTION YC:nnC!n b  WC)nshDn ZC2nghC) TC!i
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8:YC%3ayC!o XD+nwC)n ZC2nghC)
+#DESCRIPTION YC:yC!o XD+nwC)n ZC2nghC)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//31182.hlsplay.aodianyun.com/lms_31182/tv_channel_175.m3u8:Zhangpu News
 #DESCRIPTION Zhangpu News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ct-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8:Zhèjiāng Gōnggòng
-#DESCRIPTION Zhèjiāng Gōnggòng
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ct-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8:Zhèjiāng Guójì
-#DESCRIPTION Zhèjiāng Guójì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8:Zhèjiāng Jīngjì
-#DESCRIPTION Zhèjiāng Jīngjì
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8:Zhèjiāng Mínshēng
-#DESCRIPTION Zhèjiāng Mínshēng
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8:Zhèjiāng Qián Jiāng
-#DESCRIPTION Zhèjiāng Qián Jiāng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ct-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8:ZhC(jiD%01ng GE%0dnggC2ng
+#DESCRIPTION ZhC(jiDng GEnggC2ng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ct-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8:ZhC(jiD%01ng GuC3jC,
+#DESCRIPTION ZhC(jiDng GuC3jC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8:ZhC(jiD%01ng JD+ngjC,
+#DESCRIPTION ZhC(jiDng JD+ngjC,
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8:ZhC(jiD%01ng MC-nshD%13ng
+#DESCRIPTION ZhC(jiDng MC-nshDng
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8:ZhC(jiD%01ng QiC!n JiD%01ng
+#DESCRIPTION ZhC(jiDng QiC!n JiDng
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play-qukan.cztv.com/live/1758879019692345.m3u8:Zhejiang Satellite TV
 #DESCRIPTION Zhejiang Satellite TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8:Zhèjiāng Shào'ér
-#DESCRIPTION Zhèjiāng Shào'ér
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8:Zhī Jiāng Jìlù
-#DESCRIPTION Zhī Jiāng Jìlù
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ct-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8:ZhC(jiD%01ng ShC o'C)r
+#DESCRIPTION ZhC(jiDng ShC o'C)r
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8:ZhD+ JiD%01ng JC,lC9
+#DESCRIPTION ZhD+ JiDng JC,lC9

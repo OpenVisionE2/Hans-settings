@@ -1,5 +1,5 @@
 #NAME Stream Italië (IT)
-#SERVICE 1:64:60d:0:0:0:0:0:0:0:
+#SERVICE 1:64:614:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8:RAI 1
 #DESCRIPTION RAI 1
@@ -11,6 +11,8 @@
 #DESCRIPTION RAI 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_rai_tre_tizen/playlist.m3u8:RAI 3 (#)
 #DESCRIPTION RAI 3 (#)
+#SERVICE 4097:0:1:d4b:1450:13e:820000:0:0:0:http%3a//wzstreaming.rai.it/TVlive/smil%3aliveStream.smil/chunklist_w558549246_b1428000_slita.m3u8:Rai 3 Südtirol
+#DESCRIPTION Rai 3 Südtirol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=177710&extension=ts:RAI 4
 #DESCRIPTION RAI 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=177572&extension=ts:RAI 5
@@ -79,7 +81,7 @@
 #DESCRIPTION Senato TV 
 #SERVICE 4097:0:1:2bac:19c8:fbff:820000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=177617&extension=ts:TV 2000
 #DESCRIPTION TV 2000
-#SERVICE 1:64:60e:0:0:0:0:0:0:0:
+#SERVICE 1:64:615:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8:7 RadioVisione
 #DESCRIPTION 7 RadioVisione
@@ -281,6 +283,10 @@
 #DESCRIPTION Parole di Vita
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//diretta.arcapuglia.it%3a8080/live/partenope/index.m3u8:Partenope TV
 #DESCRIPTION Partenope TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.peer.biz/live/peertv-it.m3u8:Peer TV Alto Adige
+#DESCRIPTION Peer TV Alto Adige
+#SERVICE 4097:0:1:dfbf:1038:ec:0:0:0:0:https%3a//iptv.peer.biz/live/peertv.m3u8:Peer TV Südtirol
+#DESCRIPTION Peer TV Südtirol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hbbtv.momentotv.live%3a29935/petmania/petmania/manifest.mpd:Pet Mania TV
 #DESCRIPTION Pet Mania TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5db313b643fd8.streamlock.net/piuvallitv/piuvallitv/chunklist_.m3u8:Più Valli TV
@@ -421,6 +427,8 @@
 #DESCRIPTION RTP Sicilia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//flash2.xdevel.com/rtptv/rtptv/playlist.m3u8:RTP TV
 #DESCRIPTION RTP TV
+#SERVICE 4097:0:1:c5f3:906b:ec:0:0:0:0:https%3a//rttr.fluid.stream/RTTRlive/livestream/playlist.m3u8:RTTR Trentino Südtirol
+#DESCRIPTION RTTR Trentino Südtirol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f204aff97bee.streamlock.net/RTTRlive/livestream/playlist.m3u8:RTTR
 #DESCRIPTION RTTR
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamcdne1-845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8:RTV 38
@@ -547,6 +555,8 @@
 #DESCRIPTION TSD TV Arezzo (Tele San Domenico)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ts2000tv.streaming.nextware.it%3a8081/ts2000tv/ts2000tv/chunks.m3u8:Tuscia Sabina 2000 TV 
 #DESCRIPTION Tuscia Sabina 2000 TV 
+#SERVICE 4097:0:1:2b28:7b3f:ec:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/tv33tn/tv33tn/playlist.m3u8:TV 33 Südtirol
+#DESCRIPTION TV 33 Südtirol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eu1.servers10.com%3a8081/8032/index.m3u8:TV Campane 1
 #DESCRIPTION TV Campane 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.mariatvcdn.com/tvprato/2db0dd5674586686a867ec52c3aa8e06.sdp/mono.m3u8:TV Prato

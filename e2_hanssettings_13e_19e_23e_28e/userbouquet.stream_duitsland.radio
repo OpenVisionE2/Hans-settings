@@ -1,5 +1,5 @@
 #NAME Stream Duitsland (DE)
-#SERVICE 1:64:736:0:0:0:0:0:0:0:
+#SERVICE 1:64:740:0:0:0:0:0:0:0:
 #DESCRIPTION ++ARD-zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/br/br1/franken/mp3/mid:BR - Bayern 1 - Franken
 #DESCRIPTION BR - Bayern 1 - Franken
@@ -37,6 +37,10 @@
 #DESCRIPTION HR - HR Info
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d131.rndfnk.com/ard/hr/youfm/live/mp3/128/stream.mp3?aggregator=onlineradiobox-com&cid=01FBPYTN7KZSZ66QD37V2A0XQF&sid=2ybUWEmJMm3ZG4PA4TQgMvhWANY&token=SdTlcQOcw6L9Js3T30KeBwUZ1l4kzjtuWsq8ek0m2iM&tvf=0Hdkb92wSRhkMTMxLnJuZGZuay5jb20:HR - You FM
 #DESCRIPTION HR - You FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/hr/dasding/high:DASDING
+#DESCRIPTION DASDING
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mcdn.swr.de/swr/visualradiodasding/master720p-3328.m3u8:DASDING
+#DESCRIPTION DASDING
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284340-0_mp3_high.m3u:MDR Aktuell
 #DESCRIPTION MDR Aktuell
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//avw.mdr.de/streams/284320-0_mp3_high.m3u:MDR Jump
@@ -297,36 +301,32 @@
 #DESCRIPTION SWR - SWR 3 Party
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw331ch/raka05/:SWR - SWR 3 Rock
 #DESCRIPTION SWR - SWR 3 Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4bw/play.mp3:SWR - SWR 4 Baden-Württemberg
-#DESCRIPTION SWR - SWR 4 Baden-Württemberg
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4fn/play.mp3:SWR - SWR 4 Baden-Württemberg Friedrichshafen
-#DESCRIPTION SWR - SWR 4 Baden-Württemberg Friedrichshafen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4hn/play.mp3:SWR - SWR 4 Baden-Württemberg Heilbronn
-#DESCRIPTION SWR - SWR 4 Baden-Württemberg Heilbronn
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4ka/play.mp3:SWR - SWR 4 Baden-Württemberg Karlsruhe
-#DESCRIPTION SWR - SWR 4 Baden-Württemberg Karlsruhe
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4ma/play.mp3:SWR - SWR 4 Baden-Württemberg Mannheim
-#DESCRIPTION SWR - SWR 4 Baden-Württemberg Mannheim
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4bw/play.mp3:SWR - SWR 4 Baden-Württemberg Stuttgart
-#DESCRIPTION SWR - SWR 4 Baden-Württemberg Stuttgart
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4fr/play.mp3:SWR - SWR 4 Baden-Württemberg Südbaden
-#DESCRIPTION SWR - SWR 4 Baden-Württemberg Südbaden
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4tu/play.mp3:SWR - SWR 4 Baden-Württemberg Tübingen
-#DESCRIPTION SWR - SWR 4 Baden-Württemberg Tübingen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4ul/play.mp3:SWR - SWR 4 Baden-Württemberg Ulm
-#DESCRIPTION SWR - SWR 4 Baden-Württemberg Ulm
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/swr/swr4/rp/mp3/128/stream.mp3?aggregator=web:SWR - SWR 4 Rheinland-Pfalz
-#DESCRIPTION SWR - SWR 4 Rheinland-Pfalz
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4rp/play.mp3:SWR - SWR 4 Rheinland-Pfalz Kaiserslautern
-#DESCRIPTION SWR - SWR 4 Rheinland-Pfalz Kaiserslautern
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4ko/play.mp3:SWR - SWR 4 Rheinland-Pfalz Koblenz
-#DESCRIPTION SWR - SWR 4 Rheinland-Pfalz Koblenz
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4lu/play.mp3:SWR - SWR 4 Rheinland-Pfalz Ludwigshafen
-#DESCRIPTION SWR - SWR 4 Rheinland-Pfalz Ludwigshafen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/swr/swr4/rp/mp3/128/stream.mp3?aggregator=web:SWR - SWR 4 Rheinland-Pfalz Mainz
-#DESCRIPTION SWR - SWR 4 Rheinland-Pfalz Mainz
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4tr/play.mp3:SWR - SWR 4 Rheinland-Pfalz Trier
-#DESCRIPTION SWR - SWR 4 Rheinland-Pfalz Trier
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4fr/hls/192/seglist.m3u8:SWR - SWR 4 Freiburch
+#DESCRIPTION SWR - SWR 4 Freiburch
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4fn/hls/192/seglist.m3u8:SWR - SWR 4 Friedrichshafen
+#DESCRIPTION SWR - SWR 4 Friedrichshafen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4hn/hls/192/seglist.m3u8:SWR - SWR 4 Heilbronn
+#DESCRIPTION SWR - SWR 4 Heilbronn
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4kl/hls/192/seglist.m3u8:SWR - SWR 4 Kaiserslautern
+#DESCRIPTION SWR - SWR 4 Kaiserslautern
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4ka/hls/192/seglist.m3u8:SWR - SWR 4 Karlsruhe
+#DESCRIPTION SWR - SWR 4 Karlsruhe
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4ko/hls/192/seglist.m3u8:SWR - SWR 4 Koblenz
+#DESCRIPTION SWR - SWR 4 Koblenz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4lu/hls/192/seglist.m3u8:SWR - SWR 4 Ludwigshafen
+#DESCRIPTION SWR - SWR 4 Ludwigshafen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4rp/hls/192/seglist.m3u8:SWR - SWR 4 Mainz
+#DESCRIPTION SWR - SWR 4 Mainz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4ma/play.mp3:SWR - SWR 4 Mannheim
+#DESCRIPTION SWR - SWR 4 Mannheim
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4bw/hls/192/seglist.m3u8:SWR - SWR 4 Stuttgart
+#DESCRIPTION SWR - SWR 4 Stuttgart
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4tr/hls/192/seglist.m3u8:SWR - SWR 4 Trier
+#DESCRIPTION SWR - SWR 4 Trier
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4tu/hls/192/seglist.m3u8:SWR - SWR 4 Tübingen
+#DESCRIPTION SWR - SWR 4 Tübingen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4ul/hls/192/seglist.m3u8:SWR - SWR 4 Ulm
+#DESCRIPTION SWR - SWR 4 Ulm
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3:WDR - 1Live
 #DESCRIPTION WDR - 1Live
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//addrad.io/4WRMHS:WDR - 1Live Diggi
@@ -397,7 +397,7 @@
 #DESCRIPTION WDR - Die Maus
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d111.rndfnk.com/ard/wdr/wdr/event/mp3/128/stream.mp3?aggregator=web&cid=01FC1VHKSA446AN8QN07VP9XCQ&sid=2ybYp4rkZQYGZqF9unyS5vOoysF&token=UUvyv6LfiWRw8EqR3BlIHzlAM-MSV3Rq7Z1gxDYazMU&tvf=Jsnh9cuySRhkMTExLnJuZGZuay5jb20:WDR - Event
 #DESCRIPTION WDR - Event
-#SERVICE 1:64:737:0:0:0:0:0:0:0:
+#SERVICE 1:64:741:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667:80s80s
 #DESCRIPTION 80s80s
@@ -1027,14 +1027,10 @@
 #DESCRIPTION Das Inselradio Sommerhits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamplus52.leonex.de%3a11216/;:Das Radio der von Neil Young Getteten
 #DESCRIPTION Das Radio der von Neil Young Getteten
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//swr-dasding-live.cast.addradio.de/swr/dasding/live/mp3/64/stream.mp3:DasDing
-#DESCRIPTION DasDing
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//swr-swr-raka10.cast.addradio.de/swr/swr/raka10/mp3/64/stream.mp3:DasDing-Lautstark
-#DESCRIPTION DasDing-Lautstark
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//swr-swr-raka12.cast.addradio.de/swr/swr/raka12/mp3/64/stream.mp3:DasDing-Plattenleger
-#DESCRIPTION DasDing-Plattenleger
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//swr-swr-raka11.cast.addradio.de/swr/swr/raka11/mp3/64/stream.mp3:DasDing-Sprechstunde
-#DESCRIPTION DasDing-Sprechstunde
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/hr/dasding/high:DASDING
+#DESCRIPTION DASDING
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mcdn.swr.de/swr/visualradiodasding/master720p-3328.m3u8:DASDING
+#DESCRIPTION DASDING
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//d.b.cx/radio:db radio high
 #DESCRIPTION db radio high
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//d.b.cx/dnb.mp3:db selected dnb
@@ -2853,6 +2849,8 @@
 #DESCRIPTION Radio Galaxy - Rosenheim
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rgo-ais-edge-3002-fra-eco-cdn.cast.addradio.de/rgo/live/mp3/high:Radio Germany One
 #DESCRIPTION Radio Germany One
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//b2.stream43.radiohost.de/b2-radiogold_mp3-192:Radio Gold
+#DESCRIPTION Radio Gold
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiogong--di--nacs-ais-lgc--01--cdn.cast.addradio.de/radiogong/live/mp3/high:Radio Gong
 #DESCRIPTION Radio Gong
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.multhielemedia.de/radio/8060/grammo:Radio Grammo

@@ -1,21 +1,23 @@
 #NAME Stream webcams buitenland
-#SERVICE 1:64:281:0:0:0:0:0:0:0:
+#SERVICE 1:64:263:0:0:0:0:0:0:0:
 #DESCRIPTION ++België++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//livecam.brucity.be/LiveBrusselsWebcams/streams/fDdnnEmqOn6Kyy3E1701416388577.m3u8:Brussel - de Brouckèreplein - dak Hôtel Continental
-#DESCRIPTION Brussel - de Brouckèreplein - dak Hôtel Continental
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//livecam.brucity.be/LiveBrusselsWebcams/streams/vTm9wYDlwkAEO8mH1746783018793.m3u8:Brussel - Grote Markt
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//livecam.brucity.be/LiveBrusselsWebcams/streams/fDdnnEmqOn6Kyy3E1701416388577.m3u8#Referer=https%3a//www.brussel.be/webcam-de-brouckereplein/embed?autoplay=1:Brussel - De Brouckèreplein 
+#DESCRIPTION Brussel - De Brouckèreplein 
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//livecam.brucity.be/LiveBrusselsWebcams/streams/vTm9wYDlwkAEO8mH1746783018793.m3u8#Referer=https%3a//www.brussel.be/webcam-grote-markt/embed?autoplay=1:Brussel - Grote Markt
 #DESCRIPTION Brussel - Grote Markt
-#SERVICE 1:64:282:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s101.ipcamlive.com/streams_timeshift/656gfa1ndzhjleevs/stream.m3u8:Zolder - circuit
+#DESCRIPTION Zolder - circuit
+#SERVICE 1:64:264:0:0:0:0:0:0:0:
 #DESCRIPTION ++Brazilië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//video2archives.earthcam.com/archives/_definst_/MP4%3apermanent/6593/2017/10/01/1300.mp4/playlist.m3u8:Rio de Janeiro (Copacabana Beach)
 #DESCRIPTION Rio de Janeiro (Copacabana Beach)
-#SERVICE 1:64:283:0:0:0:0:0:0:0:
+#SERVICE 1:64:265:0:0:0:0:0:0:0:
 #DESCRIPTION ++Canada++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//media.gpei.ca/islandcam/guild.stream/HasBahCa.m3u8:Charlottetown
 #DESCRIPTION Charlottetown
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video2archives.earthcam.com/archives/_definst_/MP4%3apermanent/4559/2019/08/11/1300.mp4/chunklist_w1595912559.m3u8:Toronto - Niagara Falls (Canada)
 #DESCRIPTION Toronto - Niagara Falls (Canada)
-#SERVICE 1:64:284:0:0:0:0:0:0:0:
+#SERVICE 1:64:266:0:0:0:0:0:0:0:
 #DESCRIPTION +++Duitsland+++
 #SERVICE 4097:0:1:b76d:2c26:ec:0:0:0:0:https%3a//cdn.livespotting.com/vpu/ehlpzb4g/nkw9elfh.m3u8:Berlin Alexanderplatz
 #DESCRIPTION Berlin Alexanderplatz
@@ -211,59 +213,289 @@
 #DESCRIPTION Wittmund Nordseebad Carolinensiel-Harlesiel
 #SERVICE 4097:0:1:99c0:eec6:ec:0:0:0:0:https%3a//cdn.livespotting.com/vpu/s5r7oxxz/2mmubfyp.m3u8:Livespotting TV De 100 kamera
 #DESCRIPTION Livespotting TV De 100 kamera
-#SERVICE 1:64:285:0:0:0:0:0:0:0:
+#SERVICE 1:64:267:0:0:0:0:0:0:0:
 #DESCRIPTION ++Denemarken++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.sob.m-dn.net/live/sb1/index.m3u8#Referer=https%3a//www.oresundsbron.com/embed?autoplay=1:Storebaelt - Øresundsbron I 
+#DESCRIPTION Storebaelt - Øresundsbron I 
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.sob.m-dn.net/live/sb2/index.m3u8#Referer=https%3a//www.oresundsbron.com/embed?autoplay=1:Storebaelt - Øresundsbron II
+#DESCRIPTION Storebaelt - Øresundsbron II
 #SERVICE 4097:0:1:1621:6a38:ec:0:0:0:0:https%3a//stream.sob.m-dn.net/live/sb1/index.m3u8:Storebaelt 1
 #DESCRIPTION Storebaelt 1
 #SERVICE 4097:0:1:d18:ae69:ec:0:0:0:0:https%3a//stream.sob.m-dn.net/live/sb2/index.m3u8:Storebaelt 2
 #DESCRIPTION Storebaelt 2
-#SERVICE 1:64:286:0:0:0:0:0:0:0:
+#SERVICE 1:64:268:0:0:0:0:0:0:0:
 #DESCRIPTION +++Engeland (UK)+++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//camsecure.co/HLS/arnside.m3u8:Arnside - beach
-#DESCRIPTION Arnside - beach
+#SERVICE 5002:0:1:bb3e:9093:ec:0:0:0:0:https%3a//d2kuoyatoupwao.cloudfront.net/cf_cdn_4/Studio1ABR/60N-Radio/studio_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:60 North Radio
+#DESCRIPTION 60 North Radio
+#SERVICE 4097:0:1:c826:3cbe:ec:0:0:0:0:https%3a//camsecure.uk/HLS/westcoastsurf.m3u8:Abersoch - Beach
+#DESCRIPTION Abersoch - Beach
+#SERVICE 4097:0:1:6c90:103c:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/ApperleyBridge_20194/tracks-v1/mono.m3u8:Apperley Bridge
+#DESCRIPTION Apperley Bridge
+#SERVICE 4097:0:1:e1e4:4c1f:ec:0:0:0:0:https%3a//camsecure.co/HLS/arnside.m3u8:Arnside - Beach
+#DESCRIPTION Arnside - Beach
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//camsecure.uk/HLS/owenbayliss.m3u8:Barrow Walney Island Airport
 #DESCRIPTION Barrow Walney Island Airport
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5a6b68c47d95e.streamlock.net/DAW_Black_Swan_Cam/smil%3aDAW_Black_Swan_Cam.smil/chunklist_w1064639368_b8256000_sleng.m3u8:Dawlish Beach Cams - Black Swan Cam
-#DESCRIPTION Dawlish Beach Cams - Black Swan Cam
+#SERVICE 4097:0:1:7fc6:6b41:ec:0:0:0:0:https%3a//camsecure.uk/HLS/ballyholmecam.m3u8:Bangor - Ballyholme
+#DESCRIPTION Bangor - Ballyholme
+#SERVICE 4097:0:1:6e6d:aa27:ec:0:0:0:0:https%3a//camsecure.co/HLS/bexhill2feed.m3u8:Bexhill On Sea - Beach
+#DESCRIPTION Bexhill On Sea - Beach
+#SERVICE 4097:0:1:34f:f8f2:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/BishopsLydeard_59234/tracks-v1a1/index.m3u8:Bishops Lydeard - Station
+#DESCRIPTION Bishops Lydeard - Station
+#SERVICE 4097:0:1:caad:429d:ec:0:0:0:0:https%3a//camstream.uk/HLS/brancasternci.m3u8:Brancaster - Beach
+#DESCRIPTION Brancaster - Beach
+#SERVICE 4097:0:1:9b48:8a21:ec:0:0:0:0:https%3a//camsecure.uk/HLS/brightlingcamsea.m3u8:Brightlingsea - Sailing Club
+#DESCRIPTION Brightlingsea - Sailing Club
+#SERVICE 4097:0:1:11d:e917:ec:0:0:0:0:https%3a//camsecure.uk/HLS/lagoonwatersports.m3u8:Brighton - Hove Lagoon Marina
+#DESCRIPTION Brighton - Hove Lagoon Marina
+#SERVICE 5002:0:1:d781:85d4:ec:0:0:0:0:https%3a//dwk56dhjy8516.cloudfront.net/cf_burradale/BurradaleABR/burradale/stream_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:Burradale - Wind Farm
+#DESCRIPTION Burradale - Wind Farm
+#SERVICE 5002:0:1:893b:71bb:ec:0:0:0:0:https%3a//d2kuoyatoupwao.cloudfront.net/cf_burrafirth/BurrafirthABR/burrafirth/stream_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:Burrafirth
+#DESCRIPTION Burrafirth
+#SERVICE 4097:0:1:6e72:3db6:ec:0:0:0:0:https%3a//camsecure.co/HLS/cyc.m3u8:Cardiff - Cardiff Bay
+#DESCRIPTION Cardiff - Cardiff Bay
+#SERVICE 4097:0:1:c4b7:a6b3:ec:0:0:0:0:https%3a//camsecure.co/HLS/cromernciplaylist.m3u8:Cromer - Beach & Pier
+#DESCRIPTION Cromer - Beach & Pier
+#SERVICE 4097:0:1:5b93:122:ec:0:0:0:0:https%3a//5a6f905a69aae.streamlock.net/DWL_Black_Swan_Cam/smil%3aDWL_Black_Swan_Cam.smil/playlist.m3u8:Dawlish - Black Swan
+#DESCRIPTION Dawlish - Black Swan
+#SERVICE 4097:0:1:3ae6:1f37:ec:0:0:0:0:https%3a//5a6f905a69aae.streamlock.net/DWL_Blenheim_Cam_2/smil%3aDWL_Blenheim_Cam_2.smil/chunklist_w1608789947_b4628000_sleng.m3u8:Dawlish - Blenheim
+#DESCRIPTION Dawlish - Blenheim
+#SERVICE 4097:0:1:a37c:ee62:ec:0:0:0:0:https%3a//5a6f905a69aae.streamlock.net/DWL_Blenheim_Cam_2/smil%3aDWL_Blenheim_Cam_2.smil/playlist.m3u8:Dawlish - Blenheim 4K
+#DESCRIPTION Dawlish - Blenheim 4K
+#SERVICE 4097:0:1:970e:b317:ec:0:0:0:0:https%3a//5a6f905a69aae.streamlock.net/DWL_Sea_Breeze_Cam/smil%3aDWL_Sea_Breeze_4k.smil/chunklist_w1966996009_b4628000_sleng.m3u8:Dawlish - Sea Breeze
+#DESCRIPTION Dawlish - Sea Breeze
+#SERVICE 4097:0:1:4cc:e304:ec:0:0:0:0:https%3a//5a6f905a69aae.streamlock.net/DWL_Sea_Breeze_Cam/smil%3aDWL_Sea_Breeze_4k.smil/playlist.m3u8:Dawlish - Sea Breeze 4K
+#DESCRIPTION Dawlish - Sea Breeze 4K
+#SERVICE 5002:0:1:6f32:6182:ec:0:0:0:0:https%3a//d2kuoyatoupwao.cloudfront.net/cf_eshaness/EshanessABR/eshaness/stream_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:Eshaness - Lighthouse
+#DESCRIPTION Eshaness - Lighthouse
+#SERVICE 4097:0:1:596a:8e42:ec:0:0:0:0:http%3a//camsecure.co/HLS/felixpl.m3u8:Felixtowe - Beach
+#DESCRIPTION Felixtowe - Beach
+#SERVICE 4097:0:1:aa5f:98d9:ec:0:0:0:0:https%3a//camsecure.co/HLS/felix2.m3u8:Felixtowe - Deben
+#DESCRIPTION Felixtowe - Deben
+#SERVICE 5002:0:1:a576:4177:ec:0:0:0:0:https%3a//d2kuoyatoupwao.cloudfront.net/cf_fjara/FjaraABR/fjara/stream_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:Fjarå - Sealevel
+#DESCRIPTION Fjarå - Sealevel
+#SERVICE 4097:0:1:3208:8706:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/Flitwick_99123/tracks-v1a1/mono.m3u8:Flitwick
+#DESCRIPTION Flitwick
+#SERVICE 4097:0:1:20b6:15f3:ec:0:0:0:0:https%3a//n1.burst.cdn.jetstre.am/sz/Glastonbury/wowza4/live/marketplace2/playlist.m3u8:Glastonbury - Marketplace
+#DESCRIPTION Glastonbury - Marketplace
+#SERVICE 4097:0:1:60ff:6fc9:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/Glyndyfrdwy_389573/tracks-v1/mono.m3u8:Glyndyfrdwy
+#DESCRIPTION Glyndyfrdwy
+#SERVICE 5002:0:1:56b:efc6:ec:0:0:0:0:https%3a//d2kuoyatoupwao.cloudfront.net/cf_thedrongs/TheDrongsABR/thedrongs/stream_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:Hillswick Ness - The Drongs
+#DESCRIPTION Hillswick Ness - The Drongs
+#SERVICE 4097:0:1:966f:7ec1:ec:0:0:0:0:https%3a//paxman.railcam.co.uk/Ribblehead_Viaduct/index.m3u8:Horton In Ribblesdale - Ribblehead Viaduct
+#DESCRIPTION Horton In Ribblesdale - Ribblehead Viaduct
+#SERVICE 4097:0:1:26f6:8c4f:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/Hythe_22835/tracks-v1/mono.m3u8:Hythe
+#DESCRIPTION Hythe
+#SERVICE 4097:0:1:fa1:2eae:ec:0:0:0:0:https%3a//camsecure.uk/HLS/scarlettsequence.m3u8:Isle Of Man - Scarlett Point
+#DESCRIPTION Isle Of Man - Scarlett Point
+#SERVICE 4097:0:1:ceb5:7f77:ec:0:0:0:0:https%3a//paxman.railcam.co.uk/KWVR_Keighley_C2_21574/tracks-v1a1/mono.m3u8:Keighley
+#DESCRIPTION Keighley
+#SERVICE 4097:0:1:569d:3e61:ec:0:0:0:0:https%3a//camsecure.uk/HLS/fernhowe.m3u8:Keswick - Fern Howe Guest House
+#DESCRIPTION Keswick - Fern Howe Guest House
+#SERVICE 4097:0:1:8f06:d19f:ec:0:0:0:0:https%3a//camsecure.uk/HLS/lossc.m3u8:Lee On The Solent - Beach
+#DESCRIPTION Lee On The Solent - Beach
+#SERVICE 4097:0:1:96ab:c022:ec:0:0:0:0:https%3a//camsecure.uk/HLS/johncharles.m3u8:Leigh-On-Sea
+#DESCRIPTION Leigh-On-Sea
+#SERVICE 5002:0:1:ec2:23d8:ec:0:0:0:0:https%3a//d2kuoyatoupwao.cloudfront.net/cf_taxirank/TaxiRankABR/taxirank/stream_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:Lerwick - Esplanade
+#DESCRIPTION Lerwick - Esplanade
+#SERVICE 5002:0:1:8709:a81b:ec:0:0:0:0:https%3a//d2kuoyatoupwao.cloudfront.net/cf_lerwickharbour/LerwickHarbourABR/lerwickharbour/stream_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:Lerwick - Harbour
+#DESCRIPTION Lerwick - Harbour
+#SERVICE 5002:0:1:be0a:ae86:ec:0:0:0:0:https%3a//d2kuoyatoupwao.cloudfront.net/cf_touristoffice/TouristOfficeABR/touristoffice/stream_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:Lerwick - Tourist Office
+#DESCRIPTION Lerwick - Tourist Office
+#SERVICE 5002:0:1:3bb0:5cab:ec:0:0:0:0:https%3a//d2kuoyatoupwao.cloudfront.net/cf_townhalleast/TownHallEastABR/townhalleast/stream_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:Lerwick - Town Hall
+#DESCRIPTION Lerwick - Town Hall
+#SERVICE 5002:0:1:e193:427f:ec:0:0:0:0:https%3a//d2kuoyatoupwao.cloudfront.net/cf_victoriapier/VictoriaPierABR/victoriapier/stream_720p/chunks.m3u8#Referer=https%3a//www.shetlandwebcams.com/embed?autoplay=1:Lerwick - Victoria Pier
+#DESCRIPTION Lerwick - Victoria Pier
+#SERVICE 4097:0:1:ab2:32:ec:0:0:0:0:https%3a//camsecure.co/HLS/dswc.m3u8:London - Docklands
+#DESCRIPTION London - Docklands
+#SERVICE 4097:0:1:7b9:d058:ec:0:0:0:0:https%3a//n1.burst.cdn.jetstre.am/sz/streamdays/wowza4/live/IET-SavoyPlace-577/playlist.m3u8:London - Savoy Place
+#DESCRIPTION London - Savoy Place
+#SERVICE 4097:0:1:3171:b553:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/NewRomney1_61358/tracks-v1a1/mono.m3u8:New Romney
+#DESCRIPTION New Romney
+#SERVICE 4097:0:1:f4dc:f568:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/Newark-ECML-23781/tracks-v1a1/mono.m3u8:Newark
+#DESCRIPTION Newark
+#SERVICE 4097:0:1:721d:8cd2:ec:0:0:0:0:https%3a//paxman.railcam.co.uk/Newbury_29185/tracks-v1a1/mono.m3u8:Newbury
+#DESCRIPTION Newbury
+#SERVICE 4097:0:1:c19:19c9:ec:0:0:0:0:https%3a//camsecure.uk/HLS/pbsc.m3u8:Pevensey - Bay
+#DESCRIPTION Pevensey - Bay
+#SERVICE 4097:0:1:b4de:c321:ec:0:0:0:0:https%3a//camsecure.co/HLS/blueskysolutions5.m3u8:Porthcawl - Beach
+#DESCRIPTION Porthcawl - Beach
+#SERVICE 4097:0:1:636b:8b08:ec:0:0:0:0:https%3a//camsecure.co/HLS/portmeirion1.m3u8:Portmeirion - The Piazza
+#DESCRIPTION Portmeirion - The Piazza
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.camsecure.co/HLS/portmeirion1.m3u8:Portmeirion North Wales
 #DESCRIPTION Portmeirion North Wales
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//camsecure.co/HLS/westho.m3u8:Westward
+#SERVICE 4097:0:1:3a47:3ed9:ec:0:0:0:0:http%3a//paxman.railcam.co.uk%3a8080/Ribblehead_Viaduct/tracks-v1a1/index.m3u8:Ribblehead - Viaduct
+#DESCRIPTION Ribblehead - Viaduct
+#SERVICE 4097:0:1:652d:49cb:ec:0:0:0:0:https%3a//camsecure.uk/HLS/sennenbeach.m3u8:Sennen - Beach
+#DESCRIPTION Sennen - Beach
+#SERVICE 4097:0:1:a8e8:abde:ec:0:0:0:0:https%3a//camsecure.uk/HLS/sennen.m3u8:Sennen - Atlantic Cottage Holidays
+#DESCRIPTION Sennen - Atlantic Cottage Holidays
+#SERVICE 4097:0:1:4fc1:e943:ec:0:0:0:0:https%3a//paxman.railcam.co.uk/Shrewsbury_10933/tracks-v1a1/mono.m3u8:Shrewsbury
+#DESCRIPTION Shrewsbury
+#SERVICE 4097:0:1:3a1:424:ec:0:0:0:0:https%3a//camsecure.co/HLS/shropshire.m3u8:Shropshire - Sailing Club
+#DESCRIPTION Shropshire - Sailing Club
+#SERVICE 4097:0:1:3b9a:9ff9:ec:0:0:0:0:https%3a//camsecure.co/HLS/southendpier.m3u8:Southend - Pier
+#DESCRIPTION Southend - Pier
+#SERVICE 4097:0:1:7226:93b7:ec:0:0:0:0:https%3a//camsecure.co/HLS/stives1a.m3u8:St. Ives - Roving Webcam Cornwall
+#DESCRIPTION St. Ives - Roving Webcam Cornwall
+#SERVICE 4097:0:1:8ed6:6852:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/Abergynolwyn_68473/tracks-v1/mono.m3u8:Talyl lyn - Abergynolwyn station
+#DESCRIPTION Talyl lyn - Abergynolwyn station
+#SERVICE 4097:0:1:d851:842a:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/Teignmouth-C2_2618/tracks-v1a1/mono.m3u8:Teignmouth Harbour
+#DESCRIPTION Teignmouth Harbour
+#SERVICE 4097:0:1:4b37:8c02:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/Todmorden_19065/tracks-v1/mono.m3u8:Totmorden
+#DESCRIPTION Totmorden
+#SERVICE 4097:0:1:85e:d63e:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/Uphall_96341/tracks-v1a1/mono.m3u8:Uphall
+#DESCRIPTION Uphall
+#SERVICE 4097:0:1:4f99:512b:ec:0:0:0:0:https%3a//camsecure.co/HLS/westho.m3u8:Westward
 #DESCRIPTION Westward
-#SERVICE 1:64:287:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:d11:ffe1:ec:0:0:0:0:https%3a//camsecure.co/HLS/cslive2.m3u8:Weymouth - Sea Front
+#DESCRIPTION Weymouth - Sea Front
+#SERVICE 4097:0:1:9d4c:d552:ec:0:0:0:0:https%3a//camsecure.co/HLS/wyc.m3u8:Whitstable - Yacht Club
+#DESCRIPTION Whitstable - Yacht Club
+#SERVICE 4097:0:1:cadb:9597:ec:0:0:0:0:https%3a//camsecure.uk/HLS/worthing2.m3u8:Worthing - Marine Parade
+#DESCRIPTION Worthing - Marine Parade
+#SERVICE 4097:0:1:f157:9452:ec:0:0:0:0:https%3a//camsecure.uk/HLS/worthingsailing.m3u8:Worthing - Sailing
+#DESCRIPTION Worthing - Sailing
+#SERVICE 4097:0:1:8e76:a6dd:ec:0:0:0:0:https%3a//maybach.railcam.co.uk/Buckfastleigh_68389/tracks-v1/mono.m3u8:York – Buckfastleigh
+#DESCRIPTION York – Buckfastleigh
+#SERVICE 4097:0:1:7ef3:b7fb:ec:0:0:0:0:https%3a//paxman.railcam.co.uk/YorkROC1_59459/index.m3u8:York - ROC (1)
+#DESCRIPTION York - ROC (1)
+#SERVICE 4097:0:1:6168:ab49:ec:0:0:0:0:https%3a//paxman.railcam.co.uk/York2_59285/tracks-v1a1/mono.m3u8:York – North
+#DESCRIPTION York – North
+#SERVICE 4097:0:1:8361:c35d:ec:0:0:0:0:https%3a//paxman.railcam.co.uk/York2_59285/index.m3u8:York - North (2)
+#DESCRIPTION York - North (2)
+#SERVICE 1:64:269:0:0:0:0:0:0:0:
 #DESCRIPTION ++Frankrijk++
-#SERVICE 5002:0:1:9af0:48ea:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/auvergne-rhone-alpes/arbusigny/les-aravis-mont-blanc.html:Arbusigny
-#DESCRIPTION Arbusigny
-#SERVICE 5002:0:1:5194:9a9e:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/occitanie/boutx/station-de-ski-le-mourtis.html:Boutx Ski Center of Le Mourtis
-#DESCRIPTION Boutx Ski Center of Le Mourtis
-#SERVICE 5002:0:1:c830:e66d:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/occitanie/collioure/chateau-royal.html:Collioure
-#DESCRIPTION Collioure
-#SERVICE 5002:0:1:5251:51b6:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/provence-alpes-cote-dazur/frejus/plage-de-frejus.html:Fréjus Beach
-#DESCRIPTION Fréjus Beach
-#SERVICE 5002:0:1:9d05:4f57:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/provence-alpes-cote-dazur/marseille/les-calanques-de-marseille.html:Marseille - Massif des Calanques
-#DESCRIPTION Marseille - Massif des Calanques
-#SERVICE 5002:0:1:d4a:f8ec:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/nouvelle-aquitaine/la-rochelle/vieux-port.html:La Rochelle
-#DESCRIPTION La Rochelle
-#SERVICE 5002:0:1:3b70:a108:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/auvergne-rhone-alpes/doussard/lac-d-annecy-france.html:Lake Annecy
-#DESCRIPTION Lake Annecy
-#SERVICE 5002:0:1:ca68:f5df:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/auvergne-rhone-alpes/mont-dore/le-mont-dore.html:Le Mont-Dore - Sommet de Sancy
-#DESCRIPTION Le Mont-Dore - Sommet de Sancy
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//6162417352ffd.streamlock.net/live/frankrijk.stream/chunklist_w.m3u8:Mont Ventoux
-#DESCRIPTION Mont Ventoux
-#SERVICE 5002:0:1:c25a:6522:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/ile-de-france/paris/paris-pantheon-notre-dame.html:Pantheon
-#DESCRIPTION Pantheon
-#SERVICE 5002:0:1:552f:f5d8:ec:0:0:0:0:https%3a//visionenvironnement.quanteec.com/contents/encodings/live/6d6a84d6-1f60-4fe8-746c-7561-6665-64-8686-4c545fab07c7d/master.m3u8:Paris
-#DESCRIPTION Paris
-#SERVICE 5002:0:1:959c:2177:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/nouvelle-aquitaine/saint-pierre-d-oleron/port-de-la-cotiniere.html:Saint-Pierre-d'Oléron
-#DESCRIPTION Saint-Pierre-d'Oléron
-#SERVICE 5002:0:1:7d78:2f7b:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/occitanie/sete/port-de-plaisance.html:Sète
-#DESCRIPTION Sète
-#SERVICE 5002:0:1:fd6d:b39d:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/auvergne-rhone-alpes/vallorcine/vallorcine-mont-blanc.html:Vallorcine
-#DESCRIPTION Vallorcine
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//ds1-cache.quanteec.com/contents/encodings/live/8640ee20-5492-419b-3331-3530-6d61-63-851e-f6cb24da16e6d/master.m3u8:Vendays-Montalivet - strand
-#DESCRIPTION Vendays-Montalivet - strand
-#SERVICE 5002:0:1:4e47:a022:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/www.skylinewebcams.com/en/webcam/france/normandie/veulettes-sur-mer/veulettes-sur-mer.html:Veulettes-sur-Mer
-#DESCRIPTION Veulettes-sur-Mer
-#SERVICE 1:64:288:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:dd74:b059:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/anglet02_1_1.stream/playlist.m3u8:Anglet - La Barre
+#DESCRIPTION Anglet - La Barre
+#SERVICE 4097:0:1:db41:7a5b:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/anglet04_1_1.stream/playlist.m3u8:Anglet - Le Club
+#DESCRIPTION Anglet - Le Club
+#SERVICE 4097:0:1:e611:f71f:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/c56ac32d-4df6-4924-3430-3030-6d61-63-9e97-d84cc86e129bd/master.m3u8:Anglet - Plage
+#DESCRIPTION Anglet - Plage
+#SERVICE 4097:0:1:f521:4c5d:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/anglet06_1_1.stream/playlist.m3u8:Anglet - Sables d'Or
+#DESCRIPTION Anglet - Sables d'Or
+#SERVICE 4097:0:1:1351:4f98:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/anglet01_1_1.stream/playlist.m3u8:Anglet - VVF
+#DESCRIPTION Anglet - VVF
+#SERVICE 4097:0:1:909c:f0a1:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/786c0f84-2a78-4080-3237-3630-6d61-63-8b78-5e96e0870473d/master.m3u8:Arcachon - Le Port
+#DESCRIPTION Arcachon - Le Port
+#SERVICE 4097:0:1:5d6a:cc57:ec:0:0:0:0:https%3a//ds1-cache.quanteec.com/contents/encodings/live/001f0c90-60c6-4121-3134-3030-6d61-63-a2eb-acfa247e6c29d/master.m3u8:Arcachon - Plage
+#DESCRIPTION Arcachon - Plage
+#SERVICE 4097:0:1:a231:7e5d:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/db5b4a8c-109a-46f2-3435-3030-6d61-63-82f7-06d933c1261dd/master.m3u8:Arras - La Capitainerie
+#DESCRIPTION Arras - La Capitainerie
+#SERVICE 4097:0:1:75a9:a10f:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/2c782b6e-06b1-4849-3535-3030-6d61-63-bf8f-e8935ac498f0d/master.m3u8:Arras - Place des Héros
+#DESCRIPTION Arras - Place des Héros
+#SERVICE 4097:0:1:bf65:a475:ec:0:0:0:0:https%3a//ds1-cache.quanteec.com/contents/encodings/live/10feea30-9587-46aa-3330-3130-6d61-63-b05d-a9521503deb9d/master.m3u8:Bénodet - Le Port
+#DESCRIPTION Bénodet - Le Port
+#SERVICE 4097:0:1:54b:cd6f:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/56caa721-02b2-4031-3430-3130-6d61-63-b9f9-f23307135ec5d/master.m3u8:Bénodet - Plage
+#DESCRIPTION Bénodet - Plage
+#SERVICE 4097:0:1:b6e6:fc5b:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/biarritzgrandeplage_1_1.stream/playlist.m3u8:Biarritz - La Grande Plage Vue 1
+#DESCRIPTION Biarritz - La Grande Plage Vue 1
+#SERVICE 4097:0:1:cd49:feae:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/biarritzplage_1_1.stream/playlist.m3u8:Biarritz - Plages & Phare
+#DESCRIPTION Biarritz - Plages & Phare
+#SERVICE 4097:0:1:97db:d9ed:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/bidartcentre_1_1.stream/playlist.m3u8:Bidart - Centre
+#DESCRIPTION Bidart - Centre
+#SERVICE 4097:0:1:461f:cccf:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/4e0100d6-7bc4-43be-3839-3130-6d61-63-bd66-bcfd64e27574d/master.m3u8:Bray-Dunes
+#DESCRIPTION Bray-Dunes
+#SERVICE 4097:0:1:ce81:15ae:ec:0:0:0:0:https%3a//ds1-cache.quanteec.com/contents/encodings/live/d5e9f551-7435-4ea6-3532-3130-6d61-63-916e-ff1d72543cced/master.m3u8:Calais - La Plage
+#DESCRIPTION Calais - La Plage
+#SERVICE 4097:0:1:6690:b3c9:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/b170bf54-81bb-45ab-3437-3630-6d61-63-9535-a3d48df31213d/master.m3u8:Cap-d'Ail
+#DESCRIPTION Cap-d'Ail
+#SERVICE 4097:0:1:2c13:b43b:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/c07d6d28-9261-4a9a-3133-3130-6d61-63-b2a8-f33e32959371d/master.m3u8:Capbreton
+#DESCRIPTION Capbreton
+#SERVICE 4097:0:1:e9cd:5596:ec:0:0:0:0:https%3a//ds1-cache.quanteec.com/contents/encodings/live/0a17ed2b-a078-4cf2-3139-3430-6d61-63-bcfe-4f193953fa78d/master.m3u8:Cucq - Stella Plage
+#DESCRIPTION Cucq - Stella Plage
+#SERVICE 4097:0:1:8242:5593:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/8d9f7a17-a395-4be6-3739-3130-6d61-63-b32b-4069d95be7a5d/master.m3u8:Dunkerque - Base de la Licorne
+#DESCRIPTION Dunkerque - Base de la Licorne
+#SERVICE 4097:0:1:ce8f:68f3:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/4e0100d6-7bc4-43be-3839-3130-6d61-63-bd66-bcfd64e27574d/master.m3u8:Dunkerque - Plage de Bray-Dunes
+#DESCRIPTION Dunkerque - Plage de Bray-Dunes
+#SERVICE 4097:0:1:e4c:4e4:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/b7d58e56-d7ea-4357-3939-3130-6d61-63-8d6e-10efef7830e2d/master.m3u8:Dunkerque - Plage de Malo
+#DESCRIPTION Dunkerque - Plage de Malo
+#SERVICE 4097:0:1:6b90:4bad:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/8f0170c0-1b41-48f9-3030-3230-6d61-63-98e4-bc495cd8d793d/master.m3u8:Dunkerque - Plage de Zuydcoote
+#DESCRIPTION Dunkerque - Plage de Zuydcoote
+#SERVICE 4097:0:1:fc2d:db58:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/cc8b8ffe-1f03-4d8b-3538-3530-6d61-63-ada0-ea8fb07459bfd/master.m3u8:Fréjus - Marina
+#DESCRIPTION Fréjus - Marina
+#SERVICE 4097:0:1:694f:fb76:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/ba1349b6-56b2-4903-3336-3230-6d61-63-b376-97e35dff77f3d/master.m3u8:Hendaye - Plage d'Hendaye (2)
+#DESCRIPTION Hendaye - Plage d'Hendaye (2)
+#SERVICE 4097:0:1:f96:a76b:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/hendaye01_1_1/playlist.m3u8:Hendaye - Vue Fixe Live
+#DESCRIPTION Hendaye - Vue Fixe Live
+#SERVICE 4097:0:1:82ed:2573:ec:0:0:0:0:https%3a//deliverys4.quanteec.com/contents/encodings/vod/a550c055-fb5c-44a0-3430-3330-6d61-63-8dcb-29e0adea88a8d/master.m3u8:Labastide-d'Armagnac
+#DESCRIPTION Labastide-d'Armagnac
+#SERVICE 4097:0:1:a8be:5ae3:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/ae1a4a8c-784b-4571-3537-3230-6d61-63-a65b-ceb2396bd8add/master.m3u8:La Hague - Urville-Nacqueville
+#DESCRIPTION La Hague - Urville-Nacqueville
+#SERVICE 4097:0:1:745b:9bc9:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/c6ac4174-ee79-4e08-3632-3330-6d61-63-9efb-ce2d3fb197b0d/master.m3u8:Le Havre - Plage du Havre
+#DESCRIPTION Le Havre - Plage du Havre
+#SERVICE 4097:0:1:2e55:1d7c:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/lehavre01_5_5/playlist.m3u8:Le Havre
+#DESCRIPTION Le Havre
+#SERVICE 4097:0:1:4b8e:83a6:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/e08e502e-fc6b-4a96-3637-3530-6d61-63-98b2-329207a40e81d/master.m3u8:Les Orres - Ski Resort
+#DESCRIPTION Les Orres - Ski Resort
+#SERVICE 4097:0:1:5f06:1b9b:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/151cc4bd-1cad-405d-3339-3630-6d61-63-ba5b-a8934a001a82d/master.m3u8:Lille - Place du Théâtre
+#DESCRIPTION Lille - Place du Théâtre
+#SERVICE 4097:0:1:1d58:a8ae:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/c377a690-e8be-45db-3733-3630-6d61-63-9aa0-b87e8d820fddd/master.m3u8:Meschers-sur-Gironde
+#DESCRIPTION Meschers-sur-Gironde
+#SERVICE 4097:0:1:30b7:ed31:ec:0:0:0:0:https%3a//ds1-cache.quanteec.com/contents/encodings/live/750d3a99-3c17-48e1-3435-3130-6d61-63-81f3-0528a77195d9d/master.m3u8:Millau - A75 Viaduc de Millau Nord
+#DESCRIPTION Millau - A75 Viaduc de Millau Nord
+#SERVICE 4097:0:1:6345:5e2f:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/e3bfbb25-6d75-44df-3537-3330-6d61-63-952d-0ec59e7cf50ad/master.m3u8:Nancy - Palais du Gouvernement
+#DESCRIPTION Nancy - Palais du Gouvernement
+#SERVICE 4097:0:1:6e3e:39b7:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/aa29e970-6a9c-4f66-3437-3330-6d61-63-8898-aa10faedf4f4d/master.m3u8:Nancy - Place Stanislas
+#DESCRIPTION Nancy - Place Stanislas
+#SERVICE 4097:0:1:8b8b:e0b1:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/16d1ad82-49dc-491a-3433-3230-6d61-63-a59d-fc77596c2e6dd/master.m3u8:Neufchâtel Hardelot - Plage d'Hardelot
+#DESCRIPTION Neufchâtel Hardelot - Plage d'Hardelot
+#SERVICE 4097:0:1:8c7:ac94:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/4c362a32-a803-482b-3338-3630-6d61-63-b2af-1318979a1b8fd/master.m3u8:Nice - Promenade des Anglais
+#DESCRIPTION Nice - Promenade des Anglais
+#SERVICE 4097:0:1:844:fb9a:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/281ee296-7a47-402e-3738-3330-6d61-63-8239-bef0f6a83debd/master.m3u8:Paris - Maison de la Radio - La Défense
+#DESCRIPTION Paris - Maison de la Radio - La Défense
+#SERVICE 4097:0:1:1ac9:a1ef:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/c51d6b18-94cf-4476-3838-3330-6d61-63-ab88-8df2f1cd0327d/master.m3u8:Paris - La Seine
+#DESCRIPTION Paris - La Seine
+#SERVICE 4097:0:1:a991:4e52:ec:0:0:0:0:https%3a//ds1-cache.quanteec.com/contents/encodings/live/112fd325-c7cf-42fa-3032-3730-6d61-63-9dcb-e991fc0db4a4d/master.m3u8:Paris - La Seine
+#DESCRIPTION Paris - La Seine
+#SERVICE 4097:0:1:44cb:2705:ec:0:0:0:0:https%3a//ds1-cache.quanteec.com/contents/encodings/live/e6b6f1cd-ae5d-40f2-3032-3630-6d61-63-a744-dbccb109af26d/master.m3u8:Paris - Port de Plaisance de Paris-Arsenal
+#DESCRIPTION Paris - Port de Plaisance de Paris-Arsenal
+#SERVICE 4097:0:1:c806:cdd5:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/47fcda1a-38f6-4fb2-3938-3330-6d61-63-bb4b-5df88851d8b7d/media_0.m3u8:Paris - Tour Eiffel
+#DESCRIPTION Paris - Tour Eiffel
+#SERVICE 4097:0:1:3864:f93f:ec:0:0:0:0:https%3a//ds1-cache.quanteec.com/contents/encodings/live/927939d7-996a-4e66-3530-3430-6d61-63-b236-56683e39d5e9d/master.m3u8:Pont-l'Abbé
+#DESCRIPTION Pont-l'Abbé
+#SERVICE 4097:0:1:9bff:e03d:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/pourville01_7_5/playlist.m3u8:Pourville
+#DESCRIPTION Pourville
+#SERVICE 4097:0:1:fb12:f237:ec:0:0:0:0:https%3a//gelink.nu%3a2096/Lamigeste/Lamigeste-2160p.stream/playlist.m3u8:Pouzols-Minervois - L'amigeste
+#DESCRIPTION Pouzols-Minervois - L'amigeste
+#SERVICE 4097:0:1:27d:9236:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/1c5123d9-5f37-499e-3632-3430-6d61-63-b976-6faa7ca28b32d/master.m3u8:Royan - Plage de Pontaillac
+#DESCRIPTION Royan - Plage de Pontaillac
+#SERVICE 4097:0:1:a49e:a17c:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/stbrevin01_5_5/playlist.m3u8:Saint Brévin
+#DESCRIPTION Saint Brévin
+#SERVICE 4097:0:1:7828:f7b1:ec:0:0:0:0:https%3a//live.webcam-hd.fr/liveedge/lahague05_12_8/playlist.m3u8:Siouville
+#DESCRIPTION Siouville
+#SERVICE 4097:0:1:bc1:51f:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/555fb3d0-7b6a-4e1a-3036-3630-6d61-63-a529-611d7063c4d5d/master.m3u8:Troyes - Place Alexandre Israël
+#DESCRIPTION Troyes - Place Alexandre Israël
+#SERVICE 4097:0:1:5834:55c1:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/69c46851-c0b1-4163-3132-3630-6d61-63-81bb-9639c189e583d/master.m3u8:Valenciennes - La Place d'Armes
+#DESCRIPTION Valenciennes - La Place d'Armes
+#SERVICE 4097:0:1:1897:4732:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/a3c4a2dd-6bbd-40b2-3631-3530-6d61-63-8aca-1ba7ed379fbbd/master.m3u8:Yport - Plage d'Yport
+#DESCRIPTION Yport - Plage d'Yport
+#SERVICE 1:64:26a:0:0:0:0:0:0:0:
+#DESCRIPTION 4K Webcams Frankrijk
+#SERVICE 4097:0:1:4509:5621:ec:0:0:0:0:https%3a//vision.quanteec.com/contents/encodings/live/6a22c03e-e3b6-49f0-746c-7561-6665-64-b7f7-c369b76bf6b0d/master.m3u8:Bastia - Haven
+#DESCRIPTION Bastia - Haven
+#SERVICE 4097:0:1:ce5c:a843:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/8a6903f0-4b7f-462b-3935-3130-6d61-63-b788-d279bee76ef7d/master.m3u8:Châtelaillon-Plage
+#DESCRIPTION Châtelaillon-Plage
+#SERVICE 4097:0:1:b9e7:9f2f:ec:0:0:0:0:https%3a//ds2-cache.quanteec.com/contents/encodings/live/600cf251-f3e5-4f4c-3737-3230-6d61-63-83a9-81e565db2b1dd/master.m3u8:La Hague
+#DESCRIPTION La Hague
+#SERVICE 4097:0:1:552f:f5d8:ec:0:0:0:0:https%3a//visionenvironnement.quanteec.com/contents/encodings/live/6d6a84d6-1f60-4fe8-746c-7561-6665-64-8686-4c545fab07c7d/master.m3u8:Paris - Tour Eiffel
+#DESCRIPTION Paris - Tour Eiffel
+#SERVICE 4097:0:1:852f:1374:ec:0:0:0:0:https%3a//deliverys4.quanteec.com/contents/encodings/vod/5ea300fd-7e15-40d1-3035-3430-6d61-63-a148-c5fd5acfeb2fd/master.m3u8:Perpignan - Panoramique
+#DESCRIPTION Perpignan - Panoramique
+#SERVICE 1:64:26b:0:0:0:0:0:0:0:
+#DESCRIPTION ++Ierland++
+#SERVICE 4097:0:1:ba03:5135:ec:0:0:0:0:https%3a//media.evercam.io/live/Z3BvY2FtfEdQT0NhbQ==/index.m3u8:Dublin - O'Connell Street
+#DESCRIPTION Dublin - O'Connell Street
+#SERVICE 1:64:26c:0:0:0:0:0:0:0:
+#DESCRIPTION ++Israël++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//video.weather2day.co.il%3a4438/live/hanaton/playlist.m3u8:Hanaton (4K)
+#DESCRIPTION Hanaton (4K)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.weather2day.co.il%3a4438/live/kfaroranim/playlist.m3u8:Kfar Ha-Oranim 
+#DESCRIPTION Kfar Ha-Oranim 
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//video.weather2day.co.il%3a4438/live/telaviv/playlist.m3u8:Tel Aviv (4K)
+#DESCRIPTION Tel Aviv (4K)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.weather2day.co.il%3a4438/live/zefati/playlist.m3u8:Zefat
+#DESCRIPTION Zefat
+#SERVICE 1:64:26d:0:0:0:0:0:0:0:
 #DESCRIPTION +++Italië+++
 #SERVICE 4097:0:1:aabc:680f:ec:0:0:0:0:http%3a//stream-meteoproject.eu/data/21/master.m3u8:Cervinia Valtournenche
 #DESCRIPTION Cervinia Valtournenche
@@ -289,7 +521,7 @@
 #DESCRIPTION Sardinija Palau Isola dei Gabbiani 505
 #SERVICE 4097:0:1:1558:2868:ec:0:0:0:0:http%3a//cdn-005.whatsupcams.com/hls/it_trieste02.m3u8:Trst pogled na dvorac Miramare
 #DESCRIPTION Trst pogled na dvorac Miramare
-#SERVICE 1:64:289:0:0:0:0:0:0:0:
+#SERVICE 1:64:26e:0:0:0:0:0:0:0:
 #DESCRIPTION +++Noorwegen+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream1.vossaskyen.no/bt/Danmarksplass.stream/playlist.m3u8:Bergen - Danmarks plass
 #DESCRIPTION Bergen - Danmarks plass
@@ -317,7 +549,7 @@
 #DESCRIPTION Skulestadmo
 #SERVICE 4097:0:1:ef3e:3beb:ec:0:0:0:0:https%3a//svplive-lh.akamaized.net/hls/live/2039444/sa/r3DxvH89PN7RPhufi3QvC/master.m3u8:Stavanger Vågen i Stavanger @
 #DESCRIPTION Stavanger Vågen i Stavanger @
-#SERVICE 1:64:28a:0:0:0:0:0:0:0:
+#SERVICE 1:64:26f:0:0:0:0:0:0:0:
 #DESCRIPTION +++Oostenrijk+++
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//badbleiberg.it-wms.com/clip_current_720p.mp4:Bad Bleiberg
 #DESCRIPTION Bad Bleiberg
@@ -365,7 +597,7 @@
 #DESCRIPTION Wagrain Markt
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//s1.live-panorama.com/keblivestreaming/streams/schmittenTVLow.sdp.stream.m3u8:Zell am See
 #DESCRIPTION Zell am See
-#SERVICE 1:64:28b:0:0:0:0:0:0:0:
+#SERVICE 1:64:270:0:0:0:0:0:0:0:
 #DESCRIPTION +++Polen+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hoktastream2.webcamera.pl/tv_cam_656df8/tv_cam_656df8.stream/chunks.m3u8:webcamera.pl
 #DESCRIPTION webcamera.pl
@@ -481,7 +713,7 @@
 #DESCRIPTION Zakopane - Polana Szymoszkowa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hstream2.webcamera.pl/poreba_cam_e71a81/poreba_cam_e71a81.stream/playlist.m3u8:Zalew Świnna Poręba
 #DESCRIPTION Zalew Świnna Poręba
-#SERVICE 1:64:28c:0:0:0:0:0:0:0:
+#SERVICE 1:64:271:0:0:0:0:0:0:0:
 #DESCRIPTION +++Rusland+++
 #SERVICE 4097:0:1:866:0:0:0:0:0:0:http%3a//62.213.36.148%3a1935/live/kkd2-bot.stream/chunklist.m3u8:Красноярск -  Г/K «Бобровый лог» (Russisch)
 #DESCRIPTION Красноярск -  Г/K «Бобровый лог» (Russisch)
@@ -511,19 +743,19 @@
 #DESCRIPTION Псков - Площадь Ленина
 #SERVICE 4097:0:1:1348:0:0:0:0:0:0:http%3a//citycams.pskovline.ru%3a8080/cam5/index.m3u8:Псков - Площадь победы
 #DESCRIPTION Псков - Площадь победы
-#SERVICE 1:64:28d:0:0:0:0:0:0:0:
+#SERVICE 1:64:272:0:0:0:0:0:0:0:
 #DESCRIPTION +++Spanje+++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//6162417352ffd.streamlock.net/live-cam/marco/chunklist_w.m3u8:Vakantiehuis Altea
 #DESCRIPTION Vakantiehuis Altea
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//5b8d2cbe62ad6.streamlock.net/live/spanje.stream/chunklist.m3u8:Vakantiehuis Jalon boven Benidorm
 #DESCRIPTION Vakantiehuis Jalon boven Benidorm
-#SERVICE 1:64:28e:0:0:0:0:0:0:0:
+#SERVICE 1:64:273:0:0:0:0:0:0:0:
 #DESCRIPTION +++Tsjechië+++
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//stream.silesnet.net/webcams/jablunkov.m3u8:Jablunkov
 #DESCRIPTION Jablunkov
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.hqv.cz/ratibor.obecni.net/index.m3u8:Ratibor/Ratiboř
 #DESCRIPTION Ratibor/Ratiboř
-#SERVICE 1:64:28f:0:0:0:0:0:0:0:
+#SERVICE 1:64:274:0:0:0:0:0:0:0:
 #DESCRIPTION +++United States of America (USA)+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com/live/greeneville.stream/playlist.m3u8:Greeneville
 #DESCRIPTION Greeneville
@@ -547,11 +779,19 @@
 #DESCRIPTION WFMZ Tower Camera
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.jaybirdtv.com/wfmz/channel/7/master.m3u8:WFMZ Traffic
 #DESCRIPTION WFMZ Traffic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www-senate-gov-media-srs.akamaized.net/hls/live/2036784/capcam/capcam/master.m3u8:White House
+#DESCRIPTION White House
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wse1.resortcams.com%3a80/live/madelineisland.stream/playlist.m3u8:Wisconsin - Madeline Island
 #DESCRIPTION Wisconsin - Madeline Island
-#SERVICE 1:64:290:0:0:0:0:0:0:0:
+#SERVICE 1:64:275:0:0:0:0:0:0:0:
+#DESCRIPTION ++Zweden++
+#SERVICE 4097:0:1:b91e:f83c:ec:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/0f97b3a0a94eefc2ca85480e27fbdaad.flv/playlist.m3u8:Stockholm - Kvarnholmen
+#DESCRIPTION Stockholm - Kvarnholmen
+#SERVICE 1:64:276:0:0:0:0:0:0:0:
 #DESCRIPTION +++Zwisterland+++
-#SERVICE 4097:0:1:8c3c:236c:ec:0:0:0:0:https%3a//cdn.livespotting.com/vpu/5tv7fisb/br28pv3u.m3u8:Teufen Bootshaus Tössegg
-#DESCRIPTION Teufen Bootshaus Tössegg
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hotelalexander.it-wms.com/clip_current_720p.mp4:Zürich
-#DESCRIPTION Zürich
+#SERVICE 4097:0:1:dd72:d778:ec:0:0:0:0:https%3a//cdn.livespotting.com/vpu/5tv7fisb/br28pv3u_720.m3u8:Teufen - Bootshaus Tössegg
+#DESCRIPTION Teufen - Bootshaus Tössegg
+#SERVICE 4097:0:1:f057:3284:ec:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/37ffbcc3380a87f0dddeecb16bbbf35b.flv/playlist.m3u8:Zermatt - Matterhorn
+#DESCRIPTION Zermatt - Matterhorn
+#SERVICE 4097:0:1:fb13:40ed:ec:0:0:0:0:https%3a//hotelalexander.it-wms.com/clip_current_720p.mp4:Zürich - Hotel Alexander
+#DESCRIPTION Zürich - Hotel Alexander

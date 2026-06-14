@@ -1,932 +1,475 @@
-#NAME Nieuw sinds 4 april 2026
-#SERVICE 1:64:1fb:0:0:0:0:0:0:0:
-#DESCRIPTION ++Duitsland fta++
-#SERVICE 1:0:16:6d66:437:1:c00000:0:0:0:
-#SERVICE 1:0:19:30d8:413:1:c00000:0:0:0:
+#NAME Nieuw sinds 8 mei 2026
 #SERVICE 1:64:1fc:0:0:0:0:0:0:0:
-#DESCRIPTION ++Engeland++
-#SERVICE 1:0:1:d7c3:840:2:11a0000:0:0:0:
+#DESCRIPTION ++Duitsland, HD+, code++
+#SERVICE 1:0:19:30d8:413:1:c00000:0:0:0:
 #SERVICE 1:64:1fd:0:0:0:0:0:0:0:
-#DESCRIPTION ++Nieuws++
-#SERVICE 1:0:19:216:384:13e:820000:0:0:0:
-#SERVICE 1:0:19:233d:2328:13e:820000:0:0:0:
+#DESCRIPTION ++Duitsland, Sky DE, stream relay++
+#SERVICE 1:0:19:6f:d:85:c00000:0:0:0:
+#SERVICE 1:0:19:8b:2:85:c00000:0:0:0:
 #SERVICE 1:64:1fe:0:0:0:0:0:0:0:
-#DESCRIPTION ++Italië++
-#SERVICE 1:0:1:4234:2f44:13e:820000:0:0:0:
+#DESCRIPTION ++Duitsland radio fta++
+#SERVICE 1:0:a:28e5:425:1:c00000:0:0:0:
+#SERVICE 1:0:a:28ce:40f:1:c00000:0:0:0:
 #SERVICE 1:64:1ff:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oost-Europa, Griekenland, fta++
-#SERVICE 1:0:1:139:157c:13e:820000:0:0:0:
-#SERVICE 1:0:1:470:9:aa:5a0000:0:0:0:
+#DESCRIPTION ++Muziek++
+#SERVICE 1:0:1:8b:1644:13e:820000:0:0:0:
 #SERVICE 1:64:200:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oost-Europa, Russisch++
-#SERVICE 1:0:1:2332:2328:13e:820000:0:0:0:
+#DESCRIPTION ++Aziatisch++
+#SERVICE 1:0:1:1fc:384:13e:820000:0:0:0:
 #SERVICE 1:64:201:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oost-Europa, Tsjechië, code++
-#SERVICE 1:0:16:3350:c93:3:eb0000:0:0:0:
-#SERVICE 1:64:202:0:0:0:0:0:0:0:
-#DESCRIPTION ++Polen++
-#SERVICE 1:0:19:290b:1edc:71:820000:0:0:0:
-#SERVICE 1:64:203:0:0:0:0:0:0:0:
-#DESCRIPTION ++9 oost++
-#SERVICE 1:0:16:744:1:64:5a0000:0:0:0:
-#SERVICE 1:64:204:0:0:0:0:0:0:0:
-#DESCRIPTION ++Nieus++
-#SERVICE 1:0:16:233e:2328:13e:820000:0:0:0:
-#SERVICE 1:0:16:233f:2328:13e:820000:0:0:0:
-#SERVICE 1:64:205:0:0:0:0:0:0:0:
-#DESCRIPTION ++Ziggo++
-#SERVICE 1:64:206:0:0:0:0:0:0:0:
-#DESCRIPTION ++testkanalen++
-#SERVICE 1:0:1:504b:c9f:3:eb0000:0:0:0:
-#SERVICE 1:64:207:0:0:0:0:0:0:0:
-#DESCRIPTION ++radio++
-#SERVICE 1:0:2:1202:2b5c:13e:820000:0:0:0:
-#SERVICE 1:0:a:28cc:40f:1:c00000:0:0:0:
-#SERVICE 1:0:a:28cd:40f:1:c00000:0:0:0:
-#SERVICE 1:64:208:0:0:0:0:0:0:0:
-#DESCRIPTION ++9 oost: AFN USA++
-#SERVICE 1:0:2:78:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:87:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:93:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:88:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:89:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:8a:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:8b:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:8c:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:8d:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:94:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:8e:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:8f:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:90:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:91:170c:9e:5a0000:0:0:0:
-#SERVICE 1:0:2:92:170c:9e:5a0000:0:0:0:
-#SERVICE 1:64:209:0:0:0:0:0:0:0:
-#DESCRIPTION +++VIDEO/TV-STREAMS+++
-#SERVICE 1:64:20a:0:0:0:0:0:0:0:
-#DESCRIPTION ++Nederland++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8:Dance Television
-#DESCRIPTION Dance Television
-#SERVICE 1:64:20b:0:0:0:0:0:0:0:
-#DESCRIPTION ++NL nationaal, via Rakuten TV++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//bright-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-7-restreaming/f1d1bdf4-d7f9-4e65-b710-ae2c03bd9b0d/0.m3u8:Bright TV
-#DESCRIPTION Bright TV
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//top-movies-rakuten-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6054/88396407-c4cd-4d8e-be4e-fb0fac86f04a/4.m3u8:PR1DE free
-#DESCRIPTION PR1DE free
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmf-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/a7ae8748-ca07-43fe-843e-41c2759d3463/0.m3u8:TMF
-#DESCRIPTION TMF
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//vi-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-2-restreaming/10c14aa1-7513-4219-b46d-d5a03501b921/0.m3u8:VI TV
-#DESCRIPTION VI TV
-#SERVICE 1:64:20c:0:0:0:0:0:0:0:
-#DESCRIPTION ++België, via Rakuten TV++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//proef-njam-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-4-restreaming/cbdea81e-a2cc-42a5-8e2b-b2abd1a3625b/0.m3u8:proef njam!
-#DESCRIPTION proef njam!
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//studio100-hits-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-11-restreaming/b4c2de71-85e9-42a4-8474-910c792d81dc/0.m3u8:Studio100 Hits
-#DESCRIPTION Studio100 Hits
-#SERVICE 1:64:20d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Stream webcams dieren++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n2.burst.cdn.jetstre.am/sz/bdl/wowza4/live/Boerenzwaluw2/chunklist.m3u8:Beleef de Lente - Gierzwaluw, buitencam
-#DESCRIPTION Beleef de Lente - Gierzwaluw, buitencam
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n2.burst.cdn.jetstre.am/sz/bdl/wowza4/live/Boerenzwaluw1/chunklist.m3u8:Beleef de Lente - Gierzwaluw, nestkast 2
-#DESCRIPTION Beleef de Lente - Gierzwaluw, nestkast 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n2.burst.cdn.jetstre.am/sz/bdl/wowza4/live/Gierzwaluw1/chunklist.m3u8:Beleef de Lente - Gierzwaluw, nestkast 9
-#DESCRIPTION Beleef de Lente - Gierzwaluw, nestkast 9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//visdeurbel.videostreams.nl/hls/visdeurbel/index.m3u8:Visdeurbel Utrecht
-#DESCRIPTION Visdeurbel Utrecht
-#SERVICE 1:64:20e:0:0:0:0:0:0:0:
-#DESCRIPTION ++Stream Muziek++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//radio538.prd1.talpatvcdn.nl/22e9bbf9616547d7bc162c993009c533/index_1.m3u8:Radio 538 (1080p)
-#DESCRIPTION Radio 538 (1080p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//radio538.prd1.talpatvcdn.nl/22e9bbf9616547d7bc162c993009c533/index_2.m3u8:Radio 538 (720p)
-#DESCRIPTION Radio 538 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmf-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/a7ae8748-ca07-43fe-843e-41c2759d3463/0.m3u8:TMF
-#DESCRIPTION TMF
-#SERVICE 1:64:20f:0:0:0:0:0:0:0:
-#DESCRIPTION ++Engeland++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8:Motorvision
-#DESCRIPTION Motorvision
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01076-lightning-now90s00s-rakutengb/cb513f19657460909bce2167d0d334dd844c3bdd0b61cb3071aa448f049f4b1bdae5a5d3ec4ae47821c04d873d5f66411f21c118dc7c1fc7c76adf046727486b9b9ab265d9896450f08d597562ac7b1c51e00e07c47100238ebb4e5dd670e7295243a5583f5063c0bf5fab704fc1d50bd8767dd8a9d963317c383ea57e657305d692dfd07777ae0eb3876a0ac47116b2a063f3e669dea0488f5371ac408451dfcdb0def92098b6937091938145c78e2062208d51b3b0e4ebc3a2a1ecfe51622a3b40f4ac83fb010c87554a4fc219aad541d21cd480298d6178ee4ec80fcc11846fb806aee50ef1fce09f6f4e3badc85e3a67b2f3fadba9657ded2fbb85ecde7873d6a7462809992dfe2b393d96f2d35bd59145d8e651e8de0e3c36c4834a9299c0e1bee1f705f642ffc9ff963255401972258353a78864d869fc76acdc1c28580d69a2985cc8839b321d6d4d8f8c5b942313b6d58e89bd566e2a01dfdb52cdbf8ef6cea6a54bcf99790ab8c7b3a23d0c/85/1920x1080_4716800/index.m3u8:NOW 90s00s
-#DESCRIPTION NOW 90s00s
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2l4tng0wskzvn.cloudfront.net/Trace_GB.m3u8:Trace UK
-#DESCRIPTION Trace UK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11783:Zee TV UK
-#DESCRIPTION Zee TV UK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8:XITE Hits UK
-#DESCRIPTION XITE Hits UK
-#SERVICE 1:64:210:0:0:0:0:0:0:0:
-#DESCRIPTION ++Twitch, vele meer, zie tekst!++
-#SERVICE 1:64:211:0:0:0:0:0:0:0:
-#DESCRIPTION ++YouTube - VEEL NIEUWE++ zie de tekst!++
-#SERVICE 1:64:212:0:0:0:0:0:0:0:
-#DESCRIPTION ++Samsung TV Plus++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-102ads-montreal/samsungtvplus/master.m3u8:Stingray Alternative
-#DESCRIPTION Stingray Alternative
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8:Stingray Classic Rock
-#DESCRIPTION Stingray Classic Rock
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-109ads-montreal/samsungtvplus/master.m3u8:Stingray Country Greats
-#DESCRIPTION Stingray Country Greats
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8:Stingray Easy Listening
-#DESCRIPTION Stingray Easy Listening
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-219ads-montreal/samsungtvplus/master.m3u8:Stingray Época Dorada Del Cine Mexicano
-#DESCRIPTION Stingray Época Dorada Del Cine Mexicano
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-214ads-montreal/samsungtvplus/master.m3u8:Stingray Euro Hits
-#DESCRIPTION Stingray Euro Hits
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8:Stingray Ëxitos Del Momento
-#DESCRIPTION Stingray Ëxitos Del Momento
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-226ads-montreal/samsungtvplus/master.m3u8:Stingray Exitos Regional Mexicanos
-#DESCRIPTION Stingray Exitos Regional Mexicanos
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8:Stingray Greatest Hits
-#DESCRIPTION Stingray Greatest Hits
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8:Stingray Hip-Hop/R&B
-#DESCRIPTION Stingray Hip-Hop/R&B
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8:Stingray Hit List
-#DESCRIPTION Stingray Hit List
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-212ads-montreal/samsungtvplus/master.m3u8:Stingray His Brasileiros
-#DESCRIPTION Stingray His Brasileiros
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8:Stingray Hot Country
-#DESCRIPTION Stingray Hot Country
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-204ads-montreal/samsungtvplus/master.m3u8:Stingray MPB
-#DESCRIPTION Stingray MPB
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8:Stingray Nothin' but '90s
-#DESCRIPTION Stingray Nothin' but '90s
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8:Stingray Pop Adult
-#DESCRIPTION Stingray Pop Adult
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-218ads-montreal/samsungtvplus/master.m3u8:Stingray Pop Mexicano 80s
-#DESCRIPTION Stingray Pop Mexicano 80s
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-176ads-montreal/samsungtvplus/master.m3u8:Stingray Reggeaton
-#DESCRIPTION Stingray Reggeaton
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8:Stingray Smooth Jazz
-#DESCRIPTION Stingray Smooth Jazz
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-237ads-montreal/samsungtvplus/master.m3u8:Stingray Soft Hits
-#DESCRIPTION Stingray Soft Hits
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-185ads-montreal/samsungtvplus/master.m3u8:Stingray TikTok Radio
-#DESCRIPTION Stingray TikTok Radio
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-232ads-montreal/samsungtvplus/master.m3u8:Stingray Y2K
-#DESCRIPTION Stingray Y2K
-#SERVICE 1:64:213:0:0:0:0:0:0:0:
-#DESCRIPTION ++Nieuws++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8:CNN
-#DESCRIPTION CNN
-#SERVICE 1:64:214:0:0:0:0:0:0:0:
-#DESCRIPTION ++Religie++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1211313014.rsc.cdn77.org/1211313014/tracks-v1a1/mono.ts.m3u8:EWTN España 
-#DESCRIPTION EWTN España 
-#SERVICE 1:64:215:0:0:0:0:0:0:0:
-#DESCRIPTION ++Rakuten TV, voor NL++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//bright-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-7-restreaming/f1d1bdf4-d7f9-4e65-b710-ae2c03bd9b0d/0.m3u8:Bright TV
-#DESCRIPTION Bright TV
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//pr1de-free-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-8-restreaming/8f31d9de-0ee1-4b7f-8780-bd2d0b2b17bc/0.m3u8:PR1DE free
-#DESCRIPTION PR1DE free
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//telegraaftv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-1-restreaming/b55c0195-03d0-46f2-96b5-11e50b6b8140/0.m3u8:TelegraafTV
-#DESCRIPTION TelegraafTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmf-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/a7ae8748-ca07-43fe-843e-41c2759d3463/0.m3u8:TMF
-#DESCRIPTION TMF
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//vi-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-2-restreaming/10c14aa1-7513-4219-b46d-d5a03501b921/0.m3u8:VI TV
-#DESCRIPTION VI TV
-#SERVICE 1:64:216:0:0:0:0:0:0:0:
-#DESCRIPTION ++Rakuten TV, voor BE++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//proef-njam-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-4-restreaming/cbdea81e-a2cc-42a5-8e2b-b2abd1a3625b/0.m3u8:proef njam!
-#DESCRIPTION proef njam!
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//studio100-hits-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-11-restreaming/b4c2de71-85e9-42a4-8474-910c792d81dc/0.m3u8:Studio100 Hits
-#DESCRIPTION Studio100 Hits
-#SERVICE 1:64:217:0:0:0:0:0:0:0:
-#DESCRIPTION ++Rakuten TV nieuws++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//euronews-live-eng-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6503-restreaming/75db5624-48a4-4e05-8ea7-e9fa70770127/5.m3u8:Euronews
-#DESCRIPTION Euronews
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//africanews-eng-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576-restreaming/d7be42ce-19b5-4d6a-9c8d-26ac4a6b9b3c/5.m3u8:Africanews
-#DESCRIPTION Africanews
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//86ebec83.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ1RWUGx1c19ITFM/612c11b6-823f-4ac2-9672-4de5ee7292f3/0.m3u8:Bloomberg TV+
-#DESCRIPTION Bloomberg TV+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master1080p.m3u8:CGTN
-#DESCRIPTION CGTN
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-cgtn-amg01314c6-rakuten-gb-10205.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01314-cgtn-cgtnglobalbiz-rakutengb/cb7d3e1e7b736f8fc9ca3f6cd4a548f1d1526381573add303caf5e9674c21e5384bea597e718ed3c5abd7fa33e40340d0136d41cc07c11dfb923f6056b3b5464e4fca27ad9871202a2bf56742cb7710e19f80a1ec067152888bc4a46d574f55e0010e306210462dced59ac7653d5f653c92a7fd4e5c2603c7d445f8d490fe3f357a5fce25858dc3da0b90149947944fad34bc88201ed86805c9f11d075a342cec6faaae927d3d2d20cfc09f4466f32466d8b8f7dc98937cedb9e7a068e653e791d5ae8b796f05a038a464d5bedfeccba179b79ac8c2bdb185dd4019c5cbb348f7da30aa2de5ab9bdbead272b5ab3c1593b63ca89a18ee80a23b262c4b6f0cd760eed9c66684bc874dd303b3997f8f4198dc70799ba2fdfcd037239c4827a9f98a48aecb5b2539924d8b592f2591317345458d437ca9b69c816cd68a1ca6167360913fec300978789087d374ad6851380171aea9689d489577699384d5fbc36880c5235cd62363a8f5bf89e2f538a2904913033ef67368156f9bf23e7aedef67457dfb4ee63dd3ea39c2bf0a750f316562803b7e1134f494d64d5fc59053570c44df0a1ac8b135850b4a79783aa3e39032a28471f8ef0d864829ec55b717c:CGTN Global BIZ
-#DESCRIPTION CGTN Global BIZ
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01082-cna-amg01082c1-rakuten-us-8337.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01082-cnafast-cnanews-rakutenus/cb7d3e1e7b736f8fc9ca3f6cd4a548f1d1526381573add303caf5e9674c21e5384bea597e718ed3c5abd7fa33e40340d0136d41cc07c11dfb923f6056b3b5464e4fca27ad9871202a2bf56742cb7710e19f80a1ec067152888bc4a46d574f55e0010e306210462dced59ac7653d5f653c92a7fd4e5c2603c7d445f8d495ab3f45ca4aae05558dc3da0b90149947944fad014c88101bdd1d60acf158023f6139c95faa7e92fd3d2d20cfd02f43d0a5d1d70988b7ce1a037d1dc937b3c9a7e301c593f97a297ed713f89495759f6ebf4b860f101cbfb57eb1033b4038d42813e9e6ab810ebef4bb7bee129242b49a5c0485e20a4f5b2b5f83a3dae63f5b69b3c1516079337494d9858f4031a32c1c8e735a5c034b4940da9976d3b2be1a17a9cbc97b3e891ae43ad09ced4c6801e174d573324815896b03cea05ce5dadf722090d5e65aa9d5ee5a7f87f13406e8fa17cf7373a9cf2a9b2fe0922ef67367bdb41fb7a244fed16455dcc0fdbb81d5da82d29a41418da7d14a163d5990dd686f9cc2f1a96ffd060de46c69428f3d7208c4f1d782092d10d7e666d5cf1cf472c1350c442c5e5ebc052280bcdd6e8dfe6781d261c36732daac3c45190afc7083c37e0720:CNA
-#DESCRIPTION CNA
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00106-amg00106c1-rakuten-uk-4654.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00106-france24fast-france24-rakutenuk/dd1e0799-4a18-11f1-8a7b-e6f1b45eedb1/90/1920x1080_6046040/index.m3u8:France24 Fast English
-#DESCRIPTION France24 Fast English
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg01076-lightning-newsworld-rakutenus/cb7d3e1e7b736f8fc9ca3f6cd4a548f1d1526381573add303caf5e9674c21e5384bea597e718ed3c5abd7fa33e40340d0136d41cc07c11dfb923f6056b3b5464e4fca27ad9871202a2bf56742cb7710e19f80a1ec067152888bc4a46d574f55e0010e306210462dced59ac7653d5f653c92a7fd4e5c2603c7d445f8d4959ecf658f2f9e75a58dc3da0b90149947944fa8b429bdd01efd1875a9a42d37ea740ccc1faa0e931d3d2d20ce90be32d0c4a1d759c897e9bdd2fd0b0fe3869c421723b7425e7a780c14a39904e4059c7f2c4bb60f361a7e342a645199e32b16cdec6ec01da08a3f271a7a9abcd7d4236aad75e6f33d204c6e06550108c6caa97c5fc4276c8c3385966ca4cfa000514b3f9ed07a5f32a919706b5b3483e31f1bd4188afaaa0bab3b97dba22cff3dec90c6e5d46013bb775f3894cdc2ed65989ef32027e6c4d8cb876e0a7fc7712536e81997bd33e3a8afaa9a2fe2d1ae8493a73ca42fb7a344dc7174d5dc00cdcbb1d4da0072ba6141fd27114a363eb9a0ddc8efac7271a97fbe563de4dce962bf3d523884c1d782390db2b58647a5cf1cb47061158e664c2f8efc0522821cdd6ecdde15819001836732daac3c651baafe90:NewsWorld
-#DESCRIPTION NewsWorld
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/ts-us-w2-n1/playlist/amg00453-reuters-reuters-rakutenuk/cb7d3e1e7b736f8fc9ca3f6cd4a548f1d1526381573add303caf5e9674c21e5384bea597e718ed3c5abd7fa33e40340d0136d41cc07c11dfb923f6056b3b5464e4fca27ad9871202a2bf56742cb7710e19f80a1ec067152888bc4a46d574f55e0010e306210462dced59ac7653d5f653c92a7fd4e5c2603c7d445f8d490fe6a65ea4fcb05458dc3da0b60149947944fad345c08701e886dc5c97168e20a31299c3faa9e92ad3d2d20cf406f03f0c4c5019f3e2779f9319dcb69b6d2aa36127422141ffb3968c3a56f4574f5de1fad9af64f816f1842c857238b70cc234ee418b6fb936a4ee40b4a8b5cb7d463caad65e1341ca81ae8fec2669fa0c89a3edce4c7b98fb2b7b48db7fdd2e2a2c9fefb965eeac46c7e775dde33e446197c11cc8c8e4d919d6e73a9d21d9f8f39c2d5071600b0c9558ac8e1f3a4fb7e6cded222b0d78688cab5f95b3f57f11616ea4a270f8301f9fc8aab3e0091aef501c7bcb69e877017ffe2c4f29e619cebc3b69bd0c5bb4192ede5d0cb16aadab0df2a0d0c4271a94fde563f64ecd962ef3d32b8b5c1d5e1b96f5017e766d5ff1cf452c1250e26cc6f1e8c046280bcfd6ecdbe1761926183e732da8c3c559b2afe3080a34e:Reuters
-#DESCRIPTION Reuters
-#SERVICE 1:64:218:0:0:0:0:0:0:0:
-#DESCRIPTION ++Algerije++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livesstream.work.gd%3a5443/WebRTCApp/streams/stream.m3u8:Elwatania TV 
-#DESCRIPTION Elwatania TV 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8:TyC Sports
-#DESCRIPTION TyC Sports
-#SERVICE 1:64:219:0:0:0:0:0:0:0:
-#DESCRIPTION ++Argentinië++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ola1.com.ar/atccohd/playlist.m3u8:Atcco Canal 2
-#DESCRIPTION Atcco Canal 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8:Canal Pulpo
-#DESCRIPTION Canal Pulpo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-gtlc.telecentro.net.ar/hls/musictophls/0/playlist.m3u8:MusicTop
-#DESCRIPTION MusicTop
-#SERVICE 1:64:21a:0:0:0:0:0:0:0:
-#DESCRIPTION ++Australië++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8:Sky Racing 1
-#DESCRIPTION Sky Racing 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8:Sky Racing 2
-#DESCRIPTION Sky Racing 2
-#SERVICE 1:64:21b:0:0:0:0:0:0:0:
-#DESCRIPTION ++Bangladesh++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//alvetv.com/moviebanglatv/8080/index.m3u8:Movie Bangla
-#DESCRIPTION Movie Bangla
-#SERVICE 1:64:21c:0:0:0:0:0:0:0:
-#DESCRIPTION ++Brazilië++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8:Cazé TV
-#DESCRIPTION Cazé TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8:NickToons Brasil
-#DESCRIPTION NickToons Brasil
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//app.tvufop.com.br/hls/tvufop.m3u8:TV UFOP
-#DESCRIPTION TV UFOP
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cors-proxy.cooks.fyi/http%3a//hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8:Rede Globo
-#DESCRIPTION Rede Globo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8:Rede TV! Mais
-#DESCRIPTION Rede TV! Mais
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv01.zas.media%3a1936/redetvparana/redetvparana/playlist.m3u8:Rede TV! Parana
-#DESCRIPTION Rede TV! Parana
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video09.logicahost.com.br/sbtcuiaba/sbtcuiaba/playlist.m3u8:SBT Cuiaba
-#DESCRIPTION SBT Cuiaba
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video09.logicahost.com.br/sbtroo/sbtroo/playlist.m3u8:SBT Rondonopolis
-#DESCRIPTION SBT Rondonopolis
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video09.logicahost.com.br/sbtsinop/sbtsinop/playlist.m3u8:SBT Sinop
-#DESCRIPTION SBT Sinop
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.live.br1.jmvstream.com/w/LVW-20715/LVW20715_50E3x2MCm2/playlist.m3u8:TV A Critica
-#DESCRIPTION TV A Critica
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video04.logicahost.com.br/tvpampa/tvpampa/playlist.m3u8:TV Pampa
-#DESCRIPTION TV Pampa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//umatv.nuvemplay.live/hls/stream.m3u8:UMA TV
-#DESCRIPTION UMA TV
-#SERVICE 1:64:21d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Chili++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//217.26.190.76%3a8888/play/a0m6/index.m3u8:TVN
-#DESCRIPTION TVN
-#SERVICE 1:64:21e:0:0:0:0:0:0:0:
-#DESCRIPTION ++China CCTV-kanalen ververst++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv1hd.m3u8:CCTV-1
-#DESCRIPTION CCTV-1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv2hd.m3u8:CCTV-2
-#DESCRIPTION CCTV-2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv3hd.m3u8:CCTV-3
-#DESCRIPTION CCTV-3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv4hd.m3u8:CCTV-4
-#DESCRIPTION CCTV-4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8:CCTV-4 America
-#DESCRIPTION CCTV-4 America
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/cctv4/browser-dash/cctv4.mpd:CCTV-4 Europe
-#DESCRIPTION CCTV-4 Europe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8:CCTV-4 Europe (#)
-#DESCRIPTION CCTV-4 Europe (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv5hd.m3u8:CCTV-5
-#DESCRIPTION CCTV-5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv6hd.m3u8:CCTV-6
-#DESCRIPTION CCTV-6
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv7hd.m3u8:CCTV-7
-#DESCRIPTION CCTV-7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv8hd.m3u8:CCTV-8
-#DESCRIPTION CCTV-8
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv9hd.m3u8:CCTV-9
-#DESCRIPTION CCTV-9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv10hd.m3u8:CCTV-10
-#DESCRIPTION CCTV-10
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//42.225.117.174%3a11199/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0$LR%25E2%2580%25A2315%25E2%2580%25A2IPV4%25E3%2580%258E%25E7%25BA%25BF%25E8%25B7%25AF13%25E3%2580%258F:CCTV-10 (#)
-#DESCRIPTION CCTV-10 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv11hd.m3u8:CCTV-11
-#DESCRIPTION CCTV-11
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv12hd.m3u8:CCTV-12
-#DESCRIPTION CCTV-12
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv13hd.m3u8:CCTV-13
-#DESCRIPTION CCTV-13
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8$LR%25E2%2580%25A2273%25E2%2580%25A2IPV4%25E3%2580%258E%25E7%25BA%25BF%25E8%25B7%25AF9%25E3%2580%258F:CCTV-13 (#)
-#DESCRIPTION CCTV-13 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn3.163189.xyz/163189/cctv13:CCTV-13 (#)
-#DESCRIPTION CCTV-13 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv14hd.m3u8:CCTV-14
-#DESCRIPTION CCTV-14
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv15hd.m3u8:CCTV-15
-#DESCRIPTION CCTV-15
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv16hd.m3u8:CCTV-16
-#DESCRIPTION CCTV-16
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//74.91.26.218%3a82/live/cctv17hd.m3u8:CCTV-17
-#DESCRIPTION CCTV-17
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=382820&extension=ts:CCTV-ENTERTAINMENT
-#DESCRIPTION CCTV-ENTERTAINMENT
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=382827&extension=ts:CCTV-OPERA
-#DESCRIPTION CCTV-OPERA
-#SERVICE 1:64:21f:0:0:0:0:0:0:0:
-#DESCRIPTION ++Colombia++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8:Blu Radio
-#DESCRIPTION Blu Radio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs20.live.opencaster.com/canalchd2025_8d99626c/index.m3u8:Canal CHD
-#DESCRIPTION Canal CHD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil%3alive.smil/playlist.m3u8:Canal Institucional
-#DESCRIPTION Canal Institucional
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live20.bozztv.com/akamaissh101/ssh101/pyctelevision/playlist.m3u8:Canal PyC
-#DESCRIPTION Canal PyC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5fc584f3f19c9.streamlock.net/cristovision/videocristovision/playlist.m3u8:Cristovision
-#DESCRIPTION Cristovision
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//movil.ejeserver.com/live/elmundodelcampo.m3u8:El Mundo del Campo
-#DESCRIPTION El Mundo del Campo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.frecuenciaf.com/live/envivo_1080p4000kbs/index.m3u8:Frecuencia F TV
-#DESCRIPTION Frecuencia F TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//byecablecluster.ddns.net/neira/neira.stream/index.fmp4.m3u8:La Cheverisima Radio TV
-#DESCRIPTION La Cheverisima Radio TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.cdn.enetres.net/621B146D29C541AFB1507809F038F471021/021/playlist.m3u8:Noticiero 90 Minutos
-#DESCRIPTION Noticiero 90 Minutos
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-ssai.smartbit.co/rpp/index.m3u8:RPP
-#DESCRIPTION RPP
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil%3alive.smil/playlist.m3u8:Senal Colombia
-#DESCRIPTION Senal Colombia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live20.bozztv.com/akamaissh101/ssh101/telesangil/playlist.m3u8:Telesangil
-#DESCRIPTION Telesangil
-#SERVICE 1:64:220:0:0:0:0:0:0:0:
-#DESCRIPTION ++Congo++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//69.64.57.208/rtnc/playlist.m3u8:RTNC
-#DESCRIPTION RTNC
-#SERVICE 1:64:221:0:0:0:0:0:0:0:
-#DESCRIPTION ++Costa Rica++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//acceso.mediosdecostarica.com%3a3192/hybrid/play.m3u8:Tele+
-#DESCRIPTION Tele+
-#SERVICE 1:64:222:0:0:0:0:0:0:0:
-#DESCRIPTION ++Dominicaanse Republiek++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.canaldelsol.com/sol26/live_1080.m3u8:Canal del Sol
-#DESCRIPTION Canal del Sol
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00082-amg00082c1-distrotv-us-7248.playouts.now.amagi.tv/playlist/amg00082-tarima-comercio-distrotvus/playlist.m3u8:Comercio TV
-#DESCRIPTION Comercio TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.elseis.do/canal6/live_1080.m3u8:El Seis 6
-#DESCRIPTION El Seis 6
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tele-stream.telecasa.net/live/st3/maimontv-hd/index.m3u8:Maimon TV Canal 3
-#DESCRIPTION Maimon TV Canal 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//2-fss-2.streamhoster.com/pl_138/206532-6829902-1/playlist.m3u8:RNN
-#DESCRIPTION RNN
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//190.122.104.210%3a5080/LiveApp/streams/tfuturo.m3u8:Telefuturo
-#DESCRIPTION Telefuturo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tele-stream.telecasa.net/live/st1/yunavision-hd/index.m3u8:Yunavision Canal 10
-#DESCRIPTION Yunavision Canal 10
-#SERVICE 1:64:223:0:0:0:0:0:0:0:
-#DESCRIPTION ++Ecuador++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs20.live.opencaster.com/planetachannel_089eff6d/index.m3u8:Planeta Channel
-#DESCRIPTION Planeta Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptv.telepremier.video.makrodigital.com%3a8081/telepremier/iptv/playlist.m3u8:Telepremier Plus
-#DESCRIPTION Telepremier Plus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//iptv.vitotvo.video.makrodigital.com%3a8081/vitotvo/iptv/playlist.m3u8:VitoTVO
-#DESCRIPTION VitoTVO
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7.innovatestream.pe%3a19360/ecuadortest/ecuadortest.m3u8:Wuan+
-#DESCRIPTION Wuan+
-#SERVICE 1:64:224:0:0:0:0:0:0:0:
-#DESCRIPTION ++Egypte++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ctv.icopts.app/CTV/index.fmp4.m3u8:Coptic TV
-#DESCRIPTION Coptic TV
-#SERVICE 1:64:225:0:0:0:0:0:0:0:
-#DESCRIPTION ++El Salvador++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-edge1.cef-technology.com/wow/wow_tv/playlist.m3u8:WOW TV
-#DESCRIPTION WOW TV
-#SERVICE 1:64:226:0:0:0:0:0:0:0:
-#DESCRIPTION ++Filipijnen++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams.comclark.com/pknsd/ibc_13/playlist.m3u8:IBC 13
-#DESCRIPTION IBC 13
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams.comclark.com/pknsd/ptv/playlist.m3u8:PTV 4
-#DESCRIPTION PTV 4
-#SERVICE 1:64:227:0:0:0:0:0:0:0:
-#DESCRIPTION ++Frankrijk++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/GOSPEL_FR/.m3u8:Trace Gospel
-#DESCRIPTION Trace Gospel
-#SERVICE 1:64:228:0:0:0:0:0:0:0:
-#DESCRIPTION ++Griekenland++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fr.crystalweb.net%3a1936/aigaiotv/aigaiotv/playlist.m3u8:Aigaio TV
-#DESCRIPTION Aigaio TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server.gointernet.gr/live/livestream.m3u8:Astra
-#DESCRIPTION Astra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8:Kriti TV
-#DESCRIPTION Kriti TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//183.bozztv.com/giatv/giatv-diavatatvonline/diavatatvonline/playlist.m3u8:Diavata TV
-#DESCRIPTION Diavata TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn5.smart-tv-data.com/ena/ena_channel/playlist.m3u8:ENA Channel 
-#DESCRIPTION ENA Channel 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp.win%3a3929/live/epiruslive.m3u8:Epirus TV1 (720p)
-#DESCRIPTION Epirus TV1 (720p)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mercury.32bit.gr%3a19360/formediatv/720p.m3u8:FORMedia TV
-#DESCRIPTION FORMedia TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp.win%3a3793/live/mesogeiostvlive.m3u8:Mesogeios
-#DESCRIPTION Mesogeios
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//es1.crystalweb.net%3a1936/netmaxtv/netmaxtv/playlist.m3u8:Netmax TV
-#DESCRIPTION Netmax TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fr.crystalweb.net%3a1936/redmusic/redmusic/playlist.m3u8:RedMusic
-#DESCRIPTION RedMusic
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//telmaco-cdn.akamaized.net/starcgr/default/index.m3u8:Star Kentrikis Elladas
-#DESCRIPTION Star Kentrikis Elladas
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fr.crystalweb.net%3a1936/topchannel/topchannel/playlist.m3u8:Top Channel
-#DESCRIPTION Top Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//av.hellasnet.tv/rst/trt/main_stream.m3u8:TRT
-#DESCRIPTION TRT
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//verginanews.gr%3a8443/hls_live/stream1.m3u8:Vergina TV
-#DESCRIPTION Vergina TV
-#SERVICE 1:64:229:0:0:0:0:0:0:0:
-#DESCRIPTION ++Honduras++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//162.19.255.233%3a8080/play/UNbAl57p9hXZClOu56FCTYXmD-MOS3u5IUkeXPpBt80/m3u8:Deportes TVC
-#DESCRIPTION Deportes TVC
-#SERVICE 1:64:22a:0:0:0:0:0:0:0:
-#DESCRIPTION ++Hongarije++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.apostoltv.hu/live/playlist.m3u8:Apostol TV
-#DESCRIPTION Apostol TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.149.191.217%3a9005/play/a016:M2 Petofi
-#DESCRIPTION M2 Petofi
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video11.videa.hu/static/live/8.2966061.2530409.1.5.590.590/index.m3u8:Hir TV
-#DESCRIPTION Hir TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.149.191.217%3a9005/play/a017:Sport 1
-#DESCRIPTION Sport 1
-#SERVICE 1:64:22b:0:0:0:0:0:0:0:
-#DESCRIPTION ++India++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//9xjio.wiseplayout.com/9XM/master.m3u8:9XM
-#DESCRIPTION 9XM
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//103.154.3.101%3a5001/live/400.m3u8:E-Vidya 1
-#DESCRIPTION E-Vidya 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//103.154.3.101%3a5001/live/402.m3u8:E-Vidya 2
-#DESCRIPTION E-Vidya 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//103.154.3.101%3a5001/live/405.m3u8:E-Vidya 3
-#DESCRIPTION E-Vidya 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//103.154.3.101%3a5001/live/406.m3u8:E-Vidya 4
-#DESCRIPTION E-Vidya 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//103.154.3.101%3a5001/live/404.m3u8:E-Vidya 7
-#DESCRIPTION E-Vidya 7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mumbai-edge.smartplaytv.in/MahaBhakthi/index.m3u8:Mahaa Bhakti
-#DESCRIPTION Mahaa Bhakti
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mumt02.tangotv.in/MANTAVYA24X7NEWS/index.m3u8:Mantavya News
-#DESCRIPTION Mantavya News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mumt02.tangotv.in/NAMBIKKAITV/index.m3u8:Nambikkai TV
-#DESCRIPTION Nambikkai TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8:News9Live
-#DESCRIPTION News9Live
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mumt05.tangotv.in/PRAGNEWS/index.m3u8:Prag News
-#DESCRIPTION Prag News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mumt02.tangotv.in/PRIMENEWS/index.m3u8:Prime News
-#DESCRIPTION Prime News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.wrencdn.in/wrencdn/hls/tv13_web/index.m3u8:TV 13 Gujarati
-#DESCRIPTION TV 13 Gujarati
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mumt04.tangotv.in/VISTAARNEWS/index.m3u8:Vistaar News
-#DESCRIPTION Vistaar News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mumt04.tangotv.in/VTV/index.m3u8:VTV News
-#DESCRIPTION VTV News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8:Zee Tamil News
-#DESCRIPTION Zee Tamil News
-#SERVICE 1:64:22c:0:0:0:0:0:0:0:
-#DESCRIPTION ++Indonesië++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5bf7b725107e5.streamlock.net/ahsantv/ahsantv/chunklist_.m3u8:Ahsan TV
-#DESCRIPTION Ahsan TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ammedia.siar.us/ammedia/live/ammedia_720p.m3u8:Al Wafa Tarim
-#DESCRIPTION Al Wafa Tarim
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//122.248.43.242%3a1935/JTVMADIUN/_definst_/myStream/playlist.m3u8:JTV Madiun
-#DESCRIPTION JTV Madiun
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//122.248.43.242%3a1935/JTVMALANG/_definst_/myStream/playlist.m3u8:JTV Malang
-#DESCRIPTION JTV Malang
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mic.siar.us/mic/live/mic_720p.m3u8:Music Information Channel
-#DESCRIPTION Music Information Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//v10.siar.us/rctv/live/playlist.m3u8:Radar Cirebon
-#DESCRIPTION Radar Cirebon
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//103.66.62.83%3a8000/play/a00c/index.m3u8:VTV
-#DESCRIPTION VTV
-#SERVICE 1:64:22d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Irak++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//alaimma.tv/live/index.m3u8:Al-Aimma TV
-#DESCRIPTION Al-Aimma TV
-#SERVICE 1:64:22e:0:0:0:0:0:0:0:
-#DESCRIPTION ++Iran++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/abadan/live/playlist.m3u8:Abadan
-#DESCRIPTION Abadan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/aflak/live/playlist.m3u8:Aflak
-#DESCRIPTION Aflak
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/aftab/live/playlist.m3u8:Aftab
-#DESCRIPTION Aftab
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/amouzesh/live/playlist.m3u8:Amouzesh
-#DESCRIPTION Amouzesh
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8:Azerbaijan Gharbi
-#DESCRIPTION Azerbaijan Gharbi
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/baran/live/playlist.m3u8:Baran
-#DESCRIPTION Baran
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tv1plus/live/playlist.m3u8:IRIB 1+
-#DESCRIPTION IRIB 1+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/irinn/live/playlist.m3u8:IRINN Live Farsi News
-#DESCRIPTION IRINN Live Farsi News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/irinn2/live/playlist.m3u8:IRINN 2 Live Farsi News
-#DESCRIPTION IRINN 2 Live Farsi News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/esfahan/live/playlist.m3u8:Isfahan
-#DESCRIPTION Isfahan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/kerman/live/playlist.m3u8:Kerman
-#DESCRIPTION Kerman
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/khoozestan/live/playlist.m3u8:Khozestan
-#DESCRIPTION Khozestan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/kordestan/live/playlist.m3u8:Kordestan
-#DESCRIPTION Kordestan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/mostanad/live/playlist.m3u8:Mostanad
-#DESCRIPTION Mostanad
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/namayesh/live/playlist.m3u8:Namayesh
-#DESCRIPTION Namayesh
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/nasim/live/playlist.m3u8:Nasim
-#DESCRIPTION Nasim
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.iraniancongress.com/stream/tv.m3u8:National Iranian Congress TV
-#DESCRIPTION National Iranian Congress TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/nesfejahan/live/playlist.m3u8:Nesfejahan
-#DESCRIPTION Nesfejahan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/ofogh/live/playlist.m3u8:Ofogh
-#DESCRIPTION Ofogh
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/omid/live/playlist.m3u8:Omid
-#DESCRIPTION Omid
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/pooya/live/playlist.m3u8:Pooya & Nahal
-#DESCRIPTION Pooya & Nahal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/qazvin/live/playlist.m3u8:Qazvin
-#DESCRIPTION Qazvin
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/quran/live/playlist.m3u8:Quran
-#DESCRIPTION Quran
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tabarestan/live/playlist.m3u8:Tabarestan
-#DESCRIPTION Tabarestan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/taftan/live/playlist.m3u8:Taftan
-#DESCRIPTION Taftan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/hdtest/live/playlist.m3u8:Tamasha
-#DESCRIPTION Tamasha
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn.telewebion.ir/tehran/live/playlist.m3u8:Tehran
-#DESCRIPTION Tehran
-#SERVICE 1:64:22f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Italië++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live20.bozztv.com/giatvplayout7/giatv-211474/playlist.m3u8:DellaTV
-#DESCRIPTION DellaTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream10.xdevel.com/video17s975955-2173/stream/playlist.m3u8:TMC - Telemontecarlo
-#DESCRIPTION TMC - Telemontecarlo
-#SERVICE 1:64:230:0:0:0:0:0:0:0:
-#DESCRIPTION ++Ivoorkust++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.voozmedia.fun/benietv/index.m3u8:Benie TV
-#DESCRIPTION Benie TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.berosat.live%3a19360/champion-tv/champion-tv.m3u8:Champion TV
-#DESCRIPTION Champion TV
-#SERVICE 1:64:231:0:0:0:0:0:0:0:
-#DESCRIPTION ++Japan++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd01:JOAK-DTV
-#DESCRIPTION JOAK-DTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd03:JOAX-DTV
-#DESCRIPTION JOAX-DTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd06:JOEX-DTV
-#DESCRIPTION JOEX-DTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tbs5.mov3.co/hls/tbs.m3u8:JORX-DTV
-#DESCRIPTION JORX-DTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gd04:JORX-DTV
-#DESCRIPTION JORX-DTV
-#SERVICE 1:64:232:0:0:0:0:0:0:0:
-#DESCRIPTION ++Libanon++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.streamlane.tv/hls/aghanitv/index.m3u8:Aghani Aghani
-#DESCRIPTION Aghani Aghani
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.streamlane.tv/hls/ltv/master.m3u8:Lana TV
-#DESCRIPTION Lana TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/nour9satlive/livestream/chunks.m3u8:Mariam TV
-#DESCRIPTION Mariam TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/nour3satlive/livestream/playlist.m3u8:Nour El Shabeb
-#DESCRIPTION Nour El Shabeb
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8:NourSAT
-#DESCRIPTION NourSAT
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/noursatenglive/noursateng.smil/playlist.m3u8:NourSAT ENG
-#DESCRIPTION NourSAT ENG
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alittihad.tv%3a444/ittihad/chunklist_.m3u8:TV Alittihad
-#DESCRIPTION TV Alittihad
-#SERVICE 1:64:233:0:0:0:0:0:0:0:
-#DESCRIPTION ++Nepal++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//maxotts.maxdigitaltv.com/x-media/C22/master.m3u8:AP1 HD
-#DESCRIPTION AP1 HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//maxotts.maxdigitaltv.com/x-media/C167/master.m3u8:Bagmati
-#DESCRIPTION Bagmati
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//maxotts.maxdigitaltv.com/x-media/C168/master.m3u8:METV HD
-#DESCRIPTION METV HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//maxotts.maxdigitaltv.com/x-media/C170/master.m3u8:National Gold TV
-#DESCRIPTION National Gold TV
-#SERVICE 1:64:234:0:0:0:0:0:0:0:
-#DESCRIPTION ++OekraC/ne++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//api-tv.ipnet.ua/api/v1/manifest/2118742632.m3u8:Army TV
-#DESCRIPTION Army TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//api-tv.ipnet.ua/api/v1/manifest/2118742539.m3u8:Channel 5
-#DESCRIPTION Channel 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lowa8026-cmyk.github.io/Ukraine/FirstBussines.m3u8:First Business
-#DESCRIPTION First Business
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//api-tv.ipnet.ua/api/v1/manifest/1293296300.m3u8:Kyiv
-#DESCRIPTION Kyiv
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//api-tv.ipnet.ua/api/v1/manifest/2118742505.m3u8:Pershyi
-#DESCRIPTION Pershyi
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn15.live-tv.cloud/ua_infinitas_tv/hrpl-abr/playlist.m3u8:PTV
-#DESCRIPTION PTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//api-tv.ipnet.ua/api/v1/manifest/1312714970.m3u8:Rada TV
-#DESCRIPTION Rada TV
-#SERVICE 1:64:235:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oezbekistan++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1457/tracks-v1a1/mono.m3u8:Andijon MTRK
-#DESCRIPTION Andijon MTRK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1459/tracks-v1a1/mono.m3u8:Buxoro MTRK
-#DESCRIPTION Buxoro MTRK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8:Drive
-#DESCRIPTION Drive
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1458/tracks-v1a1/mono.m3u8:Farg'ona MTRK
-#DESCRIPTION Farg'ona MTRK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1445/tracks-v1a1/mono.m3u8:Gulli Girl
-#DESCRIPTION Gulli Girl
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8:Glazami Turista
-#DESCRIPTION Glazami Turista
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8:Insayt TV
-#DESCRIPTION Insayt TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1497/tracks-v1a1/mono.m3u8:Makon
-#DESCRIPTION Makon
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1460/tracks-v1a1/mono.m3u8:Navoiy MTRK
-#DESCRIPTION Navoiy MTRK
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8:Ohotnik I Rybolov
-#DESCRIPTION Ohotnik I Rybolov
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1407/tracks-v1a1/mono.m3u8:Ryzhiy
-#DESCRIPTION Ryzhiy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8:Zoopark
-#DESCRIPTION Zoopark
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//st.my5.media/hls/hd/index.m3u8:MY5
-#DESCRIPTION MY5
-#SERVICE 1:64:236:0:0:0:0:0:0:0:
-#DESCRIPTION ++Pakistan++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ml-pull-dvc-myco.io%3a2096/BOL_ENTERTAINMENT/index.m3u8:Bol Entertainment
-#DESCRIPTION Bol Entertainment
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//116.90.120.151%3a8000/play/a00h/index.m3u8:Paighan TV
-#DESCRIPTION Paighan TV
-#SERVICE 1:64:237:0:0:0:0:0:0:0:
-#DESCRIPTION ++Palestina++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.najah.edu%3a8443/hls/AlNajah_fullhd.m3u8:Al Najah
-#DESCRIPTION Al Najah
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//htvajyal.mada.ps%3a8888/ajyal/index.m3u8:Ajyal TV
-#DESCRIPTION Ajyal TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//htvmada.mada.ps%3a4443/maannews/tracks-v1a1/mono.m3u8:Ma'an TV
-#DESCRIPTION Ma'an TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pbc.furrera.ps/musawahd/tracks-v1a1/mono.m3u8:Musawa
-#DESCRIPTION Musawa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pbc.furrera.ps/palestinelivehd/tracks-v1a1/mono.m3u8:Palestine Mobasher
-#DESCRIPTION Palestine Mobasher
-#SERVICE 1:64:238:0:0:0:0:0:0:0:
-#DESCRIPTION ++Paraguay++ vele zoals:
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/6.m3u8:A24 Paraguay
-#DESCRIPTION A24 Paraguay
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/7.m3u8:ABC Paraguay
-#DESCRIPTION ABC Paraguay
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion:E40
-#DESCRIPTION E40
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloudtv.streaming.com.py/lenguasdesenas/lenguasdesenas/chunklist.m3u8:En Lengua de Senas TV
-#DESCRIPTION En Lengua de Senas TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion:Latele
-#DESCRIPTION Latele
-#SERVICE 1:64:239:0:0:0:0:0:0:0:
-#DESCRIPTION ++Peru++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//servilive.com%3a3224/live/jn19tv2live.m3u8:JN 19.2
-#DESCRIPTION JN 19.2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs20.live.opencaster.com/prattelpe_a2b8d350/index.m3u8:Prattel TV
-#DESCRIPTION Prattel TV
-#SERVICE 1:64:23a:0:0:0:0:0:0:0:
+#SERVICE 1:0:19:3b65:12c:13e:820000:0:0:0:
+#SERVICE 1:0:19:3b64:12c:13e:820000:0:0:0:
+#SERVICE 1:64:202:0:0:0:0:0:0:0:
+#DESCRIPTION ++Oost-Europa, Belarus++
+#SERVICE 1:0:16:73:2fa8:13e:820000:0:0:0:
+#SERVICE 1:64:203:0:0:0:0:0:0:0:
+#DESCRIPTION ++Oost-Europa, Bulgarije, radio, fta++
+#SERVICE 1:0:2:35:2580:d5:820000:0:0:0:
+#SERVICE 1:0:2:36:2580:d5:820000:0:0:0:
+#SERVICE 1:64:204:0:0:0:0:0:0:0:
+#DESCRIPTION ++Oost-Europa, Slowakije, code++
+#SERVICE 1:0:16:1f4f:ca1:3:eb0000:0:0:0:
+#SERVICE 1:64:205:0:0:0:0:0:0:0:
 #DESCRIPTION ++Polen++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.130.250.2%3a8023/play/a03o/index.m3u8:Antena HD
-#DESCRIPTION Antena HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bsmbialogard.pl/live/index.m3u8:Bialogardzka Telewizja Kablowa
-#DESCRIPTION Bialogardzka Telewizja Kablowa
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs2120.vcdn.biz/cb9c5a2e0814e884ec2bb7b2908399db_megogo/live/hls/b/700_2490_4000/u_sid/0/o/157933561/rsid/74533743-6d06-4171-87f2-0644f854604d/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/37.109.163.151*asn/u_srvc/81255/u_did/web_Q7VE67mYqQtAaknvbeN2NwJ1P2rWIdnv/type.live/chunklist-sid8102720585553602615-b4000000.m3u8:Stars TV
-#DESCRIPTION Stars TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00735-amg00735c57-rakuten-de-10677.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00735-videosolutionsagfast-wedotvauta-rakutende/cb553d1e726c678e9cd43d67d3ef42a0df2416fc087a8d6933fb4b926bc10f41f4e2a581b212bb785d9914ce1c553f080132c0099c3a0bc6da73b6512d6c6021c9c3ed64d89d1b17b2c8797368e62c4119e10f11d93b53309dbb1858dd68ec2b005ebb0d6f577fdcec0fac6b5ac58402967a7c82fc8e68312f5e56cd543fa29a7c9b1f0f5d65e94693d1605aa34f1abbd31c9df63d81b2a13ebedf52bbc33eabe7b5c98c50d7acad5b3ef4ac466f6f236f8a816ed1b835750fce1b5bcd2552213354fcac85f74f76ee2d250ca9b29fe635ad50a6fd540358406cb1d865a44989e5902bf9691a80e7d6fa575336b4c1145626b2f6a19dc1d352d742d6adf3d47f7098b94136178925f92c2f2a9ff4cf54d5954ed69b2c87bd651863808353c1cce6daa1e0c40abb20c9ccfbd76c16172d5442a054b09f6bd4319229fc975d712e202ecabb5bc094d65734102dd7d6249b797c8cd5808dd01935b0163c5fe665cb52062ced3a686eea24fdda11638b2f06807751d65737894ef9f81cfda8d5e00c58e48e91a29ebd7f4ba5b486210eed8f29b009af85251fe39768f8/106/426x240_611520/index.m3u8:Wedotv Auta
-#DESCRIPTION Wedotv Auta
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//emisja2.btb.j00r.us/iptv/session/4/hls.m3u8:BTB Info
-#DESCRIPTION BTB Info
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//emisja.btb.j00r.us/iptv/channel/2.m3u8:BTB International
-#DESCRIPTION BTB International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.130.250.2%3a8023/play/a03r/index.m3u8:Nuta TV
-#DESCRIPTION Nuta TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv1.streamingo.pl/memfs/be50f17e-6579-4bdf-86b1-31207aec85b8.m3u8:Telewizja Relax
-#DESCRIPTION Telewizja Relax
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvregfull.mailfull.pl/tvregfull/memfs/e64b3e05-649c-4939-9ff6-584e79285ccd.m3u8:TV Regionalna Lubin
-#DESCRIPTION TV Regionalna Lubin
-#SERVICE 1:64:23b:0:0:0:0:0:0:0:
-#DESCRIPTION ++Portugal++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8:ADB TV
-#DESCRIPTION ADB TV
-#SERVICE 1:64:23c:0:0:0:0:0:0:0:
-#DESCRIPTION ++Roemenië++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0:Pro TV News
-#DESCRIPTION Pro TV News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.realitatea.net/realitatea/plus_md/ts%3aplaylist.m3u8:Realitatea Plus
-#DESCRIPTION Realitatea Plus
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.realitatea.net/realitatea/star_md/ts%3aplaylist.m3u8:Realitatea Star
-#DESCRIPTION Realitatea Star
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-cluj.lg.mncdn.com/tvrcluj/smil%3atvrcluj.smil/chunklist_b5160000.m3u8:TVR Cluj
-#DESCRIPTION TVR Cluj
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-craiova.lg.mncdn.com/tvrcraiova/smil%3atvrcraiova.smil/chunklist_b5160000.m3u8:TVR Craiova
-#DESCRIPTION TVR Craiova
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-cultural.lg.mncdn.com/tvrcultural/smil%3atvrcultural.smil/chunklist_b5160000.m3u8:TVR Cultural
-#DESCRIPTION TVR Cultural
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-folclor.lg.mncdn.com/tvrfolclor/smil%3atvrfolclor.smil/playlist.m3u8:TVR Folklor
-#DESCRIPTION TVR Folklor
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//61451b63d0dfe.streamlock.net/extern/tvri.stream/chunklist_.m3u8:TVR Info
-#DESCRIPTION TVR Info
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-moldova.lg.mncdn.com/tvrmoldova/smil%3atvrmoldova.smil/chunklist.m3u8:TVR Moldova
-#DESCRIPTION TVR Moldova
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-sport.lg.mncdn.com/tvrsport/smil%3atvrsport.smil/chunklist_b5160000.m3u8:TVR Sport
-#DESCRIPTION TVR Sport
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-tgmures.lg.mncdn.com/tvrtgmures/smil%3atvrtgmures.smil/playlist.m3u8:TVR Targu-Mures
-#DESCRIPTION TVR Targu-Mures
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil%3atvrtimisoara.smil/chunklist_b5160000.m3u8:TVR Timisoara
-#DESCRIPTION TVR Timisoara
-#SERVICE 1:64:23d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Rusland++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8:Bollywood HD Russia
-#DESCRIPTION Bollywood HD Russia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?s=eqlTXebDP9wSWTZgre6BwQ&e=2072611029&scheme=https:Channel 10
-#DESCRIPTION Channel 10
-#SERVICE 1:64:23e:0:0:0:0:0:0:0:
-#DESCRIPTION ++Saoedi-Arabië++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8:Aflam
-#DESCRIPTION Aflam
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8:Al Arabya Hadath
-#DESCRIPTION Al Arabya Hadath
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8:Jeddah Radio
-#DESCRIPTION Jeddah Radio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-amg-fast.edgenextcdn.net/tx004/playlist.m3u8:Rabeh Saqer
-#DESCRIPTION Rabeh Saqer
-#SERVICE 1:64:23f:0:0:0:0:0:0:0:
-#DESCRIPTION ++Spanje++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1211313014.rsc.cdn77.org/1211313014/tracks-v1a1/mono.ts.m3u8:EWTN España 
-#DESCRIPTION EWTN España 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//162.19.255.233%3a8080/play/UNbAl57p9hXZClOu56FCTZID4SFOqZLZ81NguVP-JxM/m3u8:LaLiga TV
-#DESCRIPTION LaLiga TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.rtve.es/rtvesec/rne/rne3_main.m3u8:RNE Radio 3
-#DESCRIPTION RNE Radio 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtvelivestream.rtve.es/rtvesec/rne/rne_para_todos_main.m3u8:RNE Para Todos
-#DESCRIPTION RNE Para Todos
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1oyt3v08gcy18.cloudfront.net/index-events.m3u8:Television Canaria
-#DESCRIPTION Television Canaria
-#SERVICE 1:64:240:0:0:0:0:0:0:0:
-#DESCRIPTION ++Sri Lanka++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11588:Channel C
-#DESCRIPTION Channel C
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11589:Channel One
-#DESCRIPTION Channel One
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11590:Citi Hitz
-#DESCRIPTION Citi Hitz
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11591:Damsathara TV
-#DESCRIPTION Damsathara TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11596:Hi TV
-#DESCRIPTION Hi TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11597:ITN
-#DESCRIPTION ITN
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//server.applelive.in/kalikatv/kalikatv.m3u8:Kalika TV
-#DESCRIPTION Kalika TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11602:Ridee TV
-#DESCRIPTION Ridee TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11611:Rupavahini
-#DESCRIPTION Rupavahini
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11612:Shakthi TV
-#DESCRIPTION Shakthi TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11614:Sirasa TV
-#DESCRIPTION Sirasa TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11606:TV 1
-#DESCRIPTION TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11607:TV Derana
-#DESCRIPTION TV Derana
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11608:TV Didula
-#DESCRIPTION TV Didula
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mini.allinonereborn.fun/tata.php?id=11610:Vasantham TV
-#DESCRIPTION Vasantham TV
-#SERVICE 1:64:241:0:0:0:0:0:0:0:
-#DESCRIPTION ++Turkije++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canli.edessatv.com/hls/stream.m3u8:Edessa TV
-#DESCRIPTION Edessa TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ilketv.com.tr/hls/ilkecanli.m3u8:Ilke TV
-#DESCRIPTION Ilke TV
-#SERVICE 1:64:242:0:0:0:0:0:0:0:
-#DESCRIPTION ++Uruguay++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cors-proxy.cooks.fyi/http%3a//147.135.114.221%3a8001/play/a00m/index.m3u8:DSports Uruguay
-#DESCRIPTION DSports Uruguay
-#SERVICE 1:64:243:0:0:0:0:0:0:0:
-#DESCRIPTION +++AUDIO/RADIO-STREAMS+++
-#SERVICE 1:64:244:0:0:0:0:0:0:0:
-#DESCRIPTION ++USA++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8:Antiques Roadshow PBS
-#DESCRIPTION Antiques Roadshow PBS
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2hzqddebd4oer.cloudfront.net/csts.m3u8:Cool Summer Channel
-#DESCRIPTION Cool Summer Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1vsdt3c2xcxl2.cloudfront.net/playlist.m3u8:Crime & Justice
-#DESCRIPTION Crime & Justice
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iconfilmsdistribution-iconfilmchannelclassics-1-gb.samsung.wurl.tv/playlist.m3u8:Icon Film Channel Classics
-#DESCRIPTION Icon Film Channel Classics
-#SERVICE 1:64:245:0:0:0:0:0:0:0:
-#DESCRIPTION ++Venezuela++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viewhn.com/chtv/live/playlist.m3u8:CHTV
-#DESCRIPTION CHTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamtv.intervenhosting.net%3a3592/hybrid/play.m3u8:Guaro TV
-#DESCRIPTION Guaro TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamlov.alsolnet.com/maxanime/live/chunklist_.m3u8:Max Anime
-#DESCRIPTION Max Anime
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ff3d9babae13.streamlock.net%3a443/8014/8014/playlist.m3u8:TVO
+#SERVICE 1:0:1:423a:2f44:13e:820000:0:0:0:
+#SERVICE 1:0:1:290b:1edc:71:820000:0:0:0:
+#SERVICE 1:64:206:0:0:0:0:0:0:0:
+#DESCRIPTION ++religie++
+#SERVICE 1:0:1:1203:2b5c:13e:820000:0:0:0:
+#SERVICE 1:64:207:0:0:0:0:0:0:0:
+#DESCRIPTION ++9 oost++
+#SERVICE 1:0:1:15f:19c8:9e:5a0000:0:0:0:
+#SERVICE 1:64:208:0:0:0:0:0:0:0:
+#DESCRIPTION ++Teleshop++
+#SERVICE 1:0:19:2778:409:1:c00000:0:0:0:
+#SERVICE 1:64:209:0:0:0:0:0:0:0:
+#DESCRIPTION ++radio UK++
+#SERVICE 1:0:2:2963:90b:3b:11a0000:0:0:0:
+#SERVICE 1:64:20a:0:0:0:0:0:0:0:
+#DESCRIPTION ++radio 9 oost, Afrika++
+#SERVICE 1:0:1:160:19c8:9e:5a0000:0:0:0:
+#SERVICE 1:64:20b:0:0:0:0:0:0:0:
+#DESCRIPTION +++VIDEO/TV-STREAMS+++
+#SERVICE 1:64:20c:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL nationaal - Rakuten TV++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//autoblog-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-9-restreaming/bitok/eyJzdGlkIjoiY2YwMjRkMzQtOGZjOC00MDU0LTk3ZDktNjM3NTRkMDJjYTA3IiwibWt0IjoibmwiLCJjaCI6IjkiLCJwdGYiOjV9/mpgmedia/Autoblog/Autoblog_NL/Autoblog_NL.m3u8:Autoblog TV
+#DESCRIPTION Autoblog TV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//your-60-s-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-5-restreaming/d8dea661-d1b4-4f37-b819-1f4f9b38a956/0.m3u8:Your 60s
+#DESCRIPTION Your 60s
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//your-70-s-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-6-restreaming/7d8a9abf-fad3-40cb-ade8-5ff0cef417c2/0.m3u8:Your 70s
+#DESCRIPTION Your 70s
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//your-80-s-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-3-restreaming/19910c94-5891-4c23-8834-3e869ba17cc6/0.m3u8:Your 80s
+#DESCRIPTION Your 80s
+#SERVICE 1:64:20d:0:0:0:0:0:0:0:
+#DESCRIPTION ++webcams buitenland, onder andere FR, IL, UK, USA++
+#SERVICE 4097:0:1:ab2:32:ec:0:0:0:0:https%3a//camsecure.co/HLS/dswc.m3u8:London - Docklands
+#DESCRIPTION London - Docklands
+#SERVICE 4097:0:1:7b9:d058:ec:0:0:0:0:https%3a//n1.burst.cdn.jetstre.am/sz/streamdays/wowza4/live/IET-SavoyPlace-577/playlist.m3u8:London - Savoy Place
+#DESCRIPTION London - Savoy Place
+#SERVICE 4097:0:1:c806:cdd5:ec:0:0:0:0:https%3a//cdn-orange.quanteec.com/contents/encodings/live/47fcda1a-38f6-4fb2-3938-3330-6d61-63-bb4b-5df88851d8b7d/media_0.m3u8:Paris - Tour Eiffel
+#DESCRIPTION Paris - Tour Eiffel
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//video.weather2day.co.il%3a4438/live/telaviv/playlist.m3u8:Tel Aviv (4K)
+#DESCRIPTION Tel Aviv (4K)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www-senate-gov-media-srs.akamaized.net/hls/live/2036784/capcam/capcam/master.m3u8:White House
+#DESCRIPTION White House
+#SERVICE 1:64:20e:0:0:0:0:0:0:0:
+#DESCRIPTION ++webcams radiostations - Duitsland++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mcdn.swr.de/swr/visualradiodasding/master720p-3328.m3u8:DASDING
+#DESCRIPTION DASDING
+#SERVICE 1:64:20f:0:0:0:0:0:0:0:
+#DESCRIPTION ++Twitch++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/samen1_events:Samen1 (Apeldoorn)
+#DESCRIPTION Samen1 (Apeldoorn)
+#SERVICE 1:64:210:0:0:0:0:0:0:0:
+#DESCRIPTION ++Stream YouTube NL/Noord-Holland++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/Di4WiSTX1oY:Panorama De Koog
+#DESCRIPTION Panorama De Koog
+#SERVICE 1:64:211:0:0:0:0:0:0:0:
+#DESCRIPTION ++Stream YouTube NL/Zuid-Holland++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/DaG5JReOYEw:Scheveningen - Noord Boulevard - Carlton Beach Hotel
+#DESCRIPTION Scheveningen - Noord Boulevard - Carlton Beach Hotel
+#SERVICE 1:64:212:0:0:0:0:0:0:0:
+#DESCRIPTION ++Stream YouTube - muziek++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/y72FK-sM0hk:Vintage Evening Radio Jazz – 1930s 1940s
+#DESCRIPTION Vintage Evening Radio Jazz – 1930s 1940s
+#SERVICE 1:64:213:0:0:0:0:0:0:0:
+#DESCRIPTION ++Stream YouTube - natuur/NL++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/kKS790YeKjA:CanalCam Leiden
+#DESCRIPTION CanalCam Leiden
+#SERVICE 1:64:214:0:0:0:0:0:0:0:
+#DESCRIPTION ++Stream YouTube - nieuws++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/HO6OLXBcClc:Europa in conflict
+#DESCRIPTION Europa in conflict
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/cb12KmMMDJA:Todo Noticias
+#DESCRIPTION Todo Noticias
+#SERVICE 1:64:215:0:0:0:0:0:0:0:
+#DESCRIPTION ++Stream Muziek, marker Vantage++
+#SERVICE 4097:0:1:8e:1644:13e:dddd0000:0:0:0:https%3a//cdn-fi.lulzy.eu/vclassic_stream/main_stream.m3u8:Vantage Classic
+#DESCRIPTION Vantage Classic
+#SERVICE 4097:0:1:8c:1644:13e:dddd0000:0:0:0:https%3a//hls.vantagetv.ee/vdance_stream/main_stream.m3u8:Vantage Dance
+#DESCRIPTION Vantage Dance
+#SERVICE 4097:0:1:8b:1644:13e:820000:0:0:0:https%3a//hls.vantagetv.ee/vmusic_stream/main_stream.m3u8:Vantage Musik
+#DESCRIPTION Vantage Musik
+#SERVICE 4097:0:1:8d:1644:13e:dddd0000:0:0:0:https%3a//hls.vantagetv.ee/vrock_stream/main_stream.m3u8:Vantage Rock
+#DESCRIPTION Vantage Rock
+#SERVICE 1:64:216:0:0:0:0:0:0:0:
+#DESCRIPTION ++Rakuten TV - Nederland++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//your-60-s-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-5-restreaming/d8dea661-d1b4-4f37-b819-1f4f9b38a956/0.m3u8:Your 60s
+#DESCRIPTION Your 60s
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//your-70-s-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-6-restreaming/7d8a9abf-fad3-40cb-ade8-5ff0cef417c2/0.m3u8:Your 70s
+#DESCRIPTION Your 70s
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//your-80-s-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-3-restreaming/19910c94-5891-4c23-8834-3e869ba17cc6/0.m3u8:Your 80s
+#DESCRIPTION Your 80s
+#SERVICE 1:64:217:0:0:0:0:0:0:0:
+#DESCRIPTION ++Rakuten TV -  België++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//studio100-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-12-restreaming/bitok/eyJzdGlkIjoiYWIxZmM4ZDAtNmJiZi00YjI2LTkzNjAtMWVjODZhYTczYmZmIiwibWt0IjoibmwiLCJjaCI6IjEyIiwicHRmIjo1fQ%253D%253D/mpgmedia/Studio100TV/Studio100TV_NL/Studio100TV_NL.m3u8:Studio100 TV
+#DESCRIPTION Studio100 TV
+#SERVICE 1:64:218:0:0:0:0:0:0:0:
+#DESCRIPTION ++Rakuten TV - sport++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//9ddba823.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Nwb3J0T3V0ZG9vclRWX0hMUw/12cda14a-47a5-4f6a-a34b-8237aa09aec3/2.m3u8:Sport.Outdoor.TV
+#DESCRIPTION Sport.Outdoor.TV
+#SERVICE 1:64:219:0:0:0:0:0:0:0:
+#DESCRIPTION ++Religie++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1211313014.rsc.cdn77.org/1211313014/tracks-v1a1/mono.ts.m3u8:EWTN España
+#DESCRIPTION EWTN España
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/yy6yhmdz/720/chunklist.m3u8:EWTN España - Latinoamérica
+#DESCRIPTION EWTN España - Latinoamérica
+#SERVICE 1:64:21a:0:0:0:0:0:0:0:
+#DESCRIPTION ++Brazilië+++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//isaocorp.cloudecast.com/playtv/index.m3u8:Play TV
+#DESCRIPTION Play TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8:Trace Brasil
+#DESCRIPTION Trace Brasil
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.228.163.146%3a8000/play/a01y/index.m3u8:TV Natal
+#DESCRIPTION TV Natal
+#SERVICE 1:64:21b:0:0:0:0:0:0:0:
+#DESCRIPTION ++Canada++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//23.133.220.149/TV5/index.m3u8:TV5 Quebec Canada
+#DESCRIPTION TV5 Quebec Canada
+#SERVICE 1:64:21c:0:0:0:0:0:0:0:
+#DESCRIPTION ++China++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//go.bkpcp.top/mg/bjws:BRTV Beijing TV
+#DESCRIPTION BRTV Beijing TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//198.204.240.250%3a82/live/cctv4k.m3u8:CCTV-4K (1080p)
+#DESCRIPTION CCTV-4K (1080p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//198.204.240.250%3a82/live/cctv8k.m3u8:CCTV-8K (1080p)
+#DESCRIPTION CCTV-8K (1080p)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//192.151.150.154/live/cctv5p.m3u8:CCTV-5+
+#DESCRIPTION CCTV-5+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/ystq.m3u8?auth=testpub:CCTV-Billiards
+#DESCRIPTION CCTV-Billiards
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/ysjp.m3u8?auth=testpub:CCTV-Culture of Quality
+#DESCRIPTION CCTV-Culture of Quality
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/gefwq.m3u8?auth=testpub:CCTV-Golf & Tennis
+#DESCRIPTION CCTV-Golf & Tennis
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/wsjk.m3u8?auth=testpub:CCTV-Health
+#DESCRIPTION CCTV-Health
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/hjjc.m3u8?auth=testpub:CCTV-Nostalgia Theater
+#DESCRIPTION CCTV-Nostalgia Theater
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/fyzq.m3u8?auth=testpub:CCTV-Storm Football
+#DESCRIPTION CCTV-Storm Football
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/fyyy.m3u8?auth=testpub:CCTV-Storm Music
+#DESCRIPTION CCTV-Storm Music
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/fyjc.m3u8?auth=testpub:CCTV-Storm Theater
+#DESCRIPTION CCTV-Storm Theater
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/dyjc.m3u8?auth=testpub:CCTV-The First Theater
+#DESCRIPTION CCTV-The First Theater
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/gfjs.m3u8?auth=testpub:CCTV-Weapon & Technology
+#DESCRIPTION CCTV-Weapon & Technology
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/nxss.m3u8?auth=testpub:CCTV-Women's Fashion
+#DESCRIPTION CCTV-Women's Fashion
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.75.136.137%3a98/gslb/dsdqpub/sjdl.m3u8?auth=testpub:CCTV-World Geography
+#DESCRIPTION CCTV-World Geography
+#SERVICE 1:64:21d:0:0:0:0:0:0:0:
+#DESCRIPTION ++Dominicaanse Republiek++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videostream.shockmedia.com.ar/hls/banivision/banivision.m3u8:Bani Vision
+#DESCRIPTION Bani Vision
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.inliveserver.com%3a19360/8146/8146.m3u8:Digital809 TV
+#DESCRIPTION Digital809 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.essastream.com/lacaletatv/playlist.m3u8:La Caleta TV
+#DESCRIPTION La Caleta TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.essastream.com/portaldigital/playlist.m3u8:Portal Digital TV
+#DESCRIPTION Portal Digital TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud2.streaminglivehd.com%3a1936/8072/8072/playlist.m3u8:R&E TV
+#DESCRIPTION R&E TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mp.panelchs.com%3a1936/8040/8040/playlist.m3u8:Red Social Codi TV
+#DESCRIPTION Red Social Codi TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//2-fss-2.streamhoster.com/pl_138/206532-6829912-1/playlist.m3u8:RNN DOS
+#DESCRIPTION RNN DOS
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ss2.tvrdomi.com%3a1936/telebendicion/telebendicion/playlist.m3u8:TeleBendicion
+#DESCRIPTION TeleBendicion
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/gkemzxrrmr/gkemzxrrmr.m3u8:TVO
 #DESCRIPTION TVO
-#SERVICE 1:64:246:0:0:0:0:0:0:0:
-#DESCRIPTION ++Vietnam++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh34.vtvprime.vn/hls/HISTORY/index.m3u8:VTV History Asia
-#DESCRIPTION VTV History Asia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh34.vtvprime.vn/hls/KIX/04.m3u8:VTV KIX
-#DESCRIPTION VTV KIX
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh34.vtvprime.vn/hls/SCTV16/03.m3u8:VTV SCTV 16
-#DESCRIPTION VTV SCTV 16
-#SERVICE 1:64:247:0:0:0:0:0:0:0:
-#DESCRIPTION ++NL nationaal++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//21633.live.streamtheworld.com/DAB02_AAC.aac:Radio Veronica 90s
-#DESCRIPTION Radio Veronica 90s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB06_AAC.aac:Radio Veronica Top 3000
-#DESCRIPTION Radio Veronica Top 3000
-#SERVICE 1:64:248:0:0:0:0:0:0:0:
-#DESCRIPTION ++NL regionaal & lokaal++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.dutchmediacenter.nl/listen/radiocontinu/live:Radio Continu (Baronie van Breda)
-#DESCRIPTION Radio Continu (Baronie van Breda)
-#SERVICE 1:64:249:0:0:0:0:0:0:0:
-#DESCRIPTION ++België nationaal, Oostkantons (Duitstalig)++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.laut.fm/telstar-radio:Telsatar Radio
-#DESCRIPTION Telsatar Radio
-#SERVICE 1:64:24a:0:0:0:0:0:0:0:
-#DESCRIPTION ++Duitsland++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s2-webradio.oldie-antenne.de/oldie-antenne/stream/mp3:80er, 90er OLDIE ANTENNE 
-#DESCRIPTION 80er, 90er OLDIE ANTENNE 
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge06.streamonkey.net/fhn-fiestamaniaradio/stream/mp3:Fiesta Mania Radio
-#DESCRIPTION Fiesta Mania Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.kickfm.eu/mp3-hq:kick!fm
-#DESCRIPTION kick!fm
-#SERVICE 1:64:24b:0:0:0:0:0:0:0:
-#DESCRIPTION ++UK - Engeland++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cloud.hastingsrock.co.uk/mp3:Hastings Rock
-#DESCRIPTION Hastings Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//orbit.citrus3.com%3a8156/stream:Love Life Radio
-#DESCRIPTION Love Life Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming04.liveboxstream.uk/proxy/radioashford:Radio Ashford
-#DESCRIPTION Radio Ashford
-#SERVICE 1:64:24c:0:0:0:0:0:0:0:
-#DESCRIPTION ++UK - Wales++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//uksoutha.streaming.broadcast.radio/marcher-vibe:Marcher Vibe
-#DESCRIPTION Marcher Vibe
-#SERVICE 1:64:24d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Argentinië++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radioservice.org%3a7001/stream:OM Radio AR
-#DESCRIPTION OM Radio AR
-#SERVICE 1:64:24e:0:0:0:0:0:0:0:
-#DESCRIPTION ++Australië++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sbs-hls.streamguys1.com/hls/sbs4/playlist.m3u8:SBS Eurovision Anthems
-#DESCRIPTION SBS Eurovision Anthems
-#SERVICE 1:64:24f:0:0:0:0:0:0:0:
-#DESCRIPTION ++Engels op Ibiza++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice09.fluidstream.net/openlab.aac:Open Lab MCR
-#DESCRIPTION Open Lab MCR
-#SERVICE 1:64:250:0:0:0:0:0:0:0:
-#DESCRIPTION ++Denemarken++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s25.myradiostream.com%3a15246/listen.mp3:902 FM
-#DESCRIPTION 902 FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//webradio.classicfm.dk/classic:Classic FM Struer
-#DESCRIPTION Classic FM Struer
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.probroadcast.dk/hnrmp3:Hvidovre Naerradio
-#DESCRIPTION Hvidovre Naerradio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//media.limfjordnetradio.dk/plus128:Limfjord Mix
-#DESCRIPTION Limfjord Mix
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//fra-pioneer01.dedicateware.com%3a1460/stream:M Jazz Radio
-#DESCRIPTION M Jazz Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream1.partyfm.dk/Party256?.mp3:PartyFM
-#DESCRIPTION PartyFM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//solid41.streamupsolutions.com/proxy/wrchdupm/stream:Radio Faaborg Classic
-#DESCRIPTION Radio Faaborg Classic
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream1.rcast.net/64547:Radio Humleborg Jazzkanalen
-#DESCRIPTION Radio Humleborg Jazzkanalen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s4.ssl-stream.com/listen/radio_karen/stream1:Radio Karen
-#DESCRIPTION Radio Karen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//netradio.djurslandskanalen.dk/djurs192:Radio Rønde - Syddjurslokalradio
-#DESCRIPTION Radio Rønde - Syddjurslokalradio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.probroadcast.dk/slrkoegemp3:Radio SLR Køge
-#DESCRIPTION Radio SLR Køge
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streammp3.retro-radio.dk/retro-mp3:Retro Radio
-#DESCRIPTION Retro Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.kanalplus.fm/kp96:Rockkanalen
-#DESCRIPTION Rockkanalen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.probroadcast.dk/skagafm:Skaga FM
-#DESCRIPTION Skaga FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a2.asurahosting.com%3a6520/radio.mp3:Umlando Radio
-#DESCRIPTION Umlando Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioserver.dk/wmr:World Music Radio
-#DESCRIPTION World Music Radio
-#SERVICE 1:64:251:0:0:0:0:0:0:0:
-#DESCRIPTION ++Nauru++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radionauru.nr%3a8000/live:Radio Nauru
-#DESCRIPTION Radio Nauru
-#SERVICE 1:64:252:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.inliveserver.com%3a19360/8004/8004.m3u8:Villa Altagracia TV
+#DESCRIPTION Villa Altagracia TV
+#SERVICE 1:64:21e:0:0:0:0:0:0:0:
+#DESCRIPTION ++Engeland++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//23.237.104.106%3a8080/USA_BBC_NEWS/index.m3u8:BBC News North America
+#DESCRIPTION BBC News North America
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.autopo.st/hls/britasiatv/index.m3u8:Brit Asia TV
+#DESCRIPTION Brit Asia TV
+#SERVICE 1:64:21f:0:0:0:0:0:0:0:
+#DESCRIPTION ++Estland++
+#SERVICE 4097:0:1:8e:1644:13e:dddd0000:0:0:0:https%3a//cdn-fi.lulzy.eu/vclassic_stream/main_stream.m3u8:Vantage Classic
+#DESCRIPTION Vantage Classic
+#SERVICE 4097:0:1:8c:1644:13e:dddd0000:0:0:0:https%3a//hls.vantagetv.ee/vdance_stream/main_stream.m3u8:Vantage Dance
+#DESCRIPTION Vantage Dance
+#SERVICE 4097:0:1:8b:1644:13e:820000:0:0:0:https%3a//hls.vantagetv.ee/vmusic_stream/main_stream.m3u8:Vantage Musik
+#DESCRIPTION Vantage Musik
+#SERVICE 4097:0:1:8d:1644:13e:dddd0000:0:0:0:https%3a//hls.vantagetv.ee/vrock_stream/main_stream.m3u8:Vantage Rock
+#DESCRIPTION Vantage Rock
+#SERVICE 1:64:220:0:0:0:0:0:0:0:
+#DESCRIPTION ++Griekenland++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eco.streams.ovh%3a8081/barazatv/tracks-v1a1/mono.m3u8:Baraza TV
+#DESCRIPTION Baraza TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//eu1.streams.gr%3a8081/centertv/index.m3u8:Center TV
+#DESCRIPTION Center TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp.win%3a3650/live/diontvlive.m3u8:Dion TV
+#DESCRIPTION Dion TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp.win%3a3603/live/ellinikosfmlive.m3u8:Ellinikos FM
+#DESCRIPTION Ellinikos FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//62.1.176.18%3a8888/extra/index.m3u8:Extra ProNews
+#DESCRIPTION Extra ProNews
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//gwebstream.net/hls/master.m3u8:TV 100
+#DESCRIPTION TV 100
+#SERVICE 1:64:221:0:0:0:0:0:0:0:
+#DESCRIPTION ++Honduras++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.streamhch.com/live/streams/hch1.m3u8:HCH
+#DESCRIPTION HCH
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv2.srvif.com/rsvhonduras/rsvhonduras/playlist.m3u8:RSV Honduras
+#DESCRIPTION RSV Honduras
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//teleceiba.com/stream/tlcb720.m3u8:Teleceiba 7
+#DESCRIPTION Teleceiba 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amixtv.com%3a8081/unetvhn/tracks-v1a1/mono.m3u8:UNE TV
+#DESCRIPTION UNE TV
+#SERVICE 1:64:222:0:0:0:0:0:0:0:
+#DESCRIPTION ++India++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mumbai-edge.smartplaytv.in/10TV/index.m3u8:10 TV
+#DESCRIPTION 10 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mumt07.tangotv.in/zHjX9OFlTWENTYFOURNEWS/index.m3u8:24 News
+#DESCRIPTION 24 News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mumt03.tangotv.in/Dsly5z3H7SMUSIC/index.m3u8:7S Music
+#DESCRIPTION 7S Music
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//43wrzjnpqoxe-hls-live.wmncdn.net/marinebiztvlive/marinebiztvlive/playlist.m3u8:MediBizTV
+#DESCRIPTION MediBizTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1msejlow1t3l4.cloudfront.net/fta/news1india/playlist.m3u8:News 1 India
+#DESCRIPTION News 1 India
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8:Raj Digital Plus
+#DESCRIPTION Raj Digital Plus
+#SERVICE 1:64:223:0:0:0:0:0:0:0:
+#DESCRIPTION ++Italië++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.peer.biz/live/peertv-it.m3u8:Peer TV Alto Adige
+#DESCRIPTION Peer TV Alto Adige
+#SERVICE 4097:0:1:dfbf:1038:ec:0:0:0:0:https%3a//iptv.peer.biz/live/peertv.m3u8:Peer TV Südtirol
+#DESCRIPTION Peer TV Südtirol
+#SERVICE 4097:0:1:2b28:7b3f:ec:0:0:0:0:https%3a//64b16f23efbee.streamlock.net/tv33tn/tv33tn/playlist.m3u8:TV 33 Südtirol
+#DESCRIPTION TV 33 Südtirol
+#SERVICE 1:64:224:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostenrijk++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamsrv-airradio.kechit.eu/mobil:AIR (Austrian International Radio)
-#DESCRIPTION AIR (Austrian International Radio)
-#SERVICE 1:64:253:0:0:0:0:0:0:0:
-#DESCRIPTION ++Spanje ++ Duits op Ibiza++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.kickfm.eu/mp3-hq:kick!fm
-#DESCRIPTION kick!fm
-#SERVICE 1:64:254:0:0:0:0:0:0:0:
-#DESCRIPTION ++Spanje ++Duits op Canarische eilanden++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.135.183.124%3a8207/stream:Hola FM
-#DESCRIPTION Hola FM
-#SERVICE 1:64:255:0:0:0:0:0:0:0:
-#DESCRIPTION ++Tsjechië++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//ferncast.plzen.eduradio.cz%3a8000/default:EDU Rádio
-#DESCRIPTION EDU Rádio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//presston.icecast.sk/:Rádio Presston (Ráádio Presstón)
-#DESCRIPTION Rádio Presston (Ráádio Presstón)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast9.play.cz/zun48.aac:ZUN rádio
-#DESCRIPTION ZUN rádio
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//kronetv.mdn.ors.at/live/eds/kronetv_hd/hls3_nodrm/kronetv_hd-nodrm.m3u8:Krone TV 
+#DESCRIPTION Krone TV 
+#SERVICE 1:64:225:0:0:0:0:0:0:0:
+#DESCRIPTION ++Saoedi-Arabië++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-amg-fast.edgenextcdn.net/tx029/playlist.m3u8:Fairuz
+#DESCRIPTION Fairuz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-amg-fast.edgenextcdn.net/tx019/playlist.m3u8:Majid Al Mohandis
+#DESCRIPTION Majid Al Mohandis
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-amg-fast.edgenextcdn.net/tx008/playlist.m3u8:Maraya
+#DESCRIPTION Maraya
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-amg-fast.edgenextcdn.net/tx010/playlist.m3u8:MBC Bab Al Hara
+#DESCRIPTION MBC Bab Al Hara
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8:Movies Action
+#DESCRIPTION Movies Action
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8:Movies Thriller
+#DESCRIPTION Movies Thriller
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.whiplash.cc/whiplash-atlas/index.m3u8:Atlas
+#DESCRIPTION Atlas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//reflect-monroe-public-access.cablecast.tv/live-4/live/live.m3u8:Monroe Community Media Education Channel
+#DESCRIPTION Monroe Community Media Education Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//reflect-monroe-public-access.cablecast.tv/live-3/live/live.m3u8:Monroe Community Media Public Access Channel
+#DESCRIPTION Monroe Community Media Public Access Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.telvue.com/phillycam1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8:PhillyCAM
+#DESCRIPTION PhillyCAM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.telvue.com/ctyphiladelphia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8:PHLgovTV
+#DESCRIPTION PHLgovTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8:Rally TV
+#DESCRIPTION Rally TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2ugl2g2gz1giy.cloudfront.net/index.m3u8:WBTV News
+#DESCRIPTION WBTV News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.whiplash.cc/whiplash/index.m3u8:Whiplash
+#DESCRIPTION Whiplash
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.whiplash.cc/whiplash-2/index.m3u8:Whiplash II
+#DESCRIPTION Whiplash II
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.whiplash.cc/whiplash-cinema/index.m3u8:Whiplash Cinema
+#DESCRIPTION Whiplash Cinema
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.whiplash.cc/whiplash-windowtv/index.m3u8:Window TV
+#DESCRIPTION Window TV
+#SERVICE 1:64:226:0:0:0:0:0:0:0:
+#DESCRIPTION ++Vietnam++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh34.vtvprime.vn/hls/SCTV3/03.m3u8:VTV SCTV 3
+#DESCRIPTION VTV SCTV 3
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh34.vtvprime.vn/hls/SCTV7/03.m3u8:VTV SCTV 7
+#DESCRIPTION VTV SCTV 7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh34.vtvprime.vn/hls/SCTV8/03.m3u8:VTV SCTV 8
+#DESCRIPTION VTV SCTV 8
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh34.vtvprime.vn/hls/SCTV10/03.m3u8:VTV SCTV 10
+#DESCRIPTION VTV SCTV 10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh12.vtvprime.vn/hls/SCTVPHIM/03.m3u8:VTV SCTV Phim Tong Hop
+#DESCRIPTION VTV SCTV Phim Tong Hop
+#SERVICE 1:64:227:0:0:0:0:0:0:0:
+#DESCRIPTION ++Zuid-Afrika++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6075:AfroLand African
+#DESCRIPTION AfroLand African
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16484:Afroland AfroKiddos
+#DESCRIPTION Afroland AfroKiddos
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6101:AfroLand Black Experience
+#DESCRIPTION AfroLand Black Experience
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6068:AfroLand Comedy
+#DESCRIPTION AfroLand Comedy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6070:AfroLand Crime
+#DESCRIPTION AfroLand Crime
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6071:Afroland Documentary
+#DESCRIPTION Afroland Documentary
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6067:AfroLand Drama
+#DESCRIPTION AfroLand Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6077:AfroLand Faith
+#DESCRIPTION AfroLand Faith
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6072:AfroLand Family
+#DESCRIPTION AfroLand Family
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6057:Afroland Featured
+#DESCRIPTION Afroland Featured
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6076:AfroLand Nollywood
+#DESCRIPTION AfroLand Nollywood
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6074:AfroLand Romance
+#DESCRIPTION AfroLand Romance
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6073:AfroLand Thriller
+#DESCRIPTION AfroLand Thriller
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6098:Afroland Top 10
+#DESCRIPTION Afroland Top 10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=844:AfroLand TV
+#DESCRIPTION AfroLand TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=15235:AfroLand TV WW
+#DESCRIPTION AfroLand TV WW
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=11877:All Hip Hop
+#DESCRIPTION All Hip Hop
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=13411:AVAZ
+#DESCRIPTION AVAZ
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16993:HIPTV
+#DESCRIPTION HIPTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16206:In The Black Network
+#DESCRIPTION In The Black Network
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16481:The Shade Room
+#DESCRIPTION The Shade Room
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=11083:TidPix-Authentically African
+#DESCRIPTION TidPix-Authentically African
+#SERVICE 1:64:228:0:0:0:0:0:0:0:
+#DESCRIPTION ++Zwitserland++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge13.vedge.infomaniak.com/livecast/ik%3acarac5/manifest.m3u8:Carac 5
+#DESCRIPTION Carac 5
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//oneplusstream-prod.akamaized.net/telebaern/master.m3u8#Referer=https%3a//www.telebaern.tv/:TeleBärn 
+#DESCRIPTION TeleBärn 
+#SERVICE 1:64:229:0:0:0:0:0:0:0:
+#DESCRIPTION +++AUDIO/RADIO-STREAMS+++
+#SERVICE 1:64:22a:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL regionaal en lokaal, Friesland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radioseagull.net%3a8443/waddenzee:Radio Waddenzee (t/m 6 juli 2026)
+#DESCRIPTION Radio Waddenzee (t/m 6 juli 2026)
+#SERVICE 1:64:22b:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL regionaal en lokaal, Flevoland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mediacp.shoutcastradio.nl%3a8002/stream:NixxFM (Almere)
+#DESCRIPTION NixxFM (Almere)
+#SERVICE 1:64:22c:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL regionaal en lokaal, Gelderland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamingradio.rtv-apeldoorn.nl/listen/radio_apeldoorn/rtvapeldoornmid.mp3:Radio Apeldoorn
+#DESCRIPTION Radio Apeldoorn
+#SERVICE 1:64:22d:0:0:0:0:0:0:0:
+#DESCRIPTION ++België nationaal - Vlaanderen++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radiostudio.be/beone:Be One 80s & 90s
+#DESCRIPTION Be One 80s & 90s
+#SERVICE 1:64:22e:0:0:0:0:0:0:0:
+#DESCRIPTION ++België, regionaal, Antwerpen++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.zoe.radio/:ZOE.radio (Noord-Oost Antwerpen)
+#DESCRIPTION ZOE.radio (Noord-Oost Antwerpen)
+#SERVICE 1:64:22f:0:0:0:0:0:0:0:
+#DESCRIPTION ++Duitsland++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//dispatcher.rndfnk.com/hr/dasding/high:DASDING
+#DESCRIPTION DASDING
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mcdn.swr.de/swr/visualradiodasding/master720p-3328.m3u8:DASDING
+#DESCRIPTION DASDING
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//b2.stream43.radiohost.de/b2-radiogold_mp3-192:Radio Gold
+#DESCRIPTION Radio Gold
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4fr/hls/192/seglist.m3u8:SWR - SWR 4 Freiburch
+#DESCRIPTION SWR - SWR 4 Freiburch
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4fn/hls/192/seglist.m3u8:SWR - SWR 4 Friedrichshafen
+#DESCRIPTION SWR - SWR 4 Friedrichshafen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4hn/hls/192/seglist.m3u8:SWR - SWR 4 Heilbronn
+#DESCRIPTION SWR - SWR 4 Heilbronn
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4kl/hls/192/seglist.m3u8:SWR - SWR 4 Kaiserslautern
+#DESCRIPTION SWR - SWR 4 Kaiserslautern
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4ka/hls/192/seglist.m3u8:SWR - SWR 4 Karlsruhe
+#DESCRIPTION SWR - SWR 4 Karlsruhe
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4ko/hls/192/seglist.m3u8:SWR - SWR 4 Koblenz
+#DESCRIPTION SWR - SWR 4 Koblenz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4lu/hls/192/seglist.m3u8:SWR - SWR 4 Ludwigshafen
+#DESCRIPTION SWR - SWR 4 Ludwigshafen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4rp/hls/192/seglist.m3u8:SWR - SWR 4 Mainz
+#DESCRIPTION SWR - SWR 4 Mainz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradio.swr.de/sw282p3/swr4ma/play.mp3:SWR - SWR 4 Mannheim
+#DESCRIPTION SWR - SWR 4 Mannheim
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4bw/hls/192/seglist.m3u8:SWR - SWR 4 Stuttgart
+#DESCRIPTION SWR - SWR 4 Stuttgart
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4tr/hls/192/seglist.m3u8:SWR - SWR 4 Trier
+#DESCRIPTION SWR - SWR 4 Trier
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4tu/hls/192/seglist.m3u8:SWR - SWR 4 Tübingen
+#DESCRIPTION SWR - SWR 4 Tübingen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//swr-radio.ard-mcdn.de/swr/radio/swr4ul/hls/192/seglist.m3u8:SWR - SWR 4 Ulm
+#DESCRIPTION SWR - SWR 4 Ulm
+#SERVICE 1:64:230:0:0:0:0:0:0:0:
+#DESCRIPTION ++UK - algemeen++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast2.asurahosting.com/proxy/britcom1/stream:BritCom 1
+#DESCRIPTION BritCom 1
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast2.asurahosting.com/proxy/britcom2/stream:BritCom 2
+#DESCRIPTION BritCom 2
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast2.asurahosting.com/proxy/britcom3/stream:BritCom 3
+#DESCRIPTION BritCom 3
+#SERVICE 1:64:231:0:0:0:0:0:0:0:
+#DESCRIPTION ++UK - Engeland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n36a-eu.rcs.revma.com/dnxt9hasz42vv:Mansfield 103.2
+#DESCRIPTION Mansfield 103.2
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen-manxradio.sharp-stream.com/manxgoldlow.aac:Manx Radio Gold
+#DESCRIPTION Manx Radio Gold
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//a13.asurahosting.com/listen/rockandrollfootball/radio.mp3:Rock and Goal Radio
+#DESCRIPTION Rock and Goal Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//betelgeuse.nucast.co.uk%3a8064/stream:Westminster Waves
+#DESCRIPTION Westminster Waves
+#SERVICE 1:64:232:0:0:0:0:0:0:0:
+#DESCRIPTION ++Klassiek++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//christmasfm.cdnstream1.com/2548_128.mp3:all Classical Radio
+#DESCRIPTION all Classical Radio
+#SERVICE 1:64:233:0:0:0:0:0:0:0:
+#DESCRIPTION ++Religie - marker Italië++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sp3.streams.ovh%3a8092/stream:Radio Madre Terra
+#DESCRIPTION Radio Madre Terra
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/radiomadreterra:Radio Madre Terra - Twitch TV
+#DESCRIPTION Radio Madre Terra - Twitch TV
+#SERVICE 1:64:234:0:0:0:0:0:0:0:
+#DESCRIPTION ++Ierland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//christmasfm.cdnstream1.com/2548_128.mp3:all Classical Radio
+#DESCRIPTION all Classical Radio
+#SERVICE 1:64:235:0:0:0:0:0:0:0:
+#DESCRIPTION ++Italië++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icy.unitedradio.it/Subasio.mp3:Radio Subasio
+#DESCRIPTION Radio Subasio
+#SERVICE 1:64:236:0:0:0:0:0:0:0:
+#DESCRIPTION ++Zwitserland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//m1.dmd2streaming.com/radiotell.mp3:Radio Tell
+#DESCRIPTION Radio Tell
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//m1.dmd2streaming.com/radiotell05.mp3:Radio Tell Blasmusik
+#DESCRIPTION Radio Tell Blasmusik
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//m1.dmd2streaming.com/radiotell03.mp3:Radio Tell Bodeaständig
+#DESCRIPTION Radio Tell Bodeaständig
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//m1.dmd2streaming.com/radiotell04.mp3:Radio Tell Jodel
+#DESCRIPTION Radio Tell Jodel
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//m1.dmd2streaming.com/radiotell02.mp3:Radio Tell Konzertant
+#DESCRIPTION Radio Tell Konzertant
