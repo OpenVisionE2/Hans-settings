@@ -1,5 +1,5 @@
 #NAME Stream België (BE)
-#SERVICE 1:64:254:0:0:0:0:0:0:0:
+#SERVICE 1:64:23f:0:0:0:0:0:0:0:
 #DESCRIPTION +++Vlaanderen - landelijk+++
 #SERVICE 4097:0:1:5221:c99:3:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=368515&extension=ts:VRT1
 #DESCRIPTION VRT1
@@ -43,7 +43,7 @@
 #DESCRIPTION Trends Z Vlaanderen
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.thomasmore.be/elemental_hls/hls_stream.m3u8:ZooMedia
 #DESCRIPTION ZooMedia
-#SERVICE 1:64:255:0:0:0:0:0:0:0:
+#SERVICE 1:64:240:0:0:0:0:0:0:0:
 #DESCRIPTION +++Vlaanderen - regionaal+++
 #SERVICE 5002:0:1:d3:2:1:ffff0000:0:0:0:https%3a//live.zendzend.com/mpegts/29375_107244/master_mpegts.m3u8:ATV (Antwerpen)
 #DESCRIPTION ATV (Antwerpen)
@@ -63,7 +63,7 @@
 #DESCRIPTION TV OOST (Oost-Vlaanderen)
 #SERVICE 4097:0:1:1ff:5:1:ffff0000:0:0:0:https%3a//hls-origin01-focus-wtv.cdn01.rambla.be/main/adliveorigin-focus-wtv/_definst_/ALogzX.smil/chunklist_b6000000.m3u8:WTV (West-Vlaanderen)
 #DESCRIPTION WTV (West-Vlaanderen)
-#SERVICE 1:64:256:0:0:0:0:0:0:0:
+#SERVICE 1:64:241:0:0:0:0:0:0:0:
 #DESCRIPTION ++Vlaanderen radio webcams++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//takeoff.jetstre.am/?account=fmbrussel&file=BruzzIceVideo&type=live&service=wowza&protocol=https&output=playlist.m3u8:BRUZZ ICE
 #DESCRIPTION BRUZZ ICE
@@ -71,7 +71,7 @@
 #DESCRIPTION Qmusic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.thomasmore.be/elemental_hls3/hls_stream.m3u8:ZooMedia
 #DESCRIPTION ZooMedia
-#SERVICE 1:64:257:0:0:0:0:0:0:0:
+#SERVICE 1:64:242:0:0:0:0:0:0:0:
 #DESCRIPTION ++Belgie Vlaanderen landelijk++
 #SERVICE 4097:0:1:101a:451:35:c00000:0:0:0:https%3a//live-radio.vrtcdn.be/groupa/live/3c3a12b5-093d-4a19-ae1f-3e775433286e/live.isml/live-audio_track_0_0_dut=128000-video_track=3300000.m3u8:VRT Radio 1
 #DESCRIPTION VRT Radio 1
@@ -91,7 +91,7 @@
 #DESCRIPTION Radio PROS Heldergem
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//takeoff.jetstre.am/?account=TopRadio&file=kijklive&type=live&service=wowza&protocol=https&output=playlist.m3u8:TOP
 #DESCRIPTION TOP
-#SERVICE 1:64:258:0:0:0:0:0:0:0:
+#SERVICE 1:64:243:0:0:0:0:0:0:0:
 #DESCRIPTION ++via Rakuten TV++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//proef-njam-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-4-restreaming/cbdea81e-a2cc-42a5-8e2b-b2abd1a3625b/0.m3u8:proef njam!
 #DESCRIPTION proef njam!
@@ -99,17 +99,15 @@
 #DESCRIPTION Studio100 Hits
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//studio100-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-12-restreaming/bitok/eyJzdGlkIjoiYWIxZmM4ZDAtNmJiZi00YjI2LTkzNjAtMWVjODZhYTczYmZmIiwibWt0IjoibmwiLCJjaCI6IjEyIiwicHRmIjo1fQ%253D%253D/mpgmedia/Studio100TV/Studio100TV_NL/Studio100TV_NL.m3u8:Studio100 TV
 #DESCRIPTION Studio100 TV
-#SERVICE 1:64:259:0:0:0:0:0:0:0:
+#SERVICE 1:64:244:0:0:0:0:0:0:0:
 #DESCRIPTION ++verkeer: zie Stream verkeerscamera's++
-#SERVICE 1:64:25a:0:0:0:0:0:0:0:
+#SERVICE 1:64:245:0:0:0:0:0:0:0:
 #DESCRIPTION +++Bruxelles/Wallonie - hoofdzenders+++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=40340&extension=ts:RTBF La Une
+#SERVICE 4097:0:1:378e:44c:13e:820000:0:0:0:http%3a//41.205.93.154/LA-UNE/index.m3u8:RTBF La Une
 #DESCRIPTION RTBF La Une
-#SERVICE 4097:0:1:378e:44c:13e:820000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=1420249&extension=ts:RTBF La Une (#)
-#DESCRIPTION RTBF La Une (#)
 #SERVICE 4097:0:1:378e:44c:13e:820000:0:0:0:https%3a//c9851ec-rbm-hilv-fsly.cdn.redbee.live/L22/6d35e26e/1bffdaaf.isml/.m3u8:RTBF La Une (#)
 #DESCRIPTION RTBF La Une (#)
-#SERVICE 4097:0:1:378f:44c:13e:820000:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=40347&extension=ts:RTBF Tipik
+#SERVICE 4097:0:1:378f:44c:13e:820000:0:0:0:http%3a//41.205.93.154/LA-DEUX/index.m3u8:RTBF Tipik
 #DESCRIPTION RTBF Tipik
 #SERVICE 4097:0:1:378f:44c:13e:820000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=368565&extension=ts:RTBF Tipik (#)
 #DESCRIPTION RTBF Tipik (#)
@@ -125,25 +123,29 @@
 #DESCRIPTION RTL Club!
 #SERVICE 4097:0:1:3791:44c:13e:820000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=1420253&extension=ts:RTL Plug!
 #DESCRIPTION RTL Plug!
-#SERVICE 4097:0:1:427d:446:1:c00000:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=8640&extension=ts:AB 1
+#SERVICE 4097:0:1:5ac:170c:13f:c00000:0:0:0:http%3a//151.80.18.177%3a86/AB1/index.m3u8:AB 1
 #DESCRIPTION AB 1
-#SERVICE 4097:0:1:427d:446:1:c00000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=368575&extension=ts:AB 1 (#)
-#DESCRIPTION AB 1 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=40385&extension=ts:AB 3
-#DESCRIPTION AB 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/ab3/browser-HLS8/ab3.m3u8:AB 3 (#)
-#DESCRIPTION AB 3 (#)
-#SERVICE 1:64:25b:0:0:0:0:0:0:0:
-#DESCRIPTION ++overige++
+#SERVICE 1:64:246:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige franstalig++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/4db788c7/index.m3u8:ACTV
+#DESCRIPTION ACTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//belafrikamediatv.vedge.infomaniak.com/livecast/ik%3abelafrikamediatv/manifest.m3u8:BAM-TV
+#DESCRIPTION BAM-TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8:BEL RTL
 #DESCRIPTION BEL RTL
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/e1ccc6aa/index.m3u8:Boukè
+#DESCRIPTION Boukè
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//funradiovisionhd.vedge.infomaniak.com/livecast/ik%3afunradiovisionhd/manifest.m3u8:Fun Radio
+#DESCRIPTION Fun Radio
 #SERVICE 4097:0:1:4b4:c:1:ffff0000:0:0:0:https%3a//live-ln24.digiteka.com/1911668011/index.m3u8:LN 24
 #DESCRIPTION LN 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8:Radio Contact
 #DESCRIPTION Radio Contact
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1hz1p2gea2zy4.cloudfront.net/live/rmgtv/RMG-TRENDSZFR-LIVE/index.m3u8:Trends Z Wallonië
 #DESCRIPTION Trends Z Wallonië
-#SERVICE 1:64:25c:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/2f00284b/index.m3u8:Telesambre
+#DESCRIPTION Telesambre
+#SERVICE 1:64:247:0:0:0:0:0:0:0:
 #DESCRIPTION ++Regionaal++
 #SERVICE 4097:0:1:d8:2:1:ffff0000:0:0:0:https%3a//59959724487e3.streamlock.net/stream/live/playlist.m3u8:BX1
 #DESCRIPTION BX1

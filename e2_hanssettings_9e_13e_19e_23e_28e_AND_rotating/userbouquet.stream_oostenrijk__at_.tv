@@ -1,34 +1,28 @@
 #NAME Stream Oostenrijk (AT)
-#SERVICE 1:64:652:0:0:0:0:0:0:0:
+#SERVICE 1:64:643:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:132f:3ef:1:c00000:0:0:0:https%3a//test02.mdn.ors.at/orf/orf1/qxa/manifest.mpd:ORF 1
+#SERVICE 5001:0:1:132f:3ef:1:c00000:0:0:0:http%3a//88.212.15.19/live/test_orf_eins_tizen/playlist.m3u8:ORF 1
 #DESCRIPTION ORF 1
-#SERVICE 5002:0:1:132f:3ef:1:c00000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//test02.mdn.ors.at/orf/orf1/qxa/manifest.mpd:ORF 1
-#DESCRIPTION ORF 1
-#SERVICE 4097:0:1:1330:3ef:1:c00000:0:0:0:https%3a//test02.mdn.ors.at/orf/orf2/qxa/manifest.mpd:ORF 2
+#SERVICE 4097:0:1:1330:3ef:1:c00000:0:0:0:https%3a//orf2w-247.mdn.ors.at/orf/orf2w/drmqxa-247/manifest.mpd?offset=5&begin=20260629T152840:ORF 2
 #DESCRIPTION ORF 2
-#SERVICE 5002:0:1:1330:3ef:1:c00000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//test02.mdn.ors.at/orf/orf2/qxa/manifest.mpd:ORF 2
-#DESCRIPTION ORF 2
-#SERVICE 4097:0:1:33fc:3ed:1:c00000:0:0:0:https%3a//test02.mdn.ors.at/orf/orf3/qxa/manifest.mpd:ORF III
-#DESCRIPTION ORF III
 #SERVICE 4097:0:1:33fc:3ed:1:c00000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//test02.mdn.ors.at/orf/orf3/qxa/manifest.mpd:ORF III
 #DESCRIPTION ORF III
-#SERVICE 4097:0:1:18f8:39de:ec:0:0:0:0:https%3a//test02.mdn.ors.at/orf/orfk/qxa/manifest.mpd:ORF Kids HD
-#DESCRIPTION ORF Kids HD
-#SERVICE 4097:0:1:18f8:39de:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//test02.mdn.ors.at/orf/orfk/qxa/manifest.mpd:ORF Kids HD
-#DESCRIPTION ORF Kids HD
-#SERVICE 4097:0:1:18f8:39de:ec:0:0:0:0:https%3a//test02.mdn.ors.at/orf/orfk/qxa/manifest.mpd:ORF Kids
+#SERVICE 4097:0:1:33fc:3ed:1:c00000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1A%3a79%3aB7%3a0D%3aA9&stream=2387&extension=ts:ORF III
+#DESCRIPTION ORF III
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//web12.mdn.ors.at/orf/web12/qxa/manifest.mpd:ORF Kids
 #DESCRIPTION ORF Kids
-#SERVICE 5002:0:1:18f8:39de:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//test02.mdn.ors.at/orf/orfk/qxa/manifest.mpd:ORF Kids
-#DESCRIPTION ORF Kids
-#SERVICE 4097:0:1:33fd:3ed:1:c00000:0:0:0:https%3a//test02.mdn.ors.at/orf/orfs/qxa/manifest.mpd:ORF Sport+
-#DESCRIPTION ORF Sport+
-#SERVICE 5002:0:1:33fd:3ed:1:c00000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//test02.mdn.ors.at/orf/orfs/qxa/manifest.mpd:ORF Sport+
+#SERVICE 4097:0:1:33fd:3ed:1:c00000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1A%3a79%3aB7%3a0D%3aA9&stream=2386&extension=ts:ORF Sport+
 #DESCRIPTION ORF Sport+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//studiocam-oe3.mdn.ors.at/orf/studiocam_oe3/q6a/manifest.mpd:Hitradio Ö3
 #DESCRIPTION Hitradio Ö3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.186.45.34%3a9981/stream/channelid/692531719?profile=pass:ATV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1A%3a79%3aB7%3a0D%3aA9&stream=2385&extension=ts:ATV
 #DESCRIPTION ATV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.186.45.34%3a9981/stream/channelid/692531719?profile=pass:ATV (#)
+#DESCRIPTION ATV (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1A%3a79%3aB7%3a0D%3aA9&stream=2384&extension=ts:ATV II
+#DESCRIPTION ATV II
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1A%3a79%3aB7%3a0D%3aA9&stream=2381&extension=ts:Puls 4
+#DESCRIPTION Puls 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_sixx_tizen/playlist.m3u8:Sixx
 #DESCRIPTION Sixx
 #SERVICE 5002:0:1:63e3:42d5:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//cdn3.wowza.com/1/MHFtazJReW5rOFhP/N2NWNDZ2/hls/live/playlist.m3u8:Okto TV 8
@@ -37,9 +31,11 @@
 #DESCRIPTION R9 Oesterreich
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ms01.w24.at/W24/smil%3aliveevent.smil/chunklist.m3u8:W24
 #DESCRIPTION W24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1A%3a79%3aB7%3a0D%3aA9&stream=393746&extension=ts:Servus TV
+#DESCRIPTION Servus TV
 #SERVICE 4097:0:1:b7a:3851:ec:0:0:0:0:https%3a//dms.redbull.tv/v5/destination/stv/PN5265D2299446C/personal_computer/http/at/de_AT/playlist.m3u8:Servus TV - Bergwelten
 #DESCRIPTION Servus TV - Bergwelten
-#SERVICE 1:64:653:0:0:0:0:0:0:0:
+#SERVICE 1:64:644:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//60efd7a2b4d02.streamlock.net/a_kaernten/ngrp%3alivestream_all/playlist.m3u8:Antenne Kärnten
 #DESCRIPTION Antenne Kärnten

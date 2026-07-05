@@ -1,17 +1,17 @@
 #NAME Stream Engeland (UK)
-#SERVICE 1:64:261:0:0:0:0:0:0:0:
+#SERVICE 1:64:24c:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577275.ts:BBC 1
-#DESCRIPTION BBC 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577273.ts:BBC 2
-#DESCRIPTION BBC 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577271.ts:BBC 3 / CBBC
-#DESCRIPTION BBC 3 / CBBC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8:BBC 4
-#DESCRIPTION BBC 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577269.ts:BBC 4 / Cbeebies
-#DESCRIPTION BBC 4 / Cbeebies
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bcovlive-a.akamaihd.net/7f5ec16d102f4b5d92e8e27bc95ff424/us-east-1/6240731308001/playlist.m3u8:BBC America
+#SERVICE 4097:0:1:287b:800:2:0:0:0:0:https%3a//bpm.tv.delta.nl/hls/combined/49/stb.m3u8?bk-network=ftth:BBC One Lon HD
+#DESCRIPTION BBC One Lon HD
+#SERVICE 4097:0:1:287b:800:2:0:0:0:0:http%3a//41.205.93.154/BBCONE/index.m3u8:BBC One Lon HD (#)
+#DESCRIPTION BBC One Lon HD (#)
+#SERVICE 4097:0:1:1b1c:802:2:0:0:0:0:http%3a//41.205.93.154/BBCTWO/index.m3u8:BBC Two
+#DESCRIPTION BBC Two
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.46.58.239%3a8080/CBBCHD/index.m3u8:BBC 3 /CBBC
+#DESCRIPTION BBC 3 /CBBC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.46.58.239%3a8080/CbeebiesHD/index.m3u8:BBC 4 / CBeebies
+#DESCRIPTION BBC 4 / CBeebies
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//23.239.31.26%3a8989/bbcamerica/index.m3u8:BBC America
 #DESCRIPTION BBC America
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn%3abbc%3apips%3aservice%3abbc_arabic_tv/pc_hd_abr_v2.m3u8:BBC Arabic
 #DESCRIPTION BBC Arabic
@@ -25,40 +25,10 @@
 #DESCRIPTION BBC News UK
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs-hls-push-ww.live.cf.md.bbci.co.uk/x=4/i=urn%3abbc%3apips%3aservice%3abbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8:BBC News UK (#)
 #DESCRIPTION BBC News UK (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577225.ts:BBC Parliament
-#DESCRIPTION BBC Parliament
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn%3abbc%3apips%3aservice%3abbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8:BBC Persian
 #DESCRIPTION BBC Persian
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577516.ts:ITV 1 / UTV
-#DESCRIPTION ITV 1 / UTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=394401&extension=ts:ITV 2
-#DESCRIPTION ITV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577262.ts:ITV 3
-#DESCRIPTION ITV 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577260.ts:ITV 4
-#DESCRIPTION ITV 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577258.ts:ITV Quiz
-#DESCRIPTION ITV Quiz
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577257.ts:Channel 4
-#DESCRIPTION Channel 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577253.ts:4Seven
-#DESCRIPTION 4Seven
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577255.ts:E4
-#DESCRIPTION E4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=1169132&extension=ts:Film 4
-#DESCRIPTION Film 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577471.ts:More 4
-#DESCRIPTION More 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577256.ts:Channel 5
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.46.58.239%3a8080/Channel5/index.m3u8:Channel 5
 #DESCRIPTION Channel 5
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/1162918.ts:5 Action
-#DESCRIPTION 5 Action
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577501.ts:5 Select
-#DESCRIPTION 5 Select
-#SERVICE 4097:0:1:17:a14:a14:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577500.ts:5 Star
-#DESCRIPTION 5 Star
-#SERVICE 4097:0:1:17:a16:a16:0:0:0:0:http%3a//2k.tstvs.com/691eba43db76f/d07ee0f057/577498.ts:5 USA
-#DESCRIPTION 5 USA
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_euronews/playlist.m3u8:Euronews English
 #DESCRIPTION Euronews English
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8:GB News
@@ -67,13 +37,11 @@
 #DESCRIPTION NewsWorld
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8:Sky News Arabia
 #DESCRIPTION Sky News Arabia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Live/channel(skynews)/index_1080.m3u8:Sky News UK
-#DESCRIPTION Sky News UK
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp%3aweather_loop.stream_all/playlist.m3u8:Sky News Weather
 #DESCRIPTION Sky News Weather
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Live/channel(skynews)/index_1080.m3u8:Sky News World
-#DESCRIPTION Sky News World
-#SERVICE 1:64:262:0:0:0:0:0:0:0:
+#SERVICE 5001:0:1:0:0:0:0:0:0:0:https%3a//488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfVGFsa19ITFM/playlist.m3u8:Talk TV
+#DESCRIPTION Talk TV
+#SERVICE 1:64:24d:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8:4K Travel TV
 #DESCRIPTION 4K Travel TV
@@ -89,6 +57,10 @@
 #DESCRIPTION BBC Impossible Quiz Show (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aegis-cloudfront-1.tubi.video/d37465d7-dfbc-45cd-98a2-8d47968b5fb5/playlist.m3u8:BBC Silent Witness New Tricks
 #DESCRIPTION BBC Silent Witness New Tricks
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Live/channel(skynews)/index_1080.m3u8:Sky News UK
+#DESCRIPTION Sky News UK
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Live/channel(skynews)/index_1080.m3u8:Sky News World
+#DESCRIPTION Sky News World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8:Banijay Mr Bean Classic
 #DESCRIPTION Banijay Mr Bean Classic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.autopo.st/hls/britasiatv/index.m3u8:Brit Asia TV

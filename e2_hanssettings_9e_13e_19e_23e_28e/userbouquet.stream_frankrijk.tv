@@ -1,23 +1,17 @@
 #NAME Stream Frankrijk (FR)
-#SERVICE 1:64:60b:0:0:0:0:0:0:0:
+#SERVICE 1:64:5fc:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936753&extension=ts:TF 1
+#SERVICE 4097:0:1:2460:440:1:0:0:0:0:http%3a//151.80.18.177%3a86/TF1_HD/index.m3u8:TF 1
 #DESCRIPTION TF 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936779&extension=ts:TF 1 Series Films
-#DESCRIPTION TF 1 Series Films
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936782&extension=ts:TFX
-#DESCRIPTION TFX
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936756&extension=ts:France 2
+#SERVICE 4097:0:1:516:2e7c:13f:0:0:0:0:http%3a//151.80.18.177%3a86/France_2_HD/index.m3u8:France 2
 #DESCRIPTION France 2
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//69.64.57.208/france2/mono.m3u8:France 2 (#)
+#SERVICE 4097:0:1:245a:440:1:c00000:0:0:0:http%3a//69.64.57.208/france2/mono.m3u8:France 2 (#)
 #DESCRIPTION France 2 (#)
-#SERVICE 4097:0:1:245d:440:1:c00000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936759&extension=ts:France 3
+#SERVICE 4097:0:1:245d:440:1:c00000:0:0:0:http%3a//151.80.18.177%3a86/France_3_HD/index.m3u8:France 3
 #DESCRIPTION France 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936817&extension=ts:France 3 NoA
-#DESCRIPTION France 3 NoA
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936762&extension=ts:France 4
+#SERVICE 4097:0:1:2468:440:1:0:0:0:0:http%3a//151.80.18.177%3a86/France_4_HD/index.m3u8:France 4
 #DESCRIPTION France 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936765&extension=ts:France 5
+#SERVICE 4097:0:1:2330:442:1:0:0:0:0:http%3a//151.80.18.177%3a86/France_5_HD/index.m3u8:France 5
 #DESCRIPTION France 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8:France 24 Arabic
 #DESCRIPTION France 24 Arabic
@@ -41,19 +35,13 @@
 #DESCRIPTION France Inter
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5421175365ea3.streamlock.net/live/smil%3aswitch.smil/playlist.m3u8:Francophonie24
 #DESCRIPTION Francophonie24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936775&extension=ts:M6
-#DESCRIPTION M6
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936772&extension=ts:6ter
-#DESCRIPTION 6ter
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936785&extension=ts:RTL 9
-#DESCRIPTION RTL 9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936799&extension=ts:W9
-#DESCRIPTION W9
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936928&extension=ts:Paris Premiere
-#DESCRIPTION Paris Premiere
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936940&extension=ts:AB 1
+#SERVICE 4097:0:1:5ac:170c:13f:c00000:0:0:0:http%3a//151.80.18.177%3a86/AB1/index.m3u8:AB 1
 #DESCRIPTION AB 1
-#SERVICE 1:64:60c:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:2457:440:1:0:0:0:0:http%3a//151.80.18.177%3a86/M6_HD/index.m3u8:M6
+#DESCRIPTION M6
+#SERVICE 4097:0:1:2458:440:1:0:0:0:0:http%3a//151.80.18.177%3a86/W9_HD/index.m3u8:W9
+#DESCRIPTION W9
+#SERVICE 1:64:5fd:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/bsmart.m3u8:B Smart
 #DESCRIPTION B Smart
@@ -147,7 +135,7 @@
 #DESCRIPTION TV5Monde+ Voyage
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//23.133.220.149/TV5/index.m3u8:TV5 Quebec Canada
 #DESCRIPTION TV5 Quebec Canada
-#SERVICE 1:64:60d:0:0:0:0:0:0:0:
+#SERVICE 1:64:5fe:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-20minutestv.digiteka.com/1961167769/index.m3u8:20 Minutes TV Ile-de-France
 #DESCRIPTION 20 Minutes TV Ile-de-France

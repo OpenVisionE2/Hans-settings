@@ -1,21 +1,27 @@
 #NAME Stream Earthcam
-#SERVICE 1:64:25d:0:0:0:0:0:0:0:
+#SERVICE 1:64:247:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nederland++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/netherlands/amsterdam/?cam=amsterdam:Amsterdam - Hotel Nes
 #DESCRIPTION Amsterdam - Hotel Nes
-#SERVICE 1:64:25e:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/netherlands/amsterdam/?cam=amsterdam:Amsterdam -  House Hotel ('s Gravenlandse Veer)
+#DESCRIPTION Amsterdam -  House Hotel ('s Gravenlandse Veer)
+#SERVICE 1:64:248:0:0:0:0:0:0:0:
 #DESCRIPTION ++België++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//video1.earthcam.com/myearthcam/e2679f95df5ddf7244dde8a5119623d6.flv/playlist.m3u8:Antwerpen - Galgenweel 
 #DESCRIPTION Antwerpen - Galgenweel 
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/e2679f95df5ddf7244dde8a5119623d6.flv/playlist.m3u8:Antwerpen - Galgenweel 
+#DESCRIPTION Antwerpen - Galgenweel 
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//video1.earthcam.com/myearthcam/7152a2f16f04a144531587e4240a244c.flv/playlist.m3u8:Leuven - Nieuwe Campus 
 #DESCRIPTION Leuven - Nieuwe Campus 
-#SERVICE 1:64:25f:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/faec864f4fcf5e280f86ea2b9b53702c.flv/playlist.m3u8:Hombeek (Mechelen) - Eglegemvijver 
+#DESCRIPTION Hombeek (Mechelen) - Eglegemvijver 
+#SERVICE 1:64:249:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland, Noord-Ierland, Schotland, Wales++
 #SERVICE 5002:0:1:8f38:e86e:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/england/london/abbeyroad/?cam=abbeyroad_uk:London - Abbey Road
 #DESCRIPTION London - Abbey Road
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/uk/wales/?cam=waleswaterway:Wales, Milford Haven, Marina view
 #DESCRIPTION Wales, Milford Haven, Marina view
-#SERVICE 1:64:260:0:0:0:0:0:0:0:
+#SERVICE 1:64:24a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Aruba++
 #SERVICE 5002:0:1:e470:1161:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/aruba/beachfront/?cam=arubabeachfront:Oranjestad - Amsterdam Manor Beach Cam
 #DESCRIPTION Oranjestad - Amsterdam Manor Beach Cam
@@ -31,11 +37,11 @@
 #DESCRIPTION Oranjestad - Playa Linda Resort Cams - Beach View
 #SERVICE 5002:0:1:4f4f:1681:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/aruba/beachresort/?cam=pooldeck:Oranjestad - Playa Linda Resort Cams - Pool View
 #DESCRIPTION Oranjestad - Playa Linda Resort Cams - Pool View
-#SERVICE 1:64:261:0:0:0:0:0:0:0:
+#SERVICE 1:64:24b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Australië++
 #SERVICE 4097:0:1:3c41:1197:ec:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/5636795d6fc22e3d805e7c1570597c8b.flv/playlist.m3u8:Brisbane
 #DESCRIPTION Brisbane
-#SERVICE 1:64:262:0:0:0:0:0:0:0:
+#SERVICE 1:64:24c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Canada++
 #SERVICE 5002:0:1:77ac:f17f:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/canada/alberta/edmonton/?cam=edmonton:Edmonton
 #DESCRIPTION Edmonton
@@ -47,83 +53,91 @@
 #DESCRIPTION Toronto - CN Tower (West)
 #SERVICE 5002:0:1:c76c:c79c:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/canada/toronto/cntower/?cam=cntower2:Toronto - CN Tower (Oost)
 #DESCRIPTION Toronto - CN Tower (Oost)
-#SERVICE 1:64:263:0:0:0:0:0:0:0:
+#SERVICE 1:64:24d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Chili++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/6a7124ea3318cff85787a711956a0b24.flv/playlist.m3u8:Valparaiso
 #DESCRIPTION Valparaiso
-#SERVICE 1:64:264:0:0:0:0:0:0:0:
+#SERVICE 1:64:24e:0:0:0:0:0:0:0:
 #DESCRIPTION ++China++
 #SERVICE 4097:0:1:409c:8588:ec:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/176b314d243f461979fffb25ce5f742b.flv/playlist.m3u8:Hong Kong
 #DESCRIPTION Hong Kong
-#SERVICE 1:64:265:0:0:0:0:0:0:0:
+#SERVICE 1:64:24f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Costa Rica++
 #SERVICE 5002:0:1:2d90:524a:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/costarica/lafortuna/?cam=lafortuna:La Fortuna - Volcano
 #DESCRIPTION La Fortuna - Volcano
-#SERVICE 1:64:266:0:0:0:0:0:0:0:
+#SERVICE 1:64:250:0:0:0:0:0:0:0:
 #DESCRIPTION ++Duitsland++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/cd70a0c7e180019851c5b23b294d1f3f.flv/playlist.m3u8:Radebeul
 #DESCRIPTION Radebeul
-#SERVICE 1:64:267:0:0:0:0:0:0:0:
+#SERVICE 1:64:251:0:0:0:0:0:0:0:
 #DESCRIPTION ++Georgië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/georgia/tbilisi/?cam=tbilisi:Tbilisi - Freedom Square
 #DESCRIPTION Tbilisi - Freedom Square
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/georgia/tbilisi/mtkvaririver/?cam=mtkvaririver:Tbilisi - Mtkvari River Cam
 #DESCRIPTION Tbilisi - Mtkvari River Cam
-#SERVICE 1:64:268:0:0:0:0:0:0:0:
+#SERVICE 1:64:252:0:0:0:0:0:0:0:
+#DESCRIPTION ++Griekenland++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/562ae2a24ce4ab6f95d041e1836703c6.flv/playlist.m3u8:Athene (4K)
+#DESCRIPTION Athene (4K)
+#SERVICE 1:64:253:0:0:0:0:0:0:0:
 #DESCRIPTION ++Honduras++
-#SERVICE 5002:0:1:cf31:ca75:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/honduras/roatanbayislands/?cam=roatanbayislands:Roatan Bay Islands
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/honduras/roatanbayislands/?cam=roatanbayislands:Roatan Bay Islands
 #DESCRIPTION Roatan Bay Islands
-#SERVICE 1:64:269:0:0:0:0:0:0:0:
+#SERVICE 1:64:254:0:0:0:0:0:0:0:
 #DESCRIPTION ++Hongarije++
 #SERVICE 5002:0:1:10c4:6d14:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/hungary/budapest/?cam=hotelvictoria:Budapest - Hotel Victoria
 #DESCRIPTION Budapest - Hotel Victoria
-#SERVICE 1:64:26a:0:0:0:0:0:0:0:
+#SERVICE 1:64:255:0:0:0:0:0:0:0:
 #DESCRIPTION ++Ierland++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/ireland/dublin/?cam=templebar:Dublin, The Temple Bar - buiten
 #DESCRIPTION Dublin, The Temple Bar - buiten
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/ireland/dublin/?cam=dublinpub:Dublin, The Temple Bar - binnen
 #DESCRIPTION Dublin, The Temple Bar - binnen
-#SERVICE 1:64:26b:0:0:0:0:0:0:0:
+#SERVICE 1:64:256:0:0:0:0:0:0:0:
 #DESCRIPTION ++Indonesië++
 #SERVICE 5002:0:1:c068:f7b6:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/indonesia/bali/?cam=bali1:Bali - Olifant (Bos)
 #DESCRIPTION Bali - Olifant (Bos)
 #SERVICE 5002:0:1:c068:f7b6:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/indonesia/bali/?cam=bali2:Bali - Olifant (Zwempoel)
 #DESCRIPTION Bali - Olifant (Zwempoel)
-#SERVICE 1:64:26c:0:0:0:0:0:0:0:
+#SERVICE 1:64:257:0:0:0:0:0:0:0:
 #DESCRIPTION ++Israël++
 #SERVICE 5002:0:1:4325:be31:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/israel/jerusalem/?cam=jerusalem:Jeruzalem - Western Wall
 #DESCRIPTION Jeruzalem - Western Wall
-#SERVICE 1:64:26d:0:0:0:0:0:0:0:
+#SERVICE 1:64:258:0:0:0:0:0:0:0:
 #DESCRIPTION ++Italië++
 #SERVICE 5002:0:1:4ce:c3a4:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/italy/syracuse/?cam=lemon_grove:Siracusa - Agriturismo Limoneto
 #DESCRIPTION Siracusa - Agriturismo Limoneto
 #SERVICE 4097:0:1:dd3d:464b:ec:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/4eee115c783cef7f4b734ecfa7493104.flv/playlist.m3u8:Trieste - Boramatta
 #DESCRIPTION Trieste - Boramatta
-#SERVICE 1:64:26e:0:0:0:0:0:0:0:
+#SERVICE 1:64:259:0:0:0:0:0:0:0:
+#DESCRIPTION ++Japan++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/0dc576496452c3f3deccfb895d904006.flv/playlist.m3u8:Tokyo Bay Area - traffic
+#DESCRIPTION Tokyo Bay Area - traffic
+#SERVICE 1:64:25a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nieuw Zeeland++
 #SERVICE 4097:0:1:4d71:e07c:ec:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/a06b98a960a1ba894a65732178e79e4b.flv/playlist.m3u8:Auckland - Sky Tower en Harbour
 #DESCRIPTION Auckland - Sky Tower en Harbour
-#SERVICE 1:64:26f:0:0:0:0:0:0:0:
+#SERVICE 1:64:25b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rusland++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/russia/moscow/?cam=moscow_hd:Moskva - Panoramaview
 #DESCRIPTION Moskva - Panoramaview
-#SERVICE 1:64:270:0:0:0:0:0:0:0:
+#SERVICE 1:64:25c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sint Maarten++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/sintmaarten/?cam=sintmaarten_belair:Philipsburg
 #DESCRIPTION Philipsburg
-#SERVICE 1:64:271:0:0:0:0:0:0:0:
+#SERVICE 1:64:25d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Spanje++
 #SERVICE 5002:0:1:1f41:971e:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/spain/mallorca/?cam=mallorca:Palma de Mallorca
 #DESCRIPTION Palma de Mallorca
 #SERVICE 5002:0:1:7f2:cfc8:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/spain/tamariu/?cam=tamariu:Tamariu - Playa
 #DESCRIPTION Tamariu - Playa
-#SERVICE 1:64:272:0:0:0:0:0:0:0:
+#SERVICE 1:64:25e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Taiwan++
 #SERVICE 5002:0:1:c370:b6eb:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/taiwan/pingtungcounty/manzhoutownship/?cam=gangkoubridge:Pingtung County - Gangkou Bridge 
 #DESCRIPTION Pingtung County - Gangkou Bridge 
 #SERVICE 5002:0:1:1c28:56cd:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/taiwan/newtaipeicity/linkoudistrict/?cam=linkoudistrict:Taipei - Linkou Old Street
 #DESCRIPTION Taipei - Linkou Old Street
-#SERVICE 1:64:273:0:0:0:0:0:0:0:
+#SERVICE 1:64:25f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Tanzania++
 #SERVICE 5002:0:1:81e6:6b29:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/tanzania/moshi/?cam=mountkilimanjaro:Moshi - Kilimanjaro
 #DESCRIPTION Moshi - Kilimanjaro
@@ -131,7 +145,11 @@
 #DESCRIPTION Stonetown
 #SERVICE 5002:0:1:1825:cbfd:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/uk/wales/?cam=waleswaterway:Milford Haven - Marina View
 #DESCRIPTION Milford Haven - Marina View
-#SERVICE 1:64:274:0:0:0:0:0:0:0:
+#SERVICE 1:64:260:0:0:0:0:0:0:0:
+#DESCRIPTION ++Turkije++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/ce7d21da13140ce08cea5d1895f9d1b4.flv/playlist.m3u8:Marmaris
+#DESCRIPTION Marmaris
+#SERVICE 1:64:261:0:0:0:0:0:0:0:
 #DESCRIPTION ++USA++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/115020d6ef5fcbb699b4912ea71ae74c.flv/playlist.m3u8:Bonham - North Main Street
 #DESCRIPTION Bonham - North Main Street
@@ -177,13 +195,13 @@
 #DESCRIPTION Washington DC - WAMO cam
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/usa/dc/?cam=dc_kennedycenter:Washington - Trump Kennedy Center
 #DESCRIPTION Washington - Trump Kennedy Center
-#SERVICE 1:64:275:0:0:0:0:0:0:0:
+#SERVICE 1:64:262:0:0:0:0:0:0:0:
 #DESCRIPTION ++Zuid Afrika++
 #SERVICE 5002:0:1:e7b:4b99:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/southafrica/capetown/?cam=capetown:Kaapstad
 #DESCRIPTION Kaapstad
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//video1.earthcam.com/myearthcam/731d9a2b7d17c0c706f10498cedac55b.flv/playlist.m3u8:Kaapstad/Cape Town - live weather - eastern horizon
 #DESCRIPTION Kaapstad/Cape Town - live weather - eastern horizon
-#SERVICE 1:64:276:0:0:0:0:0:0:0:
+#SERVICE 1:64:263:0:0:0:0:0:0:0:
 #DESCRIPTION ++Zuid Korea++
 #SERVICE 5002:0:1:e2a:82a6:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.earthcam.com/world/southkorea/seoul/gangnam/?cam=seoul_gangnam:Seoul - Gangnam
 #DESCRIPTION Seoul - Gangnam

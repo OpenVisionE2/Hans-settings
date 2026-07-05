@@ -1,7 +1,7 @@
 #NAME Stream webcams verkeerscamera's (auto/trein/boot/luchthaven)
-#SERVICE 1:64:2c8:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b3:0:0:0:0:0:0:0:
 #DESCRIPTION ++NEDERLAND: Rijkswaterstaat e.a.++
-#SERVICE 1:64:2c9:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b4:0:0:0:0:0:0:0:
 #DESCRIPTION +autoverkeer+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_55.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A1 Amersfoort
 #DESCRIPTION Rijkswaterstaat A1 Amersfoort
@@ -41,8 +41,6 @@
 #DESCRIPTION A12 Knooppunt Velperbroek Arnhem | Livestream Studio Rheden
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_13.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A12 Gouwe
 #DESCRIPTION Rijkswaterstaat A12 Gouwe
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_13.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/11/embed?autoplay=1:Rijkswaterstaat A12 Gouwe (#)
-#DESCRIPTION Rijkswaterstaat A12 Gouwe (#)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_91.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A12 Lunetten
 #DESCRIPTION Rijkswaterstaat A12 Lunetten
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream.inmoves.nl/rtplive/IB_201.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/13/embed?autoplay=1:Rijkswaterstaat A12 Oudenrijn
@@ -73,13 +71,15 @@
 #DESCRIPTION N210 Industrieweg - Nieuwe Tiendweg
 #SERVICE 5002:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//stream.inmoves.nl/rtplive/GKR_02.stream/playlist.m3u8#Referer=https%3a//stream.inmoves.nl/165/embed:N210 Ketensedijk
 #DESCRIPTION N210 Ketensedijk
-#SERVICE 1:64:2ca:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b5:0:0:0:0:0:0:0:
 #DESCRIPTION +scheepvaart++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//5b8d2cbe62ad6.streamlock.net/live/bontekoe.stream/chunklist_w.m3u8:Bontekoe (zeilklipper)
 #DESCRIPTION Bontekoe (zeilklipper)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/d-NTSpzkBDg:Groningen - Oostersluis
 #DESCRIPTION Groningen - Oostersluis
-#SERVICE 1:64:2cb:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/wt0Tay4YpJ0:MaritiemStream
+#DESCRIPTION MaritiemStream
+#SERVICE 1:64:2b6:0:0:0:0:0:0:0:
 #DESCRIPTION +autoverkeer via YouTube+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/Jy1Y9f8NEY0:Capelle aan den IJssel
 #DESCRIPTION Capelle aan den IJssel
@@ -91,7 +91,7 @@
 #DESCRIPTION Spoorzone Groningen - ProRail - cam 2
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/ZfOeOuWz-YQ:Zuidwesterboog
 #DESCRIPTION Zuidwesterboog
-#SERVICE 1:64:2cc:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b7:0:0:0:0:0:0:0:
 #DESCRIPTION +treinverkeer via YouTube+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/F5tsZyPDL6w:24/7 Nederlandse cabinerit - Machinist Mart
 #DESCRIPTION 24/7 Nederlandse cabinerit - Machinist Mart
@@ -109,7 +109,7 @@
 #DESCRIPTION Twello - Stationsstraat
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/channel/UCFQM1TIqoryonOWmyZtER9A/live:Zandvoort - station
 #DESCRIPTION Zandvoort - station
-#SERVICE 1:64:2cd:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b8:0:0:0:0:0:0:0:
 #DESCRIPTION ++BELGIË: Vlaams Verkeerscentrum++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_W9085_A11_ROSKAMBRUG_152.9_PTZ.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:A11 - Roskambrug
 #DESCRIPTION A11 - Roskambrug
@@ -259,17 +259,19 @@
 #DESCRIPTION R2 - Waaslandhaven-Noord
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//hls.media.verkeerscentrum.be/WEB_1_O4532_R2_WAASLANDHAVEN-ZUID_79.8_2.stream/chunklist.m3u8#Referer=https%3a//players.media.verkeerscentrum.be/:R2 - Waaslandhaven-Zuid --> Beveren
 #DESCRIPTION R2 - Waaslandhaven-Zuid --> Beveren
-#SERVICE 1:64:2ce:0:0:0:0:0:0:0:
+#SERVICE 1:64:2b9:0:0:0:0:0:0:0:
 #DESCRIPTION ++DUITSLAND++
-#SERVICE 1:64:2cf:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCKUb0TwifX_aQODQosDAfoA&autoplay=1:Hannover - railcam 
+#DESCRIPTION Hannover - railcam 
+#SERVICE 1:64:2ba:0:0:0:0:0:0:0:
 #DESCRIPTION +luchthavens+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream-5gw.1000eyes.de/cupertino/cgn4463E1.stream/playlist.m3u8:Keulen Bonn Airport - Platform Terminal 1 Cam 2
 #DESCRIPTION Keulen Bonn Airport - Platform Terminal 1 Cam 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream-5gw.1000eyes.de/cupertino/cgn06B1E8.stream/playlist.m3u8:Keulen Bonn Airport - Platform Terminal 2
 #DESCRIPTION Keulen Bonn Airport - Platform Terminal 2
-#SERVICE 1:64:2d0:0:0:0:0:0:0:0:
+#SERVICE 1:64:2bb:0:0:0:0:0:0:0:
 #DESCRIPTION ++ENGELAND (en rest UK)++
-#SERVICE 1:64:2d1:0:0:0:0:0:0:0:
+#SERVICE 1:64:2bc:0:0:0:0:0:0:0:
 #DESCRIPTION +luchthavens+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//camsecure.co/HLS/leicesterair.m3u8:Leicester Airport
 #DESCRIPTION Leicester Airport
@@ -281,7 +283,7 @@
 #DESCRIPTION Manchester City Airport 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//camsecure.co/HLS/cubair.m3u8:Redhill Airport
 #DESCRIPTION Redhill Airport
-#SERVICE 1:64:2d2:0:0:0:0:0:0:0:
+#SERVICE 1:64:2bd:0:0:0:0:0:0:0:
 #DESCRIPTION +via UK Rail website+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//maybach.railcam.co.uk/ApperleyBridge_20194/tracks-v1/mono.m3u8:UK rail - Apperley Bridge
 #DESCRIPTION UK rail - Apperley Bridge
@@ -353,7 +355,7 @@
 #DESCRIPTION UK rail - York – North
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//maybach.railcam.co.uk/Abergynolwyn_68473/tracks-v1/mono.m3u8:Talyl lyn - Abergynolwyn station
 #DESCRIPTION Talyl lyn - Abergynolwyn station
-#SERVICE 1:64:2d3:0:0:0:0:0:0:0:
+#SERVICE 1:64:2be:0:0:0:0:0:0:0:
 #DESCRIPTION ++Railcam UK via YouTube++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/pmvyFMAwL9k:Blue Anchor Station - Camera 1, West Somerset Railway
 #DESCRIPTION Blue Anchor Station - Camera 1, West Somerset Railway
@@ -407,7 +409,7 @@
 #DESCRIPTION Williton Camera 2, West Somerset Railway
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/vByZX49lCic:York - York Railway Station
 #DESCRIPTION York - York Railway Station
-#SERVICE 1:64:2d4:0:0:0:0:0:0:0:
+#SERVICE 1:64:2bf:0:0:0:0:0:0:0:
 #DESCRIPTION ++Schotland, via Twitch TV++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/cmalcoll:Arinagour, Isle of Coll, Hebrides
 #DESCRIPTION Arinagour, Isle of Coll, Hebrides
@@ -433,7 +435,7 @@
 #DESCRIPTION Tarbert Ferry Terminal on the Isle of Harris
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/cmalwemyssbay:Wemyss Bay Ferry Terminal
 #DESCRIPTION Wemyss Bay Ferry Terminal
-#SERVICE 1:64:2d5:0:0:0:0:0:0:0:
+#SERVICE 1:64:2c0:0:0:0:0:0:0:0:
 #DESCRIPTION ++FRANKRIJK++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/CdLzCCHDaYQ:Parijs - Périphérique Nord - Porte de Croix-Luizet
 #DESCRIPTION Parijs - Périphérique Nord - Porte de Croix-Luizet
@@ -447,29 +449,33 @@
 #DESCRIPTION Parijs - Périphérique Nord - Porte du Valvert
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/Pos3d_yYjwo:Parijs - Périphérique Nord - Porte de Croix-Luizet
 #DESCRIPTION Parijs - Périphérique Nord - Porte de Croix-Luizet
-#SERVICE 1:64:2d6:0:0:0:0:0:0:0:
+#SERVICE 1:64:2c1:0:0:0:0:0:0:0:
 #DESCRIPTION ++LUXEMBURG++
-#SERVICE 4097:0:1:46e0:a89d:ec:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a1/playlist.m3u8:Luxemburg - A1 (diverse camera's)
-#DESCRIPTION Luxemburg - A1 (diverse camera's)
-#SERVICE 4097:0:1:46e0:a89d:ec:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a3/playlist.m3u8:Luxemburg - A3 (diverse camera's)
-#DESCRIPTION Luxemburg - A3 (diverse camera's)
-#SERVICE 4097:0:1:46e0:a89d:ec:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a4/playlist.m3u8:Luxemburg - A4 (diverse camera's)
-#DESCRIPTION Luxemburg - A4 (diverse camera's)
-#SERVICE 4097:0:1:46e0:a89d:ec:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a6/playlist.m3u8:Luxemburg - A6 (diverse camera's)
-#DESCRIPTION Luxemburg - A6 (diverse camera's)
-#SERVICE 4097:0:1:9c45:b23c:ec:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a7/playlist.m3u8:Luxemburg - A7 (diverse camera's)
-#DESCRIPTION Luxemburg - A7 (diverse camera's)
-#SERVICE 4097:0:1:e8d9:5afa:ec:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a13/playlist.m3u8:Luxemburg - A13 (diverse camera's)
-#DESCRIPTION Luxemburg - A13 (diverse camera's)
-#SERVICE 1:64:2d7:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a1/playlist.m3u8:A1 (diverse camera's)
+#DESCRIPTION A1 (diverse camera's)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a3/playlist.m3u8:A3 (diverse camera's)
+#DESCRIPTION A3 (diverse camera's)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a4/playlist.m3u8:A4 (diverse camera's)
+#DESCRIPTION A4 (diverse camera's)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a6/playlist.m3u8:A6 (diverse camera's)
+#DESCRIPTION A6 (diverse camera's)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a7/playlist.m3u8:A7 (diverse camera's)
+#DESCRIPTION A7 (diverse camera's)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-edge.rtl.lu/cita/cita_a13/playlist.m3u8:A13 (diverse camera's)
+#DESCRIPTION A13 (diverse camera's)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.rtl.lu/data/live/cita/cita_a7/chunklist.m3u8:Pont Grande-Duchesse Charlotte A
+#DESCRIPTION Pont Grande-Duchesse Charlotte A
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.rtl.lu/data/live/cita/cita_a7/chunklist.m3u8:Pont Grande-Duchesse Charlotte B
+#DESCRIPTION Pont Grande-Duchesse Charlotte B
+#SERVICE 1:64:2c2:0:0:0:0:0:0:0:
 #DESCRIPTION ++NOORWEGEN: Statens Vegvesen Kameraer++
-#SERVICE 1:64:2d8:0:0:0:0:0:0:0:
+#SERVICE 1:64:2c3:0:0:0:0:0:0:0:
 #DESCRIPTION -- Agder --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3000858_1/manifest.m3u8:E18 Varoddbrua retning Kristiansand
 #DESCRIPTION E18 Varoddbrua retning Kristiansand
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/1029002_1/manifest.m3u8:E39 Fidjane retning Kristiansand
 #DESCRIPTION E39 Fidjane retning Kristiansand
-#SERVICE 1:64:2d9:0:0:0:0:0:0:0:
+#SERVICE 1:64:2c4:0:0:0:0:0:0:0:
 #DESCRIPTION -- Akerhus --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/0229002_1/manifest.m3u8:E6 Sonsveien retning Moss
 #DESCRIPTION E6 Sonsveien retning Moss
@@ -479,7 +485,7 @@
 #DESCRIPTION E16 Gardermoen retning Gardermoen
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/0229009_1/manifest.m3u8:E16 Sandvika øst retning Oslo
 #DESCRIPTION E16 Sandvika øst retning Oslo
-#SERVICE 1:64:2da:0:0:0:0:0:0:0:
+#SERVICE 1:64:2c5:0:0:0:0:0:0:0:
 #DESCRIPTION -- Buskerut --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3001092_1/manifest.m3u8:E16 Skaret retning Sandvika
 #DESCRIPTION E16 Skaret retning Sandvika
@@ -497,13 +503,13 @@
 #DESCRIPTION Rv. 52 Hemsedalsfjellet retning Gol
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3000823_1/manifest.m3u8:Rv. 52 Storeskard retning Gol
 #DESCRIPTION Rv. 52 Storeskard retning Gol
-#SERVICE 1:64:2db:0:0:0:0:0:0:0:
+#SERVICE 1:64:2c6:0:0:0:0:0:0:0:
 #DESCRIPTION -- Finnmark --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3000937_1/manifest.m3u8:E45 Aidejavri retning Finland
 #DESCRIPTION E45 Aidejavri retning Finland
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3000992_1/manifest.m3u8:E75 Vadsø Vest retning Vadsø
 #DESCRIPTION E75 Vadsø Vest retning Vadsø
-#SERVICE 1:64:2dc:0:0:0:0:0:0:0:
+#SERVICE 1:64:2c7:0:0:0:0:0:0:0:
 #DESCRIPTION -- Innlandet --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/0529004_1/manifest.m3u8:E6 Vingnes retning Lillehammer
 #DESCRIPTION E6 Vingnes retning Lillehammer
@@ -515,7 +521,7 @@
 #DESCRIPTION Rv. 3 Stabekken retning Romedal
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3000590_2/manifest.m3u8:Rv. 15 Breidalen retning Stryn
 #DESCRIPTION Rv. 15 Breidalen retning Stryn
-#SERVICE 1:64:2dd:0:0:0:0:0:0:0:
+#SERVICE 1:64:2c8:0:0:0:0:0:0:0:
 #DESCRIPTION -- Nordland --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3000946_1/manifest.m3u8:E6 Alsgård retning Mosjøen
 #DESCRIPTION E6 Alsgård retning Mosjøen
@@ -541,7 +547,7 @@
 #DESCRIPTION E10 Trældal retning Bjørnfjell
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3000970_1/manifest.m3u8:Fv. 812 Ljøsenhammarn retning Saltdal
 #DESCRIPTION Fv. 812 Ljøsenhammarn retning Saltdal
-#SERVICE 1:64:2de:0:0:0:0:0:0:0:
+#SERVICE 1:64:2c9:0:0:0:0:0:0:0:
 #DESCRIPTION -- Oslo --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/0329031_1/manifest.m3u8:E6 Sandstuveien retning Abdilsø
 #DESCRIPTION E6 Sandstuveien retning Abdilsø
@@ -549,7 +555,7 @@
 #DESCRIPTION E18 Fiskevollbukta retning Oslo sentrum
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/0329034_1/manifest.m3u8:Rv. 150 Ullevål retning Tåsen
 #DESCRIPTION Rv. 150 Ullevål retning Tåsen
-#SERVICE 1:64:2df:0:0:0:0:0:0:0:
+#SERVICE 1:64:2ca:0:0:0:0:0:0:0:
 #DESCRIPTION -- Rogaland --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/1129037_2/manifest.m3u8:E39 Arsvågen ferjekai retning Aksdal
 #DESCRIPTION E39 Arsvågen ferjekai retning Aksdal
@@ -583,11 +589,11 @@
 #DESCRIPTION Rv. 13 Nesvik ferjekai retning Nesvik
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/1129034_1/manifest.m3u8:Rv. 509 Sømmevågen retning Tananger
 #DESCRIPTION Rv. 509 Sømmevågen retning Tananger
-#SERVICE 1:64:2e0:0:0:0:0:0:0:0:
+#SERVICE 1:64:2cb:0:0:0:0:0:0:0:
 #DESCRIPTION -- Telemark --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3000965_1/manifest.m3u8:Rv. 36 Kjørbekk retning Porsgrunn
 #DESCRIPTION Rv. 36 Kjørbekk retning Porsgrunn
-#SERVICE 1:64:2e1:0:0:0:0:0:0:0:
+#SERVICE 1:64:2cc:0:0:0:0:0:0:0:
 #DESCRIPTION -- Troms --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/1900163_1/manifest.m3u8:E6 Gratangsfjellet retning Bjerkvik
 #DESCRIPTION E6 Gratangsfjellet retning Bjerkvik
@@ -633,7 +639,7 @@
 #DESCRIPTION Fv. 825 Sandstrand retning Tjeldsundet
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3000052_1/manifest.m3u8:Fv. 862 Ishavskatedralen retning Hungeren
 #DESCRIPTION Fv. 862 Ishavskatedralen retning Hungeren
-#SERVICE 1:64:2e2:0:0:0:0:0:0:0:
+#SERVICE 1:64:2cd:0:0:0:0:0:0:0:
 #DESCRIPTION -- Trøndelag --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/1729007_1/manifest.m3u8:E14 Meådal retning Stjørdal
 #DESCRIPTION E14 Meådal retning Stjørdal
@@ -641,13 +647,13 @@
 #DESCRIPTION E14 Teveldalen retning Sverige
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/1629012_1/manifest.m3u8:Fv. 705 Langsvola retning Røros
 #DESCRIPTION Fv. 705 Langsvola retning Røros
-#SERVICE 1:64:2e3:0:0:0:0:0:0:0:
+#SERVICE 1:64:2ce:0:0:0:0:0:0:0:
 #DESCRIPTION -- Vestfold --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/0729007_1/manifest.m3u8:E18 Tveiten retning Drammen
 #DESCRIPTION E18 Tveiten retning Drammen
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/0729008_1/manifest.m3u8:E18 Undrumsdal retning Drammen
 #DESCRIPTION E18 Undrumsdal retning Drammen
-#SERVICE 1:64:2e4:0:0:0:0:0:0:0:
+#SERVICE 1:64:2cf:0:0:0:0:0:0:0:
 #DESCRIPTION -- Vestland --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/1429012_1/manifest.m3u8:E16 Borlaugkrysset aust retning Lærdal
 #DESCRIPTION E16 Borlaugkrysset aust retning Lærdal
@@ -735,7 +741,7 @@
 #DESCRIPTION Fv. 566 Osterøybrua retning XE16
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/1229050_1/manifest.m3u8:Fv. 587 Haukeland retning Arna
 #DESCRIPTION Fv. 587 Haukeland retning Arna
-#SERVICE 1:64:2e5:0:0:0:0:0:0:0:
+#SERVICE 1:64:2d0:0:0:0:0:0:0:0:
 #DESCRIPTION -- Østfold --
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//kamera.vegvesen.no/public/3001013_1/manifest.m3u8:E6 Ingedal retning Sarpsborg
 #DESCRIPTION E6 Ingedal retning Sarpsborg

@@ -112,7 +112,7 @@ transponders
 	s 11973000:27500000:1:3:192:2:0
 /
 00c00000:0441:0001
-	s 12187000:27500000:0:3:192:2:0
+	s 12188000:27500000:0:3:192:2:0
 /
 00c00000:0430:0001
 	s 11856000:29700000:1:2:192:2:0:1:2:0:2
@@ -167,9 +167,6 @@ transponders
 /
 00c00000:0440:0001
 	s 12168000:29700000:1:2:192:2:0:1:2:0:2
-/
-00c00000:03fc:0001
-	s 11508000:22000000:1:4:192:2:0
 /
 00c00000:0437:0001
 	s 11954000:27500000:0:3:192:2:0
@@ -387,7 +384,7 @@ p:Telekom Srbija
 Etno
 p:Telekom Srbija
 4f07:00eb0000:0ca5:0003:1:0
-Favorit TV
+Arena M2 premium
 p:Telekom Srbija
 4f08:00eb0000:0ca5:0003:1:0
 Arena Premium_3
@@ -436,10 +433,7 @@ TV Pljevlja
 p:Telekom Srbija
 4e30:00eb0000:0ca5:0003:1:0
 UNA TV
-p:Telekom Srbija
-4f4b:00eb0000:0ca5:0003:1:0
-Test kanal
-p:Telekom Srbija
+p:Telekom Srbija,c:050001
 4e4d:00eb0000:0ca5:0003:1:0
 Kurir TV
 p:Telekom Srbija
@@ -493,7 +487,7 @@ RTL Harom
 p:Telekom Srbija
 4f4b:00eb0000:0ca5:0003:100:0
 12422H SID 0x4f4b
-p:DVB-S2 8PSK 12422H 23.5Â°E,f:40
+p:DVB-S2 8PSK 12422H 23.5Â°E
 4f02:00eb0000:0c9f:0003:1:0
 Digi 24
 p:Telekom Srbija
@@ -514,19 +508,16 @@ Elita live 4
 p:Telekom Srbija
 4e2e:00eb0000:0c9f:0003:1:0
 Prva Max
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4f2f:00eb0000:0c9f:0003:1:0
 Arena Premium 5 HD
 p:Telekom Srbija
 4f3d:00eb0000:0c9f:0003:1:0
-Private TV
+Arena M3 premium
 p:Telekom Srbija
 4f40:00eb0000:0c9f:0003:1:0
 Arena Sport_7
 p:Telekom Srbija
-504b:00eb0000:0c9f:0003:1:0
-12304H SID 0x504b
-p:DVB-S2 8PSK 12304H 23.5Â°E,c:050001
 4e53:00eb0000:0c9f:0003:1:0
 Pink Western
 p:Telekom Srbija
@@ -576,7 +567,7 @@ p:Telekom Srbija
 Viasat Kino
 p:Telekom Srbija
 4ed3:00eb0000:0c9f:0003:1:0
-FilmBox Premium
+FilmBox Hits
 p:Telekom Srbija
 4ed7:00eb0000:0c9f:0003:1:0
 TimlessDiziChannel
@@ -604,6 +595,9 @@ Travelxp
 p:Telekom Srbija
 4efc:00eb0000:0c9f:0003:1:0
 Moja Happy Muzika
+p:Telekom Srbija
+4f07:00eb0000:0c9c:0003:1:0
+Arena M2 premium
 p:Telekom Srbija
 4f0f:00eb0000:0c9c:0003:1:0
 TVE International
@@ -634,7 +628,7 @@ Dokumentarna TV
 p:Telekom Srbija
 4e3d:00eb0000:0c9c:0003:1:0
 SOS kanal
-p:Telekom Srbija,c:050001
+p:Telekom Srbija
 4f3f:00eb0000:0c9c:0003:1:0
 Arena Premium_5
 p:Telekom Srbija
@@ -699,8 +693,8 @@ p:Telekom Srbija
 Telemark
 p:Telekom Srbija
 4ee7:00eb0000:0c9c:0003:1:0
-Skymusic Entertaiment
-p:Telekom Srbija
+Arena M1 premium
+p:Telekom Srbija,c:050007
 4eef:00eb0000:0c9c:0003:1:0
 Love Nature
 p:Telekom Srbija
@@ -1057,7 +1051,7 @@ TBN Ukraine
 p:
 1446:00eb0000:0ca2:0003:1:0
 TV Rain
-p:FFmpeg
+p:TVR
 134f:00eb0000:0ca2:0003:1:0
 BEAT JZ
 p:Towercom
@@ -1084,7 +1078,7 @@ VLNA VS
 p:Towercom
 1432:00eb0000:0ca2:0003:2:0
 European Radio for Belarus
-p:SES ASTRA
+p:SES
 1339:00eb0000:0ca2:0003:2:0
 Slovensko
 p:Towercom
@@ -1148,8 +1142,20 @@ p:Towercom
 134e:00eb0000:0ca2:0003:2:0
 BEAT SM
 p:Towercom
+134f:00eb0000:0ca2:0003:2:0
+BEAT JZ
+p:Towercom
+1350:00eb0000:0ca2:0003:2:0
+BEAT SV
+p:Towercom
 1351:00eb0000:0ca2:0003:2:0
 COUNTRY JM
+p:Towercom
+1352:00eb0000:0ca2:0003:2:0
+COUNTRY JZ
+p:Towercom
+1353:00eb0000:0ca2:0003:2:0
+COUNTRY SV
 p:Towercom
 1356:00eb0000:0ca2:0003:2:0
 BEAT V
@@ -1246,13 +1252,16 @@ SES_LCN2
 p:SES ASTRA
 1469:00eb0000:0c98:0003:1:0
 Chamber TV HD
-p:SES ASTRA,c:050001
+p:SES ASTRA
 1478:00eb0000:0c98:0003:1:0
 RTL Tele Letzebuerg 23.5
 p:SES ASTRA
 14a2:00eb0000:0c98:0003:1:0
 LX9SES
 p:SES ASTRA
+14a6:00eb0000:0c98:0003:1:0
+SBN International
+p:
 1019:00eb0000:0c98:0003:2:0
 1.BuMux
 p:Media Broadcast
@@ -1265,9 +1274,6 @@ p:SES ASTRA
 147e:00eb0000:0c98:0003:2:0
 Radio 100.7 Letzebuerg
 p:SES ASTRA
-14a2:00eb0000:0c98:0003:12:0
-LX9SES
-p:SES ASTRA,f:40
 4e58:00eb0000:0ca8:0003:1:0
 Pink Film
 p:Telekom Srbija,c:050001
@@ -1525,7 +1531,7 @@ Disney Channel
 p:M7 Group
 17b3:00eb0000:0c82:0003:22:0
 ONS
-p:M7 Group
+p:M7 Group,c:050001
 17e0:00eb0000:0c82:0003:22:0
 CD Infokanaal
 p:M7 Group
@@ -1678,7 +1684,7 @@ p:M7 Group
 p:M7 Group
 524d:00eb0000:0c99:0003:22:0
 Omrop Fryslan Televisie
-p:M7 Group
+p:M7 Group,c:050001
 524f:00eb0000:0c99:0003:22:0
 TV Drenthe
 p:M7 Group
@@ -1687,7 +1693,7 @@ TV Gelderland
 p:M7 Group
 5252:00eb0000:0c99:0003:22:0
 Oost
-p:M7 Group
+p:M7 Group,c:050001
 5265:00eb0000:0c99:0003:22:0
 TV Noord
 p:M7 Group,c:050001
@@ -1706,9 +1712,12 @@ p:M7 Group
 52a1:00eb0000:0c99:0003:22:0
 Sorozat+
 p:M7 Group
+52b1:00eb0000:0c99:0003:22:0
+Story 4
+p:M7 Group
 521c:00eb0000:0c99:0003:25:0
 NET5 HD
-p:M7 Group
+p:M7 Group,c:050001
 5221:00eb0000:0c99:0003:25:0
 VRT 1
 p:M7 Group,c:050001,c:098800
@@ -1720,7 +1729,7 @@ VRT Canvas HD
 p:M7 Group,c:050001
 522b:00eb0000:0c99:0003:25:0
 Veronica / Disney Jr.
-p:M7 Group
+p:M7 Group,c:050001
 5230:00eb0000:0c99:0003:25:0
 NPO3 HD
 p:M7 Group,c:050001,c:098800
@@ -1748,18 +1757,21 @@ p:M7 Group
 5315:00eb0000:0c96:0003:22:0
 TV2 Sef
 p:M7 Group
+5317:00eb0000:0c96:0003:22:0
+DOCUBOX
+p:M7 Group,c:050001,c:090404
 5273:00eb0000:0c96:0003:22:0
 History NL
 p:M7 Group
 5276:00eb0000:0c96:0003:22:0
 VTM Gold
-p:M7 Group
+p:M7 Group,c:050001
 5278:00eb0000:0c96:0003:22:0
 Ketnet
 p:M7 Group
 527c:00eb0000:0c96:0003:22:0
 VTM SERIES
-p:M7 Group
+p:M7 Group,c:050001
 5280:00eb0000:0c96:0003:22:0
 VTM 3
 p:M7 Group
@@ -1819,7 +1831,7 @@ Ziggo Sport
 p:M7 Group
 51e5:00eb0000:0c96:0003:25:0
 NGC HD
-p:M7 Group
+p:M7 Group,c:050001
 03e8:00ebb162:0001:0001:2:0
 Antenne Bayern
 p:Media Broadcast
@@ -1986,8 +1998,8 @@ p:M7 Group
 STORY4
 p:M7 Group
 3cf9:00eb0000:0c95:0003:22:0
-Filmbox Stars
-p:M7 Group
+FILMBOX+ Love and Crime
+p:M7 Group,c:050001
 3cfb:00eb0000:0c95:0003:22:0
 Minimax
 p:M7 Group
@@ -2013,8 +2025,8 @@ p:M7 Group
 HBO3 HD
 p:M7 Group
 3cf5:00eb0000:0c95:0003:25:0
-Filmbox Premium HD
-p:M7 Group
+FILMBOX+ Hits HD
+p:M7 Group,c:050001
 3cf6:00eb0000:0c95:0003:25:0
 Cinemax2 HD
 p:M7 Group
@@ -2049,8 +2061,8 @@ p:M7 Group
 Senzi
 p:M7 Group
 36f2:00eb0000:0c8c:0003:22:0
-FilmBox SK
-p:M7 Group
+FILMBOX+ One SK
+p:M7 Group,c:050001
 36f3:00eb0000:0c8c:0003:22:0
 Viasat True Crime
 p:M7 Group
@@ -2073,7 +2085,7 @@ p:M7 Group
 TV Paprika
 p:M7 Group
 3700:00eb0000:0c8c:0003:25:0
-Epic Drama HD
+Viasat Epic Drama HD
 p:M7 Group
 36e5:00eb0000:0c8c:0003:25:0
 Prima MAX HD
@@ -2088,8 +2100,8 @@ p:M7 Group
 Prima ZOOM HD
 p:M7 Group
 36e9:00eb0000:0c8c:0003:25:0
-FilmBox HD CZ
-p:M7 Group
+FILMBOX+ One CZ
+p:M7 Group,c:050001
 36ec:00eb0000:0c8c:0003:25:0
 Prima Krimi HD
 p:M7 Group
@@ -2212,7 +2224,7 @@ VTM HD
 p:M7 Group,c:050001,c:098800
 1b7c:00eb0000:0c88:0003:25:0
 RTL8 HD
-p:M7 Group
+p:M7 Group,c:050001
 1b90:00eb0000:0c88:0003:25:0
 VTM 2 HD
 p:M7 Group
@@ -2241,11 +2253,11 @@ p:M7 Group
 Viasat Explore
 p:M7 Group
 3c34:00eb0000:0c90:0003:22:0
-Filmbox Family
-p:M7 Group
+FILMBOX+ Comedy
+p:M7 Group,c:050001
 3c37:00eb0000:0c90:0003:22:0
 JimJam CZ
-p:M7 Group,c:050001
+p:M7 Group
 3c3a:00eb0000:0c90:0003:22:0
 Retro Music TV
 p:M7 Group
@@ -2257,13 +2269,13 @@ Cinemax HD
 p:M7 Group
 3c2d:00eb0000:0c90:0003:25:0
 Film Europe HD
-p:M7 Group,c:050001
-3c2e:00eb0000:0c90:0003:25:0
-Filmbox Extra HD
 p:M7 Group
+3c2e:00eb0000:0c90:0003:25:0
+FILMBOX+ Emotion HD
+p:M7 Group,c:050001
 3c30:00eb0000:0c90:0003:25:0
 Sport 1 HD CZ
-p:M7 Group,c:050001
+p:M7 Group
 3c38:00eb0000:0c90:0003:25:0
 CANAL+ Sport 2 (SK)
 p:M7 Group
@@ -2346,8 +2358,8 @@ p:IXI PROD 2
 .
 p:BetaDigital
 0301:00c00000:0007:0085:1:0
-Channel21
-p:BetaDigital
+Shop LC
+p:BetaDigital,c:050001
 0202:00c00000:0007:0085:1:0
 Immer etwas Neues TV
 p:BetaDigital
@@ -2442,8 +2454,8 @@ p:BetaDigital
 Handystar TV
 p:BetaDigital
 0296:00c00000:0005:0085:1:0
-1-2-3.tv
-p:BetaDigital
+TELEGOLD 2
+p:BetaDigital,c:050001
 1019:00c00000:0005:0085:2:0
 1.BuMux
 p:BetaDigital
@@ -2518,7 +2530,7 @@ MTV
 p:MTV Networks Europe
 6fec:00c00000:0436:0001:25:0
 Comedy Central HD
-p:MTV Networks Europe
+p:MTV Networks Europe,c:050001
 6fed:00c00000:0436:0001:25:0
 Comedy Central HD AT
 p:MTV Networks Europe
@@ -2527,7 +2539,7 @@ MTV HD
 p:MTV Networks Europe
 6fef:00c00000:0436:0001:25:0
 MTV HD AT
-p:MTV Networks Europe
+p:MTV Networks Europe,c:050001
 2f08:00c00000:0441:0001:1:0
 SUPER RTL
 p:RTL Deutschland
@@ -2673,7 +2685,7 @@ p:SES ASTRA
 TEST 6 TXP64
 p:Movistar+
 7821:00c00000:0428:0001:1:0
-TEST TXP64
+TEST 1 TXP64
 p:Movistar+
 7822:00c00000:0428:0001:1:0
 TEST 2 TXP64
@@ -2953,21 +2965,21 @@ RADIO MARIA
 p:Radio Maria Österreich
 332d:00c00000:045b:0001:22:0
 Service 13101
-p:ORF
+p:MIT-xperts GmbH
 332e:00c00000:045b:0001:22:0
 NITRO Austria
 p:RTL
 332f:00c00000:045b:0001:22:0
 DOKUSAT SD
-p:Bayerische Medien Technik GmbH
+p:
 3330:00c00000:045b:0001:22:0
 LT1-OOE
 p:-
 3332:00c00000:045b:0001:22:0
 Shop LC
-p:ORS
+p:ORS,c:050001
 3333:00c00000:045b:0001:22:0
-Service 13107
+Neuer Sender
 p:MIT-xperts GmbH
 3336:00c00000:045b:0001:22:0
 Genius TV
@@ -3031,10 +3043,10 @@ RAPS
 p:MediaBroadcastSatellite
 313c:00c00000:0459:0001:22:0
 TELEGOLD SD
-p:SES
+p:SES,c:050001
 3148:00c00000:0459:0001:22:0
 Shop LC
-p:Net Insight AB
+p:Net Insight AB,c:050001
 1644:00c00000:042c:0001:1:0
 DW English HD
 p:Deutsche Welle
@@ -3149,9 +3161,6 @@ p:BetaDigital
 1269:00c00000:03f7:0001:22:0
 .
 p:BetaDigital
-1260:00c00000:03f7:0001:25:0
-3+
-p:BetaDigital
 1268:00c00000:03f7:0001:25:0
 .
 p:BetaDigital
@@ -3257,15 +3266,6 @@ p:CSAT
 2468:00c00000:0440:0001:25:0
 FRANCE 4
 p:CSAT
-1b64:00c00000:03fc:0001:1:0
-Arirang HD
-p:GLOBECAST,c:050001
-1b58:00c00000:03fc:0001:3:0
-DATASYSTEM
-p:Canal+ France,c:031fff
-1b58:00c00000:03fc:0001:12:0
-DATASYSTEM
-p:GLOBECAST
 6d67:00c00000:0437:0001:1:0
 Astra Demo
 p:SES
@@ -3513,7 +3513,7 @@ p:DIGITAL+
 TEST 2 TXP 44
 p:
 788d:00c00000:0414:0001:1:0
-TEST 3 TXP 44
+TEST 1 TXP 44
 p:Movistar+
 788f:00c00000:0414:0001:1:0
 MTV ESPAÑA
@@ -3525,10 +3525,10 @@ p:Movistar+
 BE MAD
 p:Movistar+
 7892:00c00000:0414:0001:1:0
-M+ LALIGA 4
+TEST 3 TXP 44
 p:
 7893:00c00000:0414:0001:1:0
-TEST TXP 44
+M+Baloncesto3
 p:
 7894:00c00000:0414:0001:1:0
 DAZN Mundial 3
@@ -3538,7 +3538,7 @@ p:
 p:DVB-S2 8PSK 11126V 19.2Â°E
 1389:00c00000:03ea:0001:1:0
 BBC News
-p:Globecast
+p:Globecast,c:050001
 139d:00c00000:03ea:0001:25:0
 NHK WORLD-JPN
 p:
@@ -3866,9 +3866,9 @@ p:
 7596:00c00000:0422:0001:1:0
 TEST RA
 p:DIGITAL+
-759b:00c00000:0422:0001:1:0
-10847V SID 0x759b
-p:DVB-S QPSK 10847V 19.2Â°E
+7599:00c00000:0422:0001:1:0
+Fut M Baloncesto 3
+p:Movistar
 759c:00c00000:0422:0001:1:0
 PORTADA
 p:DIGITAL+
@@ -3891,10 +3891,10 @@ p:DIGITAL+
 
 p:DIGITAL+
 75b0:00c00000:0422:0001:1:0
-ALQUILER
+Antig. ALQUILER G1
 p:Movistar+
 75b2:00c00000:0422:0001:1:0
-ALQUILER
+TEST TP58
 p:DIGITAL+
 75c6:00c00000:0422:0001:1:0
 PORTADA
@@ -3959,15 +3959,12 @@ p:PRISA TV
 7598:00c00000:0422:0001:2:0
 TEST RA ESP
 p:DIGITAL+
-7599:00c00000:0422:0001:2:0
-10847V SID 0x7599
-p:DVB-S QPSK 10847V 19.2Â°E
-759a:00c00000:0422:0001:2:0
+759a:00c00000:0422:0001:100:0
 10847V SID 0x759a
 p:DVB-S QPSK 10847V 19.2Â°E
-75dd:00c00000:0422:0001:3:0
-TEST TÉCNICO
-p:Movistar+,c:031fff
+759b:00c00000:0422:0001:100:0
+10847V SID 0x759b
+p:DVB-S QPSK 10847V 19.2Â°E
 75a4:00c00000:0422:0001:100:0
 10847V SID 0x75a4
 p:DVB-S QPSK 10847V 19.2Â°E
@@ -4063,7 +4060,7 @@ BData3
 p:BetaDigital
 0017:00c00000:0004:0085:25:0
 Sky Krimi
-p:SKY,c:050001,c:09780f
+p:SKY,c:050001,c:097807
 0129:00c00000:0004:0085:25:0
 Sky Sport Bundesliga 4
 p:SKY
@@ -4093,7 +4090,7 @@ Warner TV Film
 p:SKY,c:050001
 008f:00c00000:0004:0085:25:0
 Sky Sport Austria 1
-p:SKY
+p:SKY,c:050001
 0091:00c00000:0004:0085:25:0
 Sky Sport Premier League
 p:SKY
@@ -4273,7 +4270,7 @@ p:CSAT
 p:DVB-S2 8PSK 12090V 19.2Â°E
 76c0:00c00000:040e:0001:1:0
 M+ ESTRENOS
-p:Movistar+
+p:Movistar+,c:090208
 76c1:00c00000:040e:0001:1:0
 CLAN TVE
 p:Digital+
@@ -4287,7 +4284,7 @@ p:MOVISTAR+
 BBC EARTH
 p:MOVISTAR+
 76c5:00c00000:040e:0001:1:0
-LALIGA TV BAR 2
+BarTV Mundial2
 p:Movistar
 76c7:00c00000:040e:0001:1:0
 TCM
@@ -4510,10 +4507,10 @@ INPLUS
 p:M7
 100b:00c00000:0451:0035:22:0
 Hustler TV
-p:M7 Group
+p:M7 Group,c:050001
 100d:00c00000:0451:0035:22:0
 Hustler TV CZ
-p:M7 Group
+p:M7 Group,c:050001
 1013:00c00000:0451:0035:22:0
 Bergblick
 p:M7 Group
@@ -4538,32 +4535,29 @@ p:SES ASTRA
 1090:00c00000:03ee:0001:25:0
 TV Trwam
 p:SES ASTRA,c:050001
-1086:00c00000:03ee:0001:31:0
-QVC UHD
-p:MX1,c:050007
 109a:00c00000:03ee:0001:31:0
 La 7 HD
-p:SES
+p:SES,c:050007
 109b:00c00000:03ee:0001:31:0
 TV-3 Cataluna HD
-p:SES
+p:SES,c:050007
 109c:00c00000:03ee:0001:31:0
 Telemadrid
-p:SES
+p:SES,c:050007
 109d:00c00000:03ee:0001:31:0
 Television Canaria
 p:SES,c:050007
 109e:00c00000:03ee:0001:31:0
 CMM
-p:SES
+p:SES,c:050007
 2395:00c00000:0446:0001:2:0
 SUD RADIO
 p:
+23b4:00c00000:0446:0001:2:0
+FUN RADIO
+p:
 23b6:00c00000:0446:0001:2:0
 BBCW SERVICE
-p:
-23b7:00c00000:0446:0001:2:0
-BBC ARABIC
 p:
 23b8:00c00000:0446:0001:2:0
 RADIO MELODY
@@ -4672,7 +4666,7 @@ CHASSE ET PECHE
 p:AB SAT
 428d:00c00000:0446:0001:25:0
 Histoire
-p:,c:050001
+p:
 428e:00c00000:0446:0001:25:0
 Canal J
 p:
@@ -4783,9 +4777,6 @@ BR-KLASSIK
 p:ARD BR
 28a4:00c00000:040f:0001:10:0
 BR24
-p:ARD BR
-28a5:00c00000:040f:0001:10:0
-BR24live
 p:ARD BR
 28a6:00c00000:040f:0001:10:0
 BR Schlager
@@ -5122,7 +5113,7 @@ Sky Sport Bundesliga 2
 p:SKY
 0116:00c00000:0002:0085:25:0
 Fussball.TV 1
-p:SKY
+p:SKY,c:050001
 0117:00c00000:0002:0085:25:0
 Sky Sport 2
 p:SKY
@@ -5169,6 +5160,9 @@ p:SKY
 Sky Sport Bundesliga 3
 p:SKY
 0120:00c00000:000c:0085:25:0
+Fussball.TV 2
+p:SKY
+0121:00c00000:000c:0085:25:0
 Sky Sport 3
 p:SKY
 0147:00c00000:000c:0085:25:0
@@ -5182,16 +5176,16 @@ Sky Sport Bundesliga
 p:SKY
 006b:00c00000:000c:0085:25:0
 Sky Cinema Classics
-p:SKY,c:050001,c:097807
+p:SKY
 006c:00c00000:000c:0085:25:0
 Sky Sport News
-p:SKY
-007c:00c00000:000c:0085:25:0
-Sky Replay
 p:SKY
 007e:00c00000:000c:0085:25:0
 Sky Sci-Fi
 p:SKY
+07eb:00c00000:000c:0085:25:0
+AXN Black
+p:,c:050001
 0dab:00c00000:0010:0085:12:0
 Sky service config
 p:SKY
@@ -5224,10 +5218,10 @@ Sky Sport Austria 2
 p:SKY
 006e:00c00000:000d:0085:25:0
 Sky Atlantic
-p:SKY,c:050001
+p:SKY,c:050001,c:09780f
 006f:00c00000:000d:0085:25:0
 Sky Cinema Blockbuster
-p:SKY
+p:SKY,c:050001
 0070:00c00000:000d:0085:25:0
 Sky Documentaries
 p:SKY
@@ -5236,7 +5230,7 @@ Sky Sport Tennis
 p:SKY
 007f:00c00000:000d:0085:25:0
 13th Street
-p:SKY
+p:SKY,c:050001
 0090:00c00000:000d:0085:25:0
 Sky Sport Golf
 p:SKY
@@ -5287,7 +5281,7 @@ HSE HD
 p:BetaDigital
 5273:00c00000:041d:0001:25:0
 ShopLC HD
-p:BetaDigital
+p:BetaDigital,c:050001
 5274:00c00000:041d:0001:25:0
 WELT HD
 p:BetaDigital
@@ -5329,19 +5323,22 @@ Sky Sport Austria 5
 p:SKY
 0071:00c00000:000b:0085:25:0
 HISTORY Channel
-p:SKY,c:050001
+p:SKY
 007a:00c00000:000b:0085:25:0
 DAZN 2
 p:SKY
 0084:00c00000:000b:0085:25:0
 DAZN 1
-p:SKY
+p:SKY,c:050001
 0088:00c00000:000b:0085:25:0
 Warner TV Comedy
-p:SKY
+p:SKY,c:050001
 008e:00c00000:000b:0085:25:0
 Sky Showcase
 p:SKY
+07ec:00c00000:000b:0085:25:0
+AXN White
+p:,c:050001
 2eb9:00c00000:0411:0001:22:0
 ntv Austria
 p:RTL,c:050001
@@ -5431,7 +5428,7 @@ Sky Sport Bundesliga 1
 p:SKY
 010c:00c00000:0006:0085:25:0
 Sky Sport 1
-p:SKY
+p:SKY,c:050001
 000d:00c00000:0006:0085:25:0
 Sky Crime
 p:SKY,c:050001
@@ -5524,22 +5521,22 @@ M+DEPORTES2HD
 p:CANAL+
 7533:00c00000:0426:0001:25:0
 M+ Indie HD
-p:CANAL+,c:050001,c:090208
+p:CANAL+
 7534:00c00000:0426:0001:25:0
-DAZN LALIGA HD
+DAZN MundialHD
 p:DIGITAL+
 7535:00c00000:0426:0001:25:0
 EUROSPORT1HD
-p:MOVISTAR+,c:050001
+p:MOVISTAR+
 7536:00c00000:0426:0001:25:0
-ALQUILER HD
-p:Movistar+,c:050001
+M+BaloncestoHD
+p:Movistar+
 7537:00c00000:0426:0001:25:0
 M+COMEDIA HD
-p:Movistar+,c:050001,c:090200
+p:Movistar+
 7539:00c00000:0426:0001:25:0
 M+ ESTRENOS HD
-p:Movistar,c:050001,c:090405
+p:Movistar
 7538:00c00000:0426:0001:100:0
 10906V SID 0x7538
 p:DVB-S2 8PSK 10906V 19.2Â°E

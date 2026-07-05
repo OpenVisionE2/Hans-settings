@@ -1,7 +1,19 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:220:0:0:0:0:0:0:0:
-#DESCRIPTION ++NPO++ helaas momenteel geen beschikbaar++
-#SERVICE 1:64:221:0:0:0:0:0:0:0:
+#SERVICE 1:64:20d:0:0:0:0:0:0:0:
+#DESCRIPTION ++NPO++
+#SERVICE 4097:0:1:5225:c99:3:eb0000:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3a34%3aBE&stream=2&extension=ts:NPO 1
+#DESCRIPTION NPO 1
+#SERVICE 4097:0:1:17c0:c82:3:eb0000:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3a34%3aBE&stream=3&extension=ts:NPO 2
+#DESCRIPTION NPO 2
+#SERVICE 4097:0:1:5230:c99:3:eb0000:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3a34%3aBE&stream=4&extension=ts:NPO 3
+#DESCRIPTION NPO 3
+#SERVICE 4097:0:1:8f1:fab:ec:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3a34%3aBE&stream=131338&extension=ts:NPO 1 Extra
+#DESCRIPTION NPO 1 Extra
+#SERVICE 4097:0:1:3f00:4daa:ec:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3a34%3aBE&stream=131339&extension=ts:NPO 2 Extra
+#DESCRIPTION NPO 2 Extra
+#SERVICE 4097:0:1:7a0a:70af:ec:0:0:0:0:http%3a//mutant.arrox.top%3a80/play/live.php?mac=00%3a1A%3a79%3a4F%3a34%3aBE&stream=25&extension=ts:NPO Politiek en Nieuws
+#DESCRIPTION NPO Politiek en Nieuws
+#SERVICE 1:64:20e:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-streaming.dpgmedia.net/aldag-clipstream-srt-zk7kiq36v0lq88zpv1p064/index_720.m3u8:AD.nl - Nieuwsupdate
 #DESCRIPTION AD.nl - Nieuwsupdate
@@ -33,6 +45,8 @@
 #DESCRIPTION Dance TV: MNML
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//m2b2.worldcast.tv%3a7443/dancetelevisionthree/2/dancetelevisionthree.m3u8:Dance TV%3a Techno
 #DESCRIPTION Dance TV: Techno
+#SERVICE 4097:0:1:1ba:f938:ec:0:0:0:0:https%3a//bpm.tv.delta.nl/hls/combined/10058/stb.m3u8?bk-network=ftth:Delta Demo Kanaal
+#DESCRIPTION Delta Demo Kanaal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//37.48.120.77%3a8080/hls/ghtvonline.m3u8:GHtv Holland
 #DESCRIPTION GHtv Holland
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mistserv4.videostreams.nl/hls/camfactor/1_2/index.m3u8:GLXY.TV
@@ -49,7 +63,7 @@
 #DESCRIPTION Radio Continu
 #SERVICE 4097:0:1:2b28:803:600:ffff0000:0:0:0:http%3a//5f1b356656745.streamlock.net/radiocontinu/live/chunklist.m3u8:Radio Continu (#)
 #DESCRIPTION Radio Continu (#)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tv01.cdn.snkmedia.nl/radionltv/master.m3u8#Referer=https%3a//radionl.tv/embed?autoplay=1:Radio NL
+#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//tv.rnn.fm/radionl.m3u8:Radio NL
 #DESCRIPTION Radio NL
 #SERVICE 4097:0:1:17f2:c82:3:eb0000:0:0:0:https%3a//mediahuis.akamaized.net/clear/veronica/muxed.m3u8:Radio Veronica
 #DESCRIPTION Radio Veronica
@@ -57,23 +71,23 @@
 #DESCRIPTION Rechtspraak NL 
 #SERVICE 4097:0:1:101:0:31:dddd:0:0:0:https%3a//sbs6classic.prd1.talpatvcdn.nl/v1/master/8ada1ed2ae3b9c3db6fc5e604cfa78fc7d2d745e/sbs6classic_ssai/fea54560ba684701a2143f33a9cf4489/index.m3u8:SBS6 Classics
 #DESCRIPTION SBS6 Classics
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//86.87.15.10%3a8003/play/a024/index.m3u8:STAR Channel
+#DESCRIPTION STAR Channel
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tv01.cdn.snkmedia.nl/tukkertv/1080p.m3u8:Tukker TV
 #DESCRIPTION Tukker TV
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tv01.cdn.snkmedia.nl/tukkertv/master.m3u8#Referer=https%3a//tukker.tv/embed?autoplay=1:Tukker TV
-#DESCRIPTION Tukker TV
-#SERVICE 1:64:222:0:0:0:0:0:0:0:
+#SERVICE 1:64:20f:0:0:0:0:0:0:0:
 #DESCRIPTION ++BBC voor Nederland++
-#SERVICE 4097:0:1:1d:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c51-nlziet-nl-8601.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramabenelux-nlzietnl/playlist.m3u8:BBC Drama
-#DESCRIPTION BBC Drama
 #SERVICE 4097:0:1:1c:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c52-nlziet-nl-10250.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbceastendersbenelux-nlzietnl/playlist.m3u8:BBC EastEnders
 #DESCRIPTION BBC EastEnders
 #SERVICE 4097:0:1:1a:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c20-nlziet-nl-10251.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbcearthbenelux-nlzietnl/playlist.m3u8:BBC Earth
 #DESCRIPTION BBC Earth
 #SERVICE 4097:0:1:1b:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c56-nlziet-nl-10249.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbclifestylebenelux-nlzietnl/playlist.m3u8:BBC Lifestyle
 #DESCRIPTION BBC Lifestyle
+#SERVICE 4097:0:1:1d:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c51-nlziet-nl-8601.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramabenelux-nlzietnl/playlist.m3u8:BBC Series
+#DESCRIPTION BBC Series
 #SERVICE 4097:0:1:1f:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c16-nlziet-nl-8602.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearbenelux-nlzietnl/playlist.m3u8:BBC Topgear
 #DESCRIPTION BBC Topgear
-#SERVICE 1:64:223:0:0:0:0:0:0:0:
+#SERVICE 1:64:210:0:0:0:0:0:0:0:
 #DESCRIPTION ++via Rakuten TV++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//autoblog-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-9-restreaming/bitok/eyJzdGlkIjoiY2YwMjRkMzQtOGZjOC00MDU0LTk3ZDktNjM3NTRkMDJjYTA3IiwibWt0IjoibmwiLCJjaCI6IjkiLCJwdGYiOjV9/mpgmedia/Autoblog/Autoblog_NL/Autoblog_NL.m3u8:Autoblog TV
 #DESCRIPTION Autoblog TV
@@ -103,7 +117,7 @@
 #DESCRIPTION Your 70s
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//your-80-s-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-3-restreaming/19910c94-5891-4c23-8834-3e869ba17cc6/0.m3u8:Your 80s
 #DESCRIPTION Your 80s
-#SERVICE 1:64:224:0:0:0:0:0:0:0:
+#SERVICE 1:64:211:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rakuten TV met NL ondertiteling++
 #SERVICE 4097:0:1:2:1000:31:cccc0000:0:0:0:https%3a//db2b248fd4144eaeb7c4f13169dca7a8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_ComedyStation/playlist.m3u8:Comedy Station
 #DESCRIPTION Comedy Station
@@ -129,11 +143,11 @@
 #DESCRIPTION Rakuten TV Top Films
 #SERVICE 4097:0:1:d:1000:31:cccc0000:0:0:0:https%3a//b688f77a784646d0b2daeb4d55ea9950.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_Travelxp/playlist.m3u8:TravelXP
 #DESCRIPTION TravelXP
-#SERVICE 1:64:225:0:0:0:0:0:0:0:
+#SERVICE 1:64:212:0:0:0:0:0:0:0:
 #DESCRIPTION ++via YouTube++
 #SERVICE 5002:0:1:31b:ed7d:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/QIrMmNYltkA:Spreekbuis TV
 #DESCRIPTION Spreekbuis TV
-#SERVICE 1:64:226:0:0:0:0:0:0:0:
+#SERVICE 1:64:213:0:0:0:0:0:0:0:
 #DESCRIPTION ++Radio's++
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-67.stream-server.nl%3a1936/RadioToppers/RadioToppers/playlist.m3u8:Radio Toppers
 #DESCRIPTION Radio Toppers
@@ -143,7 +157,7 @@
 #DESCRIPTION Poesjes TV
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-23.stream-server.nl%3a1936/WinkRadio/WinkRadio/playlist.m3u8:Wink Radio
 #DESCRIPTION Wink Radio
-#SERVICE 1:64:227:0:0:0:0:0:0:0:
+#SERVICE 1:64:214:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL amateur-tv++
 #SERVICE 5002:0:1:0:0:31:abcd0000:0:0:0:http%3a//stream.pi6atv.com%3a8081/scoop/pi6atv-hd/playlist.m3u8  :PI6ATV HD
 #DESCRIPTION PI6ATV HD
