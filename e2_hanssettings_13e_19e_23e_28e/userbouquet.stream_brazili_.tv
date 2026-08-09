@@ -1,8 +1,6 @@
 #NAME Stream Brazilië (BR)
-#SERVICE 1:64:5bd:0:0:0:0:0:0:0:
+#SERVICE 1:64:5bc:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8:Globo TV Bahia
-#DESCRIPTION Globo TV Bahia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stm.sinalmycn.com/20000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0:Premiere FC 1
 #DESCRIPTION Premiere FC 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stm.sinalmycn.com/20003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0:Premiere FC 2
@@ -23,10 +21,14 @@
 #DESCRIPTION Record News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8:Record TV
 #DESCRIPTION Record TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8:Record TV (#)
+#DESCRIPTION Record TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/rederecordinternacional/browser-HLS8/rederecordinternacional.m3u8:Record TV Internacional
 #DESCRIPTION Record TV Internacional
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.cloudecast.com/hls/redetves/index.m3u8:Rede Brasil
 #DESCRIPTION Rede Brasil
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//redebrasil.nuvemplay.live/hls/stream.m3u8:Rede Brasil (#)
+#DESCRIPTION Rede Brasil (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cors-proxy.cooks.fyi/http%3a//hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8:Rede Globo
 #DESCRIPTION Rede Globo
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8:Rede Gospel
@@ -61,22 +63,34 @@
 #DESCRIPTION SporTV 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stm.sinalmycn.com/21006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0:SporTV 3
 #DESCRIPTION SporTV 3
-#SERVICE 1:64:5be:0:0:0:0:0:0:0:
+#SERVICE 1:64:5bd:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8:Adesso TV
 #DESCRIPTION Adesso TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5c3fb01839654.streamlock.net%3a1963/iptvantares/liveantarestv/playlist.m3u8:Antares TelevisiC3n
 #DESCRIPTION Antares TelevisiC3n
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8:Aratu On
+#DESCRIPTION Aratu On
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8:Araruna TV
+#DESCRIPTION Araruna TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8:Blitstv
+#DESCRIPTION Blitstv
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.live.br1.jmvstream.com/w/LVW-11668/ngrp%3aLVW11668_wiJpjbMrks_all/playlist.m3u8:BR8 TV
+#DESCRIPTION BR8 TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8:Canal 25 JundiaC-
 #DESCRIPTION Canal 25 JundiaC-
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8:Canal 38
 #DESCRIPTION Canal 38
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canaleducacao-stream.ebc.com.br/index.m3u8:Canal EducaC'C#o
 #DESCRIPTION Canal EducaC'C#o
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8:Canal FDR
+#DESCRIPTION Canal FDR
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//canalgov-stream.ebc.com.br/index.m3u8:Canal Gov
 #DESCRIPTION Canal Gov
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8:Canal Metropolitano de Noticia
 #DESCRIPTION Canal Metropolitano de Noticia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8:Canal Metropolitano de Noticias
+#DESCRIPTION Canal Metropolitano de Noticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//wowza4.catve.com.br%3a1935/live/livestream/playlist.m3u8:Castve
 #DESCRIPTION Castve
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8:CazC) TV
@@ -95,10 +109,16 @@
 #DESCRIPTION Despertar TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv3.voxtvhd.com.br/conex2/conex2/playlist.m3u8:Eduvision
 #DESCRIPTION Eduvision
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv2.voxtvhd.com.br/evavision/evavision/playlist.m3u8:Evavision
+#DESCRIPTION Evavision
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/playlist.m3u8:Fala Litoral
 #DESCRIPTION Fala Litoral
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//flash.softhost.com.br%3a1935/fonte/fontetv/live.m3u8:Fonte TV
 #DESCRIPTION Fonte TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//41.205.70.146/GLOBONEWS/index.m3u8:Globo News
+#DESCRIPTION Globo News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8:Globo TV Bahia
+#DESCRIPTION Globo TV Bahia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8:Gospel Cartoon
 #DESCRIPTION Gospel Cartoon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv1.srvif.com/gospelf/gospelf/playlist.m3u8:Gospel Movie TV
@@ -125,6 +145,8 @@
 #DESCRIPTION Nova Era TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8:NPC RC!dio e TV
 #DESCRIPTION NPC RC!dio e TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.livespanel.com/nossatv/nossatv/playlist.m3u8:NTV
+#DESCRIPTION NTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv4.voxtvhd.com.br/ondastereo/ondastereo/playlist.m3u8:Ondambiental TV
 #DESCRIPTION Ondambiental TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//isaocorp.cloudecast.com/playtv/index.m3u8:Play TV
@@ -173,6 +195,8 @@
 #DESCRIPTION TV Encontro das Aguas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.jmvstream.com/w/LVW-8538/LVW8538_KBtZ9UMIZn/playlist.m3u8:TV Galega Blumenau
 #DESCRIPTION TV Galega Blumenau
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.latinasat.com.br/hls/live/stream/index.m3u8:TV Latina Sat
+#DESCRIPTION TV Latina Sat
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8:TV Life America
 #DESCRIPTION TV Life America
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv5.zcast.com.br/paulo4100/paulo4100/playlist.m3u8:TV MaceiC3

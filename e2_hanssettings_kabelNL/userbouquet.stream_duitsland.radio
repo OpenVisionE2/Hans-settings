@@ -1,5 +1,5 @@
 #NAME Stream Duitsland (DE)
-#SERVICE 1:64:56c:0:0:0:0:0:0:0:
+#SERVICE 1:64:56e:0:0:0:0:0:0:0:
 #DESCRIPTION ++ARD-zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/br/br1/franken/mp3/mid:BR - Bayern 1 - Franken
 #DESCRIPTION BR - Bayern 1 - Franken
@@ -401,7 +401,7 @@
 #DESCRIPTION WDR - Die Maus
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d111.rndfnk.com/ard/wdr/wdr/event/mp3/128/stream.mp3?aggregator=web&cid=01FC1VHKSA446AN8QN07VP9XCQ&sid=2ybYp4rkZQYGZqF9unyS5vOoysF&token=UUvyv6LfiWRw8EqR3BlIHzlAM-MSV3Rq7Z1gxDYazMU&tvf=Jsnh9cuySRhkMTExLnJuZGZuay5jb20:WDR - Event
 #DESCRIPTION WDR - Event
-#SERVICE 1:64:56d:0:0:0:0:0:0:0:
+#SERVICE 1:64:56f:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667:80s80s
 #DESCRIPTION 80s80s
@@ -1097,8 +1097,6 @@
 #DESCRIPTION Deutschlandfunk Kultur (klassiek - Duitsland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3:Deutschlandfunk Nova
 #DESCRIPTION Deutschlandfunk Nova
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3:Deutschlandfunk
-#DESCRIPTION Deutschlandfunk
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dieneue1077.cast.addradio.de/dieneue1077/simulcast/high/stream.mp3:Die neue 107.7
 #DESCRIPTION Die neue 107.7
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dieneue1077.cast.addradio.de/dieneue1077/80er/high/stream.mp3:Die neue 107.7 - 80er
@@ -1125,6 +1123,12 @@
 #DESCRIPTION Discofox Antenne
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//s14.derstream24.de%3a80:Discofoxhimmel
 #DESCRIPTION Discofoxhimmel
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3:Deutschlandradio
+#DESCRIPTION Deutschlandradio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3:Deutschlandfunk Kultur
+#DESCRIPTION Deutschlandfunk Kultur
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d111.rndfnk.com/ard/dlf/03/mp3/128/stream.mp3?aggregator=web&cid=01FBPXNCN1ZWEVWJYXG6ZP2TVH&sid=3HPBo0ZTiloXWix5A2GGNrTbniQ&token=_NdG1TsMQhrcwMwKmqsujte9RZ-xqpp0Lyq0iu5ywJ0&tvf=zqFyG-ZeyBhkMTExLnJuZGZuay5jb20:Deutschlandfunk Nova
+#DESCRIPTION Deutschlandfunk Nova
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//linux.deutschesmusikradio.de%3a8443/live:DMR = Deutsches Music Radio
 #DESCRIPTION DMR = Deutsches Music Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//source.dnbradio.com/dnbradio_main.mp3:DnB Radio All-Flavors
@@ -2995,8 +2999,6 @@
 #DESCRIPTION Radio Melodie - Volksmusik
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiomelodie.schlagerparadies.de/radiomelodie:Radio Melodie - Volksmusik
 #DESCRIPTION Radio Melodie - Volksmusik
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.radiomw.de/radiomw:Radio Mittelweser
-#DESCRIPTION Radio Mittelweser
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mixtape--di--rnrw-ais-01--03--cdn.cast.addradio.de/mixtape/live/mp3/high:Radio Mixtape
 #DESCRIPTION Radio Mixtape
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiomk--di--nacs-ais-lgc--0b--cdn.cast.addradio.de/radiomk/live/mp3/high:Radio MK
@@ -3027,8 +3029,8 @@
 #DESCRIPTION Radio Oberhausen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mp3.radiooberland.c.nmdn.net/fs_radiooberland/livestream.mp3:Radio Oberland
 #DESCRIPTION Radio Oberland
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//5.196.64.74%3a5528/stream:Radio OK-FM
-#DESCRIPTION Radio OK-FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radiostreamserver.de/listen/radiomkw/radio-mkw.mp3:Radio OH.FM (Osthessen)
+#DESCRIPTION Radio OH.FM (Osthessen)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//tbradio.de%3a80/okj:Radio OKJ---Offener-Hrfunkkanal-Jena
 #DESCRIPTION Radio OKJ---Offener-Hrfunkkanal-Jena
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radio-oldtimer.de/call/oldtimerradio.mp3:Radio Oldtimer
@@ -3521,12 +3523,8 @@
 #DESCRIPTION Rock FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rockabilly.stream.laut.fm/rockabilly?t302=2017-12-16_05-40-03&uuid=35dd86be-a888-477d-a845-11ec90d05ca2:Rockabilly-Rules-OK
 #DESCRIPTION Rockabilly-Rules-OK
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//188.94.97.90%3a80/rockland.mp3:Rockland Radio
-#DESCRIPTION Rockland Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//saw-de-hz-fal-stream08-cluster01.radiohost.de%3a80/rockland_128:Rockland-Sachsen---Anhalt
-#DESCRIPTION Rockland-Sachsen---Anhalt
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rockradio.de%3a8090:Rockradio-Berlin
-#DESCRIPTION Rockradio-Berlin
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio21.streamabc.net/radio21-mainz-mp3-192-5314942:Rockland Radio national
+#DESCRIPTION Rockland Radio national
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//tuner.rockyfm.com%3a80:Rocky-FM
 #DESCRIPTION Rocky-FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rpr1.de/webradio/mp3-128/private:RPR1.

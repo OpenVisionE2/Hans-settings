@@ -1,46 +1,58 @@
 #NAME Stream Zwitserland (CH)
 #SERVICE 1:64:1af0:0:0:0:0:0:0:0:
 #DESCRIPTION ++publiek Duitstalig++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/drs1_96.stream/chunklist_DVR.m3u8:SRF 1
-#DESCRIPTION SRF 1
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/drs2_96.stream/chunklist_DVR.m3u8:SRF 2 Kultur
-#DESCRIPTION SRF 2 Kultur
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/drs3_96.stream/chunklist_DVR.m3u8:SRF 3
-#DESCRIPTION SRF 3
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/drs4news_96.stream/chunklist_DVR.m3u8:SRF 4 News
-#DESCRIPTION SRF 4 News
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/drsmw_96.stream/chunklist_DVR.m3u8:SRF Musikwelle
-#DESCRIPTION SRF Musikwelle
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/drsvirus_96.stream/chunklist_DVR.m3u8:SRF Virus
-#DESCRIPTION SRF Virus
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-3.srg-ssr.ch/srgssr/regi_ag_so/mp3/128:Radio SRF 1 Aargau Solothurn
+#DESCRIPTION Radio SRF 1 Aargau Solothurn
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-4.srg-ssr.ch/srgssr/regi_bs_bl/aac/96:Radio SRF 1 Basel
+#DESCRIPTION Radio SRF 1 Basel
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-3.srg-ssr.ch/srgssr/regi_be_fr_vs/mp3/128:Radio SRF 1 Bern Freibourg Wallis
+#DESCRIPTION Radio SRF 1 Bern Freibourg Wallis
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-3.srg-ssr.ch/srgssr/regi_ost/mp3/128:Radio SRF 1 Ostschweiz
+#DESCRIPTION Radio SRF 1 Ostschweiz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-1.srg-ssr.ch/srgssr/regi_zentr/mp3/128:Radio SRF 1 Zentralschweiz
+#DESCRIPTION Radio SRF 1 Zentralschweiz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-3.srg-ssr.ch/srgssr/regi_bs_bl/mp3/128:Radio SRF 1 Zurich
+#DESCRIPTION Radio SRF 1 Zurich
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-2.srg-ssr.ch/srgssr/srf2/mp3/128:Radio SRF 2 Kultur
+#DESCRIPTION Radio SRF 2 Kultur
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-1.srg-ssr.ch/srgssr/srf3/mp3/128:Radio SRF 3
+#DESCRIPTION Radio SRF 3
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stxt-audiostreaming.akamaized.net/hls/live/2117380/srf4news/master.m3u8:Radio SRF 4 News
+#DESCRIPTION Radio SRF 4 News
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-3.srg-ssr.ch/srgssr/srfmw/mp3/128:Radio SRF Musikwelle
+#DESCRIPTION Radio SRF Musikwelle
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-2.srg-ssr.ch/srgssr/srfvirus/mp3/128:Radio SRF Virus
+#DESCRIPTION Radio SRF Virus
 #SERVICE 1:64:1af1:0:0:0:0:0:0:0:
-#DESCRIPTION ++publiek RTR Rumantscha++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-1.srg-ssr.ch/srgssr/rr/mp3/128:RTR
-#DESCRIPTION RTR
+#DESCRIPTION ++publiek Reto-Romaanstalig++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-4.srg-ssr.ch/srgssr/rr/mp3/128:RTR Radio
+#DESCRIPTION RTR Radio
 #SERVICE 1:64:1af2:0:0:0:0:0:0:0:
 #DESCRIPTION ++publiek Franstalig++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.srg-ssr.ch/m/rsc_fr/mp3_128:Radio Swiss Classic FR
 #DESCRIPTION Radio Swiss Classic FR
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/la-1ere_96.stream/playlist.m3u8:RTS La1ère
-#DESCRIPTION RTS La1ère
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/espace-2_96.stream/playlist.m3u8:RTS Espace 2
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-3.srg-ssr.ch/srgssr/option-musique/mp3/128:RTS Option Musique
+#DESCRIPTION RTS Option Musique
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-2.srg-ssr.ch/srgssr/la-1ere/mp3/128:RTS Première
+#DESCRIPTION RTS Première
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stxt-audiostreaming.akamaized.net/hls/live/2117380/espace-2/variant-192.m3u8:RTS Espace 2
 #DESCRIPTION RTS Espace 2
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/couleur3_96.stream/playlist.m3u8:RTS Couleur 3 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-1.srg-ssr.ch/srgssr/couleur3/mp3/128:RTS Couleur 3 
 #DESCRIPTION RTS Couleur 3 
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/option-musique_96.stream/playlist.m3u8:RTS Option Musique
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-4.srg-ssr.ch/srgssr/option-musique/mp3/128:RTS Option Musique
 #DESCRIPTION RTS Option Musique
 #SERVICE 1:64:1af3:0:0:0:0:0:0:0:
 #DESCRIPTION ++publiek Italiaanstalig++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/reteuno_96.stream/chunklist_DVR.m3u8:RSI Rete Uno
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-4.srg-ssr.ch/srgssr/reteuno/mp3/128:RSI Rete Uno
 #DESCRIPTION RSI Rete Uno
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/retedue_96.stream/chunklist_DVR.m3u8:RSI Rete Due
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-2.srg-ssr.ch/srgssr/retedue/mp3/128:RSI Rete Due
 #DESCRIPTION RSI Rete Due
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsaplus.swisstxt.ch/audio/retetre_96.stream/chunklist_DVR.m3u8:RSI Rete Tre
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//livestreaming-node-2.srg-ssr.ch/srgssr/retetre/mp3/128:RSI Rete Tre
 #DESCRIPTION RSI Rete Tre
 #SERVICE 1:64:1af4:0:0:0:0:0:0:0:
 #DESCRIPTION ++publiek algemeen++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.srg-ssr.ch/m/rsc_de/mp3_128:SRF Swiss Classic
-#DESCRIPTION SRF Swiss Classic
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.srg-ssr.ch/m/rsc_de/mp3_128:SRF Swiss Classic DE
+#DESCRIPTION SRF Swiss Classic DE
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.srg-ssr.ch/m/rsj/mp3_128:SRF Swiss Jazz 
 #DESCRIPTION SRF Swiss Jazz 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.srg-ssr.ch/m/rsp/mp3_128:SRF Swiss Pop
@@ -59,42 +71,32 @@
 #DESCRIPTION Aktiv Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-57.zeno.fm/1kmwfseauwzuv:Albradio
 #DESCRIPTION Albradio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//av03.upstream-media.ch/canal3allemand-192.mp3:Canal3
-#DESCRIPTION Canal3
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.smartradio.ch%3a8510/stream:COTN Creatures of the Night Radio Lounge & Relax  
 #DESCRIPTION COTN Creatures of the Night Radio Lounge & Relax  
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast4.asurahosting.com/proxy/diisradi/stream:diis Radio
 #DESCRIPTION diis Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//www.radiodkl.com/:DLK (Radio Dreyeckland)
-#DESCRIPTION DLK (Radio Dreyeckland)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//energybasel.ice.infomaniak.ch/energybasel-high.mp3:Energy Basel
 #DESCRIPTION Energy Basel
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.garden/api/ara/content/listen/B0aZkOuf/channel.mp3:Energy Bern
 #DESCRIPTION Energy Bern
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//energyluzern.ice.infomaniak.ch/energyluzern-high.mp3:Energy Luzern
-#DESCRIPTION Energy Luzern
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//energystgallen.ice.infomaniak.ch/energystgallen-high.mp3:Energy St. Gallen
-#DESCRIPTION Energy St. Gallen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.garden/api/ara/content/listen/h-Yz4C7e/channel.mp3:Energy Zürich 
 #DESCRIPTION Energy Zürich 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-ffm-mp3-192-2470075:Flashback FM
 #DESCRIPTION Flashback FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.streambase.ch/ffm/mp3-192/chmedia-radio-web/1745392573232_91359249:Flashback FM
-#DESCRIPTION Flashback FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radiogroup.de/radiogroup-flashback-80er/mp3-192:Flashback 80er
 #DESCRIPTION Flashback 80er
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/fm1gold.mp3:FM1 gold
-#DESCRIPTION FM1 gold
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/fm1gold.aac:FM1 gold AAC+
-#DESCRIPTION FM1 gold AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/fm1hot.mp3:FM1 Hot
-#DESCRIPTION FM1 Hot
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/fm1hot.aac:FM1 Hot AAC+
-#DESCRIPTION FM1 Hot AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//20min.dmd2streaming.com/20minuten_fr_radio_128.mp3:Goat Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-fm1-mp3-192-7523806:FM1
+#DESCRIPTION FM1
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.gds.fm/main.mp3:GDS.FM
+#DESCRIPTION GDS.FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//20min.dmd2streaming.com/20minuten_radio_128.mp3:Goat Radio
 #DESCRIPTION Goat Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/helenefm-high.mp3:Helene FM
-#DESCRIPTION Helene FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//100chorales.ice.infomaniak.ch/100chorales-128.aac:GVFM 100%25 Chorales
+#DESCRIPTION GVFM 100% Chorales
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//gvfm.ice.infomaniak.ch/gvfm-64.mp3:GVFM la Radio du Gros-de-Vaud
+#DESCRIPTION GVFM la Radio du Gros-de-Vaud
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//gvfm.ice.infomaniak.ch/romandie.aac:GVFM la Romandie
+#DESCRIPTION GVFM la Romandie
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//jamesfm.ice.infomaniak.ch/jamesfm.mp3:James FM
 #DESCRIPTION James FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.smartradio.ch%3a9505/stream:Jazz Ascona Channel
@@ -105,94 +107,88 @@
 #DESCRIPTION Klassik 1 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.multhielemedia.de/listen/kontrafunk/radio.mp3:Kontrafunk
 #DESCRIPTION Kontrafunk
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/ktfm-high.mp3:KTFM GENEVA vos annees KT
-#DESCRIPTION KTFM GENEVA vos annees KT
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/lausannefm-high.mp3:LFM
-#DESCRIPTION LFM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/lausannefm-high.aac:LFM AAC+
-#DESCRIPTION LFM AAC+
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lausannefm.ice.infomaniak.ch/lausannefm-high.mp3:LFM (Lausanne)
+#DESCRIPTION LFM (Lausanne)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.looseantenna.fm%3a8000/default.mp3:Loose Antenna
+#DESCRIPTION Loose Antenna
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//maxxima.mine.nu/maxxima.mp3:Maxxima
+#DESCRIPTION Maxxima
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream01.my105.ch/my105djradio.mp3:My105 DJ Radio
 #DESCRIPTION My105 DJ Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/neo1.mp3:neo 1
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//neo1.ice.infomaniak.ch/neo1.mp3:neo 1
 #DESCRIPTION neo 1
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/ods-high.mp3:ODS Radio
-#DESCRIPTION ODS Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/ods-high.aac:ODS Radio AAC+
-#DESCRIPTION ODS Radio AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/onefm-high.mp3:OneFM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//onefm.ice.infomaniak.ch/onefm-high:OneFM
 #DESCRIPTION OneFM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/onefm-high.aac:OneFM AAC+
-#DESCRIPTION OneFM AAC+
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//swr-swr-raka12.cast.addradio.de/swr/swr/raka12/mp3/128/stream.mp3:Plattenleger (DE/Zwit.)
-#DESCRIPTION Plattenleger (DE/Zwit.)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n0b.radiojar.com/4dy80ayp5gruv:Pinoyofw FM101 Radio
+#DESCRIPTION Pinoyofw FM101 Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//piratenradioch.ice.infomaniak.ch/piratenradioch-128.mp3:Piratenradio
+#DESCRIPTION Piratenradio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//pureglowradio.ice.infomaniak.ch/pureglowradio.mp3:Pure Glow Radio
+#DESCRIPTION Pure Glow Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//solid67.streamupsolutions.com/proxy/eyprxrqz:Queer Radio
+#DESCRIPTION Queer Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nr11.newradio.it/proxy/davitale:R102
 #DESCRIPTION R102
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio4tng.ice.infomaniak.ch/radio4tng-live-web.mp3:Radio4TNG
-#DESCRIPTION Radio4TNG
-#SERVICE 4097:0:1:d:2:6:0:0:0:0:http%3a//klive-a.akamaihd.net/dc-1/live/hls/p/1719221/e/1_dfdxqb3w/sd/6000/t/kZTQ2XrFB-AgEa7c690FJw/index-s32.m3u8:Radio 24 - Visual Radio
-#DESCRIPTION Radio 24 - Visual Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radio1.ch/128k:Radio 1 Zürich
+#DESCRIPTION Radio 1 Zürich
+#SERVICE 4097:0:1:d:2:6:0:0:0:0:https%3a//chmedia.streamabc.net/79-r24-mp3-192-6659699:Radio 24
+#DESCRIPTION Radio 24
 #SERVICE 4097:0:1:d:2:6:0:0:0:0:https%3a//chmedia.streamabc.net/79-r32-mp3-192-5284783:Radio 32
 #DESCRIPTION Radio 32
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio4tng.ice.infomaniak.ch/radio4tng-live-web.mp3:Radio4TNG
+#DESCRIPTION Radio4TNG
 #SERVICE 4097:0:1:b:2:6:0:0:0:0:https%3a//nr15.newradio.it/stream/9226:Radio A1 Aargau
 #DESCRIPTION Radio A1 Aargau
-#SERVICE 4097:0:1:b:2:6:0:0:0:0:http%3a//klive-a.akamaihd.net/dc-1/live/hls/p/1719221/e/1_uv9hs4ww/sd/6000/t/wrKSSij4alVi5jiCA3spVQ/index-s32.m3u8:Radio Argovia - Visual Radio
-#DESCRIPTION Radio Argovia - Visual Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/radiochablais-high.mp3:Radio Chablais
+#SERVICE 4097:0:1:b:2:6:0:0:0:0:https%3a//s2.radio.co/s30b10d574/listen:Radio AI@EDU
+#DESCRIPTION Radio AI@EDU
+#SERVICE 4097:0:1:b:2:6:0:0:0:0:https%3a//chmedia.streamabc.net/79-argovia-mp3-128-2694562:Radio Argovia
+#DESCRIPTION Radio Argovia
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-rbern1-mp3-128-9647760:Radio Bern1
+#DESCRIPTION Radio Bern1
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.upstream-cloud.ch/canal3allemand-192.mp3:Radio Canal 3 D
+#DESCRIPTION Radio Canal 3 D
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-rcentral-mp3-192-5577010:Radio Central
+#DESCRIPTION Radio Central
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiochablais.ice.infomaniak.ch/radiochablais-high.aac:Radio Chablais
 #DESCRIPTION Radio Chablais
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//chmedia.streamabc.net/79-rbern1-mp3-192-6868042:Radio Bern 1
-#DESCRIPTION Radio Bern 1
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/radiochablais-high.aac:Radio Chablais AAC+
-#DESCRIPTION Radio Chablais AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/radiocite128.mp3:Radio Cité Geneve
-#DESCRIPTION Radio Cité Geneve
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/radiocite-highest.aac:Radio Cité Geneve - aac
-#DESCRIPTION Radio Cité Geneve - aac
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radioeviva.bcast.infomaniak.ch/radioeviva-128.mp3?hash=1538751129729.mp3:Radio Eviva
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-reviva-mp3-192-3783812:Radio Eviva
 #DESCRIPTION Radio Eviva
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/fm1melody-64.mp3:Radio FM1 Melody
-#DESCRIPTION Radio FM1 Melody
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/fm1melody-64.aac:Radio FM1 Melody AAC+
-#DESCRIPTION Radio FM1 Melody AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/radiofm1-128.mp3:Radio FM1 Nord
-#DESCRIPTION Radio FM1 Nord
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/radiofm1-64.aac:Radio FM1 Nord AAC+
-#DESCRIPTION Radio FM1 Nord AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/fm43-128.mp3:Radio FM43 - LA radio de la Haute
-#DESCRIPTION Radio FM43 - LA radio de la Haute
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/fm43-64.aac:Radio FM43 - LA radio de la Haute AAC+
-#DESCRIPTION Radio FM43 - LA radio de la Haute AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/radiofribourg-high.mp3:Radio Fribourg
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiofribourg.ice.infomaniak.ch/radiofribourg-high:Radio Fribourg
 #DESCRIPTION Radio Fribourg
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/radiofribourg-high.aac:Radio Fribourg AAC+
-#DESCRIPTION Radio Fribourg AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//fridolin.ice.infomaniak.ch/fridolin-192.mp3:Radio Glarissimo
-#DESCRIPTION Radio Glarissimo
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//somedia-1.streaming.deliver.media/radiogrischa_mp3_128:Radio Grischa
 #DESCRIPTION Radio Grischa
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rag.streaming.deliver.media/grischa_mp3_192:Radio Grischa 2 (test)
-#DESCRIPTION Radio Grischa 2 (test)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/stream128k.mp3:Radio Kaiseregg
-#DESCRIPTION Radio Kaiseregg
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radioluzernpop.ice.infomaniak.ch/radioluzernpop-192.mp3:Radio Luzern Pop
-#DESCRIPTION Radio Luzern Pop
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//dreamsiteradiocp2.com%3a8106/:Radio Maria Zwitserland
-#DESCRIPTION Radio Maria Zwitserland
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//yesfm.ice.infomaniak.ch/yesfm-high.aac:Radio Lac
+#DESCRIPTION Radio Lac
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge24.streamonkey.net/radioluzern-live:Radio Luzern (Lozärn)
+#DESCRIPTION Radio Luzern (Lozärn)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//dreamsiteradiocp2.com%3a8106/:Radio Maria Deutschschweiz
+#DESCRIPTION Radio Maria Deutschschweiz
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dreamsiteradiocp4.com/proxy/rmrsuisse2:Radio Maria Suisse Romande
 #DESCRIPTION Radio Maria Suisse Romande
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming2.elitecomunicacion.es%3a9000/radiomaria_lo:Radio Maria Schweiz
 #DESCRIPTION Radio Maria Schweiz
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s1.shoutitaly.com/proxy/radiomariasudtirol:Radio Maria Südtirol
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s2.shoutitaly.com/listen/radiomariasudtirol/radio.mp3:Radio Maria Südtirol
 #DESCRIPTION Radio Maria Südtirol
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.mnr.ch/rnh-mp3:Radio Neue Hoffnung (religie - Zwitserland)
-#DESCRIPTION Radio Neue Hoffnung (religie - Zwitserland)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-rm-mp3-192-7754268:Radio Melody
+#DESCRIPTION Radio Melody
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.radio.co/seeece1f6b/listen:Radio Neue Hoffnung
+#DESCRIPTION Radio Neue Hoffnung
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//server31677.streamplus.de%3a11144/stream.mp3:Radio Niesen
 #DESCRIPTION Radio Niesen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-pilatus-mp3-128-2642381:Radio Pilatus
+#DESCRIPTION Radio Pilatus
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//i9.streams.ovh/sc/radioroc/stream:Radio Rocket
+#DESCRIPTION Radio Rocket
 #SERVICE 4097:0:2:0:2:6:0:0:0:0:https%3a//radiostream.radiobutler.com/1f62cedf-8714-45de-b4b4-e64d2939c486:Radio Schaffhuuse
 #DESCRIPTION Radio Schaffhuuse
+#SERVICE 4097:0:2:0:2:6:0:0:0:0:https%3a//rcast.pro-fhi.net/stream/radiosouvenir-1:Radio Souvenir
+#DESCRIPTION Radio Souvenir
 #SERVICE 4097:0:2:0:2:6:0:0:0:0:https%3a//somedia-2.streaming.deliver.media/rso_mp3_128?suffix0=RSO:Radio Südostschweiz
 #DESCRIPTION Radio Südostschweiz
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.srg-ssr.ch/m/rsc_it/mp3_128:Radio Svizzera Classica (klassiek - Zwitserland)
-#DESCRIPTION Radio Svizzera Classica (klassiek - Zwitserland)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-rsunshine-mp3-192-4746851:Radio Sunshine
+#DESCRIPTION Radio Sunshine
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.srg-ssr.ch/m/rsc_it/mp3_128:Radio Svizzera Classica
+#DESCRIPTION Radio Svizzera Classica
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//m1.dmd2streaming.com/radiotell.mp3:Radio Tell
 #DESCRIPTION Radio Tell
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//m1.dmd2streaming.com/radiotell05.mp3:Radio Tell Blasmusik
@@ -223,84 +219,26 @@
 #DESCRIPTION Radio Ticino RFT Style Rap 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiotop.ice.infomaniak.ch/radiotop96.aac:Radio Top
 #DESCRIPTION Radio Top
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiotop.ice.infomaniak.ch/toptwo96.aac:Radio Top Two
-#DESCRIPTION Radio Top Two
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiovostok.ice.infomaniak.ch/radiovostok.aac:Radio Vostok
 #DESCRIPTION Radio Vostok
-#SERVICE 4097:0:1:c:2:6:0:0:0:0:https%3a//frontend.streamonkey.net/radiozuerileu-live:Radio Zürileu
-#DESCRIPTION Radio Zürileu
+#SERVICE 4097:0:1:c:2:6:0:0:0:0:https%3a//frontend.streamonkey.net/radiozuerileu-live:Radio ZüriLeu
+#DESCRIPTION Radio ZüriLeu
 #SERVICE 4097:0:1:c:2:6:0:0:0:0:http%3a//mp3.radio.ch/radiozuerisee128k:Radio Zürisee
 #DESCRIPTION Radio Zürisee
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/rfj-low.mp3:RFJ
-#DESCRIPTION RFJ
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/rfj-high.aac:RFJ AAC+
-#DESCRIPTION RFJ AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/rjb-low.mp3:RJB
-#DESCRIPTION RJB
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/rjb-high.aac:RJB AAC+
-#DESCRIPTION RJB AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rockitradio.ice.infomaniak.ch/rockitradio-high.mp3:Rockit Radio
-#DESCRIPTION Rockit Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/413467/stream/467686:RFB Radio Frequence Bleue
+#DESCRIPTION RFB Radio Frequence Bleue
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rfj.ice.infomaniak.ch/rfj-128.aac:RFJ (Jura - FR)
+#DESCRIPTION RFJ (Jura - FR)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rjb.ice.infomaniak.ch/rjb-128.aac:RJB (Jura - FR)
+#DESCRIPTION RJB (Jura - FR)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rhonefm.ice.infomaniak.ch/rhonefm-high.mp3:RhoneFM
+#DESCRIPTION RhoneFM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-besthits.ice.infomaniak.ch/rouge-besthits-128.mp3:Rouge Best Hits
 #DESCRIPTION Rouge Best Hits
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-2000.ice.infomaniak.ch/rouge-2000-128.mp3:Rouge Best Hits 2000
-#DESCRIPTION Rouge Best Hits 2000
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-besthits2011.ice.infomaniak.ch/rouge-besthits2011-128.mp3:Rouge Best Hits 2010
-#DESCRIPTION Rouge Best Hits 2010
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-70s.ice.infomaniak.ch/rouge-70s-128.mp3:Rouge Best Hits 70s
-#DESCRIPTION Rouge Best Hits 70s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-80s.ice.infomaniak.ch/rouge-80s-128.mp3:Rouge Best Hits 80s
-#DESCRIPTION Rouge Best Hits 80s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-90.ice.infomaniak.ch/rouge-90-128.mp3:Rouge Best Hits 90s
-#DESCRIPTION Rouge Best Hits 90s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-dance90.ice.infomaniak.ch/rouge-dance90-128.mp3:Rouge Dance '90
-#DESCRIPTION Rouge Dance '90
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-dance2000.ice.infomaniak.ch/rouge-dance2000-128.mp3:Rouge Dance 2000
-#DESCRIPTION Rouge Dance 2000
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-dance.ice.infomaniak.ch/rouge-dance-128.mp3:Rouge Dance 2010
-#DESCRIPTION Rouge Dance 2010
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/rougefm-high.mp3:Rouge fm - high
-#DESCRIPTION Rouge fm - high
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/rougefm-low.mp3:Rouge fm - low
-#DESCRIPTION Rouge fm - low
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radiocite.ice.infomaniak.ch/rougefm-high.aac:Rouge fm AAC+
-#DESCRIPTION Rouge fm AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-girl.ice.infomaniak.ch/rouge-girl-128.mp3:Rouge Girl
-#DESCRIPTION Rouge Girl
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-hiphop.ice.infomaniak.ch/rouge-hiphop-128.mp3:Rouge Hiphop
-#DESCRIPTION Rouge Hiphop
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-italia.ice.infomaniak.ch/rouge-italia-128.mp3:Rouge Italia (Zwitserland)
-#DESCRIPTION Rouge Italia (Zwitserland)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-inlove.ice.infomaniak.ch/rouge-inlove-128.mp3:Rouge In love
-#DESCRIPTION Rouge In love
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-latino.ice.infomaniak.ch/rouge-latino-128.mp3:Rouge Latino
-#DESCRIPTION Rouge Latino
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-madeinfrance.ice.infomaniak.ch/rouge-madeinfrance-128.mp3:Rouge Made in France
-#DESCRIPTION Rouge Made in France
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rougeplatine.ice.infomaniak.ch/rougeplatine-high.mp3:Rouge Platine
-#DESCRIPTION Rouge Platine
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-reggae.ice.infomaniak.ch/rouge-reggae-128.mp3:Rouge Reggae
-#DESCRIPTION Rouge Reggae
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-rnb.ice.infomaniak.ch/rouge-rnb-128.mp3:Rouge RnB
-#DESCRIPTION Rouge RnB
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-rockpop.ice.infomaniak.ch/rouge-rockpop-high.mp3:Rouge Rock
-#DESCRIPTION Rouge Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-sexy.ice.infomaniak.ch/rouge-sexy-128.mp3:Rouge Sexy
-#DESCRIPTION Rouge Sexy
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-sun.ice.infomaniak.ch/rouge-sun-128.mp3:Rouge Sun
-#DESCRIPTION Rouge Sun
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-suisse.ice.infomaniak.ch/rouge-suisse-128.mp3:Rouge Suisse
-#DESCRIPTION Rouge Suisse
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-uk.ice.infomaniak.ch/rouge-uk-128.mp3:Rouge UK
-#DESCRIPTION Rouge UK
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-urban.ice.infomaniak.ch/rouge-urban-128.mp3:Rouge Urban
-#DESCRIPTION Rouge Urban
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-us.ice.infomaniak.ch/rouge-us-128.mp3:Rouge US
-#DESCRIPTION Rouge US
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/rtn-high.aac:RTN AAC+
-#DESCRIPTION RTN AAC+
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/rtn-high.mp3:RTN
-#DESCRIPTION RTN
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rougefm.ice.infomaniak.ch/rougefm-high.mp3:Rouge FM
+#DESCRIPTION Rouge FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtn.ice.infomaniak.ch/rtn-high.mp3?.mp3:RTN (Neuchâtel)
+#DESCRIPTION RTN (Neuchâtel)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdn.energy.ch/energych-broadcast/hooks/32494_1617017427.mp3:Schlager Radio
 #DESCRIPTION Schlager Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//ic2527.c972.fast-serv.com/spoonradio_aacp_96:Spoon Radio
@@ -313,8 +251,12 @@
 #DESCRIPTION Swissradio Classical
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//thaalam.out.airtime.pro/thaalam_b:Thalaam Switserland
 #DESCRIPTION Thalaam Switserland
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//uzic.ice.infomaniak.ch/uzic-128.aac:UZIC
+#DESCRIPTION UZIC
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.radio.co/s8bb31860b/listen:TopCC Radio
 #DESCRIPTION TopCC Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//traxx021.ice.infomaniak.ch/traxx021-1.mp3?.mp3:Traxx FM Italia
+#DESCRIPTION Traxx FM Italia
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//vintageradio.ice.infomaniak.ch/vintageradio-high.mp3:Vintage Radio
 #DESCRIPTION Vintage Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-virginrockch-mp3-192-2872456:Virgin Radio Swiss

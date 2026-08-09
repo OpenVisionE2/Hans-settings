@@ -1,5 +1,5 @@
 #NAME Stream Zwitserland (CH)
-#SERVICE 1:64:506:0:0:0:0:0:0:0:
+#SERVICE 1:64:507:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2454&extension=ts:RSI La 1
 #DESCRIPTION RSI La 1
@@ -21,10 +21,10 @@
 #DESCRIPTION SRF 1
 #SERVICE 4097:0:1:4331:300c:13e:820000:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srf1hd/browser-dash/srf1hd.mpd:SRF 1 (#)
 #DESCRIPTION SRF 1 (#)
-#SERVICE 4097:0:1:4332:300c:13e:820000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2448&extension=ts:SRF 2
-#DESCRIPTION SRF 2
-#SERVICE 4097:0:1:426a:2db4:13e:820000:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8:SRF 2 (#)
-#DESCRIPTION SRF 2 (#)
+#SERVICE 4097:0:1:4332:300c:13e:820000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2448&extension=ts:SRF Zwei
+#DESCRIPTION SRF Zwei
+#SERVICE 4097:0:1:426a:2db4:13e:820000:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8:SRF Zwei (#)
+#DESCRIPTION SRF Zwei (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2446&extension=ts:SRF Info
 #DESCRIPTION SRF Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/srfinfo/browser-dash/srfinfo.mpd:SRF Info (#)
@@ -45,8 +45,8 @@
 #DESCRIPTION 6ter
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8:Canal 9 en Français
 #DESCRIPTION Canal 9 en Français
-#SERVICE 4097:0:1:ff57:a9e8:ec:0:0:0:0:https%3a//edge14.vedge.infomaniak.com/livecast/ik%3alivesd2/manifest.m3u8:Kanal 9
-#DESCRIPTION Kanal 9
+#SERVICE 4097:0:1:ff57:a9e8:ec:0:0:0:0:https%3a//edge14.vedge.infomaniak.com/livecast/ik%3alivesd2/manifest.m3u8:Kanal 9 in Deutsch
+#DESCRIPTION Kanal 9 in Deutsch
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=2430&extension=ts:W9
 #DESCRIPTION W9
 #SERVICE 4097:0:1:67:3264:13e:820000:0:0:0:http%3a//viamotionhsi.netplus.ch/live/eds/tv24/browser-HLS8/tv24.m3u8:TV 24
@@ -83,7 +83,7 @@
 #DESCRIPTION TVM 3
 #SERVICE 4097:0:1:fe12:7533:ec:0:0:0:0:https%3a//edge12.vedge.infomaniak.com/livecast/ik%3atvm3/manifest.m3u8:TVM 3 (#)
 #DESCRIPTION TVM 3 (#)
-#SERVICE 1:64:507:0:0:0:0:0:0:0:
+#SERVICE 1:64:508:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 5002:0:1:4234:160:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/5ad84e6a-299b-11ec-b414-948e0b8da07d/0/master.m3u8?uid={PSID}&optout={TARGETOPT}&country=DE&vendor=samsung&ads%3aapp_domain={APP_DOMAIN}&ads%3aapp_name={APP_NAME}&coppa=1&ads%3atcf={TC_STRING}:Bergblick Free
 #DESCRIPTION Bergblick Free

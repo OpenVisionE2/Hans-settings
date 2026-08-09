@@ -1,5 +1,5 @@
 #NAME Stream Canada (CA)
-#SERVICE 1:64:54e:0:0:0:0:0:0:0:
+#SERVICE 1:64:54f:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//technologycloud.eu%3a80/play/live.php?mac=00%3a1A%3a79%3a84%3aB7%3a7B&stream=177364&extension=ts&play_token=X5Zjb5SCHi:CBC Edmonton
 #DESCRIPTION CBC Edmonton
@@ -143,7 +143,21 @@
 #DESCRIPTION TSN 4
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fl1.moveonjoy.com/TSN_5/index.m3u8:TSN 5
 #DESCRIPTION TSN 5
-#SERVICE 1:64:54f:0:0:0:0:0:0:0:
+#SERVICE 1:64:550:0:0:0:0:0:0:0:
+#DESCRIPTION ++Brits-Columbia++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.hc2tv.bj/2/live/stream.m3u8:HC2 TV
+#DESCRIPTION HC2 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lecteur.iconetv.bj/hls/stream.m3u8:ICONE TV
+#DESCRIPTION ICONE TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playtv4k.live/live/kassouatv/index.m3u8:KassouaTV
+#DESCRIPTION KassouaTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//webtv.lavoixduroutiertv.bj/hls/stream.m3u8:La Voix du Routier TV
+#DESCRIPTION La Voix du Routier TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lnmlive.com/live/lnmtv.m3u8:Le Nouveau Manager TV
+#DESCRIPTION Le Nouveau Manager TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/dbe59037-07a0-4f1c-82a2-7de94b4b62d2/index.m3u8:Speedline TV
+#DESCRIPTION Speedline TV
+#SERVICE 1:64:551:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3abn.bozztv.com/3abncanada/3ABN/master.m3u8:3ABN Canada
 #DESCRIPTION 3ABN Canada
