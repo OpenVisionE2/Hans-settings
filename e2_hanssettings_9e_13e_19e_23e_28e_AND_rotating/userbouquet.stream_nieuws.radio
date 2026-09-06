@@ -1,17 +1,19 @@
 #NAME Stream Nieuws
-#SERVICE 1:64:194d:0:0:0:0:0:0:0:
+#SERVICE 1:64:186f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nederland++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast-bnr.cdp.triple-it.nl/bnr_mp3_128_03:BNR Nieuwsradio
 #DESCRIPTION BNR Nieuwsradio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bnr-cache-cdp.triple-it.nl/studio/index.m3u8:BNR Nieuwsradio - Kijk live
 #DESCRIPTION BNR Nieuwsradio - Kijk live
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//proxy.live-streams.nl/paprikatastyradio:Hortibiz Newsradio
+#DESCRIPTION Hortibiz Newsradio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//2.trafficstream.nl/proxy/business_main:New Business Radio
 #DESCRIPTION New Business Radio
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//talkradio.streaming.deliver.media/talkradio_mp3_192:TalkRadio
 #DESCRIPTION TalkRadio
-#SERVICE 1:64:194e:0:0:0:0:0:0:0:
+#SERVICE 1:64:1870:0:0:0:0:0:0:0:
 #DESCRIPTION ++België++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.radiostudio.be/beonenws:Be One Nieuws
 #DESCRIPTION Be One Nieuws
@@ -23,11 +25,13 @@
 #DESCRIPTION FM Goud Actueel, laatste nieuws noord-Limburg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//progressive-audio.vrtcdn.be/content/fixed/11_11niws-snip_hi.mp3:VRT NWS
 #DESCRIPTION VRT NWS
-#SERVICE 1:64:194f:0:0:0:0:0:0:0:
+#SERVICE 1:64:1871:0:0:0:0:0:0:0:
 #DESCRIPTION ++Australië++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//i.mjh.nz/.r/radio-abc-news.m3u8:NewsRadio
+#DESCRIPTION NewsRadio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22283.live.streamtheworld.com/NOVA_SKYNEWSAAC.aac:Sky News Radio Autralia
 #DESCRIPTION Sky News Radio Autralia
-#SERVICE 1:64:1950:0:0:0:0:0:0:0:
+#SERVICE 1:64:1872:0:0:0:0:0:0:0:
 #DESCRIPTION ++Frankrijk++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//chai5she.cdn.dvmr.fr/bfmbusiness:BFM Business (nieuws - Parijs, FR)
 #DESCRIPTION BFM Business (nieuws - Parijs, FR)
@@ -35,7 +39,7 @@
 #DESCRIPTION BFM Radio (nieuws - Parijs, FR)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//e1-live-mp3-128.scdn.arkena.com/europe1.mp3:Europe 1 (Frankrijk)
 #DESCRIPTION Europe 1 (Frankrijk)
-#SERVICE 1:64:1951:0:0:0:0:0:0:0:
+#SERVICE 1:64:1873:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland (VK)++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.live.vc.bbcmedia.co.uk/bbc_world_service:BBC World Service
 #DESCRIPTION BBC World Service
@@ -51,21 +55,19 @@
 #DESCRIPTION Times Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//solid41.streamupsolutions.com%3a10008/stream:World Broadcasting Network
 #DESCRIPTION World Broadcasting Network
-#SERVICE 1:64:1952:0:0:0:0:0:0:0:
+#SERVICE 1:64:1874:0:0:0:0:0:0:0:
 #DESCRIPTION ++Italië++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio24-lh.akamaihd.net/i/radio24_1@99307/index_1_a-p.m3u8:Radio 24
-#DESCRIPTION Radio 24
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ns3159873.ip-51-91-131.eu%3a2000/stream/RadioNews24-Centro/stream:Radio News 24 Centro
 #DESCRIPTION Radio News 24 Centro
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ns3159873.ip-51-91-131.eu%3a2000/stream/RadioNews24-Nord/stream:Radio News 24 Nord
 #DESCRIPTION Radio News 24 Nord
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ns3159873.ip-51-91-131.eu%3a2000/stream/RadioNewsSud/stream:Radio News 24 Sud
 #DESCRIPTION Radio News 24 Sud
-#SERVICE 1:64:1953:0:0:0:0:0:0:0:
+#SERVICE 1:64:1875:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostenrijk++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s35.derstream.net/inforadio.mp3:inforadio
 #DESCRIPTION inforadio
-#SERVICE 1:64:1954:0:0:0:0:0:0:0:
+#SERVICE 1:64:1876:0:0:0:0:0:0:0:
 #DESCRIPTION ++overig++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/AXR.mp3:AXR Hong Kong (China) Engelstalig
 #DESCRIPTION AXR Hong Kong (China) Engelstalig

@@ -1,16 +1,10 @@
 #NAME Stream Frankrijk (FR)
-#SERVICE 1:64:5fb:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b1:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:2460:440:1:0:0:0:0:http%3a//151.80.18.177%3a86/TF1_HD/index.m3u8:TF 1
 #DESCRIPTION TF 1
-#SERVICE 4097:0:1:516:2e7c:13f:0:0:0:0:http%3a//151.80.18.177%3a86/France_2_HD/index.m3u8:France 2
-#DESCRIPTION France 2
-#SERVICE 4097:0:1:245a:440:1:c00000:0:0:0:http%3a//69.64.57.208/france2/mono.m3u8:France 2 (#)
-#DESCRIPTION France 2 (#)
 #SERVICE 4097:0:1:245d:440:1:c00000:0:0:0:http%3a//151.80.18.177%3a86/France_3_HD/index.m3u8:France 3
 #DESCRIPTION France 3
-#SERVICE 4097:0:1:2468:440:1:0:0:0:0:http%3a//151.80.18.177%3a86/France_4_HD/index.m3u8:France 4
-#DESCRIPTION France 4
 #SERVICE 4097:0:1:2330:442:1:0:0:0:0:http%3a//151.80.18.177%3a86/France_5_HD/index.m3u8:France 5
 #DESCRIPTION France 5
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8:France 24 Arabic
@@ -25,235 +19,241 @@
 #DESCRIPTION France 24 EspaC1ol
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00106-amg00106c1-rakuten-uk-4654.playouts.now.amagi.tv/playlist/amg00106-france24fast-france24-rakutenuk/playlist.m3u8:France 24 FAST English
 #DESCRIPTION France 24 FAST English
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8:France 24 French
-#DESCRIPTION France 24 French
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_france24_france/playlist.m3u8:France 24 French (#)
 #DESCRIPTION France 24 French (#)
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=941751&extension=ts:France Info
-#DESCRIPTION France Info
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/franceinter.m3u8:France Inter
-#DESCRIPTION France Inter
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5421175365ea3.streamlock.net/live/smil%3aswitch.smil/playlist.m3u8:Francophonie24
 #DESCRIPTION Francophonie24
 #SERVICE 4097:0:1:5ac:170c:13f:c00000:0:0:0:http%3a//151.80.18.177%3a86/AB1/index.m3u8:AB 1
 #DESCRIPTION AB 1
 #SERVICE 4097:0:1:2457:440:1:0:0:0:0:http%3a//151.80.18.177%3a86/M6_HD/index.m3u8:M6
 #DESCRIPTION M6
-#SERVICE 4097:0:1:2458:440:1:0:0:0:0:http%3a//151.80.18.177%3a86/W9_HD/index.m3u8:W9
-#DESCRIPTION W9
-#SERVICE 1:64:5fc:0:0:0:0:0:0:0:
+#SERVICE 1:64:5b2:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/bsmart.m3u8:B Smart
-#DESCRIPTION B Smart
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END:BFM TV
-#DESCRIPTION BFM TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8:BFM TV (#)
-#DESCRIPTION BFM TV (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE:BFM 2
-#DESCRIPTION BFM 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?start=LIVE&end=END:BFM 2 (#)
-#DESCRIPTION BFM 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-cdn-bfm2-euw1.bfmtv.bct.nextradiotv.com/m1/media.m3u8?bpkio_serviceid=7de32147a4f1055b8812bbac92a24d2e:BFM 2 (#)
-#DESCRIPTION BFM 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?start=LIVE&end=END:BFM Business
-#DESCRIPTION BFM Business
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8:BFM Business (#)
-#DESCRIPTION BFM Business (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_GRANDSREPORTAGES/index.m3u8?start=LIVE&end=END:BFM Grand Reportages
-#DESCRIPTION BFM Grand Reportages
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE:BFM Tech & Co
-#DESCRIPTION BFM Tech & Co
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_ALPESDUSUD/index.m3u8?start=LIVE&end=END:BFM Alpes du Sud
-#DESCRIPTION BFM Alpes du Sud
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_ALSACE/index.m3u8?start=LIVE&end=END:BFM Alsace
-#DESCRIPTION BFM Alsace
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_HAUTEPROVENCE/index.m3u8?start=LIVE&end=END:BFM Haute Provence
-#DESCRIPTION BFM Haute Provence
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLILLE/index.m3u8?start=LIVE&end=END:BFM Lille
-#DESCRIPTION BFM Lille
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLITTORAL/index.m3u8?start=LIVE&end=END:BFM Littoral
-#DESCRIPTION BFM Littoral
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?start=LIVE&end=END:BFM Lyon
-#DESCRIPTION BFM Lyon
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8:BFM Lyon (#)
-#DESCRIPTION BFM Lyon (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?start=LIVE&end=END:BFM Marseille
-#DESCRIPTION BFM Marseille
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NICECOTEDAZUR/index.m3u8?start=LIVE&end=END:BFM Nice CC4te d'Azur
-#DESCRIPTION BFM Nice CC4te d'Azur
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NORMANDIE/index.m3u8?start=LIVE&end=END:BFM Normandie
-#DESCRIPTION BFM Normandie
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TOULONVAR/index.m3u8?start=LIVE&end=END:BFM Toulon
-#DESCRIPTION BFM Toulon
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8:CGTN FranC'ais
-#DESCRIPTION CGTN FranC'ais
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8:CGTN FranC'ais (#)
-#DESCRIPTION CGTN FranC'ais (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=941756&extension=ts:C News
-#DESCRIPTION C News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/main/Stream/Live/CNews.m3u8:C News (#)
-#DESCRIPTION C News (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/canalplus/cstar-dm.m3u8:C Star
 #DESCRIPTION C Star
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8:Euronews English
-#DESCRIPTION Euronews English
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//2e0d18116bec40e088c0723dc56accf5.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Plex_EuronewsSpanish/playlist.m3u8?ads.wurl_channel=671&ads.wurl_name=EuronewsSpanish&ads.coppa=0&ads.us_privacy=1---&ads.psid=62274240-07e7-5d94-8dc8-ef68cf19e175&ads.targetopt=0&ads.plex_token=HJNpAsLWteW2_Q7vbySW&ads.plex_id=60089d97f682a3002c34829d&ads.ua=okhttp%252F4.9.0&ads.app_bundle=com.plexapp.android&ads.app_store_url=https%253A%252F%252Fplay.google.com%252Fstore%252Fapps%252Fdetails%253Fid%253Dcom.plexapp.android&ads.gdpr=0&ads.consent=0&ads.device_type=handset&ads.device_id_type=:Euronews EspaC1ol
-#DESCRIPTION Euronews EspaC1ol
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-euronews.akamaized.net/live/eds/euronews-fr/25081/euronews-fr.m3u8:Euronews FranC'ais
-#DESCRIPTION Euronews FranC'ais
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/misc/radio/europe-1-dm.m3u8:Europe 1 TV
-#DESCRIPTION Europe 1 TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=941735&extension=ts:Gulli
-#DESCRIPTION Gulli
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//212.102.60.80/Infosport/index.m3u8:Infosport+
-#DESCRIPTION Infosport+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=941776&extension=ts:LCI
-#DESCRIPTION LCI
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=941779&extension=ts:LCP Assemblee Nationale
-#DESCRIPTION LCP Assemblee Nationale
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8:Le Figaro
-#DESCRIPTION Le Figaro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=941667&extension=ts:RMC Decouverte
-#DESCRIPTION RMC Decouverte
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936920&extension=ts:RMC Life
-#DESCRIPTION RMC Life
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8:RMC Story
-#DESCRIPTION RMC Story
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d75bm5ggq4k1o.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gui89fv6hprsj/RMC_TALK_INFO_FR.m3u8:RMC Talk Info
-#DESCRIPTION RMC Talk Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/t18/t18-dm.m3u8:T18
 #DESCRIPTION T18
-#SERVICE 4097:0:1:2015:430:1:c00000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936791&extension=ts:TMC
-#DESCRIPTION TMC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//liveh12.vtvprime.vn/hls/TV5/03.m3u8:TV5Monde Asia
-#DESCRIPTION TV5Monde Asia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d161b1o6wfc5a3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3u7sgewc3l8ri/tvfm.m3u8:TV5Monde Info
-#DESCRIPTION TV5Monde Info
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d17g2p9a7he1mu.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-b4dzadk8a25ad/tv5ch.m3u8:TV5Monde+ Chefs
 #DESCRIPTION TV5Monde+ Chefs
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1qvkge2x4ev90.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8q6p9i1t9dw2k/tvfvo.m3u8:TV5Monde+ Voyage
 #DESCRIPTION TV5Monde+ Voyage
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//23.133.220.149/TV5/index.m3u8:TV5 Quebec Canada
-#DESCRIPTION TV5 Quebec Canada
-#SERVICE 1:64:5fd:0:0:0:0:0:0:0:
-#DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-20minutestv.digiteka.com/1961167769/index.m3u8:20 Minutes TV Ile-de-France
-#DESCRIPTION 20 Minutes TV Ile-de-France
+#SERVICE 1:64:5b3:0:0:0:0:0:0:0:
+#DESCRIPTION ++regionaal++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge13.vedge.infomaniak.com/livecast/ik%3aadhtv/manifest.m3u8:Alpe d
 #DESCRIPTION Alpe d
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/angerstele.m3u8:Angers Tele
-#DESCRIPTION Angers Tele
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/arabel.m3u8:AraBel
-#DESCRIPTION AraBel
-#SERVICE 4097:0:1:133:3e1c:13f:820000:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936802&extension=ts:ARTE Francais
-#DESCRIPTION ARTE Francais
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=936852&extension=ts:BIP TV
-#DESCRIPTION BIP TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8:Brionnais TV
 #DESCRIPTION Brionnais TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge21.vedge.infomaniak.com/livecast/ik%3acanal32_4/manifest.m3u8:Canal 32
-#DESCRIPTION Canal 32
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//event.vedge.infomaniak.com/livecast/ik%3acanal32_4/manifest.m3u8:Canal 32 (#)
-#DESCRIPTION Canal 32 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=941630&extension=ts:Canal+ Docs
-#DESCRIPTION Canal+ Docs
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=941738&extension=ts:Canal J
-#DESCRIPTION Canal J
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vdo2.pro-fhi.net%3a3628/live/uppodsfqlive.m3u8:Cannes LC)rins TV
-#DESCRIPTION Cannes LC)rins TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//strhlslb01.streamakaci.tv/cen/cen-multi/playlist.m3u8:CEN
-#DESCRIPTION CEN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vdo2.pro-fhi.net%3a3628/live/uppodsfqlive.m3u8:Cannes Lerins TV
+#DESCRIPTION Cannes Lerins TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d2925cd3fad554e096646&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1-6&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=les_secrets_de_nos_regions&content_channel_name=les_secrets_de_:Les Secrets de Nos Regions
+#DESCRIPTION Les Secrets de Nos Regions
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8:MaTélé
+#DESCRIPTION MaTélé
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge12.vedge.infomaniak.com/livecast/ik%3apuissancetelevision/manifest.m3u8:Puissance Television
+#DESCRIPTION Puissance Television
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//event.vedge.infomaniak.com/livecast/ik%3apuissancetelevision/manifest.m3u8:Puissance Television (#)
+#DESCRIPTION Puissance Television (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv.webtvmanager.fr%3a3970/live/viatelepaeselive.m3u8:Télé Paese
+#DESCRIPTION Télé Paese
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv3v.live-kd.com/live/tv3v/livestream/index.m3u8:TV3V
+#DESCRIPTION TV3V
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv7.live-kd.com/live/tv7/livestream/playlist.m3u8:TV 7 Colmar
+#DESCRIPTION TV 7 Colmar
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//194.163.157.137%3a8080/hls/radioalsace.m3u8:TV Alsace
+#DESCRIPTION TV Alsace
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//194.163.157.137%3a8080/hls/radiomulhouse.m3u8:TV Mulhouse
+#DESCRIPTION TV Mulhouse
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8:Vosges TV
+#DESCRIPTION Vosges TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.azenagroup.com/zenith/index.ll.m3u8:zenith
+#DESCRIPTION zenith
+#SERVICE 1:64:5b4:0:0:0:0:0:0:0:
+#DESCRIPTION ++films en series++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=679f4ca612ad02f884066115&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=female drama&AV_CONTENT_CAT=IAB1-3&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=zylo_emotionl&content_channel_name=emotionl&content_livestrea:Emotion'L
+#DESCRIPTION Emotion'L
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67d17c86009f4e10dd041ee9&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=True Crime&AV_CONTENT_CAT=IAB1-8&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=zylo_intocrime&content_channel_name=intocrime&content_livestrea:Into Crime
+#DESCRIPTION Into Crime
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d284602bfe4000e0bbcd7&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1-6&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=satisfaction_le_meilleur_de_la_tv _realite&content_channel_na:Le meilleur de la TV réalité
+#DESCRIPTION Le meilleur de la TV réalité
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d28d30a4b80a73a00bc44&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1-6&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=satisfaction_les_anges&content_channel_name=les_anges&content_l:Les Anges
+#DESCRIPTION Les Anges
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//41.205.93.154/SYFY/index.m3u8:SciFi
+#DESCRIPTION SciFi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67d18c7a44cf05164e09235a&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=Horror & Thriller&AV_CONTENT_CAT=IAB1-13&AV_CONTENT_RATING=R&AV_CLIENT_SECTION=zylo_screamin&content_channel_name=screamin&content_liv:Scream'IN+
+#DESCRIPTION Scream'IN+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_CONTENT_RATING=R&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67cedb1f8bd648f5360cafd9&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENERE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=trailers_lovetv&content_channel_name=Trailer:Trailers-FR
+#DESCRIPTION Trailers-FR
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6853a56a2977c952d505cbaf&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=ITV_Studios_Global_Un_Village_Français&content_channel_name=:Un Village Français
+#DESCRIPTION Un Village Français
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//99.27.51.147/CineClassic/index.m3u8:Unknown
+#DESCRIPTION Unknown
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8:Zylo Ciné Nanar
+#DESCRIPTION Zylo Ciné Nanar
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8:Zylo Ciné Western
+#DESCRIPTION Zylo Ciné Western
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8:Zylo Emotion' L
+#DESCRIPTION Zylo Emotion' L
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8:Zylo Fréquence Novelas
+#DESCRIPTION Zylo Fréquence Novelas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8:Zylo screamIN
+#DESCRIPTION Zylo screamIN
+#SERVICE 1:64:5b5:0:0:0:0:0:0:0:
+#DESCRIPTION ++muziek++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8:DBM
 #DESCRIPTION DBM
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.katapy.io/cache/stream/katapytv/dieu/playlist.m3u8:Dieu TV
-#DESCRIPTION Dieu TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/emcieurope.m3u8:EMCI TV Europe
-#DESCRIPTION EMCI TV Europe
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge18.vedge.infomaniak.com/livecast/ik%3ageneration-tv/chunklist_.m3u8:Generations TV
+#DESCRIPTION Generations TV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//live.creacast.com/littoralfm-ch1/stream/playlist.m3u8:Littoral FM
+#DESCRIPTION Littoral FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mcquack.net/276/index.m3u8:Mezzo Live
+#DESCRIPTION Mezzo Live
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vdo2.pro-fhi.net%3a3207/stream/play.m3u8:P2M TV
+#DESCRIPTION P2M TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-ue1-prod.tsv2.amagi.tv/linear/qwestAAAA-qwestjazz-uk-samsungtv/playlist.m3u8:Qwest TV Jazz & Beyond
+#DESCRIPTION Qwest TV Jazz & Beyond
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4457&avod=1&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1YNN&did=32de1c574abe5a94324280c29042b309&ifa_type=dpid&app_bundle=false&app_store_url=https%3a//private.ottera.tv/devices&app_domain=cmsapi-ott-hisense-vmvpd.ottera.tv&app_name=hisensevmvpd&custom_targeting=html5&custom_4=hisense_syndication&player_height=720&player_width=1280&content_channel=hisensevmvpd&content_dist_name=hisense_syndication&device_make=&device_model=&device_os=html5&preferred_language=EN&consent=1&gdpr=0&custom_12=0&custom_15=en&custom_16=EN&custom_17=fr&country=us&country_region=&postal_code=&gender=not_specified&yob=0&page=1&page_size=1000&livestream=1&custom_param_0=&custom_param_1=tv&custom_param_2=&custom_param_3=&custom_param_4=hisense_syndication&custom_param_5=html5&ssai_enabled=[SSAI_ENABLED]&gdpr=[GDPR]&consent=[CONSENT]&us_privacy=[US_PRIVACY]&app_name=[APP_NAME]&app_bundle=[APP_BUNDLE]&app_store_url=[ENCODED_APP_STORE:Stingray - Easy Listening
+#DESCRIPTION Stingray - Easy Listening
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4472&avod=1&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1YNN&did=32de1c574abe5a94324280c29042b309&ifa_type=dpid&app_bundle=false&app_store_url=https%3a//private.ottera.tv/devices&app_domain=cmsapi-ott-hisense-vmvpd.ottera.tv&app_name=hisensevmvpd&custom_targeting=html5&custom_4=hisense_syndication&player_height=720&player_width=1280&content_channel=hisensevmvpd&content_dist_name=hisense_syndication&device_make=&device_model=&device_os=html5&preferred_language=EN&consent=1&gdpr=0&custom_12=0&custom_15=en&custom_16=EN&custom_17=fr&country=us&country_region=&postal_code=&gender=not_specified&yob=0&page=1&page_size=1000&livestream=1&custom_param_0=&custom_param_1=tv&custom_param_2=&custom_param_3=&custom_param_4=hisense_syndication&custom_param_5=html5&ssai_enabled=[SSAI_ENABLED]&gdpr=[GDPR]&consent=[CONSENT]&us_privacy=[US_PRIVACY]&app_name=[APP_NAME]&app_bundle=[APP_BUNDLE]&app_store_url=[ENCODED_APP_STORE:Stingray - Euro Hits
+#DESCRIPTION Stingray - Euro Hits
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4475&avod=1&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1YNN&did=32de1c574abe5a94324280c29042b309&ifa_type=dpid&app_bundle=false&app_store_url=https%3a//private.ottera.tv/devices&app_domain=cmsapi-ott-hisense-vmvpd.ottera.tv&app_name=hisensevmvpd&custom_targeting=html5&custom_4=hisense_syndication&player_height=720&player_width=1280&content_channel=hisensevmvpd&content_dist_name=hisense_syndication&device_make=&device_model=&device_os=html5&preferred_language=EN&consent=1&gdpr=0&custom_12=0&custom_15=en&custom_16=EN&custom_17=fr&country=us&country_region=&postal_code=&gender=not_specified&yob=0&page=1&page_size=1000&livestream=1&custom_param_0=&custom_param_1=tv&custom_param_2=&custom_param_3=&custom_param_4=hisense_syndication&custom_param_5=html5&ssai_enabled=[SSAI_ENABLED]&gdpr=[GDPR]&consent=[CONSENT]&us_privacy=[US_PRIVACY]&app_name=[APP_NAME]&app_bundle=[APP_BUNDLE]&app_store_url=[ENCODED_APP_STORE:Stingray - Éxitos del Momento
+#DESCRIPTION Stingray - Éxitos del Momento
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4460&avod=1&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1YNN&did=32de1c574abe5a94324280c29042b309&ifa_type=dpid&app_bundle=false&app_store_url=https%3a//private.ottera.tv/devices&app_domain=cmsapi-ott-hisense-vmvpd.ottera.tv&app_name=hisensevmvpd&custom_targeting=html5&custom_4=hisense_syndication&player_height=720&player_width=1280&content_channel=hisensevmvpd&content_dist_name=hisense_syndication&device_make=&device_model=&device_os=html5&preferred_language=EN&consent=1&gdpr=0&custom_12=0&custom_15=en&custom_16=EN&custom_17=fr&country=us&country_region=&postal_code=&gender=not_specified&yob=0&page=1&page_size=1000&livestream=1&custom_param_0=&custom_param_1=tv&custom_param_2=&custom_param_3=&custom_param_4=hisense_syndication&custom_param_5=html5&ssai_enabled=[SSAI_ENABLED]&gdpr=[GDPR]&consent=[CONSENT]&us_privacy=[US_PRIVACY]&app_name=[APP_NAME]&app_bundle=[APP_BUNDLE]&app_store_url=[ENCODED_APP_STORE:Stingray - Greatest Holiday Hits
+#DESCRIPTION Stingray - Greatest Holiday Hits
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4630&avod=1&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1YNN&did=32de1c574abe5a94324280c29042b309&ifa_type=dpid&app_bundle=false&app_store_url=https%3a//private.ottera.tv/devices&app_domain=cmsapi-ott-hisense-vmvpd.ottera.tv&app_name=hisensevmvpd&custom_targeting=html5&custom_4=hisense_syndication&player_height=720&player_width=1280&content_channel=hisensevmvpd&content_dist_name=hisense_syndication&device_make=&device_model=&device_os=html5&preferred_language=EN&consent=1&gdpr=0&custom_12=0&custom_15=en&custom_16=EN&custom_17=fr&country=us&country_region=&postal_code=&gender=not_specified&yob=0&page=1&page_size=1000&livestream=1&custom_param_0=&custom_param_1=tv&custom_param_2=&custom_param_3=&custom_param_4=hisense_syndication&custom_param_5=html5&ssai_enabled=[SSAI_ENABLED]&gdpr=[GDPR]&consent=[CONSENT]&us_privacy=[US_PRIVACY]&app_name=[APP_NAME]&app_bundle=[APP_BUNDLE]&app_store_url=[ENCODED_APP_STORE:Stingray - Karaoke
+#DESCRIPTION Stingray - Karaoke
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4456&avod=1&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1YNN&did=32de1c574abe5a94324280c29042b309&ifa_type=dpid&app_bundle=false&app_store_url=https%3a//private.ottera.tv/devices&app_domain=cmsapi-ott-hisense-vmvpd.ottera.tv&app_name=hisensevmvpd&custom_targeting=html5&custom_4=hisense_syndication&player_height=720&player_width=1280&content_channel=hisensevmvpd&content_dist_name=hisense_syndication&device_make=&device_model=&device_os=html5&preferred_language=EN&consent=1&gdpr=0&custom_12=0&custom_15=en&custom_16=EN&custom_17=fr&country=us&country_region=&postal_code=&gender=not_specified&yob=0&page=1&page_size=1000&livestream=1&custom_param_0=&custom_param_1=tv&custom_param_2=&custom_param_3=&custom_param_4=hisense_syndication&custom_param_5=html5&ssai_enabled=[SSAI_ENABLED]&gdpr=[GDPR]&consent=[CONSENT]&us_privacy=[US_PRIVACY]&app_name=[APP_NAME]&app_bundle=[APP_BUNDLE]&app_store_url=[ENCODED_APP_STORE:Stingray - Remember the 80s
+#DESCRIPTION Stingray - Remember the 80s
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4455&avod=1&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1YNN&did=32de1c574abe5a94324280c29042b309&ifa_type=dpid&app_bundle=false&app_store_url=https%3a//private.ottera.tv/devices&app_domain=cmsapi-ott-hisense-vmvpd.ottera.tv&app_name=hisensevmvpd&custom_targeting=html5&custom_4=hisense_syndication&player_height=720&player_width=1280&content_channel=hisensevmvpd&content_dist_name=hisense_syndication&device_make=&device_model=&device_os=html5&preferred_language=EN&consent=1&gdpr=0&custom_12=0&custom_15=en&custom_16=EN&custom_17=fr&country=us&country_region=&postal_code=&gender=not_specified&yob=0&page=1&page_size=1000&livestream=1&custom_param_0=&custom_param_1=tv&custom_param_2=&custom_param_3=&custom_param_4=hisense_syndication&custom_param_5=html5&ssai_enabled=[SSAI_ENABLED]&gdpr=[GDPR]&consent=[CONSENT]&us_privacy=[US_PRIVACY]&app_name=[APP_NAME]&app_bundle=[APP_BUNDLE]&app_store_url=[ENCODED_APP_STORE:Stingray - Smooth Jazz
+#DESCRIPTION Stingray - Smooth Jazz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=4601&avod=1&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1YNN&did=32de1c574abe5a94324280c29042b309&ifa_type=dpid&app_bundle=false&app_store_url=https%3a//private.ottera.tv/devices&app_domain=cmsapi-ott-hisense-vmvpd.ottera.tv&app_name=hisensevmvpd&custom_targeting=html5&custom_4=hisense_syndication&player_height=720&player_width=1280&content_channel=hisensevmvpd&content_dist_name=hisense_syndication&device_make=&device_model=&device_os=html5&preferred_language=EN&consent=1&gdpr=0&custom_12=0&custom_15=en&custom_16=EN&custom_17=fr&country=us&country_region=&postal_code=&gender=not_specified&yob=0&page=1&page_size=1000&livestream=1&custom_param_0=&custom_param_1=tv&custom_param_2=&custom_param_3=&custom_param_4=hisense_syndication&custom_param_5=html5&ssai_enabled=[SSAI_ENABLED]&gdpr=[GDPR]&consent=[CONSENT]&us_privacy=[US_PRIVACY]&app_name=[APP_NAME]&app_bundle=[APP_BUNDLE]&app_store_url=[ENCODED_APP_STORE:Stingray - Soul Storm
+#DESCRIPTION Stingray - Soul Storm
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.tmacaraibes.com/live/index.m3u8:TMA Caraibes
+#DESCRIPTION TMA Caraibes
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8:Trace Africa
+#DESCRIPTION Trace Africa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/AYITI_hd/index.m3u8:Trace Ayiti
+#DESCRIPTION Trace Ayiti
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8:Trace Brasil
+#DESCRIPTION Trace Brasil
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/CARIBBEAN_hd/index.m3u8:Trace Caribbean
+#DESCRIPTION Trace Caribbean
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/GOSPEL_FR/.m3u8:Trace Gospel
+#DESCRIPTION Trace Gospel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/JAMA_hd/index.m3u8:Trace Jama
+#DESCRIPTION Trace Jama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8:Trace Kitoko
+#DESCRIPTION Trace Kitoko
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/LATINA_hd/index.m3u8:Trace Latina
+#DESCRIPTION Trace Latina
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracelatinaes-samsungspain/playlist.m3u8:Trace Latina
+#DESCRIPTION Trace Latina
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/MBOA_hd/index.m3u8:Trace Mboa
+#DESCRIPTION Trace Mboa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8:Trace Muzika
+#DESCRIPTION Trace Muzika
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/MZIKI_hd/index.m3u8:Trace Mziki
+#DESCRIPTION Trace Mziki
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/NAIJA_hd/index.m3u8:Trace Naija
+#DESCRIPTION Trace Naija
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8:Trace Sport Stars 
+#DESCRIPTION Trace Sport Stars 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//trace-sportstars-tcl.amagi.tv/playlist.m3u8:Trace Sport Stars
+#DESCRIPTION Trace Sport Stars
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8:Trace Vanilla Islands
+#DESCRIPTION Trace Vanilla Islands
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lightning-traceurban-samsungau.amagi.tv/playlist.m3u8:Trace Urban
+#DESCRIPTION Trace Urban
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01131-tracetv-traceurban-klowdtv-utiqd.amagi.tv/playlist/amg01131-tracetv-traceurban-klowdtv/playlist.m3u8:Trace Urban (#)
+#DESCRIPTION Trace Urban (#)
+#SERVICE 1:64:5b6:0:0:0:0:0:0:0:
+#DESCRIPTION ++sport++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68c11f123c6f519c2a076477&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=FAST_Media_GmbH_Drive TV&content_channel_name=Drive TV&content_l:drivetv
+#DESCRIPTION drivetv
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8:Equidia
+#DESCRIPTION Equidia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fighthls.persiana.live/hls/stream.m3u8:Persiana Fight
+#DESCRIPTION Persiana Fight
+#SERVICE 1:64:5b7:0:0:0:0:0:0:0:
+#DESCRIPTION ++documentaires++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68c11f5476c3dd9a0e07e8e5&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=FAST_Media_GmbH_Enquetes De Choc&content_channel_name=Enquetes:Enquêtes de choc
+#DESCRIPTION Enquêtes de choc
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_CONTENT_RATING=R&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67cee0498ec484ac8206ffc5&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENERE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=lovecrimeandhistory_lovetv&content_channel_n:love crime&History France
+#DESCRIPTION love crime&History France
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_CONTENT_RATING=R&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67cedd8470e1f285a70c7d98&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENERE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=lovetheplanet_lovetv&content_channel_name=Lo:Love the planet-FR
+#DESCRIPTION Love the planet-FR
+#SERVICE 1:64:5b8:0:0:0:0:0:0:0:
+#DESCRIPTION ++nieuws++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-20minutestv.digiteka.com/1961167769/index.m3u8:20 Minutes TV Ile-de-France
+#DESCRIPTION 20 Minutes TV Ile-de-France
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8:BFM TV
+#DESCRIPTION BFM TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8:BFM Business
+#DESCRIPTION BFM Business
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8:BFM Lyon
+#DESCRIPTION BFM Lyon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8:CGTN FranC'ais
+#DESCRIPTION CGTN FranC'ais
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-dm.m3u8:CNews
+#DESCRIPTION CNews
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-prime-dm.m3u8:CNEWS PRIME
+#DESCRIPTION CNEWS PRIME
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-euronews.akamaized.net/live/eds/euronews-fr/25081/euronews-fr.m3u8:Euronews Francais
+#DESCRIPTION Euronews Francais
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Paradise-91/ParaTV/refs/heads/main/streams/misc/radio/europe-1-dm.m3u8:Europe 1 TV
+#DESCRIPTION Europe 1 TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67f522bde68e3bcdc008c089&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=news&AV_CONTENT_CAT=IAB12&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=france24&content_channel_name=france24&content_livestream=1&ads.vidaa_ad:France 24
+#DESCRIPTION France 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8:Le Figaro
+#DESCRIPTION Le Figaro
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//static.lefigaro.fr/secom/tnt.m3u8:Le Figaro IDF
+#DESCRIPTION Le Figaro IDF
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8:TV5 Monde Info
+#DESCRIPTION TV5 Monde Info
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d161b1o6wfc5a3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3u7sgewc3l8ri/tvfm.m3u8:TV5Monde Info
+#DESCRIPTION TV5Monde Info
+#SERVICE 1:64:5b9:0:0:0:0:0:0:0:
+#DESCRIPTION ++jeugd++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68c11dd1a1a545d3f609d386&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=FAST_Media_GmbH_Beyblade&content_channel_name=Beyblade France&c:Beyblade
+#DESCRIPTION Beyblade
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//151.80.18.177%3a86/Nickelodeon_FR/index.m3u8:Nickelodeon
+#DESCRIPTION Nickelodeon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//151.80.18.177%3a86/Nickelodeon_Junior/index.m3u8:Nickelodeon Junior
+#DESCRIPTION Nickelodeon Junior
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mcquack.net/111/index.m3u8:TiJi
+#DESCRIPTION TiJi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68c1214d2d7f220db6066726&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=FAST_Media_GmbH_Yu-Gi-Oh&content_channel_name=Yu-Gi-Oh! Franc:YuGiOh
+#DESCRIPTION YuGiOh
+#SERVICE 1:64:5ba:0:0:0:0:0:0:0:
+#DESCRIPTION ++lifestyle & trends++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-ue1-prod.tsv2.amagi.tv/linear/amg01546-ftv-fashiontv-xiaomi/playlist.m3u8:Fashion TV Europe
 #DESCRIPTION Fashion TV Europe
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8:Fashion TV Paris L'Original
 #DESCRIPTION Fashion TV Paris L'Original
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1:Fashion TV Secrets
 #DESCRIPTION Fashion TV Secrets
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lb.streaming.sk/fashiontv/stream/playlist.m3u8:Fashion TV TsjechiC+/Slowakije
-#DESCRIPTION Fashion TV TsjechiC+/Slowakije
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge18.vedge.infomaniak.com/livecast/ik%3ageneration-tv/chunklist_.m3u8:Generations TV
-#DESCRIPTION Generations TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv.webtvmanager.fr%3a3697/stream/play.m3u8:Handicap TV France
-#DESCRIPTION Handicap TV France
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//static.lefigaro.fr/secom/tnt.m3u8:Le Figaro IDF
-#DESCRIPTION Le Figaro IDF
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/lemedia.m3u8:Le Media
-#DESCRIPTION Le Media
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.creacast.com/littoralfm-ch1/stream/playlist.m3u8:Littoral FM
-#DESCRIPTION Littoral FM
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/lyoncapitale.m3u8:Lyon Capitale TV
-#DESCRIPTION Lyon Capitale TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/maisonettravaux.m3u8:Maison & Travaux
-#DESCRIPTION Maison & Travaux
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv.webtvmanager.fr%3a3697/stream/play.m3u8:Handicap TV
+#DESCRIPTION Handicap TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8:TV5MONDE Chefs
+#DESCRIPTION TV5MONDE Chefs
+#SERVICE 1:64:5bb:0:0:0:0:0:0:0:
+#DESCRIPTION ++quiz++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rakutenaa-fastmedia-motuslachaine-rakuten-547u3.amagi.tv/playlist/rakutenAA-fastmedia-motuslachaine-rakuten/playlist.m3u8:Motus La Chaine
+#DESCRIPTION Motus La Chaine
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d2a9602bfe4000e0bbcda&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1-6&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=satisfaction_qui_veut_gagner_des_millions&content_channel_name=:Qui Veut Gagner des Millions
+#DESCRIPTION Qui Veut Gagner des Millions
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68c120e0bca283c9440fe4b5&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=FAST_Media_GmbH_Y'a Que la veritè qui compte&conten:Y a que la verite qui compte la chaine
+#DESCRIPTION Y a que la verite qui compte la chaine
+#SERVICE 1:64:5bc:0:0:0:0:0:0:0:
+#DESCRIPTION ++religie++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.katapy.io/cache/stream/katapytv/dieu/playlist.m3u8:Dieu TV
+#DESCRIPTION Dieu TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//evandis.streamakaci.tv/str_evandis_evandis/str_evandis_multi/playlist.m3u8:Evandis Gospel TV
+#DESCRIPTION Evandis Gospel TV
+#SERVICE 1:64:5bd:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d29b981f71c8da10b4b2a&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1-6&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=satisfaction_familles_en_scene&content_channel_name=familles_en:Familles En Scene
+#DESCRIPTION Familles En Scene
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d2a4966e976a70f015964&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1-6&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=satisfaction_les_zamours&content_channel_name=les_zamours&conte:Les Z amours
+#DESCRIPTION Les Z amours
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.mondeduloisir.fr%3a1935/tixtv/smil%3aweb.smil/playlist.m3u8:MDL
 #DESCRIPTION MDL
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/mensuptv.m3u8:Men's UP TV
-#DESCRIPTION Men's UP TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rakutenaa-fastmedia-motuslachaine-rakuten-547u3.amagi.tv/playlist/rakutenAA-fastmedia-motuslachaine-rakuten/playlist.m3u8:Motus La ChaC.ne
-#DESCRIPTION Motus La ChaC.ne
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamtv.cmediahosthosting.net%3a3046/live/mygospeltvlive.m3u8:My Gospel TV
-#DESCRIPTION My Gospel TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//151.80.18.177%3a86/Nickelodeon_FR/index.m3u8:Nickelodeon
-#DESCRIPTION Nickelodeon
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//151.80.18.177%3a86/Nickelodeon_Junior/index.m3u8:Nickelodeon Junior
-#DESCRIPTION Nickelodeon Junior
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vdo2.pro-fhi.net%3a3207/stream/play.m3u8:P2M TV
-#DESCRIPTION P2M TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fighthls.persiana.live/hls/stream.m3u8:Persiana Fight
-#DESCRIPTION Persiana Fight
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge12.vedge.infomaniak.com/livecast/ik%3apuissancetelevision/manifest.m3u8:Puissance TC)lC)vision
-#DESCRIPTION Puissance TC)lC)vision
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//event.vedge.infomaniak.com/livecast/ik%3apuissancetelevision/manifest.m3u8:Puissance TC)levision (#)
-#DESCRIPTION Puissance TC)levision (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-ue1-prod.tsv2.amagi.tv/linear/qwestAAAA-qwestjazz-uk-samsungtv/playlist.m3u8:Qwest TV Jazz & Beyond
-#DESCRIPTION Qwest TV Jazz & Beyond
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//136044159.r.cdnsun.net/storychannel.m3u8:StoryChannel Francais
-#DESCRIPTION StoryChannel Francais
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telenantes.m3u8:Telenantes
-#DESCRIPTION Telenantes
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=941724&extension=ts:Tiji
-#DESCRIPTION Tiji
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.tmacaraibes.com/live/index.m3u8:TMA Caraibes
-#DESCRIPTION TMA Caraibes
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8:Trace Brasil
-#DESCRIPTION Trace Brasil
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//channels.trace.plus/Traceprod/GOSPEL_FR/.m3u8:Trace Gospel
-#DESCRIPTION Trace Gospel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracelatinaes-samsungspain/playlist.m3u8:Trace Latina
-#DESCRIPTION Trace Latina
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//trace-sportstars-tcl.amagi.tv/playlist.m3u8:Trace Sport Stars
-#DESCRIPTION Trace Sport Stars
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//103.213.31.109%3a90/TraceUrbanHD/playlist.m3u8:Trace Urban HD
-#DESCRIPTION Trace Urban HD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//lightning-traceurban-samsungau.amagi.tv/playlist.m3u8:Trace Urban
-#DESCRIPTION Trace Urban
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01131-tracetv-traceurban-klowdtv-utiqd.amagi.tv/playlist/amg01131-tracetv-traceurban-klowdtv/playlist.m3u8:Trace Urban (#)
-#DESCRIPTION Trace Urban (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv7.live-kd.com/live/tv7/livestream/playlist.m3u8:TV 7 Colmar
-#DESCRIPTION TV 7 Colmar
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv3v.live-kd.com/live/tv3v/livestream/index.m3u8:TV3V
-#DESCRIPTION TV3V
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//livevideo.infomaniak.com/streaming/livecast/tvm3/playlist.m3u8:TVM 3
-#DESCRIPTION TVM 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8:ViC  Ma TC)lC)
-#DESCRIPTION ViC  Ma TC)lC)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//srv.webtvmanager.fr%3a3970/live/viatelepaeselive.m3u8:ViC  TC)lC) Paese
-#DESCRIPTION ViC  TC)lC) Paese
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8:Vosges TV
-#DESCRIPTION Vosges TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8:Zylo CinC) Nanar
-#DESCRIPTION Zylo CinC) Nanar
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8:Zylo CinC) Western
-#DESCRIPTION Zylo CinC) Western
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8:Zylo Emotion' L
-#DESCRIPTION Zylo Emotion' L
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8:Zylo FrC)quence Novelas
-#DESCRIPTION Zylo FrC)quence Novelas
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8:Zylo ScreamIN
-#DESCRIPTION Zylo ScreamIN

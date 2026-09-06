@@ -1,43 +1,93 @@
 #NAME Stream Noorwegen (NO)
-#SERVICE 1:64:643:0:0:0:0:0:0:0:
-#DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7650&extension=ts:NRK 1
-#DESCRIPTION NRK 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7649&extension=ts:NRK 2
-#DESCRIPTION NRK 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7648&extension=ts:NRK 3
-#DESCRIPTION NRK 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7647&extension=ts:TV 2 Direkte
-#DESCRIPTION TV 2 Direkte
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7644&extension=ts:TV 2 Livsstil
-#DESCRIPTION TV 2 Livsstil
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7646&extension=ts:TV 2 Nyhetskanalen
-#DESCRIPTION TV 2 Nyhetskanalen
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7642&extension=ts:TV 2 Sport 2
-#DESCRIPTION TV 2 Sport 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7643&extension=ts:TV 2 Zebra
-#DESCRIPTION TV 2 Zebra
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7640&extension=ts:TV 3
-#DESCRIPTION TV 3
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7636&extension=ts:TV 3+
-#DESCRIPTION TV 3+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//slayerteam.in.rs%3a80/play/live.php?mac=00%3a1B%3a79%3a36%3a2A%3aB2&stream=154495&extension=ts&play_token=UozITOLXwW:TV 4
-#DESCRIPTION TV 4
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7634&extension=ts:Fem
-#DESCRIPTION Fem
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7638&extension=ts:TV 6
-#DESCRIPTION TV 6
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7635&extension=ts:Max
-#DESCRIPTION Max
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=44845&extension=ts:SF-Kanalen
-#DESCRIPTION SF-Kanalen
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=7641&extension=ts:TV Norge
-#DESCRIPTION TV Norge
-#SERVICE 1:64:644:0:0:0:0:0:0:0:
-#DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//digicom.hls.iptvdc.com/canalmotor/index.m3u8:Canal Motor
 #DESCRIPTION Canal Motor
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//frikanalen.no/stream/index.m3u8:Frikanalen
 #DESCRIPTION Frikanalen
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamnorge.com%3a8088/hls/tvo.m3u8:TV Østfold
 #DESCRIPTION TV Østfold
+#SERVICE 1:64:5f9:0:0:0:0:0:0:0:
+#DESCRIPTION ++fillms, series, shows++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61dd5bf8db0b8e00080804ff.m3u8:BET
+#DESCRIPTION BET
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-63c6a1c46d126a000760b91c.m3u8:Boligkjøp i blinde
+#DESCRIPTION Boligkjøp i blinde
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61c1dda0fe470d00080f85b8.m3u8:Charterfeber
+#DESCRIPTION Charterfeber
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-63e389dcc111bc0008ee5b8c.m3u8:Cheers
+#DESCRIPTION Cheers
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-692edcff77f0147d69f19498.m3u8:Dating Naked UK
+#DESCRIPTION Dating Naked UK
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-68f0fad2fae18f8db62a9f37.m3u8:Dynastiet
+#DESCRIPTION Dynastiet
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-65cb8bd911ced7000820bff2.m3u8:Fangene på Fortet
+#DESCRIPTION Fangene på Fortet
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-64424b21e1979c0008379681.m3u8:Jersey Shore
+#DESCRIPTION Jersey Shore
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-6728c87cc7626f0008b28149.m3u8:Jersey Shore Family Vacation
+#DESCRIPTION Jersey Shore Family Vacation
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-62a0ada2f1bdc5000738e020.m3u8:Melrose Place
+#DESCRIPTION Melrose Place
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-64eca23c9c1e390008524ae6.m3u8:Nordisk krim fra Viaplay
+#DESCRIPTION Nordisk krim fra Viaplay
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-63dbe78051f5d000083e9249.m3u8:Numb3rs
+#DESCRIPTION Numb3rs
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61c1d6e1f5acaf0007f8381d.m3u8:Pimp My Ride
+#DESCRIPTION Pimp My Ride
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-68dfa1a7fae18f8db6218222.m3u8:Ridiculousness Nye episoder
+#DESCRIPTION Ridiculousness Nye episoder
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-63a1c959d9dd51000825d659.m3u8:Scorpion
+#DESCRIPTION Scorpion
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-6400c228498393000878a9b7.m3u8:Star Trek Movies
+#DESCRIPTION Star Trek Movies
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61c1d56f28e94c0007827bdb.m3u8:The Hills
+#DESCRIPTION The Hills
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61c1e1c445b45d0007aad03e.m3u8:Unga Mammor
+#DESCRIPTION Unga Mammor
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-62beb44e3afd120007915d1b.m3u8:Viafree Movies
+#DESCRIPTION Viafree Movies
+#SERVICE 1:64:5fa:0:0:0:0:0:0:0:
+#DESCRIPTION ++sport++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-6202357dea93940007d723ca.m3u8:Top Gear
+#DESCRIPTION Top Gear
+#SERVICE 1:64:5fb:0:0:0:0:0:0:0:
+#DESCRIPTION ++comedy++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-65cba7573ba51e00084d76e1.m3u8:Key & Peele
+#DESCRIPTION Key & Peele
+#SERVICE 1:64:5fc:0:0:0:0:0:0:0:
+#DESCRIPTION ++jeugd++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-68adb0a9f84960586ad4a334.m3u8:Smurfene
+#DESCRIPTION Smurfene
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-660bff5724e1d000085b7c07.m3u8:South Park Armageddon
+#DESCRIPTION South Park Armageddon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-664f1370f78a8500092df452.m3u8:South Park Rockin' Out
+#DESCRIPTION South Park Rockin' Out
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-65d87fcb66eec8000887f4aa.m3u8:South Park%3a Butters Collection
+#DESCRIPTION South Park: Butters Collection
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-664f0ecc41af640008e37b43.m3u8:South Park%3a Into the Stars
+#DESCRIPTION South Park: Into the Stars
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-65d88004ec9fda0008a5b8b3.m3u8:South Park%3a Kyle Collection
+#DESCRIPTION South Park: Kyle Collection
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61c1d59a244e500007581861.m3u8:SvampeBob Firkant
+#DESCRIPTION SvampeBob Firkant
+#SERVICE 1:64:5fd:0:0:0:0:0:0:0:
+#DESCRIPTION ++lifestyle++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61c1dce2fb9ae40007d0ac15.m3u8:Camp Kulinaris
+#DESCRIPTION Camp Kulinaris
+#SERVICE 1:64:5fe:0:0:0:0:0:0:0:
+#DESCRIPTION ++Pluto TV voor Noorwegen++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61c1e270489a9c000874d209.m3u8:Pluto TV Action
+#DESCRIPTION Pluto TV Action
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-65b916ec3af63d00084c5841.m3u8:Pluto TV Bud & Terence
+#DESCRIPTION Pluto TV Bud & Terence
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61c1e1e55deef000075aed0c.m3u8:Pluto TV Film
+#DESCRIPTION Pluto TV Film
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61c1e3a679a4390007c78136.m3u8:Pluto TV Komedie
+#DESCRIPTION Pluto TV Komedie
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-63dbe80f60bc8f0008aa7c78.m3u8:Pluto TV Kultfilmer
+#DESCRIPTION Pluto TV Kultfilmer
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-63a19bb5e6914b000721b5c0.m3u8:Pluto TV Romantikk
+#DESCRIPTION Pluto TV Romantikk
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61f957e051cca800076f2358.m3u8:Pluto TV Sci-Fi
+#DESCRIPTION Pluto TV Sci-Fi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-67f3fb7d07d2ba4121bd0c8b.m3u8:Pluto TV Ungdomsserier
+#DESCRIPTION Pluto TV Ungdomsserier

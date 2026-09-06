@@ -1,131 +1,95 @@
 #NAME Stream Portugal (PT)
-#SERVICE 1:64:5c9:0:0:0:0:0:0:0:
+#SERVICE 1:64:588:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
-#SERVICE 4097:0:1:65:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artp1HD.smil/playlist.m3u8:RTP 1
-#DESCRIPTION RTP 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959254&extension=ts:RTP 1 (#)
-#DESCRIPTION RTP 1 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8:RTP 1 (#)
-#DESCRIPTION RTP 1 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959257&extension=ts:RTP 2
-#DESCRIPTION RTP 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8:RTP 2 (#)
-#DESCRIPTION RTP 2 (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959260&extension=ts:RTP 3
-#DESCRIPTION RTP 3
-#SERVICE 4097:0:1:a6:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpafrica.smil/playlist.m3u8:RTP África
-#DESCRIPTION RTP África
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959282&extension=ts:RTP África (#)
-#DESCRIPTION RTP África (#)
-#SERVICE 4097:0:1:69:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8:RTP Notícias
-#DESCRIPTION RTP Notícias
-#SERVICE 4097:0:1:a7:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpacoresHD.smil/playlist.m3u8:RTP Açores
-#DESCRIPTION RTP Açores
-#SERVICE 4097:0:1:6a:65:53:ce40000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpmadeira.smil/playlist.m3u8:RTP Madeira
-#DESCRIPTION RTP Madeira
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959280&extension=ts:RTP Madeira (#)
-#DESCRIPTION RTP Madeira (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959283&extension=ts:RTP Memória
-#DESCRIPTION RTP Memória
-#SERVICE 4097:0:1:2c9:1b58:13e:820000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//streaming-live.rtp.pt/liverepeater/smil%3artpi.smil/playlist.m3u8:RTP Mundo
-#DESCRIPTION RTP Mundo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959329&extension=ts:Canal 11
-#DESCRIPTION Canal 11
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8:NPC Rádio e TV 
-#DESCRIPTION NPC Rádio e TV 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8:SIC
-#DESCRIPTION SIC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959263&extension=ts:SIC (#)
-#DESCRIPTION SIC (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index_5.m3u8:SIC (#)
-#DESCRIPTION SIC (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8:SIC Alta Definição
-#DESCRIPTION SIC Alta Definição
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959517&extension=ts:SIC Caras
-#DESCRIPTION SIC Caras
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959522&extension=ts:SIC Kids
-#DESCRIPTION SIC Kids
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959526&extension=ts:SIC Mulher
-#DESCRIPTION SIC Mulher
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8:SIC Noticias
-#DESCRIPTION SIC Noticias
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959295&extension=ts:SIC Notícias (#)
-#DESCRIPTION SIC Notícias (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959529&extension=ts:SIC Radical
-#DESCRIPTION SIC Radical
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8:SIC Replay
-#DESCRIPTION SIC Replay
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/TVI.m3u:TVI
-#DESCRIPTION TVI
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959269&extension=ts:TVI (#)
-#DESCRIPTION TVI (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8:TVI (#)
-#DESCRIPTION TVI (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/TVI_Internacional.m3u:TVI International
-#DESCRIPTION TVI International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/refs/heads/main/M3U/CNN_Portugal.m3u:CNN Portugal
-#DESCRIPTION CNN Portugal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959301&extension=ts:Euronews Portugal
-#DESCRIPTION Euronews Portugal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959598&extension=ts:TV Record
-#DESCRIPTION TV Record
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5cf4a2c2512a2.streamlock.net/8016/8016/playlist.m3u8:Record News
-#DESCRIPTION Record News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.vivatele.com%3a443/live/viva_padrao/viva2384/13.m3u8:Record TV
-#DESCRIPTION Record TV
-#SERVICE 1:64:5ca:0:0:0:0:0:0:0:
-#DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959446&extension=ts:A Bola TV
-#DESCRIPTION A Bola TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-tv.waytv.pt/adbtv/adbtv/playlist.m3u8:ADB TV
-#DESCRIPTION ADB TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959500&extension=ts:AMC
-#DESCRIPTION AMC
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959476&extension=ts:AXN
-#DESCRIPTION AXN
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959480&extension=ts:AXN White
-#DESCRIPTION AXN White
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960041&extension=ts:Canal Panda
-#DESCRIPTION Canal Panda
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959532&extension=ts:Canal Q
-#DESCRIPTION Canal Q
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959275&extension=ts:CMTV
-#DESCRIPTION CMTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959447&extension=ts:Fuel TV
-#DESCRIPTION Fuel TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959602&extension=ts:Globo
-#DESCRIPTION Globo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959612&extension=ts:Globo Brasilia
-#DESCRIPTION Globo Brasilia
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959610&extension=ts:Globo News
-#DESCRIPTION Globo News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959496&extension=ts:Hollywood
-#DESCRIPTION Hollywood
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w1.manasat.com/igrejaonline/smil%3aigrejaonline.smil/playlist.m3u8:Igreja Online
-#DESCRIPTION Igreja Online
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w2.manasat.com/kcine/smil%3akcine.smil/playlist.m3u8:Kuriakos Cine
-#DESCRIPTION Kuriakos Cine
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w2.manasat.com/kkids/smil%3akkids.smil/playlist.m3u8:Kuriakos Kids
-#DESCRIPTION Kuriakos Kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playout172.livextend.cloud/liveiframe/_definst_/ngrp%3aliveartvabr_abr/playlist.m3u8:ARTV - Canal Parlamento
+#DESCRIPTION ARTV - Canal Parlamento
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8:Canal Parlamento
+#DESCRIPTION Canal Parlamento
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cbtvnow.com%3a5866/hls/livest2024.m3u8:BraziTV
+#DESCRIPTION BraziTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w1.manasat.com/ktv/smil%3aktv.smil/playlist.m3u8:Kuriakos TV
 #DESCRIPTION Kuriakos TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960065&extension=ts:MCM Pop
-#DESCRIPTION MCM Pop
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960061&extension=ts:MTV Portugal
-#DESCRIPTION MTV Portugal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959490&extension=ts:Nos Studios
-#DESCRIPTION Nos Studios
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8:SIC Alta Definição
+#DESCRIPTION SIC Alta Definição
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8:SIC Noticias
+#DESCRIPTION SIC Noticias
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8:SIC Replay
+#DESCRIPTION SIC Replay
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/main/M3U/TVI.m3u8:TVI
+#DESCRIPTION TVI
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/main/M3U/Vmais_TVI.m3u8:V+ TVI
+#DESCRIPTION V+ TVI
+#SERVICE 1:64:589:0:0:0:0:0:0:0:
+#DESCRIPTION ++films en series++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ichibansys.com%3a3764/hybrid/play.m3u8:Geekdot
+#DESCRIPTION Geekdot
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w2.manasat.com/kcine/smil%3akcine.smil/playlist.m3u8:Kuriakos Cine
+#DESCRIPTION Kuriakos Cine
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//moviesphereuk-samsunguk.amagi.tv/playlist.m3u8:MovieSphere
+#DESCRIPTION MovieSphere
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/main/M3U/TVI_Ficcao.m3u8:TVI Ficção
+#DESCRIPTION TVI Ficção
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8:TVI Reality
+#DESCRIPTION TVI Reality
+#SERVICE 1:64:58a:0:0:0:0:0:0:0:
+#DESCRIPTION ++muziek++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//tv.ticosmedia.com%3a1935/COLOSAL/COLOSAL/playlist.m3u8:Colosal TV
+#DESCRIPTION Colosal TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w2.manasat.com/kmusic/kmusic.smil/playlist.m3u8:Kuriakos Music
+#DESCRIPTION Kuriakos Music
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8:On FM Portugal
+#DESCRIPTION On FM Portugal
+#SERVICE 1:64:58b:0:0:0:0:0:0:0:
+#DESCRIPTION ++sport++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68aaf0b15782a2a2110c32a4&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_GENRE=Sports&AV_CONTENT_CAT=IAB1-6&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=Off_Grif_Acelerados&content_channel_name=Acelerados&content_livestream:Acelerados
+#DESCRIPTION Acelerados
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68aaf340cb9c5f033202b3a8&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=Off_Grif_Desimpedidos&content_channel_name=Desimpedidos&content_l:Desimpedidos
+#DESCRIPTION Desimpedidos
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68aaf2424c144d339500e631&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_GENRE=Lifestyle&AV_CONTENT_CAT=IAB6&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=Off_Grif_FitDance&content_channel_name=FitDance&content_livestream=1&:FitDance
+#DESCRIPTION FitDance
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil%3apc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8:Porto Canal
 #DESCRIPTION Porto Canal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//load-balancer.azotosolutions.com/cdnedge19/smil%3alive19.smil/playlist.m3u8:Rádio Sines
-#DESCRIPTION Rádio Sines
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959313&extension=ts:Record News
-#DESCRIPTION Record News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=959504&extension=ts:Syfy
-#DESCRIPTION Syfy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=960025&extension=ts:Travel Channel
-#DESCRIPTION Travel Channel
+#SERVICE 1:64:58c:0:0:0:0:0:0:0:
+#DESCRIPTION ++nieuws++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/main/M3U/CNN_Portugal.m3u8:CNN Portugal
+#DESCRIPTION CNN Portugal
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dy4isoelz3s0x.cloudfront.net/0_hd.m3u8:Canal 11 Internacional
+#DESCRIPTION Canal 11 Internacional
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8:SIC Noticias
+#DESCRIPTION SIC Noticias
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/main/M3U/TVI_Internacional.m3u8:TVI Internacional
+#DESCRIPTION TVI Internacional
+#SERVICE 1:64:58d:0:0:0:0:0:0:0:
+#DESCRIPTION ++cultuur en lifestyle++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68ac9cba617642446b0fb574&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=Off_Grif_Canal_do_Artesanato&content_channel_name=Canal do Ar:Canal do Artesanato
+#DESCRIPTION Canal do Artesanato
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp.w2.stream-sx.com/live/K6Ole9wB/index.m3u8:NMT TV
+#DESCRIPTION NMT TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8:RFPtv
+#DESCRIPTION RFPtv
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.wfc.tv/cdn/stream-eng.m3u8:World Fashion Channel
+#DESCRIPTION World Fashion Channel
+#SERVICE 1:64:58e:0:0:0:0:0:0:0:
+#DESCRIPTION ++jeugd++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68aaf1dd7989a73d040b617b&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=Off_Grif_GG_Good_Game&content_channel_name=GG Good Game&conte:GG Good Game
+#DESCRIPTION GG Good Game
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w2.manasat.com/kkids/smil%3akkids.smil/playlist.m3u8:Kuriakos Kids
+#DESCRIPTION Kuriakos Kids
+#SERVICE 1:64:58f:0:0:0:0:0:0:0:
+#DESCRIPTION ++religie++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68ac9cf92c791225d6062609&AV_CONTENT_LANGUAGE=pt&AV_CONTENT_GENRE=Lifestyle&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=Off_Grif_sera&content_channel_name=Sera&content_livestream=1&AV_CONTE:Fatos Desconhecidos
+#DESCRIPTION Fatos Desconhecidos
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w1.manasat.com/igrejaonline/smil%3aigrejaonline.smil/playlist.m3u8:Igreja Online
+#DESCRIPTION Igreja Online
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8:TV Cancao Nova
 #DESCRIPTION TV Cancao Nova
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.live.novotempo.com/tv/smil%3atvnovotempo.smil/chunklist_b878000_slpor.m3u8:TV Novo Tempo
-#DESCRIPTION TV Novo Tempo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w1.manasat.com/tvmana-1/smil%3atvmana-1.smil/playlist.m3u8:TV Maná 1
+#DESCRIPTION TV Maná 1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w1.manasat.com/tvmana-2/smil%3atvmana-2.smil/playlist.m3u8:TV Maná 2
+#DESCRIPTION TV Maná 2
+#SERVICE 1:64:590:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video04.logicahost.com.br/assimeportugal/assimeportugal/playlist.m3u8:Assim é Portugal
+#DESCRIPTION Assim é Portugal
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8:ConecTV Algarve
+#DESCRIPTION ConecTV Algarve

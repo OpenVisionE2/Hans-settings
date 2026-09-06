@@ -1,45 +1,69 @@
 #NAME Stream Finland (FI)
-#SERVICE 1:64:458:0:0:0:0:0:0:0:
+#SERVICE 1:64:40b:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yletvworld.akamaized.net/hls/live/622540/yletv1w/index.m3u8:YLE TV 1
 #DESCRIPTION YLE TV 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=244147&extension=ts:YLE TV 1 (#)
-#DESCRIPTION YLE TV 1 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yletvworld.akamaized.net/hls/live/622541/yletv2w/index.m3u8:YLE TV 2
 #DESCRIPTION YLE TV 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=244146&extension=ts:YLE TV 2 (#)
-#DESCRIPTION YLE TV 2 (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yletvworld.akamaized.net/hls/live/622547/yletvteemafemw/index.m3u8:YLE TV Teema & Fem
 #DESCRIPTION YLE TV Teema & Fem
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=A0%3aBB%3a3E%3a00%3a01%3aFC&stream=244148&extension=ts:YLE TV Teema & Fem (#)
-#DESCRIPTION YLE TV Teema & Fem (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/mtv3/live.m3u8:MTV 3
 #DESCRIPTION MTV 3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/ava/live.m3u8:MTV Ava
 #DESCRIPTION MTV Ava
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/ava/live.m3u8?src=REDACTED:MTV Ava
+#DESCRIPTION MTV Ava
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/sub/live.m3u8:MTV Sub
 #DESCRIPTION MTV Sub
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/sub/live.m3u8?src=REDACTED:MTV Sub (#)
+#DESCRIPTION MTV Sub (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.streaming.a2d.tv/asset/20025962.isml/.m3u8:MTV Uutiset
 #DESCRIPTION MTV Uutiset
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/nelonen/live.m3u8:Nelonen 4
-#DESCRIPTION Nelonen 4
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//vod.tv7.fi%3a1935/tv7-se/_definst_/smil%3atv7-se.smil/playlist.m3u8:TV 7 Himlen
-#DESCRIPTION TV 7 Himlen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv:TapahtumaTV Eveo
+#DESCRIPTION TapahtumaTV Eveo
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/tv5/live.m3u8:TV5
+#DESCRIPTION TV5
+#SERVICE 1:64:40c:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//irrtv2.digitacdn.net/live/ott/irrtv/playlist.m3u8?organizationId=REDACTED&suiteItemId=REDACTED:Alfa
+#DESCRIPTION Alfa
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/jim/live.m3u8?hd=true:Jim
 #DESCRIPTION Jim
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//m.devtv.biz%3a80/play/live.php?mac=00%3a1A%3a79%3a33%3a55%3a98&stream=53545&extension=ts:SF-Kanalen
-#DESCRIPTION SF-Kanalen
-#SERVICE 1:64:459:0:0:0:0:0:0:0:
-#DESCRIPTION ++overige++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/eveo/live.m3u8?hd=true:Eveo
-#DESCRIPTION Eveo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8:JRTV Järviradio
-#DESCRIPTION JRTV Järviradio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/liv/live.m3u8?hd=true:Liv
 #DESCRIPTION Liv
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//virta2.nopolanews.fi%3a8443/live/smil%3aStream1.smil/playlist.m3u8:Nopola News
-#DESCRIPTION Nopola News
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.nartv.fi/live/ngrp%3aNAR_TV.stream_all/playlist.m3u8:När-TV
+#DESCRIPTION När-TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/nelonen/live.m3u8?src=freetv:Nelonen
+#DESCRIPTION Nelonen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/nelonen/live.m3u8?src=REDACTED:Nelonen (#)
+#DESCRIPTION Nelonen (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8:Onni TV
 #DESCRIPTION Onni TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/star-channel/live.m3u8:STAR Channel
 #DESCRIPTION STAR Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv:Star Channel (#)
+#DESCRIPTION Star Channel (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-fi.tvkaista.net/tlc/live.m3u8?src=freetv:TLC Finland
+#DESCRIPTION TLC Finland
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//worldofloveisland-rakuten.amagi.tv/playlist.m3u8:World of Love Island
+#DESCRIPTION World of Love Island
+#SERVICE 1:64:40d:0:0:0:0:0:0:0:
+#DESCRIPTION ++sport++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c49-rakuten-fi-5848.playouts.now.amagi.tv/playlist.m3u8:BBC Top Gear Finland
+#DESCRIPTION BBC Top Gear Finland
+#SERVICE 1:64:40e:0:0:0:0:0:0:0:
+#DESCRIPTION ++muziek++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8:JRTV Järviradio
+#DESCRIPTION JRTV Järviradio
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.navahang.live/hls/stream.m3u8:Navahang TV
+#DESCRIPTION Navahang TV
+#SERVICE 1:64:40f:0:0:0:0:0:0:0:
+#DESCRIPTION ++documentaires++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bamusa-naturetime-emea-eng-rakuten.amagi.tv/playlist.m3u8:NatureTime Finland
+#DESCRIPTION NatureTime Finland
+#SERVICE 1:64:410:0:0:0:0:0:0:0:
+#DESCRIPTION ++religie++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vod.tv7.fi/tv7-se/_definst_/smil%3atv7-se.smil/playlist.m3u8:Himlen TV7
+#DESCRIPTION Himlen TV7
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vod.tv7.fi/tv7-ee/smil%3atv7-ee.smil/playlist.m3u8:Taevas TV7
+#DESCRIPTION Taevas TV7

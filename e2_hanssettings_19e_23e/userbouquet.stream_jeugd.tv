@@ -1,69 +1,141 @@
 #NAME Stream Jeugd
-#SERVICE 1:64:3ab:0:0:0:0:0:0:0:
-#DESCRIPTION ++België++
-#SERVICE 4097:0:1:5278:c96:3:eb0000:0:0:0:https%3a//live-vrt.akamaized.net/groupc/live/f132f1b8-d04d-404e-90e0-6da1abb4f4fc/live_aes.isml/playlist.m3u8:VRT Ketnet SD met epg (België)
-#DESCRIPTION VRT Ketnet SD met epg (België)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//content.uplynk.com/channel/e11a05356cc44198977436418ad71832.m3u8:VRT Ketnet jr HD (België)
-#DESCRIPTION VRT Ketnet jr HD (België)
-#SERVICE 1:64:3ac:0:0:0:0:0:0:0:
-#DESCRIPTION +++Argentinie+++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:rtmp%3a//streamspub.manasat.com/tvar/tvmanaar1:TV Maná Argentin
-#DESCRIPTION TV Maná Argentin
-#SERVICE 1:64:3ad:0:0:0:0:0:0:0:
+#SERVICE 1:64:3a7:0:0:0:0:0:0:0:
 #DESCRIPTION ++Duitsland++
 #SERVICE 5002:0:1:2b98:3f2:1:c00000:0:0:0:https%3a//kikageohls-i.akamaihd.net/hls/live/1006268/livetvkika_de/master.m3u8?#X-Forwarded-For=91.63.136.21:KiKA (jeugd - Duitsland)
 #DESCRIPTION KiKA (jeugd - Duitsland)
 #SERVICE 5002:0:1:7008:436:1:c00000:0:0:0:http%3a//unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/index_3500_av-b.m3u8?#X-Forwarded-For=91.63.136.21:Nickelodeon (DE)
 #DESCRIPTION Nickelodeon (DE)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//58b42f6c8c9bf.streamlock.net%3a8080/live/rictv/chunklist.m3u8:RIC (jeugd - Duitsland)
-#DESCRIPTION RIC (jeugd - Duitsland)
-#SERVICE 1:64:3ae:0:0:0:0:0:0:0:
+#SERVICE 1:64:3a8:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland (UK)++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480c12669029a46a0faa26&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Kids&AV_CONTENT_CAT=IAB6&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=Terra Nova Distribution Limited_Kiddiwinks&content_channel_name=Kiddiwi:Kiddiwinks
+#DESCRIPTION Kiddiwinks
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69c2524bca99cdf3630b73a5&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Kids&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=A Parent Media Co. Inc_Kidoodle TV&content_channel_name=Kidoodle:Kidoodle TV
+#DESCRIPTION Kidoodle TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69415658b2b7cd5ba80740a9&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Kids&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=A Parent Media Co. Inc_Kidoodle TV&content_channel_name=Kidoodle:Kidoodle TV
+#DESCRIPTION Kidoodle TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//moonbug-rokuus.amagi.tv/playlist.m3u8:Moonbug Kids
+#DESCRIPTION Moonbug Kids
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-popkids-samsunguk/playlist.m3u8:Pop
 #DESCRIPTION Pop
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68cc1b3d761ac05dc604d95d&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Animation&AV_CONTENT_CAT=IAB23-2&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=ADME_CY_LTD_TeenVeeEnglish&content_channel_name=TeenVeeEnglish&co:TeenVee
+#DESCRIPTION TeenVee
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-tinypop-samsunguk/playlist.m3u8:Tiny Pop
 #DESCRIPTION Tiny Pop
-#SERVICE 1:64:3af:0:0:0:0:0:0:0:
-#DESCRIPTION ++Ierland++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream-7b694ce7e.nmbs.top/m3u/Uk/5aea738548.m3u8:RTEjr (jeugd - Ierland)
-#DESCRIPTION RTEjr (jeugd - Ierland)
-#SERVICE 1:64:3b0:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68c121f19f4dca74ae0d1a86&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=FAST_Media_GmbH_Yu-Gi-Oh&content_channel_name=Yu-Gi-Oh! UK&co:YuGiOh
+#DESCRIPTION YuGiOh
+#SERVICE 1:64:3a9:0:0:0:0:0:0:0:
+#DESCRIPTION ++Frankrijk++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//151.80.18.177%3a86/Nickelodeon_FR/index.m3u8:Nickelodeon
+#DESCRIPTION Nickelodeon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//151.80.18.177%3a86/Nickelodeon_Junior/index.m3u8:Nickelodeon Junior
+#DESCRIPTION Nickelodeon Junior
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mcquack.net/111/index.m3u8:TiJi
+#DESCRIPTION TiJi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68c1214d2d7f220db6066726&AV_CONTENT_LANGUAGE=fr&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=FAST_Media_GmbH_Yu-Gi-Oh&content_channel_name=Yu-Gi-Oh! Franc:YuGiOh
+#DESCRIPTION YuGiOh
+#SERVICE 1:64:3aa:0:0:0:0:0:0:0:
+#DESCRIPTION ++Griekenland++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livetv.streams.ovh%3a8081/kriti/index.m3u8:Kriti 1
+#DESCRIPTION Kriti 1
+#SERVICE 1:64:3ab:0:0:0:0:0:0:0:
+#DESCRIPTION ++Indonesië++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mcquack.net/60/index.m3u8:O!
+#DESCRIPTION O!
+#SERVICE 1:64:3ac:0:0:0:0:0:0:0:
+#DESCRIPTION ++Italië++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.paroledivita.org/bejoy.m3u8:BeJoy.kids
+#DESCRIPTION BeJoy.kids
+#SERVICE 1:64:3ad:0:0:0:0:0:0:0:
 #DESCRIPTION ++Koeweit++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//kwmedia.hibridmedia.com/kwmedia/kwtvkids_dabr/kwmedia/kwtvkids_1080p/chunks.m3u8:KTV Kids (Koeweit)
 #DESCRIPTION KTV Kids (Koeweit)
+#SERVICE 1:64:3ae:0:0:0:0:0:0:0:
+#DESCRIPTION ++Kosovo++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//ott.artmott.com/21Junior/tracks-v1a1/mono.m3u8:21 Junior
+#DESCRIPTION 21 Junior
+#SERVICE 1:64:3af:0:0:0:0:0:0:0:
+#DESCRIPTION ++Latijns-Amerika++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//45.185.163.75%3a8000/play/a02j/index.m3u8:Disney Channel Latin America
+#DESCRIPTION Disney Channel Latin America
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//181.78.8.199%3a8000/play/a0dn/index.m3u8:Disney Channel Latin America Center
+#DESCRIPTION Disney Channel Latin America Center
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//190.11.225.124%3a5000/live/disney_hd/playlist.m3u8:Disney Channel Latin America Panregional
+#DESCRIPTION Disney Channel Latin America Panregional
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//190.11.225.124%3a5000/live/disney_jr_hd/playlist.m3u8:Disney Jr. Latin America North
+#DESCRIPTION Disney Jr. Latin America North
+#SERVICE 1:64:3b0:0:0:0:0:0:0:0:
+#DESCRIPTION ++Noorwegen++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-68adb0a9f84960586ad4a334.m3u8:Smurfene
+#DESCRIPTION Smurfene
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-660bff5724e1d000085b7c07.m3u8:South Park Armageddon
+#DESCRIPTION South Park Armageddon
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-664f1370f78a8500092df452.m3u8:South Park Rockin' Out
+#DESCRIPTION South Park Rockin' Out
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-65d87fcb66eec8000887f4aa.m3u8:South Park%3a Butters Collection
+#DESCRIPTION South Park: Butters Collection
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-664f0ecc41af640008e37b43.m3u8:South Park%3a Into the Stars
+#DESCRIPTION South Park: Into the Stars
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-65d88004ec9fda0008a5b8b3.m3u8:South Park%3a Kyle Collection
+#DESCRIPTION South Park: Kyle Collection
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-61c1d59a244e500007581861.m3u8:SvampeBob Firkant
+#DESCRIPTION SvampeBob Firkant
 #SERVICE 1:64:3b1:0:0:0:0:0:0:0:
-#DESCRIPTION ++Nigeria++
-#SERVICE 4097:0:1:106:0:0:0:0:0:0:http%3a//vip.alpha-one.net%3a8080/A1Kids/index.m3u8:A1 Kids (Nigeria)
-#DESCRIPTION A1 Kids (Nigeria)
-#SERVICE 1:64:3b2:0:0:0:0:0:0:0:
 #DESCRIPTION ++Portugal++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//c2.manasat.com%3a1935/kkids/kkids3/TeamBlue.m3u8:Kuriakos kids (jeugd - Portugal)
-#DESCRIPTION Kuriakos kids (jeugd - Portugal)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//w2.manasat.com/kkids/smil%3akkids.smil/playlist.m3u8:Kuriakos Kids
+#DESCRIPTION Kuriakos Kids
+#SERVICE 1:64:3b2:0:0:0:0:0:0:0:
+#DESCRIPTION ++Saoedi-Arabië++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5d658d7e9f562.streamlock.net/atfal1.com/atfal2/playlist.m3u8:Atfal Wa Mawaheb
+#DESCRIPTION Atfal Wa Mawaheb
 #SERVICE 1:64:3b3:0:0:0:0:0:0:0:
 #DESCRIPTION ++Singapore++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//ddftztnzt6o79.cloudfront.net/hls/oktoctv/master.m3u8:OKTO on 5 (Singapore)
 #DESCRIPTION OKTO on 5 (Singapore)
 #SERVICE 1:64:3b4:0:0:0:0:0:0:0:
+#DESCRIPTION ++Slowakije++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d6lk10bkdgfae.cloudfront.net/playlist.m3u8:duckTV
+#DESCRIPTION duckTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/stvp-ESBC4700001GR:ducktv
+#DESCRIPTION ducktv
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash3.antik.sk/live/duck_tv/index.m3u8:ducktv HD
+#DESCRIPTION ducktv HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash3.antik.sk/live/test_duck_plus/playlist.m3u8:ducktv PLUS
+#DESCRIPTION ducktv PLUS
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sktv.mxnticek.eu/new/stream.php?ch=Jojko:Jojko
+#DESCRIPTION Jojko
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash3.antik.sk/live/turbo_tv_avc_25p/playlist.m3u8:Turbo TV
+#DESCRIPTION Turbo TV
+#SERVICE 1:64:3b5:0:0:0:0:0:0:0:
 #DESCRIPTION ++Spanje++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//daiconnect.com/live/hls/tvup/vidaa-animevision/.m3u8?ads.app_bundle=[ADS.APP_BUNDLE]&ads.app_name=[ADS.APP_NAME]&ads.app_store_url=[ADS.APP_STORE_URL]&ads.brand_name=[ADS.BRAND_NAME]&ads.w=[ADS.W]&ads.h=[ADS.H]&ads.ua=[ADS.UA]&ads.dnt=[ADS.DNT]&ads.ifa=[ADS.IFA]&ads.gdpr_consent=[ADS.GDPR_CONSENT]&ads.gdpr=[ADS.GDPR]&ads.ifa_type=[ADS.IFA_TYPE]&ads.device_language=[ADS.DEVICE_LANGUAGE]&ads.vidaa_auth=[ADS.VAUTH]&ads.vidaa_ads_param=1201984982:Anime Visión
+#DESCRIPTION Anime Visión
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//daiconnect.com/live/hls/tvup/vidaa-animevisionclassics/.m3u8?ads.app_bundle=[ADS.APP_BUNDLE]&ads.app_name=[ADS.APP_NAME]&ads.app_store_url=[ADS.APP_STORE_URL]&ads.brand_name=[ADS.BRAND_NAME]&ads.w=[ADS.W]&ads.h=[ADS.H]&ads.ua=[ADS.UA]&ads.dnt=[ADS.DNT]&ads.ifa=[ADS.IFA]&ads.gdpr_consent=[ADS.GDPR_CONSENT]&ads.gdpr=[ADS.GDPR]&ads.ifa_type=[ADS.IFA_TYPE]&ads.device_language=[ADS.DEVICE_LANGUAGE]&ads.vidaa_auth=[ADS.VAUTH]&ads.vidaa_ads_param=1201984982:Anime Visión Classics
+#DESCRIPTION Anime Visión Classics
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6835a5171bcd3217190b928c&AV_CONTENT_LANGUAGE=sp&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB9&AV_CONTENT_RATING=TP&AV_CLIENT_SECTION=RTVE_clan&content_channel_name=Clan&content_livestream=1&AV_CONTENT:clan 
+#DESCRIPTION clan 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68cc1ad3b41031216c05759b&AV_CONTENT_LANGUAGE=sp&AV_CONTENT_GENRE=Animation&AV_CONTENT_CAT=IAB23-2&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=ADME_CY_LTD_TeenVeeSpanish&content_channel_name=TeenVeeSpanish&co:TeenVee
+#DESCRIPTION TeenVee
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cloud.tvomix.com/TITOTV/index.m3u8:Tito TV
+#DESCRIPTION Tito TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//crtvg-infantil-schlive.flumotion.cloud/crtvglive/smil%3achannel5PRG.smil/playlist.m3u8:Xabarín TV
 #DESCRIPTION Xabarín TV
-#SERVICE 1:64:3b5:0:0:0:0:0:0:0:
-#DESCRIPTION ++USA++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//194.204.46.137/live/eds/Disney_Channel/HLS_encr/Disney_Channel-audio_20000=96000-video=2200000.m3u8:Disney Channel USA
-#DESCRIPTION Disney Channel USA
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68c121bfca825d3ced082296&AV_CONTENT_LANGUAGE=es&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=FAST_Media_GmbH_Yu-Gi-Oh&content_channel_name=Yu-Gi-Oh! Spain:YuGiOh
+#DESCRIPTION YuGiOh
 #SERVICE 1:64:3b6:0:0:0:0:0:0:0:
-#DESCRIPTION ++onbekend + overig++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream-e30453a4b.nmbs.top/m3u/Kids/16d940210b.m3u8:Cartoon Network India (India)
-#DESCRIPTION Cartoon Network India (India)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream-e30453a4b.nmbs.top/m3u/Kids/99a1addb07.m3u8:Disney International HD
-#DESCRIPTION Disney International HD
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//ott.artmott.com/21Junior/tracks-v1a1/mono.m3u8:21 Junior (Kosovo)
-#DESCRIPTION 21 Junior (Kosovo)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream-7b694ce7e.nmbs.top/m3u/Kids/c86abe8bd6.m3u8:Disney Channel Hindi (jeugd)
-#DESCRIPTION Disney Channel Hindi (jeugd)
-#SERVICE 4097:0:1:162:0:0:0:0:0:0:http%3a//91.149.172.100%3a80/channel?id=25&u=demo&p=demo:JimJam (jeugd)
-#DESCRIPTION JimJam (jeugd)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream-7b694ce7e.nmbs.top/m3u/Kids/c9878efeae.m3u8:Marvel HQ
-#DESCRIPTION Marvel HQ
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//shls-spacetoon-next.shahid.net/spacetoon-nextologies.m3u8:Spacetoon (VAE)
-#DESCRIPTION Spacetoon (VAE)
+#DESCRIPTION ++Turkije++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8:Minika Cocuk
+#DESCRIPTION Minika Cocuk
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8:Minika Go
+#DESCRIPTION Minika Go
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zindikurmanci.zaroktv.com.tr/hls/stream.m3u8:Zarok TV
+#DESCRIPTION Zarok TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zindisorani.zaroktv.com.tr/hls/stream.m3u8:Zarok TV Sorani
+#DESCRIPTION Zarok TV Sorani
+#SERVICE 1:64:3b7:0:0:0:0:0:0:0:
+#DESCRIPTION ++Venezuela++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8:Ciudad Magica
+#DESCRIPTION Ciudad Magica
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8:Isla TV
+#DESCRIPTION Isla TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnlive.klicgo.net/maxanime/live/playlist.m3u8:MAX Anime
+#DESCRIPTION MAX Anime

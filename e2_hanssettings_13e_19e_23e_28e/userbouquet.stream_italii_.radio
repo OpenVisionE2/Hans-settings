@@ -1,5 +1,5 @@
 #NAME Stream Italië (IT)
-#SERVICE 1:64:822:0:0:0:0:0:0:0:
+#SERVICE 1:64:80f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rai++
 #SERVICE 4097:0:2:5:0:0:0:0:0:0:http%3a//icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast:Rai Radio 1
 #DESCRIPTION Rai Radio 1
@@ -39,7 +39,7 @@
 #DESCRIPTION Rai Radio TRST A 
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icestreaming.rai.it/4.mp3:Rai Radio Tutta Italiana
 #DESCRIPTION Rai Radio Tutta Italiana
-#SERVICE 1:64:823:0:0:0:0:0:0:0:
+#SERVICE 1:64:810:0:0:0:0:0:0:0:
 #DESCRIPTION ++festival San Remo, themazenders++
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icecast.unitedradio.it/um049.mp3:Music Radio Festival Le Canzoni Vincitrici
 #DESCRIPTION Music Radio Festival Le Canzoni Vincitrici
@@ -49,8 +49,10 @@
 #DESCRIPTION United Music Radio Festival 1951-1999
 #SERVICE 4097:0:2:15:0:0:0:0:0:0:http%3a//icecast.unitedradio.it/um112.mp3:United Music Radio Festival 2000-2021
 #DESCRIPTION United Music Radio Festival 2000-2021
-#SERVICE 1:64:824:0:0:0:0:0:0:0:
+#SERVICE 1:64:811:0:0:0:0:0:0:0:
 #DESCRIPTION ++overig Italiaans++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice03.fluidstream.net/onedancech.mp3:1ne Dance
+#DESCRIPTION 1ne Dance
 #SERVICE 4097:0:2:273:0:0:0:0:0:0:https%3a//onair18.xdevel.com/proxy/7080it?mp=/stream:70-80.it 
 #DESCRIPTION 70-80.it 
 #SERVICE 4097:0:2:273:0:0:0:0:0:0:http%3a//icy.unitedradio.it/105_522.mp3:105 BSMNT
@@ -67,6 +69,8 @@
 #DESCRIPTION Canale 81 Lazio
 #SERVICE 4097:0:2:157:0:0:0:0:0:0:https%3a//nr9.newradio.it%3a19383/stream:CIAO COMO RADIO
 #DESCRIPTION CIAO COMO RADIO
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamcdnb3-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8:Deejay
+#DESCRIPTION Deejay
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rds.radio/audio/disco.stream_aac/chunklist.m3u8:Discoradio
 #DESCRIPTION Discoradio
 #SERVICE 4097:0:2:285:0:0:0:0:0:0:https%3a//gr.fluidstream.eu/gr1.mp3:Giornale Radio All News
@@ -173,7 +177,9 @@
 #DESCRIPTION Otto FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nr15.newradio.it%3a9132/stream?ext=.mp3:Q8
 #DESCRIPTION Q8
-#SERVICE 4097:0:2:273:0:0:0:0:0:0:http%3a//edge.radiomontecarlo.net/rmcweb003:R&B
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.unitedradio.it/r101_mp3:R 101
+#DESCRIPTION R 101
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//edge.radiomontecarlo.net/rmcweb003:R&B
 #DESCRIPTION R&B
 #SERVICE 4097:0:2:93:0:0:0:0:0:0:http%3a//icy.unitedradio.it/105Classics.mp3?amsparams=playerid%3a208f105web;skey%3a1468657622:RADIO 105 CLASSIC
 #DESCRIPTION RADIO 105 CLASSIC
@@ -185,6 +191,8 @@
 #DESCRIPTION RADIO 19
 #SERVICE 4097:0:2:419:0:0:0:0:0:0:http%3a//sr1.inmystream.info%3a8333/;:RADIO 2 BASILICATA
 #DESCRIPTION RADIO 2 BASILICATA
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ilsole24ore-radio.akamaized.net/hls/live/2035301/radio24/playlist-64000.m3u8:Radio 24
+#DESCRIPTION Radio 24
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//sphera.fluidstream.eu/radio80.mp3:Radio 80
 #DESCRIPTION Radio 80
 #SERVICE 4097:0:2:409:0:0:0:0:0:0:http%3a//sc1.streamingpulse.com%3a8004/;:RADIO ABRUZZO FM
@@ -323,6 +331,8 @@
 #DESCRIPTION Radio Mantova
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//dreamsiteradiocp2.com%3a8016/:Radio Maria Italië
 #DESCRIPTION Radio Maria Italië
+#SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//s2.shoutitaly.com/listen/radiomariasudtirol/radio.mp3:Radio Maria Südtirol
+#DESCRIPTION Radio Maria Südtirol
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dreamsiteradiocp6.com/proxy/rmsudtirol?mp=/stream:Radio Maria Südtirol
 #DESCRIPTION Radio Maria Südtirol
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.radiomargherita.com/stream/radiomargherita:Radio Margherita
@@ -469,8 +479,6 @@
 #DESCRIPTION Radio Zeta LItaliana
 #SERVICE 4097:0:2:49:0:0:0:0:0:0:https%3a//server4.streamserver24.com%3a41505/stream:RBI Radio
 #DESCRIPTION RBI Radio
-#SERVICE 4097:0:2:45:0:0:0:0:0:0:https%3a//stream.rds.radio/audio/rds.stream_aac/chunklist.m3u8:RDS
-#DESCRIPTION RDS
 #SERVICE 4097:0:2:45:0:0:0:0:0:0:https%3a//stream.rds.radio/audio/rdsactive.stream_aac/chunklist.m3u8:RDS Active
 #DESCRIPTION RDS Active
 #SERVICE 4097:0:2:45:0:0:0:0:0:0:https%3a//icstream.rds.radio/ENI_S1_64 :RDS ENI
@@ -489,7 +497,7 @@
 #DESCRIPTION Rete Toscana Classica
 #SERVICE 4097:0:2:109:0:0:0:0:0:0:https%3a//rh.fluidstream.eu/ritmo80.mp3:Ritmo 80
 #DESCRIPTION Ritmo 80
-#SERVICE 1:64:825:0:0:0:0:0:0:0:
+#SERVICE 1:64:812:0:0:0:0:0:0:0:
 #DESCRIPTION ++RMC= Radio Monte Carlo, zie Monaco++
 #SERVICE 4097:0:2:27:0:0:0:0:0:0:http%3a//shoutcast.rtl.it%3a3020/:RTL Best
 #DESCRIPTION RTL Best

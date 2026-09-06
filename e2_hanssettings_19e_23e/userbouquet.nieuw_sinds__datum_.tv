@@ -1,317 +1,405 @@
-#NAME Nieuw sinds 3 juli 2026
-#SERVICE 1:64:132:0:0:0:0:0:0:0:
-#DESCRIPTION ++Duitsland, marker HbbTV++
-#SERVICE 1:0:1f:6ed3:3fd:1:c00000:0:0:0:
+#NAME Nieuw sinds 7 augustus 2026
 #SERVICE 1:64:133:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oost-Europa, code++
-#SERVICE 1:0:19:3d02:c95:3:eb0000:0:0:0:
+#DESCRIPTION ++Canaal Digitaal++
+#SERVICE 1:0:19:17ce:c82:3:eb0000:0:0:0:
 #SERVICE 1:64:134:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oostenrijk++
-#SERVICE 1:0:16:3338:45b:1:c00000:0:0:0:
+#DESCRIPTION ++Canal Digitaal en TV Vlaanderen++
+#SERVICE 1:0:19:22d6:434:1:c00000:0:0:0:
 #SERVICE 1:64:135:0:0:0:0:0:0:0:
-#DESCRIPTION ++DAB via DVB++ in het radiogedeelte
+#DESCRIPTION ++Oost-Europa, Servië, fta++
+#SERVICE 1:0:1:504b:c9f:3:eb0000:0:0:0:
 #SERVICE 1:64:136:0:0:0:0:0:0:0:
-#DESCRIPTION ++Astra 19,2 oost++
-#SERVICE 1:0:2:1019:5:85:c00000:0:0:0:
-#SERVICE 1:0:2:101a:5:85:c00000:0:0:0:
+#DESCRIPTION ++Oost-Europa en Sport - Slowakije++
+#SERVICE 1:0:19:3c29:c90:3:eb0000:0:0:0:
+#SERVICE 1:0:19:3724:c8e:3:eb0000:0:0:0:
 #SERVICE 1:64:137:0:0:0:0:0:0:0:
-#DESCRIPTION ++Astra 23,5 oost++
-#SERVICE 1:0:2:1019:c98:3:eb0000:0:0:0:
-#SERVICE 1:0:2:101a:c98:3:eb0000:0:0:0:
-#SERVICE 1:0:1:1455:c98:3:eb0000:0:0:0:
+#DESCRIPTION ++testkanalen Astra 23,5 oost++
+#SERVICE 1:0:16:189d:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:16:189e:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:16:189f:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:19:18a0:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:16:18a1:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:16:18a2:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:16:18a3:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:1:18a4:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:1:18a5:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:1:18a6:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:1:18a7:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:1:18a8:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:19:18a9:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:19:18aa:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:16:18ab:c97:3:eb0000:0:0:0:
+#SERVICE 1:0:16:18ac:c97:3:eb0000:0:0:0:
 #SERVICE 1:64:138:0:0:0:0:0:0:0:
-#DESCRIPTION +++VIDEO/TV-STREAMS+++
+#DESCRIPTION ++testkanalen Astra 19,2 oost++
+#SERVICE 1:0:1:126e:417:1:c00000:0:0:0:
+#SERVICE 1:0:1:126f:417:1:c00000:0:0:0:
+#SERVICE 1:0:1:1270:417:1:c00000:0:0:0:
+#SERVICE 1:0:1:1271:417:1:c00000:0:0:0:
 #SERVICE 1:64:139:0:0:0:0:0:0:0:
-#DESCRIPTION ++NL regionaal & lokaal++
-#SERVICE 4097:0:1:1bc5:c86:600:ffff0000:0:0:0:https%3a//stream.rtvgemeente-oldambt.nl/hls/rtvgo/index.m3u8:Groningen1 - RTV GO!
-#DESCRIPTION Groningen1 - RTV GO!
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//media.rtvwesterwolde.nl/hls/live/index.m3u8:Groningen1 - RTV Westerwolde
-#DESCRIPTION Groningen1 - RTV Westerwolde
+#DESCRIPTION ++Ziggo++
+#SERVICE 1:0:19:4ada:80d:600:ffff0000:0:0:0:
 #SERVICE 1:64:13a:0:0:0:0:0:0:0:
-#DESCRIPTION ++Stream YouTube - nieuws++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCaGiYkcxDVobNAJyeK8p36Q&autoplay=1:Euronews Kazakh Live
-#DESCRIPTION Euronews Kazakh Live
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/iW7mGG9GXTU:Euronews Kazakh Live
-#DESCRIPTION Euronews Kazakh Live
+#DESCRIPTION +++VIDEO/TV-STREAMS+++
 #SERVICE 1:64:13b:0:0:0:0:0:0:0:
-#DESCRIPTION ++Brazilië+++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8:Araruna TV
-#DESCRIPTION Araruna TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8:Aratu On
-#DESCRIPTION Aratu On
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.live.br1.jmvstream.com/w/LVW-11668/ngrp%3aLVW11668_wiJpjbMrks_all/playlist.m3u8:BR8 TV
-#DESCRIPTION BR8 TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8:Blitstv
-#DESCRIPTION Blitstv
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8:Canal FDR
-#DESCRIPTION Canal FDR
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8:Canal Metropolitano de Noticias
-#DESCRIPTION Canal Metropolitano de Noticias
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stmv2.voxtvhd.com.br/evavision/evavision/playlist.m3u8:Evavision
-#DESCRIPTION Evavision
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//41.205.70.146/GLOBONEWS/index.m3u8:Globo News
-#DESCRIPTION Globo News
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.livespanel.com/nossatv/nossatv/playlist.m3u8:NTV
-#DESCRIPTION NTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.latinasat.com.br/hls/live/stream/index.m3u8:TV Latina Sat
-#DESCRIPTION TV Latina Sat
+#DESCRIPTION ++NL regionaal & lokaal++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.hansvaneijsden.nl/live/1zwolle.m3u8:1Zwolle TV
+#DESCRIPTION 1Zwolle TV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/3heuvelland:3Heuvelland
+#DESCRIPTION 3Heuvelland
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.fomixmedia.nl/FomixTV/video.m3u8:FomixTV
+#DESCRIPTION FomixTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rrr.sz.xlcdn.com/?account=Hellendoorn&file=Hoi/playlist.m3u8&type=live&service=webdav&protocol=https&output=playlist.m3u8&format=m3u8:HOi TV
+#DESCRIPTION HOi TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//drrpse7bnlzkm.cloudfront.net/nlpo/clr-nlpo/meertelevisie/index.m3u8:MeerTelevisie (Haarlemmermeer)
+#DESCRIPTION MeerTelevisie (Haarlemmermeer)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s100.ipcamlive.com/streams/64e18ea5lbazwf4cg/stream.m3u8:Midvliet TV
+#DESCRIPTION Midvliet TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//almeretv.online/static/streaming-playlists/hls/f0102de0-33a4-4b41-8c1b-c60c47809267/master.m3u8:Omroep Almere
+#DESCRIPTION Omroep Almere
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ms2.mx-cd.net/dtv-02/339-5651079/Omroep_ZVL_TV.smil/playlist.m3u8:Omroep ZVL
+#DESCRIPTION Omroep ZVL
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//server-67.stream-server.nl%3a1936/omroepstichtinguitgeest/omroepstichtinguitgeest/playlist.m3u8:OSU TV (Uitgeest)
+#DESCRIPTION OSU TV (Uitgeest)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vstream.radioenhunze.nl/show/radioaa.m3u8:Radio AA & Hunze
+#DESCRIPTION Radio AA & Hunze
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ms10.mx-cd.net/dtv-11/91-475821/Regio8TV.smil/chunklist_w1491228891_b4292608_slNLD.m3u8:Regio8 / RTV Slingeland
+#DESCRIPTION Regio8 / RTV Slingeland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//cdn-cloudfront.eu-central-1.prod.ingest.aws-infra.dacast.com/live/2f5ab9d1-e8b0-4283-b806-6c8c95409eb5/master.m3u8:RTV Berkelstroom
+#DESCRIPTION RTV Berkelstroom
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rrr.sz.xlcdn.com/?account=RTV_Hattem&file=tvhattem/playlist.m3u8&type=live&service=webdav&protocol=https&output=playlist.m3u8&format=m3u8:RTV Hattem
+#DESCRIPTION RTV Hattem
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video-eu1.streamerr.co/hls/s9994c5b512/live.m3u8:RTV Nunspeet
+#DESCRIPTION RTV Nunspeet
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//highvolume102.streampartner.nl/radiospannenburg/radiospannenburg/playlist.m3u8:RTV Spannenburg
+#DESCRIPTION RTV Spannenburg
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.hansvaneijsden.nl/live/salland1.m3u8:Salland1
+#DESCRIPTION Salland1
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video-eu1.streamerr.co/hls/s7fdeb27a49/live.m3u8:Sleutelstad TV
+#DESCRIPTION Sleutelstad TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rrr.sz.xlcdn.com/?account=Geertruidenberg2&file=SLOGTV/playlist.m3u8&type=live&service=webdav&protocol=https&output=playlist.m3u8&format=m3u8:SLOG TV (Raamsdonksveer en omgeving)
+#DESCRIPTION SLOG TV (Raamsdonksveer en omgeving)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rrr.sz.xlcdn.com/?account=SLOSteenbergen&file=SLOSTV/playlist.m3u8&type=live&service=webdav&protocol=https&output=playlist.m3u8&format=m3u8:SLOS TV (Steenbergen)
+#DESCRIPTION SLOS TV (Steenbergen)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//highvolume112.streampartner.nl/wfm_live/wfm_live/playlist.m3u8?ref=Hoofdwebsite:WFM
+#DESCRIPTION WFM
 #SERVICE 1:64:13c:0:0:0:0:0:0:0:
-#DESCRIPTION ++Canada, provincie British Columbia++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.hc2tv.bj/2/live/stream.m3u8:HC2 TV
-#DESCRIPTION HC2 TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lecteur.iconetv.bj/hls/stream.m3u8:ICONE TV
-#DESCRIPTION ICONE TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playtv4k.live/live/kassouatv/index.m3u8:KassouaTV
-#DESCRIPTION KassouaTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//webtv.lavoixduroutiertv.bj/hls/stream.m3u8:La Voix du Routier TV
-#DESCRIPTION La Voix du Routier TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lnmlive.com/live/lnmtv.m3u8:Le Nouveau Manager TV
-#DESCRIPTION Le Nouveau Manager TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/dbe59037-07a0-4f1c-82a2-7de94b4b62d2/index.m3u8:Speedline TV
-#DESCRIPTION Speedline TV
+#DESCRIPTION ++België nationaal NL talig++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams.radio.dpgmedia.cloud/redirect/willy_be/videohls.m3u8:Willy FM
+#DESCRIPTION Willy FM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.thomasmore.be/elemental_hls/hls_stream.m3u8:ZooMedia
+#DESCRIPTION ZooMedia
 #SERVICE 1:64:13d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Chili++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//v2.tustreaming.cl/enlacebpbtv/index.m3u8:15.1 BPB
-#DESCRIPTION 15.1 BPB
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//us.streaminghd.cl/apocalipsistvd/video.m3u8:Apocalipsis TVD
-#DESCRIPTION Apocalipsis TVD
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-68224482c5d53e1351aaf2f2.m3u8:Canal Claro
-#DESCRIPTION Canal Claro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//s1.radiumcast.top/memfs/674b2d4f-7d6e-49be-9c6c-3094868259d9.m3u8:Diferencia Radio TV
-#DESCRIPTION Diferencia Radio TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ff3d9babae13.streamlock.net/xedkektnqj/xedkektnqj/playlist.m3u8:El 3 de Conce
-#DESCRIPTION El 3 de Conce
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5eaccbab48461.streamlock.net%3a1936/8074/8074/playlist.m3u8:Enfoque Digital TV
-#DESCRIPTION Enfoque Digital TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5ff3d9babae13.streamlock.net/fzkqsdfray/fzkqsdfray/playlist.m3u8:Sextavision
-#DESCRIPTION Sextavision
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sproxy.solotv.cl/hls/live/fhd.m3u8:Solo TV
-#DESCRIPTION Solo TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//verso.coopcom.cl/live/SHf6GLCpn4hDSpWdzaDzgX0ciU82/index.m3u8:Verso TV
-#DESCRIPTION Verso TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5eaccbab48461.streamlock.net%3a1936/8264/8264/playlist.m3u8:Vivo TV
-#DESCRIPTION Vivo TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.wapptv.cl/video/index.m3u8:Wapp
-#DESCRIPTION Wapp
+#DESCRIPTION ++België nationaal FR talig++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8:FIFA+ French
+#DESCRIPTION FIFA+ French
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//foxkidstv.be%3a3369/stream/play.m3u8:Japamin TV
+#DESCRIPTION Japamin TV
 #SERVICE 1:64:13e:0:0:0:0:0:0:0:
-#DESCRIPTION ++Noord-Korea++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//kctv.koryofront.org/stream/index.m3u8:Korean Central Television (KCTV)
-#DESCRIPTION Korean Central Television (KCTV)
+#DESCRIPTION ++webcams radiostations++
+#SERVICE 4097:0:1:17ef:c82:3:eb0000:0:0:0:https%3a//streams.radio.dpgmedia.cloud/redirect/joe_fm/videohls.m3u8:JOE
+#DESCRIPTION JOE
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams.radio.dpgmedia.cloud/redirect/qmusic_be/videohls.m3u8:Qmusic
+#DESCRIPTION Qmusic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams.radio.dpgmedia.cloud/redirect/willy_be/videohls.m3u8:Willy FM
+#DESCRIPTION Willy FM
 #SERVICE 1:64:13f:0:0:0:0:0:0:0:
-#DESCRIPTION ++Peru++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg10.tv360.bitel.com.pe/bitel/abctv/playlist.m3u8:ABC Teleshow
-#DESCRIPTION ABC Teleshow
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg8.tv360.bitel.com.pe/bitel/abctelevisionSRT/playlist.m3u8:ABTelevision
-#DESCRIPTION ABTelevision
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg8.tv360.bitel.com.pe/bitel/agroSRT/playlist.m3u8:Agro TV
-#DESCRIPTION Agro TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg10.tv360.bitel.com.pe/bitel/albriciastv/playlist.m3u8:Albricias TV
-#DESCRIPTION Albricias TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg10.tv360.bitel.com.pe/bitel/urbanatv/playlist.m3u8:Altura TV
-#DESCRIPTION Altura TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-bd1.tv360.bitel.com.pe/manifest/america/master_clean_source.m3u8:America Television
-#DESCRIPTION America Television
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg7.tv360.bitel.com.pe/bitel/andestvSRT/playlist.m3u8:Andes Television
-#DESCRIPTION Andes Television
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg8.tv360.bitel.com.pe/bitel/andinatvSRT/playlist.m3u8:Andina RTV
-#DESCRIPTION Andina RTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg8.tv360.bitel.com.pe/bitel/atlantisSRT/playlist.m3u8:Atlantis Radio TV
-#DESCRIPTION Atlantis Radio TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg8.tv360.bitel.com.pe/bitel/bellaabanquinaSRT/playlist.m3u8:Bella Abanquina TV
-#DESCRIPTION Bella Abanquina TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg8.tv360.bitel.com.pe/bitel/cajamarcatvSRT/playlist.m3u8:Cajamarca TV
-#DESCRIPTION Cajamarca TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg10.tv360.bitel.com.pe/bitel/canal25ayacucho/playlist.m3u8:Canal 25 Ayacucho
-#DESCRIPTION Canal 25 Ayacucho
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg7.tv360.bitel.com.pe/bitel/casmatvSRT-TRA/playlist.m3u8:Casma TV
-#DESCRIPTION Casma TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bantel-cdn1.iptvperu.tv%3a1935/btnscrtn/ipe.stream/playlist.m3u8:Canal IPe
-#DESCRIPTION Canal IPe
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg7.tv360.bitel.com.pe/bitel/pequestv/playlist.m3u8:D2h Kids
-#DESCRIPTION D2h Kids
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg8.tv360.bitel.com.pe/bitel/dactvSRT/playlist.m3u8:Dac TV
-#DESCRIPTION Dac TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg11.tv360.bitel.com.pe/bitel/ecotv/playlist.m3u8:ECO Television
-#DESCRIPTION ECO Television
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg7.tv360.bitel.com.pe/bitel/global_abr/playlist.m3u8:Global TV
-#DESCRIPTION Global TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg5.tv360.bitel.com.pe/bitel/imperialSRT/playlist.m3u8:Imperial Television
-#DESCRIPTION Imperial Television
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg5.tv360.bitel.com.pe/bitel/inkavisionSRT/playlist.m3u8:Inkavision
-#DESCRIPTION Inkavision
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg5.tv360.bitel.com.pe/bitel/mediatv/playlist.m3u8:Media TV
-#DESCRIPTION Media TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg5.tv360.bitel.com.pe/bitel/monitortvSRT/playlist.m3u8:Mitos TV
-#DESCRIPTION Mitos TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg7.tv360.bitel.com.pe/bitel/neotvSRT/playlist.m3u8:Neo TV
-#DESCRIPTION Neo TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg5.tv360.bitel.com.pe/bitel/onda/playlist.m3u8:Onda TV
-#DESCRIPTION Onda TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//vps.chasquirouter.com/salida/ozono.m3u8:Ozono
-#DESCRIPTION Ozono
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg7.tv360.bitel.com.pe/bitel/piuratvSRT/playlist.m3u8:Piura TV
-#DESCRIPTION Piura TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg8.tv360.bitel.com.pe/bitel/planeatvSRT/playlist.m3u8:Planea TV
-#DESCRIPTION Planea TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg5.tv360.bitel.com.pe/bitel/qosqo/playlist.m3u8:Qosqo Times
-#DESCRIPTION Qosqo Times
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg7.tv360.bitel.com.pe/bitel/riku/playlist.m3u8:Riku TV
-#DESCRIPTION Riku TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg11.tv360.bitel.com.pe/bitel/solartvSRT/playlist.m3u8:Solar Television
-#DESCRIPTION Solar Television
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg8.tv360.bitel.com.pe/bitel/studiotvhuanta/playlist.m3u8:Sqala TV
-#DESCRIPTION Sqala TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg7.tv360.bitel.com.pe/bitel/telecentro/playlist.m3u8:TeleCentro
-#DESCRIPTION TeleCentro
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg11.tv360.bitel.com.pe/bitel/telelimaSRT/playlist.m3u8:Telelima
-#DESCRIPTION Telelima
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg5.tv360.bitel.com.pe/bitel/telesystemSRT/playlist.m3u8:Telesystem TV
-#DESCRIPTION Telesystem TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg11.tv360.bitel.com.pe/bitel/tevesurSRT/playlist.m3u8:Tevesur
-#DESCRIPTION Tevesur
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg5.tv360.bitel.com.pe/bitel/tvnorte/playlist.m3u8:TV Norte Chiclayo
-#DESCRIPTION TV Norte Chiclayo
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg11.tv360.bitel.com.pe/bitel/tvchincha/playlist.m3u8:TV+ Chincha
-#DESCRIPTION TV+ Chincha
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg11.tv360.bitel.com.pe/bitel/wayratv/playlist.m3u8:Wayra TV
-#DESCRIPTION Wayra TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg7.tv360.bitel.com.pe/bitel/willax_abr/playlist.m3u8:Willax TV\\\
-#DESCRIPTION Willax TV\\\
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-evg7.tv360.bitel.com.pe/bitel/ncanalSRT/playlist.m3u8:Wtv
-#DESCRIPTION Wtv
+#DESCRIPTION ++Twitch, niet altijd online!++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/3heuvelland:1Z - 3Heuvelland
+#DESCRIPTION 1Z - 3Heuvelland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/ster_in_twente:Ster in Twente
+#DESCRIPTION Ster in Twente
 #SERVICE 1:64:140:0:0:0:0:0:0:0:
-#DESCRIPTION +++AUDIO/RADIO-STREAMS+++
+#DESCRIPTION ++YouTube NL - NH++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCnovjp6ZzS0AaN60VGQzlng&autoplay=1:IJ-cam (vrij tot di van 13.30 tot 22.00 uur)
+#DESCRIPTION IJ-cam (vrij tot di van 13.30 tot 22.00 uur)
 #SERVICE 1:64:141:0:0:0:0:0:0:0:
-#DESCRIPTION ++NL nationaal++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//talkradio.streaming.deliver.media/talkradio_mp3_192:TalkRadio
-#DESCRIPTION TalkRadio
+#DESCRIPTION ++YT/NL, achteraan, openbaar vervoer++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/IWVTo0oyilM?channel=UCn4oQ60oxfvq7aesEPYqpKw&autoplay=1:Meteren - Zuidwestboog (Cam 1) 
+#DESCRIPTION Meteren - Zuidwestboog (Cam 1) 
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/r7XrTj2tpM8?channel=UCn4oQ60oxfvq7aesEPYqpKw&autoplay=1:Meteren - Zuidwestboog (Cam 2) 
+#DESCRIPTION Meteren - Zuidwestboog (Cam 2) 
 #SERVICE 1:64:142:0:0:0:0:0:0:0:
-#DESCRIPTION ++NL regionaal en lokaal++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.alltimehits.eu/listen.mp3:All Time Hits (Dalfsen)
-#DESCRIPTION All Time Hits (Dalfsen)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//omroeplandsmeer.beheerstream.nl%3a8020/stream:LOL Radio (Landsmeer)
-#DESCRIPTION LOL Radio (Landsmeer)
+#DESCRIPTION ++YouTube - niatuur++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/jA0O59m9OTA:Is the Universe Dying — And Are We Living in Its Darkest Chapter?
+#DESCRIPTION Is the Universe Dying — And Are We Living in Its Darkest Chapter?
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/6g4Fh8K-MhY:LIVE from Subaru telescope NAOJ, Hawaii
+#DESCRIPTION LIVE from Subaru telescope NAOJ, Hawaii
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/WCvtgdYhL_4:Mars LIVE STREAM – Footage of Mars Live!
+#DESCRIPTION Mars LIVE STREAM – Footage of Mars Live!
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/9ePywE1RX34:Our Universe A Journey into Mystery
+#DESCRIPTION Our Universe A Journey into Mystery
 #SERVICE 1:64:143:0:0:0:0:0:0:0:
-#DESCRIPTION ++NL Piratenmuziek++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radio-edelweiss.nl/live:Radio Edelweiss
-#DESCRIPTION Radio Edelweiss
+#DESCRIPTION ++Stream Muziek++
+#SERVICE 4097:0:1:8e:1644:13e:dddd0000:0:0:0:https%3a//hls.vantagetv.ee/vclassic_stream/main_stream.m3u8:Vantage Classic
+#DESCRIPTION Vantage Classic
 #SERVICE 1:64:144:0:0:0:0:0:0:0:
-#DESCRIPTION ++Duitsland++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3:Deutschlandradio
-#DESCRIPTION Deutschlandradio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3:Deutschlandfunk Kultur
-#DESCRIPTION Deutschlandfunk Kultur
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d111.rndfnk.com/ard/dlf/03/mp3/128/stream.mp3?aggregator=web&cid=01FBPXNCN1ZWEVWJYXG6ZP2TVH&sid=3HPBo0ZTiloXWix5A2GGNrTbniQ&token=_NdG1TsMQhrcwMwKmqsujte9RZ-xqpp0Lyq0iu5ywJ0&tvf=zqFyG-ZeyBhkMTExLnJuZGZuay5jb20:Deutschlandfunk Nova
-#DESCRIPTION Deutschlandfunk Nova
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radiostreamserver.de/listen/radiomkw/radio-mkw.mp3:Radio OH.FM (Osthessen)
-#DESCRIPTION Radio OH.FM (Osthessen)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio21.streamabc.net/radio21-mainz-mp3-192-5314942:Rockland Radio national
-#DESCRIPTION Rockland Radio national
+#DESCRIPTION ++Stream Religie++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d21whttqv10k72.cloudfront.net/out/v1/e66102d2f34c4b2994f586d0923fa243/index.m3u8:CGNTV America
+#DESCRIPTION CGNTV America
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8:CGNTV Chinese
+#DESCRIPTION CGNTV Chinese
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d166stuqcnudko.cloudfront.net/out/v1/e4ce9f30dfdb40b5aa9b3f2498981e28/index.m3u8:CGNTV Japan
+#DESCRIPTION CGNTV Japan
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8:CGNTV Japan (#)
+#DESCRIPTION CGNTV Japan (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dsk1q8myiu3r0.cloudfront.net/out/v1/1e2bf6fbb462491e9f24739c4e0aa28e/index.m3u8:CGNTV Korea
+#DESCRIPTION CGNTV Korea
 #SERVICE 1:64:145:0:0:0:0:0:0:0:
-#DESCRIPTION ++UK - Engeland++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n14-eu.rcs.revma.com/cv2dh8bw5znwv:Angel Radio
-#DESCRIPTION Angel Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen-blackcountryradio.sharp-stream.com/blackcountryradio.mp3:Black Country Radio
-#DESCRIPTION Black Country Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen-blackcountryglobal.sharp-stream.com/bcrxtra.mp3:Black Country Xtra
-#DESCRIPTION Black Country Xtra
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//solid48.streamupsolutions.com/proxy/neivwtxt/stream:Fresh Soundz Radio
-#DESCRIPTION Fresh Soundz Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ukwesta.streaming.broadcast.radio/thisisthecoast:This is the Coast (Yorkshire)
-#DESCRIPTION This is the Coast (Yorkshire)
+#DESCRIPTION ++Estland++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-fi2.lulzy.eu/vclassic_720/index.m3u8:Vantage Classic
+#DESCRIPTION Vantage Classic
 #SERVICE 1:64:146:0:0:0:0:0:0:0:
-#DESCRIPTION ++Duitse schlagers++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radio-edelweiss.nl/live:Radio Edelweiss
-#DESCRIPTION Radio Edelweiss
+#DESCRIPTION ++Letland, onder andere...++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lsm.eu.cdns-redge.media/livehls/o2/lsm-live/live/visiem_ltv/live.livx/playlist.m3u8:Visiem LTV
+#DESCRIPTION Visiem LTV
 #SERVICE 1:64:147:0:0:0:0:0:0:0:
-#DESCRIPTION ++Balkan++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//solid1.streamupsolutions.com/proxy/qvggnshe/stream:Suton Radio
-#DESCRIPTION Suton Radio
+#DESCRIPTION +++AUDIO/RADIO-STREAMS+++
 #SERVICE 1:64:148:0:0:0:0:0:0:0:
-#DESCRIPTION ++Canada, St. John's (Newfoundland)++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//coast-broadcasting-limited.streamb.live/SB00357:CKSJ - Coast FM
-#DESCRIPTION CKSJ - Coast FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ozfm.streamb.live/SB00174:OZFM
-#DESCRIPTION OZFM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//newcap.leanstream.co/VOCMAM:VOCM 590 AM
-#DESCRIPTION VOCM 590 AM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//c21.radioboss.fm%3a8193/stream:VOWR AM 800
-#DESCRIPTION VOWR AM 800
+#DESCRIPTION ++NL nationaal++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//19993.live.streamtheworld.com/GRAND_PRIX_RADIOAAC.aac:GPR Sportradio
+#DESCRIPTION GPR Sportradio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.hollandhit.nl/stream1:HollandHit
+#DESCRIPTION HollandHit
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22673.live.streamtheworld.com/SERVICE07AAC.aac:Jolene Country Radio
+#DESCRIPTION Jolene Country Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22353.live.streamtheworld.com/SERVICE07AAC.aac:Jolene Country Radio
+#DESCRIPTION Jolene Country Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.omroep.nl/radio6-bb-mp3:NPO Politiek & Nieuws 
+#DESCRIPTION NPO Politiek & Nieuws 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//28973.live.streamtheworld.com/TLPSTR04.mp3:Radio 10 - Soul & Jazz
+#DESCRIPTION Radio 10 - Soul & Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR04.mp3:Radio 10 - Soul & Jazz (#)
+#DESCRIPTION Radio 10 - Soul & Jazz (#)
 #SERVICE 1:64:149:0:0:0:0:0:0:0:
-#DESCRIPTION ++Frankrijk++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio4.pro-fhi.net/listen-lkjhqebq-stream.mp3:Canal Funk
-#DESCRIPTION Canal Funk
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rfimonde64k.ice.infomaniak.ch/rfimonde-64.mp3:RFI Monde en direct
-#DESCRIPTION RFI Monde en direct
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rfican2025.ice.infomaniak.ch/rfican2025-64.mp3:RFI Afrique en direct
-#DESCRIPTION RFI Afrique en direct
+#DESCRIPTION ++NL regionaal en lokaal++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.1zwolle.nl/1zwolle:1Zwolle
+#DESCRIPTION 1Zwolle
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//airstationplus.com/alphen.mp3:AIR Station Plus
+#DESCRIPTION AIR Station Plus
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.amsterdamsmostwanted.nl/stream.mp3:AMW (Amsterdam Most Wanted)
+#DESCRIPTION AMW (Amsterdam Most Wanted)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mcp.stream-provider.nl%3a8002/stream:Hitsjagersteam
+#DESCRIPTION Hitsjagersteam
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//proxy.live-streams.nl/paprikatastyradio:Hortibiz Newsradio
+#DESCRIPTION Hortibiz Newsradio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radlqowi.beheerstream.nl%3a8034/stream:Midvlied Radio (Leidschendam-Voorburg/Wassenaar)
+#DESCRIPTION Midvlied Radio (Leidschendam-Voorburg/Wassenaar)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ms7.mx-cd.net/dradio-02/339-5651063/Omroep_ZVL_Radio.smil/playlist.m3u8:Omroep ZVL
+#DESCRIPTION Omroep ZVL
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.rtvrondevenen.nl%3a8443/live:RTV Stichtse Vecht
+#DESCRIPTION RTV Stichtse Vecht
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamapi.radio.fomixmedia.nl/listen/rwnd/stream.mp3:RWND!FM
+#DESCRIPTION RWND!FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.twentefm.nl/:Twente FM
+#DESCRIPTION Twente FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.cloudrad.io/aabc3436/live:WFM (Walcheren)
+#DESCRIPTION WFM (Walcheren)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//qxjr001.digiplay.nl/stream/9140/stream/1/:WieKent Gouda 
+#DESCRIPTION WieKent Gouda 
 #SERVICE 1:64:14a:0:0:0:0:0:0:0:
-#DESCRIPTION ++Saint-Pierre et Miquelon++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioarchipelfm.ice.infomaniak.ch/radioarchipelfm-64.mp3:Archipel FM
-#DESCRIPTION Archipel FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s7.voscast.com%3a10433/stream#mp4:Radio Atlantique
-#DESCRIPTION Radio Atlantique
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//saint-pierreetmiquelon.ice.infomaniak.ch/saint-pierreetmiquelon-128.mp3:Saint-Pierre et Miquelon 1ere FM
-#DESCRIPTION Saint-Pierre et Miquelon 1ere FM
+#DESCRIPTION ++Duitsland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.alpenwelle.de/alpenwelle128:Alpenwelle
+#DESCRIPTION Alpenwelle
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mpc1.mediacp.eu%3a8400/alpin_mobil:Alpin FM (Rosenheim)
+#DESCRIPTION Alpin FM (Rosenheim)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//bayernwelle.stream18.radiohost.de/bayernwelle-bgl_mp3-192:Bayernwelle
+#DESCRIPTION Bayernwelle
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s1-webradio.chillout.de/chillout-antenne-bayern/stream/mp3:chillout antenne
+#DESCRIPTION chillout antenne
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge82.streamonkey.net/donau3fm-live/stream/mp3:Donau 3 FM
+#DESCRIPTION Donau 3 FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s13.streamingcloud.online%3a36366/stream:EifelDrei.radio
+#DESCRIPTION EifelDrei.radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hr-radio.ard-mcdn.de/hr/radio/hrinfo/hls/192/seglist.m3u8:HR - hr INFO
+#DESCRIPTION HR - hr INFO
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d121.rndfnk.com/ard/hr/hr1/mittelhessen/mp3/128/stream.mp3?cid=01GQPMJTPMV8ASGMGSF47YWE92&sid=3I0ACWL2SOW9fxdxN8rOKdgmX8F&token=E6NOL25Sopx6A3FaklGjKaqmgyFRTKFIvWVKe_0dekc&tvf=5Sk2ModjzBhkMTIxLnJuZGZuay5jb20:HR - hr1 Mittelhessen
+#DESCRIPTION HR - hr1 Mittelhessen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d131.rndfnk.com/ard/hr/hr1/nordhessen/mp3/128/stream.mp3?cid=01GQPNN8MYF389DR9G2C6S8C3X&sid=3I09wd4GSnVyhxegG678JIDWrDI&token=c7gfhjOjueoudrqLXqiOrjwij4dHld1u2a3PR59cBas&tvf=y5JpwWljzBhkMTMxLnJuZGZuay5jb20:HR - hr1 Nordhessen
+#DESCRIPTION HR - hr1 Nordhessen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d131.rndfnk.com/ard/hr/hr1/osthessen/mp3/128/stream.mp3?cid=01GQPNQK22FQ7PJDD88NFFWQ1Z&sid=3I0A2FaR5XRRPteAg2aJxase1tS&token=yMtGw-fBv_Dpk2-u4IVU_ySi27ChlVaUBeyRweqsJwc&tvf=bPkQBHRjzBhkMTMxLnJuZGZuay5jb20:HR - hr1 Osthessen
+#DESCRIPTION HR - hr1 Osthessen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f111.rndfnk.com/ard/hr/hr1/live/mp3/128/stream.mp3?cid=01FBPYE99NY0MWPAFS4G4JG4TV&sid=3I0AIAgH6TqQg31lF9rR2HXAA6e&token=3xU0zLYtYeqEW8jA_hCsT6oKi_IxC5sfOwph5zTrYQI&tvf=aEqKtJFjzBhmMTExLnJuZGZuay5jb20:HR - hr1 Rhein-Main 
+#DESCRIPTION HR - hr1 Rhein-Main 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f111.rndfnk.com/ard/hr/hr1/suedhessen/mp3/128/stream.mp3?cid=01GQPNVVK7A8E0FB89YS3YFXSA&sid=3I0ANyO0ZPMlofHPK1wrXqwG3om&token=CXZVLIaAoG-sEDlqw72eTSY6somxkYRgQHlqjbH0dcs&tvf=1JWLbpxjzBhmMTExLnJuZGZuay5jb20:HR - hr1 Südhessen 
+#DESCRIPTION HR - hr1 Südhessen 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/hr/hr2/live/mp3/high:HR - hr2-kultur
+#DESCRIPTION HR - hr2-kultur
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hr-radio.ard-mcdn.de/hr/radio/hr3rm/hls/192/seglist.m3u8:HR - hr3 Rhein-Main
+#DESCRIPTION HR - hr3 Rhein-Main
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hr-radio.ard-mcdn.de/hr/radio/hr4rm/hls/192/seglist.m3u8:HR - hr4 Rhein-Main
+#DESCRIPTION HR - hr4 Rhein-Main
+#SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:http%3a//icepool.silvacast.com/CLASSICAL102.mp3:Klassik 1 
+#DESCRIPTION Klassik 1 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-streaming.jsc-service.com/smb-main-256:MKR Kirchenradio (München)
+#DESCRIPTION MKR Kirchenradio (München)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s17.myradiostream.com%3a10938/stream/2/stream:Radio Charivari - Rosenheim
+#DESCRIPTION Radio Charivari - Rosenheim
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radioisw.icecaststream.de/stream/radioisw:Radio ISW
+#DESCRIPTION Radio ISW
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiooberland.stream47.radiohost.de/radiooberland-live_mp3-192:Radio Oberland
+#DESCRIPTION Radio Oberland
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge84.stream.radio-plassenburg.de/radio-plassenburg:Radio Plassenburg
+#DESCRIPTION Radio Plassenburg
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge64.stream.primavera24.de/primavera24-radioprimavera/stream/aacp:Radio Primavera
+#DESCRIPTION Radio Primavera
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.radio-r.net/radio-r:Radio Rüsseisheim
+#DESCRIPTION Radio Rüsseisheim
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s35.derstream.net/radioschwaben-aac.mp3:Radio Schwaben
+#DESCRIPTION Radio Schwaben
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//vmg.streamabc.net/117-rocklandfmsimulcast-mp3-192-9345251:Rockland Radio
+#DESCRIPTION Rockland Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge82.streamonkey.net/rt1-ch01/stream/mp3:RT1 Memmingen
+#DESCRIPTION RT1 Memmingen
 #SERVICE 1:64:14b:0:0:0:0:0:0:0:
-#DESCRIPTION ++Polen++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//vega.streamerr.co/listen/bouncenew/streamhd:Bounce Radio
-#DESCRIPTION Bounce Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream4.nadaje.com%3a10185/radio:Dewuradio
-#DESCRIPTION Dewuradio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s1.slotex.pl%3a7424/stream/1/?sid=1:Radio Andrychów
-#DESCRIPTION Radio Andrychów
+#DESCRIPTION ++UK algemeen++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s30.radiolize.com/radio/8060/radio.mp3:Ambition Radio
+#DESCRIPTION Ambition Radio
 #SERVICE 1:64:14c:0:0:0:0:0:0:0:
-#DESCRIPTION ++Tsjechië++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast2.play.cz/blackfm-radio-192.mp3:Black FM
-#DESCRIPTION Black FM
+#DESCRIPTION ++UK eilanden++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//thevisitorchannel.co.uk/iow:Isle of Wight Tourist Radio
+#DESCRIPTION Isle of Wight Tourist Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//my4.radiolize.com/radio/8150/radio.mp3:Liskeard & Looe Radio
+#DESCRIPTION Liskeard & Looe Radio
 #SERVICE 1:64:14d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Zweden++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//abtvlive-lh.akamaized.net/hls/live/msl5/20001068/ab/radio/master.m3u8:Radio Aftenbladet
-#DESCRIPTION Radio Aftenbladet
+#DESCRIPTION ++UK - Engeland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.canstream.co.uk%3a8146/live.mp3:Forest FM (East Dorset + Western New Forest)
+#DESCRIPTION Forest FM (East Dorset + Western New Forest)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//my4.radiolize.com/radio/8150/radio.mp3:Liskeard & Looe Radio
+#DESCRIPTION Liskeard & Looe Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//uksoutha.streaming.broadcast.radio/meridian1:Meridiaan 1 (Melbourne)
+#DESCRIPTION Meridiaan 1 (Melbourne)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//noods-radio.radiocult.fm/stream:Noods Radio (Bristol)
+#DESCRIPTION Noods Radio (Bristol)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.streamaudio.co/proxy/hcr/stream:Ouse Valley Radio (Huntingdonshire)
+#DESCRIPTION Ouse Valley Radio (Huntingdonshire)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiodawn.radioca.st/stream:Radio Dawn (Nottingham)
+#DESCRIPTION Radio Dawn (Nottingham)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream4.hippynet.co.uk%3a8002/stream?_=971857:Seahaven FM (Eastborne)
+#DESCRIPTION Seahaven FM (Eastborne)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream1.hippynet.co.uk%3a8107/stream?_=447040:Seahaven FM (Ouse Valley)
+#DESCRIPTION Seahaven FM (Ouse Valley)
 #SERVICE 1:64:14e:0:0:0:0:0:0:0:
-#DESCRIPTION ++Zwitserland++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.gds.fm/main.mp3:GDS.FM
-#DESCRIPTION GDS.FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//100chorales.ice.infomaniak.ch/100chorales-128.aac:GVFM 100%25 Chorales
-#DESCRIPTION GVFM 100% Chorales
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//gvfm.ice.infomaniak.ch/gvfm-64.mp3:GVFM la Radio du Gros-de-Vaud
-#DESCRIPTION GVFM la Radio du Gros-de-Vaud
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//gvfm.ice.infomaniak.ch/romandie.aac:GVFM la Romandie
-#DESCRIPTION GVFM la Romandie
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.looseantenna.fm%3a8000/default.mp3:Loose Antenna
-#DESCRIPTION Loose Antenna
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//maxxima.mine.nu/maxxima.mp3:Maxxima
-#DESCRIPTION Maxxima
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n0b.radiojar.com/4dy80ayp5gruv:Pinoyofw FM101 Radio
-#DESCRIPTION Pinoyofw FM101 Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//piratenradioch.ice.infomaniak.ch/piratenradioch-128.mp3:Piratenradio
-#DESCRIPTION Piratenradio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//pureglowradio.ice.infomaniak.ch/pureglowradio.mp3:Pure Glow Radio
-#DESCRIPTION Pure Glow Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//solid67.streamupsolutions.com/proxy/eyprxrqz:Queer Radio
-#DESCRIPTION Queer Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radio1.ch/128k:Radio 1 Zürich
-#DESCRIPTION Radio 1 Zürich
-#SERVICE 4097:0:1:b:2:6:0:0:0:0:https%3a//s2.radio.co/s30b10d574/listen:Radio AI@EDU
-#DESCRIPTION Radio AI@EDU
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-rcentral-mp3-192-5577010:Radio Central
-#DESCRIPTION Radio Central
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//yesfm.ice.infomaniak.ch/yesfm-high.aac:Radio Lac
-#DESCRIPTION Radio Lac
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-rm-mp3-192-7754268:Radio Melody
-#DESCRIPTION Radio Melody
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-pilatus-mp3-128-2642381:Radio Pilatus
-#DESCRIPTION Radio Pilatus
+#DESCRIPTION ++Country++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22673.live.streamtheworld.com/SERVICE07AAC.aac:Jolene Country Radio
+#DESCRIPTION Jolene Country Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22353.live.streamtheworld.com/SERVICE07AAC.aac:Jolene Country Radio
+#DESCRIPTION Jolene Country Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//teakmedia-1.streaming.deliver.media/thestage_mp3_192:The Stage
+#DESCRIPTION The Stage
+#SERVICE 1:64:14f:0:0:0:0:0:0:0:
+#DESCRIPTION ++Jazz + Soul++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//28973.live.streamtheworld.com/TLPSTR04.mp3:Radio 10 - Soul & Jazz
+#DESCRIPTION Radio 10 - Soul & Jazz
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR04.mp3:Radio 10 - Soul & Jazz (#)
+#DESCRIPTION Radio 10 - Soul & Jazz (#)
+#SERVICE 1:64:150:0:0:0:0:0:0:0:
+#DESCRIPTION ++Klassiek++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//i.mjh.nz/.r/radio-abc-classic2.m3u8:Classic 2 Radio
+#DESCRIPTION Classic 2 Radio
+#SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:http%3a//icepool.silvacast.com/CLASSICAL102.mp3:Klassik 1 
+#DESCRIPTION Klassik 1 
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//uk2.streamingpulse.com/ssl/vcr1:Venice Classic Radio - Auditorium
+#DESCRIPTION Venice Classic Radio - Auditorium
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//uk2.streamingpulse.com/ssl/vcr2:Venice Classic Radio - Live
+#DESCRIPTION Venice Classic Radio - Live
+#SERVICE 1:64:151:0:0:0:0:0:0:0:
+#DESCRIPTION ++nieuws NL++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//proxy.live-streams.nl/paprikatastyradio:Hortibiz Newsradio
+#DESCRIPTION Hortibiz Newsradio
+#SERVICE 1:64:152:0:0:0:0:0:0:0:
+#DESCRIPTION ++Albanië++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-57.zeno.fm/1kmwfseauwzuv:Albradio
+#DESCRIPTION Albradio
+#SERVICE 1:64:153:0:0:0:0:0:0:0:
+#DESCRIPTION Antigua en Barbuda (AG)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s1.voscast.com%3a9345/stream:ABS
+#DESCRIPTION ABS
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice25.securenetsystems.net/CRL:Caribbean Radio Lighthouse AM 1160
+#DESCRIPTION Caribbean Radio Lighthouse AM 1160
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//usa10.fastcast4u.com%3a3250/;:Consushness Radio
+#DESCRIPTION Consushness Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//usa6.fastcast4u.com/proxy/flavafm?mp=/1:Flava 100.7 FM
+#DESCRIPTION Flava 100.7 FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s1.voscast.com%3a11077/stream:Nice FM Radio 104.3 FM
+#DESCRIPTION Nice FM Radio 104.3 FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//testvibz-silcomwireless.radioca.st/stream.mp3:VibzFM HD 92.9
+#DESCRIPTION VibzFM HD 92.9
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s7.voscast.com%3a10053/stream:ZDK Liberty FM 97.1
+#DESCRIPTION ZDK Liberty FM 97.1
+#SERVICE 1:64:154:0:0:0:0:0:0:0:
+#DESCRIPTION ++Australië++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//i.mjh.nz/.r/radio-abc-classic2.m3u8:Classic 2 Radio
+#DESCRIPTION Classic 2 Radio
+#SERVICE 5002:0:2:0:0:0:0:0:0:0:https%3a//i.mjh.nz/.r/radio-abc-triplej.m3u8:triple j radio
+#DESCRIPTION triple j radio
+#SERVICE 5002:0:2:0:0:0:0:0:0:0:https%3a//i.mjh.nz/.r/radio-abc-h100.m3u8:triple j Hottest radio
+#DESCRIPTION triple j Hottest radio
+#SERVICE 5002:0:2:0:0:0:0:0:0:0:https%3a//i.mjh.nz/.r/radio-abc-unearthed.m3u8:triple j Unearthed radio
+#DESCRIPTION triple j Unearthed radio
+#SERVICE 5002:0:2:0:0:0:0:0:0:0:https%3a//i.mjh.nz/.r/radio-abc-ra.m3u8:Radio Australia
+#DESCRIPTION Radio Australia
+#SERVICE 5002:0:2:0:0:0:0:0:0:0:https%3a//i.mjh.nz/.r/radio-abc-rn.m3u8:Radio National
+#DESCRIPTION Radio National
+#SERVICE 1:64:155:0:0:0:0:0:0:0:
+#DESCRIPTION ++Frankrijk++
 #SERVICE 4097:0:2:0:2:6:0:0:0:0:https%3a//rcast.pro-fhi.net/stream/radiosouvenir-1:Radio Souvenir
 #DESCRIPTION Radio Souvenir
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//chmedia.streamabc.net/79-rsunshine-mp3-192-4746851:Radio Sunshine
-#DESCRIPTION Radio Sunshine
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/413467/stream/467686:RFB Radio Frequence Bleue
-#DESCRIPTION RFB Radio Frequence Bleue
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rhonefm.ice.infomaniak.ch/rhonefm-high.mp3:RhoneFM
-#DESCRIPTION RhoneFM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//traxx021.ice.infomaniak.ch/traxx021-1.mp3?.mp3:Traxx FM Italia
-#DESCRIPTION Traxx FM Italia
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//uzic.ice.infomaniak.ch/uzic-128.aac:UZIC
-#DESCRIPTION UZIC
+#SERVICE 1:64:156:0:0:0:0:0:0:0:
+#DESCRIPTION ++Ierland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.audioxi.com/98:98FM
+#DESCRIPTION 98FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.audioxi.com/SP:Spin 103.8
+#DESCRIPTION Spin 103.8
+#SERVICE 1:64:157:0:0:0:0:0:0:0:
+#DESCRIPTION ++Italië++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice03.fluidstream.net/onedancech.mp3:1ne Dance
+#DESCRIPTION 1ne Dance
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamcdnb3-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8:Deejay
+#DESCRIPTION Deejay
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.unitedradio.it/r101_mp3:R 101
+#DESCRIPTION R 101
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ilsole24ore-radio.akamaized.net/hls/live/2035301/radio24/playlist-64000.m3u8:Radio 24
+#DESCRIPTION Radio 24
+#SERVICE 1:64:158:0:0:0:0:0:0:0:
+#DESCRIPTION ++Portugal++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//uk2.streamingpulse.com/ssl/radioavfm:AVFM
+#DESCRIPTION AVFM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-hls.bauermedia.pt/batidafm.aac/playlist.m3u8:batida.fm
+#DESCRIPTION batida.fm
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//centova.radios.pt%3a9522:Nove3Cinco
+#DESCRIPTION Nove3Cinco
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//uk2.streamingpulse.com/ssl/vcr1:Venice Classic Radio - Auditorium
+#DESCRIPTION Venice Classic Radio - Auditorium
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//uk2.streamingpulse.com/ssl/vcr2:Venice Classic Radio - Live
+#DESCRIPTION Venice Classic Radio - Live
+#SERVICE 1:64:159:0:0:0:0:0:0:0:
+#DESCRIPTION ++Slovenië++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//138.201.52.248%3a8030/stream:Radio Odiseja
+#DESCRIPTION Radio Odiseja
+#SERVICE 1:64:15a:0:0:0:0:0:0:0:
+#DESCRIPTION ++Slowakije++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.stv.livebox.sk/slovensko_128.mp3:SR -  rádio Slovensko
+#DESCRIPTION SR -  rádio Slovensko
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.slovakradio.sk%3a8000/Devin_128.mp3:SR - rádio  Devín
+#DESCRIPTION SR - rádio  Devín
+#SERVICE 4097:0:2:81:0:0:0:0:0:0:http%3a//live.slovakradio.sk%3a8000/FM_128.mp3:SR - rádio FM
+#DESCRIPTION SR - rádio FM
+#SERVICE 4097:0:2:93:0:0:0:0:0:0:https%3a//icecast.stv.livebox.sk/regina-bb_128.mp3:SR - rádio Regina Stred
+#DESCRIPTION SR - rádio Regina Stred
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.stv.livebox.sk/regina-ke_128.mp3:SR - rádio Regina Východ
+#DESCRIPTION SR - rádio Regina Východ
+#SERVICE 4097:0:2:93:0:0:0:0:0:0:https%3a//icecast.stv.livebox.sk/regina-ba_128.mp3:SR - rádio Regina Západ
+#DESCRIPTION SR - rádio Regina Západ
+#SERVICE 4097:0:2:93:0:0:0:0:0:0:https%3a//icecast.stv.livebox.sk/rsi_128.mp3:SR - rádio Slovika International
+#DESCRIPTION SR - rádio Slovika International
+#SERVICE 4097:0:2:89:0:0:0:0:0:0:http%3a//live.slovakradio.sk%3a8000/Junior_128.mp3:SR- rádio Junior
+#DESCRIPTION SR- rádio Junior
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.slovakradio.sk%3a8000/Litera_128.mp3:SR- rádio Litera
+#DESCRIPTION SR- rádio Litera
+#SERVICE 4097:0:2:83:0:0:0:0:0:0:http%3a//live.slovakradio.sk%3a8000/Patria_128.mp3:SR- rádio Patria
+#DESCRIPTION SR- rádio Patria
+#SERVICE 1:64:15b:0:0:0:0:0:0:0:
+#DESCRIPTION ++Zwitserland++ van 132 naar 301 omroepen! Nieuw o.a.
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//teakmedia-1.streaming.deliver.media/thestage_mp3_192:The Stage
+#DESCRIPTION The Stage

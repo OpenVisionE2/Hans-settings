@@ -1,5 +1,5 @@
 #NAME Stream UK - BBC worldwide
-#SERVICE 1:64:18d0:0:0:0:0:0:0:0:
+#SERVICE 1:64:17f1:0:0:0:0:0:0:0:
 #DESCRIPTION ++BBC nationaal++
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio=320000.norewind.m3u8:BBC Radio 1
 #DESCRIPTION BBC Radio 1
@@ -49,7 +49,7 @@
 #DESCRIPTION BBC Radio Cymru
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_98610936/live/ww/bbc_radio_cymru_2/bbc_radio_cymru_2.isml/bbc_radio_cymru_2-audio=320000.norewind.m3u8:BBC Radio Cymru 2
 #DESCRIPTION BBC Radio Cymru 2
-#SERVICE 1:64:18d1:0:0:0:0:0:0:0:
+#SERVICE 1:64:17f2:0:0:0:0:0:0:0:
 #DESCRIPTION ++BBC UK Local Stations++
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_64162474/live/ww/bbc_radio_berkshire/bbc_radio_berkshire.isml/bbc_radio_berkshire-audio=320000.norewind.m3u8:BBC Radio Berkshire
 #DESCRIPTION BBC Radio Berkshire
@@ -133,7 +133,7 @@
 #DESCRIPTION BBC Radio WM
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_90848428/live/ww/bbc_radio_york/bbc_radio_york.isml/bbc_radio_york-audio=320000.norewind.m3u8:BBC Radio York
 #DESCRIPTION BBC Radio York
-#SERVICE 1:64:18d2:0:0:0:0:0:0:0:
+#SERVICE 1:64:17f3:0:0:0:0:0:0:0:
 #DESCRIPTION ++BBC International++
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio=320000.norewind.m3u8:BBC World Service
 #DESCRIPTION BBC World Service
@@ -159,6 +159,8 @@
 #DESCRIPTION BBC Amharic Radio
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_27085945/live/ww/bbc_arabic_radio/bbc_arabic_radio.isml/bbc_arabic_radio-audio=320000.norewind.m3u8:BBC Arabic Radio
 #DESCRIPTION BBC Arabic Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//lsn.lv/bbcradio.m3u8?station=bbc_asian_network&bitrate=320000:BBC Asian Network
+#DESCRIPTION BBC Asian Network
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_55314554/live/ww/bbc_burmese_radio/bbc_burmese_radio.isml/bbc_burmese_radio-audio=320000.norewind.m3u8:BBC Burmese Radio
 #DESCRIPTION BBC Burmese Radio
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_75395052/live/ww/bbc_dari_radio/bbc_dari_radio.isml/bbc_dari_radio-audio=320000.norewind.m3u8:BBC Dari Radio
@@ -171,15 +173,15 @@
 #DESCRIPTION BBC Korean Radio
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_67752688/live/ww/bbc_nepali_radio/bbc_nepali_radio.isml/bbc_nepali_radio-audio=320000.norewind.m3u8:BBC Nepali Radio
 #DESCRIPTION BBC Nepali Radio
-#SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_08482226/live/ww/bbc_oromo_radio/bbc_oromo_radio.isml/bbc_oromo_radio-audio=320000.norewind.m3u8:Oduu BBC Afaan Oromoo
-#DESCRIPTION Oduu BBC Afaan Oromoo
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_76847612/live/ww/bbc_pashto_radio/bbc_pashto_radio.isml/bbc_pashto_radio-audio=320000.norewind.m3u8:BBC Pashto Radio
 #DESCRIPTION BBC Pashto Radio
-#SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_65497006/live/ww/bbc_somali_radio/bbc_somali_radio.isml/bbc_somali_radio-audio=320000.norewind.m3u8:Raadiyaha BBC Soemaali
-#DESCRIPTION Raadiyaha BBC Soemaali
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_68468159/live/ww/bbc_swahili_radio/bbc_swahili_radio.isml/bbc_swahili_radio-audio=320000.norewind.m3u8:BBC Swahili Radio
 #DESCRIPTION BBC Swahili Radio
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_99423635/live/ww/bbc_tigrinya_radio/bbc_tigrinya_radio.isml/bbc_tigrinya_radio-audio=320000.norewind.m3u8:BBC Tigrinya Radio
 #DESCRIPTION BBC Tigrinya Radio
 #SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_36002112/live/ww/bbc_uzbek_radio/bbc_uzbek_radio.isml/bbc_uzbek_radio-audio=320000.norewind.m3u8:BBC Uzbek Radio Dasturi
 #DESCRIPTION BBC Uzbek Radio Dasturi
+#SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_08482226/live/ww/bbc_oromo_radio/bbc_oromo_radio.isml/bbc_oromo_radio-audio=320000.norewind.m3u8:Oduu BBC Afaan Oromoo
+#DESCRIPTION Oduu BBC Afaan Oromoo
+#SERVICE 4097:0:2:0:c0f:fee:cccc0000:0:0:0:http%3a//as-hls-ww-gcomm-live.akamaized.net/pool_65497006/live/ww/bbc_somali_radio/bbc_somali_radio.isml/bbc_somali_radio-audio=320000.norewind.m3u8:Raadiyaha BBC Soemaali
+#DESCRIPTION Raadiyaha BBC Soemaali
