@@ -627,9 +627,6 @@ ffff0000:0c81:0600
 ffff0000:0002:0001
 	c 386000:6875000:2:5:0:0:0
 /
-ffff0000:0c86:0600
-	c 266000:6900000:2:5:0:0:0
-/
 ffff0000:0002:25a8
 	c 234000:6875000:2:3:0:0:0
 /
@@ -674,6 +671,9 @@ ffff0000:0906:2210
 /
 ffff0000:0840:0600
 	c 290000:6900000:2:5:0:0:0
+/
+ffff0000:0c86:0600
+	c 266000:6900000:2:5:0:0:0
 /
 ffff0000:0808:0600
 	c 402000:6900000:2:5:0:0:0
@@ -1538,18 +1538,6 @@ p:
 1446:00eb0000:0ca2:0003:1:0
 TV Rain
 p:TVR
-134f:00eb0000:0ca2:0003:1:0
-BEAT JZ
-p:Towercom
-1350:00eb0000:0ca2:0003:1:0
-BEAT SV
-p:Towercom
-1352:00eb0000:0ca2:0003:1:0
-COUNTRY JZ
-p:Towercom
-1353:00eb0000:0ca2:0003:1:0
-COUNTRY SV
-p:Towercom
 4e84:00eb0000:0ca2:0003:1:0
 RTS Nauka
 p:Telekom Srbija
@@ -1678,7 +1666,10 @@ RDS SAT
 p:Towercom
 1328:00eb0000:0ca2:0003:25:0
 TA3 HD
-p:Towercom,c:050001
+p:Towercom
+1437:00eb0000:0ca2:0003:25:0
+Belarus Tomorrow
+p:Svoboda Satellite
 1e33:00eb0000:0c9e:0003:1:0
 Pershiy
 p:
@@ -1705,7 +1696,7 @@ ARMY FM
 p:
 1e2c:00eb0000:0c9e:0003:2:0
 radio nv
-p:TRK ERA
+p:TRC ERA
 0320:00eb0000:0c9e:0003:12:0
 MX
 p:SES,C:0000
@@ -1714,7 +1705,7 @@ Service 801
 p:SES
 1e5a:00eb0000:0c9e:0003:22:0
 1+1 International SES
-p:1plus1 Media,c:050001
+p:1plus1 Media
 1e5b:00eb0000:0c9e:0003:22:0
 1+1
 p:1plus1 Media
@@ -1996,10 +1987,10 @@ Test 1
 p:,c:050001
 189e:00eb0000:0c97:0003:22:0
 Test 2
-p:
+p:,c:050001
 189f:00eb0000:0c97:0003:22:0
 Test 3
-p:
+p:,c:050001
 18a1:00eb0000:0c97:0003:22:0
 Test 5
 p:
@@ -2014,7 +2005,7 @@ Test 15
 p:
 18ac:00eb0000:0c97:0003:22:0
 Test 16
-p:
+p:,c:050001
 18a0:00eb0000:0c97:0003:25:0
 Test 4
 p:
@@ -2060,9 +2051,6 @@ p:M7 Group
 17f2:00eb0000:0c82:0003:2:0
 Radio Veronica
 p:M7 Group
-1816:00eb0000:0c82:0003:22:0
-Mezzo
-p:M7 Group,c:050001,c:098900
 178e:00eb0000:0c82:0003:22:0
 Star Channel
 p:M7 Group
@@ -2099,15 +2087,18 @@ p:M7 Group
 17ea:00eb0000:0c82:0003:22:0
 FIGHTBOX
 p:M7 Group
+17eb:00eb0000:0c82:0003:22:0
+Story 4 CZ
+p:M7 Group
 17b4:00eb0000:0c82:0003:25:0
 ESPN 4 HD
 p:M7 Group
 17c0:00eb0000:0c82:0003:25:0
 NPO2 HD
-p:M7 Group,c:050001
+p:M7 Group
 17ca:00eb0000:0c82:0003:25:0
 SBS6 HD
-p:M7 Group,c:050001
+p:M7 Group
 17cc:00eb0000:0c82:0003:25:0
 ESPN HD
 p:M7 Group
@@ -2224,25 +2215,25 @@ p:M7 Group
 p:M7 Group
 524d:00eb0000:0c99:0003:22:0
 Omrop Fryslan Televisie
-p:M7 Group,c:050001
+p:M7 Group
 524f:00eb0000:0c99:0003:22:0
 TV Drenthe
 p:M7 Group
 5250:00eb0000:0c99:0003:22:0
 TV Gelderland
-p:M7 Group,c:050001
+p:M7 Group
 5252:00eb0000:0c99:0003:22:0
 Oost
-p:M7 Group,c:050001
+p:M7 Group
 5265:00eb0000:0c99:0003:22:0
 TV Noord
-p:M7 Group,c:050001
+p:M7 Group
 5268:00eb0000:0c99:0003:22:0
 Omroep Brabant Televisie
-p:M7 Group,c:050001,c:098800
+p:M7 Group,c:050001
 5292:00eb0000:0c99:0003:22:0
 TV Oranje
-p:M7 Group,c:050001
+p:M7 Group
 529f:00eb0000:0c99:0003:22:0
 RTL HAROM
 p:M7 Group
@@ -2254,28 +2245,31 @@ Sorozat+
 p:M7 Group
 52b1:00eb0000:0c99:0003:22:0
 Story 4
-p:M7 Group,c:050001
+p:M7 Group
+52b2:00eb0000:0c99:0003:22:0
+Story 4.
+p:M7 Group
 521c:00eb0000:0c99:0003:25:0
 NET5 HD
-p:M7 Group,c:050001
+p:M7 Group
 5221:00eb0000:0c99:0003:25:0
 VRT 1
 p:M7 Group,c:050001,c:098800
 5225:00eb0000:0c99:0003:25:0
 NPO1 HD
-p:M7 Group,c:050001,c:098800
+p:M7 Group,c:050001
 5226:00eb0000:0c99:0003:25:0
 VRT Canvas HD
-p:M7 Group,c:050001
+p:M7 Group
 522b:00eb0000:0c99:0003:25:0
 Veronica / Disney Jr.
-p:M7 Group,c:050001
+p:M7 Group
 5230:00eb0000:0c99:0003:25:0
 NPO3 HD
-p:M7 Group,c:050001,c:098800
+p:M7 Group
 52b0:00eb0000:0c99:0003:25:0
 BBC NL
-p:M7 Group,c:050001
+p:M7 Group
 0064:00ebb163:0001:0001:2:0
 Oberland2
 p:Telekom Austria AG
@@ -2302,7 +2296,7 @@ DOCUBOX
 p:M7 Group
 5318:00eb0000:0c96:0003:22:0
 TV8
-p:M7 Group,c:050001
+p:M7 Group
 5273:00eb0000:0c96:0003:22:0
 History NL
 p:M7 Group
@@ -2313,7 +2307,7 @@ p:M7 Group
 Ketnet
 p:M7 Group
 527c:00eb0000:0c96:0003:22:0
-VTM SERIES
+VTM XMAS
 p:M7 Group
 5280:00eb0000:0c96:0003:22:0
 VTM 3
@@ -2535,7 +2529,7 @@ p:M7 Group
 AXN White Central Europe
 p:M7 Group
 3cf8:00eb0000:0c95:0003:22:0
-STORY4
+Story4
 p:M7 Group
 3cf9:00eb0000:0c95:0003:22:0
 FILMBOX+ Love and Crime
@@ -2546,12 +2540,9 @@ p:M7 Group
 3cfc:00eb0000:0c95:0003:22:0
 Leo TV (22-06)
 p:M7 Group
-3cfd:00eb0000:0c95:0003:22:0
-TV8
-p:M7 Group,c:050001
 3d02:00eb0000:0c95:0003:25:0
 Prima Sport
-p:M7 Group,c:050001
+p:M7 Group
 3cf0:00eb0000:0c95:0003:25:0
 Viasat History HD
 p:M7 Group
@@ -2583,10 +2574,7 @@ p:M7 Group
 JOJ Svet CZ
 p:M7 Group
 36ea:00eb0000:0c8c:0003:22:0
-CS Film
-p:M7 Group
-36eb:00eb0000:0c8c:0003:22:0
-CS Horror
+CS Film/CS Horror
 p:M7 Group
 36ed:00eb0000:0c8c:0003:22:0
 Prima STAR
@@ -2629,7 +2617,7 @@ Viasat Epic Drama HD
 p:M7 Group
 36e5:00eb0000:0c8c:0003:25:0
 Prima MAX HD
-p:M7 Group,c:050001
+p:M7 Group
 36e6:00eb0000:0c8c:0003:25:0
 Nova Sport 3 HD
 p:M7 Group
@@ -2746,10 +2734,10 @@ Crime+Investigation
 p:M7 Group
 1c0c:00eb0000:0c88:0003:25:0
 Penthouse Gold CZ
-p:M7 Group
+p:M7 Group,c:050001
 1c0d:00eb0000:0c88:0003:25:0
 Penthouse Reality TV CZ
-p:M7 Group
+p:M7 Group,c:050001
 1b6c:00eb0000:0c88:0003:25:0
 RTL4 HD
 p:M7 Group,c:050001,c:098800
@@ -2800,7 +2788,7 @@ JimJam CZ
 p:M7 Group
 3c3a:00eb0000:0c90:0003:22:0
 Retro Music TV
-p:M7 Group
+p:M7 Group,c:050001
 3c29:00eb0000:0c90:0003:25:0
 Kanal1 Sport
 p:M7 Group,c:050001
@@ -2959,9 +2947,6 @@ DMF
 p:SES
 0030:00c00000:0005:0085:1:0
 N24 DOKU
-p:BetaDigital
-003e:00c00000:0005:0085:1:0
-EWTN katholisches TV
 p:BetaDigital
 0293:00c00000:0005:0085:1:0
 Handystar TV
@@ -3210,7 +3195,7 @@ p:Movistar+
 M+LCAMPEON9
 p:Movistar+
 782d:00c00000:0428:0001:1:0
-M+DEPORTES7
+TEST 1 TXP 64
 p:Movistar+
 782f:00c00000:0428:0001:1:0
 M+LCAMPEON10
@@ -3288,7 +3273,7 @@ p:CANAL +
 DAZN 2
 p:Movistar+
 772b:00c00000:0416:0001:1:0
-TEST TXP46
+LALIGA TV BAR 5
 p:CAZPES
 772c:00c00000:0416:0001:1:0
 ANTENA 3
@@ -3544,16 +3529,22 @@ DW English HD
 p:Deutsche Welle
 1645:00c00000:042c:0001:1:0
 TVMonaco
-p:EasyTools,c:050001,c:099100
+p:EasyTools
 164e:00c00000:042c:0001:1:0
 CNN Int.
 p:SES ASTRA
-1644:00c00000:042c:0001:25:0
-DW English HD
-p:Deutsche Welle,c:050001
 1647:00c00000:042c:0001:25:0
 Cubavision Internacional
-p:OVERON,c:050001
+p:OVERON
+164f:00c00000:042c:0001:25:0
+CGTN NEWS HD
+p:GLOBECAST
+1650:00c00000:042c:0001:25:0
+CGTN DOCUMENTARY HD
+p:GLOBECAST
+1651:00c00000:042c:0001:25:0
+CGTN FRANCAIS HD
+p:GLOBECAST
 2f44:00c00000:0454:0001:1:0
 QVC Deutschland
 p:SES ASTRA
@@ -3592,7 +3583,7 @@ Telesur HD
 p:TSA
 7a4d:00c00000:0410:0001:25:0
 Anewz
-p:TSA,c:050001
+p:TSA
 125c:00c00000:03f7:0001:1:0
 SES 01
 p:BetaDigital
@@ -3698,9 +3689,6 @@ p:ProSiebenSat.1
 4465:00c00000:0453:0001:1:0
 kabel eins Doku
 p:ProSiebenSat.1
-245f:00c00000:0440:0001:1:0
-12168V SID 0x245f
-p:DVB-S2 8PSK 12168V 19.2Â°E
 2464:00c00000:0440:0001:1:0
 F3 LANGUEDOCROUS
 p:CSAT
@@ -3727,16 +3715,16 @@ USHUAIA TV
 p:CSAT
 245a:00c00000:0440:0001:25:0
 FRANCE 2
-p:CSAT,c:050001
+p:CSAT
 245c:00c00000:0440:0001:25:0
 LCP
-p:CSAT,c:050001
+p:CSAT
 245d:00c00000:0440:0001:25:0
 FRANCE 3
 p:CSAT
 2460:00c00000:0440:0001:25:0
 TF1
-p:CSAT,c:050001
+p:CSAT
 2461:00c00000:0440:0001:25:0
 EUROSPORT 1
 p:CSAT
@@ -4014,7 +4002,7 @@ p:Movistar+
 TEST 6 TXP 44
 p:
 7885:00c00000:0414:0001:1:0
-M+VACACIONES
+M+ TERROR
 p:Movistar+
 7888:00c00000:0414:0001:1:0
 BOING
@@ -4035,7 +4023,7 @@ p:Movistar+
 MTV ESPAÑA
 p:DIGITAL+
 7890:00c00000:0414:0001:1:0
-GOL
+REPLAY
 p:Movistar+
 7891:00c00000:0414:0001:1:0
 BE MAD
@@ -4110,7 +4098,7 @@ p:Movistar+
 BBC TOP GEAR
 p:Movistar+
 7796:00c00000:0424:0001:1:0
-SYFY
+SCIFI
 p:DIGITAL +
 7797:00c00000:0424:0001:1:0
 M+ LALIGA
@@ -4137,7 +4125,7 @@ p:DIGITAL+
 DAZNBaloncesto3
 p:Movistar+
 7696:00c00000:041e:0001:1:0
-M+ ORGULLO
+M+ ROMANCE
 p:Movistar+
 7697:00c00000:041e:0001:1:0
 NICK JR
@@ -4683,7 +4671,7 @@ p:Movistar+
 M+DEPORTES5
 p:Digital+
 77c9:00c00000:040a:0001:1:0
-M+DEPORTES8
+TEST 1 TXP 34
 p:Movistar+
 77d8:00c00000:040a:0001:1:0
 M+LCAMPEON4
@@ -6341,30 +6329,15 @@ p:SES ASTRA,c:050001
 30de:00c00000:0413:0001:31:0
 .
 p:SES ASTRA
-0001:00c00000:040b:0001:31:0
-SES UHD Demo Channel
-p:SES,c:050007
 0002:00c00000:040b:0001:31:0
 UHD1 by ASTRA / HD+
 p:SES ASTRA
-0003:00c00000:040b:0001:31:0
-SES UHD Demo Channel 02
-p:SES
-0004:00c00000:040b:0001:31:0
-SES UHD Demo Channel 03
-p:SES
-0005:00c00000:040b:0001:31:0
-SES UHD Demo Channel 04
-p:SES
-0006:00c00000:040b:0001:31:0
-SES UHD Demo Channel 05
-p:SES
-0007:00c00000:040b:0001:31:0
-SES UHD Demo Channel 06
+000a:00c00000:040b:0001:31:0
+RTL UHD
 p:SES
 183d:00c00000:040b:0001:31:0
 Pro7Sat.1 UHD
-p:ProSiebenSat.1,c:050007
+p:ProSiebenSat.1
 2c88:00c00000:041a:0001:31:0
 La 1 UHD
 p:SES,c:050007
@@ -6872,6 +6845,9 @@ p:CAIW Media,c:050001
 7954:ffff0000:0083:08c9:1:0
 STAR Channel SD
 p:CAIW Media
+7919:ffff0000:0083:08c9:25:0
+DreamWorks
+p:DFN,c:050001
 0324:ffff0000:0008:25a8:1:0
 Cartoonito
 p:SKV
@@ -7709,30 +7685,81 @@ p:CAIW Media
 1f4a:ffff0000:0caa:0600:1:0
 RTV Slingeland
 p:Ziggo
-1f4c:ffff0000:0caa:0600:1:0
-Studio Rheden TV
-p:Ziggo
-1f4d:ffff0000:0caa:0600:1:0
-REGIO8 TV
-p:Ziggo
-1f4f:ffff0000:0caa:0600:1:0
-Samen1 TV
-p:Ziggo
-1f50:ffff0000:0caa:0600:1:0
-RTV Rijnstreek
-p:Ziggo
 1f51:ffff0000:0caa:0600:1:0
 EDE TV
 p:Ziggo
-1f52:ffff0000:0caa:0600:1:0
-Ideaal TV
+1391:ffff0000:0caa:0600:2:0
+Slingeland FM
 p:Ziggo
-1f4b:ffff0000:0caa:0600:22:0
+1392:ffff0000:0caa:0600:2:0
+Rijnstreek FM
+p:Ziggo
+1393:ffff0000:0caa:0600:2:0
+Studio Rheden Radio
+p:Ziggo
+1394:ffff0000:0caa:0600:2:0
+Ede FM
+p:Ziggo
+1395:ffff0000:0caa:0600:2:0
+Radio 794
+p:Ziggo
+1396:ffff0000:0caa:0600:2:0
+Radio Ideaal
+p:Ziggo
+1397:ffff0000:0caa:0600:2:0
+RTV Connect Radio
+p:Ziggo
+1398:ffff0000:0caa:0600:2:0
+1Achterhoek Radio
+p:Ziggo
+1399:ffff0000:0caa:0600:2:0
+REGIO8 Radio
+p:Ziggo
+139a:ffff0000:0caa:0600:2:0
+Voorst Veluwezoom FM
+p:Ziggo
+139b:ffff0000:0caa:0600:2:0
+leuk fm
+p:Ziggo
+139c:ffff0000:0caa:0600:2:0
+Apeldoorn Radio
+p:Ziggo
+139d:ffff0000:0caa:0600:2:0
+Aladna Radio
+p:Ziggo
+139f:ffff0000:0caa:0600:2:0
+Chris
+p:Ziggo
+13a1:ffff0000:0caa:0600:2:0
+HITZZZ!!
+p:Ziggo
+1f4a:ffff0000:0caa:0600:25:0
+REGIO8 TV
+p:Ziggo,c:050001
+1f4b:ffff0000:0caa:0600:25:0
 RTV Connect
 p:Ziggo,c:050001
-1f53:ffff0000:0caa:0600:22:0
-794 Voorst Veluwezoom
+1f4c:ffff0000:0caa:0600:25:0
+Studio Rheden TV
 p:Ziggo,c:050001
+1f4d:ffff0000:0caa:0600:25:0
+RTV Apeldoorn
+p:Ziggo,c:050001
+1f4e:ffff0000:0caa:0600:25:0
+XON
+p:Ziggo,c:050001
+1f50:ffff0000:0caa:0600:25:0
+RTV Rijnstreek
+p:Ziggo,c:050001
+1f51:ffff0000:0caa:0600:25:0
+1Achterhoek
+p:Ziggo
+1f52:ffff0000:0caa:0600:25:0
+Ideaal TV
+p:Ziggo
+1f53:ffff0000:0caa:0600:25:0
+794 Voorst Veluwezoom
+p:Ziggo
 4e4a:ffff0000:0803:0600:1:0
 490 SID 0x4e4a
 p:,c:050001
@@ -8508,7 +8535,7 @@ p:CAIW Media
 Radio Noordzee
 p:DFN
 1772:ffff0000:006a:08c9:2:0
-Grand Prix Radio
+GPR SPORTRADIO
 p:DFN
 17e8:ffff0000:006a:08c9:2:0
 Radio Capelle
@@ -8963,6 +8990,9 @@ p:CAIW Media
 909c:ffff0000:0089:08c9:25:0
 Eurosport 2
 p:CAIW Media,c:050001
+90c4:ffff0000:0089:08c9:25:0
+INPLUS
+p:CAIW Media,c:050001
 90ce:ffff0000:0089:08c9:25:0
 Viaplay TV
 p:DFN,c:050001
@@ -9239,90 +9269,6 @@ p:Telenet
 00d9:ffff0000:0002:0001:25:0
 VTM 4
 p:Telenet
-1bcd:ffff0000:0c86:0600:1:0
-Regionieuws TV
-p:Ziggo
-1bce:ffff0000:0c86:0600:1:0
-TV AA en Hunze
-p:Ziggo
-1bcf:ffff0000:0c86:0600:1:0
-Tynaarlo Lokaal
-p:Ziggo
-100c:ffff0000:0c86:0600:2:0
-Tukker FM
-p:Ziggo
-100d:ffff0000:0c86:0600:2:0
-Radio AA en Hunze
-p:Ziggo
-100e:ffff0000:0c86:0600:2:0
-Simone FM
-p:Ziggo
-100f:ffff0000:0c86:0600:2:0
-Tynaarlo Lokaal
-p:Ziggo
-1010:ffff0000:0c86:0600:2:0
-Eemsdelta Radio
-p:Ziggo
-1011:ffff0000:0c86:0600:2:0
-RTV1 Radio
-p:Ziggo
-1012:ffff0000:0c86:0600:2:0
-RTV GO Radio
-p:Ziggo
-1013:ffff0000:0c86:0600:2:0
-Oog-Radio
-p:Ziggo
-1014:ffff0000:0c86:0600:2:0
-Omroep Assen Radio
-p:Ziggo
-1015:ffff0000:0c86:0600:2:0
-Zulthe Radio
-p:Ziggo
-1016:ffff0000:0c86:0600:2:0
-Radio Westerwolde
-p:Ziggo
-1017:ffff0000:0c86:0600:2:0
-Omroep Het Hogeland Radio
-p:Ziggo
-1018:ffff0000:0c86:0600:2:0
-ZO!34 FM
-p:Ziggo
-1019:ffff0000:0c86:0600:2:0
-TeamFM Drenthe-Groningen
-p:Ziggo
-101a:ffff0000:0c86:0600:2:0
-Regio FM
-p:Ziggo
-101b:ffff0000:0c86:0600:2:0
-GigantFM
-p:Ziggo
-101c:ffff0000:0c86:0600:2:0
-Joy Radio
-p:Ziggo
-1bc7:ffff0000:0c86:0600:22:0
-Omroep Assen TV
-p:Ziggo
-1bc5:ffff0000:0c86:0600:25:0
-RTV Go TV
-p:Ziggo
-1bc6:ffff0000:0c86:0600:25:0
-Oog-TV
-p:Ziggo
-1bc8:ffff0000:0c86:0600:25:0
-RTV1
-p:Ziggo
-1bc9:ffff0000:0c86:0600:25:0
-Omroep Zulthe
-p:Ziggo
-1bca:ffff0000:0c86:0600:25:0
-Omroep Het Hogeland
-p:Ziggo
-1bcb:ffff0000:0c86:0600:25:0
-ZO!34 TV
-p:Ziggo
-1bcc:ffff0000:0c86:0600:25:0
-Eemsdelta TV
-p:Ziggo
 00cf:ffff0000:0002:25a8:1:0
 CNN
 p:SKV
@@ -9986,6 +9932,93 @@ p:Ziggo,c:050001
 4af7:ffff0000:0840:0600:25:0
 RTL Z
 p:Ziggo,c:050001,c:098800
+100c:ffff0000:0c86:0600:2:0
+Tukker FM
+p:Ziggo
+100d:ffff0000:0c86:0600:2:0
+Radio AA en Hunze
+p:Ziggo
+100e:ffff0000:0c86:0600:2:0
+Simone FM
+p:Ziggo
+100f:ffff0000:0c86:0600:2:0
+Tynaarlo Lokaal
+p:Ziggo
+1010:ffff0000:0c86:0600:2:0
+Eemsdelta Radio
+p:Ziggo
+1011:ffff0000:0c86:0600:2:0
+RTV1 Radio
+p:Ziggo
+1012:ffff0000:0c86:0600:2:0
+RTV GO Radio
+p:Ziggo
+1013:ffff0000:0c86:0600:2:0
+Oog-Radio
+p:Ziggo
+1014:ffff0000:0c86:0600:2:0
+Omroep Assen Radio
+p:Ziggo
+1015:ffff0000:0c86:0600:2:0
+Zulthe Radio
+p:Ziggo
+1016:ffff0000:0c86:0600:2:0
+Radio Westerwolde
+p:Ziggo
+1017:ffff0000:0c86:0600:2:0
+Omroep Het Hogeland Radio
+p:Ziggo
+1018:ffff0000:0c86:0600:2:0
+ZO!34 FM
+p:Ziggo
+1019:ffff0000:0c86:0600:2:0
+TeamFM Drenthe-Groningen
+p:Ziggo
+101a:ffff0000:0c86:0600:2:0
+Regio FM
+p:Ziggo
+101b:ffff0000:0c86:0600:2:0
+GigantFM
+p:Ziggo
+101c:ffff0000:0c86:0600:2:0
+Joy Radio
+p:Ziggo
+101d:ffff0000:0c86:0600:2:0
+HITZZZ!!
+p:Ziggo
+1bc5:ffff0000:0c86:0600:25:0
+RTV Go TV
+p:Ziggo
+1bc6:ffff0000:0c86:0600:25:0
+Oog-TV
+p:Ziggo
+1bc7:ffff0000:0c86:0600:25:0
+Omroep Assen TV
+p:Ziggo
+1bc8:ffff0000:0c86:0600:25:0
+RTV1
+p:Ziggo
+1bc9:ffff0000:0c86:0600:25:0
+Omroep Zulthe
+p:Ziggo
+1bca:ffff0000:0c86:0600:25:0
+Omroep Het Hogeland
+p:Ziggo
+1bcb:ffff0000:0c86:0600:25:0
+ZO!34 TV
+p:Ziggo
+1bcc:ffff0000:0c86:0600:25:0
+Eemsdelta TV
+p:Ziggo
+1bcd:ffff0000:0c86:0600:25:0
+Regionieuws TV
+p:Ziggo
+1bce:ffff0000:0c86:0600:25:0
+TV AA en Hunze
+p:Ziggo
+1bcf:ffff0000:0c86:0600:25:0
+Tynaarlo Lokaal
+p:Ziggo
 2847:ffff0000:0808:0600:2:0
 NPO Radio 1
 p:Ziggo
@@ -10054,7 +10087,7 @@ Ziggo Dome
 p:Ziggo
 4a75:ffff0000:0808:0600:22:0
 Veronica / Disney Jr.
-p:Ziggo
+p:Ziggo,c:050001
 4a76:ffff0000:0808:0600:25:0
 Discovery
 p:Ziggo
@@ -10292,6 +10325,9 @@ p:Ziggo,c:050001,c:090202
 4a67:ffff0000:0807:0600:25:0
 2M
 p:Ziggo
+0db2:ffff0000:0c7a:0600:2:0
+LOK Radio
+p:Ziggo
 0db4:ffff0000:0c7a:0600:2:0
 WOS Radio
 p:Ziggo
@@ -10522,7 +10558,7 @@ SBS6
 p:Ziggo,c:050001,c:098800
 4bf8:ffff0000:0834:0600:22:0
 Net5
-p:Ziggo
+p:Ziggo,c:050001
 76e9:ffff0000:0834:0600:25:0
 ESPN
 p:Ziggo,c:050001,c:098800
@@ -10558,7 +10594,7 @@ WDR
 p:Ziggo,c:050001
 4b07:ffff0000:080e:0600:25:0
 RTV Utrecht
-p:Ziggo,c:050001
+p:Ziggo,c:050001,c:098800
 4b08:ffff0000:080e:0600:25:0
 RTV Rijnmond
 p:Ziggo,c:050001,c:098800

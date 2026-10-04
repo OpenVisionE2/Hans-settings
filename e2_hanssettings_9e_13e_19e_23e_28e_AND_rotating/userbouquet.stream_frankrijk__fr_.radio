@@ -1,33 +1,37 @@
 #NAME Stream Frankrijk (FR)
-#SERVICE 1:64:18d4:0:0:0:0:0:0:0:
+#SERVICE 1:64:f74:0:0:0:0:0:0:0:
 #DESCRIPTION ++nationale omroepen publiek (Radio France)++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//direct.fipradio.fr/live/fip-midfi.mp3:FIP
 #DESCRIPTION FIP
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//direct.franceculture.fr/live/franceculture-midfi.mp3:France Culture
 #DESCRIPTION France Culture
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiofrance.fr/franceinter-midfi.mp3:France Inter
+#DESCRIPTION France Inter
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//direct.francemusique.fr/live/francemusique-midfi.mp3:France Musique
 #DESCRIPTION France Musique
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rfimonde64k.ice.infomaniak.ch/rfimonde-64.mp3:RFI Monde en direct
 #DESCRIPTION RFI Monde en direct
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rfican2025.ice.infomaniak.ch/rfican2025-64.mp3:RFI Afrique en direct
 #DESCRIPTION RFI Afrique en direct
-#SERVICE 1:64:18d5:0:0:0:0:0:0:0:
+#SERVICE 1:64:f75:0:0:0:0:0:0:0:
 #DESCRIPTION ++nationale omroepen commercieel++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//beurfm.ice.infomaniak.ch/beurfm-high.mp3:Beur FM
 #DESCRIPTION Beur FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls-bfmradio.nextradiotv.com/ssai/128k/media.m3u8:BFM Radio
-#DESCRIPTION BFM Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls-bfmbusiness.nextradiotv.com/ssai/128k/media.m3u8:BFM Business
+#DESCRIPTION BFM Business
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio4.pro-fhi.net/listen-lkjhqebq-stream.mp3:Canal Funk
 #DESCRIPTION Canal Funk
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ou2n2epw5hs7?origine=playercherie:Chérie FM
 #DESCRIPTION Chérie FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//europe1.lmn.fm/europe1.mp3:Europe 1
+#DESCRIPTION Europe 1
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//europe2.lmn.fm/europe2-live/playlist.m3u8:Europe 2
 #DESCRIPTION Europe 2
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/ouwgwqsk6j4d?origine=playernostalgie:Nostalgie France
 #DESCRIPTION Nostalgie France
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls-rmcgold.nextradiotv.com/ssai/192k/media.m3u8:RMC Gold
 #DESCRIPTION RMC Gold
-#SERVICE 1:64:18d6:0:0:0:0:0:0:0:
+#SERVICE 1:64:f76:0:0:0:0:0:0:0:
 #DESCRIPTION ++regionaal publiek++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//direct.fipradio.fr/live/fip-webradio6.mp3:FIP Autour  des disquaires
 #DESCRIPTION FIP Autour  des disquaires
@@ -145,8 +149,10 @@
 #DESCRIPTION ICI Touraine
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//direct.francebleu.fr/live/fbvaucluse-midfi.mp3:ICI Vaucluse
 #DESCRIPTION ICI Vaucluse
-#SERVICE 1:64:18d7:0:0:0:0:0:0:0:
+#SERVICE 1:64:f77:0:0:0:0:0:0:0:
 #DESCRIPTION ++commercieel regionaal en thema's++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ouuku85n3nje:Chérie FM
+#DESCRIPTION Chérie FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ourfiyvukkaq?origine=playercherie:Chérie FM 90s
 #DESCRIPTION Chérie FM 90s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ougogcrb92oc?origine=playercherie:Chérie FM Acoustic
@@ -181,8 +187,10 @@
 #DESCRIPTION Chérie FM Sweet Home
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ouhmdoapu6pb?origine=playercherie:Chérie FM Zen
 #DESCRIPTION Chérie FM Zen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//europe2.lmn.fm/vr-wr26.mp3:Europe 2 ?
-#DESCRIPTION Europe 2 ?
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//europe1.lmn.fm/europe1.mp3:Europe 1
+#DESCRIPTION Europe 1
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//europe2.lmn.fm/europe2.mp3:Europe 2
+#DESCRIPTION Europe 2
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//europe2.lmn.fm/vr-wr13.mp3:Europe 2 90s
 #DESCRIPTION Europe 2 90s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//europe2.lmn.fm/vr-wr19.mp3:Europe 2 2010
@@ -231,6 +239,8 @@
 #DESCRIPTION Europe 2 Slow
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//europe2.lmn.fm/vr-wr28.mp3:Europe 2 Zen
 #DESCRIPTION Europe 2 Zen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/oug7girb92oc:Nostalgie
+#DESCRIPTION Nostalgie
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/out2ev6ubafg?origine=playernostalgie:Nostalgie - 80 Les Tubes N1 
 #DESCRIPTION Nostalgie - 80 Les Tubes N1 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/out2976ubafg?origine=playernostalgie:Nostalgie - 100%25 Français 80
@@ -271,6 +281,18 @@
 #DESCRIPTION Nostalgie - USA 80
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/ouf2dmtx4thg?origine=playernostalgie:Nostalgie - Vos Pepites 80 
 #DESCRIPTION Nostalgie - Vos Pepites 80 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/oufdfatx4thg?origine=playernrj:NRJ France
+#DESCRIPTION NRJ France
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/oug73grb92oc?origine=playernrj:NRJ - At Work
+#DESCRIPTION NRJ - At Work
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//scdn.nrjaudio.fm/adwz1/fr/30421/aac_64.mp3:NRJ - Collectors
+#DESCRIPTION NRJ - Collectors
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/oug7qmrb92oc?origine=playernrj:NRJ - Nouveautés
+#DESCRIPTION NRJ - Nouveautés
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//scdn.nrjaudio.fm/adwz1/fr/30405/aac_64.mp3:NRJ - Nouvelle génération
+#DESCRIPTION NRJ - Nouvelle génération
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/oug7kfrb92oc:NRJ - TikTok
+#DESCRIPTION NRJ - TikTok
 #SERVICE 4097:0:2:0:2:6:0:0:0:0:https%3a//rcast.pro-fhi.net/stream/radiosouvenir-1:Radio Souvenir
 #DESCRIPTION Radio Souvenir
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rtlre.ice.infomaniak.ch/rtlre-64.aac:RTL Reunion
@@ -281,37 +303,7 @@
 #DESCRIPTION RTL 100% 80
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/legrandstudiortl/130/audio-64000/index.m3u8:Le Grand Studio RTL
 #DESCRIPTION Le Grand Studio RTL
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl/203/index.m3u8:RTL 100%25 France
-#DESCRIPTION RTL 100% France
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl/201/index.m3u8:RTL 100%25 Hits
-#DESCRIPTION RTL 100% Hits
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl/202/index.m3u8:RTL 100%25 Grosses Têtes
-#DESCRIPTION RTL 100% Grosses Têtes
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls.rtl2.fr/Y2RmNDVmNTZhNGJlNjM5ZDFhNmUyN2QwMGYxMzZmZWEuMTc2OTYxMDc4NQ~~/radio/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2-80/short/index.m3u8:RTL2 80
-#DESCRIPTION RTL2 80
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls.rtl2.fr/ZDA4YmY1MGY0ZjA1N2VmOTdlMzBlODRiNzhjY2MxNzguMTc2OTYxNDI4Mg~~/radio/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2-90/short/index.m3u8:RTL2 90
-#DESCRIPTION RTL2 90
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls.rtl2.fr/MmJiMWJlOTNiYjUyNzY5ZjBhNTQ2MGMwMTkzZjZlNzQuMTc2OTYxNDQwOQ~~/radio/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2-2000/short/index.m3u8:RTL2 2000
-#DESCRIPTION RTL2 2000
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls.rtl2.fr/ZWI3MDY3ZDY3YjcwNDRmYjEzMmE0M2FiNzI5YmFjMjIuMTc2OTYxNDU0Nw~~/radio/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2-at-work/short/index.m3u8 :RTL2 at Work
-#DESCRIPTION RTL2 at Work
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls.rtl2.fr/MjgwY2MwMjJiOWI0YTk4Mzg5Y2U5NTdjYzdjMjgyMzQuMTc2OTYxNDYyMg~~/radio/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2-classic-rock/short/index.m3u8:RTL2 Classic Rock
-#DESCRIPTION RTL2 Classic Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2/202/index.m3u8:RTL2 Sur la Route
-#DESCRIPTION RTL2 Sur la Route
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2/201/index.m3u8:RTL2 Accoustique
-#DESCRIPTION RTL2 Accoustique
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2poprockparty/130/audio-64000/index.m3u8:RTL2 Pop Rock Party
-#DESCRIPTION RTL2 Pop Rock Party
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2madeinfrance/130/audio-64000/index.m3u8:RTL2 Made in France
-#DESCRIPTION RTL2 Made in France
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2madeinfrance/130/audio-64000/index.m3u8:RTL2 Legendes du Rock
-#DESCRIPTION RTL2 Legendes du Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls.rtl2.fr/NzNmZjZhYmQ4YTZhYTA4ZDQwY2Q3MzViODRmNDRhOGEuMTc2OTYxNDkwNw~~/radio/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2-wango-tango-by-zegut/short/index.m3u8:RTL2 Wango Tango by Zegut
-#DESCRIPTION RTL2 Wango Tango by Zegut
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl2-foudre-by-waxx/130/audio-64000/index.m3u8:RTL2 Foudre by Waxx
-#DESCRIPTION RTL2 Foudre by Waxx
-#SERVICE 1:64:18d8:0:0:0:0:0:0:0:
+#SERVICE 1:64:f78:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//str4uice.streamakaci.com/4uclassicrock.mp3:4U Classic Rock
 #DESCRIPTION 4U Classic Rock
@@ -467,8 +459,8 @@
 #DESCRIPTION Frequence 3 Centre‑Val de Loire
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//frequence3.net-radio.fr/frequence3world.mp3:Frequence 3 World
 #DESCRIPTION Frequence 3 World
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//funradiobe.ice.infomaniak.ch/funradiobe-high.mp3:Fun Radio Belgique
-#DESCRIPTION Fun Radio Belgique
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-ice.audiomeans.fr/rtl/feed-funradio-mp3-128:Fun Radio
+#DESCRIPTION Fun Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/funlatino/130/index.m3u8:Fun Radio Latino
 #DESCRIPTION Fun Radio Latino
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/fun/202/index.m3u8:Fun Radio Electro
@@ -533,8 +525,8 @@
 #DESCRIPTION Jazz Radio Reprises
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.ch/jazzradio-high.mp3:Jazz Radio
 #DESCRIPTION Jazz Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//54.37.228.237%3a8000/live:Jobs & Music - Paris (Frankrijk)
-#DESCRIPTION Jobs & Music - Paris (Frankrijk)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradiokto.akamaized.net/hls/live/20000054/ktoradio/02.m3u8:KTO
+#DESCRIPTION KTO
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n10a-eu.rcs.revma.com/1g8a3ufsyp3vv:La Grande Musique 100%25 Baroque
 #DESCRIPTION La Grande Musique 100% Baroque
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n11a-eu.rcs.revma.com/0954k2fsyp3vv:La Grande Musique 100%25 Romantique
@@ -555,22 +547,20 @@
 #DESCRIPTION La Radio Plus
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/lalaradio-high.mp3:lalaradio
 #DESCRIPTION lalaradio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.ch/start-latina-high.mp3:Latina (Frankrijk)
-#DESCRIPTION Latina (Frankrijk)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinawork.ice.infomaniak.ch/latinawork.mp3:Latina @Work Frankrijk)
-#DESCRIPTION Latina @Work Frankrijk)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinafiesta.ice.infomaniak.ch/latinafiesta.mp3:Latina Bachata (Frankrijk)
-#DESCRIPTION Latina Bachata (Frankrijk)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinafiesta.ice.infomaniak.ch/latinafiesta.mp3:Latina Fiësta (Frankrijk)
-#DESCRIPTION Latina Fiësta (Frankrijk)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinakizomba.ice.infomaniak.ch/latinakizomba.mp3:Latina Kizomba (Frankrijk)
-#DESCRIPTION Latina Kizomba (Frankrijk)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinalove.ice.infomaniak.ch/latinalove.mp3:Latina Love (Frankrijk)
-#DESCRIPTION Latina Love (Frankrijk)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinasalsa.ice.infomaniak.ch/latinasalsa.mp3:Latina Salsa (Frankrijk)
-#DESCRIPTION Latina Salsa (Frankrijk)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/lecentrefm-acc.aac:Le Centre FM AAC+
-#DESCRIPTION Le Centre FM AAC+
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.ch/start-latina-high.mp3:Latina
+#DESCRIPTION Latina
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinawork.ice.infomaniak.ch/latinawork.mp3:Latina @Work
+#DESCRIPTION Latina @Work
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinafiesta.ice.infomaniak.ch/latinafiesta.mp3:Latina Bachata
+#DESCRIPTION Latina Bachata
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinafiesta.ice.infomaniak.ch/latinafiesta.mp3:Latina Fiësta
+#DESCRIPTION Latina Fiësta
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinakizomba.ice.infomaniak.ch/latinakizomba.mp3:Latina Kizomba
+#DESCRIPTION Latina Kizomba
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinalove.ice.infomaniak.ch/latinalove.mp3:Latina Love
+#DESCRIPTION Latina Love
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//latinasalsa.ice.infomaniak.ch/latinasalsa.mp3:Latina Salsa
+#DESCRIPTION Latina Salsa
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/lecentrefm.mp3:Le Centre FM
 #DESCRIPTION Le Centre FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/ledjamradio.mp3:Ledjam Radio
@@ -579,8 +569,8 @@
 #DESCRIPTION LEGENDE FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice.creacast.com/lorfm:LOR'FM
 #DESCRIPTION LOR'FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mfm.ice.infomaniak.ch/mfm-128.mp3:M Radio (Frankrijk)
-#DESCRIPTION M Radio (Frankrijk)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mfm.ice.infomaniak.ch/mfm-128.mp3:M Radio
+#DESCRIPTION M Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mfmwr-014.ice.infomaniak.ch/mfmwr-014.mp3:M Radio - 100%25 Comédies Musicales (Frankrijk)
 #DESCRIPTION M Radio - 100% Comédies Musicales (Frankrijk)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mfmwr-023.ice.infomaniak.ch/mfmwr-023.mp3:M Radio - 100%25 Céline Dion (Frankrijk)
@@ -651,6 +641,8 @@
 #DESCRIPTION MISTRAL FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/monafm-low.mp3:Mona FM
 #DESCRIPTION Mona FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiofrance.fr/mouv-midfi.mp3:Mouv`
+#DESCRIPTION Mouv`
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hosting.studioradiomedia.fr%3a2125/stream:Nevers FM
 #DESCRIPTION Nevers FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.garden/api/ara/content/listen/NgzmYiBE/channel.mp3:Nostalgie
@@ -669,18 +661,6 @@
 #DESCRIPTION Nova Paris
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//nova-soul.ice.infomaniak.ch/nova-soul-128.mp3:Nova Soul
 #DESCRIPTION Nova Soul
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/oufdfatx4thg?origine=playernrj:NRJ France
-#DESCRIPTION NRJ France
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/oug73grb92oc?origine=playernrj:NRJ - At Work
-#DESCRIPTION NRJ - At Work
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//scdn.nrjaudio.fm/adwz1/fr/30421/aac_64.mp3:NRJ - Collectors
-#DESCRIPTION NRJ - Collectors
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/oug7qmrb92oc?origine=playernrj:NRJ - Nouveautés
-#DESCRIPTION NRJ - Nouveautés
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//scdn.nrjaudio.fm/adwz1/fr/30405/aac_64.mp3:NRJ - Nouvelle génération
-#DESCRIPTION NRJ - Nouvelle génération
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streaming.nrjaudio.fm/oug7kfrb92oc:NRJ - TikTok
-#DESCRIPTION NRJ - TikTok
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//oceanefm.ice.infomaniak.ch/oceanefm-128.mp3:Océane FM 
 #DESCRIPTION Océane FM 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/ods-high.aac:ODS Radio AAC+
@@ -775,12 +755,10 @@
 #DESCRIPTION RADIO CITE GENEVE AAC+
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/radiocite128.mp3:RADIO CITE GENEVE
 #DESCRIPTION RADIO CITE GENEVE
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.ch/radioclassique-high.mp3:Radio Classique (Frankrijk)
-#DESCRIPTION Radio Classique (Frankrijk)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/radioclassique-high.aac:Radio Classique AAC+ (Frankrijk)
-#DESCRIPTION Radio Classique AAC+ (Frankrijk)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radioclassique.ice.infomaniak.ch/radioclassique-high.mp3?ua=wwwradioclassique:Radio Classique Paris (Frankrijk)
-#DESCRIPTION Radio Classique Paris (Frankrijk)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.ch/radioclassique-high.mp3:Radio Classique
+#DESCRIPTION Radio Classique
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//radioclassique.ice.infomaniak.ch/radioclassique-high.mp3?ua=wwwradioclassique:Radio Classique Paris
+#DESCRIPTION Radio Classique Paris
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n01a-eu.rcs.revma.com/yev075zat18uv:Radio Contact 2000
 #DESCRIPTION Radio Contact 2000
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n13a-eu.rcs.revma.com/uge5n8zat18uv:Radio Contact 90s
@@ -951,7 +929,7 @@
 #DESCRIPTION Riviera Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rkb.online.radiobreizh.bzh/live.mp3:RKB - Radio Kreiz Breizh (Sant-Nigouden, Bretagne)
 #DESCRIPTION RKB - Radio Kreiz Breizh (Sant-Nigouden, Bretagne)
-#SERVICE 1:64:18d9:0:0:0:0:0:0:0:
+#SERVICE 1:64:f79:0:0:0:0:0:0:0:
 #DESCRIPTION ++RMC = Radio Monte Carlo, zie ook Monaco++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/rougefm-high.aac:Rouge fm AAC+
 #DESCRIPTION Rouge fm AAC+
@@ -965,6 +943,8 @@
 #DESCRIPTION Rouge Live Music France
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rouge-madeinfrance.ice.infomaniak.ch/rouge-madeinfrance-128.mp3:Rouge Made in France
 #DESCRIPTION Rouge Made in France
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.skyrock.net/s/natio_mp3_128k:Skyrock
+#DESCRIPTION Skyrock
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.skyrock.net/s/francais_aac_128k:Skyrock 100%25 Français
 #DESCRIPTION Skyrock 100% Français
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.skyrock.net/s/abidjan_aac_128k:Skyrock Abidjan
@@ -985,8 +965,6 @@
 #DESCRIPTION Skyrock Tunis
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.skyrock.net/s/urban_music_aac_128k:Skyrock Urban Music Non Stop
 #DESCRIPTION Skyrock Urban Music Non Stop
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.skyrock.net/s/natio_mp3_128k:Skyrock
-#DESCRIPTION Skyrock
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//www.studiozef.fr/stream:Studio Zef (Blois)
 #DESCRIPTION Studio Zef (Blois)
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.rcs.revma.com/nv1hu7644k0uv:Trace FM Guadaloupe

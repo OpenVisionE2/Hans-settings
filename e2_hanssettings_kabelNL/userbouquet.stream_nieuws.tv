@@ -1,15 +1,15 @@
 #NAME Stream Nieuws
-#SERVICE 1:64:30a:0:0:0:0:0:0:0:
+#SERVICE 1:64:13b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nederland++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bnr-cache-cdp.triple-it.nl/studio/index.m3u8:BNR Nieuwsradio
 #DESCRIPTION BNR Nieuwsradio
-#SERVICE 1:64:30b:0:0:0:0:0:0:0:
+#SERVICE 1:64:13c:0:0:0:0:0:0:0:
 #DESCRIPTION +via Rakuten TV+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//bright-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-7-restreaming/f1d1bdf4-d7f9-4e65-b710-ae2c03bd9b0d/0.m3u8:Bright TV
 #DESCRIPTION Bright TV
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//telegraaftv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-1-restreaming/b55c0195-03d0-46f2-96b5-11e50b6b8140/0.m3u8:TelegraafTV
 #DESCRIPTION TelegraafTV
-#SERVICE 1:64:30c:0:0:0:0:0:0:0:
+#SERVICE 1:64:13d:0:0:0:0:0:0:0:
 #DESCRIPTION ++België++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-streaming.dpgmedia.net/hln-live-srt-mdai62ncqonw1qi0ec81tgeti80mtf/index_720.m3u8:HLN Live
 #DESCRIPTION HLN Live
@@ -17,13 +17,13 @@
 #DESCRIPTION Trends Z Vlaanderen
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1hz1p2gea2zy4.cloudfront.net/live/rmgtv/RMG-TRENDSZFR-LIVE/index.m3u8:Trends Z Wallonië
 #DESCRIPTION Trends Z Wallonië
-#SERVICE 1:64:30d:0:0:0:0:0:0:0:
+#SERVICE 1:64:13e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Ebs = Europe by satellite++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams.prd.commavservices.eu/live/ebs/index.m3u8:EbS
 #DESCRIPTION EbS
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams.prd.commavservices.eu/live/ebsplus/index.m3u8:EbS+
 #DESCRIPTION EbS+
-#SERVICE 1:64:30e:0:0:0:0:0:0:0:
+#SERVICE 1:64:13f:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen Engels++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil%3aarirang_1ch.smil/playlist.m3u8:Arirang Korea
 #DESCRIPTION Arirang Korea
@@ -71,11 +71,17 @@
 #DESCRIPTION MSNOW
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp%3aweather_loop.stream_all/playlist.m3u8:Sky News Weather
 #DESCRIPTION Sky News Weather
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8?ads_amagi_channel_id=481&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB12&ads_content_genre=news&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=firefox&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=84.17.47.16&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=09bef241-987c-45b2-b024-acc61a336afa&ads_prodq=1&ads_rating=12&ads_rtv_channel_name=the-reuters-60_nl&ads_rtv_content_id=5795&ads_rtv_content_language=de&ads_rtvid=271863&ads_streaming_id=d5d26cd6-ffa5-4f54-b0c1-26536820cec3&ads_tivo_d:The Reuters 60
+#DESCRIPTION The Reuters 60
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//78.129.193.20/tsstreamer/TVP_SD.ts:TVP World
 #DESCRIPTION TVP World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8:UN Web TV
 #DESCRIPTION UN Web TV
-#SERVICE 1:64:30f:0:0:0:0:0:0:0:
+#SERVICE 1:64:140:0:0:0:0:0:0:0:
+#DESCRIPTION ++algemeen Afrika++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//africanews-eng-uk.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576-restreaming/bitok/eyJzdGlkIjoiNjdkNzUyNzQtNzI0Ni00MjI2LWI4MDUtZWQ0YTgzZTAwOGU4IiwibWt0IjoidWsiLCJjaCI6NjU3NiwicHRmIjo1fQ%253D%253D/live/eds/africanews-en/26036/africanews-en.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=1&ads.content_url=rakuten.tv&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_year=1970&ads.did=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee:Africanews
+#DESCRIPTION Africanews
+#SERVICE 1:64:141:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen Arabisch++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8:Al Arabiya Business
 #DESCRIPTION Al Arabiya Business
@@ -83,11 +89,11 @@
 #DESCRIPTION CNBC Arabia
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.skynewsarabia.com/hls/sna.m3u8:Sky News Arabia
 #DESCRIPTION Sky News Arabia
-#SERVICE 1:64:310:0:0:0:0:0:0:0:
+#SERVICE 1:64:142:0:0:0:0:0:0:0:
 #DESCRIPTION ++Afghanistan++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d10rltuy0iweup.cloudfront.net/ATNNEWS/myStream/playlist.m3u8:ATN News
 #DESCRIPTION ATN News
-#SERVICE 1:64:311:0:0:0:0:0:0:0:
+#SERVICE 1:64:143:0:0:0:0:0:0:0:
 #DESCRIPTION ++Albanië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//manifest.googlevideo.com/api/manifest/hls_variant/expire/1711180959/ei/Pzj-ZfndA8S36dsPifyJkAM/ip/2001%253A1c05%253A378f%253A7100%253A3893%253A6917%253Afef9%253A2482/id/otASfZX-Z4o.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%253D%253D/tx/51123453/txs/51123452%252C51123453%252C51123454%252C51123455%252C51123456%252C51123457/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9fzA5E2-plindvRxlLjxbZLcSi0y4FswmRl-QfetE53w/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%252Cei%252Cip%252Cid%252Csource%252Crequiressl%252Cxpc%252Ctx%252Ctxs%252Chfr%252Cplaylist_duration%252Cmanifest_duration%252Cmaudio%252Cspc%252Cvprv%252Cgo%252Citag%252Cplaylist_type/sig/AJfQdSswRQIgdpfaPPjgJNlE131sgTnk_rj9BIsTRy9pG9nASUYyrmQCIQCL7WQwktLdmU_1BduidbXYOSUHefLYvDZzV6ETr3GGaw%253D%253D/file/index.m3u8:Euronews Albania
 #DESCRIPTION Euronews Albania
@@ -95,13 +101,13 @@
 #DESCRIPTION A2 CNN Albania
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.balkanweb.com/news24/livestream/playlist.m3u8:News 24
 #DESCRIPTION News 24
-#SERVICE 1:64:312:0:0:0:0:0:0:0:
+#SERVICE 1:64:144:0:0:0:0:0:0:0:
 #DESCRIPTION ++Argentinië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//iptv.ixfo.com.ar%3a30443/live/c6digital/chunks.m3u8:Canal 6 Noticias
 #DESCRIPTION Canal 6 Noticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.226.28.9%3a8085/Live/18e292ea93b66c65c76707f07c489d61/local-canal9.playlist.m3u8:El Nueve
 #DESCRIPTION El Nueve
-#SERVICE 1:64:313:0:0:0:0:0:0:0:
+#SERVICE 1:64:145:0:0:0:0:0:0:0:
 #DESCRIPTION ++Australië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2glaw7ih6ssjl.cloudfront.net/livea.m3u8:9 News feed
 #DESCRIPTION 9 News feed
@@ -121,19 +127,19 @@
 #DESCRIPTION Sky News Australia Extra 2
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8:Sky News Australia Extra 3
 #DESCRIPTION Sky News Australia Extra 3
-#SERVICE 1:64:314:0:0:0:0:0:0:0:
+#SERVICE 1:64:146:0:0:0:0:0:0:0:
 #DESCRIPTION ++Belarus++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ngtrk.dc.beltelecom.by/ngtrk/smil%3abelarus24.smil/playlist.m3u8:Belarus 24
 #DESCRIPTION Belarus 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8:CTV Belarus
 #DESCRIPTION CTV Belarus
-#SERVICE 1:64:315:0:0:0:0:0:0:0:
+#SERVICE 1:64:147:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bosnië-Heregovina++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?channel=n1bos&p=n1Sh4redSecre7iNf0&sp=n1info&stream=sp1400&u=n1info:N1 Bosna i Hercegovina
 #DESCRIPTION N1 Bosna i Hercegovina
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//91.132.74.4%3a7374/play/a002/index.m3u8:O Kanal
 #DESCRIPTION O Kanal
-#SERVICE 1:64:316:0:0:0:0:0:0:0:
+#SERVICE 1:64:148:0:0:0:0:0:0:0:
 #DESCRIPTION ++Brazilië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8:COM Brasil
 #DESCRIPTION COM Brasil
@@ -143,35 +149,35 @@
 #DESCRIPTION Canal Metropolitano de Noticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8:TVídeoNews
 #DESCRIPTION TVídeoNews
-#SERVICE 1:64:317:0:0:0:0:0:0:0:
+#SERVICE 1:64:149:0:0:0:0:0:0:0:
 #DESCRIPTION ++Canada++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8:Global News Canada
 #DESCRIPTION Global News Canada
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8:Ici RDI 
 #DESCRIPTION Ici RDI 
-#SERVICE 1:64:318:0:0:0:0:0:0:0:
+#SERVICE 1:64:14a:0:0:0:0:0:0:0:
 #DESCRIPTION ++China++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8:CGTN Global Biz
 #DESCRIPTION CGTN Global Biz
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//live.zohi.tv/video/s10001-fztv-1/index.m3u8:FZTV-1 News 新闻综合频道
 #DESCRIPTION FZTV-1 News 新闻综合频道
-#SERVICE 1:64:319:0:0:0:0:0:0:0:
+#SERVICE 1:64:14b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Colombia++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//play.cdn.enetres.net/621B146D29C541AFB1507809F038F471021/021/playlist.m3u8:Noticiero 90 Minutos
 #DESCRIPTION Noticiero 90 Minutos
-#SERVICE 1:64:31a:0:0:0:0:0:0:0:
+#SERVICE 1:64:14c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Cuba++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ocb-ingest.akamaized.net/hls/live/2037032/tvmc01/playlist.m3u8:RTV Marti
 #DESCRIPTION RTV Marti
-#SERVICE 1:64:31b:0:0:0:0:0:0:0:
+#SERVICE 1:64:14d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Denemarken++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8:DRTV
 #DESCRIPTION DRTV
-#SERVICE 1:64:31c:0:0:0:0:0:0:0:
+#SERVICE 1:64:14e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Dominicaanse Republiek++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.essastream.com/noticias16/playlist.m3u8:Noticias 16
 #DESCRIPTION Noticias 16
-#SERVICE 1:64:31d:0:0:0:0:0:0:0:
+#SERVICE 1:64:14f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Duitsland++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8:Deutsche Welle
 #DESCRIPTION Deutsche Welle
@@ -183,11 +189,11 @@
 #DESCRIPTION RT DE
 #SERVICE 4097:0:1:2887:40f:1:c00000:0:0:0:https%3a//tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8:Tagesschau 24
 #DESCRIPTION Tagesschau 24
-#SERVICE 1:64:31e:0:0:0:0:0:0:0:
+#SERVICE 1:64:150:0:0:0:0:0:0:0:
 #DESCRIPTION ++Egypte++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mn-nl.mncdn.com/elsharq_live/live/chunklist.m3u8:Elsharq TV
 #DESCRIPTION Elsharq TV
-#SERVICE 1:64:31f:0:0:0:0:0:0:0:
+#SERVICE 1:64:151:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xemzi.short.gy/1000015:BBC News
 #DESCRIPTION BBC News
@@ -205,7 +211,7 @@
 #DESCRIPTION News 18 International
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68adac343d547b68be0b9a03&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=News&AV_CONTENT_CAT=IAB12&AV_CONTENT_RATING=TVMA&AV_CLIENT_SECTION=Sky_SkyNews&content_channel_name=Sky News&content_livestream=1&AV_CONTE:Sky News International
 #DESCRIPTION Sky News International
-#SERVICE 1:64:320:0:0:0:0:0:0:0:
+#SERVICE 1:64:152:0:0:0:0:0:0:0:
 #DESCRIPTION ++Frankrijk++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-20minutestv.digiteka.com/1961167769/index.m3u8:20 Minutes TV Ile-de-France
 #DESCRIPTION 20 Minutes TV Ile-de-France
@@ -227,17 +233,17 @@
 #DESCRIPTION Le Figaro IDF
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8:TV5 Monde Info
 #DESCRIPTION TV5 Monde Info
-#SERVICE 1:64:321:0:0:0:0:0:0:0:
+#SERVICE 1:64:153:0:0:0:0:0:0:0:
 #DESCRIPTION ++Georgië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.palitra.ge/hls/palitratv/index.m3u8:Palitra News
 #DESCRIPTION Palitra News
-#SERVICE 1:64:322:0:0:0:0:0:0:0:
+#SERVICE 1:64:154:0:0:0:0:0:0:0:
 #DESCRIPTION ++Ghana++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//59d39900ebfb8.streamlock.net/adinkratvny/adinkratvny/playlist.m3u8:Adinkra TV
 #DESCRIPTION Adinkra TV
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/n4ThGAoXtyE:JoyNews
 #DESCRIPTION JoyNews
-#SERVICE 1:64:323:0:0:0:0:0:0:0:
+#SERVICE 1:64:155:0:0:0:0:0:0:0:
 #DESCRIPTION ++Guatemala++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-euronews.akamaized.net/live/eds/euronews-el/25068/index.m3u8:Euronews Greek
 #DESCRIPTION Euronews Greek
@@ -245,15 +251,15 @@
 #DESCRIPTION ERT News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8:UCL TV
 #DESCRIPTION UCL TV
-#SERVICE 1:64:324:0:0:0:0:0:0:0:
+#SERVICE 1:64:156:0:0:0:0:0:0:0:
 #DESCRIPTION ++Haïtie++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.haititivi.com/website/haitinews/index.m3u8:Haiti News Channel
 #DESCRIPTION Haiti News Channel
-#SERVICE 1:64:325:0:0:0:0:0:0:0:
+#SERVICE 1:64:157:0:0:0:0:0:0:0:
 #DESCRIPTION ++Hongarije++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-euronews.akamaized.net/live/eds/euronews-hu/25075/index.m3u8:Euronews Hungarian
 #DESCRIPTION Euronews Hungarian
-#SERVICE 1:64:326:0:0:0:0:0:0:0:
+#SERVICE 1:64:158:0:0:0:0:0:0:0:
 #DESCRIPTION ++India++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8:Aaj Tak
 #DESCRIPTION Aaj Tak
@@ -281,17 +287,17 @@
 #DESCRIPTION WION
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dknttpxmr0dwf.cloudfront.net/index_2.m3u8:Zee News
 #DESCRIPTION Zee News
-#SERVICE 1:64:327:0:0:0:0:0:0:0:
+#SERVICE 1:64:159:0:0:0:0:0:0:0:
 #DESCRIPTION ++Indonesië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.i-news.tv/hls/stream.m3u8:iNEWS
 #DESCRIPTION iNEWS
-#SERVICE 1:64:328:0:0:0:0:0:0:0:
+#SERVICE 1:64:15a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Irak++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8:Al-Sharqiya News
 #DESCRIPTION Al-Sharqiya News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8:Al-Sharqiya
 #DESCRIPTION Al-Sharqiya
-#SERVICE 1:64:329:0:0:0:0:0:0:0:
+#SERVICE 1:64:15b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Iran++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//hls.irannrtv.live/hls/stream.m3u8:Iran National Revolution TV
 #DESCRIPTION Iran National Revolution TV
@@ -303,13 +309,13 @@
 #DESCRIPTION Project Leon
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.9.2.18/chid_926/index.m3u8:IRINN
 #DESCRIPTION IRINN
-#SERVICE 1:64:32a:0:0:0:0:0:0:0:
+#SERVICE 1:64:15c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Israël++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//i24newsenglish-cdn.encoders.immergo.tv/master.m3u8:i24NEWS English World
 #DESCRIPTION i24NEWS English World
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//r.il.cdn-redge.media/livehls/oil/ch14/live/ch14/live.livx/playlist.m3u8:NOW 14
 #DESCRIPTION NOW 14
-#SERVICE 1:64:32b:0:0:0:0:0:0:0:
+#SERVICE 1:64:15d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Italië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream2.xdevel.com/video1s975363-2103/stream/chunks.m3u8:Cusano News 7
 #DESCRIPTION Cusano News 7
@@ -319,41 +325,53 @@
 #DESCRIPTION Italia 2 News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8:LaC News 24
 #DESCRIPTION LaC News 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ilsole24ore-radiovisual.akamaized.net/hls/live/2035302/persidera/master.m3u8:Radio 24 - Ilsole24ore TV
+#DESCRIPTION Radio 24 - Ilsole24ore TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamcdng18-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/rainews_1200/chunklist.m3u8:Rai News 24
 #DESCRIPTION Rai News 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8:Rai News 24 (#)
+#DESCRIPTION Rai News 24 (#)
+#SERVICE 4097:0:1:d50:1450:13e:820000:0:0:0:https%3a//senato-live.morescreens.com/SENATO_1_001/playlist.m3u8:Senato TV 
+#DESCRIPTION Senato TV 
 #SERVICE 4097:0:1:480:0:0:0:0:0:0:http%3a//livetr.teleromagna.it/mia/live/playlist.m3u8:Tele Romagna 24
 #DESCRIPTION Tele Romagna 24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3k8wzt41aflvx.cloudfront.net/TGCOM24/Live.m3u8:TGcom24
+#DESCRIPTION TGcom24
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-telenorba.cdn.netrw.it/telenorba/hls/ccr/tgnorba/master.m3u8:TG Norba 24
+#DESCRIPTION TG Norba 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/canale1/canale1/playlist.m3u8:Value 24 TV
 #DESCRIPTION Value 24 TV
-#SERVICE 1:64:32c:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5f22d76e220e1.streamlock.net/01news/01news/playlist.m3u8:Zerouno TV News
+#DESCRIPTION Zerouno TV News
+#SERVICE 1:64:15e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Japan++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//cdns.jp-primehome.com%3a8000/zhongying/live/playlist.m3u8?cid=gx06&isp=10&bind=0&uin=159413&playseek=0:NHK General
 #DESCRIPTION NHK General
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8:NHK World-Japan
 #DESCRIPTION NHK World-Japan
-#SERVICE 1:64:32d:0:0:0:0:0:0:0:
+#SERVICE 1:64:15f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Jordanië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jrtv-live.ercdn.net/jordanhd/jordanhd_1080p.m3u8:Jordan Now TV
 #DESCRIPTION Jordan Now TV
-#SERVICE 1:64:32e:0:0:0:0:0:0:0:
+#SERVICE 1:64:160:0:0:0:0:0:0:0:
 #DESCRIPTION ++Kazachstan++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8:Mir 24
 #DESCRIPTION Mir 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8:RTRK Qazaqstan TV
 #DESCRIPTION RTRK Qazaqstan TV
-#SERVICE 1:64:32f:0:0:0:0:0:0:0:
+#SERVICE 1:64:161:0:0:0:0:0:0:0:
 #DESCRIPTION ++Kirgizië/Kirgistan
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//st2.mediabay.tv/KG_KTRK-Ala-too/playlist.m3u8:UTRK Ala-Too 24
 #DESCRIPTION UTRK Ala-Too 24
-#SERVICE 1:64:330:0:0:0:0:0:0:0:
+#SERVICE 1:64:162:0:0:0:0:0:0:0:
 #DESCRIPTION ++Koerdisch++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1x82nydcxndze.cloudfront.net/live/index.m3u8:K24
 #DESCRIPTION K24
-#SERVICE 1:64:331:0:0:0:0:0:0:0:
+#SERVICE 1:64:163:0:0:0:0:0:0:0:
 #DESCRIPTION ++Kroatië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?channel=n1hrv&p=n1Sh4redSecre7iNf0&sp=n1info&stream=sp1400&u=n1info:N1 Hrvatska
 #DESCRIPTION N1 Hrvatska
-#SERVICE 1:64:332:0:0:0:0:0:0:0:
+#SERVICE 1:64:164:0:0:0:0:0:0:0:
 #DESCRIPTION ++Libanon++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//185.105.4.151%3a8080/_defapp_/ittihad/index.m3u8:Al Ittihad
 #DESCRIPTION Al Ittihad
@@ -363,7 +381,7 @@
 #DESCRIPTION U News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8:Voice of Lebanon
 #DESCRIPTION Voice of Lebanon
-#SERVICE 1:64:333:0:0:0:0:0:0:0:
+#SERVICE 1:64:165:0:0:0:0:0:0:0:
 #DESCRIPTION ++Maleisië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8:Astro Awani
 #DESCRIPTION Astro Awani
@@ -371,7 +389,11 @@
 #DESCRIPTION Berita RTM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8:Channel News Asia
 #DESCRIPTION Channel News Asia
-#SERVICE 1:64:334:0:0:0:0:0:0:0:
+#SERVICE 1:64:166:0:0:0:0:0:0:0:
+#DESCRIPTION ++Mauritanië++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.saharamedias.net%3a3317/live/shara24live.m3u8:Sahara 24
+#DESCRIPTION Sahara 24
+#SERVICE 1:64:167:0:0:0:0:0:0:0:
 #DESCRIPTION ++Mexico++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8:ADN Noticias
 #DESCRIPTION ADN Noticias
@@ -381,23 +403,23 @@
 #DESCRIPTION CNN Mexico
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/playlist.m3u8:N 15.1 Notigram
 #DESCRIPTION N 15.1 Notigram
-#SERVICE 1:64:335:0:0:0:0:0:0:0:
+#SERVICE 1:64:168:0:0:0:0:0:0:0:
 #DESCRIPTION ++Moldavië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live1.cdn.jurnaltv.md/JurnalTV_HD/tracks-v1a1/mono.m3u8?token=ae8573dd758754727451475447204193d0ecbeee:Jurnal TV
 #DESCRIPTION Jurnal TV
-#SERVICE 1:64:336:0:0:0:0:0:0:0:
+#SERVICE 1:64:169:0:0:0:0:0:0:0:
 #DESCRIPTION ++Mongolië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn3.skygo.mn/live/disk1/MNB/HLS-FTA/MNB.m3u8:MNB News
 #DESCRIPTION MNB News
-#SERVICE 1:64:337:0:0:0:0:0:0:0:
+#SERVICE 1:64:16a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Mozambique++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.tvm.co.mz/hls/tvmi/playlist.m3u8:TVM Internacional
 #DESCRIPTION TVM Internacional
-#SERVICE 1:64:338:0:0:0:0:0:0:0:
+#SERVICE 1:64:16b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nigeria++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viewmedia7219.bozztv.com/wmedia/viewmedia100/web_029/Stream/playlist.m3u8:Silverbird News 24
 #DESCRIPTION Silverbird News 24
-#SERVICE 1:64:339:0:0:0:0:0:0:0:
+#SERVICE 1:64:16c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oekraïne++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_one_plus_one_int_tizen/playlist.m3u8:1+1 International HD
 #DESCRIPTION 1+1 International HD
@@ -439,7 +461,7 @@
 #DESCRIPTION TV Rivne 1
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//hls.cdn.ua/tva.ua_live/livestream/playlist.m3u8:TVA
 #DESCRIPTION TVA
-#SERVICE 1:64:33a:0:0:0:0:0:0:0:
+#SERVICE 1:64:16d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostenrijk++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//96a87d28037b48dbbae535b13de2179c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vidaa-at_MoconomyWirtschaftundFinanzenInfotainment/playlist.m3u8?ads.wurl_channel=1253&ads.wurl_name=MoconomyWirtschaftundFinanzenInfotainment&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.w=&ads.h=&ads.language=&ads.rating=&ads.ic=&ads.channel_name=&ads.content_producer_name=&ads.content_genre=&ads.client_section=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9299:Moconomy - Wirtschaft und Finanzen Infotainment
 #DESCRIPTION Moconomy - Wirtschaft und Finanzen Infotainment
@@ -447,7 +469,7 @@
 #DESCRIPTION oe24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ms01.w24.at/W24/smil%3aliveevent.smil/chunklist.m3u8:W24
 #DESCRIPTION W24
-#SERVICE 1:64:33b:0:0:0:0:0:0:0:
+#SERVICE 1:64:16e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Pakistan++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8:92 News
 #DESCRIPTION 92 News
@@ -455,7 +477,7 @@
 #DESCRIPTION Dunya News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vcdn.dunyanews.tv/lahorelive/ngrp%3alnews_1_all/playlist.m3u8:Lahore News
 #DESCRIPTION Lahore News
-#SERVICE 1:64:33c:0:0:0:0:0:0:0:
+#SERVICE 1:64:16f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Palestina++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a003:Musawa
 #DESCRIPTION Musawa
@@ -471,11 +493,11 @@
 #DESCRIPTION Rajeen TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//htvint.mada.ps%3a8889/orient/tracks-v1a1/mono.m3u8?v=86757236:Watar TV
 #DESCRIPTION Watar TV
-#SERVICE 1:64:33d:0:0:0:0:0:0:0:
+#SERVICE 1:64:170:0:0:0:0:0:0:0:
 #DESCRIPTION ++Panama++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-cloudfront.us-east-1.prod.ingest.aws-infra.dacast.com/live/64917431-2f51-0a46-d4d0-04d111b2393f/master.m3u8:Vision Latina
 #DESCRIPTION Vision Latina
-#SERVICE 1:64:33e:0:0:0:0:0:0:0:
+#SERVICE 1:64:171:0:0:0:0:0:0:0:
 #DESCRIPTION ++Peru++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//45.171.108.253%3a8888/ATV/index.m3u8:ATV+ Noticias
 #DESCRIPTION ATV+ Noticias
@@ -483,7 +505,7 @@
 #DESCRIPTION ATV Sur
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//videoserver.tmcreativos.com%3a19360/cablerasvia/cablerasvia.m3u8:Vía Televisión
 #DESCRIPTION Vía Televisión
-#SERVICE 1:64:33f:0:0:0:0:0:0:0:
+#SERVICE 1:64:172:0:0:0:0:0:0:0:
 #DESCRIPTION ++Polen++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8:Euronews
 #DESCRIPTION Euronews
@@ -499,7 +521,7 @@
 #DESCRIPTION Moconomy - Gospodarka i Finanse
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//str.onnetwork.tv/hls/onnet-358726_hi/index.m3u8:W Polsce 24
 #DESCRIPTION W Polsce 24
-#SERVICE 1:64:340:0:0:0:0:0:0:0:
+#SERVICE 1:64:173:0:0:0:0:0:0:0:
 #DESCRIPTION ++Portugal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/main/M3U/CNN_Portugal.m3u8:CNN Portugal
 #DESCRIPTION CNN Portugal
@@ -509,11 +531,11 @@
 #DESCRIPTION SIC Noticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//github.com/LITUATUI/M3UPT/raw/main/M3U/TVI_Internacional.m3u8:TVI Internacional
 #DESCRIPTION TVI Internacional
-#SERVICE 1:64:341:0:0:0:0:0:0:0:
+#SERVICE 1:64:174:0:0:0:0:0:0:0:
 #DESCRIPTION ++Qatar++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-hls-web-aja.getaj.net/AJA/index.m3u8:Al Jazeera Arabic
 #DESCRIPTION Al Jazeera Arabic
-#SERVICE 1:64:342:0:0:0:0:0:0:0:
+#SERVICE 1:64:175:0:0:0:0:0:0:0:
 #DESCRIPTION ++Roemenië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream-aleph.m.ro/Aleph/ngrp%3aAlephnewsmain.stream_all/playlist.m3u8:Aleph News
 #DESCRIPTION Aleph News
@@ -525,7 +547,7 @@
 #DESCRIPTION Pro TV News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.realitatea.net/realitatea/plus_md/ts%3aplaylist.m3u8:Realitatea Plus
 #DESCRIPTION Realitatea Plus
-#SERVICE 1:64:343:0:0:0:0:0:0:0:
+#SERVICE 1:64:176:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rusland++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8:360° Novosti
 #DESCRIPTION 360° Novosti
@@ -561,14 +583,14 @@
 #DESCRIPTION RBC
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//online-video.rbc.ru/online/rbctv.m3u8:RBK-TV
 #DESCRIPTION RBK-TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//154.58.202.185%3a8000/play/a01w:RT News English
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rumble.com/live-hls/K1qPNn6FJUg/playlist.m3u8?:RT News English
 #DESCRIPTION RT News English
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-4/mxtm-wdfe_1080p/chunklist_DVR.m3u8:RT News
 #DESCRIPTION RT News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rt-srb.rttv.com/dvr/rtbalkan/playlist_4500Kb.m3u8:RT Balkan
 #DESCRIPTION RT Balkan
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rt-ger.rttv.com/dvr/rtdeutsch/playlist.m3u8:RT DE
-#DESCRIPTION RT DE
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//77.232.131.211/Rossiya24/index.m3u8:Russia-24 HD
+#DESCRIPTION Russia-24 HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream0.tv41.ru/live.m3u8:Shchelkovskoye TV
 #DESCRIPTION Shchelkovskoye TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//serv30.vintera.tv%3a8081/sochi/sochi24_tv/playlist.m3u8:Sochi 24 HD
@@ -585,13 +607,13 @@
 #DESCRIPTION Volgograd 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming.televizor-24-tochka.ru/live/25.m3u8:Za! TV
 #DESCRIPTION Za! TV
-#SERVICE 1:64:344:0:0:0:0:0:0:0:
+#SERVICE 1:64:177:0:0:0:0:0:0:0:
 #DESCRIPTION ++Saoudi-Arabië (SA)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8:Al Arabiya English
 #DESCRIPTION Al Arabiya English
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8:Al Arabiya Al Hadath
 #DESCRIPTION Al Arabiya Al Hadath
-#SERVICE 1:64:345:0:0:0:0:0:0:0:
+#SERVICE 1:64:178:0:0:0:0:0:0:0:
 #DESCRIPTION ++Servië++
 #SERVICE 4097:0:1:a195:b98e:ec:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1bos&u=n1info&p=n1Sh4redSecre7iNf0:N1 B&H
 #DESCRIPTION N1 B&H
@@ -601,17 +623,17 @@
 #DESCRIPTION N1 SRB
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//serv24.vintera.tv%3a8081/vetta/vetta_office/playlist.m3u8:Vetta 24 Perm
 #DESCRIPTION Vetta 24 Perm
-#SERVICE 1:64:346:0:0:0:0:0:0:0:
+#SERVICE 1:64:179:0:0:0:0:0:0:0:
 #DESCRIPTION ++Slovenië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//best-str.umn.cdn.united.cloud/stream?channel=n1slv&p=n1Sh4redSecre7iNf0&sp=n1info&stream=sp1400&u=n1info:N1 Slovenska
 #DESCRIPTION N1 Slovenska
-#SERVICE 1:64:347:0:0:0:0:0:0:0:
+#SERVICE 1:64:17a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Slowakije++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sktv.mxnticek.eu/new/stream.php?ch=JOJ 24:JOJ 24
 #DESCRIPTION JOJ 24
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n16.stv.livebox.sk/stv-tv/07ce5c2ac967dcd16f99eb1cb8af08f4/stv3.smil/chunklist_b5251072.m3u8:STVR %3a24
 #DESCRIPTION STVR :24
-#SERVICE 1:64:348:0:0:0:0:0:0:0:
+#SERVICE 1:64:17b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Spanje++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_CONTENT_RATING=R&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67cedeed7730bab1a305492d&AV_CONTENT_LANGUAGE=sp&AV_CONTENT_GENERE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=actualidad360_lovetv&content_channel_name=Ac:Actualidad360
 #DESCRIPTION Actualidad360
@@ -623,21 +645,21 @@
 #DESCRIPTION Canal Sur Noticias
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8:ETB 2
 #DESCRIPTION ETB 2
-#SERVICE 1:64:349:0:0:0:0:0:0:0:
+#SERVICE 1:64:17c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Taiwan++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//38.64.72.148%3a80/hls/modn/list/4005/chunklist0.m3u8:TVBS
 #DESCRIPTION TVBS
-#SERVICE 1:64:34a:0:0:0:0:0:0:0:
+#SERVICE 1:64:17d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Thailand++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//news1.live14.com/stream/news1_hi.m3u8:News 1
 #DESCRIPTION News 1
-#SERVICE 1:64:34b:0:0:0:0:0:0:0:
+#SERVICE 1:64:17e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Tsjechië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.polar.cz/polar/polarlive-1/playlist.m3u8:Polar TV HD
 #DESCRIPTION Polar TV HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.polar.cz/vctv/vctvlive-1/playlist.m3u8:Východočeská TV
 #DESCRIPTION Východočeská TV
-#SERVICE 1:64:34c:0:0:0:0:0:0:0:
+#SERVICE 1:64:17f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Turkije++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8:A Haber
 #DESCRIPTION A Haber
@@ -661,7 +683,7 @@
 #DESCRIPTION TV Net HD
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tv.ensonhaber.com/tv24/tv24.m3u8:TR24 TV
 #DESCRIPTION TR24 TV
-#SERVICE 1:64:34d:0:0:0:0:0:0:0:
+#SERVICE 1:64:180:0:0:0:0:0:0:0:
 #DESCRIPTION ++USA landelijke nieuwszenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8:AccuWeather Now
 #DESCRIPTION AccuWeather Now
@@ -723,7 +745,7 @@
 #DESCRIPTION WeatherSpy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yahoo-vizio.amagi.tv/playlist.m3u8:Yahoo! Finance
 #DESCRIPTION Yahoo! Finance
-#SERVICE 1:64:34e:0:0:0:0:0:0:0:
+#SERVICE 1:64:181:0:0:0:0:0:0:0:
 #DESCRIPTION ++USA regionale nieuwsuitzendingen++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livevideo01.whas11.com/hls/live/2016284/elvs/live.m3u8:ABC 11 Louisville
 #DESCRIPTION ABC 11 Louisville
@@ -789,8 +811,10 @@
 #DESCRIPTION NBC 5 West Palm Beach
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dai2-playlistserver.aws.syncbak.com/cpl/20980038/dai2v5/1.0/7b2264657669636554797065223a387d/master.m3u8?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkdyYXkyMDE2MDgyOSJ9.eyJtaWQiOiIyMDk4MDAzOCIsImNpZCI6MjE5MDMsInNpZCI6MTU4LCJtZDUiOiIwN2QxMmRjNjAwOTM2MGI0MmY3NjNkNTRiMWIwZjI1NCIsImlhdCI6MTY2MDkxMzU2MCwiZXhwIjoxNjkyNDQ5NTYwLCJpc3MiOiJTeW5jYmFrIChURykifQ.JrWVgwzIn_RcNuWhkzIjr1i4qjXU1v4n0KFrSzoTQvQ:WDAM Detroit
 #DESCRIPTION WDAM Detroit
-#SERVICE 1:64:34f:0:0:0:0:0:0:0:
+#SERVICE 1:64:182:0:0:0:0:0:0:0:
 #DESCRIPTION ++USA lokale nieuwsuitzendingen++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/answers.m3u8:30ATV Answers That Count 
+#DESCRIPTION 30ATV Answers That Count 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.telvue.com/nashuanh1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8:Access Nashua NH
 #DESCRIPTION Access Nashua NH
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8:Access Vision Channel 16 Battle Creek MI
@@ -1011,13 +1035,13 @@
 #DESCRIPTION Yuma Arizona Channel 72
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.telvue.com/yumaaz2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8:Yuma Arizona Channel 73
 #DESCRIPTION Yuma Arizona Channel 73
-#SERVICE 1:64:350:0:0:0:0:0:0:0:
+#SERVICE 1:64:183:0:0:0:0:0:0:0:
 #DESCRIPTION ++VAE (Verenigde Araboische Emiraten)++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8:Al Arabiya Business
 #DESCRIPTION Al Arabiya Business
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8:Al Sharqiya
 #DESCRIPTION Al Sharqiya
-#SERVICE 1:64:351:0:0:0:0:0:0:0:
+#SERVICE 1:64:184:0:0:0:0:0:0:0:
 #DESCRIPTION ++Venezuela++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//master.myplaytv.com%3a2020/hls/canaldiplomatico/canaldiplomatico.m3u8:Canal Diplomatico
 #DESCRIPTION Canal Diplomatico
@@ -1025,19 +1049,19 @@
 #DESCRIPTION Globovision
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8:TeleSUR
 #DESCRIPTION TeleSUR
-#SERVICE 1:64:352:0:0:0:0:0:0:0:
+#SERVICE 1:64:185:0:0:0:0:0:0:0:
 #DESCRIPTION ++Zuid-Afrika++
 #SERVICE 4097:0:1:404:1:27:abcd0000:0:0:0:https%3a//sabconetanw.cdn.mangomolo.com/news/smil%3anews.stream.smil/master.m3u8:SABC News
 #DESCRIPTION SABC News
-#SERVICE 1:64:353:0:0:0:0:0:0:0:
+#SERVICE 1:64:186:0:0:0:0:0:0:0:
 #DESCRIPTION ++Zuid-Korea++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.joycorp.co.kr%3a4443/live/live_360p/chunklist.m3u8:NBS
 #DESCRIPTION NBS
-#SERVICE 1:64:354:0:0:0:0:0:0:0:
+#SERVICE 1:64:187:0:0:0:0:0:0:0:
 #DESCRIPTION ++Zweden++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil%3a03837-tx2/playlist.m3u8:Expressen TV
 #DESCRIPTION Expressen TV
-#SERVICE 1:64:355:0:0:0:0:0:0:0:
+#SERVICE 1:64:188:0:0:0:0:0:0:0:
 #DESCRIPTION ++Zwitserland++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livesd2.vedge.infomaniak.com/livecast/livehd/master.m3u8:Canal 9
 #DESCRIPTION Canal 9

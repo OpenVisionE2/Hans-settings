@@ -264,9 +264,6 @@ ffff0000:0c81:0600
 ffff0000:0002:0001
 	c 386000:6875000:2:5:0:0:0
 /
-ffff0000:0c86:0600
-	c 266000:6900000:2:5:0:0:0
-/
 ffff0000:0002:25a8
 	c 234000:6875000:2:3:0:0:0
 /
@@ -311,6 +308,9 @@ ffff0000:0906:2210
 /
 ffff0000:0840:0600
 	c 290000:6900000:2:5:0:0:0
+/
+ffff0000:0c86:0600
+	c 266000:6900000:2:5:0:0:0
 /
 ffff0000:0808:0600
 	c 402000:6900000:2:5:0:0:0
@@ -959,6 +959,9 @@ p:CAIW Media,c:050001
 7954:ffff0000:0083:08c9:1:0
 STAR Channel SD
 p:CAIW Media
+7919:ffff0000:0083:08c9:25:0
+DreamWorks
+p:DFN,c:050001
 0324:ffff0000:0008:25a8:1:0
 Cartoonito
 p:SKV
@@ -1796,30 +1799,81 @@ p:CAIW Media
 1f4a:ffff0000:0caa:0600:1:0
 RTV Slingeland
 p:Ziggo
-1f4c:ffff0000:0caa:0600:1:0
-Studio Rheden TV
-p:Ziggo
-1f4d:ffff0000:0caa:0600:1:0
-REGIO8 TV
-p:Ziggo
-1f4f:ffff0000:0caa:0600:1:0
-Samen1 TV
-p:Ziggo
-1f50:ffff0000:0caa:0600:1:0
-RTV Rijnstreek
-p:Ziggo
 1f51:ffff0000:0caa:0600:1:0
 EDE TV
 p:Ziggo
-1f52:ffff0000:0caa:0600:1:0
-Ideaal TV
+1391:ffff0000:0caa:0600:2:0
+Slingeland FM
 p:Ziggo
-1f4b:ffff0000:0caa:0600:22:0
+1392:ffff0000:0caa:0600:2:0
+Rijnstreek FM
+p:Ziggo
+1393:ffff0000:0caa:0600:2:0
+Studio Rheden Radio
+p:Ziggo
+1394:ffff0000:0caa:0600:2:0
+Ede FM
+p:Ziggo
+1395:ffff0000:0caa:0600:2:0
+Radio 794
+p:Ziggo
+1396:ffff0000:0caa:0600:2:0
+Radio Ideaal
+p:Ziggo
+1397:ffff0000:0caa:0600:2:0
+RTV Connect Radio
+p:Ziggo
+1398:ffff0000:0caa:0600:2:0
+1Achterhoek Radio
+p:Ziggo
+1399:ffff0000:0caa:0600:2:0
+REGIO8 Radio
+p:Ziggo
+139a:ffff0000:0caa:0600:2:0
+Voorst Veluwezoom FM
+p:Ziggo
+139b:ffff0000:0caa:0600:2:0
+leuk fm
+p:Ziggo
+139c:ffff0000:0caa:0600:2:0
+Apeldoorn Radio
+p:Ziggo
+139d:ffff0000:0caa:0600:2:0
+Aladna Radio
+p:Ziggo
+139f:ffff0000:0caa:0600:2:0
+Chris
+p:Ziggo
+13a1:ffff0000:0caa:0600:2:0
+HITZZZ!!
+p:Ziggo
+1f4a:ffff0000:0caa:0600:25:0
+REGIO8 TV
+p:Ziggo,c:050001
+1f4b:ffff0000:0caa:0600:25:0
 RTV Connect
 p:Ziggo,c:050001
-1f53:ffff0000:0caa:0600:22:0
-794 Voorst Veluwezoom
+1f4c:ffff0000:0caa:0600:25:0
+Studio Rheden TV
 p:Ziggo,c:050001
+1f4d:ffff0000:0caa:0600:25:0
+RTV Apeldoorn
+p:Ziggo,c:050001
+1f4e:ffff0000:0caa:0600:25:0
+XON
+p:Ziggo,c:050001
+1f50:ffff0000:0caa:0600:25:0
+RTV Rijnstreek
+p:Ziggo,c:050001
+1f51:ffff0000:0caa:0600:25:0
+1Achterhoek
+p:Ziggo
+1f52:ffff0000:0caa:0600:25:0
+Ideaal TV
+p:Ziggo
+1f53:ffff0000:0caa:0600:25:0
+794 Voorst Veluwezoom
+p:Ziggo
 4e4a:ffff0000:0803:0600:1:0
 490 SID 0x4e4a
 p:,c:050001
@@ -2595,7 +2649,7 @@ p:CAIW Media
 Radio Noordzee
 p:DFN
 1772:ffff0000:006a:08c9:2:0
-Grand Prix Radio
+GPR SPORTRADIO
 p:DFN
 17e8:ffff0000:006a:08c9:2:0
 Radio Capelle
@@ -3050,6 +3104,9 @@ p:CAIW Media
 909c:ffff0000:0089:08c9:25:0
 Eurosport 2
 p:CAIW Media,c:050001
+90c4:ffff0000:0089:08c9:25:0
+INPLUS
+p:CAIW Media,c:050001
 90ce:ffff0000:0089:08c9:25:0
 Viaplay TV
 p:DFN,c:050001
@@ -3326,90 +3383,6 @@ p:Telenet
 00d9:ffff0000:0002:0001:25:0
 VTM 4
 p:Telenet
-1bcd:ffff0000:0c86:0600:1:0
-Regionieuws TV
-p:Ziggo
-1bce:ffff0000:0c86:0600:1:0
-TV AA en Hunze
-p:Ziggo
-1bcf:ffff0000:0c86:0600:1:0
-Tynaarlo Lokaal
-p:Ziggo
-100c:ffff0000:0c86:0600:2:0
-Tukker FM
-p:Ziggo
-100d:ffff0000:0c86:0600:2:0
-Radio AA en Hunze
-p:Ziggo
-100e:ffff0000:0c86:0600:2:0
-Simone FM
-p:Ziggo
-100f:ffff0000:0c86:0600:2:0
-Tynaarlo Lokaal
-p:Ziggo
-1010:ffff0000:0c86:0600:2:0
-Eemsdelta Radio
-p:Ziggo
-1011:ffff0000:0c86:0600:2:0
-RTV1 Radio
-p:Ziggo
-1012:ffff0000:0c86:0600:2:0
-RTV GO Radio
-p:Ziggo
-1013:ffff0000:0c86:0600:2:0
-Oog-Radio
-p:Ziggo
-1014:ffff0000:0c86:0600:2:0
-Omroep Assen Radio
-p:Ziggo
-1015:ffff0000:0c86:0600:2:0
-Zulthe Radio
-p:Ziggo
-1016:ffff0000:0c86:0600:2:0
-Radio Westerwolde
-p:Ziggo
-1017:ffff0000:0c86:0600:2:0
-Omroep Het Hogeland Radio
-p:Ziggo
-1018:ffff0000:0c86:0600:2:0
-ZO!34 FM
-p:Ziggo
-1019:ffff0000:0c86:0600:2:0
-TeamFM Drenthe-Groningen
-p:Ziggo
-101a:ffff0000:0c86:0600:2:0
-Regio FM
-p:Ziggo
-101b:ffff0000:0c86:0600:2:0
-GigantFM
-p:Ziggo
-101c:ffff0000:0c86:0600:2:0
-Joy Radio
-p:Ziggo
-1bc7:ffff0000:0c86:0600:22:0
-Omroep Assen TV
-p:Ziggo
-1bc5:ffff0000:0c86:0600:25:0
-RTV Go TV
-p:Ziggo
-1bc6:ffff0000:0c86:0600:25:0
-Oog-TV
-p:Ziggo
-1bc8:ffff0000:0c86:0600:25:0
-RTV1
-p:Ziggo
-1bc9:ffff0000:0c86:0600:25:0
-Omroep Zulthe
-p:Ziggo
-1bca:ffff0000:0c86:0600:25:0
-Omroep Het Hogeland
-p:Ziggo
-1bcb:ffff0000:0c86:0600:25:0
-ZO!34 TV
-p:Ziggo
-1bcc:ffff0000:0c86:0600:25:0
-Eemsdelta TV
-p:Ziggo
 00cf:ffff0000:0002:25a8:1:0
 CNN
 p:SKV
@@ -4073,6 +4046,93 @@ p:Ziggo,c:050001
 4af7:ffff0000:0840:0600:25:0
 RTL Z
 p:Ziggo,c:050001,c:098800
+100c:ffff0000:0c86:0600:2:0
+Tukker FM
+p:Ziggo
+100d:ffff0000:0c86:0600:2:0
+Radio AA en Hunze
+p:Ziggo
+100e:ffff0000:0c86:0600:2:0
+Simone FM
+p:Ziggo
+100f:ffff0000:0c86:0600:2:0
+Tynaarlo Lokaal
+p:Ziggo
+1010:ffff0000:0c86:0600:2:0
+Eemsdelta Radio
+p:Ziggo
+1011:ffff0000:0c86:0600:2:0
+RTV1 Radio
+p:Ziggo
+1012:ffff0000:0c86:0600:2:0
+RTV GO Radio
+p:Ziggo
+1013:ffff0000:0c86:0600:2:0
+Oog-Radio
+p:Ziggo
+1014:ffff0000:0c86:0600:2:0
+Omroep Assen Radio
+p:Ziggo
+1015:ffff0000:0c86:0600:2:0
+Zulthe Radio
+p:Ziggo
+1016:ffff0000:0c86:0600:2:0
+Radio Westerwolde
+p:Ziggo
+1017:ffff0000:0c86:0600:2:0
+Omroep Het Hogeland Radio
+p:Ziggo
+1018:ffff0000:0c86:0600:2:0
+ZO!34 FM
+p:Ziggo
+1019:ffff0000:0c86:0600:2:0
+TeamFM Drenthe-Groningen
+p:Ziggo
+101a:ffff0000:0c86:0600:2:0
+Regio FM
+p:Ziggo
+101b:ffff0000:0c86:0600:2:0
+GigantFM
+p:Ziggo
+101c:ffff0000:0c86:0600:2:0
+Joy Radio
+p:Ziggo
+101d:ffff0000:0c86:0600:2:0
+HITZZZ!!
+p:Ziggo
+1bc5:ffff0000:0c86:0600:25:0
+RTV Go TV
+p:Ziggo
+1bc6:ffff0000:0c86:0600:25:0
+Oog-TV
+p:Ziggo
+1bc7:ffff0000:0c86:0600:25:0
+Omroep Assen TV
+p:Ziggo
+1bc8:ffff0000:0c86:0600:25:0
+RTV1
+p:Ziggo
+1bc9:ffff0000:0c86:0600:25:0
+Omroep Zulthe
+p:Ziggo
+1bca:ffff0000:0c86:0600:25:0
+Omroep Het Hogeland
+p:Ziggo
+1bcb:ffff0000:0c86:0600:25:0
+ZO!34 TV
+p:Ziggo
+1bcc:ffff0000:0c86:0600:25:0
+Eemsdelta TV
+p:Ziggo
+1bcd:ffff0000:0c86:0600:25:0
+Regionieuws TV
+p:Ziggo
+1bce:ffff0000:0c86:0600:25:0
+TV AA en Hunze
+p:Ziggo
+1bcf:ffff0000:0c86:0600:25:0
+Tynaarlo Lokaal
+p:Ziggo
 2847:ffff0000:0808:0600:2:0
 NPO Radio 1
 p:Ziggo
@@ -4141,7 +4201,7 @@ Ziggo Dome
 p:Ziggo
 4a75:ffff0000:0808:0600:22:0
 Veronica / Disney Jr.
-p:Ziggo
+p:Ziggo,c:050001
 4a76:ffff0000:0808:0600:25:0
 Discovery
 p:Ziggo
@@ -4379,6 +4439,9 @@ p:Ziggo,c:050001,c:090202
 4a67:ffff0000:0807:0600:25:0
 2M
 p:Ziggo
+0db2:ffff0000:0c7a:0600:2:0
+LOK Radio
+p:Ziggo
 0db4:ffff0000:0c7a:0600:2:0
 WOS Radio
 p:Ziggo
@@ -4609,7 +4672,7 @@ SBS6
 p:Ziggo,c:050001,c:098800
 4bf8:ffff0000:0834:0600:22:0
 Net5
-p:Ziggo
+p:Ziggo,c:050001
 76e9:ffff0000:0834:0600:25:0
 ESPN
 p:Ziggo,c:050001,c:098800
@@ -4645,7 +4708,7 @@ WDR
 p:Ziggo,c:050001
 4b07:ffff0000:080e:0600:25:0
 RTV Utrecht
-p:Ziggo,c:050001
+p:Ziggo,c:050001,c:098800
 4b08:ffff0000:080e:0600:25:0
 RTV Rijnmond
 p:Ziggo,c:050001,c:098800

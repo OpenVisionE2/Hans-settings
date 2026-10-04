@@ -1,5 +1,5 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:6f2:0:0:0:0:0:0:0:
+#SERVICE 1:64:722:0:0:0:0:0:0:0:
 #DESCRIPTION ++publieke zenders++
 #SERVICE 4097:0:2:5258:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl%3a80/radio1-bb-mp3:NPO Radio 1
 #DESCRIPTION NPO Radio 1
@@ -15,8 +15,8 @@
 #DESCRIPTION NPO Campus Radio 
 #SERVICE 4097:0:2:525b:c99:3:eb0000:0:0:0:http%3a//icecast.omroep.nl/radio4-bb-mp3:NPO Klassiek
 #DESCRIPTION NPO Klassiek
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.omroep.nl/radio6-bb-mp3:NPO Politiek & Nieuws 
-#DESCRIPTION NPO Politiek & Nieuws 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.omroep.nl/radio6-bb-mp3:NPO Politiek en Nieuws 
+#DESCRIPTION NPO Politiek en Nieuws 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.omroep.nl/radio2-sterrennl-mp3:NPO Sterren.nl
 #DESCRIPTION NPO Sterren.nl
 #SERVICE 4097:0:2:3747:c8e:3:eb0000:0:0:0:http%3a//icecast.omroep.nl/funx-bb-mp3:FunX
@@ -41,7 +41,7 @@
 #DESCRIPTION FunX Rotterdam
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.omroep.nl/funx-utrecht-bb-mp3:FunX Utrecht
 #DESCRIPTION FunX Utrecht
-#SERVICE 1:64:6f3:0:0:0:0:0:0:0:
+#SERVICE 1:64:723:0:0:0:0:0:0:0:
 #DESCRIPTION ++nieuws++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/BNR_BUSINESS_BEATS.mp3:BNR Business Beats
 #DESCRIPTION BNR Business Beats
@@ -51,7 +51,7 @@
 #DESCRIPTION BNR Nieuwsradio - Kijk live
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//talkradio.streaming.deliver.media/talkradio_mp3_192:TalkRadio
 #DESCRIPTION TalkRadio
-#SERVICE 1:64:6f4:0:0:0:0:0:0:0:
+#SERVICE 1:64:724:0:0:0:0:0:0:0:
 #DESCRIPTION ++(commerciële) HOOFDzenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//40rockstream.live-streams.nl/live:40ROCK Radio
 #DESCRIPTION 40ROCK Radio
@@ -255,9 +255,7 @@
 #DESCRIPTION JOE non-stop
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicnl-cdp.triple-it.nl/Joe_nl_nonstop_high.aac#:JOE non-stop (#)
 #DESCRIPTION JOE non-stop (#)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22673.live.streamtheworld.com/SERVICE07AAC.aac:Jolene Country Radio
-#DESCRIPTION Jolene Country Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22353.live.streamtheworld.com/SERVICE07AAC.aac:Jolene Country Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22713.live.streamtheworld.com/SERVICE07.mp3:Jolene Country Radio
 #DESCRIPTION Jolene Country Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.automates.media/jumboradio:Jumbo Radio
 #DESCRIPTION Jumbo Radio
@@ -277,8 +275,8 @@
 #DESCRIPTION KINK 90s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/pls/KINK_DISTORTION.pls:KINK Distortion
 #DESCRIPTION KINK Distortion
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.kissfm.nl/kissfm:KISS
-#DESCRIPTION KISS
+#SERVICE 4097:0:2:2b2d:803:600:ffff0000:0:0:0:https%3a//stream.kissfm.nl/kissfm:KISS FM
+#DESCRIPTION KISS FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.layzer.nl/layzer.mp3:Layzer
 #DESCRIPTION Layzer
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ssl.feelgoodradio.eu/proxy/legacy/stream:Lega-C
@@ -341,12 +339,16 @@
 #DESCRIPTION Olympia Radio Classics
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.qmusic.nl/qmusic/mp3:Qmusic
 #DESCRIPTION Qmusic
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-streaming.qmusic.nl/Qmusic_nl_10s_high.aac:Qmusic 10s
+#DESCRIPTION Qmusic 10s
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_90s00s.mp3:Qmusic 90s&00s
 #DESCRIPTION Qmusic 90s&00s
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-streaming.qmusic.nl/Qmusic_nl_easy_high.aac:Qmusic Easy
+#DESCRIPTION Qmusic Easy
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-streaming.qmusic.nl/Qmusic_nl_energy_high.aac:Qmusic Energy
+#DESCRIPTION Qmusic Energy
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.qmusic.nl/fouteuur/mp3:Qmusic Foute Uur
 #DESCRIPTION Qmusic Foute Uur
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//23903.live.streamtheworld.com/QMUSICNL_NEDERLANDSTALIG.mp3:Qmusic Nederlandstalig
-#DESCRIPTION Qmusic Nederlandstalig
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.qmusic.nl/nonstop/mp3:Qmusic NonStop
 #DESCRIPTION Qmusic NonStop
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.qmusic.nl/thema/mp3:Qmusic Summer
@@ -473,6 +475,8 @@
 #DESCRIPTION Radio Veronica Rock Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/WEB06_AAC.aac:Radio Veronica Top 3000
 #DESCRIPTION Radio Veronica Top 3000
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SILVERADOCOUNTRYAAC.m3u8:Silverado
+#DESCRIPTION Silverado
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.simone.nl/simone:Simone FM
 #DESCRIPTION Simone FM
 #SERVICE 4097:0:2:52eb:c96:3:eb0000:0:0:0:http%3a//playerservices.streamtheworld.com/api/livestream-redirect/SKYRADIO_SC:Sky Radio
@@ -615,7 +619,7 @@
 #DESCRIPTION Yoursafe Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio.ztack.nl/radio/8000/ztack:ZTACK
 #DESCRIPTION ZTACK
-#SERVICE 1:64:6f5:0:0:0:0:0:0:0:
+#SERVICE 1:64:725:0:0:0:0:0:0:0:
 #DESCRIPTION ++religieus++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//str1.hollanddata.eu%3a8000:Bright FM
 #DESCRIPTION Bright FM
@@ -655,13 +659,13 @@
 #DESCRIPTION Trans World Radio NL
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//live.urkfm.nl%3a8000/geestelijk.mp3:Urk FM Geestelijk
 #DESCRIPTION Urk FM Geestelijk
-#SERVICE 1:64:6f6:0:0:0:0:0:0:0:
+#SERVICE 1:64:726:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sinterklaas++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.tbmp.nl%3a8000/sinterklaasradiohigh.aac:Sint FM
 #DESCRIPTION Sint FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream06.dotpoint.nl%3a8004/stream:SinterklaasRadio
 #DESCRIPTION SinterklaasRadio
-#SERVICE 1:64:6f7:0:0:0:0:0:0:0:
+#SERVICE 1:64:727:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.18hits.fm/18Hmp3:18Hits
 #DESCRIPTION 18Hits
