@@ -1,7 +1,7 @@
 #NAME Stream Twitch
-#SERVICE 1:64:32a:0:0:0:0:0:0:0:
+#SERVICE 1:64:338:0:0:0:0:0:0:0:
 #DESCRIPTION ++NEDERLAND++
-#SERVICE 1:64:32b:0:0:0:0:0:0:0:
+#SERVICE 1:64:339:0:0:0:0:0:0:0:
 #DESCRIPTION +NL algemeen+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/carolineradio2026:Caroline Radio 2026
 #DESCRIPTION Caroline Radio 2026
@@ -19,19 +19,29 @@
 #DESCRIPTION Trucker Dylan (soms)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/Yverrr:Westerschelde live (onregelmatig) - Yverrr
 #DESCRIPTION Westerschelde live (onregelmatig) - Yverrr
-#SERVICE 1:64:32c:0:0:0:0:0:0:0:
+#SERVICE 1:64:33a:0:0:0:0:0:0:0:
+#DESCRIPTION ++amateur tv NL++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/pi6atv:PI6ATV
+#DESCRIPTION PI6ATV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/pi6ehv_official:PI6EHV
+#DESCRIPTION PI6EHV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/pi6zdmlive:PI6ZDM
+#DESCRIPTION PI6ZDM
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/pi6ztmlive:PI6ZTM
+#DESCRIPTION PI6ZTM
+#SERVICE 1:64:33b:0:0:0:0:0:0:0:
 #DESCRIPTION +Groningen+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/webcamoostersluis:Oostersluis, webcam GR-oost
 #DESCRIPTION Oostersluis, webcam GR-oost
-#SERVICE 1:64:32d:0:0:0:0:0:0:0:
+#SERVICE 1:64:33c:0:0:0:0:0:0:0:
 #DESCRIPTION +Friesland+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/birdcam_friesland:Birdcam Friesland
 #DESCRIPTION Birdcam Friesland
-#SERVICE 1:64:32e:0:0:0:0:0:0:0:
+#SERVICE 1:64:33d:0:0:0:0:0:0:0:
 #DESCRIPTION +Drenthe+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/hetcobrateam:Cobrateam (Beilen, piratenradio, weekeind)
 #DESCRIPTION Cobrateam (Beilen, piratenradio, weekeind)
-#SERVICE 1:64:32f:0:0:0:0:0:0:0:
+#SERVICE 1:64:33e:0:0:0:0:0:0:0:
 #DESCRIPTION +Overijssel+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a/www.twitch.tv/art4more:art4more (Haaksbergen)
 #DESCRIPTION art4more (Haaksbergen)
@@ -39,11 +49,11 @@
 #DESCRIPTION Koekstad FM (Deventer)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/ster_in_twente:Ster in Twente
 #DESCRIPTION Ster in Twente
-#SERVICE 1:64:330:0:0:0:0:0:0:0:
+#SERVICE 1:64:33f:0:0:0:0:0:0:0:
 #DESCRIPTION +Flevoland+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/radiosksfm:RadioSKsFM uit Almere voor etnische minderheden
 #DESCRIPTION RadioSKsFM uit Almere voor etnische minderheden
-#SERVICE 1:64:331:0:0:0:0:0:0:0:
+#SERVICE 1:64:340:0:0:0:0:0:0:0:
 #DESCRIPTION +Gelderland+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/afmtv:Aladna FM visual radio (Aalten)
 #DESCRIPTION Aladna FM visual radio (Aalten)
@@ -51,7 +61,7 @@
 #DESCRIPTION Radio Citypoint (Vierhouten - 09.30-22.00 uur)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/samen1_events:Samen1
 #DESCRIPTION Samen1
-#SERVICE 1:64:332:0:0:0:0:0:0:0:
+#SERVICE 1:64:341:0:0:0:0:0:0:0:
 #DESCRIPTION +Noord-Holland+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/rbbloemendaal:Bloemendaal - Vrijwillige Bloemendaalse Reddingsbrigade
 #DESCRIPTION Bloemendaal - Vrijwillige Bloemendaalse Reddingsbrigade
@@ -65,23 +75,25 @@
 #DESCRIPTION TV Castricum kabelkrant of studiocam
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/webcamzandvoort:Zandvoort - Live Railcam Zandvoort
 #DESCRIPTION Zandvoort - Live Railcam Zandvoort
-#SERVICE 1:64:333:0:0:0:0:0:0:0:
+#SERVICE 1:64:342:0:0:0:0:0:0:0:
 #DESCRIPTION +Zuid-Holland+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/taximarceldenhaag:Taxi Marcel Den Haag (als deze rijdt)
 #DESCRIPTION Taxi Marcel Den Haag (als deze rijdt)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/pi6ztm:PI6ZTN (Den Haag)
 #DESCRIPTION PI6ZTN (Den Haag)
-#SERVICE 1:64:334:0:0:0:0:0:0:0:
+#SERVICE 1:64:343:0:0:0:0:0:0:0:
 #DESCRIPTION +Utrecht+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/hhgstmaartensdijk:Hersteld Hervormde Gemeente Sint-Maartensdijk (tijdens kerkdiensten)
 #DESCRIPTION Hersteld Hervormde Gemeente Sint-Maartensdijk (tijdens kerkdiensten)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/pi6atv:PI6ATV (vanaf Gerbrandy mediatoren te IJsselstein)
 #DESCRIPTION PI6ATV (vanaf Gerbrandy mediatoren te IJsselstein)
-#SERVICE 1:64:335:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/rijinstructeurjeroen:Rijinstructeur Jeroen
+#DESCRIPTION Rijinstructeur Jeroen
+#SERVICE 1:64:344:0:0:0:0:0:0:0:
 #DESCRIPTION ++Zeeland++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/Yverrr:Westerschelde live (onregelmatig) - Yverrr
 #DESCRIPTION Westerschelde live (onregelmatig) - Yverrr
-#SERVICE 1:64:336:0:0:0:0:0:0:0:
+#SERVICE 1:64:345:0:0:0:0:0:0:0:
 #DESCRIPTION +Noord-Brabant+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/eenfm:eenfm (Oirschot)
 #DESCRIPTION eenfm (Oirschot)
@@ -91,15 +103,19 @@
 #DESCRIPTION ROS TV-Krant (Rosmalen)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/tvschijndel:TV Schijndel - Markt webcam
 #DESCRIPTION TV Schijndel - Markt webcam
-#SERVICE 1:64:337:0:0:0:0:0:0:0:
+#SERVICE 1:64:346:0:0:0:0:0:0:0:
 #DESCRIPTION ++Limburg++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/3heuvelland:1Z - 3Heuvelland
 #DESCRIPTION 1Z - 3Heuvelland
-#SERVICE 1:64:338:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:1b37:c83:600:ffff0000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/zuidlimburgvandaag:Zuid-Limburg Vandaag (Meerssen)
+#DESCRIPTION Zuid-Limburg Vandaag (Meerssen)
+#SERVICE 1:64:347:0:0:0:0:0:0:0:
 #DESCRIPTION ++BELGIË++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/citymusicaalst:City Music Aalst
 #DESCRIPTION City Music Aalst
-#SERVICE 1:64:339:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/vivesmeb:Radio MEB, studenten Hogeschool Vives, BE
+#DESCRIPTION Radio MEB, studenten Hogeschool Vives, BE
+#SERVICE 1:64:348:0:0:0:0:0:0:0:
 #DESCRIPTION ++muziek++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/arenaradio:Arena Radio
 #DESCRIPTION Arena Radio
@@ -131,6 +147,8 @@
 #DESCRIPTION Radio Gioconda
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/radiomallepietje:Radio Malle Pietje
 #DESCRIPTION Radio Malle Pietje
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/vivesmeb:Radio MEB, studenten Hogeschool Vives, BE
+#DESCRIPTION Radio MEB, studenten Hogeschool Vives, BE
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/radiooretani:Radio Oretani
 #DESCRIPTION Radio Oretani
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/rosarioclasicaenvivo:Radio Rosario Clásica (Santa Fee, Rosario, 24/7 klassieke muziek).
@@ -149,7 +167,7 @@
 #DESCRIPTION teusaca radio 88.1 fm
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/thepeoplesradio:The People's Radio
 #DESCRIPTION The People's Radio
-#SERVICE 1:64:33a:0:0:0:0:0:0:0:
+#SERVICE 1:64:349:0:0:0:0:0:0:0:
 #DESCRIPTION ++jeugd++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/cartoonchannelph:Cartoon Channel Philippines
 #DESCRIPTION Cartoon Channel Philippines
@@ -159,21 +177,21 @@
 #DESCRIPTION LittleHappy
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/nickelodeonbrasil309873:Nickelodeon Brasil
 #DESCRIPTION Nickelodeon Brasil
-#SERVICE 1:64:33b:0:0:0:0:0:0:0:
+#SERVICE 1:64:34a:0:0:0:0:0:0:0:
 #DESCRIPTION +onbekend/diversen+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/crazybags:CrazyBags
 #DESCRIPTION CrazyBags
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/theinfoscreen:The Info Screen
 #DESCRIPTION The Info Screen
-#SERVICE 1:64:33c:0:0:0:0:0:0:0:
+#SERVICE 1:64:34b:0:0:0:0:0:0:0:
 #DESCRIPTION ++DIVERSE LANDEN++
-#SERVICE 1:64:33d:0:0:0:0:0:0:0:
+#SERVICE 1:64:34c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Albanië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/rtv4plus:RTV 4+ (Lushnjë)
 #DESCRIPTION RTV 4+ (Lushnjë)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/topmedia_topnews:TopNews
 #DESCRIPTION TopNews
-#SERVICE 1:64:33e:0:0:0:0:0:0:0:
+#SERVICE 1:64:34d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Argentinië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/argentina_12tw:Argentina 12
 #DESCRIPTION Argentina 12
@@ -189,11 +207,11 @@
 #DESCRIPTION Somos Belle Ville TV
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/teleposadasok01:Tele Posadas
 #DESCRIPTION Tele Posadas
-#SERVICE 1:64:33f:0:0:0:0:0:0:0:
+#SERVICE 1:64:34e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bangladesh++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/familytv1971:FamilyTV1971
 #DESCRIPTION FamilyTV1971
-#SERVICE 1:64:340:0:0:0:0:0:0:0:
+#SERVICE 1:64:34f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Brazilië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/canal_ssc:Canal SSC - Foz do Iguaçu - Paraná
 #DESCRIPTION Canal SSC - Foz do Iguaçu - Paraná
@@ -205,17 +223,17 @@
 #DESCRIPTION TV Amares (Espírito Santo)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/tvriopreto:TV Rio Petro
 #DESCRIPTION TV Rio Petro
-#SERVICE 1:64:341:0:0:0:0:0:0:0:
+#SERVICE 1:64:350:0:0:0:0:0:0:0:
 #DESCRIPTION ++Colombia++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/amagateve:Amagá Televisión
 #DESCRIPTION Amagá Televisión
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/teusaca_radio_fm:teusaca radio 88.1 fm
 #DESCRIPTION teusaca radio 88.1 fm
-#SERVICE 1:64:342:0:0:0:0:0:0:0:
+#SERVICE 1:64:351:0:0:0:0:0:0:0:
 #DESCRIPTION ++Cyprus++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/alithiavideo:Alithia
 #DESCRIPTION Alithia
-#SERVICE 1:64:343:0:0:0:0:0:0:0:
+#SERVICE 1:64:352:0:0:0:0:0:0:0:
 #DESCRIPTION ++Duitsland++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/alf_deutsch:ALF Deutsch
 #DESCRIPTION ALF Deutsch
@@ -225,17 +243,17 @@
 #DESCRIPTION Hamburg Hafen Live
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/news5live:News 5 Live
 #DESCRIPTION News 5 Live
-#SERVICE 1:64:344:0:0:0:0:0:0:0:
+#SERVICE 1:64:353:0:0:0:0:0:0:0:
 #DESCRIPTION ++El Salvador++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/tlmassa_tvonline:TL+ Santa Ana (ma t/m vr 16-02 uur, za/zo 09-14 uur)
 #DESCRIPTION TL+ Santa Ana (ma t/m vr 16-02 uur, za/zo 09-14 uur)
-#SERVICE 1:64:345:0:0:0:0:0:0:0:
+#SERVICE 1:64:354:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland (en rest UK)++
-#SERVICE 1:64:346:0:0:0:0:0:0:0:
+#SERVICE 1:64:355:0:0:0:0:0:0:0:
 #DESCRIPTION +Engeland+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/lincolnshirewildlifepark:Lincolnshire Wildlife Park
 #DESCRIPTION Lincolnshire Wildlife Park
-#SERVICE 1:64:347:0:0:0:0:0:0:0:
+#SERVICE 1:64:356:0:0:0:0:0:0:0:
 #DESCRIPTION +Schotland+
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/cmalcoll:Arinagour, Isle of Coll, Hebrides
 #DESCRIPTION Arinagour, Isle of Coll, Hebrides
@@ -261,21 +279,21 @@
 #DESCRIPTION Tarbert Ferry Terminal on the Isle of Harris
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/cmalwemyssbay:Wemyss Bay Ferry Terminal
 #DESCRIPTION Wemyss Bay Ferry Terminal
-#SERVICE 1:64:348:0:0:0:0:0:0:0:
+#SERVICE 1:64:357:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engelstalig, land onbekend++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/bestb4tv:Bestb4tv
 #DESCRIPTION Bestb4tv
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/querservices:Quer TV
 #DESCRIPTION Quer TV
-#SERVICE 1:64:349:0:0:0:0:0:0:0:
+#SERVICE 1:64:358:0:0:0:0:0:0:0:
 #DESCRIPTION ++India++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/biketaxi:Bike Taxi
 #DESCRIPTION Bike Taxi
-#SERVICE 1:64:34a:0:0:0:0:0:0:0:
+#SERVICE 1:64:359:0:0:0:0:0:0:0:
 #DESCRIPTION ++Israël++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/wwlivecams:Israel Cams and Breaking News
 #DESCRIPTION Israel Cams and Breaking News
-#SERVICE 1:64:34b:0:0:0:0:0:0:0:
+#SERVICE 1:64:35a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Italië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/111tv:111 TV
 #DESCRIPTION 111 TV
@@ -395,35 +413,35 @@
 #DESCRIPTION TVR Sicilia 2
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/zenith_television1:Zenith TV1
 #DESCRIPTION Zenith TV1
-#SERVICE 1:64:34c:0:0:0:0:0:0:0:
+#SERVICE 1:64:35b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Filipijnen (Philippines)++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/starradiophilippines:Star Radio Phillippines
 #DESCRIPTION Star Radio Phillippines
-#SERVICE 1:64:34d:0:0:0:0:0:0:0:
+#SERVICE 1:64:35c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Kenia++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/ebrutvkenya:Ebru Tv Kenya
 #DESCRIPTION Ebru Tv Kenya
-#SERVICE 1:64:34e:0:0:0:0:0:0:0:
+#SERVICE 1:64:35d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Kuwait++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/bbcfunoonatv:BBC Funoon ATV
 #DESCRIPTION BBC Funoon ATV
-#SERVICE 1:64:34f:0:0:0:0:0:0:0:
+#SERVICE 1:64:35e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Montenegro++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/tvhercegnovi:TV Herceg Novi
 #DESCRIPTION TV Herceg Novi
-#SERVICE 1:64:350:0:0:0:0:0:0:0:
+#SERVICE 1:64:35f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Noorwegen++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/livefromthenorth:LiveFromTheNorth (Noord Noorwegen cam)
 #DESCRIPTION LiveFromTheNorth (Noord Noorwegen cam)
-#SERVICE 1:64:351:0:0:0:0:0:0:0:
+#SERVICE 1:64:360:0:0:0:0:0:0:0:
 #DESCRIPTION ++Paraguay++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/nanduti1020:Ñanduti 1020
 #DESCRIPTION Ñanduti 1020
-#SERVICE 1:64:352:0:0:0:0:0:0:0:
+#SERVICE 1:64:361:0:0:0:0:0:0:0:
 #DESCRIPTION ++Panama++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/panavisiontv:Panavision TV
 #DESCRIPTION Panavision TV
-#SERVICE 1:64:353:0:0:0:0:0:0:0:
+#SERVICE 1:64:362:0:0:0:0:0:0:0:
 #DESCRIPTION ++Peru++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/ghamtv0001:GHAM-TV
 #DESCRIPTION GHAM-TV
@@ -431,41 +449,41 @@
 #DESCRIPTION Musica national del Perú
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/radiotvelpueblo:Radio TV El Pueblo
 #DESCRIPTION Radio TV El Pueblo
-#SERVICE 1:64:354:0:0:0:0:0:0:0:
+#SERVICE 1:64:363:0:0:0:0:0:0:0:
 #DESCRIPTION ++Roemenië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/rapsodiatv:Rapsodia TV (Roemeense volksmuziek)
 #DESCRIPTION Rapsodia TV (Roemeense volksmuziek)
-#SERVICE 1:64:355:0:0:0:0:0:0:0:
+#SERVICE 1:64:364:0:0:0:0:0:0:0:
 #DESCRIPTION ++Rusland++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/arenaradio:Arena Radio
 #DESCRIPTION Arena Radio
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/maksde_radio:Maksde Radio
 #DESCRIPTION Maksde Radio
-#SERVICE 1:64:356:0:0:0:0:0:0:0:
+#SERVICE 1:64:365:0:0:0:0:0:0:0:
 #DESCRIPTION ++Servië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/tvkikindaonline:TV Kikinda
 #DESCRIPTION TV Kikinda
-#SERVICE 1:64:357:0:0:0:0:0:0:0:
+#SERVICE 1:64:366:0:0:0:0:0:0:0:
 #DESCRIPTION ++Spanje++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/covisartv:Covisar TV (Villa Santa Rosa y la región)
 #DESCRIPTION Covisar TV (Villa Santa Rosa y la región)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/tvmaxcordoba:TV Max Cordoba
 #DESCRIPTION TV Max Cordoba
-#SERVICE 1:64:358:0:0:0:0:0:0:0:
+#SERVICE 1:64:367:0:0:0:0:0:0:0:
 #DESCRIPTION ++Sri Lanka++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/fmderana1:FM Derana
 #DESCRIPTION FM Derana
-#SERVICE 1:64:359:0:0:0:0:0:0:0:
+#SERVICE 1:64:368:0:0:0:0:0:0:0:
 #DESCRIPTION ++Tsjechië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/zktvtv:ZKTV
 #DESCRIPTION ZKTV
-#SERVICE 1:64:35a:0:0:0:0:0:0:0:
+#SERVICE 1:64:369:0:0:0:0:0:0:0:
 #DESCRIPTION ++Turkije++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/demtvglobal:Dem Tv Global
 #DESCRIPTION Dem Tv Global
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/tvkayseri:tv Kayseri
 #DESCRIPTION tv Kayseri
-#SERVICE 1:64:35b:0:0:0:0:0:0:0:
+#SERVICE 1:64:36a:0:0:0:0:0:0:0:
 #DESCRIPTION ++USA++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/hastingsaccesstv:Hastings Cable Access TV Daily Programming
 #DESCRIPTION Hastings Cable Access TV Daily Programming
@@ -475,11 +493,11 @@
 #DESCRIPTION Raw Reporting
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/texasnewsstudiolive:TNS (Texas News Studio, Dallas)
 #DESCRIPTION TNS (Texas News Studio, Dallas)
-#SERVICE 1:64:35c:0:0:0:0:0:0:0:
+#SERVICE 1:64:36b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Venezuela++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/tvllanos:TV Llanos
 #DESCRIPTION TV Llanos
-#SERVICE 1:64:35d:0:0:0:0:0:0:0:
+#SERVICE 1:64:36c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Zwitserland++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/querservices:Quer TV
 #DESCRIPTION Quer TV

@@ -1,5 +1,9 @@
 #NAME Stream Documentaires
-#SERVICE 1:64:276:0:0:0:0:0:0:0:
+#SERVICE 1:64:264:0:0:0:0:0:0:0:
+#DESCRIPTION ++Nederland, Rakuten++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//documentaries-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6221-playout/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6221&ads.rtv_channel_name=documentaries-rakuten-tv_nl&ads.rtv_content_id=6221&ads.rtv_content_language=nl&ads.rtv_language=nl&ads.rtvid=271863&ads.streaming_id=c0afce13-8789-4f46-a7e1-556395beda9f&ads.tivo_devcou:Rakuten TV Documentaires
+#DESCRIPTION Rakuten TV Documentaires
+#SERVICE 1:64:265:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//f06cd57c1eeb48fd89b80d9ff8ae230f.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_AdventureEarth/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=documentary%252Coutdoors&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=0&ads.rtv_content_id=4739&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=86227025-3f94-4330-85f0-fef2b6ef338f&:Adventure Earth
 #DESCRIPTION Adventure Earth
@@ -11,6 +15,8 @@
 #DESCRIPTION Cosmic Frontiers
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00170-curiositystream-amg00170c3-rakuten-us-2289.playouts.now.amagi.tv/playlist/amg00170-curiositystreamllcfast-curiositynowrow-rakutenus/playlist.m3u8?ads_amagi_channel_id=894&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=sci-fi%252Cdocumentary%252Chobbies&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=5758&ads_rtv_content_language=en&ads_rtvid=271858&ads_stream:Curiosity Now
 #DESCRIPTION Curiosity Now
+#SERVICE 4097:0:1:139:0:0:0:0:0:0:https%3a//d3jxyaglfha0h3.cloudfront.net/Dinos_247.m3u8:Dinos 24/7
+#DESCRIPTION Dinos 24/7
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//docubaylivestreams.akamaized.net/526a07ab-6ae7-4b6c-84a1-159791416484_1000004370_HLS/manifest.m3u8:Docubay
 #DESCRIPTION Docubay
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash3.antik.sk/live/test_docubox_medium_atk/playlist.m3u8:DocuBox
@@ -23,31 +29,41 @@
 #DESCRIPTION MED.TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//46.32.176.50/NationalGeographicHD/index.m3u8:National Geographic
 #DESCRIPTION National Geographic
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01576-amg01576c3-rakuten-gb-10666.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01576-blueantmediacanadafast-naturetimeemeaenglish-rakutengb/playlist.m3u8?ads_amagi_channel_id=1087&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=documentary%252Canimals%252Chistory%252Coutdoors&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=7395&ads_rtv_content_language=en&ads_rtvid=2:Nature Time
-#DESCRIPTION Nature Time
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/133/content/XM097DHTBG38PZ/4985164/master.m3u8:NatureVision
+#DESCRIPTION NatureVision
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00426-amg00426c30-amgplt0165.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00426-amg00426c30-amgplt0165/playlist.m3u8?ads_amagi_channel_id=1116&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=animals%252Coutdoors&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=0&ads_rtv_channel_name=real-wild_nl&ads_rtv_content_id=3321&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=05d981f3-91e5-4188-bb7f-213504af0c8d&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tiv:Real Wild
+#DESCRIPTION Real Wild
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01775-amg01775c1-amgplt0165.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01775-amg01775c1-amgplt0165/playlist.m3u8?ads_amagi_channel_id=1105&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=documentary%252Canimals%252Coutdoors&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=7706&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=f9cb4d17-5327-4323-8f09-01:Terra Mater Wild
 #DESCRIPTION Terra Mater Wild
 #SERVICE 4097:0:1:d:1000:31:cccc0000:0:0:0:https%3a//b688f77a784646d0b2daeb4d55ea9950.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_Travelxp/playlist.m3u8:TravelXP
 #DESCRIPTION TravelXP
+#SERVICE 4097:0:1:d:1000:31:cccc0000:0:0:0:https%3a//b688f77a784646d0b2daeb4d55ea9950.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_Travelxp/playlist.m3u8:TravelXP
+#DESCRIPTION TravelXP
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8:WaterBear
 #DESCRIPTION WaterBear
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//cdn-ue1-prod.tsv2.amagi.tv/linear/amg01415-waterbearnetwor-waterbear-samsungnl/playlist.m3u8:Waterbear (#)
+#DESCRIPTION Waterbear (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//beaece44.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1dlYXRoZXJTcHlfSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=documentary&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=0&ads.rtv_content_id=5118&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=bcf4826a-a15f-4525-b99a-d47c4f86a4eb&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd:Weather Spy
 #DESCRIPTION Weather Spy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01775-amg01775c2-amgplt0165.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01775-amg01775c2-amgplt0165/playlist.m3u8?ads_amagi_channel_id=1106&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=documentary%252Centertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=7705&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=131b7a84-15ef-42f8-b91c-3bbe311:Wheels & Steel
 #DESCRIPTION Wheels & Steel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lds-wonder-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lds-wonder-rakuten/CDN/master.m3u8?ads_amagi_channel_id=729&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=animals&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.42&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=0&ads_rtv_channel_name=wonder_nl&ads_rtv_content_id=3310&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=b46a8c63-1d59-40bf-8203-055608eacc35&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&a:Wonder
+#DESCRIPTION Wonder
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aenetworks-worldwartv-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-aenetworks-worldwartv-rakuten/CDN/master.m3u8?ads_amagi_channel_id=863&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=war%252Chistory&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=12&ads_rtv_content_id=5223&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=c23a0794-6fc1-47e1-b567-eae5722d27ae&ads_tivo_devc:World War TV
 #DESCRIPTION World War TV
-#SERVICE 1:64:277:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8:Xplore
+#DESCRIPTION Xplore
+#SERVICE 1:64:266:0:0:0:0:0:0:0:
 #DESCRIPTION ++dieren++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//blueskyent-lovepetsemea-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-blueskyent-lovepetsemea-rakuten/CDN/master.m3u8?ads_amagi_channel_id=849&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=animals&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=firefox&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=84.17.47.16&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=09bef241-987c-45b2-b024-acc61a336afa&ads_prodq=1&ads_rating=0&ads_rtv_channel_name=love-pets_nl&ads_rtv_content_id=4922&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=aa6a46ec-2962-437f-87d8-e5d7bb57924b&ads_tivo_devcountry=:Love Pets
 #DESCRIPTION Love Pets
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//6ec8627d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RoZVBldENvbGxlY3RpdmVfSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=animals&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=the-pet-collective-new_nl&ads.rtv_content_id=5391&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=29ee9208-36d1-4ff8-92a8-ac04dde8ff54&ads.tivo_devcountry=&ads.tivo_devmakedate=&:The Pet Collective
 #DESCRIPTION The Pet Collective
-#SERVICE 1:64:278:0:0:0:0:0:0:0:
-#DESCRIPTION ++China++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8?ads_amagi_channel_id=853&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=documentary&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=4942&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=adf12bc1-be30-42f4-9ea4-58b3977e041b&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ad:CGTN Documentary
-#DESCRIPTION CGTN Documentary
-#SERVICE 1:64:279:0:0:0:0:0:0:0:
+#SERVICE 1:64:267:0:0:0:0:0:0:0:
+#DESCRIPTION ++Aziatisch++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01082-cna-amg01082c1-rakuten-us-8337.playouts.now.amagi.tv/playlist/amg01082-cnafast-cnanews-rakutenus/playlist.m3u8?ads_amagi_channel_id=1029&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1%252CIAB12&ads_content_genre=documentary%252Cnews&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.42&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=16&ads_rtv_channel_name=cna_nl&ads_rtv_content_id=6935&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=1bb6eaf9-7015-4085-bb96-a9b8dea01360&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_t:CNA Originals
+#DESCRIPTION CNA Originals
+#SERVICE 1:64:268:0:0:0:0:0:0:0:
 #DESCRIPTION ++Duitsland++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8:ARTE
 #DESCRIPTION ARTE
@@ -57,17 +73,41 @@
 #DESCRIPTION InSight+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1004e0a5714d000745650d/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel:InWonder
 #DESCRIPTION InWonder
-#SERVICE 1:64:27a:0:0:0:0:0:0:0:
+#SERVICE 1:64:269:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8:BBC Earth
 #DESCRIPTION BBC Earth
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lds-timeline-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lds-timeline-rakuten/CDN/master.m3u8?ads_amagi_channel_id=731&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=history&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.42&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=0&ads_rtv_channel_name=history-hit_nl&ads_rtv_content_id=3311&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=19e5d04a-1af5-4d98-b6b1-7332049aec03&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo:History Hit
+#DESCRIPTION History Hit
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//mechtvltd-mechplus-1-nl.samsung.wurl.tv/playlist.m3u8:Mechplus
+#DESCRIPTION Mechplus
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951545/hls/playlist.m3u8?ads.xumo_channelId=99951545:Space Live Powered by Sen
+#DESCRIPTION Space Live Powered by Sen
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aenetworks-worldwartv-rakuten.amagi.tv/playlist.m3u8:World War TV
 #DESCRIPTION World War TV
-#SERVICE 1:64:27b:0:0:0:0:0:0:0:
+#SERVICE 1:64:26a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Bulgarije++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streamer103.neterra.tv/travel/travel_SD.m3u8:Travel TV
 #DESCRIPTION Travel TV
-#SERVICE 1:64:27c:0:0:0:0:0:0:0:
+#SERVICE 1:64:26b:0:0:0:0:0:0:0:
+#DESCRIPTION ++Canada++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_app_bundle=&ads._fw_app_store_url=rakuten.tv&ads._fw_content_category=IAB1&ads._fw_content_genre=entertainment%252Coutdoors&ads._fw_content_language=uk&ads._fw_content_rating=tv-14&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_devicetype=3-connected_tv&ads._fw_gdpr=1&ads._fw_gdpr_consent=&ads._fw_is_lat=1&ads._ifa_type=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.appName=RakutenTV&ads.app_version=&ads.brand_name=&ads.caid=IcePilots&ads.content_livestream=0&ads.csid=zeus_eu_indigeniusicepilots_ssai&ads.extra_eids=&ads.gam_correlator=&ads.google_ad_manager_nonce=&ads.inv_partner_domain=rakuten.tv&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.prodq=1&ads.rakuten_content_type=live_channels&ads.rakuten_device_type=web&ads.rakuten_device_year=&ads.rakuten_env=prod&ads.rakuten_market=nl&ads.rakuten_pod_type=playerpage_midroll&ads.rakuten_rtv_content_id=6003&ads:Ice Pilots
+#DESCRIPTION Ice Pilots
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951375/hls/playlist.m3u8?ads.xumo_channelId=99951375:Haunt TV
+#DESCRIPTION Haunt TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00627-amg00627c15-rakuten-uk-4803.playouts.now.amagi.tv/playlist/amg00627-banijayfast-highwaythruhell-rakutenuk/playlist.m3u8?ads_amagi_channel_id=944&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=action%252Centertainment%252Coutdoors%252Creality&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=6&ads_rtv_channel_name=highway-thru-hell_nl&ads_rtv_content_id=7649&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=ec716b8d-21d2-485a-a892-1ddfe0800ed4&ads_tivo_devcountry=&ads_:Highway Thru Hell
+#DESCRIPTION Highway Thru Hell
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/4375/content/XM0K5PI9YQEE2A/28663933/master.m3u8:Highway Thru Hell (#)
+#DESCRIPTION Highway Thru Hell (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883110:Jade Fever
+#DESCRIPTION Jade Fever
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01576-amg01576c3-rakuten-gb-10666.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01576-blueantmediacanadafast-naturetimeemeaenglish-rakutengb/playlist.m3u8?ads_amagi_channel_id=1087&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=documentary%252Canimals%252Chistory%252Coutdoors&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=7395&ads_rtv_content_language=en&ads_rtvid=2:Nature Time
+#DESCRIPTION Nature Time
+#SERVICE 1:64:26c:0:0:0:0:0:0:0:
+#DESCRIPTION ++China++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8?ads_amagi_channel_id=853&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=documentary&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=4942&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=adf12bc1-be30-42f4-9ea4-58b3977e041b&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ad:CGTN Documentary
+#DESCRIPTION CGTN Documentary
+#SERVICE 1:64:26d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Italië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5a1178b42cc03.streamlock.net/chiossone/chiossone/chunklist_.m3u8:Arte Investimenti
 #DESCRIPTION Arte Investimenti
@@ -79,31 +119,67 @@
 #DESCRIPTION Love the planet
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_CONTENT_RATING=R&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67cedc1d52e5ee3c040730f7&AV_CONTENT_LANGUAGE=it&AV_CONTENT_GENERE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=viaggiesapori_lovetv&content_channel_name=Vi:Viaggi&sapori 
 #DESCRIPTION Viaggi&sapori 
-#SERVICE 1:64:27d:0:0:0:0:0:0:0:
+#SERVICE 1:64:26e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oekraïne++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mcquack.net/399/index.m3u8:Chemodan TV
 #DESCRIPTION Chemodan TV
-#SERVICE 1:64:27e:0:0:0:0:0:0:0:
+#SERVICE 1:64:26f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oostenrijk++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//e1d6aaacab9046ec812f5267f54808d3.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Vidaa-at_Royalworld/playlist.m3u8?ads.wurl_channel=1621&ads.wurl_name=Royalworld&ads.coppa=0&ads.ifa=&ads.dnt=&ads.us_privacy=&ads.gdpr=&ads.gdpr_consent=&ads.app_name=&ads.app_bundle=&ads.app_store_url=&ads.ifa_type=&ads.custom=&ads.device_make=&ads.device_model=&ads.vidaa_ads_param=1190406319&ads.vauth=&ads.device_type=&ads.brand_name=&ads.device_osv=&ads.device_language=&ads.w=&ads.h=&ads.language=&ads.rating=&ads.ic=&ads.channel_name=&ads.content_producer_name=&ads.content_genre=&ads.client_section=&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=9300:Royalworld - Adel & Dynastien
 #DESCRIPTION Royalworld - Adel & Dynastien
-#SERVICE 1:64:27f:0:0:0:0:0:0:0:
+#SERVICE 1:64:270:0:0:0:0:0:0:0:
 #DESCRIPTION ++Tsjechië++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//88.212.15.29/live/test_bbc_eartch_hevc/playlist.m3u8:BBC Earth Czechia
 #DESCRIPTION BBC Earth Czechia
-#SERVICE 1:64:280:0:0:0:0:0:0:0:
+#SERVICE 1:64:271:0:0:0:0:0:0:0:
+#DESCRIPTION ++USA++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883105:A+E Crime Central
+#DESCRIPTION A+E Crime Central
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_app_bundle=&ads._fw_app_store_url=rakuten.tv&ads._fw_content_category=IAB1&ads._fw_content_genre=horror&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_devicetype=3-connected_tv&ads._fw_gdpr=1&ads._fw_gdpr_consent=&ads._fw_is_lat=1&ads._ifa_type=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.appName=RakutenTV&ads.app_version=&ads.brand_name=&ads.caid=ahaunting&ads.content_livestream=0&ads.csid=zeus_uk_ahaunting_ssai&ads.extra_eids=&ads.gam_correlator=&ads.google_ad_manager_nonce=&ads.inv_partner_domain=rakuten.tv&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.prodq=1&ads.rakuten_content_type=live_channels&ads.rakuten_device_type=web&ads.rakuten_device_year=&ads.rakuten_env=prod&ads.rakuten_market=nl&ads.rakuten_pod_type=playerpage_midroll&ads.rakuten_rtv_content_id=8092&ads.rakuten_streaming_id=53e4ee:A Haunting
+#DESCRIPTION A Haunting
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951474/hls/playlist.m3u8?ads.xumo_channelId=99951474:Ancient Aliens
+#DESCRIPTION Ancient Aliens
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951387/hls/playlist.m3u8?ads.xumo_channelId=99951387:CNN Originals
+#DESCRIPTION CNN Originals
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00376-magellan-amg00376c15-rakuten-us-1696.playouts.now.amagi.tv/playlist/amg00376-magellantv-spacesciencenowww-rakutenus/playlist.m3u8?ads_amagi_channel_id=884&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=sci-fi%252Cdocumentary%252Chobbies&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.42&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=6&ads_rtv_channel_name=cosmic-frontiers_nl&ads_rtv_content_id=5774&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=3cf618e4-c844-4727-a220-5d4708600dfa&ads_tivo_devcountry=&ads_tivo:Cosmic Frontiers
+#DESCRIPTION Cosmic Frontiers
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99991638/hls/playlist.m3u8?ads.xumo_channelId=99991638:DOCUMENTARY+
+#DESCRIPTION DOCUMENTARY+
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/3976/content/XM0MRAAG3RNU6I/25754818/master.m3u8:Ghost Hunters
+#DESCRIPTION Ghost Hunters
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ddb6faf8.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLW5sX0ljZVJvYWRUcnVja2Vyc19ITFM/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB17%252CIAB1&ads.content_genre=sports%252Centertainment%252Creality&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=ice-road-truckers_nl&ads.rtv_content_id=6052&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=51f498bd-56ab-4e28-bf5d-9fb6b0af96fb&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=:Ice Road Truckers
+#DESCRIPTION Ice Road Truckers
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951473/hls/playlist.m3u8?ads.xumo_channelId=99951473:Modern Marvels by History
+#DESCRIPTION Modern Marvels by History
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00627-amg00627c14-rakuten-uk-4802.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mythbusters-rakutenuk/playlist.m3u8?ads_amagi_channel_id=946&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=action%252Cmystery%252Centertainment&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=6&ads_rtv_channel_name=mythbusters_nl&ads_rtv_content_id=7672&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=a363e159-aa7b-40da-a847-78a316ffd8c9&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads:Mythbusters
+#DESCRIPTION Mythbusters
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/133/content/XM097DHTBG38PZ/4985164/master.m3u8:NatureVision
+#DESCRIPTION NatureVision
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-475.frequency.stream/dist/xumo/475/hls/master/playlist.m3u8:Real Disaster Channel
+#DESCRIPTION Real Disaster Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-190.frequency.stream/dist/xumo/190/hls/master/playlist.m3u8:Reelz Famous & Infamous
+#DESCRIPTION Reelz Famous & Infamous
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//buzzr-rigtv-xumo.amagi.tv/playlist.m3u8:Rig TV
+#DESCRIPTION Rig TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d10xbgdha1yz8s.cloudfront.net/10001/99951552/hls/playlist.m3u8?ads.xumo_channelId=99951552:UnXplained Zone
+#DESCRIPTION UnXplained Zone
+#SERVICE 1:64:272:0:0:0:0:0:0:0:
+#DESCRIPTION ++Zuid-Afrika++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99991628/hls/playlist.m3u8?ads.xumo_channelId=99991628:WildEarth
+#DESCRIPTION WildEarth
+#SERVICE 1:64:273:0:0:0:0:0:0:0:
 #DESCRIPTION +++kunst+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.mediahuisvideo.be/hls/account=JiQgeYAanU0A/item=hABgrOXajdmg/hABgrOXajdmg-20200214110413_5-audio=128000-video=3600000.m3u8?v=20200214110413_5:DS%3a Lam Gods van gebr. Van Eyck
 #DESCRIPTION DS: Lam Gods van gebr. Van Eyck
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//media.mediahuisvideo.be/hls/account=JiQgeYAanU0A/item=cCRgeoTIjlKW/cCRgeoTIjlKW-20200227170747_5-audio=128000-video=2200000.m3u8?v=20200227170747_5:DS%3a Nasa laat ons meekijken door de ogen van Apollo 13-astronaut
 #DESCRIPTION DS: Nasa laat ons meekijken door de ogen van Apollo 13-astronaut
-#SERVICE 1:64:281:0:0:0:0:0:0:0:
+#SERVICE 1:64:274:0:0:0:0:0:0:0:
 #DESCRIPTION ++storm chasers (tornadojagers)++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3n45htqf0nnxz.cloudfront.net/hls/dan.fitts/dan.fitts.m3u8:Dan Frits (documentaires, storm chasers)
 #DESCRIPTION Dan Frits (documentaires, storm chasers)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3n45htqf0nnxz.cloudfront.net/hls/mikey.gribble/mikey.gribble.m3u8:Mikey Gribble (documentaires, storm chasers)
 #DESCRIPTION Mikey Gribble (documentaires, storm chasers)
-#SERVICE 1:64:282:0:0:0:0:0:0:0:
+#SERVICE 1:64:275:0:0:0:0:0:0:0:
 #DESCRIPTION +++techniek+++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.rovid.nl/rech/rvdr/2020/rech-rvdr-20200604-id39etunn-bron.mp4 :NL rechtbank online
 #DESCRIPTION NL rechtbank online

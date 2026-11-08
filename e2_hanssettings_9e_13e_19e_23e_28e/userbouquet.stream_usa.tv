@@ -1,5 +1,5 @@
 #NAME Stream USA (US)
-#SERVICE 1:64:6a0:0:0:0:0:0:0:0:
+#SERVICE 1:64:6b6:0:0:0:0:0:0:0:
 #DESCRIPTION ++30A.tv++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/30atv.m3u8:30ATV Live
 #DESCRIPTION 30ATV Live
@@ -45,13 +45,33 @@
 #DESCRIPTION 30ATV The First Timers
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/tottenham.m3u8:30ATV We Are Tottenham TV
 #DESCRIPTION 30ATV We Are Tottenham TV
-#SERVICE 1:64:6a1:0:0:0:0:0:0:0:
+#SERVICE 1:64:6b7:0:0:0:0:0:0:0:
+#DESCRIPTION ++nieuws USA: zie ook Stream Nieuws++
+#SERVICE 1:64:6b8:0:0:0:0:0:0:0:
+#DESCRIPTION ++ABC nationaal++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951517/hls/master.m3u8?ads.xumo_channelId=99951517:ABC News Live
+#DESCRIPTION ABC News Live
+#SERVICE 1:64:6b9:0:0:0:0:0:0:0:
+#DESCRIPTION ++CBS nationaal++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8:CBS News 24/7
+#DESCRIPTION CBS News 24/7
+#SERVICE 1:64:6ba:0:0:0:0:0:0:0:
+#DESCRIPTION ++CNBC nationaal++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8:CNBC
+#DESCRIPTION CNBC
+#SERVICE 1:64:6bb:0:0:0:0:0:0:0:
+#DESCRIPTION ++CNN nationaal++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rtmp2.livenewsof.com/livenewsof.com/qJbteqvER7/1.m3u8:CNN USA
+#DESCRIPTION CNN USA
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//212.5.144.156%3a8080/cnn/index.m3u8:CNN USA (#)
+#DESCRIPTION CNN USA (#)
+#SERVICE 1:64:6bc:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders CW++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1sknsnbkyvie.cloudfront.net/playlist.m3u8:CW FOREVER
 #DESCRIPTION CW FOREVER
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1d726ny1vain2.cloudfront.net/playlist.m3u8:CW Gold
 #DESCRIPTION CW Gold
-#SERVICE 1:64:6a2:0:0:0:0:0:0:0:
+#SERVICE 1:64:6bd:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders NBC++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8:NBC Comedy Vault
 #DESCRIPTION NBC Comedy Vault
@@ -59,11 +79,19 @@
 #DESCRIPTION NBC LX Home
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dn7vkzd5khpp3.cloudfront.net/master.m3u8:NBC LX Home (#)
 #DESCRIPTION NBC LX Home (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8:NBC News Now
+#DESCRIPTION NBC News Now
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d4whmvwm0rdvi.cloudfront.net/10007/99991247/hls/master.m3u8?ads.xumo_channelId=99991247:NBC News Now (#)
+#DESCRIPTION NBC News Now (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8:NBC News NOW (##)
+#DESCRIPTION NBC News NOW (##)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8:NBC Sports
+#DESCRIPTION NBC Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d37kx062o4ii0p.cloudfront.net/master.m3u8:NBC Today All Day
 #DESCRIPTION NBC Today All Day
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//190.11.225.124%3a5000/live/universo_hd/playlist.m3u8:NBC Universo West
 #DESCRIPTION NBC Universo West
-#SERVICE 1:64:6a3:0:0:0:0:0:0:0:
+#SERVICE 1:64:6be:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders PBS++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8:Antiques Roadshow PBS
 #DESCRIPTION Antiques Roadshow PBS
@@ -87,8 +115,8 @@
 #DESCRIPTION PBS Kids Mountain
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8:PBS Kids Pacific
 #DESCRIPTION PBS Kids Pacific
-#SERVICE 1:64:6a4:0:0:0:0:0:0:0:
-#DESCRIPTION ++hoofdzenders Spaans++
+#SERVICE 1:64:6bf:0:0:0:0:0:0:0:
+#DESCRIPTION ++hoofdzenders Spaans voor Latino's++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//estrellanews-plex.amagi.tv/playlist.m3u8:Estrella News
 #DESCRIPTION Estrella News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//estrellatv-plex.amagi.tv/playlist.m3u8:Estrella TV
@@ -107,7 +135,7 @@
 #DESCRIPTION Telemundo Noticias Ahora
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-drct-ch836-57aiq.fast.nbcuni.com/live/master.m3u8:Telemundo Romance
 #DESCRIPTION Telemundo Romance
-#SERVICE 1:64:6a5:0:0:0:0:0:0:0:
+#SERVICE 1:64:6c0:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige hoofdzenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2b8jic9gadlvy.cloudfront.net/v1/aenetworks_60daysin_1/samsungheadend_us/latest/main/hls/playlist.m3u8:60 Days In by A&E
 #DESCRIPTION 60 Days In by A&E
@@ -191,6 +219,8 @@
 #DESCRIPTION Entertainment Tonight
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8:Entertainment Tonight (#)
 #DESCRIPTION Entertainment Tonight (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//estrellatv-xumo.amagi.tv/playlist.m3u8:Estrella TV
+#DESCRIPTION Estrella TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8:Fashion Finds
 #DESCRIPTION Fashion Finds
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-5e54187aae660e00093561d6.m3u8:Game Show Central
@@ -363,8 +393,8 @@
 #DESCRIPTION Whiplash Cinema
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.whiplash.cc/whiplash-windowtv/index.m3u8:Window TV
 #DESCRIPTION Window TV
-#SERVICE 1:64:6a6:0:0:0:0:0:0:0:
-#DESCRIPTION ++landelijke nieuwszenders++
+#SERVICE 1:64:6c1:0:0:0:0:0:0:0:
+#DESCRIPTION ++overige landelijke nieuwszenders++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d4bq78o8d5tf5.cloudfront.net/ABC_2020.m3u8:ABC 20/20
 #DESCRIPTION ABC 20/20
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8:AccuWeather Now
@@ -389,12 +419,6 @@
 #DESCRIPTION Bloomberg TV USA Live Event
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.bloomberg.com/media-manifest/streams/politics.m3u8:Bloomberg TV USA Politics Live Event
 #DESCRIPTION Bloomberg TV USA Politics Live Event
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8:CBS News 24/7
-#DESCRIPTION CBS News 24/7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8:CNBC (#)
-#DESCRIPTION CNBC (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8:CNN USA
-#DESCRIPTION CNN USA
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8:LiveNOW from FOX
 #DESCRIPTION LiveNOW from FOX
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8:LiveNOW from FOX (#)
@@ -403,8 +427,6 @@
 #DESCRIPTION Fox Weather
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8:Free Speech TV
 #DESCRIPTION Free Speech TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8:NBC News NOW (#)
-#DESCRIPTION NBC News NOW (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8:Newsmax
 #DESCRIPTION Newsmax
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-ue1-prod.tsv2.amagi.tv/linear/vizioAAAA-newsmax-vizio/playlist.m3u8?did=%257bADID%257d&us_privacy=%257bUSPRIVACY%257d&ifa_type=%257bIFATYPE%257d&lmt=%257bLMT%257d&app_name=%257bAPP_NAME%257d&app_bundle=%257bAPP_BUNDLE%257d&app_store_url=%257bAPP_STORE_URL%257d&url=%257bDOMAIN%257d&dnt=%257bDNT%257d&coppa=%257bCOPPA%257d&device_make=%257bDEVICE_MAKE%257d&w=%257bWIDTH%257d&h=%257bHEIGHT%257d&skip=%257bSKIPPABLE%257d&vizdartoken=eyJhdWQiOiI5MyIsIndmcGNpZCI6MzAwMTA4MjAwOH0:Newsmax 2
@@ -421,8 +443,14 @@
 #DESCRIPTION Real America's Voice
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8:Reuters
 #DESCRIPTION Reuters
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951283/hls/playlist.m3u8?ads.xumo_channelId=99951283:Salem News Channel (SNC)
+#DESCRIPTION Salem News Channel (SNC)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99991148/hls/playlist.m3u8?ads.xumo_channelId=99991148:Scripps News
+#DESCRIPTION Scripps News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//content.uplynk.com/channel/1f93c13275024afb9e0ead299624073d.m3u8:Scripps News (#)
 #DESCRIPTION Scripps News (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951337/hls/playlist.m3u8?ads.xumo_channelId=99951337:Spectrum News+
+#DESCRIPTION Spectrum News+
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tyt-samsungus.amagi.tv/playlist.m3u8:TYT
 #DESCRIPTION TYT
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8:UN Web TV
@@ -433,7 +461,7 @@
 #DESCRIPTION WeatherNation Charlotte (720p)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yahoo-vizio.amagi.tv/playlist.m3u8:Yahoo! Finance
 #DESCRIPTION Yahoo! Finance
-#SERVICE 1:64:6a7:0:0:0:0:0:0:0:
+#SERVICE 1:64:6c2:0:0:0:0:0:0:0:
 #DESCRIPTION ++sport++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raycom-accdn-firetv.amagi.tv/playlist.m3u8:ACCDN
 #DESCRIPTION ACCDN
@@ -481,14 +509,12 @@
 #DESCRIPTION Women's Sports Network (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//yta.unitedteleports.tv/hls/YTA.m3u8:YTA
 #DESCRIPTION YTA
-#SERVICE 1:64:6a8:0:0:0:0:0:0:0:
+#SERVICE 1:64:6c3:0:0:0:0:0:0:0:
 #DESCRIPTION ++nieuwsfeeds++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.bloomberg.com/media-manifest/streams/us-event.m3u8:Bloomberg US Live Event
 #DESCRIPTION Bloomberg US Live Event
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8:CNN Go USA
-#DESCRIPTION CNN Go USA
-#SERVICE 1:64:6a9:0:0:0:0:0:0:0:
-#DESCRIPTION ++regionale informatieve uitzendingen++
+#SERVICE 1:64:6c4:0:0:0:0:0:0:0:
+#DESCRIPTION ++nieuws, regionaal++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1wdgbxqfhyvfu.cloudfront.net/wbrz-live-1/smil%3awbrz-live.smil/playlist.m3u8:ABC 2 Baton Rouge
 #DESCRIPTION ABC 2 Baton Rouge
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-710.frequency.stream/dist/stirr/710/hls/master/playlist.m3u8:ABC 2 Portland OR (KATU)
@@ -579,46 +605,40 @@
 #DESCRIPTION CBS News Miami
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lineup.cbsivideo.com/playout/c1ed69db-6b71-4581-a937-a70ab4089f8a/index.m3u8:CBS News Sacramento
 #DESCRIPTION CBS News Sacramento
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dai.google.com/linear/hls/event/ogzLhRCkRbG3lFHHJwqaNw/master.m3u8:CBS News Texas (#)
-#DESCRIPTION CBS News Texas (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox2detroitwjbk-vizious/playlist.m3u8:FOX 2 Detroit MI (WJBK) (#)
-#DESCRIPTION FOX 2 Detroit MI (WJBK) (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox4dallaskdfw-vizious/playlist.m3u8:FOX 4 Dallas / Fort Worth TX (KDFW) (#)
-#DESCRIPTION FOX 4 Dallas / Fort Worth TX (KDFW) (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox5dcwttg-vizious/playlist.m3u8:FOX 5 Washington DC (WTTG) (#)
-#DESCRIPTION FOX 5 Washington DC (WTTG) (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-witi-lgus/playlist.m3u8:FOX 6 Milwaukee WI (WITI) (#)
-#DESCRIPTION FOX 6 Milwaukee WI (WITI) (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ktbc-lgus/playlist.m3u8:FOX 7 Austin TX (KTBC) (#)
-#DESCRIPTION FOX 7 Austin TX (KTBC) (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kmsp-lgus/playlist.m3u8:FOX 9 Minneapolis (KMSP) (#)
-#DESCRIPTION FOX 9 Minneapolis (KMSP) (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ksaz-lgus/playlist.m3u8:FOX 10 Phoenix AZ (KSAZ) (#)
-#DESCRIPTION FOX 10 Phoenix AZ (KSAZ) (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-702.frequency.stream/dist/stirr/702/hls/master/playlist.m3u8:FOX 11 Green Bay WI (WLUK)
-#DESCRIPTION FOX 11 Green Bay WI (WLUK)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox11losangeleskttv-vizious/playlist.m3u8:FOX 11 Los Angeles CA (KTTV) (#)
-#DESCRIPTION FOX 11 Los Angeles CA (KTTV) (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dai.google.com/linear/hls/event/ogzLhRCkRbG3lFHHJwqaNw/master.m3u8:CBS News Texas
+#DESCRIPTION CBS News Texas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox2detroitwjbk-vizious/playlist.m3u8:FOX 2 Detroit MI
+#DESCRIPTION FOX 2 Detroit MI
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox4dallaskdfw-vizious/playlist.m3u8:FOX 4 Dallas / Fort Worth TX
+#DESCRIPTION FOX 4 Dallas / Fort Worth TX
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox5dcwttg-vizious/playlist.m3u8:FOX 5 Washington DC
+#DESCRIPTION FOX 5 Washington DC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-witi-lgus/playlist.m3u8:FOX 6 Milwaukee WI
+#DESCRIPTION FOX 6 Milwaukee WI
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ktbc-lgus/playlist.m3u8:FOX 7 Austin TX
+#DESCRIPTION FOX 7 Austin TX
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kmsp-lgus/playlist.m3u8:FOX 9 Minneapolis
+#DESCRIPTION FOX 9 Minneapolis
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ksaz-lgus/playlist.m3u8:FOX 10 Phoenix AZ
+#DESCRIPTION FOX 10 Phoenix AZ
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox11losangeleskttv-vizious/playlist.m3u8:FOX 11 Los Angeles CA
+#DESCRIPTION FOX 11 Los Angeles CA
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-whbqbreaking-ono/playlist.m3u8:FOX 13 Memphis
 #DESCRIPTION FOX 13 Memphis
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-vizious/playlist.m3u8:FOX 13 Tampa Bay FL (WTVT) (#)
-#DESCRIPTION FOX 13 Tampa Bay FL (WTVT) (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-vizious/playlist.m3u8:FOX 13 Tampa Bay FL
+#DESCRIPTION FOX 13 Tampa Bay FL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livevideo01.myfoxzone.com/hls/live/2017381/elvs/live.m3u8:FOX 15 West Texas Abilene
 #DESCRIPTION FOX 15 West Texas Abilene
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.field59.com/kbsi/kbsi1/playlist.m3u8:FOX 23 Cape Girardeau
 #DESCRIPTION FOX 23 Cape Girardeau
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-kokibreaking-ono/playlist.m3u8:FOX 23 Tulsa (#)
-#DESCRIPTION FOX 23 Tulsa (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-705.frequency.stream/dist/stirr/705/hls/master/playlist.m3u8:FOX 25 Oklahoma City OK (KOKH)
-#DESCRIPTION FOX 25 Oklahoma City OK (KOKH)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kriv-lgus/playlist.m3u8:FOX 26 Houston TX (KRIV) (#)
-#DESCRIPTION FOX 26 Houston TX (KRIV) (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-711.frequency.stream/dist/stirr/711/hls/master/playlist.m3u8:FOX 26 Visalia CA (KMPH)
-#DESCRIPTION FOX 26 Visalia CA (KMPH)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8:FOX 29 Philadelphia PA (WTXF-TV) (#)
-#DESCRIPTION FOX 29 Philadelphia PA (WTXF-TV) (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wfld-lgus/playlist.m3u8:FOX 32 Chicago IL (WFLD) (#)
-#DESCRIPTION FOX 32 Chicago IL (WFLD) (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-kokibreaking-ono/playlist.m3u8:FOX 23 Tulsa
+#DESCRIPTION FOX 23 Tulsa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kriv-lgus/playlist.m3u8:FOX 26 Houston TX
+#DESCRIPTION FOX 26 Houston TX
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8:FOX 29 Philadelphia PA
+#DESCRIPTION FOX 29 Philadelphia PA
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wfld-lgus/playlist.m3u8:FOX 32 Chicago IL
+#DESCRIPTION FOX 32 Chicago IL
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livevideo01.fox61.com/hls/live/2011658/elvs/live.m3u8:FOX 61 Hartford
 #DESCRIPTION FOX 61 Hartford
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-708.frequency.stream/dist/stirr/708/hls/master/playlist.m3u8:NBC 3 Las Vegas NV (KSNV)
@@ -663,8 +683,8 @@
 #DESCRIPTION NBCU Telemundo Texas
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//nbcu-telemundowest-firetv.amagi.tv/playlist.m3u8:NBCU Telemundo West
 #DESCRIPTION NBCU Telemundo West
-#SERVICE 1:64:6aa:0:0:0:0:0:0:0:
-#DESCRIPTION ++lokale uitzendingen++
+#SERVICE 1:64:6c5:0:0:0:0:0:0:0:
+#DESCRIPTION ++lokale/regionale omroepen++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/xodglobal/30atv.m3u8:30A Investment Pitch Florida
 #DESCRIPTION 30A Investment Pitch Florida
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/music.m3u8:30A Music Florida
@@ -1061,7 +1081,7 @@
 #DESCRIPTION Yuma Arizona Channel 73
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//securestream10.champds.com/LIVE/YumaCoAZLIVE/YumaCoAZLIVE.m3u8:Yuma77
 #DESCRIPTION Yuma77
-#SERVICE 1:64:6ab:0:0:0:0:0:0:0:
+#SERVICE 1:64:6c6:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3abn.bozztv.com/3abn2/Kids_live/smil%3aKids_live.smil/playlist.m3u8:3ABN Kids Network
 #DESCRIPTION 3ABN Kids Network
@@ -1413,10 +1433,10 @@
 #DESCRIPTION Estrella TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//failarmy-international-in.samsung.wurl.tv/playlist.m3u8:Failarmy International
 #DESCRIPTION Failarmy International
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00145-amg00145c23-samsung-gb-7654.playouts.now.amagi.tv/playlist.m3u8:Family Feud (#)
-#DESCRIPTION Family Feud (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00145-amg00145c3-xumo-us-3802.playouts.now.amagi.tv/playlist.m3u8:Family Feud Classic
 #DESCRIPTION Family Feud Classic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00145-amg00145c23-samsung-gb-7654.playouts.now.amagi.tv/playlist.m3u8:Family Feud (#)
+#DESCRIPTION Family Feud (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1x2mlky5ieruz.cloudfront.net/v1/fanduelgroup_fandueltv_01/samsungheadend_us/latest/main/hls/playlist.m3u8:FanDuel TV Extra
 #DESCRIPTION FanDuel TV Extra
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2y0xw9ugf4if7.cloudfront.net/scheduler/scheduleMaster/417.m3u8:Feva Music
@@ -1455,6 +1475,8 @@
 #DESCRIPTION GOD TV (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rpn.bozztv.com/gusa/gusa-goldentv/index.m3u8:Golden TV
 #DESCRIPTION Golden TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951493/hls/GOLDENTV_SCTE.m3u8?ads.xumo_channelId=99951493:GoldenTV
+#DESCRIPTION GoldenTV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d2icntm6fhxrry.cloudfront.net/master.m3u8:GolfPass
 #DESCRIPTION GolfPass
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/manifest.m3u8:Gospel Truth TV
@@ -1653,8 +1675,8 @@
 #DESCRIPTION NET TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//newidco-newkid-1-eu.xiaomi.wurl.tv/playlist.m3u8:New K-Pop
 #DESCRIPTION New K-Pop
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3868b4ny0rgdf.cloudfront.net/playlist.m3u8:Ninja Kidz
-#DESCRIPTION Ninja Kidz
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playworksdigital-ninjakidztv-1-us.xumo.wurl.tv/playlist.m3u8:Ninja Kidz TV
+#DESCRIPTION Ninja Kidz TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams2.sofast.tv/sofastplayout/71960d71-216f-47f3-bfe5-5b1386c05760_0_HLS/master.m3u8:Nitro TV
 #DESCRIPTION Nitro TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/NothingScripted.m3u8:Nothing Scripted
@@ -1987,6 +2009,8 @@
 #DESCRIPTION XITE Rock x Metal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1xc25jm9e0l4b.cloudfront.net/XITE_Siempre_Latino.m3u8:XITE Siempre Latino
 #DESCRIPTION XITE Siempre Latino
+#SERVICE 4097:0:1:79:0:0:0:0:0:0:https%3a//janus.xpbroadcasting.com%3a8443/hls/xptvUS.m3u8:XPTV US
+#DESCRIPTION XPTV US
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8:Xtrem Sports
 #DESCRIPTION Xtrem Sports
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8:Young Hollywood

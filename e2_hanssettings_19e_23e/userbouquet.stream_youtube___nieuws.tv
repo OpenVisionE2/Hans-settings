@@ -1,13 +1,19 @@
 #NAME Stream YouTube - nieuws
-#SERVICE 1:64:47d:0:0:0:0:0:0:0:
-#DESCRIPTION +Nederland, soms:++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/CgLRuwOdWB8:Spreekbuis TV
+#SERVICE 1:64:48b:0:0:0:0:0:0:0:
+#DESCRIPTION ++Nederland++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCWALr0VavEm8SgPXGafhFDQ&autoplay=1:BNR Nieuwsradio
+#DESCRIPTION BNR Nieuwsradio
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/a53WBmWJktc:BNR Nieuwsradio
+#DESCRIPTION BNR Nieuwsradio
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=_kBTv2etAFo:Spreekbuis TV
 #DESCRIPTION Spreekbuis TV
-#SERVICE 1:64:47e:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCvADKEcXt_KhGFJ_9q6u56Q&autoplay=1:Spreekbuis TV (#)
+#DESCRIPTION Spreekbuis TV (#)
+#SERVICE 1:64:48c:0:0:0:0:0:0:0:
 #DESCRIPTION ++België, bij vergaderingen:++
 #SERVICE 5002:0:1:229e:93e6:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/xNeD7YHugUU:Vlaams Parlement
 #DESCRIPTION Vlaams Parlement
-#SERVICE 1:64:47f:0:0:0:0:0:0:0:
+#SERVICE 1:64:48d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Europa algemeen++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/CQ3KsEbsYHs:Euronews - Duits
 #DESCRIPTION Euronews - Duits
@@ -17,13 +23,17 @@
 #DESCRIPTION Euronews - Russian
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/gCNeDWCI0vo:Al Jazeera - Engels
 #DESCRIPTION Al Jazeera - Engels
-#SERVICE 1:64:480:0:0:0:0:0:0:0:
+#SERVICE 1:64:48e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Afrika algemeen++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UC1_E8NeF5QHY2dtdLRBCCLA&autoplay=1:Africanews english Live
+#DESCRIPTION Africanews english Live
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/NQjabLGdP5g:Africanews english Live (#)
+#DESCRIPTION Africanews english Live (#)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/d4zDorDl5UE:Channels Television
 #DESCRIPTION Channels Television
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/W8nThq62Vb4:Channels Television
 #DESCRIPTION Channels Television
-#SERVICE 1:64:481:0:0:0:0:0:0:0:
+#SERVICE 1:64:48f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Argentinië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCR9120YBAqMfntqgRTKmkjQ&autoplay=1:A24 en vivo
 #DESCRIPTION A24 en vivo
@@ -31,27 +41,27 @@
 #DESCRIPTION Argentina 12
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/cb12KmMMDJA:Todo Noticias
 #DESCRIPTION Todo Noticias
-#SERVICE 1:64:482:0:0:0:0:0:0:0:
+#SERVICE 1:64:490:0:0:0:0:0:0:0:
 #DESCRIPTION ++Australië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/vOTiJkg1voo?autoplay=1:ABC News Australia
 #DESCRIPTION ABC News Australia
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//live-hls-7agy.livepush.io/live_abr_cdn/nsitWAl1pTZtwca/emnmZbKZcO8RfwJR/index.m3u8:Ticker News Australia
 #DESCRIPTION Ticker News Australia
-#SERVICE 1:64:483:0:0:0:0:0:0:0:
+#SERVICE 1:64:491:0:0:0:0:0:0:0:
 #DESCRIPTION ++Canada++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/live-audio_1=96000-video=2499968.m3u8:Global News Canada
 #DESCRIPTION Global News Canada
-#SERVICE 1:64:484:0:0:0:0:0:0:0:
+#SERVICE 1:64:492:0:0:0:0:0:0:0:
 #DESCRIPTION ++China++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8:CGTN (China Global Television Network)
 #DESCRIPTION CGTN (China Global Television Network)
-#SERVICE 1:64:485:0:0:0:0:0:0:0:
+#SERVICE 1:64:493:0:0:0:0:0:0:0:
 #DESCRIPTION ++Duitsland++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/LuKwFajn37U:Deutsche Welle 
 #DESCRIPTION Deutsche Welle 
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8:Deutsche Welle - Engels
 #DESCRIPTION Deutsche Welle - Engels
-#SERVICE 1:64:486:0:0:0:0:0:0:0:
+#SERVICE 1:64:494:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland en rest UK++
 #SERVICE 5002:0:1:724:891a:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-gbnewsnz-samsungnz/playlist.m3u8:GB News
 #DESCRIPTION GB News
@@ -63,23 +73,25 @@
 #DESCRIPTION Times Radio - Breaking UK & World News
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/3EaWrWqt7dk:Times Radio - Breaking UK & World News (#)
 #DESCRIPTION Times Radio - Breaking UK & World News (#)
-#SERVICE 1:64:487:0:0:0:0:0:0:0:
+#SERVICE 1:64:495:0:0:0:0:0:0:0:
 #DESCRIPTION ++Frankrijk++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/a47ckXKZjxI:France 24
 #DESCRIPTION France 24
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/HvZt-nh9sGg:France TV English
 #DESCRIPTION France TV English
-#SERVICE 1:64:488:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/FY4NWvJZhVc:Le Figaro TV
+#DESCRIPTION Le Figaro TV
+#SERVICE 1:64:496:0:0:0:0:0:0:0:
 #DESCRIPTION ++Groenland++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/xP4IQFTgVQU:KNR 1
 #DESCRIPTION KNR 1
-#SERVICE 1:64:489:0:0:0:0:0:0:0:
+#SERVICE 1:64:497:0:0:0:0:0:0:0:
 #DESCRIPTION ++Hongarije++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UC4Ct8gIf9f0n4mdyGsFiZRA&autoplay=1:Euronews - Hongarije
 #DESCRIPTION Euronews - Hongarije
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/jAn7L2Kt32U:Euronews - Hongarije
 #DESCRIPTION Euronews - Hongarije
-#SERVICE 1:64:48a:0:0:0:0:0:0:0:
+#SERVICE 1:64:498:0:0:0:0:0:0:0:
 #DESCRIPTION ++India++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/1_Ih0JYmkjI:CNBC TV18 - Stock Markets 
 #DESCRIPTION CNBC TV18 - Stock Markets 
@@ -89,49 +101,49 @@
 #DESCRIPTION India Live TV
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8:India Today
 #DESCRIPTION India Today
-#SERVICE 1:64:48b:0:0:0:0:0:0:0:
+#SERVICE 1:64:499:0:0:0:0:0:0:0:
 #DESCRIPTION ++Indonesië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/AUE5iHINUIw:JAM Metro TV
 #DESCRIPTION JAM Metro TV
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/DOOrIxw5xOw:KompasTV
 #DESCRIPTION KompasTV
-#SERVICE 1:64:48c:0:0:0:0:0:0:0:
+#SERVICE 1:64:49a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Iran++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//live.presstv.ir/hls/presstv_5_482/index.m3u8:Press TV (Engels)
 #DESCRIPTION Press TV (Engels)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//1a-1791.com/live/d0t27del/slot-70/92fv-y0jf/chunklist.m3u8:Press TV (Engels)
 #DESCRIPTION Press TV (Engels)
-#SERVICE 1:64:48d:0:0:0:0:0:0:0:
+#SERVICE 1:64:49b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Israël++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/3rqj4kSuacs:i24 News (Engels)
 #DESCRIPTION i24 News (Engels)
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/fzTcxyIC6bA:ILTV
 #DESCRIPTION ILTV
-#SERVICE 1:64:48e:0:0:0:0:0:0:0:
+#SERVICE 1:64:49c:0:0:0:0:0:0:0:
 #DESCRIPTION ++Italië++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.raiplay.it/dirette/rainews24:Rai News24
 #DESCRIPTION Rai News24
-#SERVICE 1:64:48f:0:0:0:0:0:0:0:
+#SERVICE 1:64:49d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Kazachstan++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCaGiYkcxDVobNAJyeK8p36Q&autoplay=1:Euronews Kazakh Live
 #DESCRIPTION Euronews Kazakh Live
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/iW7mGG9GXTU:Euronews Kazakh Live
 #DESCRIPTION Euronews Kazakh Live
-#SERVICE 1:64:490:0:0:0:0:0:0:0:
+#SERVICE 1:64:49e:0:0:0:0:0:0:0:
 #DESCRIPTION ++Kenia++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/DVSRNx8VSFM:Citizen TV
 #DESCRIPTION Citizen TV
-#SERVICE 1:64:491:0:0:0:0:0:0:0:
+#SERVICE 1:64:49f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Mexico++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/5r4wPMQdhnU:Multimedios
 #DESCRIPTION Multimedios
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/q5RMNt4AS68:Nmás Monterrey
 #DESCRIPTION Nmás Monterrey
-#SERVICE 1:64:492:0:0:0:0:0:0:0:
+#SERVICE 1:64:4a0:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nigeria++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/x4wL-fWyhI0:Arise News
 #DESCRIPTION Arise News
-#SERVICE 1:64:493:0:0:0:0:0:0:0:
+#SERVICE 1:64:4a1:0:0:0:0:0:0:0:
 #DESCRIPTION ++Oekraïne++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/oHIgPN3z_44 :5 Kanal
 #DESCRIPTION 5 Kanal
@@ -143,13 +155,13 @@
 #DESCRIPTION Ukraine Live: War Updates, Interviews & On-the-Ground Reports
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/0m7MPQOddlc:Ukraine War Footage 24/7
 #DESCRIPTION Ukraine War Footage 24/7
-#SERVICE 1:64:494:0:0:0:0:0:0:0:
+#SERVICE 1:64:4a2:0:0:0:0:0:0:0:
 #DESCRIPTION ++Pakistan++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/LPjjmuxTqr8:Ary News
 #DESCRIPTION Ary News
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/Nh_qJClxWec:Samaa TV
 #DESCRIPTION Samaa TV
-#SERVICE 1:64:495:0:0:0:0:0:0:0:
+#SERVICE 1:64:4a3:0:0:0:0:0:0:0:
 #DESCRIPTION ++Polen++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/1ocbJcGikfM:Telewizja BIZNES24
 #DESCRIPTION Telewizja BIZNES24
@@ -161,19 +173,19 @@
 #DESCRIPTION wPolsce24.tv
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/-6JENufSj1I:wPolsce 24
 #DESCRIPTION wPolsce 24
-#SERVICE 1:64:496:0:0:0:0:0:0:0:
+#SERVICE 1:64:4a4:0:0:0:0:0:0:0:
 #DESCRIPTION ++Russisch++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/lwYzwdBiaho:Euronews - Russian
 #DESCRIPTION Euronews - Russian
-#SERVICE 1:64:497:0:0:0:0:0:0:0:
+#SERVICE 1:64:4a5:0:0:0:0:0:0:0:
 #DESCRIPTION ++Slowakije++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/koi_Qf-pBJU:Forex Education - Energy Sector Chart
 #DESCRIPTION Forex Education - Energy Sector Chart
-#SERVICE 1:64:498:0:0:0:0:0:0:0:
+#SERVICE 1:64:4a6:0:0:0:0:0:0:0:
 #DESCRIPTION ++Turkije++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//tv-trtworld.medya.trt.com.tr/master.m3u8:TRT World Turquía (Engels)
 #DESCRIPTION TRT World Turquía (Engels)
-#SERVICE 1:64:499:0:0:0:0:0:0:0:
+#SERVICE 1:64:4a7:0:0:0:0:0:0:0:
 #DESCRIPTION ++USA++
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/9nT0V32jVjk:5NEWS - Northwest Arkansas and the River Valley
 #DESCRIPTION 5NEWS - Northwest Arkansas and the River Valley
@@ -201,20 +213,20 @@
 #DESCRIPTION Alabama Weather Network
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/1r9GbtzPigw:Associated Press
 #DESCRIPTION Associated Press
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/iEpJwprxDdk:Bloomberg Business News Live
-#DESCRIPTION Bloomberg Business News Live
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_2_1964000.m3u8:CNN
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.bloomberg.com/media-manifest/streams/qt.m3u8:Bloomberg Quicktake
+#DESCRIPTION Bloomberg Quicktake
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//service-stitcher.clusters.pluto.tv/stitch/hls/channel/61559552dd585f0007321eca/master.m3u8?advertisingId=&appName=web&appVersion=unknown&architecture=&buildVersion=&clientTime=&deviceDNT=0&deviceId=9b70ad36f16211eca6a1001dec12a44c&deviceLat=51.5420&deviceLon=-0.2409&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&marketingRegion=GB&sid=7cfb0cb26a8c49f7830f28ddfa3b0da2&userId=:Bloomberg TV Europa
+#DESCRIPTION Bloomberg TV Europa
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn3.skygo.mn/live/disk1/BloombergMon/HLS-FTA/BloombergMon.m3u8:Bloomberg TV Mongolia HD
+#DESCRIPTION Bloomberg TV Mongolia HD
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.bloomberg.com/media-manifest/streams/us-event.m3u8:Bloomberg TV USA Live Event
+#DESCRIPTION Bloomberg TV USA Live Event
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//www.bloomberg.com/media-manifest/streams/politics.m3u8:Bloomberg TV USA Politics Live Event
+#DESCRIPTION Bloomberg TV USA Politics Live Event
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/GotlA1KKWoo:CNN
 #DESCRIPTION CNN
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/4nMfRpesYfw:FOX - USA
-#DESCRIPTION FOX - USA
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/cpTWphTGLfc:FOX - LiveNOW FOX 24/7
-#DESCRIPTION FOX - LiveNOW FOX 24/7
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/8u8pQ_uLGjo:FOX - Los Angelos
-#DESCRIPTION FOX - Los Angelos
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/ADXWeM9wsDw:FOX - New York
-#DESCRIPTION FOX - New York
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/rM8rkzxKZRs:FOX - San Francisco
-#DESCRIPTION FOX - San Francisco
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/C96oohpWBGw:FOX - 24/7 live stream
+#DESCRIPTION FOX - 24/7 live stream
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//247wlive.foxweather.com/stream/index_1280x720.m3u8:FOX - Weather
 #DESCRIPTION FOX - Weather
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/wt6SIE7BXS8:FOX - Weather Channel
@@ -241,7 +253,7 @@
 #DESCRIPTION Yahoo Finance
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8:Yahoo Finance (#)
 #DESCRIPTION Yahoo Finance (#)
-#SERVICE 1:64:49a:0:0:0:0:0:0:0:
+#SERVICE 1:64:4a8:0:0:0:0:0:0:0:
 #DESCRIPTION ++VAE - Verenigde Arabische Emiraten++ Engelstalig
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCrvG04V6wbOau6fVJI01OlQ&autoplay=1:DRM News
 #DESCRIPTION DRM News

@@ -1,16 +1,278 @@
-#NAME Nieuw sinds 4 september 2026
+#NAME Nieuw sinds 2 oktober 2026
 #SERVICE 1:64:cf:0:0:0:0:0:0:0:
-#DESCRIPTION ++BE - TV Vlaanderen++
+#DESCRIPTION ++kerstkanalen, code++
 #SERVICE 1:0:16:527c:c96:3:eb0000:0:0:0:
 #SERVICE 1:64:d0:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oost-Europa, Belarus, fta++
-#SERVICE 1:0:19:1437:ca2:3:eb0000:0:0:0:
+#DESCRIPTION ++Nieuws++
+#SERVICE 1:0:1:80c:449:1:c00000:0:0:0:
 #SERVICE 1:64:d1:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oost-Europa, Servië, fta++
-#SERVICE 1:0:1:504b:c9f:3:eb0000:0:0:0:
+#DESCRIPTION ++Religie++
+#SERVICE 1:0:1:18f7:3f4:1:c00000:0:0:0:
 #SERVICE 1:64:d2:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oost-Europa, Tsjechië, code++
-#SERVICE 1:0:16:17eb:c82:3:eb0000:0:0:0:
+#DESCRIPTION ++Frankrijk, fta++
+#SERVICE 1:0:1:2f6c:454:1:c00000:0:0:0:
+#SERVICE 1:0:1:2f6d:454:1:c00000:0:0:0:
 #SERVICE 1:64:d3:0:0:0:0:0:0:0:
-#DESCRIPTION ++Azië + Nieuws++
-#SERVICE 1:0:19:164f:42c:1:c00000:0:0:0:
+#DESCRIPTION ++Oost-Europa, Canal+ voor Slowakije en Tsjechië++
+#SERVICE 1:0:19:334c:c93:3:eb0000:0:0:0:
+#SERVICE 1:0:19:1f53:ca1:3:eb0000:0:0:0:
+#SERVICE 1:0:19:52b3:c99:3:eb0000:0:0:0:
+#SERVICE 1:0:19:3cfa:c95:3:eb0000:0:0:0:
+#SERVICE 1:64:d4:0:0:0:0:0:0:0:
+#DESCRIPTION +++VIDEO/TV-STREAMS+++
+#SERVICE 1:64:d5:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL regionaal en lokaal++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn15.streampartner.nl/meervandaag/meervandaag/chunklist_w1759091008_tkdG9rZW5fZW5kdGltZT0xNzkyNjY4NzU0JnRva2VuX3N0YXJ0dGltZT0wJnRva2VuX2hhc2g9M280TUJuZUJmbHM4OFEtNnNXZzVDb3NsVmVabmdESkx3YzBnZlJvRHY3RT0=.m3u8:ZVL (Zuid-Limburg Vandaag)
+#DESCRIPTION ZVL (Zuid-Limburg Vandaag)
+#SERVICE 1:64:d6:0:0:0:0:0:0:0:
+#DESCRIPTION ++Duitsland++
+#SERVICE 4097:0:1:e34:4761:ec:0:0:0:0:https%3a//jmp2.uk/stvp-DEAK0500445A:GoldStar TV
+#DESCRIPTION GoldStar TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00771-amg00771c5-rakuten-gb-9713.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00771-kochfilmsfast-metalrocks-rakutengb/playlist.m3u8?ads_amagi_channel_id=1063&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=12&ads_rtv_channel_name=metal-rocks_nl&ads_rtv_content_id=7201&ads_rtv_content_language=&ads_rtvid=271863&ads_streaming_id=ea79ba8d-680f-4837-a346-895c419b6dbe&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_m:Metal.Rocks
+#DESCRIPTION Metal.Rocks
+#SERVICE 1:64:d7:0:0:0:0:0:0:0:
+#DESCRIPTION ++Twitch++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/rijinstructeurjeroen:Rijinstructeur Jeroen
+#DESCRIPTION Rijinstructeur Jeroen
+#SERVICE 5002:0:1:0:c0f:fee:cccc0000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCU22mB0Ll2UoiA1nmYicbnw&autoplay=1:Sjtadsomroop Remunj  (Roermond)
+#DESCRIPTION Sjtadsomroop Remunj  (Roermond)
+#SERVICE 5002:0:1:0:c0f:fee:cccc0000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/vFeWd6dKMU4:Sjtadsomroop Remunj  (Roermond) (#)
+#DESCRIPTION Sjtadsomroop Remunj  (Roermond) (#)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/zuidlimburgvandaag:Zuid-Limburg Vandaag
+#DESCRIPTION Zuid-Limburg Vandaag
+#SERVICE 1:64:d8:0:0:0:0:0:0:0:
+#DESCRIPTION ++YouTube - muziek: 137 er bij, zoals:++
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=IfCioOt0Ctc:ABBA Station
+#DESCRIPTION ABBA Station
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=YfY8yIYILoc:Celine Dion%3a The Station
+#DESCRIPTION Celine Dion: The Station
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=9jThwW3vWjo:Elvis Presley%3a The Station
+#DESCRIPTION Elvis Presley: The Station
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=FrhnrNXtQKg:The Rolling Stones | The Station
+#DESCRIPTION The Rolling Stones | The Station
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=aKJgydJ76tg:Celtic Thunder Christmas
+#DESCRIPTION Celtic Thunder Christmas
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=Zjp2WhqCcbc:Christmas Music All Day 24/7 LIVE Christmas Music Station
+#DESCRIPTION Christmas Music All Day 24/7 LIVE Christmas Music Station
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=qmOZ7JbKeR4:Classic Christmas Songs 24/7 Holiday Music
+#DESCRIPTION Classic Christmas Songs 24/7 Holiday Music
+#SERVICE 1:64:d9:0:0:0:0:0:0:0:
+#DESCRIPTION ++YouTube, Nieuws++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=_kBTv2etAFo:Spreekbuis TV
+#DESCRIPTION Spreekbuis TV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCvADKEcXt_KhGFJ_9q6u56Q&autoplay=1:Spreekbuis TV (#)
+#DESCRIPTION Spreekbuis TV (#)
+#SERVICE 1:64:da:0:0:0:0:0:0:0:
+#DESCRIPTION ++Sierra Leone++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-cloudfront.eu-central-1.prod.ingest.aws-infra.dacast.com/live/ef01e762-2254-845e-fead-833ca55e12cd/source/index.m3u8:AYV - Channel 33
+#DESCRIPTION AYV - Channel 33
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-cloudfront.eu-central-1.prod.ingest.aws-infra.dacast.com/live/db4d6fbe-4374-6596-a1c6-bda9a635243f/source/index.m3u8:AYV - Channel 34
+#DESCRIPTION AYV - Channel 34
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdn-cloudfront.eu-central-1.prod.ingest.aws-infra.dacast.com/live/80f971c6-d535-44eb-951d-24a51ec3b865/source/index.m3u8:AYV - Radio
+#DESCRIPTION AYV - Radio
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-cloudfront.eu-central-1.prod.ingest.aws-infra.dacast.com/live/bff8bd53-ee89-2c76-6a51-95a0003f7d96/master.m3u8:Mercy TV
+#DESCRIPTION Mercy TV
+#SERVICE 1:64:db:0:0:0:0:0:0:0:
+#DESCRIPTION ++YouTube - overige landen, Zuid-Afrika++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/hJP1XBjl0wg:Family Feud South Africa
+#DESCRIPTION Family Feud South Africa
+#SERVICE 1:64:dc:0:0:0:0:0:0:0:
+#DESCRIPTION ++YouTube - Nieuws, algemeen++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/lqf2M2lGooI:FootballcomTV
+#DESCRIPTION FootballcomTV
+#SERVICE 1:64:dd:0:0:0:0:0:0:0:
+#DESCRIPTION ++YT, nieuws, marker Frankrijk++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/FY4NWvJZhVc:Le Figaro TV
+#DESCRIPTION Le Figaro TV
+#SERVICE 1:64:de:0:0:0:0:0:0:0:
+#DESCRIPTION ++YouTube natuur, marker noorderlicht++ 
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/AvKdtZIb-6c:Aurora Alert Realtime
+#DESCRIPTION Aurora Alert Realtime
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/I3sa2kiEpkA:Aurora - live from ISS
+#DESCRIPTION Aurora - live from ISS
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream41.radiohost.de/ffn-diesdasfm_mp3-192:diesdas FM
+#DESCRIPTION diesdas FM
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/O52zDyxg5QI:Fairbanks, Alaska
+#DESCRIPTION Fairbanks, Alaska
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/vsJBqHwnK9w:Kalajoki, Finland
+#DESCRIPTION Kalajoki, Finland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/ccTVAhJU5lg:Kilpisjärvi, Finland
+#DESCRIPTION Kilpisjärvi, Finland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/rKfecmmzzw0:Levi, Finland
+#DESCRIPTION Levi, Finland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/dnlQtDad6Dk:Sodankylä, Finland
+#DESCRIPTION Sodankylä, Finland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/taeIAd5BgAI:Hólar, Iceland
+#DESCRIPTION Hólar, Iceland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/wT8Zhh9MBEE:Apukka Resort Live Cam Rovaniemi, Lapland
+#DESCRIPTION Apukka Resort Live Cam Rovaniemi, Lapland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/HuCjMGI8fKg:Poslo, Lapland
+#DESCRIPTION Poslo, Lapland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/dyRSvHGGvA8:Pyhä-Luosto, Lapland
+#DESCRIPTION Pyhä-Luosto, Lapland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/MYeOK93smBw:Cresswell, UK
+#DESCRIPTION Cresswell, UK
+#SERVICE 1:64:df:0:0:0:0:0:0:0:
+#DESCRIPTION ++Stream Frankrijk++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//static.lefigaro.fr/secom/tnt.m3u8:Le Figaro TV
+#DESCRIPTION Le Figaro TV
+#SERVICE 1:64:e0:0:0:0:0:0:0:0:
+#DESCRIPTION ++Zuid-Afrika++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream2.bokradio.co.za/hls/Bok5c.m3u8:BOKTV
+#DESCRIPTION BOKTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3actv.stream.smil/playlist.m3u8:Cape Town TV
+#DESCRIPTION Cape Town TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viewmedia7219.bozztv.com/wmedia/viewmedia100/web_002/Stream/playlist.m3u8:NuView TV
+#DESCRIPTION NuView TV
+#SERVICE 1:64:e1:0:0:0:0:0:0:0:
+#DESCRIPTION +++AUDIO/RADIO-STREAMS+++
+#SERVICE 1:64:e2:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL nationaal++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.peppermindmedia.com/amigoradio/hls/160k/hls.m3u8:Amigo Radio
+#DESCRIPTION Amigo Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.d-tales.nl/listen/dtalesradio/radio.aac:D-Tales Radio
+#DESCRIPTION D-Tales Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.league-fm.nl/:League-FM
+#DESCRIPTION League-FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radionl.fm/rnltalk:RADIONL Talk
+#DESCRIPTION RADIONL Talk
+#SERVICE 1:64:e3:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL regionaal en lokaal++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.omroepmaasduinen.nl/listen/omroepmaasduinen/radio.mp3:Omroep Maasduinen (Gennep)
+#DESCRIPTION Omroep Maasduinen (Gennep)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//server-51.stream-server.nl%3a18613/stream:SOR (Sjtadsomroop Remunj, Roermond)
+#DESCRIPTION SOR (Sjtadsomroop Remunj, Roermond)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audiostream.easy-point.nl/proxy/heuvelland/stream:ZLV (Zuid-Limburg Vandaag)
+#DESCRIPTION ZLV (Zuid-Limburg Vandaag)
+#SERVICE 1:64:e4:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL Piratenmuziek++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-hostingenwebsite.nl/8060/stream:Varende Schipper Radio
+#DESCRIPTION Varende Schipper Radio
+#SERVICE 1:64:e5:0:0:0:0:0:0:0:
+#DESCRIPTION ++België nationaal - Vlaanderen++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.peppermindmedia.com/amigoradio/hls/160k/hls.m3u8:Amigo Radio
+#DESCRIPTION Amigo Radio
+#SERVICE 1:64:e6:0:0:0:0:0:0:0:
+#DESCRIPTION ++België, regionaal, Vlaanderen++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/840856/stream/910381:iDance Radio
+#DESCRIPTION iDance Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.league-fm.nl/:League-FM
+#DESCRIPTION League-FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//carnaval.radiovictoria.be/:Radio Victoria - Victoria Carnaval Continu (tot maart 2027)
+#DESCRIPTION Radio Victoria - Victoria Carnaval Continu (tot maart 2027)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//yoloradio-bruno.level27.eu/outside:Stadsradio Lommel
+#DESCRIPTION Stadsradio Lommel
+#SERVICE 1:64:e7:0:0:0:0:0:0:0:
+#DESCRIPTION ++Duitsland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80ssynthiepop-mp3-192-6219643:80s80s Synthiepop
+#DESCRIPTION 80s80s Synthiepop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream23.radiohost.de/ffn-auszeit_fm_mp3-192:Aus Zeit FM
+#DESCRIPTION Aus Zeit FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream47.radiohost.de/ffn-607080radio_mp3-192:FFN - 60/70/80
+#DESCRIPTION FFN - 60/70/80
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream22.radiohost.de/ffn-708090_mp3-192:FFN - 70/80/90
+#DESCRIPTION FFN - 70/80/90
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream47.radiohost.de/ffn-80902000_mp3-192:FFN - 80/90/2000
+#DESCRIPTION FFN - 80/90/2000
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream38.radiohost.de/ffn-80er_mp3-192:FFN - 80er
+#DESCRIPTION FFN - 80er
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.ffn.de/neunziger/mp3-192/;stream.nsv?ref=radioplayer:FFN - 90er
+#DESCRIPTION FFN - 90er
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream19.radiohost.de/ffn-ffn-2000er_mp3-192:FFN - 2000er
+#DESCRIPTION FFN - 2000er
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream03.radiohost.de/ffn-dance_only_mp3-192:FFN - Dance Only
+#DESCRIPTION FFN - Dance Only
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream22.radiohost.de/ffn-das_gelbe_vom_ei_mp3-192:FFN - Das Gelbe vom Ei
+#DESCRIPTION FFN - Das Gelbe vom Ei
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream21.radiohost.de/ffn-comedy_mp3-192:FFN - Frühstyx Radio
+#DESCRIPTION FFN - Frühstyx Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream06.radiohost.de/ffn-radio_rotkaeppchen_mp3-192:Radio Rotkäppchen
+#DESCRIPTION Radio Rotkäppchen
+#SERVICE 1:64:e8:0:0:0:0:0:0:0:
+#DESCRIPTION ++UK - algemeen++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//media-ssl.musicradio.com/ClassicFMCalm:Classic FM - Calm
+#DESCRIPTION Classic FM - Calm
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//media-ssl.musicradio.com/ClassicFMXmas:Classic FM - Christmas Classics
+#DESCRIPTION Classic FM - Christmas Classics
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//media-sov.musicradio.com/ClassicFM-M-Movies:Classic FM - Movies
+#DESCRIPTION Classic FM - Movies
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//media-the.musicradio.com/ClassicFM-M-Relax:Classic FM - Relax
+#DESCRIPTION Classic FM - Relax
+#SERVICE 1:64:e9:0:0:0:0:0:0:0:
+#DESCRIPTION ++UK - Engeland++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.voscast.com%3a9097/stream?_=511527:Black Cat Radio (St Neots, Huntingdonshire + Bedford)
+#DESCRIPTION Black Cat Radio (St Neots, Huntingdonshire + Bedford)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.touristradio.co.uk/hampshire:Hampshire Tourist Radio
+#DESCRIPTION Hampshire Tourist Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.soniic.co.uk%3a8030/stream_hi:Horizon Radio (Bedford)
+#DESCRIPTION Horizon Radio (Bedford)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.soniic.co.uk%3a8020/stream_hi:Horizon Radio (Milton Keynes)
+#DESCRIPTION Horizon Radio (Milton Keynes)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.soniic.co.uk%3a8010/stream_hi:Horizon Radio (Northampton)
+#DESCRIPTION Horizon Radio (Northampton)
+#SERVICE 1:64:ea:0:0:0:0:0:0:0:
+#DESCRIPTION ++Country, vele aanpassingen, zoals:++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n07-eu2.rcs.revma.com/h7rwanvb938uv:Country Radio
+#DESCRIPTION Country Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ais-sa8.cdnstream1.com/10296_96.aac:Legends of Country Radio
+#DESCRIPTION Legends of Country Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ais-sa8.cdnstream1.com/3668_96.aac:Opry 100 Radio
+#DESCRIPTION Opry 100 Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ais-sa8.cdnstream1.com/3667_96.aac:Route 650
+#DESCRIPTION Route 650
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ais-sa8.cdnstream1.com/3666_96.aac:WSM Radio
+#DESCRIPTION WSM Radio
+#SERVICE 1:64:eb:0:0:0:0:0:0:0:
+#DESCRIPTION ++Kerstmuziek++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//media-ssl.musicradio.com/ClassicFMXmas:Classic FM - Christmas Classics
+#DESCRIPTION Classic FM - Christmas Classics
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.radio.co/s062090cf4/listen:The Sound of Monaco Christmas Radio
+#DESCRIPTION The Sound of Monaco Christmas Radio
+#SERVICE 1:64:ec:0:0:0:0:0:0:0:
+#DESCRIPTION ++Botswana++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-280.surfernetwork.com/16ve08sfy4zuv:Duma FM
+#DESCRIPTION Duma FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//iceant.antfarm.co.za/yarona:Yarona FM
+#DESCRIPTION Yarona FM
+#SERVICE 1:64:ed:0:0:0:0:0:0:0:
+#DESCRIPTION ++Frankrijk++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.libertefm.fr/libertefm.192.mp3:Liberté FM
+#DESCRIPTION Liberté FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiofrance.fr/monpetitfranceinter-midfi.mp3:Mon petit France Inter
+#DESCRIPTION Mon petit France Inter
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ougfkxrb92oc?origine=fluxradios&aw_0_1st.station=NOSTALGIE-60-70:Nostalgie - 60 70
+#DESCRIPTION Nostalgie - 60 70
+#SERVICE 1:64:ee:0:0:0:0:0:0:0:
+#DESCRIPTION ++Luxemburg++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n12-eu.rcs.revma.com/rfwscbz9tepwv:L'essentiel 2
+#DESCRIPTION L'essentiel 2
+#SERVICE 1:64:ef:0:0:0:0:0:0:0:
+#DESCRIPTION ++Monaco++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s4.radio.co/s5dc9ad21c/listen:The Sound of Monaco
+#DESCRIPTION The Sound of Monaco
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.radio.co/s062090cf4/listen:The Sound of Monaco Christmas Radio
+#DESCRIPTION The Sound of Monaco Christmas Radio
+#SERVICE 1:64:f0:0:0:0:0:0:0:0:
+#DESCRIPTION ++Namibië++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast6.asurahosting.com/proxy/thenamib/fm.acc:Desert FM
+#DESCRIPTION Desert FM
+#SERVICE 1:64:f1:0:0:0:0:0:0:0:
+#DESCRIPTION ++Tsjechië++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast7.play.cz/bikersradiodoupe128.mp3:Bikers Radio Doupe
+#DESCRIPTION Bikers Radio Doupe
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rozhlas.stream/brno_high.aac:Český rozhlas Brno
+#DESCRIPTION Český rozhlas Brno
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast9.play.cz/americana-192.mp3:Radio Americana
+#DESCRIPTION Radio Americana
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sepia.sk%3a8000/ceskyimpuls128.mp3:Rádio Český Impuls
+#DESCRIPTION Rádio Český Impuls
+#SERVICE 1:64:f2:0:0:0:0:0:0:0:
+#DESCRIPTION ++Zuid-Afrika++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge.iono.fm/xice/296_medium.aac:Kosmos FM
+#DESCRIPTION Kosmos FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-176.surfernetwork.com/ehzctev98nkuv:Time FM SA
+#DESCRIPTION Time FM SA
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sv2.famcast.co.za%3a8733/stream:UCR FM
+#DESCRIPTION UCR FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.fabrik.fm/yfm/echocast/audio/low/index.m3u8:YFM
+#DESCRIPTION YFM

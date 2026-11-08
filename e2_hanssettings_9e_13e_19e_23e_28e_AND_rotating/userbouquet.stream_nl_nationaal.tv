@@ -1,111 +1,141 @@
 #NAME Stream NL nationaal (NL)
-#SERVICE 1:64:256:0:0:0:0:0:0:0:
-#DESCRIPTION ++NPO: niet 100% zeker++
-#SERVICE 4097:0:1:5225:c99:3:eb0000:0:0:0:https%3a//rbtvlive.cdn.tele2portal.com/live/NPO1/NPO1.isml/.m3u8:NPO1
-#DESCRIPTION NPO1
-#SERVICE 4097:0:1:17c0:c82:3:eb0000:0:0:0:https%3a//rbtvlive.cdn.tele2portal.com/live/NPO2/NPO2.isml/.m3u8:NPO2
-#DESCRIPTION NPO2
-#SERVICE 4097:0:1:5230:c99:3:eb0000:0:0:0:https%3a//rbtvlive.cdn.tele2portal.com/live/NPO3/NPO3.isml/.m3u8:NPO3
-#DESCRIPTION NPO3
-#SERVICE 1:64:257:0:0:0:0:0:0:0:
-#DESCRIPTION ++overige++
+#SERVICE 1:64:224:0:0:0:0:0:0:0:
+#DESCRIPTION ++algemeen/nieuws++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-streaming.dpgmedia.net/aldag-clipstream-srt-zk7kiq36v0lq88zpv1p064/index_720.m3u8:AD.nl - Nieuwsupdate
 #DESCRIPTION AD.nl - Nieuwsupdate
 #SERVICE 4097:0:1:4ed1:c99:3:eb0000:0:0:0:https%3a//bnr-cache-cdp.triple-it.nl/studio/index.m3u8:BNR Nieuwsradio
 #DESCRIPTION BNR Nieuwsradio
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//viamotionhsi.netplus.ch/live/eds/bvn/browser-dash/bvn.mpd:BVN
-#DESCRIPTION BVN
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//nomadstv.live%3a80/play/live.php?mac=00%3a1A%3a79%3a10%3a40%3a19&stream=163334&extension=ts:BVN (#)
-#DESCRIPTION BVN (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//main.light-ott.net%3a80/play/live.php?mac=00%3a1B%3a79%3aC0%3a16%3a78&stream=1253&extension=ts:BVN (#)
-#DESCRIPTION BVN (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8:Dance Television
-#DESCRIPTION Dance Television
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//m2b2.worldcast.tv%3a7443/dancetelevisionfour/2/dancetelevisionfour.m3u8:Dance TV%3a Algorhythm
-#DESCRIPTION Dance TV: Algorhythm
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8:Dance TV%3a Best of Dance TV
-#DESCRIPTION Dance TV: Best of Dance TV
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//mbit1.worldcast.tv/dancetelevisioneight/stream_0.m3u8:Dance TV%3a Chillaf
-#DESCRIPTION Dance TV: Chillaf
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//m1b2.worldcast.tv/dancetelevisiontwo/2/dancetelevisiontwo.m3u8:Dance TV%3a Deep House
-#DESCRIPTION Dance TV: Deep House
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//m2b2.worldcast.tv%3a7443/dancetelevisionfive/2/dancetelevisionfive.m3u8:Dance TV%3a Housefloor
-#DESCRIPTION Dance TV: Housefloor
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//mbit1.worldcast.tv/dancetelevisionseven/stream_0.m3u8:Dance TV%3a Mainstage
-#DESCRIPTION Dance TV: Mainstage
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//mbit1.worldcast.tv/dancetelevisionnine/stream_0.m3u8:Dance TV%3a Melodictech
-#DESCRIPTION Dance TV: Melodictech
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//mbit1.worldcast.tv/dancetelevisionsix/stream_0.m3u8:Dance TV%3a MNML
-#DESCRIPTION Dance TV: MNML
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//m2b2.worldcast.tv%3a7443/dancetelevisionthree/2/dancetelevisionthree.m3u8:Dance TV%3a Techno
-#DESCRIPTION Dance TV: Techno
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//37.48.120.77%3a8080/hls/ghtvonline.m3u8:GHtv Holland
-#DESCRIPTION GHtv Holland
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mistserv4.videostreams.nl/hls/camfactor/1_2/index.m3u8:GLXY.TV
-#DESCRIPTION GLXY.TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/radiohdfm :HDFM
-#DESCRIPTION HDFM
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bright-tv-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-yourchannels-7-restreaming/bitok/eyJzdGlkIjoiMjdjNWVmOTQtOGNkMi00MjcyLTgyOGEtMDBiN2JjZDFiMTg5IiwibWt0IjoibmwiLCJjaCI6IjciLCJwdGYiOjV9/mpgmedia/Bright/Bright_NL/Bright_NL.m3u8:Bright TV
+#DESCRIPTION Bright TV
+#SERVICE 4097:0:1:1ba:f938:ec:0:0:0:0:https%3a//bpm.tv.delta.nl/hls/combined/10058/stb.m3u8?bk-network=ftth:Delta Demo Kanaal
+#DESCRIPTION Delta Demo Kanaal
+#SERVICE 4097:0:1:101:0:31:dddd:0:0:0:https%3a//sbs6classic.prd1.talpatvcdn.nl/v1/master/8ada1ed2ae3b9c3db6fc5e604cfa78fc7d2d745e/sbs6classic_ssai/fea54560ba684701a2143f33a9cf4489/index.m3u8:SBS6 Classics
+#DESCRIPTION SBS6 Classics
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//86.87.15.10%3a8003/play/a024/index.m3u8:STAR Channel
+#DESCRIPTION STAR Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//telegraaftv-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-yourchannels-1-restreaming/bitok/eyJzdGlkIjoiMzMxMjA3ODYtMzA0NC00ODkzLWE2ZjItOGI0YmVlMGJlOTA4IiwibWt0IjoibmwiLCJjaCI6IjEiLCJwdGYiOjV9/mpgmedia/TelegraafTV/TelegraafTV_NL/TelegraafTV_NL.m3u8:TelegraafTV
+#DESCRIPTION TelegraafTV
+#SERVICE 1:64:225:0:0:0:0:0:0:0:
+#DESCRIPTION ++muziek, zie ook Steam Muziek++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash3.antik.sk/live/test_360_tunebox_medium_atk/playlist.m3u8:360TuneBox
+#DESCRIPTION 360TuneBox
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mistserv4.videostreams.nl/hls/camfactor/1_2/index.m3u8:GLXY TV
+#DESCRIPTION GLXY TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streammix.alsolnet.com/hyperadio/live/playlist.m3u8:Hype Visual Radio (Curaçao)
+#DESCRIPTION Hype Visual Radio (Curaçao)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//intergalactic.tv/live/cbstv/playlist.m3u8:Intergalactic FM - CBS TV (muziek - Den-Haag)
+#DESCRIPTION Intergalactic FM - CBS TV (muziek - Den-Haag)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//stream.mcquack.net/276/index.m3u8:Mezzo Live
+#DESCRIPTION Mezzo Live
 #SERVICE 4097:0:1:17ee:c82:3:eb0000:0:0:0:https%3a//stream.qmusic.nl/qmusic/videohls.m3u8:Qmusic
 #DESCRIPTION Qmusic
-#SERVICE 4097:0:1:525d:c99:3:eb0000:0:0:0:https%3a//radio10.prd1.talpatvcdn.nl/2b725bc7c93f477eaf0e43955ea8a6c1/index_1.m3u8:Radio 10
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//radio10.prd1.talpatvcdn.nl/2b725bc7c93f477eaf0e43955ea8a6c1/index_1.m3u8 :Radio 10
 #DESCRIPTION Radio 10
 #SERVICE 4097:0:1:5260:c99:3:eb0000:0:0:0:https%3a//radio538.prd1.talpatvcdn.nl/22e9bbf9616547d7bc162c993009c533/index_1.m3u8:Radio 538
 #DESCRIPTION Radio 538
-#SERVICE 4097:0:1:2b28:803:600:ffff0000:0:0:0:https%3a//streaming05.stream.delivery/radiocontinu/live/playlist.m3u8:Radio Continu
-#DESCRIPTION Radio Continu
-#SERVICE 4097:0:1:2b28:803:600:ffff0000:0:0:0:http%3a//5f1b356656745.streamlock.net/radiocontinu/live/chunklist.m3u8:Radio Continu (#)
-#DESCRIPTION Radio Continu (#)
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//tv.rnn.fm/radionl.m3u8:Radio NL
-#DESCRIPTION Radio NL
-#SERVICE 4097:0:1:17f2:c82:3:eb0000:0:0:0:https%3a//mediahuis.akamaized.net/clear/veronica/muxed.m3u8:Radio Veronica
-#DESCRIPTION Radio Veronica
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//dhclzcsxsio1e.cloudfront.net/9e844cd7-2b72-4f1a-bfb3-413e8bbdba14/hls_15.m3u8:Rechtspraak NL 
-#DESCRIPTION Rechtspraak NL 
-#SERVICE 4097:0:1:101:0:31:dddd:0:0:0:https%3a//sbs6classic.prd1.talpatvcdn.nl/v1/master/8ada1ed2ae3b9c3db6fc5e604cfa78fc7d2d745e/sbs6classic_ssai/fea54560ba684701a2143f33a9cf4489/index.m3u8:SBS6 Classics
-#DESCRIPTION SBS6 Classics
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//stream.radionl.tv/radionltv/radionltv/playlist.m3u8:RADIONL TV
+#DESCRIPTION RADIONL TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883158:Stingray PiratenHits
+#DESCRIPTION Stingray PiratenHits
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883160:Stingray Soft Hits NL
+#DESCRIPTION Stingray Soft Hits NL
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmf-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-yourchannels-10-restreaming/bitok/eyJzdGlkIjoiMjdhOGVjOGYtMjQyNS00M2YxLTlmYjctY2I4ZmUyNzA2NDU1IiwibWt0IjoibmwiLCJjaCI6IjEwIiwicHRmIjo1fQ%253D%253D/mpgmedia/TMF/TMF_NL/TMF_NL.m3u8:TMF
+#DESCRIPTION TMF
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmf-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-yourchannels-10-restreaming/bitok/eyJzdGlkIjoiMzUzNGNiZTAtNWY4MS00ZmU4LWE1NGYtYjgyMjJmMTM3ZmZjIiwibWt0IjoibmwiLCJjaCI6IjEwIiwicHRmIjo1fQ%253D%253D/mpgmedia/TMF/TMF_NL/TMF_NL.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=12&ads.rtv_channel_name=tmf-nl_nl&ads.rtv_content_id=10&ads.rtv_content_language=nl&ads.rtv_language=nl&ad:TMF
+#DESCRIPTION TMF
 #SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tv01.cdn.snkmedia.nl/tukkertv/1080p.m3u8:Tukker TV
 #DESCRIPTION Tukker TV
-#SERVICE 1:64:258:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//tv01.cdn.snkmedia.nl/tukkertv/master.m3u8#Referer=https%3a//tukker.tv/embed?autoplay=1:Tukker TV
+#DESCRIPTION Tukker TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//video.audiostreamen.nl%3a3837/stream/play.m3u8:XXX Radio TV
+#DESCRIPTION XXX Radio TV
+#SERVICE 1:64:226:0:0:0:0:0:0:0:
+#DESCRIPTION ++sport++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//autoblog-tv-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-yourchannels-9-restreaming/bitok/eyJzdGlkIjoiMzUyNzkzMDctMzc3Yi00YTUzLTk3YTMtZWUwNDg3NDRkM2MxIiwibWt0IjoibmwiLCJjaCI6IjkiLCJwdGYiOjV9/mpgmedia/Autoblog/Autoblog_NL/Autoblog_NL.m3u8:Autoblog TV
+#DESCRIPTION Autoblog TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//vi-tv-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-yourchannels-2-restreaming/bitok/eyJzdGlkIjoiMWY2ZDUzYjktMjBhYi00NDY2LWI5ZjQtZjhmOTMwZmE5OTJhIiwibWt0IjoibmwiLCJjaCI6IjIiLCJwdGYiOjV9/mpgmedia/VoetbalInternational/VoetbalInternational_NL/VoetbalInternational_NL.m3u8:VI TV
+#DESCRIPTION VI TV
+#SERVICE 1:64:227:0:0:0:0:0:0:0:
+#DESCRIPTION ++documentaires++
+#SERVICE 4097:0:1:5:1000:31:cccc0000:0:0:0:https%3a//amg01576-amg01576c4-rakuten-nl-10702.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01576-blueantmediacanadafast-naturetimeemeaengaudiodutchcc-rakutennl/playlist.m3u8:NatureTime
+#DESCRIPTION NatureTime
+#SERVICE 4097:0:1:d:1000:31:cccc0000:0:0:0:https%3a//b688f77a784646d0b2daeb4d55ea9950.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_Travelxp/playlist.m3u8:TravelXP
+#DESCRIPTION TravelXP
+#SERVICE 1:64:228:0:0:0:0:0:0:0:
+#DESCRIPTION ++humor++
+#SERVICE 4097:0:1:2:1000:31:cccc0000:0:0:0:https%3a//db2b248fd4144eaeb7c4f13169dca7a8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_ComedyStation/playlist.m3u8:Comedy Station
+#DESCRIPTION Comedy Station
+#SERVICE 1:64:229:0:0:0:0:0:0:0:
+#DESCRIPTION ++jeugd++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//73117ada0d1f4c3991fdfd79826b7e26.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_MojiTV/playlist.m3u8:MojiTV
+#DESCRIPTION MojiTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg27847-amg27847c1-amgplt0172.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg27847-amg27847c1-amgplt0172/playlist.m3u8?ads_amagi_channel_id=1114&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=animation%252Cchildren&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=0&ads_rtv_channel_name=winx-club-nl_nl&ads_rtv_content_id=7767&ads_rtv_content_language=nl&ads_rtvid=271863&ads_streaming_id=95665542-c7b6-4ed7-abf6-a457c102ff6f&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_:Winx Club TV
+#DESCRIPTION Winx Club TV
+#SERVICE 1:64:22a:0:0:0:0:0:0:0:
 #DESCRIPTION ++BBC voor Nederland++
-#SERVICE 4097:0:1:1d:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c51-nlziet-nl-8601.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramabenelux-nlzietnl/playlist.m3u8:BBC Drama
-#DESCRIPTION BBC Drama
 #SERVICE 4097:0:1:1c:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c52-nlziet-nl-10250.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbceastendersbenelux-nlzietnl/playlist.m3u8:BBC EastEnders
 #DESCRIPTION BBC EastEnders
 #SERVICE 4097:0:1:1a:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c20-nlziet-nl-10251.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbcearthbenelux-nlzietnl/playlist.m3u8:BBC Earth
 #DESCRIPTION BBC Earth
 #SERVICE 4097:0:1:1b:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c56-nlziet-nl-10249.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbclifestylebenelux-nlzietnl/playlist.m3u8:BBC Lifestyle
 #DESCRIPTION BBC Lifestyle
+#SERVICE 4097:0:1:1d:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c51-nlziet-nl-8601.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramabenelux-nlzietnl/playlist.m3u8:BBC Series
+#DESCRIPTION BBC Series
 #SERVICE 4097:0:1:1f:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c16-nlziet-nl-8602.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearbenelux-nlzietnl/playlist.m3u8:BBC Topgear
 #DESCRIPTION BBC Topgear
-#SERVICE 1:64:259:0:0:0:0:0:0:0:
-#DESCRIPTION ++via Rakuten TV++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//pr1de-free-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-8-restreaming/8f31d9de-0ee1-4b7f-8780-bd2d0b2b17bc/0.m3u8:PR1DE free
+#SERVICE 1:64:22b:0:0:0:0:0:0:0:
+#DESCRIPTION ++Lifestyle & trends++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pr1de-free-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-8-restreaming/8f31d9de-0ee1-4b7f-8780-bd2d0b2b17bc/0.m3u8:PR1DE free
 #DESCRIPTION PR1DE free
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//telegraaftv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-1-restreaming/b55c0195-03d0-46f2-96b5-11e50b6b8140/0.m3u8:TelegraafTV
-#DESCRIPTION TelegraafTV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tmf-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-10-restreaming/a7ae8748-ca07-43fe-843e-41c2759d3463/0.m3u8:TMF
-#DESCRIPTION TMF
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//vi-tv-nl.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-2-restreaming/10c14aa1-7513-4219-b46d-d5a03501b921/0.m3u8:VI TV
-#DESCRIPTION VI TV
-#SERVICE 1:64:25a:0:0:0:0:0:0:0:
-#DESCRIPTION ++via YouTube++
-#SERVICE 5002:0:1:31b:ed7d:ec:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/QIrMmNYltkA:Spreekbuis TV
-#DESCRIPTION Spreekbuis TV
-#SERVICE 1:64:25b:0:0:0:0:0:0:0:
-#DESCRIPTION +++Radio Toppers+++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pr1de-free-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-yourchannels-8-restreaming/bitok/eyJzdGlkIjoiM2NiOTg4NWUtOTliNC00ZGZkLWE2ZDUtNWU2NjExNTFjNTk2IiwibWt0IjoibmwiLCJjaCI6IjgiLCJwdGYiOjV9/mpgmedia/PrideTV/PrideTV_NL/PrideTV_NL.m3u8:PR1DE free (#)
+#DESCRIPTION PR1DE free (#)
+#SERVICE 1:64:22c:0:0:0:0:0:0:0:
+#DESCRIPTION ++films/series van Rakuten TV, NL-talig of NL-TT++
+#SERVICE 4097:0:1:7:1000:31:cccc0000:0:0:0:https%3a//documentaries-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6221-playout/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6221&ads.rtv_channel_name=documentaries-rakuten-tv_nl&ads.rtv_content_id=6221&ads.rtv_content_language=nl&ads.rtv_language=nl&ads.rtvid=271863&ads.streaming_id=c0afce13-8789-4f46-a7e1-556395beda9f&ads.tivo_devcou:Rakuten TV Documentaires
+#DESCRIPTION Rakuten TV Documentaires
+#SERVICE 4097:0:1:6:1000:31:cccc0000:0:0:0:https%3a//action-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6073-playout/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6073&ads.rtv_channel_name=action-rakuten-tv_nl&ads.rtv_content_id=6073&ads.rtv_content_language=nl&ads.rtv_language=nl&ads.rtvid=271863&ads.streaming_id=254d3755-4c67-4756-beb1-7baaf7ae11c2&ads.tivo_devcountry=&ads.tivo:Rakuten TV Actie
+#DESCRIPTION Rakuten TV Actie
+#SERVICE 4097:0:1:8:1000:31:cccc0000:0:0:0:https%3a//drama-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6097-playout/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6097&ads.rtv_channel_name=drama-rakuten-tv_nl&ads.rtv_content_id=6097&ads.rtv_content_language=nl&ads.rtv_language=nl&ads.rtvid=271863&ads.streaming_id=47794b3d-a786-4994-9f35-2e6f884bab6e&ads.tivo_devcountry=&ads.tivo_d:Rakuten TV Drama
+#DESCRIPTION Rakuten TV Drama
+#SERVICE 4097:0:1:9:1000:31:cccc0000:0:0:0:https%3a//family-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6212-playout/master.m3u8:Rakuten TV Familie
+#DESCRIPTION Rakuten TV Familie
+#SERVICE 4097:0:1:a:1000:31:cccc0000:0:0:0:https%3a//comedy-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6185/master.m3u8:Rakuten TV Komedie
+#DESCRIPTION Rakuten TV Komedie
+#SERVICE 4097:0:1:b:1000:31:cccc0000:0:0:0:https%3a//romance-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6198-playout/master.m3u8:Rakuten TV Romantiek
+#DESCRIPTION Rakuten TV Romantiek
+#SERVICE 4097:0:1:c:1000:31:cccc0000:0:0:0:https%3a//top-movies-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6054-playout/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6054&ads.rtv_channel_name=top-movies-rakuten-tv_nl&ads.rtv_content_id=6054&ads.rtv_content_language=nl&ads.rtv_language=nl&ads.rtvid=271863&ads.streaming_id=906be32d-cf6a-4fa9-951c-b01aefedd550&ads.tivo_devcountry=&:Rakuten TV Top Films
+#DESCRIPTION Rakuten TV Top Films
+#SERVICE 4097:0:1:3:1000:31:cccc0000:0:0:0:https%3a//be23a3aa4c7c4dd2b6221ba7ca51283e.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_GrjngoWesternFilms/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=western&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_name=grjngo-nl_nl&ads.rtv_content_id=4837&ads.rtv_content_language=nl&ads.rtvid=271863&ads.streaming_id=6006d724-e98f-42c4-b195-4fdaa05b6bb4&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platfor:Western Films - Grjngo
+#DESCRIPTION Western Films - Grjngo
+#SERVICE 1:64:22d:0:0:0:0:0:0:0:
+#DESCRIPTION ++Radio's++
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-67.stream-server.nl%3a1936/RadioToppers/RadioToppers/playlist.m3u8:Radio Toppers
 #DESCRIPTION Radio Toppers
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-23.stream-server.nl%3a1936/Magic-PowerRadio/Magic-PowerRadio/playlist.m3u8:Magic Power Radio
 #DESCRIPTION Magic Power Radio
 #SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-67.stream-server.nl%3a1936/PoesjesTV/PoesjesTV/playlist.m3u8:Poesjes TV
 #DESCRIPTION Poesjes TV
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//server-23.stream-server.nl%3a1936/WinkRadio/WinkRadio/playlist.m3u8:Wink Radio
-#DESCRIPTION Wink Radio
-#SERVICE 1:64:25c:0:0:0:0:0:0:0:
+#SERVICE 1:64:22e:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL amateur-tv++
-#SERVICE 5002:0:1:0:0:31:abcd0000:0:0:0:http%3a//stream.pi6atv.com%3a8081/scoop/pi6atv-hd/playlist.m3u8  :PI6ATV HD
-#DESCRIPTION PI6ATV HD
-#SERVICE 4097:0:1:0:0:31:abcd0000:0:0:0:https%3a//stream.pi6atv.com%3a8443/scoop/pi6atv-sd/manifest.mpd:PI6ATV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/pi6atv:PI6ATV
 #DESCRIPTION PI6ATV
 #SERVICE 5002:0:1:0:0:31:abcd0000:0:0:0:https%3a//hls.batc.org.uk/pi6mep/index.m3u8:PI6MEP (Meppel)
 #DESCRIPTION PI6MEP (Meppel)
+#SERVICE 1:64:22f:0:0:0:0:0:0:0:
+#DESCRIPTION ++via YouTube++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCWALr0VavEm8SgPXGafhFDQ&autoplay=1:BNR Nieuwsradio
+#DESCRIPTION BNR Nieuwsradio
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/a53WBmWJktc:BNR Nieuwsradio
+#DESCRIPTION BNR Nieuwsradio
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCqkx9o2gpNM4RhVtU7s60MA&autoplay=1:BabyTV NL
+#DESCRIPTION BabyTV NL
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/fegW16q_Ws8:BabyTV NL (#)
+#DESCRIPTION BabyTV NL (#)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCs6LTmrlC_G9GbiuhFSOT7w&autoplay=1:Car City Adventures
+#DESCRIPTION Car City Adventures
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/G8T6OfC5x3g:Car City Adventures (#)
+#DESCRIPTION Car City Adventures (#)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=_kBTv2etAFo:Spreekbuis TV
+#DESCRIPTION Spreekbuis TV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCvADKEcXt_KhGFJ_9q6u56Q&autoplay=1:Spreekbuis TV (#)
+#DESCRIPTION Spreekbuis TV (#)

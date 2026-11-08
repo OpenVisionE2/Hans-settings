@@ -1,5 +1,5 @@
 #NAME Stream Duitsland (DE)
-#SERVICE 1:64:c1:0:0:0:0:0:0:0:
+#SERVICE 1:64:ad:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders-publieke omroepen++
 #SERVICE 4097:0:1:283d:3fb:1:c00000:0:0:0:https%3a//daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8:ARD
 #DESCRIPTION ARD
@@ -57,7 +57,7 @@
 #DESCRIPTION WDR Fernsehen Wuppertal
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_kika_tizen/playlist.m3u8:KiKA
 #DESCRIPTION KiKA
-#SERVICE 1:64:c2:0:0:0:0:0:0:0:
+#SERVICE 1:64:ae:0:0:0:0:0:0:0:
 #DESCRIPTION ++commerciële zenders landelijk++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ma.anixa.tv/clips/stream/anixehd/index.m3u8:Anixe
 #DESCRIPTION Anixe
@@ -67,7 +67,7 @@
 #DESCRIPTION Pro 7
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_sat_eins_gold_tizen/playlist.m3u8:SAT.1 Gold
 #DESCRIPTION SAT.1 Gold
-#SERVICE 1:64:c3:0:0:0:0:0:0:0:
+#SERVICE 1:64:af:0:0:0:0:0:0:0:
 #DESCRIPTION ++muziek++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/95d6544c-4164-11ec-9c7c-2cf753b8a203/0/master.m3u8?uid=%257BPSID%257D&optout=%257BTARGETOPT%257D&country=DE&vendor=samsung:Deluxe Music - Deutsche Pop
 #DESCRIPTION Deluxe Music - Deutsche Pop
@@ -81,6 +81,8 @@
 #DESCRIPTION Deutsches Musik Fernsehen
 #SERVICE 4097:0:1:e34:4761:ec:0:0:0:0:https%3a//jmp2.uk/stvp-DEAK0500445A:GoldStar TV
 #DESCRIPTION GoldStar TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00771-amg00771c5-rakuten-gb-9713.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00771-kochfilmsfast-metalrocks-rakutengb/playlist.m3u8?ads_amagi_channel_id=1063&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=12&ads_rtv_channel_name=metal-rocks_nl&ads_rtv_content_id=7201&ads_rtv_content_language=&ads_rtvid=271863&ads_streaming_id=ea79ba8d-680f-4837-a346-895c419b6dbe&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_m:Metal.Rocks
+#DESCRIPTION Metal.Rocks
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ndrvisualradiohls.akamaized.net/hls/live/2018951/ndrvr_mv_ndr1/master.m3u8:NDR 1 Radio MV-VisualRadio
 #DESCRIPTION NDR 1 Radio MV-VisualRadio
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883159:Stingray Schlager
@@ -91,13 +93,15 @@
 #DESCRIPTION Xite
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//zweiapp.b-cdn.net/1080p/index.m3u8:Zwei Music Television
 #DESCRIPTION Zwei Music Television
-#SERVICE 1:64:c4:0:0:0:0:0:0:0:
+#SERVICE 1:64:b0:0:0:0:0:0:0:0:
 #DESCRIPTION ++sport++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8:More Than Sports TV
 #DESCRIPTION More Than Sports TV
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.ads.ottera.tv/playlist.m3u8?network_id=535:Motorvision TV
 #DESCRIPTION Motorvision TV
-#SERVICE 1:64:c5:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8:Motorvision
+#DESCRIPTION Motorvision
+#SERVICE 1:64:b1:0:0:0:0:0:0:0:
 #DESCRIPTION ++documentaires++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8:ARTE
 #DESCRIPTION ARTE
@@ -107,11 +111,11 @@
 #DESCRIPTION iSTUFF
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8:Welt der Wunder
 #DESCRIPTION Welt der Wunder
-#SERVICE 1:64:c6:0:0:0:0:0:0:0:
+#SERVICE 1:64:b2:0:0:0:0:0:0:0:
 #DESCRIPTION ++jeugd++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8:RiC
 #DESCRIPTION RiC
-#SERVICE 1:64:c7:0:0:0:0:0:0:0:
+#SERVICE 1:64:b3:0:0:0:0:0:0:0:
 #DESCRIPTION ++nieuws++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8:DW Arabic
 #DESCRIPTION DW Arabic
@@ -127,7 +131,7 @@
 #DESCRIPTION RT DE
 #SERVICE 4097:0:1:2887:40f:1:c00000:0:0:0:https%3a//tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8:Tagesschau 24
 #DESCRIPTION Tagesschau 24
-#SERVICE 1:64:c8:0:0:0:0:0:0:0:
+#SERVICE 1:64:b4:0:0:0:0:0:0:0:
 #DESCRIPTION ++religie++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//bibeltv02.iptv-playoutcenter.de/bibeltv02/bibeltv02.stream_1/playlist.m3u8:Bibel TV Impuls 
 #DESCRIPTION Bibel TV Impuls 
@@ -143,7 +147,7 @@
 #DESCRIPTION Light Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bild-und-ton.stream/snj-de/snj-de.smil/.m3u8:Sender Neu Jerusalem
 #DESCRIPTION Sender Neu Jerusalem
-#SERVICE 1:64:c9:0:0:0:0:0:0:0:
+#SERVICE 1:64:b5:0:0:0:0:0:0:0:
 #DESCRIPTION ++lokale en overige omroepen++
 #SERVICE 4097:0:1:16a8:3ff:1:c00000:0:0:0:http%3a//178.248.241.103/iptv/atv.ts:a.tv Augsburg
 #DESCRIPTION a.tv Augsburg
@@ -277,7 +281,7 @@
 #DESCRIPTION TVA Ostbayern
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5857499ee635b.streamlock.net/radiowesertv-live/_definst_/mp4%3alivestreamTV/playlist.m3u8:Weser TV
 #DESCRIPTION Weser TV
-#SERVICE 1:64:ca:0:0:0:0:0:0:0:
+#SERVICE 1:64:b6:0:0:0:0:0:0:0:
 #DESCRIPTION ++teleshop++
 #SERVICE 4097:0:1:2776:409:1:c00000:0:0:0:https%3a//sparhandytv.cdn.ses-ps.com/live/channel01/hls/index.m3u8:Handystar TV
 #DESCRIPTION Handystar TV

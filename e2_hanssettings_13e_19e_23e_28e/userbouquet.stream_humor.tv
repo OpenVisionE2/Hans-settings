@@ -1,31 +1,67 @@
 #NAME Stream Humor
-#SERVICE 1:64:27f:0:0:0:0:0:0:0:
+#SERVICE 1:64:27d:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nederland++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//db2b248fd4144eaeb7c4f13169dca7a8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_ComedyStation/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=comedy,entertainment&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=comedy-station_nl&ads.rtv_content_id=6852&ads.rtv_content_language=nl&ads.rtvid=271863&ads.streaming_id=53f4544f-3a98-4ee7-b4cb-5efcc92ae2ca&ad:Comedy Station
 #DESCRIPTION Comedy Station
-#SERVICE 1:64:280:0:0:0:0:0:0:0:
+#SERVICE 1:64:27e:0:0:0:0:0:0:0:
 #DESCRIPTION ++algemeen++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00276-amg00276c31-rakuten-gb-9769.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00276-aetelevisionnetworksfast-chaosoncanbyaesubfeed-rakutengb/playlist.m3u8?ads_amagi_channel_id=1061&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=reality&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=15&ads_rtv_content_id=7255&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=148cfd24-:Chaos on cam
 #DESCRIPTION Chaos on cam
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=comedy&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=0&ads.rtv_content_id=5551&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=b3d2e8af-2074-4f09-ae1f-079febe95421&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.t:Fail Army
 #DESCRIPTION Fail Army
-#SERVICE 1:64:281:0:0:0:0:0:0:0:
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//failarmy-international-nl.samsung.wurl.tv/playlist.m3u8:Failarmy International
+#DESCRIPTION Failarmy International
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/56/content/XM0TPA7445B1D8/22451699/master.m3u8:Fail Army - video
+#DESCRIPTION Fail Army - video
+#SERVICE 4097:0:1:a3:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480e8f2e214e5ec101da6e&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Comedy&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=Terra Nova Distribution Limited_Novo Comedy&content_channel_nam:Novo Comedy
+#DESCRIPTION Novo Comedy
+#SERVICE 1:64:27f:0:0:0:0:0:0:0:
 #DESCRIPTION ++Aziatisch++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//84a85b7c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX0FuZFRWX0hMUw/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=drama%252Cromance%252Centertainment&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=12&ads.rtv_content_id=6733&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=25b8e627-94b1-456d-8165-e5cf8320c5b8&ads.tivo_devcountry=&ads.tivo_devmakedate:Comedy TV Sony
 #DESCRIPTION Comedy TV Sony
-#SERVICE 1:64:282:0:0:0:0:0:0:0:
+#SERVICE 1:64:280:0:0:0:0:0:0:0:
+#DESCRIPTION ++Canada++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//distributionsjustepourrire-justforlaughsgags-1-nl.samsung.wurl.tv/playlist.m3u8:Just For Laughs Gags
+#DESCRIPTION Just For Laughs Gags
+#SERVICE 1:64:281:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland en rest UK++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-grahamnortonenglish-rakutengb/playlist.m3u8?ads_amagi_channel_id=1003&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=12&ads_rtv_content_id=6798&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=7e6a475b-2839-4c53-9cc4:Graham Norton Show
 #DESCRIPTION Graham Norton Show
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8?ads_amagi_channel_id=975&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=comedy&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=0&ads_rtv_content_id=6504&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=5d5fe2e7-7aa9-4f0d-997d-a6c6cfb6d18b&ads_tivo:Mr. Bean
-#DESCRIPTION Mr. Bean
-#SERVICE 1:64:283:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8:Mr. Bean (cartoons)
+#DESCRIPTION Mr. Bean (cartoons)
+#SERVICE 4097:0:1:99:0:0:0:0:0:0:https%3a//amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8:Mr. Bean Classic
+#DESCRIPTION Mr. Bean Classic
+#SERVICE 1:64:282:0:0:0:0:0:0:0:
 #DESCRIPTION ++Italië++
 #SERVICE 4097:0:1:1434:6dae:ec:0:0:0:0:https%3a//comedy-rakuten-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6184/master.m3u8:Rakuten TV Comedia
 #DESCRIPTION Rakuten TV Comedia
-#SERVICE 1:64:284:0:0:0:0:0:0:0:
+#SERVICE 1:64:283:0:0:0:0:0:0:0:
 #DESCRIPTION ++USA++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/nothingscripted.m3u8:30ATV Nothing Scripted Floridaman Comedy News TV 
 #DESCRIPTION 30ATV Nothing Scripted Floridaman Comedy News TV 
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/vidaa/funnyvideos.m3u8:30ATV Ridiculous X TV
 #DESCRIPTION 30ATV Ridiculous X TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/2795/content/XM04IPJEEE2U48/23339780/master.m3u8:Are We There Yet?
+#DESCRIPTION Are We There Yet?
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetnl-samsungnl/playlist.m3u8:Are we there Yet?
+#DESCRIPTION Are we there Yet?
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/9999613/hls/playlist.m3u8?ads.xumo_channelId=9999613:Bounce XL
+#DESCRIPTION Bounce XL
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-903.frequency.stream/dist/xumo/903/hls/master/playlist.m3u8:Comedy Dynamics
+#DESCRIPTION Comedy Dynamics
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8:NBC Comedy Vault
+#DESCRIPTION NBC Comedy Vault
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amc-portlandia-1-us.xumo.wurl.tv/playlist.m3u8:Portlandia
+#DESCRIPTION Portlandia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3pxo1qcgzxtxs.cloudfront.net/10005/99951301/hls/playlist.m3u8?ads.xumo_channelId=99951301:Portlandia (#)
+#DESCRIPTION Portlandia (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d4whmvwm0rdvi.cloudfront.net/10007/99951247/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=99951247&ads.xumo_streamId=99951247&ads.channelId=99951247&ads.asnw=169843&ads.afid=380750681&ads.sfid=19316459&ads.csid=xumo_web_NBCUSavedBytheBell_ssai_cro&ads._fw_coppa=0&ads.xumo_contentId=3942&ads.xumo_contentName=NBCUSavedBytheBell&ads.xumo_providerId=3942&ads.xumo_providerName=NBCUSavedBytheBell&ads.caid=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_did=5a49f679-2a37-44cc-bd83-41abc474833e&ads._fw_vcid2=512116%3a5a49f679-2a37-44cc-bd83-41abc474833e&ads._fw_app_bundle=&ads._fw_app_store_url=&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads._fw_ifa_type=&ads.appName=xumo&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=:Saved by the Bell
+#DESCRIPTION Saved by the Bell
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d4whmvwm0rdvi.cloudfront.net/10007/99951236/hls/master.m3u8?ads.xumo_channelId=99951236:SNL Vault
+#DESCRIPTION SNL Vault
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/115/content/XM0HF58EO7C9X8/27177629/master.m3u8:The Pet Collective
+#DESCRIPTION The Pet Collective
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951403/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951403&ads.xumo_streamId=99951403&ads.channelId=99951403&ads.channelName=BestEverChannelsWITZComedyTV&ads.caid=BestEverChannelsWITZComedyTV&ads.csid=xumo_web_BestEverChannelsWITZComedyTV_ssai&ads.genre=Entertainment&ads._fw_content_genre=Entertainment&ads._fw_coppa=0&ads.xumo_contentId=4215&ads.xumo_contentName=BestEverChannelsWITZComedyTV&ads.xumo_providerId=4215&ads.xumo_providerName=BestEverChannelsWITZComedyTV&ads.asnw=&ads.xumo_channelName=BestEverChannelsWITZComedyTV&ads._fw_h_x_country=US&ads._fw_ifa_type=&ads._fw_did=710ce68c-acec-49dc-a40e-30403800a4c3&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&:WITZ Comedy
+#DESCRIPTION WITZ Comedy
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/286/content/XM0Y0K5ETAL14B/27100184/master.m3u8:Xumo Free Comedy TV
+#DESCRIPTION Xumo Free Comedy TV

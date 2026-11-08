@@ -1,640 +1,287 @@
-#NAME Nieuw sinds 4 september 2026
-#SERVICE 1:64:17a:0:0:0:0:0:0:0:
-#DESCRIPTION ++BE - TV Vlaanderen++
+#NAME Nieuw sinds 2 oktober 2026
+#SERVICE 1:64:178:0:0:0:0:0:0:0:
+#DESCRIPTION ++kerstkanalen, fta++
+#SERVICE 1:0:1:d048:83e:2:11a0000:0:0:0:
+#SERVICE 1:0:1:d04d:83e:2:11a0000:0:0:0:
+#SERVICE 1:64:179:0:0:0:0:0:0:0:
+#DESCRIPTION ++kerstkanalen, code++
 #SERVICE 1:0:16:527c:c96:3:eb0000:0:0:0:
-#SERVICE 1:64:17b:0:0:0:0:0:0:0:
-#DESCRIPTION ++Engeland fta++
-#SERVICE 1:0:1:571d:82b:2:11a0000:0:0:0:
-#SERVICE 1:64:17c:0:0:0:0:0:0:0:
-#DESCRIPTION ++Engeland, code++
 #SERVICE 1:0:1:152c:7e7:2:11a0000:0:0:0:
 #SERVICE 1:0:1:1cfd:7e7:2:11a0000:0:0:0:
-#SERVICE 1:0:1:c4c6:811:2:11a0000:0:0:0:
-#SERVICE 1:64:17d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oost-Europa, Belarus, fta++
-#SERVICE 1:0:19:1437:ca2:3:eb0000:0:0:0:
-#SERVICE 1:64:17e:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oost-Europa, Servië, fta++
-#SERVICE 1:0:1:504b:c9f:3:eb0000:0:0:0:
-#SERVICE 1:64:17f:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oost-Europa, Tsjechië, code++
-#SERVICE 1:0:16:17eb:c82:3:eb0000:0:0:0:
-#SERVICE 1:64:180:0:0:0:0:0:0:0:
-#DESCRIPTION ++Azië + Nieuws++
-#SERVICE 1:0:19:164f:42c:1:c00000:0:0:0:
-#SERVICE 1:64:181:0:0:0:0:0:0:0:
-#DESCRIPTION ++testkanalen++
-#SERVICE 1:0:1:841:83d:2:11a0000:0:0:0:
-#SERVICE 1:0:1:842:83d:2:11a0000:0:0:0:
-#SERVICE 1:0:1:843:83d:2:11a0000:0:0:0:
-#SERVICE 1:0:1:844:83d:2:11a0000:0:0:0:
-#SERVICE 1:64:182:0:0:0:0:0:0:0:
-#DESCRIPTION ++Ziggo++ diverse lokaal toegevoegd++
-#SERVICE 1:64:183:0:0:0:0:0:0:0:
-#DESCRIPTION +++VIDEO/TV-STREAMS+++
-#SERVICE 1:64:184:0:0:0:0:0:0:0:
-#DESCRIPTION ++NL nationaal++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streammix.alsolnet.com/hyperadio/live/playlist.m3u8:Hype Visual Radio (Curaçao)
-#DESCRIPTION Hype Visual Radio (Curaçao)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//stream.radionl.tv/radionltv/radionltv/playlist.m3u8:RadioNL TV
-#DESCRIPTION RadioNL TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883158:Stingray PiratenHits
-#DESCRIPTION Stingray PiratenHits
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883160:Stingray Soft Hits NL
-#DESCRIPTION Stingray Soft Hits NL
-#SERVICE 1:64:185:0:0:0:0:0:0:0:
-#DESCRIPTION ++België nationaal FR-talig++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//193.111.198.85%3a8589/stream/mstv/rtbftipiklive26/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg:RTBF Tipik
-#DESCRIPTION RTBF Tipik
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//funradiovisionhd.vedge.infomaniak.com/livecast/ik%3afunradiovisionhd/manifest.m3u8:Fun Vision (Fun Radio Belgique)
-#DESCRIPTION Fun Vision (Fun Radio Belgique)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8:Zee One - Franstalig 
-#DESCRIPTION Zee One - Franstalig 
-#SERVICE 1:64:186:0:0:0:0:0:0:0:
-#DESCRIPTION ++België regionaal NL-talig++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n1.cdn.jetstre.am/session/3e27cde8c27f6441220709db67ae21d6/sz/fmbrussel/wowza4/live/BruzzIceVideo/chunklist.m3u8:BRUZZ ICE
-#DESCRIPTION BRUZZ ICE
-#SERVICE 1:64:187:0:0:0:0:0:0:0:
-#DESCRIPTION ++België ragionaal FR-talig++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvlocales-live.freecaster.com/bouke/95d2f70d-fffd-4fd3-ab04-3d5f65cb8c3b/95d2f70d-fffd-4fd3-ab04-3d5f65cb8c3b.isml/master.m3u8:Boukè
-#DESCRIPTION Boukè
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//tvlocales-live.freecaster.com/bouke/95d2f70d-fffd-4fd3-ab04-3d5f65cb8c3b/95d2f70d-fffd-4fd3-ab04-3d5f65cb8c3b.isml/95d2f70d-fffd-4fd3-ab04-3d5f65cb8c3b-audio_und=128000-video=2600000.m3u8:Boukè (#)
-#DESCRIPTION Boukè (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/7ec67c8d/index.m3u8:BX1 (Brussels gewest)
-#DESCRIPTION BX1 (Brussels gewest)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streaming01.divercom.be/notele_live/direct.stream/playlist.m3u8:Notélé
-#DESCRIPTION Notélé
-#SERVICE 1:64:188:0:0:0:0:0:0:0:
-#DESCRIPTION ++Duitsland++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883159:Stingray Schlager
-#DESCRIPTION Stingray Schlager
-#SERVICE 1:64:189:0:0:0:0:0:0:0:
+#SERVICE 1:64:17a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883136:Fifth Gear
-#DESCRIPTION Fifth Gear
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8:The Chat Show Channel
-#DESCRIPTION The Chat Show Channel
-#SERVICE 1:64:18a:0:0:0:0:0:0:0:
-#DESCRIPTION ++webcams radiostations++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-streaming.dpgmedia.net/joenl-tempkijklive-flbyw6hneucxlpu2imgvbnyz/index.m3u8:JOE
-#DESCRIPTION JOE
-#SERVICE 1:64:18b:0:0:0:0:0:0:0:
-#DESCRIPTION ++Documentaires++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//f06cd57c1eeb48fd89b80d9ff8ae230f.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_AdventureEarth/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=documentary%252Coutdoors&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=0&ads.rtv_content_id=4739&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=86227025-3f94-4330-85f0-fef2b6ef338f&:Adventure Earth
-#DESCRIPTION Adventure Earth
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//36dc2f37.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX0F4TWVuX0hMUw/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=entertainment%252Coutdoors%252Creality&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=7&ads.rtv_content_id=6019&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=618d190d-f3aa-4dbc-a1c7-0158ce70e5e3&ads.tivo_devcountry=&ads.tivo_devmakeda:Ax Men
-#DESCRIPTION Ax Men
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00376-magellan-amg00376c14-rakuten-uk-1694.playouts.now.amagi.tv/playlist/amg00376-magellantv-spacesciencenowcauk-rakutenuk/playlist.m3u8?ads_amagi_channel_id=883&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=sci-fi%252Cdocumentary%252Chobbies&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=5765&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=56ffddc:Cosmic Frontiers
-#DESCRIPTION Cosmic Frontiers
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00170-curiositystream-amg00170c3-rakuten-us-2289.playouts.now.amagi.tv/playlist/amg00170-curiositystreamllcfast-curiositynowrow-rakutenus/playlist.m3u8?ads_amagi_channel_id=894&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=sci-fi%252Cdocumentary%252Chobbies&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=5758&ads_rtv_content_language=en&ads_rtvid=271858&ads_stream:Curiosity Now
-#DESCRIPTION Curiosity Now
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00861-terninternation-inwonder-samsungau-1k63k.amagi.tv/playlist/amg00861-terninternation-inwonder-samsungau/playlist.m3u8:Insight - InWonder
-#DESCRIPTION Insight - InWonder
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//blueskyent-lovepetsemea-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-blueskyent-lovepetsemea-rakuten/CDN/master.m3u8?ads_amagi_channel_id=849&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=animals&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=firefox&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=84.17.47.16&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=09bef241-987c-45b2-b024-acc61a336afa&ads_prodq=1&ads_rating=0&ads_rtv_channel_name=love-pets_nl&ads_rtv_content_id=4922&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=aa6a46ec-2962-437f-87d8-e5d7bb57924b&ads_tivo_devcountry=:Love Pets
-#DESCRIPTION Love Pets
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//med-tv-uk.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-medtv-1-restreaming/bitok/eyJzdGlkIjoiYmQ3MWM1ZjEtODAzZi00ZTE5LWEwZjUtYWI4NmNiYzdmNDUxIiwibWt0IjoidWsiLCJjaCI6IjEiLCJwdGYiOjV9/hls/main.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_year=1970&ads.did=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.medtv_channel_id=1&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.p:MED.TV
-#DESCRIPTION MED.TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01775-amg01775c1-amgplt0165.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01775-amg01775c1-amgplt0165/playlist.m3u8?ads_amagi_channel_id=1105&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=documentary%252Canimals%252Coutdoors&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=7706&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=f9cb4d17-5327-4323-8f09-01:Terra Mater Wild
-#DESCRIPTION Terra Mater Wild
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//6ec8627d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RoZVBldENvbGxlY3RpdmVfSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=animals&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=the-pet-collective-new_nl&ads.rtv_content_id=5391&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=29ee9208-36d1-4ff8-92a8-ac04dde8ff54&ads.tivo_devcountry=&ads.tivo_devmakedate=&:The Pet Collective
-#DESCRIPTION The Pet Collective
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8:WaterBear
-#DESCRIPTION WaterBear
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//beaece44.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1dlYXRoZXJTcHlfSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=documentary&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=0&ads.rtv_content_id=5118&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=bcf4826a-a15f-4525-b99a-d47c4f86a4eb&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd:Weather Spy
-#DESCRIPTION Weather Spy
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01775-amg01775c2-amgplt0165.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01775-amg01775c2-amgplt0165/playlist.m3u8?ads_amagi_channel_id=1106&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=documentary%252Centertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=7705&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=131b7a84-15ef-42f8-b91c-3bbe311:Wheels & Steel
-#DESCRIPTION Wheels & Steel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aenetworks-worldwartv-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-aenetworks-worldwartv-rakuten/CDN/master.m3u8?ads_amagi_channel_id=863&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=war%252Chistory&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=12&ads_rtv_content_id=5223&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=c23a0794-6fc1-47e1-b567-eae5722d27ae&ads_tivo_devc:World War TV
-#DESCRIPTION World War TV
-#SERVICE 1:64:18c:0:0:0:0:0:0:0:
-#DESCRIPTION ++Films en series++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/vidaa/aicreatortv.m3u8 :30ATV Aicreator tv 
-#DESCRIPTION 30ATV Aicreator tv 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/30atvmovies.m3u8:30ATV Movies
-#DESCRIPTION 30ATV Movies
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/30atvmovies2.m3u8:30ATV Movies Ch 2
-#DESCRIPTION 30ATV Movies Ch 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/paltrowitz.m3u8:30ATV PaltroCast Podcast
-#DESCRIPTION 30ATV PaltroCast Podcast
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/vidaa/scifi.m3u8 :30ATV Sci Fi Channel
-#DESCRIPTION 30ATV Sci Fi Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/sidewalks.m3u8:30ATV SideWalks TV
-#DESCRIPTION 30ATV SideWalks TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098:Z Nation
-#DESCRIPTION Z Nation
-#SERVICE 1:64:18d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Humor++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/nothingscripted.m3u8:30ATV Nothing Scripted Floridaman Comedy News TV 
-#DESCRIPTION 30ATV Nothing Scripted Floridaman Comedy News TV 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/vidaa/funnyvideos.m3u8:30ATV Ridiculous X TV
-#DESCRIPTION 30ATV Ridiculous X TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00276-amg00276c31-rakuten-gb-9769.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00276-aetelevisionnetworksfast-chaosoncanbyaesubfeed-rakutengb/playlist.m3u8?ads_amagi_channel_id=1061&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=reality&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=15&ads_rtv_content_id=7255&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=148cfd24-:Chaos on cam
-#DESCRIPTION Chaos on cam
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//db2b248fd4144eaeb7c4f13169dca7a8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_ComedyStation/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=comedy,entertainment&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=comedy-station_nl&ads.rtv_content_id=6852&ads.rtv_content_language=nl&ads.rtvid=271863&ads.streaming_id=53f4544f-3a98-4ee7-b4cb-5efcc92ae2ca&ad:Comedy Station
-#DESCRIPTION Comedy Station
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//84a85b7c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX0FuZFRWX0hMUw/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=drama%252Cromance%252Centertainment&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=12&ads.rtv_content_id=6733&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=25b8e627-94b1-456d-8165-e5cf8320c5b8&ads.tivo_devcountry=&ads.tivo_devmakedate:Comedy TV Sony
-#DESCRIPTION Comedy TV Sony
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=comedy&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=0&ads.rtv_content_id=5551&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=b3d2e8af-2074-4f09-ae1f-079febe95421&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.t:Fail Army
-#DESCRIPTION Fail Army
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-grahamnortonenglish-rakutengb/playlist.m3u8?ads_amagi_channel_id=1003&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=12&ads_rtv_content_id=6798&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=7e6a475b-2839-4c53-9cc4:Graham Norton Show
-#DESCRIPTION Graham Norton Show
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8?ads_amagi_channel_id=975&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=comedy&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=0&ads_rtv_content_id=6504&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=5d5fe2e7-7aa9-4f0d-997d-a6c6cfb6d18b&ads_tivo:Mr. Bean
-#DESCRIPTION Mr. Bean
-#SERVICE 1:64:18e:0:0:0:0:0:0:0:
-#DESCRIPTION ++Jeugd++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=animation%252Cchildren&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=7&ads.rtv_content_id=3587&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=4897b5c5-3e91-4c1f-b4ab-900da368ed15&ads.t:Baby Shark
-#DESCRIPTION Baby Shark
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//daiconnect.com/live/hls/tvup/rk-cartoonclassics/.m3u8?ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_channelstore_channel_id=6085&ads_content_categories=IAB1&ads_content_genre=animation%252Cchildren&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_did=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_market=uk&ads_network_name=RakutenTV&ads_opt_out_flag=0&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_prodq=1&ads_rating=0&ads_rtv_content_id=6720&ads_rtv_content_language=en&ads_streaming_id=07c707d5-509d-418c-bc4e-3c5555afa5da&ads_tcs_channel_id=6085&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo:Cartoon Classics
-#DESCRIPTION Cartoon Classics
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//narrative-popkids-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-narrative-popkids-rakuten/CDN/master.m3u8?ads_amagi_channel_id=850&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=children&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=0&ads_rtv_content_id=4880&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=128a73f5-24fb-42e1-8055-93f3891f42d8&ads_tivo_devcountry=&ads_ti:POP
-#DESCRIPTION POP
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-rakutenuk/playlist.m3u8?ads_amagi_channel_id=900&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=children&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=0&ads_rtv_content_id=5788&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=3ef5742e-7ef3-484e-b49c-1c4193a99852&a:Tiny POP
-#DESCRIPTION Tiny POP
-#SERVICE 1:64:18f:0:0:0:0:0:0:0:
-#DESCRIPTION ++Lifestyle & trends
-#SERVICE 1:64:190:0:0:0:0:0:0:0:
-#DESCRIPTION +mensen+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=entertainment&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=0&ads.rtv_channel_name=people-are-awesome-new_nl&ads.rtv_content_id=5121&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=532dbae9-73c0-4ab0-97be-905968df5aa4&ads.tivo_devcountry=&ads.tivo_devmake:People Are Awesome
-#DESCRIPTION People Are Awesome
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//pr1de-free-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-yourchannels-8-restreaming/bitok/eyJzdGlkIjoiYjU5Nzk1MDMtOGViYy00NzQyLWIxOTUtOTE1NjFlY2VlYWI4IiwibWt0IjoibmwiLCJjaCI6IjgiLCJwdGYiOjV9/mpgmedia/PrideTV/PrideTV_NL/PrideTV_NL.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_year=1970&ads.did=09bef241-987c-45b2-b024-acc61a336afa&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=:PR1DE free
-#DESCRIPTION PR1DE free
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=entertainment&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=0&ads.rtv_channel_name=revry_nl&ads.rtv_content_id=1327&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=0f259851-6683-4146-90c0-e5273174319c&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_p:Revry (LGBTQ+-content)
-#DESCRIPTION Revry (LGBTQ+-content)
-#SERVICE 1:64:191:0:0:0:0:0:0:0:
-#DESCRIPTION +koken+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//1170baa82b1343c29dbf352e2d1a61e5.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-gb_GreatBritishMenu/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=cooking&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=great-british-menu_nl&ads.rtv_content_id=5621&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=c172b77e-696e-48be-9eee-343a187b8abc&ads.tivo:Great British Menu
-#DESCRIPTION Great British Menu
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//563f72af.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0d1c3RvVFZfSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=cooking&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=7&ads.rtv_content_id=4087&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=e4fd27dc-7e98-40b2-808b-278101d790ad&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.ti:Gusto TV
-#DESCRIPTION Gusto TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//itv-hellskitchen-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-itvhellskitchen-rakuten/CDN/master.m3u8?ads_amagi_channel_id=810&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=cooking%252Creality&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=4317&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=24b50bbf-eb8d-4517-96fe-9cbebeba72eb&ads_tivo_devcountry=&:Hell's Kitchen
-#DESCRIPTION Hell's Kitchen
-#SERVICE 1:64:192:0:0:0:0:0:0:0:
-#DESCRIPTION +reizen+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/visitflorida.m3u8:30ATV Florida TV Channel
-#DESCRIPTION 30ATV Florida TV Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/nautistyles.m3u8:30ATV Luxury Mega Yachts
-#DESCRIPTION 30ATV Luxury Mega Yachts
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/beachshow.m3u8:30ATV The Beach Show
-#DESCRIPTION 30ATV The Beach Show
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01314-cgtn-amg01314c7-rakuten-gb-10206.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01314-cgtn-cgtnchinatravel-rakutengb/playlist.m3u8?ads_amagi_channel_id=1067&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=documentary%252Carts%252Coutdoors&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=0&ads_rtv_content_id=7331&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=0074a5c1-:China Travel
-#DESCRIPTION China Travel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//med-tv-uk.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-medtv-1-restreaming/bitok/eyJzdGlkIjoiYmQ3MWM1ZjEtODAzZi00ZTE5LWEwZjUtYWI4NmNiYzdmNDUxIiwibWt0IjoidWsiLCJjaCI6IjEiLCJwdGYiOjV9/hls/main.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_year=1970&ads.did=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.medtv_channel_id=1&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.p:MED.TV
-#DESCRIPTION MED.TV
-#SERVICE 1:64:193:0:0:0:0:0:0:0:
-#DESCRIPTION +wonen+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/luxelife.m3u8:30ATV Luxe Life Discovered
-#DESCRIPTION 30ATV Luxe Life Discovered
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//387ea9c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX0FOZXdMaWZlSW5UaGVTdW5fSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=outdoors%252Creality&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=7&ads.rtv_content_id=7153&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=4246673c-7d19-45c8-b734-e6ac76d2bc03&ads.tivo_devcountry=&ads.tivo_devmakedate:A New Life in the Sun
-#DESCRIPTION A New Life in the Sun
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a64543d5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX0ZsaXBwaW5nTmF0aW9uX0hMUw/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=entertainment%252Chome-garden&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=7&ads.rtv_content_id=6017&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=d209d038-0d92-4202-b29e-03e2feda7b1b&ads.tivo_devcountry=&ads.tivo_devm:Fliippng Nation
-#DESCRIPTION Fliippng Nation
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//4234a984c3604c218a65c6b287631ea6.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-gb_HomeUndertheHammer/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=documentary&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=7&ads.rtv_content_id=4432&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=0b6237a7-944f-41eb-93c7-3582c798a29f&ads.tiv:Homes Under the Hammer
-#DESCRIPTION Homes Under the Hammer
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//656836e320ca47bd8b4e24bafd190f2f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-gb_InsideOutside/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=cooking%252Chobbies%252Chome-garden&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=0&ads.rtv_content_id=7026&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=edb7c008-cd2c-4a41-9012-c28fc:Inside Outside
-#DESCRIPTION Inside Outside
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7e5c93fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1RpbnlIb3VzZU5hdGlvbl9ITFM/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=entertainment%252Chome-garden&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.prodq=1&ads.rating=7&ads.rtv_content_id=6018&ads.rtv_content_language=en&ads.rtvid=271858&ads.streaming_id=7018bed7-f07d-427e-a7b3-49d27ae88817&ads.tivo_devcountry=&ads.tivo_dev:Tiny House Nation
-#DESCRIPTION Tiny House Nation
-#SERVICE 1:64:194:0:0:0:0:0:0:0:
-#DESCRIPTION ++Muziek++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/30atvmusic.m3u8:30ATV Music Video Channel  
-#DESCRIPTION 30ATV Music Video Channel  
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbit1.worldcast.tv%3a9443/dancetelevisioneight/stream_0.m3u8:Dance TV - Chill AF
-#DESCRIPTION Dance TV - Chill AF
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//mbit1.worldcast.tv%3a9443/dancetelevisionnine/stream_0.m3u8:Dance TV - Melodic Tech
-#DESCRIPTION Dance TV - Melodic Tech
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//stream.radionl.tv/radionltv/radionltv/playlist.m3u8:RadioNL TV
-#DESCRIPTION RadioNL TV
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-mc0050ads-paris/xumo-rakuten/master.m3u8:Stingray Chansons
-#DESCRIPTION Stingray Chansons
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-mc0050ads-paris/xumo-rakuten/4f9d5398-7f15-3d4e-aadd-2e6adc3df872/1664015/manifest.m3u8:Stingray Chansons (#)
-#DESCRIPTION Stingray Chansons (#)
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/49de743a-5a60-4f89-bb59-9d3ff5a24e13/1.m3u8:Stingray Chansons (FR, soms VPN nodig)
-#DESCRIPTION Stingray Chansons (FR, soms VPN nodig)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//aka-live1050.delivery.roku.com/372c813e-1fb9-41d4-a4d0-5fbd803659c5/t2-origin/out/v1/live.m3u8:Stingray Cozy Café
-#DESCRIPTION Stingray Cozy Café
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-346ads-montreal/samsungtvplus/master.m3u8:Stingray Fado Classics
-#DESCRIPTION Stingray Fado Classics
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-010ads-montreal/samsungtvplus/master.m3u8:Stingray Franco Country
-#DESCRIPTION Stingray Franco Country
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-013ads-montreal/samsungtvplus/master.m3u8:Stingray Franco Pop
-#DESCRIPTION Stingray Franco Pop
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-043ads-montreal/samsungtvplus/master.m3u8:Stingray Franco Retro
-#DESCRIPTION Stingray Franco Retro
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-455ads-montreal/samsungtvplus/master.m3u8:Stingray Greatest Hits (UK?)
-#DESCRIPTION Stingray Greatest Hits (UK?)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/ose-311ads-montreal/samsungtvplus/master.m3u8:Stingray Italo Disco
-#DESCRIPTION Stingray Italo Disco
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8:Stingray Naturescape
-#DESCRIPTION Stingray Naturescape
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883158:Stingray PiratenHits
-#DESCRIPTION Stingray PiratenHits
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8:Stingray Qello Concerts
-#DESCRIPTION Stingray Qello Concerts
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883159:Stingray Schlager
-#DESCRIPTION Stingray Schlager
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883160:Stingray Soft Hits NL
-#DESCRIPTION Stingray Soft Hits NL
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lightning-now70s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now70s-rakuten/CDN/playlist.m3u8?ads_amagi_channel_id=869&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=0&ads_rtv_content_id=5245&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=1d0534c2-1770-4d4d-9328-1ae510f3a77c&ads_tivo_devcountry=&a:That's 70s
-#DESCRIPTION That's 70s
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lightning-now80s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now80s-rakuten/CDN/playlist.m3u8?ads_amagi_channel_id=871&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=0&ads_rtv_content_id=5281&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=0abd5424-4e64-451c-9c9a-271fdbe171bf&ads_tivo_devcountry=&a:That's 80s
-#DESCRIPTION That's 80s
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01076-amg01076c19-rakuten-gb-8653.playouts.now.amagi.tv/playlist/amg01076-lightning-now90s00s-rakutengb/playlist.m3u8?ads_amagi_channel_id=1033&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=0&ads_rtv_content_id=6988&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=61988cb8-1cb3-4906-9c47-7cc8947fcfca&ads_ti:That's 90s00s
-#DESCRIPTION That's 90s00s
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lightning-now90s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now90s-rakuten/CDN/playlist.m3u8?ads_amagi_channel_id=870&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=0&ads_rtv_content_id=5282&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=c9679dae-d22b-460c-9d84-f2b0f33ab427&ads_tivo_devcountry=&a:That's Rock
-#DESCRIPTION That's Rock
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00056-amg00056c6-rakuten-uk-3235.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopuk-rakutenuk/playlist.m3u8?ads_amagi_channel_id=922&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=15&ads_rtv_content_id=5978&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=e5b1d516-e6d3-4022-a533-93dd202345f0&ads_ti:VEVO
-#DESCRIPTION VEVO
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00056-amg00056c26-rakuten-uk-3236.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevohiphopandrnbuk-rakutenuk/playlist.m3u8?ads_amagi_channel_id=924&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=15&ads_rtv_content_id=5977&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=4409c7dd-9091-4e20-8414-5b6bfee0b:VEVO - Hip-Hop & R&B
-#DESCRIPTION VEVO - Hip-Hop & R&B
-#SERVICE 1:64:195:0:0:0:0:0:0:0:
+#SERVICE 1:0:1:839:83d:2:11a0000:0:0:0:
+#SERVICE 1:64:17b:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nieuws++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//africanews-eng-uk.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576-restreaming/bitok/eyJzdGlkIjoiNjdkNzUyNzQtNzI0Ni00MjI2LWI4MDUtZWQ0YTgzZTAwOGU4IiwibWt0IjoidWsiLCJjaCI6NjU3NiwicHRmIjo1fQ%253D%253D/live/eds/africanews-en/26036/africanews-en.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=1&ads.content_url=rakuten.tv&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_year=1970&ads.did=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee:Africanews
-#DESCRIPTION Africanews
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/answers.m3u8:30ATV Answers That Count 
-#DESCRIPTION 30ATV Answers That Count 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8?ads_amagi_channel_id=481&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB12&ads_content_genre=news&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=firefox&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=84.17.47.16&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=09bef241-987c-45b2-b024-acc61a336afa&ads_prodq=1&ads_rating=12&ads_rtv_channel_name=the-reuters-60_nl&ads_rtv_content_id=5795&ads_rtv_content_language=de&ads_rtvid=271863&ads_streaming_id=d5d26cd6-ffa5-4f54-b0c1-26536820cec3&ads_tivo_d:The Reuters 60
-#DESCRIPTION The Reuters 60
-#SERVICE 1:64:196:0:0:0:0:0:0:0:
-#DESCRIPTION ++Politiek++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestreaming.b67buv2.tweedekamer.nl/live/plenairezaal/index.m3u8?hd=1&keyframes=1&subtitles=live:Tweede Kamer%3a Plenaire Zaal
-#DESCRIPTION Tweede Kamer: Plenaire Zaal
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8:ARTV (Canal Parlamento)
-#DESCRIPTION ARTV (Canal Parlamento)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8:Canal Parlamento
-#DESCRIPTION Canal Parlamento
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdnapi.kaltura.com/p/2158211/sp/327418300/playManifest/entryId/1_24gfa7qq/protocol/https/format/applehttp/a.m3u8:Folketinget
-#DESCRIPTION Folketinget
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8:Hellenic Parliament TV – Vouli
-#DESCRIPTION Hellenic Parliament TV – Vouli
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/publicsenat-dm.m3u8:Public Sénat
-#DESCRIPTION Public Sénat
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//router.euddn.net/862366dd346d6b6392d5231546f3d179/smil%3ark_live_1.smil/playlist.m3u8?c=8005:Riigikogu Live 1
-#DESCRIPTION Riigikogu Live 1
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//senato-live.morescreens.com/SENATO_1_001/playlist.m3u8:Senato TV 
-#DESCRIPTION Senato TV 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//n11.stv.livebox.sk/stv-tv/stv4.stream/playlist.m3u8:TV NRSR
-#DESCRIPTION TV NRSR
-#SERVICE 1:64:197:0:0:0:0:0:0:0:
-#DESCRIPTION ++Sport++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/cars.m3u8:30ATV Cars
-#DESCRIPTION 30ATV Cars
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/fishingoffshore.m3u8:30ATV Fishing Offshore
-#DESCRIPTION 30ATV Fishing Offshore
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/golf.m3u8:30ATV Golf Kingdom
-#DESCRIPTION 30ATV Golf Kingdom
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/tottenham.m3u8:30ATV We Are Tottenham TV
-#DESCRIPTION 30ATV We Are Tottenham TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB17&ads.content_genre=sports&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=0&ads.rtv_channel_name=fifa-plus-eu-new_nl&ads.rtv_content_id=7393&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=db56efb2-c5ae-449b-9b8e-b84564229d17&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tiv:FIFA+
-#DESCRIPTION FIFA+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883136:Fifth Gear
-#DESCRIPTION Fifth Gear
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8?ads_amagi_channel_id=847&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1,IAB17&ads_content_genre=action,sports&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=firefox&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=84.17.47.16&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=09bef241-987c-45b2-b024-acc61a336afa&ads_prodq=1&ads_rating=6&ads_rtv_channel_name=fuel-tv-new_nl&ads_rtv_content_id=4808&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=03bee74b-52c2-4317-950e-8959d383fa1d&ads_tivo_devco:FUEL TV
-#DESCRIPTION FUEL TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB17&ads.content_genre=sports&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=12&ads.rtv_channel_name=glory-kickboxing_nl&ads.rtv_content_id=6697&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=fdc87ff4-a3ab-4001-abbd-9d0fc0dd0d3e&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.ti:GLORY Kickboxing
-#DESCRIPTION GLORY Kickboxing
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00861-amg00861c6-stirr-us-8229.playouts.now.amagi.tv/playlist.m3u8:InTrouble
-#DESCRIPTION InTrouble
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg27604-amg27604c1-amgplt0165.playout.now3.amagi.tv/playlist/amg27604-amg27604c1-amgplt0165/playlist.m3u8?ads_amagi_channel_id=1044&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB17&ads_content_genre=sports&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=firefox&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=84.17.47.16&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=09bef241-987c-45b2-b024-acc61a336afa&ads_prodq=1&ads_rating=0&ads_rtv_channel_name=inter-24-7-eng_nl&ads_rtv_content_id=7078&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=4462960b-a3fa-4a79-9959-898dd36e5fbd&ads_tivo_devcountry=&ads_:INTER 24/7 (Inter Milan)
-#DESCRIPTION INTER 24/7 (Inter Milan)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//f88ba9c3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01hbkNpdHkyNDdfSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB17&ads.content_genre=sports&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=man-city-24-7_nl&ads.rtv_content_id=8010&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=d38ab780-8770-4c10-b3f4-3ae89298ca2d&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ad:Man City 24/7
-#DESCRIPTION Man City 24/7
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//4b9627c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vbnN0ZXJKYW1fSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB17,IAB1&ads.content_genre=sports,entertainment&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=0&ads.rtv_channel_name=monster-jam_nl&ads.rtv_content_id=6363&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=494868b1-d6c6-4e9e-9cb4-f61f38c48017&ads.tivo_devcountry=&ads.tivo_devmakedate=&:Monster Jam
-#DESCRIPTION Monster Jam
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d6a3f626.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JhbGx5VFZGQVNUUGx1c19ITFM/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB17&ads.content_genre=sports&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=rally-tv-fast_nl&ads.rtv_content_id=7550&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=1d4ceeea-7e54-47e8-9e75-46e71342c4a4&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_m:Rally.TV FAST+
-#DESCRIPTION Rally.TV FAST+
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_app_bundle=&ads._fw_app_store_url=rakuten.tv&ads._fw_content_category=IAB17&ads._fw_content_genre=sports&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=firefox&ads._fw_device_model=GENERIC&ads._fw_devicetype=3-connected_tv&ads._fw_gdpr=1&ads._fw_gdpr_consent=&ads._fw_is_lat=0&ads._ifa_type=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.appName=RakutenTV&ads.app_version=&ads.brand_name=&ads.caid=AnthemSportsIMPACTWrestling&ads.content_livestream=0&ads.csid=zeus_eu_anthemsportsimpactwrestling_ssai&ads.extra_eids=&ads.gam_correlator=&ads.google_ad_manager_nonce=&ads.inv_partner_domain=rakuten.tv&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.prodq=1&ads.rakuten_content_type=live_channels&ads.rakuten_device_type=web&ads.rakuten_device_year=1970&ads.rakuten_env=prod&ads.rakuten_market=nl&ads.rakuten_pod_type=playerpage_midroll&ads.raku:TNA Wrestling Channel
-#DESCRIPTION TNA Wrestling Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8?ads_amagi_channel_id=940&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB17&ads_content_genre=sports&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=firefox&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=84.17.47.16&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=09bef241-987c-45b2-b024-acc61a336afa&ads_prodq=1&ads_rating=0&ads_rtv_channel_name=top-barca-eng_nl&ads_rtv_content_id=6355&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=e7b5f585-2835-4ada-aae0-6a443cc20688&ad:TOP BARÇA
-#DESCRIPTION TOP BARÇA
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB17&ads.content_genre=sports&ads.content_livestream=0&ads.device_lmt=0&ads.device_make=firefox&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=84.17.47.16&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=09bef241-987c-45b2-b024-acc61a336afa&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=billiards-tv_nl&ads.rtv_content_id=3695&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=17c934a2-4897-48cb-b563-1c967ea95015&ads.tivo_devcountry:World Billiards TV
-#DESCRIPTION World Billiards TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/playlist.m3u8?ads._fw_app_bundle=&ads._fw_app_store_url=rakuten.tv&ads._fw_content_category=IAB17&ads._fw_content_genre=sports&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=firefox&ads._fw_device_model=GENERIC&ads._fw_devicetype=3-connected_tv&ads._fw_gdpr=1&ads._fw_gdpr_consent=&ads._fw_is_lat=0&ads._ifa_type=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.appName=RakutenTV&ads.app_version=&ads.brand_name=&ads.caid=WorldPokerTour&ads.content_livestream=0&ads.csid=zeus_eu_worldpokertour_ssai&ads.extra_eids=&ads.gam_correlator=&ads.google_ad_manager_nonce=&ads.inv_partner_domain=rakuten.tv&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.prodq=1&ads.rakuten_content_type=live_channels&ads.rakuten_device_type=web&ads.rakuten_device_year=1970&ads.rakuten_env=prod&ads.rakuten_market=nl&ads.rakuten_pod_type=playerpage_midroll&ads.rakuten_rtv_content_id=853&a:WPT (World Poker Tour)
-#DESCRIPTION WPT (World Poker Tour)
-#SERVICE 1:64:198:0:0:0:0:0:0:0:
-#DESCRIPTION ++YouTube - overige landen -  Mauritanië++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/gqbszVAUjbo:Elmouritania
-#DESCRIPTION Elmouritania
-#SERVICE 1:64:199:0:0:0:0:0:0:0:
-#DESCRIPTION ++YouTube - Nieuws - VAE - Engels++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCrvG04V6wbOau6fVJI01OlQ&autoplay=1:DRM News
-#DESCRIPTION DRM News
-#SERVICE 1:64:19a:0:0:0:0:0:0:0:
-#DESCRIPTION ++YouTube - Humor++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/suqB8sV5ErY:Viva La Dirt League 24/7
-#DESCRIPTION Viva La Dirt League 24/7
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/cRNZhOByDJw:Viva La Dirt League 24/7 - Comedy Skits
-#DESCRIPTION Viva La Dirt League 24/7 - Comedy Skits
-#SERVICE 1:64:19b:0:0:0:0:0:0:0:
-#DESCRIPTION ++YouTube - Natuur + Cultuur++
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UC0juKWIFfobGKvtRv-l50Ng&autoplay=1:Historical Photos - Warning%3a These Images Change Everything We Know!
-#DESCRIPTION Historical Photos - Warning: These Images Change Everything We Know!
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/UNQG7oGaOBc:Historical Photos - Warning%3a These Images Change Everything We Know!
-#DESCRIPTION Historical Photos - Warning: These Images Change Everything We Know!
-#SERVICE 1:64:19c:0:0:0:0:0:0:0:
-#DESCRIPTION ++Samsung Duitsland++
+#SERVICE 1:0:1:80c:449:1:c00000:0:0:0:
+#SERVICE 1:64:17c:0:0:0:0:0:0:0:
+#DESCRIPTION ++Religie++
+#SERVICE 1:0:1:18f7:3f4:1:c00000:0:0:0:
+#SERVICE 1:64:17d:0:0:0:0:0:0:0:
+#DESCRIPTION ++Frankrijk, fta++
+#SERVICE 1:0:1:2f6c:454:1:c00000:0:0:0:
+#SERVICE 1:0:1:2f6d:454:1:c00000:0:0:0:
+#SERVICE 1:64:17e:0:0:0:0:0:0:0:
+#DESCRIPTION ++Oost-Europa, Canal+ voor Slowakije en Tsjechië++
+#SERVICE 1:0:19:334c:c93:3:eb0000:0:0:0:
+#SERVICE 1:0:19:1f53:ca1:3:eb0000:0:0:0:
+#SERVICE 1:0:19:52b3:c99:3:eb0000:0:0:0:
+#SERVICE 1:0:19:3cfa:c95:3:eb0000:0:0:0:
+#SERVICE 1:64:17f:0:0:0:0:0:0:0:
+#DESCRIPTION +++VIDEO/TV-STREAMS+++
+#SERVICE 1:64:180:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL regionaal en lokaal++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn15.streampartner.nl/meervandaag/meervandaag/chunklist_w1759091008_tkdG9rZW5fZW5kdGltZT0xNzkyNjY4NzU0JnRva2VuX3N0YXJ0dGltZT0wJnRva2VuX2hhc2g9M280TUJuZUJmbHM4OFEtNnNXZzVDb3NsVmVabmdESkx3YzBnZlJvRHY3RT0=.m3u8:ZVL (Zuid-Limburg Vandaag)
+#DESCRIPTION ZVL (Zuid-Limburg Vandaag)
+#SERVICE 1:64:181:0:0:0:0:0:0:0:
+#DESCRIPTION ++Duitsland++
 #SERVICE 4097:0:1:e34:4761:ec:0:0:0:0:https%3a//jmp2.uk/stvp-DEAK0500445A:GoldStar TV
 #DESCRIPTION GoldStar TV
-#SERVICE 1:64:19d:0:0:0:0:0:0:0:
-#DESCRIPTION ++Afrika algemeen++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//africanews-eng-uk.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6576-restreaming/bitok/eyJzdGlkIjoiNjdkNzUyNzQtNzI0Ni00MjI2LWI4MDUtZWQ0YTgzZTAwOGU4IiwibWt0IjoidWsiLCJjaCI6NjU3NiwicHRmIjo1fQ%253D%253D/live/eds/africanews-en/26036/africanews-en.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=1&ads.content_url=rakuten.tv&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_year=1970&ads.did=e3dd2658-e93a-4cee-9d4b-27200826a904&ads.env=prod&ads.extra_eids=&ads.gam_correlator=283910008697892&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=ppid&ads.inv_partner_domain=rakuten.tv&ads.ip=185.164.139.44&ads.market=uk&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=e3dd2658-e93a-4cee:Africanews
-#DESCRIPTION Africanews
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg02784-amg02784c1-rakuten-gb-8121.playouts.now.amagi.tv/playlist/amg02784-nollyafricafast-nollyafricahd-rakutengb/playlist.m3u8?ads_amagi_channel_id=1040&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=7&ads_rtv_content_id=6875&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=af475615-fece-4f4b-a1b8-0a0a9168ec:Nolly Africa
-#DESCRIPTION Nolly Africa
-#SERVICE 1:64:19e:0:0:0:0:0:0:0:
-#DESCRIPTION ++Frankrijk++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/publicsenat/publicsenat-dm.m3u8:Public Sénat
-#DESCRIPTION Public Sénat
-#SERVICE 1:64:19f:0:0:0:0:0:0:0:
-#DESCRIPTION ++Italië++ en zeer veel meer!
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8:Romantica TV
-#DESCRIPTION Romantica TV
-#SERVICE 1:64:1a0:0:0:0:0:0:0:0:
-#DESCRIPTION ++Mauretanië++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live.saharamedias.net%3a3317/live/shara24live.m3u8:Sahara 24
-#DESCRIPTION Sahara 24
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/gqbszVAUjbo:Elmouritania
-#DESCRIPTION Elmouritania
-#SERVICE 1:64:1a1:0:0:0:0:0:0:0:
-#DESCRIPTION ++Oostenrijk++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rbmn-live.akamaized.net/hls/live/665268/Wetterpanorama/master.m3u8:Servus TV - Wetterpanorama
-#DESCRIPTION Servus TV - Wetterpanorama
-#SERVICE 1:64:1a2:0:0:0:0:0:0:0:
-#DESCRIPTION ++USA++30ATV++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/30atv.m3u8:30ATV Live
-#DESCRIPTION 30ATV Live
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/vidaa/aicreatortv.m3u8 :30ATV Aicreator tv 
-#DESCRIPTION 30ATV Aicreator tv 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/answers.m3u8:30ATV Answers That Count 
-#DESCRIPTION 30ATV Answers That Count 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/cars.m3u8:30ATV Cars
-#DESCRIPTION 30ATV Cars
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/fishingoffshore.m3u8:30ATV Fishing Offshore
-#DESCRIPTION 30ATV Fishing Offshore
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/visitflorida.m3u8:30ATV Florida TV Channel
-#DESCRIPTION 30ATV Florida TV Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/georgiahollywood.m3u8:30ATV Georgia Hollywood Review TV 
-#DESCRIPTION 30ATV Georgia Hollywood Review TV 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/lionelmedia.m3u8:30ATV Lionel Nation
-#DESCRIPTION 30ATV Lionel Nation
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/luxelife.m3u8:30ATV Luxe Life Discovered
-#DESCRIPTION 30ATV Luxe Life Discovered
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/nautistyles.m3u8:30ATV Luxury Mega Yachts
-#DESCRIPTION 30ATV Luxury Mega Yachts
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/30atvmovies.m3u8:30ATV Movies
-#DESCRIPTION 30ATV Movies
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/30atvmovies2.m3u8:30ATV Movies Ch 2
-#DESCRIPTION 30ATV Movies Ch 2
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/30atvmusic.m3u8:30ATV Music Video Channel  
-#DESCRIPTION 30ATV Music Video Channel  
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/nothingscripted.m3u8:30ATV Nothing Scripted Floridaman Comedy News TV 
-#DESCRIPTION 30ATV Nothing Scripted Floridaman Comedy News TV 
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/golf.m3u8:30ATV Golf Kingdom
-#DESCRIPTION 30ATV Golf Kingdom
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/paltrowitz.m3u8:30ATV PaltroCast Podcast
-#DESCRIPTION 30ATV PaltroCast Podcast
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/vidaa/funnyvideos.m3u8:30ATV Ridiculous X TV
-#DESCRIPTION 30ATV Ridiculous X TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/vidaa/scifi.m3u8 :30ATV Sci Fi Channel
-#DESCRIPTION 30ATV Sci Fi Channel
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/sidewalks.m3u8:30ATV SideWalks TV
-#DESCRIPTION 30ATV SideWalks TV
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/beachshow.m3u8:30ATV The Beach Show
-#DESCRIPTION 30ATV The Beach Show
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/vidaa/firsttimers.m3u8:30ATV The First Timers
-#DESCRIPTION 30ATV The First Timers
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/tottenham.m3u8:30ATV We Are Tottenham TV
-#DESCRIPTION 30ATV We Are Tottenham TV
-#SERVICE 1:64:1a3:0:0:0:0:0:0:0:
-#DESCRIPTION ++VAE (Verenigde Arabische Emiraten)==
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//185.9.2.18/chid_375/index.m3u8:MBC 2
-#DESCRIPTION MBC 2
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//185.9.2.18/chid_378/index.m3u8:MBC Action
-#DESCRIPTION MBC Action
-#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//185.9.2.18/chid_379/index.m3u8:MBC Max
-#DESCRIPTION MBC Max
-#SERVICE 1:64:1a4:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00771-amg00771c5-rakuten-gb-9713.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00771-kochfilmsfast-metalrocks-rakutengb/playlist.m3u8?ads_amagi_channel_id=1063&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=12&ads_rtv_channel_name=metal-rocks_nl&ads_rtv_content_id=7201&ads_rtv_content_language=&ads_rtvid=271863&ads_streaming_id=ea79ba8d-680f-4837-a346-895c419b6dbe&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_m:Metal.Rocks
+#DESCRIPTION Metal.Rocks
+#SERVICE 1:64:182:0:0:0:0:0:0:0:
+#DESCRIPTION ++Twitch++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/rijinstructeurjeroen:Rijinstructeur Jeroen
+#DESCRIPTION Rijinstructeur Jeroen
+#SERVICE 5002:0:1:0:c0f:fee:cccc0000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCU22mB0Ll2UoiA1nmYicbnw&autoplay=1:Sjtadsomroop Remunj  (Roermond)
+#DESCRIPTION Sjtadsomroop Remunj  (Roermond)
+#SERVICE 5002:0:1:0:c0f:fee:cccc0000:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/vFeWd6dKMU4:Sjtadsomroop Remunj  (Roermond) (#)
+#DESCRIPTION Sjtadsomroop Remunj  (Roermond) (#)
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.twitch.tv/zuidlimburgvandaag:Zuid-Limburg Vandaag
+#DESCRIPTION Zuid-Limburg Vandaag
+#SERVICE 1:64:183:0:0:0:0:0:0:0:
+#DESCRIPTION ++YouTube - muziek: 137 er bij, zoals:++
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=IfCioOt0Ctc:ABBA Station
+#DESCRIPTION ABBA Station
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=YfY8yIYILoc:Celine Dion%3a The Station
+#DESCRIPTION Celine Dion: The Station
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=9jThwW3vWjo:Elvis Presley%3a The Station
+#DESCRIPTION Elvis Presley: The Station
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=FrhnrNXtQKg:The Rolling Stones | The Station
+#DESCRIPTION The Rolling Stones | The Station
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=aKJgydJ76tg:Celtic Thunder Christmas
+#DESCRIPTION Celtic Thunder Christmas
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=Zjp2WhqCcbc:Christmas Music All Day 24/7 LIVE Christmas Music Station
+#DESCRIPTION Christmas Music All Day 24/7 LIVE Christmas Music Station
+#SERVICE 5002:0:0:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=qmOZ7JbKeR4:Classic Christmas Songs 24/7 Holiday Music
+#DESCRIPTION Classic Christmas Songs 24/7 Holiday Music
+#SERVICE 1:64:184:0:0:0:0:0:0:0:
+#DESCRIPTION ++YouTube, Nieuws++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/watch?v=_kBTv2etAFo:Spreekbuis TV
+#DESCRIPTION Spreekbuis TV
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//www.youtube.com/embed/live_stream?channel=UCvADKEcXt_KhGFJ_9q6u56Q&autoplay=1:Spreekbuis TV (#)
+#DESCRIPTION Spreekbuis TV (#)
+#SERVICE 1:64:185:0:0:0:0:0:0:0:
+#DESCRIPTION ++Sierra Leone++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-cloudfront.eu-central-1.prod.ingest.aws-infra.dacast.com/live/ef01e762-2254-845e-fead-833ca55e12cd/source/index.m3u8:AYV - Channel 33
+#DESCRIPTION AYV - Channel 33
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-cloudfront.eu-central-1.prod.ingest.aws-infra.dacast.com/live/db4d6fbe-4374-6596-a1c6-bda9a635243f/source/index.m3u8:AYV - Channel 34
+#DESCRIPTION AYV - Channel 34
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cdn-cloudfront.eu-central-1.prod.ingest.aws-infra.dacast.com/live/80f971c6-d535-44eb-951d-24a51ec3b865/source/index.m3u8:AYV - Radio
+#DESCRIPTION AYV - Radio
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-cloudfront.eu-central-1.prod.ingest.aws-infra.dacast.com/live/bff8bd53-ee89-2c76-6a51-95a0003f7d96/master.m3u8:Mercy TV
+#DESCRIPTION Mercy TV
+#SERVICE 1:64:186:0:0:0:0:0:0:0:
+#DESCRIPTION ++YouTube - overige landen, Zuid-Afrika++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/hJP1XBjl0wg:Family Feud South Africa
+#DESCRIPTION Family Feud South Africa
+#SERVICE 1:64:187:0:0:0:0:0:0:0:
+#DESCRIPTION ++YouTube - Nieuws, algemeen++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/lqf2M2lGooI:FootballcomTV
+#DESCRIPTION FootballcomTV
+#SERVICE 1:64:188:0:0:0:0:0:0:0:
+#DESCRIPTION ++YT, nieuws, marker Frankrijk++
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/FY4NWvJZhVc:Le Figaro TV
+#DESCRIPTION Le Figaro TV
+#SERVICE 1:64:189:0:0:0:0:0:0:0:
+#DESCRIPTION ++YouTube natuur, marker noorderlicht++ 
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/AvKdtZIb-6c:Aurora Alert Realtime
+#DESCRIPTION Aurora Alert Realtime
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/I3sa2kiEpkA:Aurora - live from ISS
+#DESCRIPTION Aurora - live from ISS
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream41.radiohost.de/ffn-diesdasfm_mp3-192:diesdas FM
+#DESCRIPTION diesdas FM
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/O52zDyxg5QI:Fairbanks, Alaska
+#DESCRIPTION Fairbanks, Alaska
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/vsJBqHwnK9w:Kalajoki, Finland
+#DESCRIPTION Kalajoki, Finland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/ccTVAhJU5lg:Kilpisjärvi, Finland
+#DESCRIPTION Kilpisjärvi, Finland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/rKfecmmzzw0:Levi, Finland
+#DESCRIPTION Levi, Finland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/dnlQtDad6Dk:Sodankylä, Finland
+#DESCRIPTION Sodankylä, Finland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/taeIAd5BgAI:Hólar, Iceland
+#DESCRIPTION Hólar, Iceland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/wT8Zhh9MBEE:Apukka Resort Live Cam Rovaniemi, Lapland
+#DESCRIPTION Apukka Resort Live Cam Rovaniemi, Lapland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/HuCjMGI8fKg:Poslo, Lapland
+#DESCRIPTION Poslo, Lapland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/dyRSvHGGvA8:Pyhä-Luosto, Lapland
+#DESCRIPTION Pyhä-Luosto, Lapland
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a8088/https%3a//youtu.be/MYeOK93smBw:Cresswell, UK
+#DESCRIPTION Cresswell, UK
+#SERVICE 1:64:18a:0:0:0:0:0:0:0:
+#DESCRIPTION ++Stream Frankrijk++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//static.lefigaro.fr/secom/tnt.m3u8:Le Figaro TV
+#DESCRIPTION Le Figaro TV
+#SERVICE 1:64:18b:0:0:0:0:0:0:0:
+#DESCRIPTION ++Zuid-Afrika++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//livestream2.bokradio.co.za/hls/Bok5c.m3u8:BOKTV
+#DESCRIPTION BOKTV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn.freevisiontv.co.za/sttv/smil%3actv.stream.smil/playlist.m3u8:Cape Town TV
+#DESCRIPTION Cape Town TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//viewmedia7219.bozztv.com/wmedia/viewmedia100/web_002/Stream/playlist.m3u8:NuView TV
+#DESCRIPTION NuView TV
+#SERVICE 1:64:18c:0:0:0:0:0:0:0:
 #DESCRIPTION +++AUDIO/RADIO-STREAMS+++
-#SERVICE 1:64:1a5:0:0:0:0:0:0:0:
+#SERVICE 1:64:18d:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL nationaal++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22713.live.streamtheworld.com/SERVICE07.mp3:Jolene Country Radio
-#DESCRIPTION Jolene Country Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-streaming.qmusic.nl/Qmusic_nl_10s_high.aac:Qmusic 10s
-#DESCRIPTION Qmusic 10s
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-streaming.qmusic.nl/Qmusic_nl_easy_high.aac:Qmusic Easy
-#DESCRIPTION Qmusic Easy
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audio-streaming.qmusic.nl/Qmusic_nl_energy_high.aac:Qmusic Energy
-#DESCRIPTION Qmusic Energy
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SILVERADOCOUNTRYAAC.m3u8:Silverado
-#DESCRIPTION Silverado
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22343.live.streamtheworld.com/SRGSTR08.mp3:Sky Radio - Christmas
-#DESCRIPTION Sky Radio - Christmas
-#SERVICE 1:64:1a6:0:0:0:0:0:0:0:
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.peppermindmedia.com/amigoradio/hls/160k/hls.m3u8:Amigo Radio
+#DESCRIPTION Amigo Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.d-tales.nl/listen/dtalesradio/radio.aac:D-Tales Radio
+#DESCRIPTION D-Tales Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.league-fm.nl/:League-FM
+#DESCRIPTION League-FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.radionl.fm/rnltalk:RADIONL Talk
+#DESCRIPTION RADIONL Talk
+#SERVICE 1:64:18e:0:0:0:0:0:0:0:
 #DESCRIPTION ++NL regionaal en lokaal++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//caster.hosting078.nl%3a1535/stream:Omroep STROOM, editie Albrandswaard
-#DESCRIPTION Omroep STROOM, editie Albrandswaard
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.omroepstroom.nl/omroep:Omroep STROOM, editie Barendrecht
-#DESCRIPTION Omroep STROOM, editie Barendrecht
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.bumblestreaming.nl/8012/stream:Radio Noord Limburg
-#DESCRIPTION Radio Noord Limburg
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.bumblestreaming.nl/8016/stream:POP4ALL (van Radio Noord Limburg)
-#DESCRIPTION POP4ALL (van Radio Noord Limburg)
-#SERVICE 1:64:1a7:0:0:0:0:0:0:0:
-#DESCRIPTION ++België, lokaal, Vlaanderen++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//server6.radio-streams.net/proxy/vglwparl/stream:Erfgoedradio Sanapolis
-#DESCRIPTION Erfgoedradio Sanapolis
-#SERVICE 4097:0:0:0:0:0:0:0:0:0:https%3a//goldiesradio.radioca.st/stream:Goldies Radio (Sint-Niklaas, Stekene)
-#DESCRIPTION Goldies Radio (Sint-Niklaas, Stekene)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.radio.co/s6ec258c7d/listen:Radio Middelkerke
-#DESCRIPTION Radio Middelkerke
-#SERVICE 1:64:1a8:0:0:0:0:0:0:0:
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.omroepmaasduinen.nl/listen/omroepmaasduinen/radio.mp3:Omroep Maasduinen (Gennep)
+#DESCRIPTION Omroep Maasduinen (Gennep)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//server-51.stream-server.nl%3a18613/stream:SOR (Sjtadsomroop Remunj, Roermond)
+#DESCRIPTION SOR (Sjtadsomroop Remunj, Roermond)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//audiostream.easy-point.nl/proxy/heuvelland/stream:ZLV (Zuid-Limburg Vandaag)
+#DESCRIPTION ZLV (Zuid-Limburg Vandaag)
+#SERVICE 1:64:18f:0:0:0:0:0:0:0:
+#DESCRIPTION ++NL Piratenmuziek++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-hostingenwebsite.nl/8060/stream:Varende Schipper Radio
+#DESCRIPTION Varende Schipper Radio
+#SERVICE 1:64:190:0:0:0:0:0:0:0:
+#DESCRIPTION ++België nationaal - Vlaanderen++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streams.peppermindmedia.com/amigoradio/hls/160k/hls.m3u8:Amigo Radio
+#DESCRIPTION Amigo Radio
+#SERVICE 1:64:191:0:0:0:0:0:0:0:
+#DESCRIPTION ++België, regionaal, Vlaanderen++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.radioking.com/radio/840856/stream/910381:iDance Radio
+#DESCRIPTION iDance Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen.league-fm.nl/:League-FM
+#DESCRIPTION League-FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//carnaval.radiovictoria.be/:Radio Victoria - Victoria Carnaval Continu (tot maart 2027)
+#DESCRIPTION Radio Victoria - Victoria Carnaval Continu (tot maart 2027)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//yoloradio-bruno.level27.eu/outside:Stadsradio Lommel
+#DESCRIPTION Stadsradio Lommel
+#SERVICE 1:64:192:0:0:0:0:0:0:0:
 #DESCRIPTION ++Duitsland++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiobremen.de/rb/webchannel5/mp3/128/stream.mp3:RB - Bremen Eins Spezial
-#DESCRIPTION RB - Bremen Eins Spezial
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//icecast.radiobremen.de/rb/bremennext/live/mp3/128/stream.mp3:RB - Bremen NEXT
-#DESCRIPTION RB - Bremen NEXT
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiobremen.de/rb/webchannel2/mp3/128/stream.mp3:RB - Bremen Vier Spezial
-#DESCRIPTION RB - Bremen Vier Spezial
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiobremen.de/rb/webchannel3/mp3/128/stream.mp3:RB - Bremen Vier Tantz
-#DESCRIPTION RB - Bremen Vier Tantz
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiobremen.de/rb/webchannel8/mp3/128/stream.mp3:RB - Bremen Vier Zebra Vier
-#DESCRIPTION RB - Bremen Vier Zebra Vier
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiobremen.de/rb/webchannel4/mp3/128/stream.mp3:RB - Bremen Zei Herzstücke
-#DESCRIPTION RB - Bremen Zei Herzstücke
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//solid1.streamupsolutions.com/proxy/qvggnshe/stream:SUTON Radio
-#DESCRIPTION SUTON Radio
-#SERVICE 1:64:1a9:0:0:0:0:0:0:0:
-#DESCRIPTION ++UK algemeen++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//listen-gbnews.sharp-stream.com/gbnews.mp3:GB News
-#DESCRIPTION GB News
-#SERVICE 1:64:1aa:0:0:0:0:0:0:0:
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80ssynthiepop-mp3-192-6219643:80s80s Synthiepop
+#DESCRIPTION 80s80s Synthiepop
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream23.radiohost.de/ffn-auszeit_fm_mp3-192:Aus Zeit FM
+#DESCRIPTION Aus Zeit FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream47.radiohost.de/ffn-607080radio_mp3-192:FFN - 60/70/80
+#DESCRIPTION FFN - 60/70/80
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream22.radiohost.de/ffn-708090_mp3-192:FFN - 70/80/90
+#DESCRIPTION FFN - 70/80/90
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream47.radiohost.de/ffn-80902000_mp3-192:FFN - 80/90/2000
+#DESCRIPTION FFN - 80/90/2000
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream38.radiohost.de/ffn-80er_mp3-192:FFN - 80er
+#DESCRIPTION FFN - 80er
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.ffn.de/neunziger/mp3-192/;stream.nsv?ref=radioplayer:FFN - 90er
+#DESCRIPTION FFN - 90er
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream19.radiohost.de/ffn-ffn-2000er_mp3-192:FFN - 2000er
+#DESCRIPTION FFN - 2000er
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream03.radiohost.de/ffn-dance_only_mp3-192:FFN - Dance Only
+#DESCRIPTION FFN - Dance Only
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream22.radiohost.de/ffn-das_gelbe_vom_ei_mp3-192:FFN - Das Gelbe vom Ei
+#DESCRIPTION FFN - Das Gelbe vom Ei
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream21.radiohost.de/ffn-comedy_mp3-192:FFN - Frühstyx Radio
+#DESCRIPTION FFN - Frühstyx Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream06.radiohost.de/ffn-radio_rotkaeppchen_mp3-192:Radio Rotkäppchen
+#DESCRIPTION Radio Rotkäppchen
+#SERVICE 1:64:193:0:0:0:0:0:0:0:
+#DESCRIPTION ++UK - algemeen++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//media-ssl.musicradio.com/ClassicFMCalm:Classic FM - Calm
+#DESCRIPTION Classic FM - Calm
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//media-ssl.musicradio.com/ClassicFMXmas:Classic FM - Christmas Classics
+#DESCRIPTION Classic FM - Christmas Classics
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//media-sov.musicradio.com/ClassicFM-M-Movies:Classic FM - Movies
+#DESCRIPTION Classic FM - Movies
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//media-the.musicradio.com/ClassicFM-M-Relax:Classic FM - Relax
+#DESCRIPTION Classic FM - Relax
+#SERVICE 1:64:194:0:0:0:0:0:0:0:
 #DESCRIPTION ++UK - Engeland++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hrb.radioca.st/hrb:Bedfordshire Health Radio
-#DESCRIPTION Bedfordshire Health Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mediacp.nkpa.co.uk/stream/brfm:BRFM (Sittingbourne & the Medway Towns)
-#DESCRIPTION BRFM (Sittingbourne & the Medway Towns)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s28.myradiostream.com%3a30199/listen.mp3:Colne Radio (Colchester)
-#DESCRIPTION Colne Radio (Colchester)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n11-eu.rcs.revma.com/dnxt9hasz42vv:Mansfield Radio
-#DESCRIPTION Mansfield Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//media.radiodgh.com%3a8443/stream:Radio DGH Hospital Radio Eastbourne
-#DESCRIPTION Radio DGH Hospital Radio Eastbourne
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radio.canstream.co.uk%3a8039/live.mp3:Radio Wyvern
-#DESCRIPTION Radio Wyvern
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-15.aiir.com/4nrmrub7cznvv:Radio Wyvern Gold
-#DESCRIPTION Radio Wyvern Gold
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream1.hippynet.co.uk%3a8117/live.mp3:Spark (Sunderland)
-#DESCRIPTION Spark (Sunderland)
-#SERVICE 1:64:1ab:0:0:0:0:0:0:0:
-#DESCRIPTION ++UK Wales++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//uksoutha.streaming.broadcast.radio/beat-north-wales:BEAT North Wales
-#DESCRIPTION BEAT North Wales
-#SERVICE 1:64:1ac:0:0:0:0:0:0:0:
-#DESCRIPTION ++Antigua en Barbuda++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//14223.live.streamtheworld.com/SP_R3743588.aac:Pointe FM
-#DESCRIPTION Pointe FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//14223.live.streamtheworld.com/SAM01AAC568.mp3:Platinum FM
-#DESCRIPTION Platinum FM
-#SERVICE 1:64:1ad:0:0:0:0:0:0:0:
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.voscast.com%3a9097/stream?_=511527:Black Cat Radio (St Neots, Huntingdonshire + Bedford)
+#DESCRIPTION Black Cat Radio (St Neots, Huntingdonshire + Bedford)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.touristradio.co.uk/hampshire:Hampshire Tourist Radio
+#DESCRIPTION Hampshire Tourist Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.soniic.co.uk%3a8030/stream_hi:Horizon Radio (Bedford)
+#DESCRIPTION Horizon Radio (Bedford)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.soniic.co.uk%3a8020/stream_hi:Horizon Radio (Milton Keynes)
+#DESCRIPTION Horizon Radio (Milton Keynes)
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.soniic.co.uk%3a8010/stream_hi:Horizon Radio (Northampton)
+#DESCRIPTION Horizon Radio (Northampton)
+#SERVICE 1:64:195:0:0:0:0:0:0:0:
+#DESCRIPTION ++Country, vele aanpassingen, zoals:++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n07-eu2.rcs.revma.com/h7rwanvb938uv:Country Radio
+#DESCRIPTION Country Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ais-sa8.cdnstream1.com/10296_96.aac:Legends of Country Radio
+#DESCRIPTION Legends of Country Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ais-sa8.cdnstream1.com/3668_96.aac:Opry 100 Radio
+#DESCRIPTION Opry 100 Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ais-sa8.cdnstream1.com/3667_96.aac:Route 650
+#DESCRIPTION Route 650
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ais-sa8.cdnstream1.com/3666_96.aac:WSM Radio
+#DESCRIPTION WSM Radio
+#SERVICE 1:64:196:0:0:0:0:0:0:0:
+#DESCRIPTION ++Kerstmuziek++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//media-ssl.musicradio.com/ClassicFMXmas:Classic FM - Christmas Classics
+#DESCRIPTION Classic FM - Christmas Classics
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.radio.co/s062090cf4/listen:The Sound of Monaco Christmas Radio
+#DESCRIPTION The Sound of Monaco Christmas Radio
+#SERVICE 1:64:197:0:0:0:0:0:0:0:
+#DESCRIPTION ++Botswana++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-280.surfernetwork.com/16ve08sfy4zuv:Duma FM
+#DESCRIPTION Duma FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//iceant.antfarm.co.za/yarona:Yarona FM
+#DESCRIPTION Yarona FM
+#SERVICE 1:64:198:0:0:0:0:0:0:0:
 #DESCRIPTION ++Frankrijk++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ouuku85n3nje:Chérie FM
-#DESCRIPTION Chérie FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//europe1.lmn.fm/europe1.mp3:Europe 1
-#DESCRIPTION Europe 1
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//europe2.lmn.fm/europe2.mp3:Europe 2
-#DESCRIPTION Europe 2
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiofrance.fr/franceinter-midfi.mp3:France Inter
-#DESCRIPTION France Inter
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming-ice.audiomeans.fr/rtl/feed-funradio-mp3-128:Fun Radio
-#DESCRIPTION Fun Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradiokto.akamaized.net/hls/live/20000054/ktoradio/02.m3u8:KTO
-#DESCRIPTION KTO
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiofrance.fr/mouv-midfi.mp3:Mouv`
-#DESCRIPTION Mouv`
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/oug7girb92oc:Nostalgie
-#DESCRIPTION Nostalgie
-#SERVICE 1:64:1ae:0:0:0:0:0:0:0:
-#DESCRIPTION ++Griekenland++ onder andere:
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-deftero:ERT - 2e
-#DESCRIPTION ERT - 2e
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-trito:ERT - 3e
-#DESCRIPTION ERT - 3e
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-958fm:ERT - 95.8 FM
-#DESCRIPTION ERT - 95.8 FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-102fm:ERT - 102 FM
-#DESCRIPTION ERT - 102 FM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-talaika:ERT - Deftero Laika
-#DESCRIPTION ERT - Deftero Laika
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-erasport:ERT - Erasport
-#DESCRIPTION ERT - Erasport
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-kosmos:ERT - Kosmos
-#DESCRIPTION ERT - Kosmos
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-webjazz:ERT - Kosmos Jazz
-#DESCRIPTION ERT - Kosmos Jazz
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-proto:ERT - News Radio
-#DESCRIPTION ERT - News Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-voiceofgreece:ERT - Voice of Greece
-#DESCRIPTION ERT - Voice of Greece
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-zeppelin:ERT - Zeppelin
-#DESCRIPTION ERT - Zeppelin
-#SERVICE 1:64:1af:0:0:0:0:0:0:0:
-#DESCRIPTION ++Israël++
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//str2.iptvhd.ru%3a8080/sport1/index.m3u8:Sport 1 (Israël)
-#DESCRIPTION Sport 1 (Israël)
-#SERVICE 1:64:1b0:0:0:0:0:0:0:0:
-#DESCRIPTION ++Italië++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streamcdnb3-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay30songs/radiodeejay30songs/play1.m3u8:Deejay 30 Songs
-#DESCRIPTION Deejay 30 Songs
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice.creacast.com/4media_str1?_=132813:Engine Radio
-#DESCRIPTION Engine Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//gr.fluidstream.eu/gr2.mp3:GR News (Milaan)
-#DESCRIPTION GR News (Milaan)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls.live2.meride.tv/hls/live/2028947/inblu2000/inblu_1_128/chunklist_ao.m3u8:inBLU 2000
-#DESCRIPTION inBLU 2000
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream6.xdevel.com/audio0s975809-425/stream/icecast.audio:Lifegate Radio FM 105.1 (Milaan)
-#DESCRIPTION Lifegate Radio FM 105.1 (Milaan)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video2.azotosolutions.com%3a2020/stream/radioparoledivita2:Parole di Vita
-#DESCRIPTION Parole di Vita
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//nr14.newradio.it/proxy/associa8/stream:Radio A (Fivizzano)
-#DESCRIPTION Radio A (Fivizzano)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s1.forstream.it%3a8040/stream:Radio Abruzzo Marche
-#DESCRIPTION Radio Abruzzo Marche
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n02-eu.rcs.revma.com/5tbxc6f39yuvv:Radio Sunbeat
-#DESCRIPTION Radio Sunbeat
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//my.streamingmedia.it%3a8120/romanticaradio:Romantica Radio
-#DESCRIPTION Romantica Radio
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream9.xdevel.com/audio0s978363-2600/stream/icecast.audio:RVS Radio 104.8 FM
-#DESCRIPTION RVS Radio 104.8 FM
-#SERVICE 1:64:1b1:0:0:0:0:0:0:0:
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.libertefm.fr/libertefm.192.mp3:Liberté FM
+#DESCRIPTION Liberté FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiofrance.fr/monpetitfranceinter-midfi.mp3:Mon petit France Inter
+#DESCRIPTION Mon petit France Inter
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ougfkxrb92oc?origine=fluxradios&aw_0_1st.station=NOSTALGIE-60-70:Nostalgie - 60 70
+#DESCRIPTION Nostalgie - 60 70
+#SERVICE 1:64:199:0:0:0:0:0:0:0:
+#DESCRIPTION ++Luxemburg++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//n12-eu.rcs.revma.com/rfwscbz9tepwv:L'essentiel 2
+#DESCRIPTION L'essentiel 2
+#SERVICE 1:64:19a:0:0:0:0:0:0:0:
 #DESCRIPTION ++Monaco++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//media-ssl.musicradio.com/RivieraRelax:Riviera Relax in English 
-#DESCRIPTION Riviera Relax in English 
-#SERVICE 1:64:1b2:0:0:0:0:0:0:0:
-#DESCRIPTION ++Noord-Korea++ (niet altijd, vaak testbeeld)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//stream.intchoson.com/kctv/index.m3u8:Korean Central Television
-#DESCRIPTION Korean Central Television
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//kctv.koryofront.org/stream/ryongnamsan/index.m3u8:Ryongnamsan Television
-#DESCRIPTION Ryongnamsan Television
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//kctv.koryofront.org/stream/sports/index.m3u8:Sports Television
-#DESCRIPTION Sports Television
-#SERVICE 1:64:1b3:0:0:0:0:0:0:0:
-#DESCRIPTION ++Slovenië++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radio.si/Koroski:Koroški Radio
-#DESCRIPTION Koroški Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radio1.si/Radio1MB:Radio 1 Maribor
-#DESCRIPTION Radio 1 Maribor
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radio.si/AktualRock?t=1788706177629:Radio Aktual Rock
-#DESCRIPTION Radio Aktual Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mp3.rtvslo.si/capo:Radio Capodistria
-#DESCRIPTION Radio Capodistria
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//89.142.196.111%3a9030/:Radio Celje
-#DESCRIPTION Radio Celje
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//212.18.63.51%3a8042/:Radio Center Ljubljana
-#DESCRIPTION Radio Center Ljubljana
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//93.103.13.156%3a8000/:Radio Ekspres
-#DESCRIPTION Radio Ekspres
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mp3.rtvslo.si/rakp:Radio Koper
-#DESCRIPTION Radio Koper
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radio.si/Krka:Radio Krka
-#DESCRIPTION Radio Krka
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//195.95.158.131%3a7010/:Radio Kum
-#DESCRIPTION Radio Kum
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//138.201.52.248%3a8030/stream:Radio Odiseja
-#DESCRIPTION Radio Odiseja
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radio.si/Ptuj:Radio Ptuj
-#DESCRIPTION Radio Ptuj
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radio.si/Salomon:Radio Salomon
-#DESCRIPTION Radio Salomon
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mp3.rtvslo.si/rsi:Radio Si
-#DESCRIPTION Radio Si
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.iradio.pro/proxy/radioslovenskegoric:Radio Slovenske Gorice
-#DESCRIPTION Radio Slovenske Gorice
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radio.si/VeseljakMladiSmo?t=1788705990166:Radio Veseljak Mladi smo
-#DESCRIPTION Radio Veseljak Mladi smo
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//kruljo.radiostudent.si%3a8000/hiq:Radio Študent
-#DESCRIPTION Radio Študent
-#SERVICE 4097:0:2:15:0:0:0:0:0:0:https%3a//streamcdnr14-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/friuliaudio1/hls/playlist_mo.m3u8:Rai Radio TRST A 
-#DESCRIPTION Rai Radio TRST A 
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mp3.rtvslo.si/ars:RTV SLO - Ars
-#DESCRIPTION RTV SLO - Ars
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//mp3.rtvslo.si/val202:Val 202
-#DESCRIPTION Val 202
-#SERVICE 1:64:1b4:0:0:0:0:0:0:0:
-#DESCRIPTION ++Country++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//22713.live.streamtheworld.com/SERVICE07.mp3:Jolene Country Radio
-#DESCRIPTION Jolene Country Radio
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//playerservices.streamtheworld.com/api/livestream-redirect/SILVERADOCOUNTRYAAC.m3u8:Silverado
-#DESCRIPTION Silverado
-#SERVICE 1:64:1b5:0:0:0:0:0:0:0:
-#DESCRIPTION ++Jazz en Soul++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-webjazz:ERT - Kosmos Jazz
-#DESCRIPTION ERT - Kosmos Jazz
-#SERVICE 1:64:1b6:0:0:0:0:0:0:0:
-#DESCRIPTION ++Klassiek++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiostreaming.ert.gr/ert-trito:ERT - 3e
-#DESCRIPTION ERT - 3e
-#SERVICE 1:64:1b7:0:0:0:0:0:0:0:
-#DESCRIPTION ++religie++
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//liveradiokto.akamaized.net/hls/live/20000054/ktoradio/02.m3u8:KTO
-#DESCRIPTION KTO
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//video2.azotosolutions.com%3a2020/stream/radioparoledivita2:Parole di Vita
-#DESCRIPTION Parole di Vita
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s4.radio.co/s5dc9ad21c/listen:The Sound of Monaco
+#DESCRIPTION The Sound of Monaco
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//s5.radio.co/s062090cf4/listen:The Sound of Monaco Christmas Radio
+#DESCRIPTION The Sound of Monaco Christmas Radio
+#SERVICE 1:64:19b:0:0:0:0:0:0:0:
+#DESCRIPTION ++Namibië++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//cast6.asurahosting.com/proxy/thenamib/fm.acc:Desert FM
+#DESCRIPTION Desert FM
+#SERVICE 1:64:19c:0:0:0:0:0:0:0:
+#DESCRIPTION ++Tsjechië++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast7.play.cz/bikersradiodoupe128.mp3:Bikers Radio Doupe
+#DESCRIPTION Bikers Radio Doupe
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rozhlas.stream/brno_high.aac:Český rozhlas Brno
+#DESCRIPTION Český rozhlas Brno
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast9.play.cz/americana-192.mp3:Radio Americana
+#DESCRIPTION Radio Americana
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.sepia.sk%3a8000/ceskyimpuls128.mp3:Rádio Český Impuls
+#DESCRIPTION Rádio Český Impuls
+#SERVICE 1:64:19d:0:0:0:0:0:0:0:
+#DESCRIPTION ++Zuid-Afrika++
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge.iono.fm/xice/296_medium.aac:Kosmos FM
+#DESCRIPTION Kosmos FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream-176.surfernetwork.com/ehzctev98nkuv:Time FM SA
+#DESCRIPTION Time FM SA
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//sv2.famcast.co.za%3a8733/stream:UCR FM
+#DESCRIPTION UCR FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.fabrik.fm/yfm/echocast/audio/low/index.m3u8:YFM
+#DESCRIPTION YFM

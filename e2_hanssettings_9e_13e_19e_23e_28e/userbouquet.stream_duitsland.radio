@@ -1,5 +1,5 @@
 #NAME Stream Duitsland (DE)
-#SERVICE 1:64:776:0:0:0:0:0:0:0:
+#SERVICE 1:64:793:0:0:0:0:0:0:0:
 #DESCRIPTION ++ARD-zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//dispatcher.rndfnk.com/br/br1/franken/mp3/mid:BR - Bayern 1 - Franken
 #DESCRIPTION BR - Bayern 1 - Franken
@@ -90,6 +90,8 @@
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//www.ndr.de/resources/metadaten/audio/m3u/ndrblue.m3u:NDR Blue
 #DESCRIPTION NDR Blue
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//d111.rndfnk.com/ard/ndr/ndrinfo/live/mp3/128/stream.mp3?cid=01K365QMHFK0ZSMC0KAMAPG5FC&sid=3I05mS5kmwuJkU0J4aqFbQnuWNy&token=v8G8ydC5HylcAnGdtbJB676-7BtykZnpwAZS9lYtj6A&tvf=F4PPYothzBhkMTExLnJuZGZuay5jb20:NDR Info
+#DESCRIPTION NDR Info
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ndr-radio.ard-mcdn.de/ndr/radio/ndrinfo/hls/192/seglist.m3u8?_HLS_skip=YES:NDR Info
 #DESCRIPTION NDR Info
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f121.rndfnk.com/ard/ndr/ndrkultur/live/mp3/128/stream.mp3?cid=01FBQ2EJ6T7QK3WENQ5KT9S2FB&sid=3I05wQjCvsWIrG9AYj8JHVszv9g&token=TYzmDj8P3LsLetddc74hOVwRckDyTCmUL-Fkv1bTseo&tvf=A_trE55hzBhmMTIxLnJuZGZuay5jb20:NDR Kultur
 #DESCRIPTION NDR Kultur
@@ -343,7 +345,7 @@
 #DESCRIPTION WDR - Cosmo Vintage
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//wdr-radio.ard-mcdn.de/wdr/radio/diemaus/hls/192/seglist.m3u8:WDR - Die Maus
 #DESCRIPTION WDR - Die Maus
-#SERVICE 1:64:777:0:0:0:0:0:0:0:
+#SERVICE 1:64:794:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige zenders++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mp3.topfm.c.nmdn.net/ps-topfm/livestream.mp3:106.4 TOP FM
 #DESCRIPTION 106.4 TOP FM
@@ -405,6 +407,8 @@
 #DESCRIPTION 80s80s Romantic Rock
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//regiocast.streamabc.net/regc-80s80ssummerhits6639316-mp3-192-4184283 :80s80s Summer Hits
 #DESCRIPTION 80s80s Summer Hits
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80ssynthiepop-mp3-192-6219643:80s80s Synthiepop
+#DESCRIPTION 80s80s Synthiepop
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667:80s80s Techno
 #DESCRIPTION 80s80s Techno
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//regiocast.streamabc.net/regc-80s80swave1065742-mp3-192-3582815 :80s80s Wave
@@ -745,10 +749,14 @@
 #DESCRIPTION AP-Radio-110-Deutschrock
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//server3.digital-webstream.de%3a8415/;stream.mp3:APCS Radio
 #DESCRIPTION APCS Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge22.radio.apolloradio.de/apollo-radio:Apollo Radio
+#DESCRIPTION Apollo Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streams.bcs-systems.de/apollo/live/sachsen/mp3/web:Apollo Radio
 #DESCRIPTION Apollo Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//streamplus4.leonex.de%3a36058:Arberwaldradio
 #DESCRIPTION Arberwaldradio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream23.radiohost.de/ffn-auszeit_fm_mp3-192:Aus Zeit FM
+#DESCRIPTION Aus Zeit FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//80.252.104.101%3a8000/axelp:Axel P
 #DESCRIPTION Axel P
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//babaganousha.net%3a8000/;:Babaganousha Radio
@@ -881,7 +889,7 @@
 #DESCRIPTION Born79
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//de-hz-fal-stream06.rautemusik.fm%3a80/breakz:BreakzFM
 #DESCRIPTION BreakzFM
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.brillux.radio/app:Brillux Radio
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge23.streams.brillux.radio/brillux-radio:Brillux Radio
 #DESCRIPTION Brillux Radio
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//burnfm.radionetz.de%3a8000/burn-fm.mp3:BurnFM
 #DESCRIPTION BurnFM
@@ -1061,6 +1069,8 @@
 #DESCRIPTION die neue welle
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.laut.fm/schlagergarage:Die Schlagergarage
 #DESCRIPTION Die Schlagergarage
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream41.radiohost.de/ffn-diesdasfm_mp3-192:diesdas FM
+#DESCRIPTION diesdas FM
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//138.201.234.214%3a9980:Dieters Schlager Radio
 #DESCRIPTION Dieters Schlager Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//144.76.84.153%3a22126/stream:Dinkelwelle 
@@ -1225,94 +1235,8 @@
 #DESCRIPTION Ella Radio - Vocal Legends
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.radio-aktiv.de/evw.mp3:Ems-Vechte-Welle (Lingen)
 #DESCRIPTION Ems-Vechte-Welle (Lingen)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33051/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b1:Energy Acoustic
-#DESCRIPTION Energy Acoustic
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-pa6-2.nrjaudio.fm/de/33001/mp3_128.mp3?origine=energy.de&cdn_path=adswizz_lbs7&adws_out_a1:Energy Berlin
-#DESCRIPTION Energy Berlin
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-pa6-2.nrjaudio.fm/de/33001/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_a1:Energy Bremen
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream46.radiohost.de/energybremen_mp3-192:Energy Bremen
 #DESCRIPTION Energy Bremen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56248/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Classic R'n'B
-#DESCRIPTION Energy Classic R'n'B
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56252/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Classic Rap US
-#DESCRIPTION Energy Classic Rap US
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56855/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Classic Rock
-#DESCRIPTION Energy Classic Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33023/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Clubbin'
-#DESCRIPTION Energy Clubbin'
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33015/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b1:Energy Dance
-#DESCRIPTION Energy Dance
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56249/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Deephouse
-#DESCRIPTION Energy Deephouse
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56369/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Deutschrap
-#DESCRIPTION Energy Deutschrap
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//edge04.streamonkey.net/energy-digital/stream/mp3:Energy Digital (Hit Music Only)
-#DESCRIPTION Energy Digital (Hit Music Only)
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56854/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Euro Hot 30
-#DESCRIPTION Energy Euro Hot 30
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33047/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Fitness
-#DESCRIPTION Energy Fitness
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56856/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Funky
-#DESCRIPTION Energy Funky
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56376/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3    :Energy Germany Top 40 
-#DESCRIPTION Energy Germany Top 40 
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-pa6-2.nrjaudio.fm/de/33009/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_a1:Energy Hamburg
-#DESCRIPTION Energy Hamburg
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56218/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Hits 2000'
-#DESCRIPTION Energy Hits 2000'
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56853/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Hits 80'
-#DESCRIPTION Energy Hits 80'
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56246/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Hits 90'
-#DESCRIPTION Energy Hits 90'
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56247/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Hits Remix
-#DESCRIPTION Energy Hits Remix
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33019/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b1:Energy Hits
-#DESCRIPTION Energy Hits
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33069/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Latino
-#DESCRIPTION Energy Latino
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33029/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b1    :Energy Lounge
-#DESCRIPTION Energy Lounge
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33049/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Love
-#DESCRIPTION Energy Love
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56370/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Made In Germany
-#DESCRIPTION Energy Made In Germany
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33027/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Mastermix
-#DESCRIPTION Energy Mastermix
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-pa6-2.nrjaudio.fm/de/33003/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_a1:Energy München
-#DESCRIPTION Energy München
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge01.streamonkey.net/energy-nrw/stream/mp3:Energy NRW
-#DESCRIPTION Energy NRW
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-pa6-2.nrjaudio.fm/de/33011/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_a1:Energy Nürnberg
-#DESCRIPTION Energy Nürnberg
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56857/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Oriental
-#DESCRIPTION Energy Oriental
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/55602/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b1:Energy Partyhits
-#DESCRIPTION Energy Partyhits
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33037/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Pop
-#DESCRIPTION Energy Pop
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33017/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy R'n'B
-#DESCRIPTION Energy R'n'B
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33041/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Rap US
-#DESCRIPTION Energy Rap US
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56251/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b1:Energy Reggae
-#DESCRIPTION Energy Reggae
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56219/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Reggaeton
-#DESCRIPTION Energy Reggaeton
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33057/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b2:Energy Relax
-#DESCRIPTION Energy Relax
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33021/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b1:Energy Rock
-#DESCRIPTION Energy Rock
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33055/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Romantic
-#DESCRIPTION Energy Romantic
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-pa6-2.nrjaudio.fm/de/33013/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_a1:Energy Sachsen
-#DESCRIPTION Energy Sachsen
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/56852/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b3:Energy Seasons
-#DESCRIPTION Energy Seasons
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-pa6-2.nrjaudio.fm/de/33005/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_a1:Energy Stuttgart
-#DESCRIPTION Energy Stuttgart
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//f5-th2.nrjaudio.fm/de/33025/mp3_128.mp3?origine=wlan&cdn_path=adswizz_lbs7&adws_out_b1:Energy Urban
-#DESCRIPTION Energy Urban
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//scdn.nrjaudio.fm/adwz1/de/56852/mp3_128.mp3?:Energy Xmas Hits
-#DESCRIPTION Energy Xmas Hits
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//erf1068--di--nacs-ice-01--02--cdn.cast.addradio.de/erf1068/live/mp3/high:ERF Jess
 #DESCRIPTION ERF Jess
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//erf.stream39.radiohost.de/erf-1a64_mp3-128:ERF Plus
@@ -1405,12 +1329,26 @@
 #DESCRIPTION FFH+ - Rock
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//player.ffn.de/ffnstream.mp3:FFN
 #DESCRIPTION FFN
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn-de-hz-fal-stream04-cluster01.radiohost.de/ffn-80er_mp3-192:FFN - 80er 
-#DESCRIPTION FFN - 80er 
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream47.radiohost.de/ffn-607080radio_mp3-192:FFN - 60/70/80
+#DESCRIPTION FFN - 60/70/80
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream22.radiohost.de/ffn-708090_mp3-192:FFN - 70/80/90
+#DESCRIPTION FFN - 70/80/90
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream47.radiohost.de/ffn-80902000_mp3-192:FFN - 80/90/2000
+#DESCRIPTION FFN - 80/90/2000
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream38.radiohost.de/ffn-80er_mp3-192:FFN - 80er
+#DESCRIPTION FFN - 80er
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//stream.ffn.de/neunziger/mp3-192/;stream.nsv?ref=radioplayer:FFN - 90er
 #DESCRIPTION FFN - 90er
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream19.radiohost.de/ffn-ffn-2000er_mp3-192:FFN - 2000er
+#DESCRIPTION FFN - 2000er
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//player.ffn.de/comedystream.mp3:FFN - Comedy
 #DESCRIPTION FFN - Comedy
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream03.radiohost.de/ffn-dance_only_mp3-192:FFN - Dance Only
+#DESCRIPTION FFN - Dance Only
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream22.radiohost.de/ffn-das_gelbe_vom_ei_mp3-192:FFN - Das Gelbe vom Ei
+#DESCRIPTION FFN - Das Gelbe vom Ei
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream21.radiohost.de/ffn-comedy_mp3-192:FFN - Frühstyx Radio
+#DESCRIPTION FFN - Frühstyx Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn-de-hz-fal-stream02-cluster01.radiohost.de/ffn-gold_mp3-192:FFN - Gold
 #DESCRIPTION FFN - Gold
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn-de-hz-fal-stream09-cluster01.radiohost.de/ffn-hits_mp3-192:FFN - Hits 
@@ -2893,7 +2831,7 @@
 #DESCRIPTION Radio Klangbild
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//orf-live.ors-shoutcast.at/ktn-q1a:Radio Kärnten
 #DESCRIPTION Radio Kärnten
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream3.radiodienst.de/proxy/koe/koe:Radio Kó Augsburg
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//megaradio.stream32.radiohost.de/megaradiomix-koe_mp3-320:Radio Kó Augsburg
 #DESCRIPTION Radio Kó Augsburg
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mp3.radiokoeln.c.nmdn.net/radiokoeln/livestream.mp3:Radio Köln
 #DESCRIPTION Radio Köln
@@ -3093,10 +3031,12 @@
 #DESCRIPTION Radio Regentrude
 #SERVICE 4097:0:0:0:0:0:0:0:0:0:http%3a//www.s2.onlinestream.de%3a6640/:Radio Rheinwelle
 #DESCRIPTION Radio Rheinwelle
-#SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//ffn-de-hz-fal-stream01-cluster01.radiohost.de%3a80/radioroland_192:Radio Roland
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream21.radiohost.de/radioroland_mp3-192:Radio Roland
 #DESCRIPTION Radio Roland
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//edge01.streamonkey.net/radiorosengarten-live:Radio Rosengarten
 #DESCRIPTION Radio Rosengarten
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ffn.stream06.radiohost.de/ffn-radio_rotkaeppchen_mp3-192:Radio Rotkäppchen
+#DESCRIPTION Radio Rotkäppchen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//radiorsg--di--nacs-ais-lgc--02--cdn.cast.addradio.de/radiorsg/live/mp3/high:Radio RSG
 #DESCRIPTION Radio RSG
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.lokalradio.nrw/4459gxr:Radio RST (Rheine)

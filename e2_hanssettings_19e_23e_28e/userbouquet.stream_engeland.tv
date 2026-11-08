@@ -1,5 +1,5 @@
 #NAME Stream Engeland (UK)
-#SERVICE 1:64:1e8:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d3:0:0:0:0:0:0:0:
 #DESCRIPTION ++hoofdzenders++
 #SERVICE 4097:0:1:287b:800:2:0:0:0:0:https%3a//bpm.tv.delta.nl/hls/combined/49/stb.m3u8?bk-network=ftth:BBC One Lon HD
 #DESCRIPTION BBC One Lon HD
@@ -11,7 +11,7 @@
 #DESCRIPTION BBC Three/CBBC
 #SERVICE 4097:0:1:287d:800:2:0:0:0:0:http%3a//193.46.58.239%3a8080/CbeebiesHD/index.m3u8:BBC Four/CBeebies
 #DESCRIPTION BBC Four/CBeebies
-#SERVICE 1:64:1e9:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d4:0:0:0:0:0:0:0:
 #DESCRIPTION ++films en series en shows++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68cc1bd72bbacaa96e0bc1d8&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1-6&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=ADME_CY_LTD_123GOEnglish&content_channel_name=123GOEnglish&con:123 Go UK
 #DESCRIPTION 123 Go UK
@@ -21,13 +21,19 @@
 #DESCRIPTION Afriwood Blockbuster
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bbc-classicdrwho-1-us.roku.wurl.tv/playlist.m3u8:BBC Doctor Who Classic
 #DESCRIPTION BBC Doctor Who Classic
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dtqutq7lmcchv.cloudfront.net/10001/99951213/hls/playlist.m3u8?ads.xumo_channelId=99951213:BritBox Mysteries
+#DESCRIPTION BritBox Mysteries
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bbc-classicdrwho-1-us.xumo.wurl.tv/playlist.m3u8:Doctor Who Classic
+#DESCRIPTION Doctor Who Classic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8:BBC Drama
 #DESCRIPTION BBC Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bbc-impossible-1-us.xumo.wurl.tv/playlist.m3u8:BBC Impossible
+#DESCRIPTION BBC Impossible
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6852f20f1194f2d9f604d9c9&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=ITV_Studios_Global_British_Screen_Classics&content_channel_name=B:British Screen Classics
 #DESCRIPTION British Screen Classics
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00654-itv-amg00654c25-rakuten-gb-8165.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-britishscreenclassics-rakutengb/playlist.m3u8?ads_amagi_channel_id=1015&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=drama&ads_content_livestream=0&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_extra_eids=&ads_gam_correlator=283910008697892&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=ppid&ads_inv_partner_domain=rakuten.tv&ads_ip=185.164.139.44&ads_market=uk&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=e3dd2658-e93a-4cee-9d4b-27200826a904&ads_prodq=1&ads_rating=0&ads_rtv_content_id=6883&ads_rtv_content_language=en&ads_rtvid=271858&ads_streaming_id=97c1c19e-8e3b-4262-ae79-9c706d:British Screen Classics (#)
 #DESCRIPTION British Screen Classics (#)
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-692edcff77f0147d69f19498.m3u8:Dating Naked UK
+#SERVICE 4097:0:1:95:0:0:0:0:0:0:https%3a//jmp2.uk/plu-692edcff77f0147d69f19498.m3u8:Dating Naked UK
 #DESCRIPTION Dating Naked UK
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6853a4befdd9ebc0df003f27&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=ITV_Studios_Global_The_Graham_Norton_Show&content_channel_name=Th:Graham Norton
 #DESCRIPTION Graham Norton
@@ -39,10 +45,14 @@
 #DESCRIPTION ENT Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-greatmovies-samsunguk/playlist.m3u8:Great! Movies
 #DESCRIPTION Great! Movies
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=698a3d9360650f2ac303eb4a&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Family, Classic TV&AV_CONTENT_CAT=IAB1-7&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=Universal City Studios Productions LLP_Lass:Lassie
-#DESCRIPTION Lassie
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480c6972be478e6405d0d4&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Movies&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=Terra Nova Distribution Limited_Limelight&content_channel_name=Li:Limelight
 #DESCRIPTION Limelight
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//all3media-midsomer-1-us.xumo.wurl.tv/playlist.m3u8:Midsomer Murders
+#DESCRIPTION Midsomer Murders
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99991698/hls/playlist.m3u8?ads.xumo_channelId=99991698:Midsomer Murders (#)
+#DESCRIPTION Midsomer Murders (#)
+#SERVICE 4097:0:1:99:0:0:0:0:0:0:https%3a//amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8:Mr Bean Classic
+#DESCRIPTION Mr Bean Classic
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480e8f2e214e5ec101da6e&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Comedy&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=Terra Nova Distribution Limited_Novo Comedy&content_channel_nam:Novo Comedy
 #DESCRIPTION Novo Comedy
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480f7d6b8f377d760f13b5&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Movies&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=Terra Nova Distribution Limited_RCM&content_channel_name=RCM&cont:RCM
@@ -59,7 +69,7 @@
 #DESCRIPTION True Lives
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=699ad61a1e0be8360b0d1bbb&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Westerns&AV_CONTENT_CAT=IAB1-7&AV_CONTENT_RATING=TV-14&AV_CLIENT_SECTION=UNIVERSAL CITY STUDIOS  PRODUCTIONS LLP_Universal We:Universal Westerns
 #DESCRIPTION Universal Westerns
-#SERVICE 1:64:1ea:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d5:0:0:0:0:0:0:0:
 #DESCRIPTION ++muziek++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lightning-now70s-samsungnz.amagi.tv/playlist.m3u8:Now 70s
 #DESCRIPTION Now 70s
@@ -81,8 +91,10 @@
 #DESCRIPTION Trace Urban
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8:XITE Hits UK
 #DESCRIPTION XITE Hits UK
-#SERVICE 1:64:1eb:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d6:0:0:0:0:0:0:0:
 #DESCRIPTION ++sport++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c5-xumo-us-2664.playouts.now.amagi.tv/bbcstudios-bbctopgear8min-all/playlist.m3u8:BBC Top Gear
+#DESCRIPTION BBC Top Gear
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00793-amg00793c49-rakuten-fi-5848.playouts.now.amagi.tv/playlist.m3u8:BBC Top Gear Finland
 #DESCRIPTION BBC Top Gear Finland
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883136:Fifth Gear
@@ -97,9 +109,9 @@
 #DESCRIPTION Strongman Champions League
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8:Strongman Champions League
 #DESCRIPTION Strongman Champions League
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-6202357dea93940007d723ca.m3u8:Top Gear
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951249/hls/playlist.m3u8?ads.xumo_channelId=99951249:Top Gear
 #DESCRIPTION Top Gear
-#SERVICE 1:64:1ec:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d7:0:0:0:0:0:0:0:
 #DESCRIPTION ++nieuws++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xemzi.short.gy/1000015:BBC News
 #DESCRIPTION BBC News
@@ -129,6 +141,8 @@
 #DESCRIPTION Newsmax
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8:NewsWorld
 #DESCRIPTION NewsWorld
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951223/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=99951223&ads.xumo_streamId=99951223&ads.channelId=99951223&ads.channelName=SkyNews&ads.caid=SkyNews&ads.csid=xumo_web_SkyNews_ssai&ads.genre=News,N,DN,Local,LocalNews,News-Local&ads._fw_content_genre=News,N,DN,Local,LocalNews,News-Local&ads._fw_coppa=0&ads.xumo_contentId=3455&ads.xumo_contentName=SkyNews&ads.xumo_providerId=3455&ads.xumo_providerName=SkyNews&ads.asnw=&ads.xumo_channelName=SkyNews&ads._fw_h_x_country=US&ads._fw_ifa_type=&ads._fw_did=c4702e5c-9fd5-4fd6-8eff-a1ccbb2f5a7d&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=xumo:Sky News
+#DESCRIPTION Sky News
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68adac343d547b68be0b9a03&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=News&AV_CONTENT_CAT=IAB12&AV_CONTENT_RATING=TVMA&AV_CLIENT_SECTION=Sky_SkyNews&content_channel_name=Sky News&content_livestream=1&AV_CONTE:Sky News International
 #DESCRIPTION Sky News International
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8:Sky News Arabia
@@ -137,7 +151,7 @@
 #DESCRIPTION Sky News Weather
 #SERVICE 5001:0:1:0:0:0:0:0:0:0:https%3a//488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfVGFsa19ITFM/playlist.m3u8:Talk TV
 #DESCRIPTION Talk TV
-#SERVICE 1:64:1ed:0:0:0:0:0:0:0:
+#SERVICE 1:64:1d8:0:0:0:0:0:0:0:
 #DESCRIPTION ++documentaires++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8:4K Travel TV
 #DESCRIPTION 4K Travel TV
@@ -151,11 +165,15 @@
 #DESCRIPTION BBC Earth
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_CONTENT_RATING=R&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67cedc668d17ebe2b70a9566&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENERE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=lovetheplanet_lovetv&content_channel_name=Lo:Love the planet
 #DESCRIPTION Love the planet
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//mechtvltd-mechplus-1-nl.samsung.wurl.tv/playlist.m3u8:Mechplus
+#DESCRIPTION Mechplus
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d15d959476204ad0b0228&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=BanijayUK_mythbusters&content_channel_name=mythbusters&content_l:Mythbusters
 #DESCRIPTION Mythbusters
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8:Travelxp
 #DESCRIPTION Travelxp
-#SERVICE 1:64:1ee:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//lds-wonder-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lds-wonder-rakuten/CDN/master.m3u8?ads_amagi_channel_id=729&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=animals&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.42&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=0&ads_rtv_channel_name=wonder_nl&ads_rtv_content_id=3310&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=b46a8c63-1d59-40bf-8203-055608eacc35&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&a:Wonder
+#DESCRIPTION Wonder
+#SERVICE 1:64:1d9:0:0:0:0:0:0:0:
 #DESCRIPTION ++jeugd++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480c12669029a46a0faa26&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Kids&AV_CONTENT_CAT=IAB6&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=Terra Nova Distribution Limited_Kiddiwinks&content_channel_name=Kiddiwi:Kiddiwinks
 #DESCRIPTION Kiddiwinks
@@ -167,6 +185,8 @@
 #DESCRIPTION Lassie
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//moonbug-rokuus.amagi.tv/playlist.m3u8:Moonbug Kids
 #DESCRIPTION Moonbug Kids
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8:Mr. Bean (cartoons)
+#DESCRIPTION Mr. Bean (cartoons)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-popkids-samsunguk/playlist.m3u8:Pop
 #DESCRIPTION Pop
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68cc1b3d761ac05dc604d95d&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Animation&AV_CONTENT_CAT=IAB23-2&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=ADME_CY_LTD_TeenVeeEnglish&content_channel_name=TeenVeeEnglish&co:TeenVee
@@ -175,23 +195,47 @@
 #DESCRIPTION Tiny Pop
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68c121f19f4dca74ae0d1a86&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=FAST_Media_GmbH_Yu-Gi-Oh&content_channel_name=Yu-Gi-Oh! UK&co:YuGiOh
 #DESCRIPTION YuGiOh
-#SERVICE 1:64:1ef:0:0:0:0:0:0:0:
-#DESCRIPTION ++lifelstyle - kook-tv++
+#SERVICE 1:64:1da:0:0:0:0:0:0:0:
+#DESCRIPTION ++lifelstyle & trends++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951177/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951177&ads.xumo_streamId=99951177&ads.channelId=99951177&ads.channelName=BBCFood&ads.caid=BBCFood&ads.csid=xumo_web_BBCFood_ssai&ads.genre=Entertainment&ads._fw_content_genre=Entertainment&ads._fw_coppa=0&ads.xumo_contentId=3824&ads.xumo_contentName=BBCFood&ads.xumo_providerId=3824&ads.xumo_providerName=BBCFood&ads.asnw=&ads.xumo_channelName=BBCFood&ads._fw_h_x_country=US&ads._fw_ifa_type=&ads._fw_did=32f02636-0c6d-4d06-93c3-3cf0da7974db&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=xumo:BBC Food
+#DESCRIPTION BBC Food
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951178/hls/playlist.m3u8?ads.xumo_channelId=99951178:BBC Home & Garden
+#DESCRIPTION BBC Home & Garden
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00654-itv-amg00654c2-rakuten-uk-1281.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-comedinewithmeukglobal-rakutenuk/playlist.m3u8?ads_amagi_channel_id=876&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment%252Ccooking&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=16&ads_rtv_channel_name=come-dine-with-me_nl&ads_rtv_content_id=5599&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=aac533be-58c7-469b-9621-470a004e255d&ads_tivo_devcountry=&ads_tivo_d:Come Dine With Me
+#DESCRIPTION Come Dine With Me
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69023fc0b491f017540eb13d&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1-1&AV_CONTENT_RATING=TV14&AV_CLIENT_SECTION=Envoy Media Co_Envoy FAST&content_channel_name=Envoy FA:Envoy FAST
 #DESCRIPTION Envoy FAST
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//all3media-four-in-a-bed-1-nl.samsung.wurl.tv/playlist.m3u8:Four in a Bed
+#DESCRIPTION Four in a Bed
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480ae8adea51a63b03567b&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Family&AV_CONTENT_CAT=IAB6&AV_CONTENT_RATING=PG-13&AV_CLIENT_SECTION=Terra Nova Distribution Limited_Fresh&content_channel_name=Fresh&:Fresh
 #DESCRIPTION Fresh
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//all3media-gardening-with-monty-don-us.xumo.wurl.tv/playlist.m3u8:Gardening with Monty Don
+#DESCRIPTION Gardening with Monty Don
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951212/hls/playlist.m3u8?ads.xumo_channelId=99951212:Gardening with Monty Don (#)
+#DESCRIPTION Gardening with Monty Don (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7640b93014104d96bfc946ae8810114f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vidaa-gb_GreatBritishMenu/playlist.m3u8?ads.wurl_channel=1231&ads.wurl_name=GreatBritishMenu&ads.coppa=0&ads.vidaa_ads_param=1190406319&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=6215:Great British Menu
 #DESCRIPTION Great British Menu
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951515/hls/playlist.m3u8?ads.xumo_channelId=99951515:Great British Menu (#)
+#DESCRIPTION Great British Menu (#)
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=6853a3dc5d96faf4a308e7d5&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=ITV_Studios_Global_Hells_Kitchen&content_channel_name=Hells Kit:Hells Kitchen
 #DESCRIPTION Hells Kitchen
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_CONTENT_RATING=R&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=67cedb8af3a6673c1d0c7859&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENERE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=lovewine_lovetv&content_channel_name=Love :Love Wine
 #DESCRIPTION Love Wine
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68a6f98db5590727380e4dba&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Lifestyle&AV_CONTENT_CAT=IAB18&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=Cannella_Media_DTC_Wine_Watches_and_Whiskey&content_channel_name=Win:W3
-#DESCRIPTION W3
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=686d0dbfe922fe4faf0c97b5&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Entertainment&AV_CONTENT_CAT=IAB1&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=BanijayUK_MasterChef&content_channel_name=MasterChef&content_live:MasterChef
 #DESCRIPTION MasterChef
-#SERVICE 1:64:1f0:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//c49488a9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X09ic2Vzc2l2ZUNvbXB1bHNpdmVDbGVhbmVyc19ITFM/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=reality&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=obsessive-compulsive-cleaners-en_nl&ads.rtv_content_id=7923&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=b5fdba5a-dddd-47f2-b955-6377ac6c736c&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&a:Obsessive Compulsive Cleaners
+#DESCRIPTION Obsessive Compulsive Cleaners
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951221/hls/playlist.m3u8?ads.xumo_channelId=99951221:Property & Reno
+#DESCRIPTION Property & Reno
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00426-amg00426c31-amgplt0165.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00426-amg00426c31-amgplt0165/playlist.m3u8?ads_amagi_channel_id=1141&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=cooking&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=6&ads_rtv_channel_name=saturday-kitchen_nl&ads_rtv_content_id=8153&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=a56eb48c-4b9a-4c53-a0c2-df16cbf67ac3&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_pl:Saturday Kitchen
+#DESCRIPTION Saturday Kitchen
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//7bc7b283.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RhdHRvb0ZpeGVyc19ITFM/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=reality&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_name=tattoo-fixers_nl&ads.rtv_content_id=7912&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=cbacf4ce-a52b-4176-9302-308d106b56ab&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user:Tattoo Fixers
+#DESCRIPTION Tattoo Fixers
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jamieoliver-xumo.amagi.tv/playlist.m3u8:The Jamie Oliver Channel
+#DESCRIPTION The Jamie Oliver Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=68a6f98db5590727380e4dba&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Lifestyle&AV_CONTENT_CAT=IAB18&AV_CONTENT_RATING=TV-G&AV_CLIENT_SECTION=Cannella_Media_DTC_Wine_Watches_and_Whiskey&content_channel_name=Win:W3
+#DESCRIPTION W3
+#SERVICE 1:64:1db:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//23.239.31.26%3a8989/bbcamerica/index.m3u8:BBC America
 #DESCRIPTION BBC America
@@ -231,7 +275,7 @@
 #DESCRIPTION Wipeout Xtra
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//wonder-samsung-uk.amagi.tv/playlist.m3u8:Wonder
 #DESCRIPTION Wonder
-#SERVICE 1:64:1f1:0:0:0:0:0:0:0:
+#SERVICE 1:64:1dc:0:0:0:0:0:0:0:
 #DESCRIPTION ++religie++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=69480f5fb4e476506209756b&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Religious&AV_CONTENT_CAT=IAB23&AV_CONTENT_RATING=G&AV_CLIENT_SECTION=Terra Nova Distribution Limited_Bilaal TV&content_channel_name=:Bilaal TV
 #DESCRIPTION Bilaal TV
@@ -245,7 +289,7 @@
 #DESCRIPTION New Media
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//sscsott.com/srt/noortvuk/index.m3u8:Noor TV
 #DESCRIPTION Noor TV
-#SERVICE 1:64:1f2:0:0:0:0:0:0:0:
+#SERVICE 1:64:1dd:0:0:0:0:0:0:0:
 #DESCRIPTION ++teleshop++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dash2.antik.sk/live/test_ectv_hd_1200/playlist.m3u8:English Club TV
 #DESCRIPTION English Club TV

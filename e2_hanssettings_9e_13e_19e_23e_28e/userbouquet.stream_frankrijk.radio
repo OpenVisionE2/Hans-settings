@@ -1,5 +1,5 @@
 #NAME Stream Frankrijk (FR)
-#SERVICE 1:64:860:0:0:0:0:0:0:0:
+#SERVICE 1:64:883:0:0:0:0:0:0:0:
 #DESCRIPTION ++nationale omroepen publiek (Radio France)++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//direct.fipradio.fr/live/fip-midfi.mp3:FIP
 #DESCRIPTION FIP
@@ -7,13 +7,15 @@
 #DESCRIPTION France Culture
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiofrance.fr/franceinter-midfi.mp3:France Inter
 #DESCRIPTION France Inter
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//icecast.radiofrance.fr/monpetitfranceinter-midfi.mp3:Mon petit France Inter
+#DESCRIPTION Mon petit France Inter
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//direct.francemusique.fr/live/francemusique-midfi.mp3:France Musique
 #DESCRIPTION France Musique
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rfimonde64k.ice.infomaniak.ch/rfimonde-64.mp3:RFI Monde en direct
 #DESCRIPTION RFI Monde en direct
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//rfican2025.ice.infomaniak.ch/rfican2025-64.mp3:RFI Afrique en direct
 #DESCRIPTION RFI Afrique en direct
-#SERVICE 1:64:861:0:0:0:0:0:0:0:
+#SERVICE 1:64:884:0:0:0:0:0:0:0:
 #DESCRIPTION ++nationale omroepen commercieel++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//beurfm.ice.infomaniak.ch/beurfm-high.mp3:Beur FM
 #DESCRIPTION Beur FM
@@ -31,7 +33,7 @@
 #DESCRIPTION Nostalgie France
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//hls-rmcgold.nextradiotv.com/ssai/192k/media.m3u8:RMC Gold
 #DESCRIPTION RMC Gold
-#SERVICE 1:64:862:0:0:0:0:0:0:0:
+#SERVICE 1:64:885:0:0:0:0:0:0:0:
 #DESCRIPTION ++regionaal publiek++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//direct.fipradio.fr/live/fip-webradio6.mp3:FIP Autour  des disquaires
 #DESCRIPTION FIP Autour  des disquaires
@@ -149,7 +151,7 @@
 #DESCRIPTION ICI Touraine
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//direct.francebleu.fr/live/fbvaucluse-midfi.mp3:ICI Vaucluse
 #DESCRIPTION ICI Vaucluse
-#SERVICE 1:64:863:0:0:0:0:0:0:0:
+#SERVICE 1:64:886:0:0:0:0:0:0:0:
 #DESCRIPTION ++commercieel regionaal en thema's++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ouuku85n3nje:Chérie FM
 #DESCRIPTION Chérie FM
@@ -241,6 +243,8 @@
 #DESCRIPTION Europe 2 Zen
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/oug7girb92oc:Nostalgie
 #DESCRIPTION Nostalgie
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/ougfkxrb92oc?origine=fluxradios&aw_0_1st.station=NOSTALGIE-60-70:Nostalgie - 60 70
+#DESCRIPTION Nostalgie - 60 70
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/out2ev6ubafg?origine=playernostalgie:Nostalgie - 80 Les Tubes N1 
 #DESCRIPTION Nostalgie - 80 Les Tubes N1 
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//streaming.nrjaudio.fm/out2976ubafg?origine=playernostalgie:Nostalgie - 100%25 Français 80
@@ -303,7 +307,7 @@
 #DESCRIPTION RTL 100% 80
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/legrandstudiortl/130/audio-64000/index.m3u8:Le Grand Studio RTL
 #DESCRIPTION Le Grand Studio RTL
-#SERVICE 1:64:864:0:0:0:0:0:0:0:
+#SERVICE 1:64:887:0:0:0:0:0:0:0:
 #DESCRIPTION ++overige++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//str4uice.streamakaci.com/4uclassicrock.mp3:4U Classic Rock
 #DESCRIPTION 4U Classic Rock
@@ -567,6 +571,8 @@
 #DESCRIPTION Ledjam Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/legendefm-high.mp3:LEGENDE FM
 #DESCRIPTION LEGENDE FM
+#SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//stream.libertefm.fr/libertefm.192.mp3:Liberté FM
+#DESCRIPTION Liberté FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:https%3a//ice.creacast.com/lorfm:LOR'FM
 #DESCRIPTION LOR'FM
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//mfm.ice.infomaniak.ch/mfm-128.mp3:M Radio
@@ -929,7 +935,7 @@
 #DESCRIPTION Riviera Radio
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//rkb.online.radiobreizh.bzh/live.mp3:RKB - Radio Kreiz Breizh (Sant-Nigouden, Bretagne)
 #DESCRIPTION RKB - Radio Kreiz Breizh (Sant-Nigouden, Bretagne)
-#SERVICE 1:64:865:0:0:0:0:0:0:0:
+#SERVICE 1:64:888:0:0:0:0:0:0:0:
 #DESCRIPTION ++RMC = Radio Monte Carlo, zie ook Monaco++
 #SERVICE 4097:0:2:0:0:0:0:0:0:0:http%3a//broadcast.infomaniak.net/rougefm-high.aac:Rouge fm AAC+
 #DESCRIPTION Rouge fm AAC+

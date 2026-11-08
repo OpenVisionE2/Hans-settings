@@ -1,32 +1,54 @@
 #NAME Stream Films en series
-#SERVICE 1:64:1c2:0:0:0:0:0:0:0:
+#SERVICE 1:64:1b3:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nederland - algemeen++
 #SERVICE 4097:0:1:2:1000:31:cccc0000:0:0:0:https%3a//db2b248fd4144eaeb7c4f13169dca7a8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_ComedyStation/playlist.m3u8:Comedy Station
 #DESCRIPTION Comedy Station
-#SERVICE 4097:0:1:3:1000:31:cccc0000:0:0:0:https%3a//be23a3aa4c7c4dd2b6221ba7ca51283e.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_GrjngoWesternFilms/playlist.m3u8:Grjngo
-#DESCRIPTION Grjngo
-#SERVICE 1:64:1c3:0:0:0:0:0:0:0:
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//be23a3aa4c7c4dd2b6221ba7ca51283e.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-nl_GrjngoWesternFilms/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=western&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_name=grjngo-nl_nl&ads.rtv_content_id=4837&ads.rtv_content_language=nl&ads.rtvid=271863&ads.streaming_id=6006d724-e98f-42c4-b195-4fdaa05b6bb4&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platfor:Western Films - Grjngo
+#DESCRIPTION Western Films - Grjngo
+#SERVICE 1:64:1b4:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nederland - BBC met NL onderiteling++
 #SERVICE 4097:0:1:1c:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c52-nlziet-nl-10250.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00793-bbcstudios-bbceastendersbenelux-nlzietnl/playlist.m3u8:BBC EastEnders
 #DESCRIPTION BBC EastEnders
 #SERVICE 4097:0:1:1d:0:31:cccc0000:0:0:0:https%3a//amg00793-amg00793c51-nlziet-nl-8601.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramabenelux-nlzietnl/playlist.m3u8:BBC Series
 #DESCRIPTION BBC Series
-#SERVICE 1:64:1c4:0:0:0:0:0:0:0:
+#SERVICE 1:64:1b5:0:0:0:0:0:0:0:
 #DESCRIPTION ++Nederland - Rakuten TV met NL onderiteling++
-#SERVICE 4097:0:1:6:1000:31:cccc0000:0:0:0:https%3a//action-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6073/master.m3u8:Rakuten TV Action
-#DESCRIPTION Rakuten TV Action
-#SERVICE 4097:0:1:8:1000:31:cccc0000:0:0:0:https%3a//drama-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6097/master.m3u8:Rakuten TV Drama
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//action-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6073-playout/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6073&ads.rtv_channel_name=action-rakuten-tv_nl&ads.rtv_content_id=6073&ads.rtv_content_language=nl&ads.rtv_language=nl&ads.rtvid=271863&ads.streaming_id=254d3755-4c67-4756-beb1-7baaf7ae11c2&ads.tivo_devcountry=&ads.tivo:Rakuten TV Actie
+#DESCRIPTION Rakuten TV Actie
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//drama-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6097-playout/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6097&ads.rtv_channel_name=drama-rakuten-tv_nl&ads.rtv_content_id=6097&ads.rtv_content_language=nl&ads.rtv_language=nl&ads.rtvid=271863&ads.streaming_id=47794b3d-a786-4994-9f35-2e6f884bab6e&ads.tivo_devcountry=&ads.tivo_d:Rakuten TV Drama
 #DESCRIPTION Rakuten TV Drama
-#SERVICE 4097:0:1:9:1000:31:cccc0000:0:0:0:https%3a//family-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6212/master.m3u8:Rakuten TV Familie
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//family-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6212/master.m3u8:Rakuten TV Familie
 #DESCRIPTION Rakuten TV Familie
-#SERVICE 4097:0:1:a:1000:31:cccc0000:0:0:0:https%3a//comedy-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6185/master.m3u8:Rakuten TV Komedie
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//comedy-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6185/master.m3u8:Rakuten TV Komedie
 #DESCRIPTION Rakuten TV Komedie
-#SERVICE 4097:0:1:b:1000:31:cccc0000:0:0:0:https%3a//romance-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6198/master.m3u8:Rakuten TV Romantiek
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//romance-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6198-playout/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6198&ads.rtv_channel_name=romance-rakuten-tv_nl&ads.rtv_content_id=6198&ads.rtv_content_language=nl&ads.rtv_language=nl&ads.rtvid=271863&ads.streaming_id=7a7b98fe-254a-4107-bb95-74cab220f585&ads.tivo_devcountry=&ads.ti:Rakuten TV Romantiek
 #DESCRIPTION Rakuten TV Romantiek
-#SERVICE 4097:0:1:c:1000:31:cccc0000:0:0:0:https%3a//top-movies-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6054/master.m3u8:Rakuten TV Top Films
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//top-movies-rakuten-tv-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-rtv-6054-playout/master.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_livestream=0&ads.content_url=rakuten.tv&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_year=&ads.did=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.google_ad_manager_nonce=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.platform=web&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=16&ads.rtv_channel_id=6054&ads.rtv_channel_name=top-movies-rakuten-tv_nl&ads.rtv_content_id=6054&ads.rtv_content_language=nl&ads.rtv_language=nl&ads.rtvid=271863&ads.streaming_id=906be32d-cf6a-4fa9-951c-b01aefedd550&ads.tivo_devcountry=&:Rakuten TV Top Films
 #DESCRIPTION Rakuten TV Top Films
-#SERVICE 1:64:1c5:0:0:0:0:0:0:0:
+#SERVICE 1:64:1b6:0:0:0:0:0:0:0:
+#DESCRIPTION ++algemeen, land onbekend++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//5c393e23.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1NvYXBFTkdMSVNIX0hMUw/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=drama%252Csoap-opera&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=soap-eng_nl&ads.rtv_content_id=7430&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=3394a09c-d8e2-4316-ab8e-a5987581db27&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.:Soap
+#DESCRIPTION Soap
+#SERVICE 1:64:1b7:0:0:0:0:0:0:0:
+#DESCRIPTION ++Arabisch++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg02631-amg02631c3-amgplt0165.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg02631-amg02631c3-amgplt0165/playlist.m3u8?ads_amagi_channel_id=1095&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=drama%252Csoap-opera&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=12&ads_rtv_channel_name=merhaba-arabische-en_nl&ads_rtv_content_id=7775&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=8a18f5ff-31dd-42ec-9436-3233038d3ee8&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvp:Merhaba Arabic Drama
+#DESCRIPTION Merhaba Arabic Drama
+#SERVICE 1:64:1b8:0:0:0:0:0:0:0:
+#DESCRIPTION ++Aziatisch++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_RakutenViki-1/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=drama%252Cromance&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=6&ads.rtv_channel_name=rakuten-viki-new_nl&ads.rtv_content_id=3833&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=5ab3c7d1-ebde-43bb-b014-0b18bc10f1e2&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tiv:Rakuten VIKI
+#DESCRIPTION Rakuten VIKI
+#SERVICE 1:64:1b9:0:0:0:0:0:0:0:
+#DESCRIPTION ++Canada++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_app_bundle=&ads._fw_app_store_url=rakuten.tv&ads._fw_content_category=IAB1&ads._fw_content_genre=sci-fi&ads._fw_content_language=uk&ads._fw_content_rating=tv-14&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_devicetype=3-connected_tv&ads._fw_gdpr=1&ads._fw_gdpr_consent=&ads._fw_is_lat=1&ads._ifa_type=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.appName=RakutenTV&ads.app_version=&ads.brand_name=&ads.caid=Andromeda&ads.content_livestream=0&ads.csid=zeus_uk_filmriseandromedauk_ssai&ads.extra_eids=&ads.gam_correlator=&ads.google_ad_manager_nonce=&ads.inv_partner_domain=rakuten.tv&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.prodq=1&ads.rakuten_content_type=live_channels&ads.rakuten_device_type=web&ads.rakuten_device_year=&ads.rakuten_env=prod&ads.rakuten_market=nl&ads.rakuten_pod_type=playerpage_midroll&ads.rakuten_rtv_content_id=5916&ads.rakuten_streaming:Andromeda
+#DESCRIPTION Andromeda
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00627-amg00627c15-rakuten-uk-4803.playouts.now.amagi.tv/playlist/amg00627-banijayfast-highwaythruhell-rakutenuk/playlist.m3u8?ads_amagi_channel_id=944&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=action%252Centertainment%252Coutdoors%252Creality&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=6&ads_rtv_channel_name=highway-thru-hell_nl&ads_rtv_content_id=7649&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=ec716b8d-21d2-485a-a892-1ddfe0800ed4&ads_tivo_devcountry=&ads_:Highway Thru Hell
+#DESCRIPTION Highway Thru Hell
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00353-amg00353c46-rakuten-us-8849.playouts.now.amagi.tv/playlist/amg00353-lionsgatetvfast-rookieblueenglish-rakutenus/playlist.m3u8?ads_amagi_channel_id=1048&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=crime&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=16&ads_rtv_channel_name=rookie-blue-eng_nl&ads_rtv_content_id=7688&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=359fd1b1-a49c-454f-a886-864aeee5ed74&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=:Rookie Blue
+#DESCRIPTION Rookie Blue
+#SERVICE 1:64:1ba:0:0:0:0:0:0:0:
 #DESCRIPTION ++Duitsland++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883079:FilmRise Unsolved Mysteries
+#DESCRIPTION FilmRise Unsolved Mysteries
 #SERVICE 4097:0:1:e15a:1e7e:ec:0:0:0:0:https%3a//jmp2.uk/stvp-DEBD4100002H1:K-Drama+
 #DESCRIPTION K-Drama+
 #SERVICE 4097:0:1:8326:6c34:ec:0:0:0:0:https%3a//jmp2.uk/stvp-DE33000013J:Lindenstraße
@@ -59,8 +81,6 @@
 #DESCRIPTION Pluto TV Star Trek
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-69492467ae33e24d916e56cf.m3u8:Pluto TV Star Trek%3a Animation
 #DESCRIPTION Pluto TV Star Trek: Animation
-#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-615333098185f00008715a56.m3u8:Pluto TV True Crime
-#DESCRIPTION Pluto TV True Crime
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-630dd3b2605f140007e002f5.m3u8:Pluto TV Western
 #DESCRIPTION Pluto TV Western
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/plu-682453215c646751955e1204.m3u8:Pluto TV Western Serien
@@ -95,8 +115,12 @@
 #DESCRIPTION Top Sci-Fi
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00609-palatinmediafil-cractiontv-rakuten-dhjcp.amagi.tv/hls/amagi_hls_data_rakutenAA-cractiontv-rakuten/CDN/master.m3u8:Top Serien
 #DESCRIPTION Top Serien
-#SERVICE 1:64:1c6:0:0:0:0:0:0:0:
+#SERVICE 1:64:1bb:0:0:0:0:0:0:0:
 #DESCRIPTION ++Engeland (en rest UK)++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dtqutq7lmcchv.cloudfront.net/10001/99951213/hls/playlist.m3u8?ads.xumo_channelId=99951213:BritBox Mysteries
+#DESCRIPTION BritBox Mysteries
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//bbc-classicdrwho-1-us.xumo.wurl.tv/playlist.m3u8:Doctor Who Classic
+#DESCRIPTION Doctor Who Classic
 #SERVICE 4097:0:1:5cac:bcc9:ec:0:0:0:0:https%3a//jmp2.uk/stvp-GBBC900007Q5:Great! Movies
 #DESCRIPTION Great! Movies
 #SERVICE 4097:0:1:6f1a:64eb:ec:0:0:0:0:https%3a//jmp2.uk/stvp-GBBC900008L9:Great! romance
@@ -105,6 +129,10 @@
 #DESCRIPTION Icon Film Channel
 #SERVICE 4097:0:1:0:c0f:fee:cccc0000:0:0:0:https%3a//6b88cde9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0xvbmVTdGFyX0hMUw/playlist.m3u8:Lone Star
 #DESCRIPTION Lone Star
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//all3media-midsomer-1-us.xumo.wurl.tv/playlist.m3u8:Midsomer Murders
+#DESCRIPTION Midsomer Murders
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99991698/hls/playlist.m3u8?ads.xumo_channelId=99991698:Midsomer Murders (#)
+#DESCRIPTION Midsomer Murders (#)
 #SERVICE 4097:0:1:b662:42e6:ec:0:0:0:0:https%3a//jmp2.uk/stvp-GBBA33000557H:Moviesphere by Lionsgate
 #DESCRIPTION Moviesphere by Lionsgate
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8:MyTime Movie Network
@@ -143,13 +171,31 @@
 #DESCRIPTION Sci-Fi - Rakuten TV
 #SERVICE 4097:0:1:ba95:bc2c:ec:0:0:0:0:https%3a//jmp2.uk/stvp-GBAJ400042T1:Sparkle Movies
 #DESCRIPTION Sparkle Movies
-#SERVICE 4097:0:1:e49:6c5:ec:0:0:0:0:https%3a//jmp2.uk/stvp-GB4100003VP:Thrillers - Rakuten TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amc-twdfanexperience-1-us.xumo.wurl.tv/playlist.m3u8:The Walking Dead Universe
+#DESCRIPTION The Walking Dead Universe
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/stvp-GB4100003VP:Thrillers - Rakuten TV
 #DESCRIPTION Thrillers - Rakuten TV
-#SERVICE 4097:0:1:a47c:7243:ec:0:0:0:0:https%3a//jmp2.uk/stvp-GB2600018PD:Top Movies - Rakuten TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//jmp2.uk/stvp-GB2600018PD:Top Movies - Rakuten TV
 #DESCRIPTION Top Movies - Rakuten TV
-#SERVICE 1:64:1c7:0:0:0:0:0:0:0:
+#SERVICE 1:64:1bc:0:0:0:0:0:0:0:
+#DESCRIPTION ++Frankrijk++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883021:FilmRise Binge Watch France
+#DESCRIPTION FilmRise Binge Watch France
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883113:FilmRise Degrassi
+#DESCRIPTION FilmRise Degrassi
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883033:FilmRise Séries France
+#DESCRIPTION FilmRise Séries France
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883083:FilmRise Les Routes du Paradis
+#DESCRIPTION FilmRise Les Routes du Paradis
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883103:Z Nation
+#DESCRIPTION Z Nation
+#SERVICE 1:64:1bd:0:0:0:0:0:0:0:
+#DESCRIPTION ++India++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//edc76f2d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1plZVdvcmxkLTFfSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=entertainment&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=12&ads.rtv_channel_name=zee-one-eng_nl&ads.rtv_content_id=5923&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=f1aa8b22-e89c-4ffa-8151-69224639d621&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.use:Z One
+#DESCRIPTION Z One
+#SERVICE 1:64:1be:0:0:0:0:0:0:0:
 #DESCRIPTION ++Italië++
-#SERVICE 4097:0:1:a9a5:5836:ec:0:0:0:0:https%3a//d1si3n1st4nkgb.cloudfront.net/10502/88826002/hls/master.m3u8?ads.xumo_channelId=88826002:Action Movie Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d1si3n1st4nkgb.cloudfront.net/10502/88826002/hls/master.m3u8?ads.xumo_channelId=88826002:Action Movie Channel
 #DESCRIPTION Action Movie Channel
 #SERVICE 4097:0:1:9f2d:a829:ec:0:0:0:0:https%3a//99d8c10bb3a6428ca41d80c034b759f1.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-it_CGtv/playlist.m3u8:CG Grandi Film (Cecchi Gori)
 #DESCRIPTION CG Grandi Film (Cecchi Gori)
@@ -187,7 +233,17 @@
 #DESCRIPTION Sony One Film Divertenti
 #SERVICE 4097:0:1:1b72:55e4:ec:0:0:0:0:https%3a//cdn-uw2-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-wedomoviesitaly-samsungit/playlist.m3u8:WeDo TV Film al Femminile - WeDo Movies
 #DESCRIPTION WeDo TV Film al Femminile - WeDo Movies
-#SERVICE 1:64:1c8:0:0:0:0:0:0:0:
+#SERVICE 1:64:1bf:0:0:0:0:0:0:0:
+#DESCRIPTION ++Japan++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//cdeffa74.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLW5sX05hcnV0b19ITFM/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=animation&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=9&ads.rtv_channel_name=naruto-dut_nl&ads.rtv_content_id=7560&ads.rtv_content_language=nl&ads.rtvid=271863&ads.streaming_id=555171db-3435-4e05-8b6f-f1a9c7ccc5e0&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visi:Naruto Channel
+#DESCRIPTION Naruto Channel
+#SERVICE 1:64:1c0:0:0:0:0:0:0:0:
+#DESCRIPTION ++Spaantalig++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883137:Detetives Médicos
+#DESCRIPTION Detetives Médicos
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master.m3u8:Telemundo Accion
+#DESCRIPTION Telemundo Accion
+#SERVICE 1:64:1c1:0:0:0:0:0:0:0:
 #DESCRIPTION ++USA++
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/vidaa/aicreatortv.m3u8 :30ATV Aicreator tv 
 #DESCRIPTION 30ATV Aicreator tv 
@@ -201,5 +257,147 @@
 #DESCRIPTION 30ATV Sci Fi Channel
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//30a-tv.com/feeds/mwaretv/sidewalks.m3u8:30ATV SideWalks TV
 #DESCRIPTION 30ATV SideWalks TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3pxo1qcgzxtxs.cloudfront.net/10005/99951377/hls/playlist.m3u8?ads.xumo_channelId=99951377:ACM Thrillers
+#DESCRIPTION ACM Thrillers
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3pxo1qcgzxtxs.cloudfront.net/10005/99951478/hls/playlist.m3u8?ads.xumo_channelId=99951478:Acorn TV Mysteries
+#DESCRIPTION Acorn TV Mysteries
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-ch825-ku23q.fast.nbcuni.com/live/master.m3u8:Alfred Hitchcock Presents
+#DESCRIPTION Alfred Hitchcock Presents
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-888.frequency.stream/dist/xumo/888/hls/master/playlist.m3u8:Alien Nation
+#DESCRIPTION Alien Nation
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883104:American Crime Channel
+#DESCRIPTION American Crime Channel
+#SERVICE 5002:0:1:0:0:0:0:0:0:0:https%3a//amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8:Artflix Movie Classics
+#DESCRIPTION Artflix Movie Classics
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_app_bundle=&ads._fw_app_store_url=rakuten.tv&ads._fw_content_category=IAB1&ads._fw_content_genre=action%252Csci-fi&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_devicetype=3-connected_tv&ads._fw_gdpr=1&ads._fw_gdpr_consent=&ads._fw_is_lat=1&ads._ifa_type=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.appName=RakutenTV&ads.app_version=&ads.brand_name=&ads.caid=nbcubionicwoman&ads.content_livestream=0&ads.csid=zeus_uk_nbcubionicwoman_ssai&ads.extra_eids=&ads.gam_correlator=&ads.google_ad_manager_nonce=&ads.inv_partner_domain=rakuten.tv&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.prodq=1&ads.rakuten_content_type=live_channels&ads.rakuten_device_type=web&ads.rakuten_device_year=&ads.rakuten_env=prod&ads.rakuten_market=nl&ads.rakuten_pod_type=playerpage_midroll&ads.rakuten_rtv_content_id=7618&ads.rakute:Bionic Woman
+#DESCRIPTION Bionic Woman
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-vc-114-x0p7i.fast.nbcuni.com/live/master.m3u8:Bravo Vault
+#DESCRIPTION Bravo Vault
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-896.frequency.stream/dist/xumo/896/hls/master/playlist.m3u8:Dove Channel
+#DESCRIPTION Dove Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-896.frequency.stream/dist/xumo/896/hls/master/playlist.m3u8:Dove Channel
+#DESCRIPTION Dove Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00276-amg00276c2-rakuten-uk-3449.playouts.now.amagi.tv/playlist/amg00276-aetelevisionnetworksfast-duckdynasty-rakutenuk/playlist.m3u8?ads_amagi_channel_id=926&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment%252Creality&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=6&ads_rtv_channel_name=duck-dynasty_nl&ads_rtv_content_id=6078&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=542b3cd8-061e-45a4-abe9-76eb307a3355&ads_tivo_devcountry=&ads_tivo_devmakedate=:Duck Dynasty
+#DESCRIPTION Duck Dynasty
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/3769/content/XM0YSUM6CZBK24/24100501/master.m3u8:Family Affair Channel
+#DESCRIPTION Family Affair Channel
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-731.frequency.stream/dist/rakuten-uk/731/hls/master/playlist.m3u8?ads.QP_amznbrmid=&ads.QP_amznregion=&ads.QP_amznslots=&ads.QP_app_version=&ads.QP_channel_id=731&ads.QP_device_make=&ads.QP_device_type=web&ads.QP_device_year=&ads.QP_env=prod&ads.QP_market=nl&ads.QP_os_language=&ads.QP_pod_type=playerpage_midroll&ads.QP_rtv_content_id=8115&ads.QP_streaming_id=7366c6b4-0f54-435c-87c0-d009c76c2e6a&ads.QP_tivo_devcountry=&ads.QP_tivo_devmakedate=&ads.QP_tivo_mvpd=&ads.QP_tivo_platform=&ads.QP_tivo_usid=&ads.QP_tivo_uxloc=&ads.QP_user_type=visitor&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.consent_string=&ads.content_categories=IAB1&ads.content_genre=sci-fi&ads.content_livestream=0&ads.device_id=&ads.device_language=&ads.device_make=&ads.device_model=&ads.dnt=1&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_applies=1&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.limit_ad_tracking=1&ads.nonce=&ads.placement=1&ads.player_height=&ads.player_width=&:Farscape
+#DESCRIPTION Farscape
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_app_bundle=&ads._fw_app_store_url=rakuten.tv&ads._fw_content_category=IAB1&ads._fw_content_genre=sitcom&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_devicetype=3-connected_tv&ads._fw_gdpr=1&ads._fw_gdpr_consent=&ads._fw_is_lat=1&ads._ifa_type=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.appName=RakutenTV&ads.app_version=&ads.brand_name=&ads.caid=FilmRiseFreeSeriesNLD&ads.content_livestream=0&ads.csid=zeus_eu_filmrisefreeseriesnld_ssai&ads.extra_eids=&ads.gam_correlator=&ads.google_ad_manager_nonce=&ads.inv_partner_domain=rakuten.tv&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.prodq=1&ads.rakuten_content_type=live_channels&ads.rakuten_device_type=web&ads.rakuten_device_year=&ads.rakuten_env=prod&ads.rakuten_market=nl&ads.rakuten_pod_type=playerpage_midroll&ads.rakuten_rtv_content_id=3902&ads.rak:FilmRise Free Series
+#DESCRIPTION FilmRise Free Series
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/3976/content/XM0MRAAG3RNU6I/25754818/master.m3u8:Ghost Hunters
+#DESCRIPTION Ghost Hunters
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951577/hls/playlist.m3u8?ads.xumo_channelId=99951577:Green Acres
+#DESCRIPTION Green Acres
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/2777/content/XM00SGYCCU6QO6/25006864/master.m3u8:Hallmark Movies & More
+#DESCRIPTION Hallmark Movies & More
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00627-amg00627c8-rakuten-uk-4801.playouts.now.amagi.tv/playlist/amg00627-banijayfast-hardcorepawn-rakutenuk/playlist.m3u8?ads_amagi_channel_id=945&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=entertainment%252Creality&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=16&ads_rtv_channel_name=hardcore-pawn_nl&ads_rtv_content_id=7665&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=378288d8-4d7e-4224-b707-23509e0dff83&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_:Hardcore Pawn
+#DESCRIPTION Hardcore Pawn
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_app_bundle=&ads._fw_app_store_url=rakuten.tv&ads._fw_content_category=IAB1&ads._fw_content_genre=action&ads._fw_content_language=en&ads._fw_content_rating=tv-pg&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_devicetype=3-connected_tv&ads._fw_gdpr=1&ads._fw_gdpr_consent=&ads._fw_is_lat=1&ads._ifa_type=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.appName=RakutenTV&ads.app_version=&ads.brand_name=&ads.caid=herclues&ads.content_livestream=0&ads.csid=zeus_uk_herclues_ssai&ads.extra_eids=&ads.gam_correlator=&ads.google_ad_manager_nonce=&ads.inv_partner_domain=rakuten.tv&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.prodq=1&ads.rakuten_content_type=live_channels&ads.rakuten_device_type=web&ads.rakuten_device_year=&ads.rakuten_env=prod&ads.rakuten_market=nl&ads.rakuten_pod_type=playerpage_midroll&ads.rakuten_rtv_content_id=7619&ads.rakuten_streaming_id=6da57308:Hercules%3a The Legendary Journeys
+#DESCRIPTION Hercules: The Legendary Journeys
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-59.frequency.stream/dist/xumo/59/hls/master/playlist.m3u8:Hi-Yah!
+#DESCRIPTION Hi-Yah!
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads._fw_app_bundle=&ads._fw_app_store_url=rakuten.tv&ads._fw_content_category=IAB1&ads._fw_content_genre=action&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_devicetype=3-connected_tv&ads._fw_gdpr=1&ads._fw_gdpr_consent=&ads._fw_is_lat=1&ads._ifa_type=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.appName=RakutenTV&ads.app_version=&ads.brand_name=&ads.caid=HighwaytoHeavenUK&ads.content_livestream=0&ads.csid=zeus_eu_highwaytoheavenuk_ssai&ads.extra_eids=&ads.gam_correlator=&ads.google_ad_manager_nonce=&ads.inv_partner_domain=rakuten.tv&ads.network_name=RakutenTV&ads.os_language=&ads.placement=1&ads.prodq=1&ads.rakuten_content_type=live_channels&ads.rakuten_device_type=web&ads.rakuten_device_year=&ads.rakuten_env=prod&ads.rakuten_market=nl&ads.rakuten_pod_type=playerpage_midroll&ads.rakuten_rtv_content_id=6248&ads.rakuten_str:Highway to Heaven
+#DESCRIPTION Highway to Heaven
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-914.frequency.stream/dist/rakuten-uk/914/hls/master/playlist.m3u8?ads.QP_amznbrmid=&ads.QP_amznregion=&ads.QP_amznslots=&ads.QP_app_version=&ads.QP_channel_id=914&ads.QP_device_make=&ads.QP_device_type=web&ads.QP_device_year=&ads.QP_env=prod&ads.QP_market=nl&ads.QP_os_language=&ads.QP_pod_type=playerpage_midroll&ads.QP_rtv_content_id=8120&ads.QP_streaming_id=4f51f27c-b67f-4470-b7aa-0cfc8b48d214&ads.QP_tivo_devcountry=&ads.QP_tivo_devmakedate=&ads.QP_tivo_mvpd=&ads.QP_tivo_platform=&ads.QP_tivo_usid=&ads.QP_tivo_uxloc=&ads.QP_user_type=visitor&ads.app_bundle=&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.consent_string=&ads.content_categories=IAB1&ads.content_genre=action%252Ccrime&ads.content_livestream=0&ads.device_id=&ads.device_language=&ads.device_make=&ads.device_model=&ads.dnt=1&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_applies=1&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.limit_ad_tracking=1&ads.nonce=&ads.placement=1&ads.player_height=&ads.player:Hunter
+#DESCRIPTION Hunter
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951576/hls/playlist.m3u8?ads.xumo_channelId=99951576:In the Heat of the Night
+#DESCRIPTION In the Heat of the Night
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951158/hls/playlist.m3u8?ads.xumo_channelId=99951158:ION
+#DESCRIPTION ION
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/9999614/hls/playlist.m3u8?ads.xumo_channelId=9999614:ION Plus
+#DESCRIPTION ION Plus
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d4whmvwm0rdvi.cloudfront.net/10007/99951238/hls/master.m3u8?ads.xumo_channelId=99951238:Las Vegas
+#DESCRIPTION Las Vegas
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//ssai.aniview.com/api/v1/hls/stream.m3u8?cb=[CACHEBUSTER]&AV_WIDTH=[ADS.W]&AV_HEIGHT=[ADS.H]&AV_APPNAME=[ADS.APP_NAME]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_CCPA=[ADS.US_PRIVACY]&AV_GDPR=[ADS.GDPR]&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=[ADS.VAUTH]&AV_DNT=[ADS.DNT]&Content_Id=[ADS.ADS_CONTENTID]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_OSVERS=[ADS.DEVICE_OSV]&AVS_SSAIID=698a3d9360650f2ac303eb4a&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=Family, Classic TV&AV_CONTENT_CAT=IAB1-7&AV_CONTENT_RATING=TV-PG&AV_CLIENT_SECTION=Universal City Studios Productions LLP_Lass:Lassie
+#DESCRIPTION Lassie
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d4whmvwm0rdvi.cloudfront.net/10007/99951259/hls/master.m3u8?ads.xumo_channelId=99951259:Lassie (#)
+#DESCRIPTION Lassie (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d4whmvwm0rdvi.cloudfront.net/10007/99951468/hls/master.m3u8?ads.xumo_channelId=99951468:Law&Order
+#DESCRIPTION Law&Order
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-ch826-z0h0h.fast.nbcuni.com/live/master.m3u8:Leave It to Beaver
+#DESCRIPTION Leave It to Beaver
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951573/hls/playlist.m3u8?ads.xumo_channelId=99951573:MGM Presents
+#DESCRIPTION MGM Presents
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951572/hls/playlist.m3u8?ads.xumo_channelId=99951572:MGM Presents%3a Action
+#DESCRIPTION MGM Presents: Action
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951571/hls/playlist.m3u8?ads.xumo_channelId=99951571:MGM Presents%3a Horror
+#DESCRIPTION MGM Presents: Horror
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8:MovieSphere
+#DESCRIPTION MovieSphere
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-vc-119-t7wx7.fast.nbcuni.com/live/master.m3u8:Murder She Wrote
+#DESCRIPTION Murder She Wrote
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amc-portlandia-1-us.xumo.wurl.tv/playlist.m3u8:Portlandia
+#DESCRIPTION Portlandia
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3pxo1qcgzxtxs.cloudfront.net/10005/99951301/hls/playlist.m3u8?ads.xumo_channelId=99951301:Portlandia (#)
+#DESCRIPTION Portlandia (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-vc-123-8gq0q.fast.nbcuni.com/live/master.m3u8:Real Housewives Vault
+#DESCRIPTION Real Housewives Vault
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amc-scaresbyshudder-1-us.xumo.wurl.tv/playlist.m3u8:Scares by Shudder
+#DESCRIPTION Scares by Shudder
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951528/hls/playlist.m3u8?ads.xumo_channelId=99951528:SparkTV%3a Light & Love
+#DESCRIPTION SparkTV: Light & Love
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951580/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951580&ads.xumo_streamId=99951580&ads.channelId=99951580&ads.channelName=Stargate&ads.caid=Stargate&ads.csid=xumo_web_Stargate_ssai&ads.genre=SF,Sci-Fi,Mystery,IAB5&ads._fw_content_genre=SF,Sci-Fi,Mystery,IAB5&ads._fw_coppa=0&ads.xumo_contentId=4501&ads.xumo_contentName=Stargate&ads.xumo_providerId=4501&ads.xumo_providerName=Stargate&ads.asnw=&ads.xumo_channelName=Stargate&ads._fw_h_x_country=US&ads._fw_ifa_type=&ads._fw_did=cbe9d726-00d2-4c3d-851f-e57d2d186036&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=xumo:Stargate
+#DESCRIPTION Stargate
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amc-amcpresents-1-us.xumo.wurl.tv/playlist.m3u8:Stories by AMC
+#DESCRIPTION Stories by AMC
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d38d8jwr5u7ckx.cloudfront.net/v1/master/2235ea0b65a152869ea53a8429808cfe476767a6/test-xumo-linear-main-hlsv3-ams/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951578&ads.xumo_streamId=99951578&ads.channelId=99951578&ads.asnw=&ads.caid=TheAddamsFamily&ads.csid=xumo_web_TheAddamsFamily_ssai&ads._fw_coppa=0&ads.xumo_contentId=4499&ads.xumo_contentName=TheAddamsFamily&ads.xumo_providerId=4499&ads.xumo_providerName=TheAddamsFamily&ads.channelName=TheAddamsFamily&ads._fw_ifa_type=&ads._fw_did=f3e3353f-dee1-4e3d-a13f-3c01a96eed08&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads.genre=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=xumo:The Addams Family
+#DESCRIPTION The Addams Family
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/275/content/XM06PLON1V6XVR/27522312/master.m3u8:The Asylum
+#DESCRIPTION The Asylum
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//999dae3a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1RoZUJvbGRhbmRUaGVCZWF1dGlmdWxfSExT/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=drama%252Cmystery%252Cromance&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=12&ads.rtv_channel_name=the-bold-and-the-beautiful_nl&ads.rtv_content_id=6810&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=edafa787-e40f-405d-8685-0ec1fe194b02&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platf:The Bold and The Beautiful
+#DESCRIPTION The Bold and The Beautiful
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//amg00627-amg00627c6-rakuten-gb-7636.playouts.now.amagi.tv/playlist/amg00627-banijayfast-osbournes-rakutengb/playlist.m3u8?ads_amagi_channel_id=1013&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_categories=IAB1&ads_content_genre=reality&ads_content_livestream=0&ads_device_lmt=1&ads_device_make=&ads_device_model=&ads_device_type=web&ads_device_year=&ads_env=prod&ads_extra_eids=&ads_gam_correlator=&ads_gdpr_consent=&ads_google_ad_manager_nonce=&ads_ifa_type=&ads_inv_partner_domain=rakuten.tv&ads_ip=172.71.102.95&ads_market=nl&ads_network_name=RakutenTV&ads_os_language=&ads_placement=1&ads_player_height=&ads_player_width=&ads_pod_type=playerpage_midroll&ads_ppid=&ads_prodq=1&ads_rating=16&ads_rtv_channel_name=the-osbournes_nl&ads_rtv_content_id=7639&ads_rtv_content_language=en&ads_rtvid=271863&ads_streaming_id=05e9ed2e-06ee-4462-a6de-55ac413e1e92&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_pla:The Osbournes
+#DESCRIPTION The Osbournes
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d3pxo1qcgzxtxs.cloudfront.net/10005/99991623/hls/playlist.m3u8?ads.xumo_channelId=99991623:The Walking Dead Universe
+#DESCRIPTION The Walking Dead Universe
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951379/hls/playlist.m3u8?ads.xumo_channelId=99951379:TV One Stars & Stories
+#DESCRIPTION TV One Stars & Stories
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-ch828-w6val.fast.nbcuni.com/live/master.m3u8:Universal Action
+#DESCRIPTION Universal Action
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-vc-107-xmuvk.fast.nbcuni.com/live/master.m3u8:Universal Crime
+#DESCRIPTION Universal Crime
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d4whmvwm0rdvi.cloudfront.net/10007/99991621/hls/master.m3u8?ads.xumo_channelId=99991621:Universal Movies
+#DESCRIPTION Universal Movies
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-ch824-d4q5c.fast.nbcuni.com/live/master.m3u8:Universal Monsters
+#DESCRIPTION Universal Monsters
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883101:Untold Stories of the ER
+#DESCRIPTION Untold Stories of the ER
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/4226/content/XM0OBZ1TP0LWRK/27664926/master.m3u8:Xena%3a Warrior Princess
+#DESCRIPTION Xena: Warrior Princess
 #SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098:Z Nation
 #DESCRIPTION Z Nation
+#SERVICE 1:64:1c2:0:0:0:0:0:0:0:
+#DESCRIPTION ++USA - westerns++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//circle-xumo.amagi.tv/playlist.m3u8:Circle Country
+#DESCRIPTION Circle Country
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99991131/hls/playlist.m3u8?ads.xumo_channelId=99991131:Circle Country (#)
+#DESCRIPTION Circle Country (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951152/hls/playlist.m3u8?ads.xumo_channelId=99951152:Grit Xtra
+#DESCRIPTION Grit Xtra
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-vc-121-ghge7.fast.nbcuni.com/live/master.m3u8:Little House on the Prairie
+#DESCRIPTION Little House on the Prairie
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d4whmvwm0rdvi.cloudfront.net/10007/99951240/hls/master.m3u8?ads.xumo_channelId=99951240:Little House on the Prairie (#)
+#DESCRIPTION Little House on the Prairie (#)
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//6b88cde9.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0xvbmVTdGFyX0hMUw/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_categories=IAB1&ads.content_genre=western&ads.content_livestream=0&ads.device_lmt=1&ads.device_make=&ads.device_model=&ads.device_type=web&ads.device_year=&ads.env=prod&ads.extra_eids=&ads.gam_correlator=&ads.gdpr_consent=&ads.ifa_type=&ads.inv_partner_domain=rakuten.tv&ads.ip=172.71.102.95&ads.market=nl&ads.network_name=RakutenTV&ads.nonce=&ads.os_language=&ads.placement=1&ads.player_height=&ads.player_width=&ads.pod_type=playerpage_midroll&ads.ppid=&ads.prodq=1&ads.rating=12&ads.rtv_channel_name=lone-star-new_nl&ads.rtv_content_id=6636&ads.rtv_content_language=en&ads.rtvid=271863&ads.streaming_id=c4e9daf0-5212-43d2-818c-4fad27a85e64&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type:Lone Star
+#DESCRIPTION Lone Star
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/3750/content/XM0P30TIE4AIJS/24051983/master.m3u8:McLeod's Daughters
+#DESCRIPTION McLeod's Daughters
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-ch829-wojlf.fast.nbcuni.com/live/master.m3u8:The Lone Ranger
+#DESCRIPTION The Lone Ranger
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/260/content/XM0GXTN6XF6KZ5/22043148/master.m3u8:The Rifleman
+#DESCRIPTION The Rifleman
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//d4whmvwm0rdvi.cloudfront.net/10007/99951525/hls/master.m3u8?ads.xumo_channelId=99951525:The Virginian
+#DESCRIPTION The Virginian
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//xumo-xumoent-ch834-iwtka.fast.nbcuni.com/live/master.m3u8:Universal Westerns
+#DESCRIPTION Universal Westerns
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951160/hls/cw.m3u8?ads.xumo_channelId=99951160:Western Bound Wrangled by INSP
+#DESCRIPTION Western Bound Wrangled by INSP
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//linear-799.frequency.stream/dist/xumo/799/hls/master/playlist.m3u8:Wild West TV
+#DESCRIPTION Wild West TV
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//dbrb49pjoymg4.cloudfront.net/10001/99951356/hls/playlist.m3u8?ads.xumo_channelId=99951356:Wild West TV (#)
+#DESCRIPTION Wild West TV (#)
+#SERVICE 1:64:1c3:0:0:0:0:0:0:0:
+#DESCRIPTION ++Xumo++
+#SERVICE 4097:0:1:0:0:0:0:0:0:0:https%3a//live-content.xumo.com/1091/content/XM0WEP8UCGA3QR/29493621/master.m3u8:Xumo Free Action & Drama TV
+#DESCRIPTION Xumo Free Action & Drama TV
